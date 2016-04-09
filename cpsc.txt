@@ -1,0 +1,590 @@
+code: CPSC 101
+name: Connecting with Computer Science
+cred: 3
+excl: GRSJ 201, WMST 201
+
+code: CPSC 110
+name: Computation, Programs, and Programming
+cred: 4
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 121
+name: Models of Computation
+cred: 4
+preq: more...
+creq: CPSC 110
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 189
+name: Systematic Program Design in Python
+cred: 1
+preq: CPSC 110 and more...
+
+code: CPSC 210
+name: Software Construction
+cred: 4
+preq: CPSC 110 or CPSC 260
+term: 2015W1, 2015W2, 2016S2
+
+code: CPSC 213
+name: Introduction to Computer Systems
+cred: 4
+preq: (CPSC 121 and CPSC 210) or (CPSC 260 and EECE 256) and more...
+term: 2015W1, 2015W2, 2016S2
+
+code: CPSC 221
+name: Basic Algorithms and Data Structures
+cred: 4
+preq: (CPSC 210 or EECE 210 or CPEN 221) and (CPSC 121 or MATH 220)
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 259
+name: Data Structures and Algorithms for Electrical Engineers
+cred: 4
+preq: APSC 160
+term: 2015W1
+
+code: CPSC 260
+name: Data Structures and Algorithms for Computer Engineers
+cred: 3
+preq: APSC 160
+
+code: CPSC 261
+name: Basics of Computer Systems
+cred: 4
+preq: (EECE 259 or CPEN 211) and (CPSC 260 or EECE 210 or CPEN 221)
+term: 2015W2
+
+code: CPSC 298
+name: Co-operative Work Placement I
+cred: 3
+preq: more...
+
+code: CPSC 299
+name: Co-operative Work Placement II
+cred: 3
+preq: CPSC 298 and more...
+
+code: CPSC 301
+name: Computing in the Life Sciences
+cred: 3
+preq: more...
+term: 2015W2
+excl: APSC 160, CPSC AP, CPSC IB, EOSC 211, CPSC 110, CPSC 121
+
+code: CPSC 302
+name: Numerical Computation for Algebraic Problems
+cred: 3
+preq: (CPSC 110 or CPSC 111 or CPSC 260) and (MATH 101 or MATH 103 or MATH 105 or MATH 121) and (MATH 152 or MATH 221 or MATH 223)
+term: 2015W1
+
+code: CPSC 303
+name: Numerical Approximation and Discretization
+cred: 3
+preq: (CPSC 110 or CPSC 111 or CPSC 260) and (MATH 101 or MATH 103 or MATH 105 or MATH 121) and (MATH 152 or MATH 221 or MATH 223)
+term: 2015W2
+
+code: CPSC 304
+name: Introduction to Relational Databases
+cred: 3
+preq: CPSC 221 or (CPSC 260 and EECE 320 and (CPSC 210 or EECE 210 or EECE 309))
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 310
+name: Introduction to Software Engineering
+cred: 4
+preq: CPSC 210
+term: 2015W1, 2015W2, 2016S1-2
+
+code: CPSC 311
+name: Definition of Programming Languages
+cred: 3
+preq: CPSC 210
+term: 2015W1
+
+code: CPSC 312
+name: Functional and Logic Programming
+cred: 3
+preq: CPSC 210 or EECE 210 or EECE 309 or CPEN 221
+term: 2015W1
+
+code: CPSC 313
+name: Computer Hardware and Operating Systems
+cred: 3
+preq: (CPSC 213 and CPSC 221) or (CPSC 210 and CPSC 213 and CPSC 260 and EECE 320)
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 314
+name: Computer Graphics
+cred: 3
+preq: (MATH 200 or MATH 253) and (MATH 152 or MATH 221 or MATH 223) and (CPSC 221 or (CPSC 260 and EECE 320))
+term: 2015W1, 2015W2
+
+code: CPSC 317
+name: Internet Computing
+cred: 3
+preq: CPSC 213 and (CPSC 221 or (CPSC 210 and CPSC 260 and EECE 320))
+term: 2015W1, 2015W2
+
+code: CPSC 319
+name: Software Engineering Project
+cred: 4
+preq: CPSC 310
+term: 2015W2
+
+code: CPSC 320
+name: Intermediate Algorithm Design and Analysis
+cred: 3
+preq: CPSC 221 or (CPSC 260 and EECE 320) and more...
+term: 2015W1, 2015W2, 2016S1
+
+code: CPSC 322
+name: Introduction to Artificial Intelligence
+cred: 3
+preq: CPSC 221 or (CPSC 260 and EECE 320 and (CPSC 210 or EECE 210 or EECE 309))
+term: 2015W1, 2015W2
+
+code: CPSC 340
+name: Machine Learning and Data Mining
+cred: 3
+preq: (MATH 152 or MATH 221 or MATH 223) and (STAT 200 or STAT 203 or STAT 241 or STAT 251 or MATH 302 or STAT 302 or MATH 318 or BIOL 300) and (CPSC 221 or (CPSC 260 and EECE 320 and (CPSC 210 or EECE 210 or EECE 309)))
+term: 2015W1
+
+code: CPSC 344
+name: Introduction to Human Computer Interaction Methods
+cred: 3
+preq: CPSC 210 or EECE 210 or EECE 309 or CPEN 221
+term: 2015W1
+
+code: CPSC 349
+name: Honours Research Seminar
+cred: 0
+preq: more...
+term: 2015W1-2
+
+code: CPSC 398
+name: Co-operative Work Placement III
+cred: 3
+preq: more...
+
+code: CPSC 399
+name: Co-operative Work Placement IV
+cred: 3
+preq: more...
+
+code: CPSC 402
+name: Numerical Linear Algebra
+cred: 3
+preq: CPSC 302 or CPSC 303 or MATH 307
+
+code: CPSC 404
+name: Advanced Relational Databases
+cred: 3
+preq: CPSC 304 and (CPSC 213 or CPSC 261)
+term: 2015W1, 2015W2
+
+code: CPSC 406
+name: Computational Optimization
+cred: 3
+preq: CPSC 302 or CPSC 303 or MATH 307
+
+code: CPSC 410
+name: Advanced Software Engineering
+cred: 3
+preq: CPSC 310 or ((EECE 310 or CPEN 321) and (EECE 315 or CPEN 331))
+term: 2015W1
+
+code: CPSC 411
+name: Introduction to Compiler Construction
+cred: 3
+preq: CPSC 311 and CPSC 213
+term: 2015W2
+
+code: CPSC 415
+name: Advanced Operating Systems
+cred: 3
+preq: CPSC 313 or EECE 315 or CPEN 331
+term: 2015W1
+
+code: CPSC 416
+name: Distributed Systems
+cred: 3
+preq: (CPSC 313 or EECE 315 or CPEN 331) and (CPSC 317 or EECE 358 or ELEC 331)
+term: 2015W2
+
+code: CPSC 417
+name: Computer Networking
+cred: 3
+preq: CPSC 313 and CPSC 317 and (STAT 200 or STAT 241)
+
+code: CPSC 418
+name: Parallel Computation
+cred: 3
+preq: (CPSC 261 or CPSC 313 or EECE 476 or CPEN 411) and (CPSC 320 or EECE 320)
+term: 2015W2
+
+code: CPSC 420
+name: Advanced Algorithms Design and Analysis
+cred: 3
+preq: CPSC 320
+term: 2015W2
+
+code: CPSC 421
+name: Introduction to Theory of Computing
+cred: 3
+preq: CPSC 221 or (CPSC 260 and EECE 320)
+term: 2015W1
+
+code: CPSC 422
+name: Intelligent Systems
+cred: 3
+preq: CPSC 312 and CPSC 322
+term: 2015W1
+
+code: CPSC 424
+name: Geometric Modeling
+cred: 3
+preq: CPSC 320 and (MATH 152 or MATH 221 or MATH 223)
+creq: CPSC 314 or EECE 478
+
+code: CPSC 425
+name: Computer Vision
+cred: 3
+preq: MATH 200 and MATH 221 and (CPSC 221 or (CPSC 260 and EECE 320))
+term: 2015W2
+
+code: CPSC 426
+name: Computer Animation
+cred: 3
+preq: CPSC 314 or EECE 478
+
+code: CPSC 430
+name: Computers and Society
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 444
+name: Advanced Methods for Human Computer Interaction
+cred: 3
+preq: CPSC 310 and CPSC 344 and (STAT 200 or STAT 241)
+term: 2015W2
+
+code: CPSC 445
+name: Algorithms in Bioinformatics
+cred: 3
+preq: CPSC 320 and more...
+term: 2015W2
+
+code: CPSC 448
+name: Directed Studies in Computer Science
+cred: 3 or 6
+preq: more...
+term: 2015W1, 2015W2, 2015W1-2, 2015S2, 2015S1-2
+
+code: CPSC 449
+name: Honours Thesis
+cred: 6
+preq: CPSC 349
+term: 2015W1-2, 2016S1-2
+
+code: CPSC 490
+name: Student Directed Seminars
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 499
+name: Co-operative Work Placement V
+cred: 3
+preq: more...
+
+code: CPSC 500
+name: Fundamentals of Algorithm Design and Analysis
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 501
+name: Theory of Automata, Formal Languages and Computability
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 502
+name: Artificial Intelligence I
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 503
+name: Computational Linguistics I
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 504
+name: Data Management
+cred: 3
+preq: more...
+
+code: CPSC 505
+name: Image Understanding I: Image Analysis
+cred: 3
+preq: more...
+
+code: CPSC 506
+name: Complexity of Computation
+cred: 3
+preq: more...
+
+code: CPSC 507
+name: Software Engineering
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 508
+name: Operating Systems
+cred: 3
+preq: more...
+
+code: CPSC 509
+name: Programming Language Principles
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 510
+name: Multigrid and Multilevel Methods
+cred: 3
+preq: more...
+
+code: CPSC 511
+name: Implementation of Programming Languages
+cred: 3
+preq: more...
+
+code: CPSC 513
+name: Integrated Systems Design
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 514
+name: Computer Graphics: Rendering
+cred: 3
+preq: more...
+
+code: CPSC 515
+name: Computational Robotics
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 516
+name: Computational Geometry
+cred: 3
+preq: more...
+
+code: CPSC 517
+name: Sparse Matrix Computation
+cred: 3
+preq: more...
+
+code: CPSC 519
+name: Logic Programming and Functional Programming
+cred: 3
+preq: more...
+
+code: CPSC 520
+name: Numerical Solution of Differential Equations
+cred: 3
+preq: more...
+
+code: CPSC 521
+name: Parallel Algorithms and Architectures
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 522
+name: Artificial Intelligence II
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 523
+name: Computational Linguistics II
+cred: 3
+preq: more...
+
+code: CPSC 524
+name: Computer Graphics: Modeling
+cred: 3
+preq: more...
+
+code: CPSC 525
+name: Image Understanding II: Scene Analysis
+cred: 3
+preq: more...
+
+code: CPSC 526
+name: Computer Animation
+cred: 3
+preq: more...
+
+code: CPSC 527
+name: Computer Communication Protocols
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 528
+name: Formal Techniques for Communication Protocols
+cred: 3
+preq: more...
+
+code: CPSC 529
+name: Definition of Programming Languages
+cred: 3
+preq: more...
+
+code: CPSC 530
+name: Topics in Information Processing
+cred: 2 to 6
+preq: more...
+term: 2015W1
+
+code: CPSC 531
+name: Topics in Theory of Computation
+cred: 3 to 6
+preq: more...
+
+code: CPSC 532
+name: Topics in Artificial Intelligence
+cred: 2 to 6
+preq: more...
+
+code: CPSC 533
+name: Topics in Computer Graphics
+cred: 2 to 6
+preq: more...
+
+code: CPSC 534
+name: Topics in Data Management
+cred: 2 to 6
+preq: more...
+
+code: CPSC 535
+name: Topics in Simulation and Optimization
+cred: 2 to 6
+preq: more...
+
+code: CPSC 536
+name: Topics in Algorithm and Complexity
+cred: 2 to 6
+preq: more...
+term: 2015W2
+
+code: CPSC 537
+name: Topics in Coding and Information Theory
+cred: 2 to 6
+preq: more...
+
+code: CPSC 538
+name: Topics in Computer Systems
+cred: 2 to 6
+preq: more...
+
+code: CPSC 539
+name: Topics in Programming Languages
+cred: 2 to 6
+preq: more...
+
+code: CPSC 540
+name: Machine Learning
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 541
+name: Computational Methods for Ordinary Differential Equations & Dynamical Systems
+cred: 3
+preq: more...
+
+code: CPSC 542
+name: Topics in Numerical Computotian
+cred: 2 to 6
+preq: more...
+
+code: CPSC 543
+name: Physical User Interface Design and Evaluation
+cred: 3
+preq: more...
+term: 2015W2
+
+code: CPSC 544
+name: Human Computer Interaction
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 545
+name: Algorithms for Bioinformatics
+cred: 3
+preq: more...
+
+code: CPSC 546
+name: Numerical Optimization
+cred: 3
+preq: more...
+
+code: CPSC 547
+name: Information Visualization
+cred: 3
+preq: more...
+term: 2015W1
+
+code: CPSC 548
+name: Directed Study
+cred: 3
+preq: more...
+
+code: CPSC 549
+name: Master's Thesis
+cred: 6 or 12
+preq: more...
+term: 2015W1-2, 2016S1-2
+
+code: CPSC 550
+name: Machine Learning II
+cred: 3
+preq: more...
+
+code: CPSC 554
+name: Topics in Human-Computer Interaction
+cred: 2 to 6
+preq: more...
+
+code: CPSC 564
+name: Data Mining
+cred: 3
+preq: more...
+
+code: CPSC 589
+name: M.Sc. Major Essay
+cred: 3
+preq: more...
+term: 2015W1-2, 2016S1-2
+
+code: CPSC 590
+name: Research Methods in Computer Science
+cred: 3
+preq: more...
+
+code: CPSC 649
+name: Doctoral Dissertation
+cred: 0
+preq: more...
+term: 2015W1-2, 2016S1-2
