@@ -278,7 +278,7 @@ term: 2015W2
 
 code: CPSC 448
 name: Directed Studies in Computer Science
-cred: 3 or 6
+cred: 3, 6
 preq: more...
 term: 2015W1, 2015W2, 2015W1-2, 2015S2, 2015S1-2
 
@@ -452,54 +452,54 @@ preq: more...
 
 code: CPSC 530
 name: Topics in Information Processing
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 term: 2015W1
 
 code: CPSC 531
 name: Topics in Theory of Computation
-cred: 3 to 6
+cred: 3, 4, 5, 6
 preq: more...
 
 code: CPSC 532
 name: Topics in Artificial Intelligence
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 533
 name: Topics in Computer Graphics
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 534
 name: Topics in Data Management
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 535
 name: Topics in Simulation and Optimization
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 536
 name: Topics in Algorithm and Complexity
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 term: 2015W2
 
 code: CPSC 537
 name: Topics in Coding and Information Theory
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 538
 name: Topics in Computer Systems
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 539
 name: Topics in Programming Languages
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 540
@@ -515,7 +515,7 @@ preq: more...
 
 code: CPSC 542
 name: Topics in Numerical Computotian
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 543
@@ -553,7 +553,7 @@ preq: more...
 
 code: CPSC 549
 name: Master's Thesis
-cred: 6 or 12
+cred: 6, 12
 preq: more...
 term: 2015W1-2, 2016S1-2
 
@@ -564,7 +564,7 @@ preq: more...
 
 code: CPSC 554
 name: Topics in Human-Computer Interaction
-cred: 2 to 6
+cred: 2, 3, 4, 5, 6
 preq: more...
 
 code: CPSC 564
