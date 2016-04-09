@@ -19,9 +19,9 @@ class Course():
         elif param == 'cred':
             self.cred = [int(c.strip()) for c in value.split(',')]
         elif param == 'preq':
-            self.preq = self.get_reqs(value)
+            self.preq = get_reqs(value.split())
         elif param == 'creq':
-            self.creq = self.get_reqs(value)
+            self.creq = get_reqs(value.split())
         elif param == 'term':
             self.term = [t.strip() for t in value.split(',')]
         elif param == 'excl':
@@ -37,10 +37,6 @@ class Course():
             return params[param]
         else:
             return params
-
-    # Turn requisites into list format; all entries must be true to satisfy
-    def get_reqs(self, value):
-        pass
 
 
 # Parse DATAFILE to create the course graph
@@ -58,6 +54,53 @@ def parse():
                 else:
                     course.set_params(param, value)
     return courses
+
+
+# Turn requisites into list format; all entries must be true to satisfy
+def get_reqs(value):
+    reqs = []
+    course = []
+    group = []
+    depth = 0
+    logic = 'and'
+    for term in value:
+        if depth < 0:
+            print('Error: mismatched parentheses.')
+        # Outside of parens, only terms are course names, and, or
+        if depth == 0:
+            if term.startswith('('):
+                depth = term.count('(')
+                group.append(term[1:])
+            elif term == 'and':
+                logic = 'and'
+                if course:
+                    reqs.append(' '.join(course))
+                course = []
+            elif term == 'or':
+                logic = 'or'
+                if course:
+                    reqs.append(' '.join(course))
+                course = []
+            else:
+                course.append(term)
+        # Call get_reqs again on anything inside parens
+        else:
+            if term.startswith('('):
+                depth += term.count('(')
+            elif term.endswith(')'):
+                depth -= term.count(')')
+            if depth == 0:
+                ingroup = False
+                group.append(term[:-1])
+                reqs.append(get_reqs(group))
+                group = []
+            else:
+                group.append(term)
+    # Add final course after last and/or
+    if course:
+        reqs.append(' '.join(course))
+    reqs.insert(0, logic)
+    return reqs
 
 
 if __name__ == '__main__':
