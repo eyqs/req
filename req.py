@@ -3,6 +3,7 @@ DATAFILE = 'cpsc.txt'
 
 # Generic class to store course data
 class Course():
+    # Initialize all variables
     def __init__(self, code):
         self.code = code
         self.name = ''
@@ -11,6 +12,8 @@ class Course():
         self.creq = []
         self.term = []
         self.excl = []
+        self.preqs = set()
+        self.creqs = set()
 
     # Set course parameters
     def set_params(self, param, value):
@@ -20,8 +23,26 @@ class Course():
             self.cred = [int(c.strip()) for c in value.split(',')]
         elif param == 'preq':
             self.preq = get_reqs(value.split())
+            self.preqs = set(flatten(self.preq))
+            try:
+                self.preqs.remove('and')
+            except KeyError:
+                pass
+            try:
+                self.preqs.remove('or')
+            except KeyError:
+                pass
         elif param == 'creq':
             self.creq = get_reqs(value.split())
+            self.creqs = set(flatten(self.creq))
+            try:
+                self.creqs.remove('and')
+            except KeyError:
+                pass
+            try:
+                self.creqs.remove('or')
+            except KeyError:
+                pass
         elif param == 'term':
             self.term = [t.strip() for t in value.split(',')]
         elif param == 'excl':
@@ -32,7 +53,8 @@ class Course():
     # Get course parameters
     def get_params(self, param=''):
         params = {'name':self.name, 'cred':self.cred, 'preq':self.preq,
-                  'creq':self.creq, 'term':self.term, 'excl':self.excl}
+                  'creq':self.creq, 'term':self.term, 'excl':self.excl,
+                  'preqs':self.preqs, 'creqs':self.creqs}
         if param in params.keys():
             return params[param]
         else:
@@ -62,7 +84,7 @@ def get_reqs(value):
     course = []
     group = []
     depth = 0
-    logic = 'and'
+    operator = 'and'
     for term in value:
         if depth < 0:
             print('Error: mismatched parentheses.')
@@ -71,16 +93,11 @@ def get_reqs(value):
             if term.startswith('('):
                 depth = term.count('(')
                 group.append(term[1:])
-            elif term == 'and':
-                logic = 'and'
+            elif term == 'and' or term == 'or':
+                operator = term
                 if course:
                     reqs.append(' '.join(course))
-                course = []
-            elif term == 'or':
-                logic = 'or'
-                if course:
-                    reqs.append(' '.join(course))
-                course = []
+                    course = []
             else:
                 course.append(term)
         # Call get_reqs again on anything inside parens
@@ -90,17 +107,25 @@ def get_reqs(value):
             elif term.endswith(')'):
                 depth -= term.count(')')
             if depth == 0:
-                ingroup = False
                 group.append(term[:-1])
                 reqs.append(get_reqs(group))
                 group = []
             else:
                 group.append(term)
-    # Add final course after last and/or
+    # Add final course after last operator
     if course:
         reqs.append(' '.join(course))
-    reqs.insert(0, logic)
+    reqs.insert(0, operator)
     return reqs
+
+
+# Flatten a list of lists, from http://stackoverflow.com/questions/2158395/
+def flatten(lislis):
+    for lis in lislis:
+        if isinstance(lis, list) and not isinstance(lis, str):
+            yield from flatten(lis)
+        else:
+            yield lis
 
 
 if __name__ == '__main__':
