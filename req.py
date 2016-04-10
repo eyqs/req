@@ -1,5 +1,46 @@
 #!/usr/bin/env python
+import tkinter as tk
+import tkinter.ttk as ttk
 DATAFILE = 'cpsc.txt'
+
+
+# Tkinter main frame
+class Main(ttk.Frame):
+    # Initialize Tkinter main frame
+    def __init__(self, parent):
+        self.parent = parent
+        ttk.Frame.__init__(self, parent)
+        self.pack(fill=tk.BOTH, expand=1)
+        self.get_courses()
+
+    # Initialize the course graph
+    def get_courses(self):
+        # Parse DATAFILE to create the course graph
+        self.courses = {}
+        with open(DATAFILE) as f:
+            for line in f:
+                split = line.split(':')
+                if len(split) > 1:
+                    param = split[0].strip()
+                    value = split[1].strip()
+                    if param == 'code':
+                        course = Course(value)
+                        self.courses[value] = course
+                    else:
+                        course.set_params(param, value)
+        # Add prereqs and coreqs as dependencies
+        for course in self.courses.values():
+            for preq in course.get_params('preqs'):
+                try:
+                    course.add_dreq(course)
+                except KeyError:
+                    pass
+            for creq in course.get_params('creqs'):
+                try:
+                    course.add_dreq(course)
+                except KeyError:
+                    pass
+
 
 # Generic class to store course data
 class Course():
@@ -66,23 +107,6 @@ class Course():
         self.dreqs.add(dreq)
 
 
-# Parse DATAFILE to create the course graph
-def parse():
-    courses = {}
-    with open(DATAFILE) as f:
-        for line in f:
-            split = line.split(':')
-            if len(split) > 1:
-                param = split[0].strip()
-                value = split[1].strip()
-                if param == 'code':
-                    course = Course(value)
-                    courses[value] = course
-                else:
-                    course.set_params(param, value)
-    return courses
-
-
 # Turn requisites into list format; all entries must be true to satisfy
 def get_reqs(value):
     reqs = []
@@ -133,22 +157,7 @@ def flatten(lislis):
             yield lis
 
 
-# Generate the course dependency graph
-def gen_graph(courses):
-    for course in courses.keys():
-        for preq in courses[course].preqs:
-            try:
-                courses[preq].add_dreq(course)
-            except KeyError:
-                pass
-        for creq in courses[course].creqs:
-            try:
-                courses[creq].add_dreq(course)
-            except KeyError:
-                pass
-
-
 if __name__ == '__main__':
-    courses = parse()
-    gen_graph(courses)
-    print(courses['CPSC 110'].get_params())
+    root = tk.Tk()
+    main = Main(root)
+    root.mainloop()
