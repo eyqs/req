@@ -14,6 +14,7 @@ class Course():
         self.excl = []
         self.preqs = set()
         self.creqs = set()
+        self.dreqs = set()
 
     # Set course parameters
     def set_params(self, param, value):
@@ -54,11 +55,15 @@ class Course():
     def get_params(self, param=''):
         params = {'name':self.name, 'cred':self.cred, 'preq':self.preq,
                   'creq':self.creq, 'term':self.term, 'excl':self.excl,
-                  'preqs':self.preqs, 'creqs':self.creqs}
+                  'preqs':self.preqs, 'creqs':self.creqs, 'dreqs':self.dreqs}
         if param in params.keys():
             return params[param]
         else:
             return params
+
+    # Add course dependencies
+    def add_dreq(self, dreq):
+        self.dreqs.add(dreq)
 
 
 # Parse DATAFILE to create the course graph
@@ -128,6 +133,22 @@ def flatten(lislis):
             yield lis
 
 
+# Generate the course dependency graph
+def gen_graph(courses):
+    for course in courses.keys():
+        for preq in courses[course].preqs:
+            try:
+                courses[preq].add_dreq(course)
+            except KeyError:
+                pass
+        for creq in courses[course].creqs:
+            try:
+                courses[creq].add_dreq(course)
+            except KeyError:
+                pass
+
+
 if __name__ == '__main__':
     courses = parse()
+    gen_graph(courses)
     print(courses['CPSC 110'].get_params())
