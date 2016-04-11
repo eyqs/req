@@ -1,9 +1,10 @@
 #!/usr/bin/env python
+import os
 import tkinter as tk
 import tkinter.ttk as ttk
+FOLDER  = 'courses'
 COLOURS = {'done':'green yellow', 'none':'light steel blue',
            'creq':'gold', 'preq':'pink'}
-DATAFILE = 'cpsc.txt'
 
 
 # Tkinter main frame
@@ -15,22 +16,23 @@ class Main(ttk.Frame):
         self.pack(fill=tk.BOTH, expand=1)
         self.courses = {}
         self.widgets = {}
-        self.get_courses()
+        self.init_tree()
 
-    # Initialize the course graph
-    def get_courses(self):
-        # Parse DATAFILE to create the course graph
-        with open(DATAFILE) as f:
-            for line in f:
-                split = line.split(':')
-                if len(split) > 1:
-                    param = split[0].strip()
-                    value = split[1].strip()
-                    if param == 'code':
-                        course = Course(value)
-                        self.courses[value] = course
-                    else:
-                        course.set_params(param, value)
+    # Initialize the course tree
+    def init_tree(self):
+        # Parse all files in FOLDER as Courses
+        for name in os.listdir(FOLDER):
+            with open(FOLDER + '/' + name) as f:
+                for line in f:
+                    split = line.split(':')
+                    if len(split) > 1:
+                        param = split[0].strip()
+                        value = split[1].strip()
+                        if param == 'code':
+                            course = Course(value)
+                            self.courses[value] = course
+                        else:
+                            course.set_params(param, value)
         # Add prereqs and coreqs as dependencies
         for course in self.courses.values():
             for preq in course.get_params('preqs'):
