@@ -3,8 +3,8 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 FOLDER  = 'courses'
-COLOURS = {'done':'green yellow', 'none':'light steel blue',
-           'creq':'gold', 'preq':'pink'}
+COLOURS = {'done':'green yellow', 'none':'papaya whip',
+           'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
 
 
 # Tkinter main frame
@@ -34,38 +34,58 @@ class Main(ttk.Frame):
                         else:
                             course.set_params(param, value)
         # Add prereqs and coreqs as dependencies
-        for course in self.courses.values():
+        for code, course in self.courses.items():
             for preq in course.get_params('preqs'):
                 try:
-                    course.add_dreq(course)
+                    self.courses[preq].add_dreq(code)
                 except KeyError:
                     pass
             for creq in course.get_params('creqs'):
                 try:
-                    course.add_dreq(course)
+                    self.courses[creq].add_dreq(code)
                 except KeyError:
                     pass
-        # Make widgets to put in req tree
         for code, course in self.courses.items():
             label = tk.Button(self, text=code,
                               command=lambda c=code: self.set_done(c))
             label.pack()
             self.widgets[code] = label
-        self.update_tree()
+            self.update_course(code)
 
     # Toggle whether the course has been taken or not
     def set_done(self, code):
+        if self.courses[code].get_params('needs') == 'done':
+            self.courses[code].set_status('none')
+        else:
+            self.courses[code].set_status('done')
+        self.update_course(code)
+        for dependency in self.courses[code].get_params('dreqs'):
+            if dependency in self.courses.keys():
+                self.update_course(dependency)
+
+    # Update status of a course
+    def update_course(self, code):
         params = self.courses[code].get_params()
-        if params['needs'] == 'done':
-            if self.done_reqs(params['preq']) == False:
+        if params['needs'] != 'done':
+            self.courses[code].set_status('none')
+            if ('more...' in params['preqs'] or 'more...' in params['creqs']
+                or 'more...' in params['excl']):
+                self.courses[code].set_status('excl')
+            elif self.done_reqs(params['preq']) == False:
                 self.courses[code].set_status('preq')
             elif self.done_reqs(params['creq']) == False:
                 self.courses[code].set_status('creq')
             else:
-                self.courses[code].set_status('none')
-        else:
-            self.courses[code].set_status('done')
-        self.update_tree()
+                for excl in params['excl']:
+                    try:
+                        if self.courses[excl].get_params('needs') == 'done':
+                            self.courses[code].set_status('excl')
+                            break
+                    except:
+                        self.courses[code].set_status('excl')
+                        break
+        colour = COLOURS[self.courses[code].get_params('needs')]
+        self.widgets[code].configure(activebackground = colour, bg = colour)
 
     # Recursively check whether the requirements are satisfied
     def done_reqs(self, reqs):
@@ -86,12 +106,6 @@ class Main(ttk.Frame):
             return all(done)
         elif operator == 'or':
             return any(done)
-
-    # Update status of all courses in req tree
-    def update_tree(self):
-        for code, widget in self.widgets.items():
-            colour = COLOURS[self.courses[code].get_params('needs')]
-            widget.configure(activebackground = colour, background = colour)
 
 
 
