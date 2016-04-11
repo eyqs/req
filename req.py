@@ -46,23 +46,44 @@ class Main(ttk.Frame):
         # Make widgets to put in req tree
         for code, course in self.courses.items():
             label = tk.Button(self, text=code,
-                              command=lambda c=code: self.set_status(c))
+                              command=lambda c=code: self.set_done(c))
             label.pack()
             self.widgets[code] = label
         self.update_tree()
 
-    # Cycle among possible course statuses
-    def set_status(self, code):
-        status = self.courses[code].get_params('needs')
-        if status == 'done':
-            self.courses[code].set_status('none')
-        elif status == 'none':
-            self.courses[code].set_status('creq')
-        elif status == 'creq':
-            self.courses[code].set_status('preq')
-        elif status == 'preq':
+    # Toggle whether the course has been taken or not
+    def set_done(self, code):
+        params = self.courses[code].get_params()
+        if params['needs'] == 'done':
+            if self.done_reqs(params['preq']) == False:
+                self.courses[code].set_status('preq')
+            elif self.done_reqs(params['creq']) == False:
+                self.courses[code].set_status('creq')
+            else:
+                self.courses[code].set_status('none')
+        else:
             self.courses[code].set_status('done')
         self.update_tree()
+
+    # Recursively check whether the requirements are satisfied
+    def done_reqs(self, reqs):
+        if len(reqs) == 0:
+            return True
+        done = []
+        operator = reqs[0]
+        for term in reqs[1:]:
+            if isinstance(term, list):
+                done.append(self.done_reqs(term))
+            else:
+                if term in self.courses.keys():
+                    if self.courses[term].get_params('needs') == 'done':
+                        done.append(True)
+                else:
+                    done.append(False)
+        if operator == 'and':
+            return all(done)
+        elif operator == 'or':
+            return any(done)
 
     # Update status of all courses in req tree
     def update_tree(self):
