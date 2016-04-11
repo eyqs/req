@@ -3,8 +3,14 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 FOLDER  = 'courses'
-COLOURS = {'done':'green yellow', 'none':'papaya whip',
+COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
+# done: already taken
+# none: meets all prerequisites and corequisites
+# outs: status depends on classes which are outside of the current tree
+# creq: meets all prerequisites, does not meet all corequisites
+# preq: does not meet all prerequisites
+# excl: cannot take for credit given previously taken and current courses
 
 
 # Tkinter main frame
@@ -45,12 +51,31 @@ class Main(ttk.Frame):
                     self.courses[creq].add_dreq(code)
                 except KeyError:
                     pass
+        # Grid courses as buttons in a spiral
+        size = 0    # Size of spiral
+        dire = 0    # 0 = top to bottom, 1 = top to bottom
+        line = 0    # Location in the spiral
         for code, course in self.courses.items():
+            if line > size:
+                if dire == 0:
+                    dire = 1
+                    line = 0
+                elif dire == 1:
+                    dire = 0
+                    line = 0
+                    size += 1
+            if dire == 0:
+                x = size
+                y = line
+            elif dire == 1:
+                x = line
+                y = size + 1
             label = tk.Button(self, text=code,
                               command=lambda c=code: self.set_done(c))
-            label.pack()
+            label.grid(row=x, column=y)
             self.widgets[code] = label
             self.update_course(code)
+            line += 1
 
     # Toggle whether the course has been taken or not
     def set_done(self, code):
@@ -70,7 +95,7 @@ class Main(ttk.Frame):
             self.courses[code].set_status('none')
             if ('more...' in params['preqs'] or 'more...' in params['creqs']
                 or 'more...' in params['excl']):
-                self.courses[code].set_status('excl')
+                self.courses[code].set_status('outs')
             elif self.done_reqs(params['preq']) == False:
                 self.courses[code].set_status('preq')
             elif self.done_reqs(params['creq']) == False:
@@ -82,8 +107,7 @@ class Main(ttk.Frame):
                             self.courses[code].set_status('excl')
                             break
                     except:
-                        self.courses[code].set_status('excl')
-                        break
+                        self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
         self.widgets[code].configure(activebackground = colour, bg = colour)
 

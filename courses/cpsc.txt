@@ -7,7 +7,7 @@ code: CPSC 110
 name: Computation, Programs, and Programming
 cred: 4
 term: 2015W1, 2015W2, 2016S1
-excl: CPSC 111
+excl: CPSC 111, APSC 160
 
 code: CPSC 121
 name: Models of Computation
@@ -33,7 +33,8 @@ excl: CPSC 211, EECE 210, CPEN 211
 code: CPSC 213
 name: Introduction to Computer Systems
 cred: 4
-preq: ((CPSC 121 and CPSC 210) or (CPSC 260 and EECE 256)) and more...
+preq: (CPSC 121 and CPSC 210) or (CPSC 260 and EECE 256)
+creq: CPSC 210
 term: 2015W1, 2015W2, 2016S2
 excl: CPSC 261
 
@@ -67,17 +68,15 @@ excl: CPSC 213
 code: CPSC 298
 name: Co-operative Work Placement I
 cred: 3
-preq: more...
 
 code: CPSC 299
 name: Co-operative Work Placement II
 cred: 3
-preq: CPSC 298 and more...
+preq: CPSC 298
 
 code: CPSC 301
 name: Computing in the Life Sciences
 cred: 3
-preq: more...
 term: 2015W2
 excl: APSC 160, EOSC 211, CPSC 110, CPSC 121, CPSC 189, more...
 
@@ -175,18 +174,15 @@ term: 2015W1
 code: CPSC 349
 name: Honours Research Seminar
 cred: 0
-preq: more...
 term: 2015W1-2
 
 code: CPSC 398
 name: Co-operative Work Placement III
 cred: 3
-preq: more...
 
 code: CPSC 399
 name: Co-operative Work Placement IV
 cred: 3
-preq: more...
 
 code: CPSC 402
 name: Numerical Linear Algebra
@@ -280,7 +276,7 @@ preq: CPSC 314 or EECE 478
 code: CPSC 430
 name: Computers and Society
 cred: 3
-preq: more...
+preq: CPSC 101 or CPSC 110 or CPSC 301
 term: 2015W1
 
 code: CPSC 444
@@ -299,7 +295,6 @@ term: 2015W2
 code: CPSC 448
 name: Directed Studies in Computer Science
 cred: 3, 6
-preq: more...
 term: 2015W1, 2015W2, 2015W1-2, 2015S2, 2015S1-2
 
 code: CPSC 449
@@ -311,10 +306,8 @@ term: 2015W1-2, 2016S1-2
 code: CPSC 490
 name: Student Directed Seminars
 cred: 3
-preq: more...
 term: 2015W2
 
 code: CPSC 499
 name: Co-operative Work Placement V
 cred: 3
-preq: more...
