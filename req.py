@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 import tkinter as tk
 import tkinter.ttk as ttk
+COLOURS = {'done':'green yellow', 'none':'light steel blue',
+           'creq':'gold', 'preq':'pink'}
 DATAFILE = 'cpsc.txt'
 
 
@@ -11,12 +13,13 @@ class Main(ttk.Frame):
         self.parent = parent
         ttk.Frame.__init__(self, parent)
         self.pack(fill=tk.BOTH, expand=1)
+        self.courses = {}
+        self.widgets = {}
         self.get_courses()
 
     # Initialize the course graph
     def get_courses(self):
         # Parse DATAFILE to create the course graph
-        self.courses = {}
         with open(DATAFILE) as f:
             for line in f:
                 split = line.split(':')
@@ -40,6 +43,33 @@ class Main(ttk.Frame):
                     course.add_dreq(course)
                 except KeyError:
                     pass
+        # Make widgets to put in req tree
+        for code, course in self.courses.items():
+            label = tk.Button(self, text=code,
+                              command=lambda c=code: self.set_status(c))
+            label.pack()
+            self.widgets[code] = label
+        self.update_tree()
+
+    # Cycle among possible course statuses
+    def set_status(self, code):
+        status = self.courses[code].get_params('needs')
+        if status == 'done':
+            self.courses[code].set_status('none')
+        elif status == 'none':
+            self.courses[code].set_status('creq')
+        elif status == 'creq':
+            self.courses[code].set_status('preq')
+        elif status == 'preq':
+            self.courses[code].set_status('done')
+        self.update_tree()
+
+    # Update status of all courses in req tree
+    def update_tree(self):
+        for code, widget in self.widgets.items():
+            colour = COLOURS[self.courses[code].get_params('needs')]
+            widget.configure(activebackground = colour, background = colour)
+
 
 
 # Generic class to store course data
@@ -56,6 +86,7 @@ class Course():
         self.preqs = set()
         self.creqs = set()
         self.dreqs = set()
+        self.needs = 'none'
 
     # Set course parameters
     def set_params(self, param, value):
@@ -94,9 +125,10 @@ class Course():
 
     # Get course parameters
     def get_params(self, param=''):
-        params = {'name':self.name, 'cred':self.cred, 'preq':self.preq,
-                  'creq':self.creq, 'term':self.term, 'excl':self.excl,
-                  'preqs':self.preqs, 'creqs':self.creqs, 'dreqs':self.dreqs}
+        params = {'code':self.code, 'name':self.name, 'cred':self.cred,
+                  'preq':self.preq, 'creq':self.creq, 'term':self.term,
+                  'excl':self.excl, 'preqs':self.preqs, 'creqs':self.creqs,
+                  'dreqs':self.dreqs, 'needs':self.needs}
         if param in params.keys():
             return params[param]
         else:
@@ -105,6 +137,10 @@ class Course():
     # Add course dependencies
     def add_dreq(self, dreq):
         self.dreqs.add(dreq)
+
+    # Set current status
+    def set_status(self, status):
+        self.needs = status
 
 
 # Turn requisites into list format; all entries must be true to satisfy
