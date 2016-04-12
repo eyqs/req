@@ -6,7 +6,7 @@ term: 2015W1
 code: APSC 101
 name: Introduction to Engineering II
 cred: 3
-preq: APSC 101
+preq: APSC 100
 term: 2015W2
 
 code: APSC 110
