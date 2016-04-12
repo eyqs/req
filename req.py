@@ -41,16 +41,12 @@ class Main(ttk.Frame):
                             course.set_params(param, value)
         # Add prereqs and coreqs as dependencies
         for code, course in self.courses.items():
-            for preq in course.get_params('preqs'):
-                try:
-                    self.courses[preq].add_dreq(code)
-                except KeyError:
-                    pass
-            for creq in course.get_params('creqs'):
-                try:
-                    self.courses[creq].add_dreq(code)
-                except KeyError:
-                    pass
+            for reqlist in ('preqs', 'creqs', 'excl'):
+                for dreq in course.get_params(reqlist):
+                    try:
+                        self.courses[dreq].add_dreq(code)
+                    except KeyError:
+                        pass
         # Grid courses as buttons in a spiral
         size = 0    # Size of spiral
         dire = 0    # 0 = top to bottom, 1 = top to bottom
@@ -92,29 +88,27 @@ class Main(ttk.Frame):
     def update_course(self, code):
         params = self.courses[code].get_params()
         if params['needs'] != 'done':
-            self.courses[code].set_status('none')
-            if ('more...' in params['preqs'] or 'more...' in params['creqs']
-                or 'more...' in params['excl']):
-                self.courses[code].set_status('outs')
-            elif self.done_reqs(params['preq']) == False:
+            if (len(params['excl']) > 1):
+                if self.done_reqs(params['excl']) == 'done':
+                    self.courses[code].set_status('excl')
+                elif self.done_reqs(params['excl']) == 'outs':
+                    self.courses[code].set_status('outs')
+            elif self.done_reqs(params['preq']) == 'none':
                 self.courses[code].set_status('preq')
-            elif self.done_reqs(params['creq']) == False:
+            elif self.done_reqs(params['creq']) == 'none':
                 self.courses[code].set_status('creq')
+            elif (self.done_reqs(params['preq']) == 'done' and
+                  self.done_reqs(params['creq']) == 'done'):
+                self.courses[code].set_status('none')
             else:
-                for excl in params['excl']:
-                    try:
-                        if self.courses[excl].get_params('needs') == 'done':
-                            self.courses[code].set_status('excl')
-                            break
-                    except:
-                        self.courses[code].set_status('outs')
+                self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
         self.widgets[code].configure(activebackground = colour, bg = colour)
 
     # Recursively check whether the requirements are satisfied
     def done_reqs(self, reqs):
         if len(reqs) == 0:
-            return True
+            return 'done'
         done = []
         operator = reqs[0]
         for term in reqs[1:]:
@@ -123,13 +117,24 @@ class Main(ttk.Frame):
             else:
                 if term in self.courses.keys():
                     if self.courses[term].get_params('needs') == 'done':
-                        done.append(True)
+                        done.append('done')
+                    else:
+                        done.append('none')
                 else:
-                    done.append(False)
+                    done.append('outs')
         if operator == 'and':
-            return all(done)
+            if 'none' in done:
+                return 'none'
+            elif 'outs' in done:
+                return 'outs'
+            return 'done'
         elif operator == 'or':
-            return any(done)
+            if 'done' in done:
+                return 'done'
+            elif 'outs' in done:
+                return 'outs'
+            else:
+                return 'none'
 
 
 
@@ -180,7 +185,7 @@ class Course():
         elif param == 'term':
             self.term = [t.strip() for t in value.split(',')]
         elif param == 'excl':
-            self.excl = [e.strip() for e in value.split(',')]
+            self.excl = ['or'] + [e.strip() for e in value.split(',')]
         else:
             print('Error: parameter not recognized.')
 
