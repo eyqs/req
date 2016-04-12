@@ -2,7 +2,8 @@
 import os
 import tkinter as tk
 import tkinter.ttk as ttk
-FOLDER  = 'courses'
+FOLDER  = 'courses' # relative path to folder with course lists
+MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
 # done: already taken
@@ -47,31 +48,60 @@ class Main(ttk.Frame):
                         self.courses[dreq].add_dreq(code)
                     except KeyError:
                         pass
-        # Grid courses as buttons in a spiral
-        size = 0    # Size of spiral
-        dire = 0    # 0 = top to bottom, 1 = top to bottom
-        line = 0    # Location in the spiral
-        for code, course in self.courses.items():
-            if line > size:
-                if dire == 0:
-                    dire = 1
-                    line = 0
-                elif dire == 1:
-                    dire = 0
-                    line = 0
-                    size += 1
-            if dire == 0:
-                x = size
-                y = line
-            elif dire == 1:
-                x = line
-                y = size + 1
+        # Arrange courses in order depending on requirements
+        unordered = set(self.courses.keys())
+        while unordered:
+            for code in list(unordered):
+                depth = 0           # Minimum depth is 1
+                params = self.courses[code].get_params()
+                hasreq = False
+                hasdepth = False
+                # Course should be one level greater than any prereq
+                for preq in params['preqs']:
+                    if preq in self.courses.keys():
+                        hasreq = True
+                        if self.courses[preq].get_params('depth'):
+                            hasdepth = True
+                            depth = max(depth,
+                                self.courses[preq].get_params('depth') + 1)
+                # Course should not be on level less than any coreq
+                for creq in params['creqs']:
+                    if creq in self.courses.keys():
+                        hasreq = True
+                        if self.courses[creq].get_params('depth'):
+                            hasdepth = True
+                            depth = max(depth,
+                                self.courses[creq].get_params('depth'))
+                # Set depth to 1 if no prereq or coreq in current tree
+                if not hasreq:
+                    self.courses[code].set_depth(1)
+                    unordered.remove(code)
+                # Continue if no prereq or coreq has a depth yet
+                if not hasdepth:
+                    continue
+                self.courses[code].set_depth(depth)
+                unordered.remove(code)
+        # Grid courses in rows of MAXNUM depending on depth
+        row = 0
+        col = 0
+        depth = 0
+        for code in sorted(self.courses.keys(), key=lambda code:
+                           self.courses[code].get_params('depth')):
+            if self.courses[code].get_params('depth') > depth:
+                section = tk.Label(self)
+                section.grid(row=row+1, column=0)
+                row += 2
+                col = 0
+                depth += 1
             label = tk.Button(self, text=code,
                               command=lambda c=code: self.set_done(c))
-            label.grid(row=x, column=y)
+            label.grid(row=row, column=col)
             self.widgets[code] = label
             self.update_course(code)
-            line += 1
+            col += 1
+            if col >= MAXNUM:
+                row += 1
+                col = 0
 
     # Toggle whether the course has been taken or not
     def set_done(self, code):
@@ -153,6 +183,7 @@ class Course():
         self.creqs = set()
         self.dreqs = set()
         self.needs = 'none'
+        self.depth = 0
 
     # Set course parameters
     def set_params(self, param, value):
@@ -194,7 +225,7 @@ class Course():
         params = {'code':self.code, 'name':self.name, 'cred':self.cred,
                   'preq':self.preq, 'creq':self.creq, 'term':self.term,
                   'excl':self.excl, 'preqs':self.preqs, 'creqs':self.creqs,
-                  'dreqs':self.dreqs, 'needs':self.needs}
+                  'dreqs':self.dreqs, 'needs':self.needs, 'depth':self.depth}
         if param in params.keys():
             return params[param]
         else:
@@ -207,6 +238,10 @@ class Course():
     # Set current status
     def set_status(self, status):
         self.needs = status
+
+    # Set current depth
+    def set_depth(self, depth):
+        self.depth = depth
 
 
 # Turn requisites into list format; all entries must be true to satisfy
