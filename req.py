@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.0
+req v1.0.3
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -46,17 +46,18 @@ class Main(ttk.Frame):
 
         # Parse all files in FOLDER as Courses
         for name in os.listdir(FOLDER):
-            with open(FOLDER + '/' + name) as f:
-                for line in f:
-                    split = line.split(':')
-                    if len(split) > 1:
-                        param = split[0].strip()
-                        value = split[1].strip()
-                        if param == 'code':
-                            course = Course(value)
-                            self.courses[value] = course
-                        else:
-                            course.set_params(param, value)
+            if name.endswith('.txt'):
+                with open(FOLDER + '/' + name) as f:
+                    for line in f:
+                        split = line.split(':')
+                        if len(split) > 1:
+                            param = split[0].strip()
+                            value = split[1].strip()
+                            if param == 'code':
+                                course = Course(value)
+                                self.courses[value] = course
+                            else:
+                                course.set_params(param, value)
 
         # Add prereqs, coreqs, and exclusions as dependencies
         for code, course in self.courses.items():
@@ -134,18 +135,26 @@ class Main(ttk.Frame):
     def update_course(self, code):
         params = self.courses[code].get_params()
         if params['needs'] != 'done':
-            if (len(params['excl']) > 1):
+            # If any excluded course in the current tree is done -> excl
+            if ((len(params['excl']) > 1) and
+                self.done_reqs(params['excl']) == 'done'):
                 if self.done_reqs(params['excl']) == 'done':
                     self.courses[code].set_status('excl')
-                elif self.done_reqs(params['excl']) == 'outs':
-                    self.courses[code].set_status('outs')
+            # If any prerequisite in the current tree is not done -> preq
             elif self.done_reqs(params['preq']) == 'none':
                 self.courses[code].set_status('preq')
+            # If any corequisite in the current tree is not done -> creq
             elif self.done_reqs(params['creq']) == 'none':
                 self.courses[code].set_status('creq')
-            elif (self.done_reqs(params['preq']) == 'done' and
+            # If all excluded courses are in the current tree and not done,
+            #    all prerequisites are in the current tree and done,
+            #    all corequisites are in the current tree and done -> none
+            elif ((len(params['excl']) <= 1 or
+                   self.done_reqs(params['excl']) == 'none') and
+                  self.done_reqs(params['preq']) == 'done' and
                   self.done_reqs(params['creq']) == 'done'):
                 self.courses[code].set_status('none')
+            # Otherwise, some courses are not in the current tree -> outs
             else:
                 self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
