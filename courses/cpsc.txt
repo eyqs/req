@@ -18,56 +18,56 @@ code: CPSC 121
 name: Models of Computation
 cred: 4
 desc: Physical and mathematical structures of computation.  Boolean algebra and combinations logic circuits; proof techniques; functions and sequential circuits; sets and relations; finite state machines; sequential instruction execution. [3-2-1]
-preq: Principles of Mathematics 12 or Pre-calculus 12.
-creq: CPSC 110.
+preq: (Principles of Mathematics 12 or Pre-calculus 12)
+creq: CPSC 110
 
 code: CPSC 189
 name: Systematic Program Design in Python
 cred: 1
 desc: Systematic design of small programs using the Python programming language. [1-1-0]
-preq: CPSC 110 and one of Principles of Mathematics 12 or Pre-calculus 12.
+preq: (CPSC 110) (Principles of Mathematics 12 or Pre-calculus 12)
 creq: 
 
 code: CPSC 210
 name: Software Construction
 cred: 4
 desc: Design, development, and analysis of robust software components. Topics such as software design, computational models, data structures, debugging, and testing. [3-2-0]
-preq: One of CPSC 110, CPSC 260.
+preq: (CPSC 110, CPSC 260)
 creq: 
 
 code: CPSC 213
 name: Introduction to Computer Systems
 cred: 4
 desc: Software architecture, operating systems, and I/O architectures.  Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks. [3-3-0]
-preq: Either (a) all of CPSC 121, CPSC 210 or (b) all of CPSC 210, CPSC 260, EECE 256. CPSC 210 may be taken concurrently with case (b) only.
+preq: (Either (a) all of CPSC 121, CPSC 210 or (b) all of CPSC 210, CPSC 260, EECE 256. CPSC 210 may be taken concurrently with case (b) only)
 creq: 
 
 code: CPSC 221
 name: Basic Algorithms and Data Structures
 cred: 4
 desc: Design and analysis of basic algorithms and data structures; algorithm analysis methods, searching and sorting algorithms, basic data structures, graphs and concurrency. [3-2-0]
-preq: One of CPSC 210, EECE 210, CPEN 221 and one of CPSC 121, MATH 220.
+preq: (CPSC 210, EECE 210, CPEN 221) (CPSC 121, MATH 220)
 creq: 
 
 code: CPSC 259
 name: Data Structures and Algorithms for Electrical Engineers
 cred: 4
 desc: Advanced procedural programming.  Fundamental algorithms for sorting and searching.  Data structures including lists, trees, and hash tables.  Introduction to scripting languages and file input/output. [3-2-0]
-preq: APSC 160.
+preq: APSC 160
 creq: 
 
 code: CPSC 260
 name: Data Structures and Algorithms for Computer Engineers
 cred: 3
 desc: Design and analysis of object-oriented programs, emphasizing data structures. Topics include: classes, interfaces, fundamental data structures, algorithmic complexity, basic debugging and testing techniques. [3-1-0]
-preq: APSC 160.
+preq: APSC 160
 creq: 
 
 code: CPSC 261
 name: Basics of Computer Systems
 cred: 4
 desc: Software architecture, operating systems, and I/O architectures.  Relationships between application software, operating systems, and computing hardware; critical sections, deadlock avoidance, and performance; principles and operation of disks and networks. [3-2-1]
-preq: One of EECE 259, CPEN 211 and one of CPSC 260, EECE 210, CPEN 221.
+preq: (EECE 259, CPEN 211) (CPSC 260, EECE 210, CPEN 221)
 creq: 
 
 code: CPSC 298
@@ -81,112 +81,112 @@ code: CPSC 299
 name: Co-operative Work Placement II
 cred: 3
 desc: Approved and supervised technical work experience in the computing industry for a minimum of 3.5 months. Normally taken during the summer following the second year. Technical report required. Restricted to students admitted to the Co-operative Education. 
-preq: CPSC 298.
+preq: CPSC 298
 creq: 
 
 code: CPSC 301
 name: Computing in the Life Sciences
 cred: 3
 desc: Basic concepts, tools, and techniques for working with scientific data at larger scales, higher speeds, and lower costs that would otherwise be impossible. Applications and examples drawn from the life sciences. No prior computing background is required. Not for credit for students who have credit for any of the following: APSC 160, Computer Science AP, IB Computer Science, EOSC 211, or 3 credits of CPSC beyond CPSC 101. [3-2-0]
-preq: Third-year standing or higher.
+preq: (Third-year standing or higher)
 creq: 
 
 code: CPSC 302
 name: Numerical Computation for Algebraic Problems
 cred: 3
 desc: Numerical techniques for basic mathematical processes involving no discretization, and their analysis. Solution of linear systems, including analysis of round-off errors; norms and condition number; introduction to iterative techniques in linear algebra, including eigenvalue problems; solution to nonlinear equations. [3-0-0]
-preq: One of CPSC 110, CPSC 111, CPSC 260 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of MATH 152, MATH 221, MATH 223.
+preq: (CPSC 110, CPSC 111, CPSC 260) (MATH 101, MATH 103, MATH 105, MATH 121) (MATH 152, MATH 221, MATH 223)
 creq: 
 
 code: CPSC 303
 name: Numerical Approximation and Discretization
 cred: 3
 desc: Numerical techniques for basic mathematical processes involving discretization, and their analysis. Interpolation and approximation, including splines and least squares data fitting; numerical differentiation and integration; introduction to numerical initial value ordinary differential equations. [3-0-0]
-preq: One of CPSC 110, CPSC 111, CPSC 260 and one of MATH 101, MATH 103, MATH 105, MATH 121 and one of MATH 152, MATH 221, MATH 223.
+preq: (CPSC 110, CPSC 111, CPSC 260) (MATH 101, MATH 103, MATH 105, MATH 121) (MATH 152, MATH 221, MATH 223)
 creq: 
 
 code: CPSC 304
 name: Introduction to Relational Databases
 cred: 3
 desc: Overview of database systems, ER models, logical database design and normalization, formal relational query languages, SQL and other commercial languages,data warehouses, special topics. [3-0-1]
-preq: Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320 and one of CPSC 210, EECE 210, EECE 309.
+preq: (Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320) (CPSC 210, EECE 210, EECE 309)
 creq: 
 
 code: CPSC 310
 name: Introduction to Software Engineering
 cred: 4
 desc: Specification, design, implementation and maintenance of large, multi-module software systems. Principles, techniques, methodologies and tools for computer aided software engineering (CASE); human-computer interfaces, reactive systems, hardware-software interfaces and distributed applications. [3-2-0]
-preq: CPSC 210.
+preq: CPSC 210
 creq: 
 
 code: CPSC 311
 name: Definition of Programming Languages
 cred: 3
 desc: Comparative study of advanced programming language features. Statement types, data types, variable binding, parameter passing mechanisms. Methods for syntactic and semantic description of programming languages. [3-0-1]
-preq: CPSC 210.
+preq: CPSC 210
 creq: 
 
 code: CPSC 312
 name: Functional and Logic Programming
 cred: 3
 desc: Principles of symbolic computing, using languages based upon first-order logic and the lambda calculus. Algorithms for implementing such languages. Applications to artificial intelligence and knowledge representation. [3-0-0]
-preq: One of CPSC 210, EECE 210, EECE 309, CPEN 221.
+preq: (CPSC 210, EECE 210, EECE 309, CPEN 221)
 creq: 
 
 code: CPSC 313
 name: Computer Hardware and Operating Systems
 cred: 3
 desc: Instruction sets, pipelining, code optimization, caching, virtual memory management, dynamically linked libraries, exception processing, execution time of programs. [3-0-1]
-preq: Either (a) all of CPSC 213, CPSC 221 or (b) all of CPSC 210, CPSC 213, CPSC 260, EECE 320.
+preq: (Either (a) all of CPSC 213, CPSC 221 or (b) all of CPSC 210, CPSC 213, CPSC 260, EECE 320)
 creq: 
 
 code: CPSC 314
 name: Computer Graphics
 cred: 3
 desc: Human vision and colour; geometric transformations; algorithms for 2-D and 3-D graphics; hardware and system architectures; shading and lighting; animation. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar.) [3-1-0]
-preq: One of MATH 200, MATH 253 and one of MATH 152, MATH 221, MATH 223 and either (a) CPSC 221 or (b) all of CPSC 260, EECE 320.
+preq: (MATH 200, MATH 253) (MATH 152, MATH 221, MATH 223 or either (a) CPSC 221 or (b) all of CPSC 260, EECE 320)
 creq: 
 
 code: CPSC 317
 name: Internet Computing
 cred: 3
 desc: Computer networking, basic communication protocols, network infrastructure and routing.  Common application-level protocols and principles associated with developing distributed applications. [3-0-1]
-preq: CPSC 213 and either (a) CPSC 221 or (b) all of CPSC 210, CPSC 260, EECE 320.
+preq: (CPSC 213 or either (a) CPSC 221 or (b) all of CPSC 210, CPSC 260, EECE 320)
 creq: 
 
 code: CPSC 319
 name: Software Engineering Project
 cred: 4
 desc: The design, implementation, and test of a large software system, using a team approach. [3-0-2]
-preq: CPSC 310.
+preq: CPSC 310
 creq: 
 
 code: CPSC 320
 name: Intermediate Algorithm Design and Analysis
 cred: 3
 desc: Systematic study of basic concepts and techniques in the design and analysis of algorithms, illustrated from various problem areas. Topics include: models of computation; choice of data structures; graph-theoretic, algebraic, and text processing algorithms. [3-0-1]
-preq: Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320. In addition to above pre-requisites: either (a) 6 credits of 2nd Yr. MATH or STAT or (b) 3 credits of 2nd Yr. MATH or STAT with a grade of 72% or better.
+preq: (Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320. In addition to above pre-requisites: either (a) 6 credits of 2nd Yr. MATH or STAT or (b) 3 credits of 2nd Yr. MATH or STAT with a grade of 72% or better)
 creq: 
 
 code: CPSC 322
 name: Introduction to Artificial Intelligence
 cred: 3
 desc: Problem-solving and planning; state/action models and graph searching. Natural language understanding Computational vision. Applications of artificial intelligence. [3-0-0]
-preq: Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320 and one of CPSC 210, EECE 210, EECE 309.
+preq: (Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320) (CPSC 210, EECE 210, EECE 309)
 creq: 
 
 code: CPSC 340
 name: Machine Learning and Data Mining
 cred: 3
 desc: Models of algorithms for dimensionality reduction, nonlinear regression, classification, clustering and unsupervised learning; applications to computer graphics, computer games, bio-informatics, information retrieval, e-commerce, databases, computer vision and artificial intelligence. [3-0-0]
-preq: One of MATH 152, MATH 221, MATH 223 and one of STAT 200, STAT 203, STAT 241, STAT 251, MATH 302, STAT 302, MATH 318, BIOL 300;  and either (a) CPSC 221 or (b) all of CPSC 260, EECE 320 and one of CPSC 210, EECE 210, EECE 309.
+preq: (MATH 152, MATH 221, MATH 223) (STAT 200, STAT 203, STAT 241, STAT 251, MATH 302, STAT 302, MATH 318, BIOL 300; or either (a) CPSC 221 or (b) all of CPSC 260, EECE 320) (CPSC 210, EECE 210, EECE 309)
 creq: 
 
 code: CPSC 344
 name: Introduction to Human Computer Interaction Methods
 cred: 3
 desc: Basic tools and techniques, teaching a systematic approach to interface design, task analysis, analytic and empirical evaluation methods. [2-2-2]
-preq: One of CPSC 210, EECE 210, EECE 309, CPEN 221.
+preq: (CPSC 210, EECE 210, EECE 309, CPEN 221)
 creq: 
 
 code: CPSC 349
@@ -214,126 +214,126 @@ code: CPSC 402
 name: Numerical Linear Algebra
 cred: 3
 desc: Investigation of the practical techniques of computational linear algebra. Orthogonal transformations and their application to the solution of linear equations, the eigenproblem, and linear least squares. Complete solution of the symmetric eigenproblem, including bisection and the QR method. Refinements of these techniques for sparse matrices. [3-0-0]
-preq: One of CPSC 302, CPSC 303, MATH 307.
+preq: (CPSC 302, CPSC 303, MATH 307)
 creq: 
 
 code: CPSC 404
 name: Advanced Relational Databases
 cred: 3
 desc: Physical database design, indexing, relational query processing and optimization, transaction processing, concurrency control, crash recovery, data warehouses, data cubes, views, special topics. [3-0-0]
-preq: CPSC 304 and one of CPSC 213, CPSC 261.
+preq: (CPSC 304) (CPSC 213, CPSC 261)
 creq: 
 
 code: CPSC 406
 name: Computational Optimization
 cred: 3
 desc: Formulation and analysis of algorithms for continuous and discrete optimization problems; linear, nonlinear, network, dynamic, and integer optimization; large-scale problems; software packages and their implementation; duality theory and sensitivity. [3-0]
-preq: One of CPSC 302, CPSC 303, MATH 307.
+preq: (CPSC 302, CPSC 303, MATH 307)
 creq: 
 
 code: CPSC 410
 name: Advanced Software Engineering
 cred: 3
 desc: Specification, design, construction and validation of multi-version software systems. [3-0-0]
-preq: Either (a) CPSC 310 or (b) one of EECE 310, CPEN 321 and one of EECE 315, CPEN 331.
+preq: (Either (a) CPSC 310 or (b) or EECE 310, CPEN 321) (EECE 315, CPEN 331)
 creq: 
 
 code: CPSC 411
 name: Introduction to Compiler Construction
 cred: 3
 desc: A practical introduction to lexical analysis, syntactic analysis, type-checking, code generation and optimization. This will be used to design and implement a compiler for a small language. [3-0-0]
-preq: All of CPSC 311, CPSC 213.
+preq: All of CPSC 311, CPSC 213
 creq: 
 
 code: CPSC 415
 name: Advanced Operating Systems
 cred: 3
 desc: Process synchronization and communication schemes, including message-passing and concepts of monitor and serializer. Virtual memory systems management and the problem of information sharing in such systems. The working set principle. Traps and interrupt handling. Elementary queuing theory and its application such as process scheduling, system balancing and load control. File systems and operating system design methodologies. [3-0-0]
-preq: One of CPSC 313, EECE 315, CPEN 331.
+preq: (CPSC 313, EECE 315, CPEN 331)
 creq: 
 
 code: CPSC 416
 name: Distributed Systems
 cred: 3
 desc: Concepts and design of distributed systems. Communication architecture and models for interprocess communication. Process migration, naming, distributed file systems, fault tolerance, and concurrency control. [3-0-0]
-preq: One of CPSC 313, EECE 315, CPEN 331 and one of CPSC 317, EECE 358, ELEC 331.
+preq: (CPSC 313, EECE 315, CPEN 331) (CPSC 317, EECE 358, ELEC 331)
 creq: 
 
 code: CPSC 417
 name: Computer Networking
 cred: 3
 desc: Network protocols and architecture including internetworking, the Internet, layered communication protocols, routing, flow and congestion control, network performance, wired and wireless data communication. [3-0]
-preq: All of CPSC 313, CPSC 317 and one of STAT 200, STAT 241.
+preq: (All of CPSC 313, CPSC 317) (STAT 200, STAT 241)
 creq: 
 
 code: CPSC 418
 name: Parallel Computation
 cred: 3
 desc: Algorithms, architectures, and programming paradigms for parallel computation.  Shared memory, message passing, and data parallel architectures and programming models.  Parallel algorithms including reduce, scan, and sorting networks.  Reasoning about the correctness of parallel programs.  Performance analysis and measurement for parallel programs. [3-0-0]
-preq: One of CPSC 261, CPSC 313, EECE 476, CPEN 411 and one of CPSC 320, EECE 320.
+preq: (CPSC 261, CPSC 313, EECE 476, CPEN 411) (CPSC 320, EECE 320)
 creq: 
 
 code: CPSC 420
 name: Advanced Algorithms Design and Analysis
 cred: 3
 desc: The study of advanced topics in the design and analysis of algorithms and associated data structures. Topics include algorithms for graph-theoretic; algebraic and geometric problems; algorithms on nonsequential models; complexity issues; approximation algorithms. [3-0-0]
-preq: CPSC 320.
+preq: CPSC 320
 creq: 
 
 code: CPSC 421
 name: Introduction to Theory of Computing
 cred: 3
 desc: Characterizations of computability (using machines, languages and functions). Universality, equivalence and Church's thesis. Unsolvable problems. Restricted models of computation. Finite automata, grammars and formal languages. [3-0-0]
-preq: Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320. CPSC 320 is recommended.
+preq: (Either (a) CPSC 221 or (b) all of CPSC 260, EECE 320. CPSC 320 is recommended)
 creq: 
 
 code: CPSC 422
 name: Intelligent Systems
 cred: 3
 desc: Principles and techniques underlying the design, implementation and evaluation of intelligent computational systems. Applications of artificial intelligence to natural language understanding, image understanding and computer-based expert and advisor systems. Advanced symbolic programming methodology. [3-0-0]
-preq: CPSC 322.
+preq: CPSC 322
 creq: 
 
 code: CPSC 424
 name: Geometric Modeling
 cred: 3
 desc: Introduction to curves and surfaces, in particular splines, subdivision surfaces, polygonal meshes. Principles and mathematical foundations for representing complex geometry for computer graphics and numerical simulations. Practical applications of different modeling techniques. [3-0-1]
-preq: CPSC 320 and one of MATH 152, MATH 221, MATH 223.
-creq: One of CPSC 314, EECE 478.
+preq: (CPSC 320) (MATH 152, MATH 221, MATH 223)
+creq: (CPSC 314, EECE 478)
 
 code: CPSC 425
 name: Computer Vision
 cred: 3
 desc: Introduction to the processing and interpretation of images.  Image sensing, sampling, and filtering.  Algorithms for colour analysis, texture description, stereo imaging, motion interpretation, 3D shape recovery, and recognition. [3-0-0]
-preq: All of MATH 200, MATH 221 and either (a) CPSC 221 or (b) all of CPSC 260, EECE 320.
+preq: (All of MATH 200, MATH 221 or either (a) CPSC 221 or (b) all of CPSC 260, EECE 320)
 creq: 
 
 code: CPSC 426
 name: Computer Animation
 cred: 3
 desc: Motion in computer graphics for characters and their environments. Keyframing, inverse kinematics, particle systems, rigid body dynamics, contact and collision, controller-based active motion, motion capture. [3-0-0]
-preq: One of CPSC 314, EECE 478.
+preq: (CPSC 314, EECE 478)
 creq: 
 
 code: CPSC 430
 name: Computers and Society
 cred: 3
 desc: Impact of computer technology on society; historical perspectives; social and economic consequences of large-scale information processing systems and automatic control; legal and ethical problems in computer applications. Computers and the individual: machine versus human capabilities, fact and fancy; problematic interface between man and machine. [3-0-0]
-preq: 3 credits of Computer Science and at least third-year standing.
+preq: (3 credits of Computer Science and at least third-year standing)
 creq: 
 
 code: CPSC 444
 name: Advanced Methods for Human Computer Interaction
 cred: 3
 desc: Design and evaluation methodologies and theories; formal models of the user including visual, motor, and information processing; advanced evaluation methods including laboratory experiments and field studies; HCI research frontiers. [2-2-2]
-preq: All of CPSC 310, CPSC 344 and one of STAT 200, STAT 241.
+preq: (All of CPSC 310, CPSC 344) (STAT 200, STAT 241)
 creq: 
 
 code: CPSC 445
 name: Algorithms in Bioinformatics
 cred: 3
 desc: Sequence alignment, phylogenetic tree reconstruction, prediction of RNA and protein structure, gene finding and sequence annotation, gene expression, and biomolecular computing. [3-0-0]
-preq: CPSC 320 and six credits of BIOL beyond BIOL 111.
+preq: (CPSC 320 and six credits of BIOL beyond BIOL 111)
 creq: 
 
 code: CPSC 448
@@ -347,7 +347,7 @@ code: CPSC 449
 name: Honours Thesis
 cred: 6
 desc: Under supervision of a faculty member, students investigate a research topic and prepare a thesis. 
-preq: CPSC 349.
+preq: CPSC 349
 creq: 
 
 code: CPSC 490
