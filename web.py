@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.6
+req v1.0.7
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -19,6 +19,8 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import os
 FOLDER  = 'courses' # relative path to folder with course lists
 
+
+# Translate a file into a format that req can parse
 def translate(name):
     with open(name + '.html') as infile:
         # Skip all lines before the actual course list
@@ -26,12 +28,15 @@ def translate(name):
             if line.strip() != '<dl class="double">':
                 continue
             break
+
         # Open the output .txt file and start writing to it
         outfile = open(name + '.txt', 'w')
-        hascode = False
+        hascode = False     # True if line has a corresponding course code
         for line in infile:
             if line.strip() == '</dl>': # End of course list
                 break
+
+            # Example of split, rest of the code is just chopping this up
             # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
             #  'b>Models of Computation', '/b>', '/dt>\n']
             if line.strip().startswith('<dt>'):
@@ -41,6 +46,7 @@ def translate(name):
                 if int(code.split()[1]) >= 500: # Skip grad courses
                     hascode = False
                     continue
+
                 name = split[4][2:]
                 cred = split[3].split('(')[1].split(')')[0]
                 if '-' in cred:                 # Put credits into a range
@@ -51,59 +57,58 @@ def translate(name):
                 outfile.write('\n\ncode: ' + code)
                 outfile.write('\nname: ' + name)
                 outfile.write('\ncred: ' + cred)
+
+            # Example of split, rest of the code is just chopping this up
             # ['\t', 'dd>Structures of computation. [3-2-1]', 'br > ',
             #  'em>Prerequisite:', '/em> Principles of Mathematics 12',
             #  'br> ', 'em>Corequisite:', '/em> CPSC 110.', 'br> \n']
             elif hascode and line.strip().startswith('<dd>'):
                 split = line.split('<')
                 desc = split[1][3:]
-                preq = ''
-                creq = ''
+                outfile.write('\ndesc: ' + desc)
                 for i in range(len(split)):
                     if 'em>Prerequisite:' in split[i]:
-                        preq = parse(split[i+1][5:-1])
+                        # Remove leading '/em> ' and trailing period
+                        preq = parse_reqs(split[i+1][5:-1])
+                        outfile.write('\npreq: ' + preq)
                     elif 'em>Corequisite:' in split[i]:
-                        creq = parse(split[i+1][5:-1])
-                outfile.write('\ndesc: ' + desc)
-                outfile.write('\npreq: ' + preq)
-                outfile.write('\ncreq: ' + creq)
+                        creq = parse_reqs(split[i+1][5:-1])
+                        outfile.write('\ncreq: ' + creq)
 
-def parse(reqs):
-    terms = reqs.split()
+
+# Parse all clauses, which are:
+#   - course                'CPSC 110'
+#   - clause + ,  + course  'CPSC 213, CPSC 221'
+#   - clause + or + course  'CPSC 210, CPSC 260 or EECE 256'
+# Return a list of only courses:
+# ['CPSC 110'] ['CPSC 213', 'CPSC 221'] ['CPSC 210', 'CPSC 260', 'EECE 256']
+def parse_clause(terms):
     parsed = []
-    either = []
-    flag = 0
-    i = 0
-    while i < len(terms):
-        if terms[i].lower() == 'and':
-            if either:
-                either.append(parse_phrase(terms[flag:i]))
-                parsed.append('(' + ' or '.join(either) + ')')
-                either = []
-            else:
-                parsed.append(parse_phrase(terms[flag:i]))
-            flag = i+1
-        elif terms[i].lower() == 'either':
-            i += 1
-            flag = i+1
-        elif (terms[i].lower() == 'or' and
-              terms[i+1].startswith('(') and terms[i+1].endswith(')')):
-            either.append(parse_phrase(terms[flag:i]))
-            i += 1
-            flag = i+1
-        i += 1
-    if either:
-        either.append(parse_phrase(terms[flag:i]))
-        parsed.append('(' + ' or '.join(either) + ')')
-        either = []
-    else:
-        parsed.append(parse_phrase(terms[flag:]))
-    if len(parsed) == 1 and parsed[0][0] == '(' and parsed[0][-1] == ')':
-        return parsed[0][1:-1]
-    return ' and '.join(parsed)
+    course = [] # The current course code
+    for term in terms:
+        if term == 'or':# 'or' signals the end of a course code
+            if course:  # Join course code into string and reset it
+                parsed.append(' '.join(course))
+                course = []
+        elif term.endswith(','):    # ',' signals end of a code
+            course.append(term[:-1])
+            parsed.append(' '.join(course))
+            course = []
+        else:   # Add anything else to the current course code
+            course.append(term)
+    if course:  # End of input signals the end of a course code
+        parsed.append(' '.join(course))
+    return parsed
 
+
+# Parse all phrases, which are:
+#   - clause          'APSC 160'
+#   - all of + clause 'All of CPSC 260, EECE 320'
+#   - one of + clause 'One of CPSC 313, EECE 315, CPEN 331'
+# Return a string of courses connected by the appropriate boolean:
+# 'APSC 160' '(CPSC 260 and EECE 320)' '(CPSC 313 or EECE 315 or CPEN 331)'
 def parse_phrase(terms):
-    if len(terms) < 2:
+    if len(terms) < 2:  # Single course and cannot access terms[1]
         return ' '.join(parse_clause(terms))
     elif terms[0].lower() == 'one' and terms[1].lower() == 'of':
         return '(' + ' or '.join(parse_clause(terms[2:])) + ')'
@@ -111,27 +116,58 @@ def parse_phrase(terms):
         return '(' + ' and '.join(parse_clause(terms[2:])) + ')'
     elif 'or' in terms:
         return '(' + ' or '.join(parse_clause(terms)) + ')'
-    else:
+    else:   # Single course, no parentheses needed
         return ' '.join(parse_clause(terms))
 
-def parse_clause(terms):
-    parsed = []
-    course = []
-    for term in terms:
-        if term == 'or':
-            if course:
-                parsed.append(' '.join(course))
-                course = []
-        elif term.endswith(','):
-            course.append(term[:-1])
-            parsed.append(' '.join(course))
-            course = []
-        else:
-            course.append(term)
-    if course:
-        parsed.append(' '.join(course))
-    return parsed
 
+# Parse the reqs, which are:
+#   - phrase
+#   - reqs + and + phrase
+#   - either (a) + phrase + or (b) + phrase + or (c) + phrase...
+# Return a string that can be properly processed by req.
+def parse_reqs(reqs):
+    terms = reqs.split()
+    parsed = []
+    either = [] # The current strings in the either expression
+    flag = 0    # The starting location of the last unprocessed phrase
+    i = 0
+
+    # 'and' only appears at the highest level, to separate phrases
+    while i < len(terms):
+        if terms[i].lower() == 'and':
+            # 'and' signals the end of an either expression
+            if either:  # Add last phrase, join them, and reset either
+                either.append(parse_phrase(terms[flag:i]))
+                parsed.append('(' + ' or '.join(either) + ')')
+                either = []
+            # Otherwise, 'and' signals the end of a phrase
+            else:
+                parsed.append(parse_phrase(terms[flag:i]))
+            # Last phrase has been processed, next phrase starts after 'and'
+            flag = i+1
+        # Parentheses signal the beginning of a phrase in an either expression
+        elif terms[i].startswith('(') and terms[i].endswith(')'):
+            # 'or' signals the end of a phrase, but that's before '(a)'
+            if terms[i-1].lower() == 'or':  # Therefore -1
+                either.append(parse_phrase(terms[flag:i-1]))
+            # Last phrase has been processed, next phrase starts after '(a)'
+            flag = i+1
+        i += 1
+
+    # End of input signals the end of an either expression
+    if either:
+        either.append(parse_phrase(terms[flag:]))
+        parsed.append('(' + ' or '.join(either) + ')')
+    # Otherwise, end of input signals the end of a phrase
+    else:
+        parsed.append(parse_phrase(terms[flag:]))
+    # Remove parentheses around single phrases
+    if len(parsed) == 1 and parsed[0][0] == '(' and parsed[0][-1] == ')':
+        return parsed[0][1:-1]
+    return ' and '.join(parsed)
+
+
+# Translate all .html files in FOLDER into .txt files
 if __name__ == '__main__':
     for filename in os.listdir(FOLDER):
         if filename.endswith('.html'):
