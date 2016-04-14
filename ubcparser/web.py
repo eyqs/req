@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.7
+req v1.0.8
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -17,12 +17,14 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
-FOLDER  = 'courses' # relative path to folder with course lists
+LOGFILE   = 'web.log'
+INFOLDER  = 'input/'
+OUTFOLDER = 'output/'
 
 
 # Translate a file into a format that req can parse
-def translate(name):
-    with open(name + '.html') as infile:
+def translate(inname, outname):
+    with open(inname) as infile:
         # Skip all lines before the actual course list
         for line in infile:
             if line.strip() != '<dl class="double">':
@@ -30,8 +32,8 @@ def translate(name):
             break
 
         # Open the output .txt file and start writing to it
-        outfile = open(name + '.txt', 'w')
-        hascode = False     # True if line has a corresponding course code
+        outfile = open(outname, 'w')
+        hascode = False     # The corresponding course code
         for line in infile:
             if line.strip() == '</dl>': # End of course list
                 break
@@ -40,12 +42,12 @@ def translate(name):
             # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
             #  'b>Models of Computation', '/b>', '/dt>\n']
             if line.strip().startswith('<dt>'):
-                hascode = True
                 split = line.split('<')
                 code = ' '.join(split[3][3:].split()[:2])
                 if int(code.split()[1]) >= 500: # Skip grad courses
                     hascode = False
                     continue
+                hascode = code
 
                 name = split[4][2:]
                 cred = split[3].split('(')[1].split(')')[0]
@@ -66,6 +68,8 @@ def translate(name):
                 split = line.split('<')
                 desc = split[1][3:]
                 outfile.write('\ndesc: ' + desc)
+                preq = ''
+                creq = ''
                 for i in range(len(split)):
                     if 'em>Prerequisite:' in split[i]:
                         # Remove leading '/em> ' and trailing period
@@ -74,6 +78,11 @@ def translate(name):
                     elif 'em>Corequisite:' in split[i]:
                         creq = parse_reqs(split[i+1][5:-1])
                         outfile.write('\ncreq: ' + creq)
+                if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
+                    or (creq and any(x in creq for x in ['.', ':', ';']))):
+                    with open(LOGFILE, 'a') as logfile:
+                        logfile.write(hascode + ', ')
+        outfile.close()
 
 
 # Parse all clauses, which are:
@@ -169,6 +178,10 @@ def parse_reqs(reqs):
 
 # Translate all .html files in FOLDER into .txt files
 if __name__ == '__main__':
-    for filename in os.listdir(FOLDER):
+    logfile = open(LOGFILE, 'w')  # Clear logfile
+    logfile.write('Please review the requisites for the following courses:\n')
+    logfile.close()
+    for filename in os.listdir(INFOLDER):
         if filename.endswith('.html'):
-            translate(FOLDER + '/' + '.'.join(filename.split('.')[:-1]))
+            translate(INFOLDER + filename,
+                OUTFOLDER + '.'.join(filename.split('.')[:-1]) + '.txt')
