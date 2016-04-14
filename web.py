@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.5
+req v1.0.6
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -71,13 +71,35 @@ def translate(name):
 def parse(reqs):
     terms = reqs.split()
     parsed = []
+    either = []
     flag = 0
     i = 0
-    for i in range(len(terms)):
+    while i < len(terms):
         if terms[i].lower() == 'and':
-            parsed.append(parse_phrase(terms[flag:i]))
+            if either:
+                either.append(parse_phrase(terms[flag:i]))
+                parsed.append('(' + ' or '.join(either) + ')')
+                either = []
+            else:
+                parsed.append(parse_phrase(terms[flag:i]))
             flag = i+1
-    parsed.append(parse_phrase(terms[flag:]))
+        elif terms[i].lower() == 'either':
+            i += 1
+            flag = i+1
+        elif (terms[i].lower() == 'or' and
+              terms[i+1].startswith('(') and terms[i+1].endswith(')')):
+            either.append(parse_phrase(terms[flag:i]))
+            i += 1
+            flag = i+1
+        i += 1
+    if either:
+        either.append(parse_phrase(terms[flag:i]))
+        parsed.append('(' + ' or '.join(either) + ')')
+        either = []
+    else:
+        parsed.append(parse_phrase(terms[flag:]))
+    if len(parsed) == 1 and parsed[0][0] == '(' and parsed[0][-1] == ')':
+        return parsed[0][1:-1]
     return ' and '.join(parsed)
 
 def parse_phrase(terms):
