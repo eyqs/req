@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.4
+req v1.0.5
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -69,59 +69,46 @@ def translate(name):
                 outfile.write('\ncreq: ' + creq)
 
 def parse(reqs):
-    left = reqs.split()
-    parsed = []         # Stores the parsed requirements
-    clause = []         # Stores the courses in a clause
-    course = []         # Stores the name of a course
-    hasand = False      # Clause has 'and'
-    hasors = False      # Clause has 'or'
+    terms = reqs.split()
+    parsed = []
+    flag = 0
     i = 0
-    while i < len(left):
-        doesnt = False  # No operator reached, still part of a name
-        change = False  # Operator type changed
-        if left[i].lower() == 'and':    # 'and' between ands
-            if not hasand:
-                hasand = True
-                hasors = False
-        elif left[i].lower() == 'one':  # 'one of' begins ors
-            if not hasors:
-                hasors = True
-                hasand = False
-                change = True
-            i += 1
-        elif left[i] == 'or':           # 'or' between ors
-            if not hasors:
-                hasors = True
-                hasand = False
-        else:
-            doesnt = True
-            course.append(left[i])      # no operator, part of course name
-        if not doesnt and len(course) > 0:
-            clause.append(' '.join(course))
-            course = []
-        if change and len(clause) > 0:  # operator type changed, add clause
-            if hasand:
-                parsed.append('(' + ' and '.join(clause) + ')')
-                clause = []
-            if hasors:
-                parsed.append('(' + ' or '.join(clause) + ')')
-                clause = []
-        i += 1
-    clause.append(' '.join(course))     # append final courses and clauses
-    if hasand:
-        parsed.append('(' + ' and '.join(clause) + ')')
-    elif hasors:
-        parsed.append('(' + ' or '.join(clause) + ')')
-    else:
-        parsed = clause
-    return(' '.join(flatten(parsed)))
+    for i in range(len(terms)):
+        if terms[i].lower() == 'and':
+            parsed.append(parse_phrase(terms[flag:i]))
+            flag = i+1
+    parsed.append(parse_phrase(terms[flag:]))
+    return ' and '.join(parsed)
 
-def flatten(lislis):
-    for lis in lislis:
-        if isinstance(lis, list) and not isinstance(lis, str):
-            yield from flatten(lis)
+def parse_phrase(terms):
+    if len(terms) < 2:
+        return ' '.join(parse_clause(terms))
+    elif terms[0].lower() == 'one' and terms[1].lower() == 'of':
+        return '(' + ' or '.join(parse_clause(terms[2:])) + ')'
+    elif terms[0].lower() == 'all' and terms[1].lower() == 'of':
+        return '(' + ' and '.join(parse_clause(terms[2:])) + ')'
+    elif 'or' in terms:
+        return '(' + ' or '.join(parse_clause(terms)) + ')'
+    else:
+        return ' '.join(parse_clause(terms))
+
+def parse_clause(terms):
+    parsed = []
+    course = []
+    for term in terms:
+        if term == 'or':
+            if course:
+                parsed.append(' '.join(course))
+                course = []
+        elif term.endswith(','):
+            course.append(term[:-1])
+            parsed.append(' '.join(course))
+            course = []
         else:
-            yield lis
+            course.append(term)
+    if course:
+        parsed.append(' '.join(course))
+    return parsed
 
 if __name__ == '__main__':
     for filename in os.listdir(FOLDER):
