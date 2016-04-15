@@ -1,0 +1,288 @@
+
+
+code: NURS 302
+name: Foundations for Professional Nursing Practice
+cred: 6
+desc: Introduction to fundamental theories, concepts, evidence, and competencies pertaining to the discipline and practice of nursing. 
+creq: NURS 303 and NURS 304 and NURS 305 and NURS 306
+
+code: NURS 303
+name: Introduction to Professional Nursing Practice with Adults, Older Adults, and their Families
+cred: 8
+desc: Introduction to theories, concepts, evidence, and competencies guiding professional nursing practice with adults and older adults and their families in a variety of practice settings and contexts. 
+creq: NURS 302 and NURS 304 and NURS 305 and NURS 306
+
+code: NURS 304
+name: Introduction to Relational Practice
+cred: 2
+desc: Introduction to relational theories to guide nursing practice within the socio-political, historical, economic and cultural context of health and health care. 
+creq: NURS 302 and NURS 303 and NURS 305 and NURS 306
+
+code: NURS 305
+name: Introduction to Critical Inquiry and Research
+cred: 1
+desc: Introduction to fundamental theories, concepts, evidence, and competencies pertaining to scientific inquiry, evidence-based and informed practice, and research utilization in health care. 
+creq: NURS 302 and NURS 303 and NURS 304 and NURS 306
+
+code: NURS 306
+name: Introduction to Leadership, Ethics, and Policy in Health Care
+cred: 1
+desc: Introduction to fundamental theories, concepts, evidence and competencies pertaining to health care leadership, ethics and policy. 
+creq: NURS 302 and NURS 303 and NURS 304 and NURS 305
+
+code: NURS 309
+name: Contemporary Nursing Practice
+cred: 3
+desc: Exploration of the knowledge, competencies and roles underlying professional nursing practice in the current social, political and health care contexts. For post-RN students only. [3-0-0]
+
+code: NURS 310
+name: The Core of Nursing Practice
+cred: 3
+desc: The study of key concepts and frameworks fundamental to the practice of nursing. Not available for RN students. [2-2-0]
+
+code: NURS 312
+name: Supportive Environments for the Health of Families
+cred: 3
+desc: Fostering the health of families in times of health and illness. [3-0]
+
+code: NURS 320
+name: Nursing Roles and Competencies I
+cred: 4
+desc: Introduction to nursing care with emphasis on the promotive and preventative roles of the nurse. Not available for RN students. [2-0-6]
+
+code: NURS 321
+name: Nursing Roles and Competencies II
+cred: 2
+desc: Continued study and clinical practice in nursing, with emphasis on restorative, rehabilitative and supportive roles of the nurse. Not available for RN students. [1-0-3]
+
+code: NURS 330
+name: Nursing Care of Individuals within the Context of Community
+cred: 6
+desc: Clinical nursing practice focused on acutely ill individuals within the larger context of community. Not available for RN students. [2-0-12]
+
+code: NURS 331
+name: Nursing Care of Families
+cred: 4, 5, 6, 7
+desc: Clinical nursing practice with families experiencing transitions related to health and illness. Childbearing and childrearing families. 
+
+code: NURS 333
+name: Professional Nursing Practice with Childbearing Individuals and Families
+cred: 6
+desc: Analysis and application of theories, concepts, evidence and competencies guiding professional nursing practice with childbearing individuals and families during the transition to parenthood in a variety of practice settings and contexts. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: (NURS 338 or NURS 339 or NURS 340) or (NURS 341 or NURS 342 or NURS 343. (depending on sequencing of NURS 333 with other professional practice courses.)
+
+code: NURS 334
+name: Professional Nursing Practice with Infants, Children, Youth, and their Families
+cred: 6
+desc: Analysis and application of theories concepts, evidence and competencies guiding professional nursing practice with infants, children, youth, and their families through childhood and adolescence in a variety of practice setting and contexts. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: (NURS 338 and NURS 339 and NURS 340) or (NURS 341 and NURS 342 and NURS 343. Depends on sequencing of NURS 334 with other professional practice courses)
+
+code: NURS 335
+name: Professional Nursing Practice with Adults Living with Mental Illness and their Families
+cred: 6
+desc: Analysis and application of theories, concepts, evidence and competencies guiding professional nursing practice with mental illness and their families in a variety of practice settings and contexts. [3-0-9]
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: (NURS 338 and NURS 339 and NURS 340) or (NURS 341 and NURS 342 and NURS 343. Depends on sequencing of NURS 335 with other professional practice courses)
+
+code: NURS 336
+name: Professional Nursing Practice with Communities and Populations
+cred: 6
+desc: Analysis and application of theories and strategies for working in partnership with populations, health professionals, and community services providers. Students use primary health care principles and population health promotion approaches during community nursing practice. [3-0-9]
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: (NURS 338 and NURS 339 and NURS 340) or (NURS 341 and NURS 342 and NURS 343. Depends on sequencing of NURS 336 with other professional practice courses)
+
+code: NURS 337
+name: Professional Nursing Practice with Adults, Older Adults, and their Families
+cred: 12
+desc: Analysis and application of theories, concepts, evidence, and competencies guiding professional nursing practice with older adults and their families in a variety of practice settings and contexts. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: (NURS 338 and NURS 339 and NURS 340) or (NURS 341 and NURS 342 and NURS 343. Depends on sequencing of NURS 337 with other professional practice courses)
+
+code: NURS 338
+name: Relational Nursing Practice Across Diverse Health Experiences
+cred: 2
+desc: Exploration and analysis of opportunities and challenges of relational practice across multiple diverse health experiences and sites of health care. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: NURS 339 and NURS 340
+
+code: NURS 339
+name: Critical Inquiry and Research in Health Care Practice
+cred: 2
+desc: Exploration of the application of theories, concepts, evidence and competencies pertaining to scientific inquiry, and the role of evidence informed practice in supporting health care across the range of healthcare disciplines. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: NURS 338 and NURS 340
+
+code: NURS 340
+name: Leadership, Ethics, and Policy in Health Care Practice
+cred: 2
+desc: Exploration and application of the interrelationship of leadership, ethics and policy in a variety of healthcare contexts. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306
+creq: NURS 338 and NURS 339
+
+code: NURS 341
+name: Relational Nursing Practice as Praxis
+cred: 2
+desc: Critical analysis of the enactment of relational practice toward promotion of health and wellbeing at multiple levels. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 338
+creq: NURS 342 and NURS 343
+
+code: NURS 342
+name: Critical Inquiry and Research in Nursing Practice
+cred: 1
+desc: Critical analysis of theories, concepts, evidence, and competencies pertaining to scientific inquiry, evidence-based and informed practice, and research utilization in nursing. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 339
+creq: NURS 341 and NURS 343
+
+code: NURS 343
+name: Leadership, Ethics, and Policy in Nursing Practice
+cred: 2
+desc: Critical analysis of the enactment of nursing leadership, ethics, and policy in practice. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 340
+creq: NURS 341 and NURS 342
+
+code: NURS 344
+name: Nursing Synthesis Project
+cred: 2
+desc: Self-directed student project to synthesize and apply knowledge in a field of nursing practice under the guidance of a faculty mentor. Pass/Fail. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 338 and NURS 339 and NURS 340
+creq: NURS 427. and Clinical Nursing Focus
+
+code: NURS 350
+name: The Sociocultural Construction of Health and Illness
+cred: 3
+desc: Social and cultural constructs as related to health and illness. Diversity and its relationship to definitions of health and illness. [3-0]
+
+code: NURS 410
+name: Supplemental Guided Study
+cred: 3, 4, 5
+desc: Supplemental guided study to integrate and consolidate professional nursing knowledge, skills and competencies. For Bachelor of Science Nursing students only. Pass/Fail. 
+
+code: NURS 411
+name: Exploring Avenues of Nursing Practice
+cred: 4
+desc: A specific avenue of nursing practice is selected from a number of options, in consultation with faculty. For basic baccalaureate students. [1-0-9]
+
+code: NURS 413
+name: Fostering Population Health Promotion
+cred: 6
+desc: Theory and strategies for working in partnership with populations, health professionals, and community service providers. Students use primary health care principles and population health promotion approaches during community nursing practice. Not available for RN students. [3-0-9]
+
+code: NURS 414
+name: Population Health Promotion
+cred: 3
+desc: Theory and strategies for working in partnership with populations, health professionals, and community service providers. Students examine primary health care principles and evidence-based population health promotion approaches. For post-RN students only. 
+
+code: NURS 416
+name: Health Care Policy and the Nursing Profession
+cred: 3
+desc: Study of professional nursing within the context of Canadian health care policy. [3-0-0]
+
+code: NURS 420
+name: Clinical Nursing Focus: Adults Experiencing Acute or Chronic Health Conditions
+cred: 6
+desc: Credit is given for one of NURS 420, 422, 423, 424, or 425. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343
+creq: NURS 344
+
+code: NURS 421
+name: Nursing Roles and Competencies III
+cred: 2
+desc: Study and clinical practice within a variety of nursing roles, focusing on complex client problems and nursing interventions. [1-0-3]
+
+code: NURS 422
+name: Clincial Nursing Focus: Childbearing Families
+cred: 6
+desc: Credit is given for one of NURS 420, 422, 423, 424, or 425. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343
+creq: NURS 344
+
+code: NURS 423
+name: Clincial Nursing Focus: Children and their Families
+cred: 6
+desc: Credit is given for one of NURS 420, 422, 423, 424, or 425. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343
+creq: NURS 344
+
+code: NURS 424
+name: Clincial Nursing Focus: Individuals and Families with  Mental Health Concerns
+cred: 6
+desc: Credit is given for one of NURS 420, 422, 423, 424, or 425. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343
+creq: NURS 344
+
+code: NURS 425
+name: Clinical Nursing Focus: Community and Population Health
+cred: 6
+desc: Credit is given for one of NURS 420, 422, 423, 424, or 425. 
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343
+creq: NURS 344
+
+code: NURS 427
+name: Consolidated Practicum
+cred: 8
+desc: Extended practice to integrate and consolidate professional nursing knowledge, skills, and competencies. Pass/Fail. 
+preq: (NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 333 and NURS 334 and NURS 335 and NURS 336 and NURS 337 and NURS 338 and NURS 339 and NURS 340 and NURS 341 and NURS 342 and NURS 343.) and Clinical Nursing Major
+creq: NURS 344
+
+code: NURS 430
+name: Population-Focused Nursing Practice
+cred: 4, 5, 6, 7
+desc: Clinical nursing practice with selected populations in the community. 
+
+code: NURS 432
+name: Nursing Practice with Acute and Chronically Ill Populations
+cred: 6
+desc: Clinical nursing practice with persons affected by acute and chronic illness [2-0-12]
+
+code: NURS 440
+name: Nursing Care of Individuals with Mental Health Concerns
+cred: 3
+
+code: NURS 441
+name: Palliative Care
+cred: 3
+
+code: NURS 442
+name: Challenge of Pain Management
+cred: 3
+
+code: NURS 443
+name: HIV/AIDS Prevention and Care: Concepts and Issues for Nurses
+cred: 3
+
+code: NURS 444
+name: Changing Face of Nursing Care of Older Adults
+cred: 3
+
+code: NURS 445
+name: Adult Health Assessment
+cred: 3
+
+code: NURS 446
+name: Violence Across the Life Span
+cred: 3
+
+code: NURS 447
+name: Women's Health Issues
+cred: 3
+
+code: NURS 448
+name: Ethical Nursing Practice
+cred: 3
+
+code: NURS 450
+name: Introduction to Research Utilization
+cred: 3
+desc: The process of research and scholarship in nursing; principles and processes in utilizing research. [3-0]
+
+code: NURS 452
+name: Ethical Basis of Health Care
+cred: 3
+desc: Theories related to the ethical basis of professions. Ethical problems in healthcare and in nursing. Ethical decision-making. [3-0]
+
+code: NURS 453
+name: Leadership and Management in Health Care
+cred: 3
+desc: Structures, contexts and processes basic to management in health care settings. Interdisciplinary approaches to management and leadership. [3-0]

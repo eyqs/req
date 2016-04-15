@@ -1,0 +1,235 @@
+
+
+code: PHRM 100
+name: Foundations of Pharmacy
+cred: 18
+desc: Scientific concepts and pharmacy practice principles. Role of the pharmacist, patient assessment skills, professional identity, communication skills, and an understanding of legal and ethical responsibilities. 
+
+code: PHRM 111
+name: Medication Management I
+cred: 15
+desc: Modules and integration activities focusing on: an introduction to infectious diseases; musculoskeletal disorders; dermatology; eyes, ears, nose, and throat disorders; fluid and electrolytes, and hematology. 
+
+code: PHRM 131
+name: Study Design and Interpretation I
+cred: 2
+desc: Principles of clinical study design, focusing on biostatistical foundations, randomized controlled trials, and systematic review of randomized controlled trials. 
+
+code: PHRM 141
+name: Seminar: Pharmacists in Practice I
+cred: 2
+desc: Current and future roles for pharmacists and controversies in pharmacy practice. 
+
+code: PHRM 161
+name: Technology in Healthcare
+cred: 2
+desc: Knowledge and skills related to the role and applications of technology in health care. 
+
+code: PHRM 170
+name: Community Service Learning I
+cred: 1
+desc: Service learning activities with external community partner sites and members. Pass/Fail. 
+
+code: PHRM 171
+name: Introductory Pharmacy Practice Experience I
+cred: 2
+desc: Prescription processing, drug distribution systems, and select patient care activities in real world environments. Pass/Fail. 
+
+code: PHRM 211
+name: Medication Management II
+cred: 15
+desc: Modules and integration activities focusing on respirology and cardiovascular disorders. 
+
+code: PHRM 212
+name: Medication Management III
+cred: 15
+desc: Modules and integration activities focusing on nephrology, endocrinology, and neurology. 
+
+code: PHRM 221
+name: Nutrition for Pharmacists
+cred: 3
+desc: Foundations of nutrition, nutrition for healthy individuals through the lifespan, and selected clinical applications of nutrition in pharmacy practice. 
+
+code: PHRM 231
+name: Study Design and Interpretation II
+cred: 2
+desc: Principles of clinical study design, focusing on epidemiologic studies (cohort, case-control), pharmacoeconomic analyses, non-inferiority designs, clinical prediction rules, and guidelines. 
+
+code: PHRM 241
+name: Seminar: Pharmacists in Practice II
+cred: 2
+desc: Current and future roles for pharmacists and controversies in pharmacy practice, focusing on the roles and training opportunities for pharmacists in specialty areas of outpatient and inpatient practice. 
+
+code: PHRM 251
+name: Institutional Practice Skills
+cred: 1
+desc: Preparation for experiential learning in the hospital setting. Focuses on enhancing familiarity with the care environment and developing skills suited for students to apply to patient care during institutional experiential rotations. 
+
+code: PHRM 271
+name: Introductory Pharmacy Practice Experience II
+cred: 4
+desc: Longitudinal community service learning and block clerkships in inpatient and outpatient settings. Focus on direct patient care activities. Pass/Fail. 
+
+code: PHRM 311
+name: Medication Management IV
+cred: 12
+desc: Modules and integration activities focusing on psychiatry; gastroenterology; and obstetrics, gynecology, sexual health, and genito-urinary disorders. 
+
+code: PHRM 312
+name: Medication Management V
+cred: 12
+desc: Modules and integration activities focusing on special infectious diseases; toxicology; and oncology and palliative care. 
+
+code: PHRM 341
+name: Seminar: Pharmacists in Practice III
+cred: 2
+desc: Current and potential roles for pharmacists, and contemporary issues in pharmacy practice. Focus on the role of pharmacists as patient educators, researchers and collaborators in interprofessional teams. 
+
+code: PHRM 351
+name: Practice Management and Leadership
+cred: 3
+desc: Application of management and leadership principles and skills to pharmacy operations. 
+
+code: PHRM 371
+name: Introductory Pharmacy Practice Experience III
+cred: 4
+desc: Direct patient care activities in an outpatient setting. Building on existing pharmaceutical knowledge and problem solving ability. Increased involvement in diverse patient care situations. Pass/Fail. 
+
+code: PHRM 441
+name: Seminar: Advanced Topics in Pharmacy Practice
+cred: 1
+desc: Roles and skills for pharmacists as preceptors, teachers and mentors; emerging issues in pharmacy practice. 
+
+code: PHRM 450
+name: Pharm.D. Seminar
+cred: 2
+desc: Seminar course about current and potential roles for pharmacists. Students will also deliver an individual and a group seminar. Pass/Fail. 
+
+code: PHRM 451
+name: Critical Appraisal of Pharmacotherapy Literature
+cred: 4
+desc: Principles of clinical study design, focusing on randomized controlled trials, systematic reviews, epidemiologic studies (cohort, case-control), pharmacoeconomic analyses, clinical prediction rules, and guidelines. Pass/Fail. 
+
+code: PHRM 452
+name: Patient Assessment Skills
+cred: 4
+desc: Principles and practices of patient assessment, applied to the monitoring of drug efficacy and toxicity. Pass/Fail. 
+
+code: PHRM 453
+name: Applied Pharmacokinetics and Pharmacogenomics
+cred: 3
+desc: Pharmacokinetic monitoring of drug therapy in common clinical situations with foundations for application to other drugs.  Pharmacogenomics and personalized medicine principles and applications to practice. Pass/Fail. 
+
+code: PHRM 454
+name: Practice Management
+cred: 2
+desc: Values, concepts, issues and responsibilities of individuals exercising leadership and management roles in pharmacy practice and health care settings. Pass/Fail. 
+
+code: PHRM 461
+name: Pharmacotherapeutics 1
+cred: 2
+desc: Therapeutic foundations. Pass/Fail. 
+
+code: PHRM 462
+name: Pharmacotherapeutics 2
+cred: 2
+desc: Respirology, dermatology, and ears, eyes, nose, and throat. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 463
+name: Pharmacotherapeutics 3
+cred: 2
+desc: Cardiovascular disorders. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 464
+name: Pharmacotherapeutics 4
+cred: 2
+desc: Infectious diseases. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 465
+name: Pharmacotherapeutics 5
+cred: 2
+desc: Neurology and psychiatry. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 466
+name: Pharmacotherapeutics 6
+cred: 2
+desc: Gastroenterology and musculoskeletal disorders. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 467
+name: Pharmacotherapeutics 7
+cred: 2
+desc: GU, OBS/GYN, endocrine, and renal. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 468
+name: Pharmacotherapeutics 8
+cred: 2
+desc: Oncology, hematology, and toxicology. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 469
+name: Pharmacotherapeutics 9
+cred: 2
+desc: Acute/critical care, neurology, cardiac, GI, infectious diseases, and respiratory. Pass/Fail. 
+preq: PHRM 461
+
+code: PHRM 471
+name: Outpatient Advanced Pharmacy Practice Experience
+cred: 16
+desc: Application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in outpatient settings. Patient care will be provided for a wide range of therapeutic areas. Pass/Fail. 
+
+code: PHRM 472
+name: Inpatient Advanced Pharmacy Practice Experience
+cred: 10
+desc: Application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in inpatient settings. Patient care will be provided for a wide range of therapeutic areas. Pass/Fail. 
+
+code: PHRM 473
+name: Selected Advanced Pharmacy Practice Experience
+cred: 5
+desc: Required 4-week experiential clerkship in an area chosen by the student. Diverse options available in such domains as patient care (various settings), research, health policy, education, and others. The available placement options will vary from year to year depending on site/preceptor availability. Pass/Fail. 
+
+code: PHRM 481
+name: Healthcare Quality Improvement
+cred: 2
+desc: Builds on the foundation of patient care and management learning with knowledge about healthcare system improvement. Focuses on principles of quality measurement and quality improvement in health. 
+
+code: PHRM 491
+name: Experiential Rotation I Community
+cred: 6
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve inceasingly complex drug-therapy problems in a variety of community settings. Pass/Fail. 
+
+code: PHRM 492
+name: Experiential Rotation II Inpatient
+cred: 6
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in a variety of inpatient settings. Pass/Fail. 
+
+code: PHRM 493
+name: Experiential Rotation III Advanced Practice
+cred: 6
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in specialized (advanced practice) settings. Pass/Fail. 
+
+code: PHRM 494
+name: Experiential Rotation IV Ambulatory/Primary Care
+cred: 6
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in a variety of ambulatory or primary care settings. Pass/Fail. 
+
+code: PHRM 495
+name: Experiential Rotation V Community or Inpatient
+cred: 6
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in community or inpatient settings. Pass/Fail. 
+
+code: PHRM 496
+name: Experiential Rotation VI Elective
+cred: 8
+desc: Advanced Pharmacy Practice Experience with application of integrated problem-solving skills to resolve increasingly complex drug-therapy problems in community, inpatient, primary care, ambulatory care, or specialized (advanced practice) settings. This elective rotation requires Program Director approval. Pass/Fail. 
+
+code: PHRM 499
+name: Comprehensive Examination
+cred: 1
+desc: Assessment of skills in the clinical problem-solving process. Pass/Fail. 
+preq: Successful completion of all other coursewor

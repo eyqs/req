@@ -1,0 +1,118 @@
+
+
+code: CONS 101
+name: Introduction to Conservation
+cred: 1
+desc: Seminars on current natural resources conservation and forest sciences topics. [1-0-0]
+
+code: CONS 102
+name: UBC: Achieving a Sustainable Campus
+cred: 1
+desc: Exploration of how the campus works to achieve sustainability with respect to its daily operations, including planning, governance, transportation, water, and energy systems, as well as related sustainability research. 
+
+code: CONS 127
+name: Observing the Earth from Space
+cred: 3
+desc: Exploration of innovative Earth observation and other geospatial technologies and how they allow us to better understand the changing Earth. [3-0-0]
+
+code: CONS 200
+name: Foundations of Conservation
+cred: 3
+desc: Conceptual foundations of conservation; means of conserving nature and natural resources. [3-0-0]
+
+code: CONS 210
+name: Visualizing Climate Change
+cred: 3
+desc: Exploration of different future scenarios using visual media that provide an overview of the science of climate change, its implications and potential solutions, and better ways to communicate climate change. 
+
+code: CONS 302
+name: Issues in Genomics and the Environment
+cred: 3
+desc: Current and topical issues, including genetic determinism, environmental DNA, genomics and climate change, revival of extinct species, and applications of genomics in natural environments. 
+preq: BIOL 11 or BIOL 12
+
+code: CONS 330
+name: Conservation Science and Sustainability
+cred: 3
+desc: Fundamental concepts in conservation science. Different philosophies, perspectives, and disciplines used in setting priorities for managing biodiversity at all scales. [3-2-0]
+preq: BIOL 121 or GEOB 102 or GEOB 103
+
+code: CONS 340
+name: Introduction to Geographic Information Systems for Forestry and Conservation
+cred: 3
+desc: Introduction to principles, practice and context of Geographic Information Systems (GIS) applied to forest management and natural resource conservation issues. Priority enrolment to students in the Faculty of Forestry. [2-2-0]
+preq: Third- or fourth-year standing
+
+code: CONS 370
+name: Aboriginal Forestry
+cred: 3
+desc: Issues the may be encountered in professional natural resources work with or for Aboriginal communities and organization, including contemporary issues of Aboriginal rights and title, traditional uses, and self-government. [3-0-0]
+
+code: CONS 415
+name: Land, Trees, and Property Institutions
+cred: 3
+desc: Exploration of the forces that gave rise to the global variety of systems of property for trees and forestlands; evolution in the governance of property. [3-0-0]
+preq: Third-year standing
+
+code: CONS 425
+name: Sustainable Energy: Policy and Governance
+cred: 3
+desc: Energy as a policy problem; governance framework for energy policy; prominent controversies in Western Canadian energy policy; the politics and policy of energy alternatives. [3-0-0]
+preq: Third- or fouth-year standing
+
+code: CONS 440
+name: Conservation Policy
+cred: 3
+desc: Contemporary issues are used to examine conservation policies designed to achieve conservation objectives. [3-0]
+preq: CONS 200
+
+code: CONS 449
+name: Directed Studies in Natural Resources Conservation
+cred: 1, 2, 3, 4, 5
+desc: In special cases and with the approval of the instructor concerned, a student may carry out directed studies of specific problems in natural resources conservation. 
+
+code: CONS 451
+name: Integrated Field School
+cred: 15
+desc: Field methods, research and analysis, community oriented projects, and the interactions between biological and social aspects of conservation research. Students may not take any other courses in conjunction with CONS 451. Restricted to B.Sc.N. students in the fourth year of the Science and Management Major. 
+
+code: CONS 452
+name: Global Perspectives Capstone
+cred: 6
+desc: Examination of global resources and sustainability via scenario evaluation, modelling, and prescription. [3-0-3]
+preq: (CONS 340 or GEOB 270) and fourth year standing in the Global Perspectives Major
+creq: FRST 443
+
+code: CONS 453
+name: International Conservation and Forest Ecosystem Management Field School
+cred: 6
+desc: International, experiential learning in conservation and forest ecosystem management. A 300-level ecology course such as CONS 330 is strongly recommended as a prerequisite. Fee will be assessed for living and traveling expenses. Pre-registration is required. 
+preq: (FRST 231 or BIOL 300) and ((FRST 210 and FRST 211) or (BIOL 302 and BIOL 303. Third-year standing)) and permission of the instructor are required
+
+code: CONS 481
+name: Conservation Planning and Wildland Recreation
+cred: 3
+desc: Theory and tools needed for the selection and design of protected areas, the designation of land use types, and the management and conservation of wildland recreation resources. [2-2-0]
+
+code: CONS 486
+name: Fish Conservation and Management
+cred: 3
+desc: Principles of fish biology, population and community ecology necessary to understand conservation and management; overview of current issues, tactics and institutions involved with fisheries conservation and management. [2-3-0]
+preq: FRST 386
+
+code: CONS 491
+name: Recreation and Tourism Planning
+cred: 3
+desc: Principles and methods for planning urban and rural recreation and related tourism resources including analyzing recreation resources, applying policies and standards, developing park/recreation area management plans, and understanding benefits to human and community wellbeing and biodiversity. [3-0-0]
+preq: UFOR 200 or CONS 481
+
+code: CONS 495
+name: Principles of Managing Problem Wildlife in Forests and Agricultural Environments
+cred: 3
+desc: Impacts of wildlife on crop productivity in temperate and tropical environments, the resiliency of wildlife populations to conventional control methodology, adoption of innovative methods to reduce crop damage, and the impact of introduced species on native fauna. [2-0-1]
+preq: (BIOL 302 or BIOL 303 or AGRO 444 or AGRO 460 or FRST 201 or FRST 202 or FRST 395 or FRST 495) and (FRST 231 or BIOL 300)
+
+code: CONS 498
+name: Thesis or Special Project
+cred: 3
+desc: An independent study or research project of a subject of special interest to the student under the supervision of a staff member. 

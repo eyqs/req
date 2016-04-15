@@ -1,0 +1,103 @@
+
+
+code: CAPS 200
+name: Biomedical Research: Essential Skills and Concepts
+cred: 3
+desc: Analysis of the underlying questions and assumptions, experimental approach, results and significance of work described in selected biomedical research presentations. [3-0-0]
+preq: BIOL 200. Limited to students in second year
+
+code: CAPS 301
+name: Human Physiology
+cred: 6
+desc: Organ systems function with particular reference to mammalian and human physiology.  See credit exclusion list: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414 [3-0-0]
+preq: (SCIE 001 or (BIOL 112 and BIOL 121)) and (MATH 101 or MATH 103 or MATH 105 or MATH 121) and (PHYS 100 or PHYS 101 or PHYS 107) and (CHEM 203 or CHEM 233 or CHEM 260)
+
+code: CAPS 302
+name: Human Physiology Laboratory
+cred: 3
+desc: Physiological techniques and principles. Must be taken in conjunction with CAPS 301. Enrolment limited. Available only to students in the Faculty of Pharmaceutical Sciences. [0-3]
+
+code: CAPS 303
+name: Laboratory in Human Physiology (Honours)
+cred: 3
+desc: Techniques and principles of human physiology. This course must be taken in conjunction with CAPS 301. Restricted to Cellular, Anatomical and Physiological Sciences and Pharmacology Honours students. [0-3]
+
+code: CAPS 390
+name: Introduction to Microscopic Human Anatomy
+cred: 3
+desc: Organ system development, structure and function at the microscopic level. [3-0-0]
+preq: BIOL 121 or SCIE 001. BIOL 200 is recommended
+
+code: CAPS 391
+name: Introduction to Gross Human Anatomy
+cred: 3
+desc: Structure and function of body regions at the macroscopic level. [3-0-0]
+preq: BIOL 121 or SCIE 001
+
+code: CAPS 398
+name: Cooperative Work Placement
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks full-time. Work term report required. Restricted to students admitted to the Co-op Option in Honours Cellular, Anatomical and Physiological Sciences (B.Sc.). 
+preq: Co-op Workshops CAPS 301 CAPS 303 (or PHYL 301 PHYL 303)
+
+code: CAPS 399
+name: Cooperative Work Placement II
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for  a minimum of 13 weeks full-time. Work term report required. Restricted to students admitted to the Co-op Option in Honours Cellular, Anatomical and Physiological Sciences (B.Sc.). 
+preq: CAPS 398 or PHYL 398
+
+code: CAPS 421
+name: Advanced Cellular and Molecular Physiology
+cred: 3
+desc: Recent advancements in cellular and molecular physiology that have revolutionized our understanding of cell function in health and disease. 
+preq: ((ANAT 390 and PHYL 301) or (CAPS 301 and CAPS 390)) and third-year standing
+
+code: CAPS 422
+name: Mammalian Cardiovascular and Respiratory Physiology
+cred: 3
+desc: The control and integration of cardio-pulmonary function in mammals. Intended for Honours students in Cellular, Anatomical and Physiological Sciences or other life sciences. [3-0-0]
+preq: A cumulative average of 75% over at least 90 credits attempted in the first three years of a student's program and (a minimum mark of 75% in CAPS 301 or PHYL 301 or its equivalent. Permission of the course director is also required)
+
+code: CAPS 423
+name: Mammalian Renal and Gastrointestinal Physiology
+cred: 3
+desc: Control of mammalian renal and gastrointestinal systems. Role in homeostasis. Intended for Honours students in Cellular, Anatomical and Physiological Sciences or other life sciences. [3-0-0]
+preq: A cumulative average of 75% over at least 90 credits attempted in the first three years of a student's program and (a minimum mark of 75% in CAPS 301 or PHYL 301. Permission of the course director is also required)
+
+code: CAPS 424
+name: Mammalian Endocrinology
+cred: 3
+desc: Hormonal control of homeostatic, metabolic and reproductive function. Intended for Honours students in Cellular, Anatomical and Physiological Sciences or other life sciences. [3-0-0]
+preq: A cumulative average of 75% over at least 90 credits attempted in the first three years of a student's program and (a minimum mark of 75% in CAPS 301 or PHYL 301. Permission of the course director is also required)
+
+code: CAPS 426
+name: Physiological Basis of Central Nervous System Functions
+cred: 3
+desc: An integrated study of the structural and functional organization of the central nervous system with special emphasis on neurophysiological mechanisms. [3-0-0]
+preq: A cumulative average of 75% over at least 90 credits attempted in the first three years of a student's program and (a minimum mark of 75% in CAPS 301 or PHYL 301. Permission of the course director is also required)
+
+code: CAPS 430
+name: Advanced Laboratory in Physiology
+cred: 6
+desc: Methods, techniques, and use of instruments required for physiological investigation. CAPS 303 or PHYL 303 and the consent of the department are required and enrolment will be limited. [0-6]
+
+code: CAPS 448
+name: Directed Studies in Physiology
+cred: 2, 3, 4, 5
+
+code: CAPS 449
+name: Graduating Essay
+cred: 6
+desc: Written report and presentation on an independent investigaton approved by the department head. 
+
+code: CAPS 498
+name: Cooperative Work Placement III
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks full time. Work term report required. Restricted to students admitted to the Co-op Option in Honours Cellular, Anatomical and Physiological Sciences (B.Sc.). 
+preq: CAPS 399 or PHYL 399
+
+code: CAPS 499
+name: Cooperative Work Placement IV
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks full time. Work term report required. Restricted to students admitted to the Co-op Option in Honours Cellular, Anatomical and Physiological Sciences (B.Sc.). 
+preq: CAPS 498 or PHYL 498

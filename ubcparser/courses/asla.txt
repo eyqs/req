@@ -1,0 +1,11 @@
+
+
+code: ASLA 300
+name: Studies in an Asian Language (Basic Course)
+cred: 6
+desc: Introduction to the fundamentals of an Asian language not normally taught in the Department. Not given every year. Consult the Department for details. 
+
+code: ASLA 400
+name: Studies in an Asian Language (Intermediate Course)
+cred: 6
+preq: ASLA 300. Permission of the instructor is also acceptable

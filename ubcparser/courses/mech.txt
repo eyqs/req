@@ -1,0 +1,397 @@
+
+
+code: MECH 220
+name: Technical Skills Practicum
+cred: 4
+desc: Engineering graphics, spatial visualization, CAD, equation solvers, machine shop practice, electronic circuit construction and troubleshooting, elements of engineering science. 
+preq: (MATH 101 and MATH 152 and PHYS 170) and (APSC 150 or APSC 151) and (PHYS 153 or (PHYS 157 and PHYS 158 and PHYS 159))
+creq: ENGL 112 and MECH 221
+
+code: MECH 221
+name: Engineering Science I
+cred: 12
+desc: Rigid body kinetics and kinematics, basic electrical circuits, work and power, stress and strain, torsion, bending, engineering materials, probability and statistics. This course includes the content of ELEC 203. 
+preq: (MATH 101 and MATH 152 and PHYS 170) and (PHYS 153 or (PHYS 157 and PHYS 158 and PHYS 159))
+creq: (MECH 220 and MECH 224) and (ENGL 112 or APSC 176)
+
+code: MECH 222
+name: Engineering Science II
+cred: 6
+desc: Fluid properties, equations of state. Pressure, buoyancy, hydrostatic forces, pressure measurement. Conservation of mass, momentum, and energy. Work and heat; internal energy and enthalpy. Bernoulli's equation. Dimensional analysis, modeling. Turbulent flow in pipes; turbomachinery. Second law and the Carnot cycle; entropy; first and second law analysis of systems; exergy. 
+preq: MECH 220 and MECH 221
+creq: MECH 223 and MECH 225
+
+code: MECH 223
+name: Introduction to the Mechanical Design Process
+cred: 7
+desc: Design methodology, synthesis and analysis. Design projects representing both mechanical mechanism design and thermofluid systems. 
+preq: MECH 220 and MECH 221
+creq: MECH 222
+
+code: MECH 224
+name: Integration of Engineering Concepts I
+cred: 1
+desc: Integration of the theory and practice of Mechanical Engineering to illustrate the commonality and conceptual connectivity of seemingly different technical areas. Emphasis on dynamics, solid mechanics, materials, electronics, and mathematics. 
+creq: MECH 221
+
+code: MECH 225
+name: Integration of Engineering Concepts II
+cred: 1
+desc: Integration of the theory and practice of Mechanical Engineering to illustrate the commonality and conceptual connectivity of seemingly different technical areas. Emphasis on thermodynamics, fluid mechanics, and mathematics. 
+creq: MECH 222
+
+code: MECH 226
+name: Technical Communication for Mechanical Engineers
+cred: 3
+desc: Written and oral communication. Preparation of design reports, business correspondence, verbal, online, and visual presentation of technical material.  Restricted to students in the second year of Mechanical Engineering. 
+preq: A score of 65% or higher in one of APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+creq: MECH 220 and MECH 221 and MECH 222 and MECH 223 and MECH 224 and MECH 225
+
+code: MECH 227
+name: Approaches to Technical Communication for Mechanical Engineers
+cred: 5
+desc: Written and oral communication. Preparation of design, business correspondence, verbal, online and visual presentation of technical material. Focus on the linguistic structure and style of technical communication. Restricted to students in Mechanical Engineering. Credit will be granted for only one of MECH 226 or MECH 227. 
+preq: MECH 220 and (APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121)
+
+code: MECH 260
+name: Introduction to Mechanics of Materials
+cred: 3
+desc: Statically determinate frames and trusses; normal and shear stresses and strains; shear force and bending moment diagrams; theory of beam bending, torsion of circular rods; transformation of stress and strain in two and three dimensions, Mohr's circle; yield and ultimate failure criteria. 
+preq: MATH 101 and PHYS 170
+
+code: MECH 280
+name: Introduction to Fluid Mechanics
+cred: 3
+desc: Fluid properties; statics; kinematics, dynamics, energy, and momentum principles for one-dimensional flow; dimensional analysis and similarity; laminar and turbulent flow; pipe flow; principles of turbo-machine flow; forces on bodies in flow. 
+preq: (MATH 152 and PHYS 170) and (MATH 217 or MATH 253) and ((PHYS 101 and PHYS 102) or PHYS 153)
+
+code: MECH 305
+name: Data Analysis and Mechanical Engineering Laboratories
+cred: 6
+desc: The use of probability and statistical methods for engineering applications. Mechanics of materials, heat transfer, and fluid dynamics. Instrumentation, data acquisition, and data manipulation using modern computational tools. 
+preq: MECH 220 and MECH 223 and MECH 224 and MECH 225
+
+code: MECH 306
+name: Data Analysis and Mechatronics Laboratories
+cred: 4
+desc: The use of probability and statistical methods for engineering applications. Mechanics of materials and heat transfer. Instrumentation, data acquisition, and data manipulation using modern computational tools. Common mechanical devices. For students in the Mechatronics Option only. 
+preq: MECH 220 and MECH 223 and MECH 224 and MECH 225
+
+code: MECH 325
+name: Mechanical Design I
+cred: 4
+desc: Introduction to manufacturing operations. Design for manufacturing and assembly. Design and selection of shafts, bearings, springs, seals and packing, and couplings. Design of bolted joints and power screws. Design and selection of gears, gear trains, brakes and clutches. 
+preq: MECH 223 or MECH 260
+creq: MECH 360 and (MECH 328 or ENPH 253 or IGEN 330)
+
+code: MECH 326
+name: Mechanical Design II
+cred: 3
+desc: Design and application of mechanisms, linkages, and cams. Fatigue and fracture considerations in design: failure types, failure under static and dynamic loading, fatigue failure, crack initiation, and propagation. Introduction to the FEM in mechanical design. 
+preq: MECH 223 or MECH 260
+creq: (MECH 325 and MECH 360) and (MECH 328 or ENPH 253 or IGEN 330)
+
+code: MECH 327
+name: Thermal System Design
+cred: 3
+desc: Air standard cycles; first and second law of cycles.  Gas mixtures.  Energy conservation. Equilibrium. Reacting systems. Fluid flow, heat transfer, and material considerations. Economic and environmental impact of energy use. Application to thermofluid systems such as power plants. 
+preq: MECH 375
+creq: MECH 325 and (MECH 328 or ENPH 253 or IGEN 330)
+
+code: MECH 328
+name: Mechanical Engineering Design Project
+cred: 3
+desc: Design project course linked to MECH 325, MECH 326, or MECH 327. Applying the design process, making educated assumptions and decisions, and working in teams to provide a new mechanical design. Weekly lecture discussing product development and various factors affecting the design. 
+creq: MECH 325
+
+code: MECH 329
+name: Materials for Mechanical Design
+cred: 3
+desc: Selection of material properties and processing techniques for mechanical design. Properties of steel and other alloys. Heat treatment. Ceramics, composites, plastics. 
+preq: MECH 224 or (APSC 278 and MECH 260)
+
+code: MECH 356
+name: Machine Components
+cred: 3
+desc: Machines used for wood products manufacturing, design, maintenance, purchasing. Selection of components including drives, bearings, brakes, clutches, fasteners, springs. Not open to students in the Faculty of Applied Science. 
+preq: WOOD 376
+creq: WOOD 386
+
+code: MECH 358
+name: Engineering Analysis
+cred: 3
+desc: Fourier series; auto- and cross-correlation; power spectra; discrete Fourier transform; boundary-value problems; numerical methods; partial differential equations; heat, wave, Laplace, Poisson, and wave equations.  Applications to mechanical engineering and practical computing emphasized.  Credit will be granted for only one of MECH 358 and MATH 358. 
+preq: MECH 224 and MECH 225
+
+code: MECH 360
+name: Mechanics of Materials
+cred: 3
+desc: Beam deflections, singularity functions; use of tabulated solutions; column buckling; Castigliano's theorem, statically indeterminate beams, bending of beams with asymmetric cross-sections, shear centre; principal stresses and stress invariants in three dimensions. 
+preq: MECH 224 or MECH 260
+
+code: MECH 366
+name: Modeling of Mechatronic Systems
+cred: 3
+desc: Modeling of mechanical, electrical, thermal, fluid elements and mixed mechatronic systems. Signal processing, signal conditioning. Sensors, data acquisition systems, actuators. 
+preq: ((MECH 220 and MECH 223 and MECH 224 and MECH 225) or (ENPH 253 and MECH 260)) and (ELEC 201 or EECE 251)
+
+code: MECH 368
+name: Engineering Measurements and Instrumentation
+cred: 3
+desc: Industrial measurement needs including: architecture of electronic instrumentation systems; electrical representation of physical quantities; sensors and actuators; analog signal processing using linear and non-linear circuits; computer based readout including programming for user-interface and data acquisition. 
+preq: two of MECH 220 MECH 224 ELEC 203 or two of MECH 220 MECH 224 EECE 263
+
+code: MECH 375
+name: Heat Transfer I
+cred: 3
+desc: Steady and transient conduction. Radiation heat transfer; blackbody laws, optical properties of surfaces, radiative heat exchange. Convective heat and mass transfer in pipes and from external surfaces. Design of heat exchangers. 
+preq: (MECH 225 or (CHBE 241 or ENPH 257)) and (CHBE 251 or CIVL 215 or MECH 280)
+
+code: MECH 380
+name: Fluid Dynamics
+cred: 3
+desc: Review of principles, compressible flow, potential flow, simple laminar viscous flow, boundary layers, flow around bluff bodies. 
+preq: (MECH 225 or MATH 255) and (CHBE 251 or CIVL 215 or MECH 280) and (CHBE 241 or ENPH 257)
+
+code: MECH 386
+name: Industrial Fluid Mechanics
+cred: 3
+desc: Analysis of piping networks. Review of pumps, turbines and hydraulic motors. Flow measurement devices such as flow meters and transducers for measuring velocity and pressure. Multiphase flows. Introduction to turbulence, mixing and buoyancy driven flows. 
+preq: MECH 380
+
+code: MECH 392
+name: Manufacturing Processes
+cred: 2
+desc: Manufacturing characteristics of materials and their control. Metal forming processes, plastic deformations, rolling, forging, drawing, extrusion, sheet metal forming. Machining processes and machine tools, turning, milling, drilling, grinding. Metal fabrication, welding and casting. An introduction to process planning. 
+
+code: MECH 405
+name: Acoustics and Noise Control
+cred: 3
+desc: Wave properties; the decibel; hearing, deafness, and hearing protectors; noise criteria and regulations; sound measurement; sound-source characterization; real noise sources, sound propagation outdoors, in ducts and pipes and in rooms; sound transmission; silencers; sound absorbers; partitions. 
+
+code: MECH 410
+name: Special Topics in Mechanical Engineering
+cred: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Lectures and readings on specialized topics of current interest in Mechanical Engineering. 
+
+code: MECH 420
+name: Sensors and Actuators
+cred: 3
+desc: Measurement of motion, stress, force, torque, temperature, flow and pressure; principles of sensors and signal conditioning methods; selection and sizing of actuators. 
+preq: (MECH 360 and MECH 463 and MECH 366) and (ELEC 343 or EECE 376)
+
+code: MECH 421
+name: Mechatronics System Instrumentation
+cred: 3
+desc: Architecture of mechatronics devices; integration of mechanical, electronics, sensors, actuators, computer and real time software systems; PLC and PC based systems; discrete and continuous automation system design. 
+preq: MECH 366
+creq: MECH 420
+
+code: MECH 422
+name: Introduction to Microelectromechanical Systems
+cred: 3
+desc: Fundamentals of MEMS (MicroElectroMechanical Systems). Microfabrication of MEMS with solid-state technology. LIGA and micro injection molding. Physics of MEMS. Operational principles of various MEMS devices. 
+preq: (ELEC 302 or EECE 363 or ELEC 344 or EECE 365) and (MECH 360 and MECH 463)
+
+code: MECH 423
+name: Mechatronic Product Design
+cred: 3
+desc: Design of mechatronic systems for industrial and human-centric applications; compliant structures; bioelectronic circuits; biomedical embedded systems and BioMEMS.  Example applications from clinical medicine and biomedical research. Credit will be granted for only one of MECH 423, ELEC 472 or EECE 424. 
+preq: MECH 366 and (ELEC 302 or EECE 363)
+creq: CPEN 312 or EECE 355
+
+code: MECH 430
+name: Engineering Data Analysis
+cred: 3
+desc: The use of probability and statistical methods for engineering applications. 
+
+code: MECH 431
+name: Engineering Economics
+cred: 3
+desc: Discounted cash flows. Sources of funds, cost of capital. Effects of depreciation, taxes, inflation. Evaluation and comparison of economic models for engineering projects. Replacement decisions. Public project analysis. Risk analysis. Project control, inventory analysis, simulation. 
+
+code: MECH 433
+name: Biofluids
+cred: 3
+desc: Review of principles, biorheology, circulatory biofluid mechanics, synovial fluid in joints, biofluid dynamics of the human brain, respiratory biofluid mechanics, flow and pressure measurement techniques in human body. 
+preq: MECH 380
+
+code: MECH 435
+name: Orthopaedic Biomechanics
+cred: 3
+desc: Musculoskeletal anatomy. Muscle and joint loads. Muscle mechanics. Musculoskeletal dynamics. Gait. Tissue mechanics of tendon, ligament, articular cartilage, and bone. Biomaterials. Application examples in orthopaedics including joint replacement and fracture fixation. 
+preq: MECH 221 or (APSC 278 and MECH 260)
+
+code: MECH 436
+name: Fundamentals of Injury Biomechanics
+cred: 3
+desc: Introduction to injury biomechanics. Anatomy. Impact experiments. Multi-body dynamic simulation and finite element analysis. Skull, face, brain, spine, eye, pelvis, abdomen, and extremity injury. Anthropomorphic test devices, seat belts, airbags, child restraints, and helmets. Credit cannot be obtained for both MECH 436 and MECH 536. 
+preq: MECH 360 and MECH 463
+
+code: MECH 439
+name: Biomechanics Research
+cred: 1
+desc: Seminar in Biomechanics research. 
+
+code: MECH 445
+name: Fuel Cell Systems
+cred: 3
+desc: Energy system architecture and electrochemical energy conversion: fuel cell thermodynamics and electrochemistry; Proton Exchange Membrane Fuel Cells (PMFCs) and Solid Oxide Fuel Cells (SOFCSs); hydrogen production, storage, and distribution. Credit cannot be obtained for both MECH 445 and MECH 545. 
+preq: MECH 327 and MECH 375
+
+code: MECH 454
+name: Thermofluids Capstone Design Project
+cred: 6
+desc: A capstone course to provide students experience in the design/development of practical mechanical and thermofluids devices. Projects are provided by local industry and engineering research laboratories. Credit will be given for only one of MECH 454, MECH 457, MECH 458, MECH 459, or APSC 496. 
+preq: MECH 328 and fourth-year standing in the Thermofluids Option
+
+code: MECH 457
+name: Mechanical Engineering Design Project
+cred: 6
+desc: A capstone design project designed to give students experience in the design/development of practical mechanical devices. Projects are provided by local industry and engineering research laboratories. Credit will be given for only one of: MECH 454, MECH 457, MECH 458, MECH 459, or APSC 496. 
+preq: MECH 328 and fourth-year standing in Mechanical Engineering
+
+code: MECH 458
+name: Mechatronics Design Project
+cred: 6
+desc: A capstone design program designed to give students experience in the design/development of practical mechanical and mechatronics devices. Projects are provided by local industry and engineering research laboratories. Credit will be given for only one of: MECH 454, MECH 457, MECH 458, MECH 459, or APSC 496. 
+preq: MECH 328 and fourth-year standing in the Mechatronics Option
+
+code: MECH 459
+name: Biomedical Design Project
+cred: 6
+desc: A capstone design program designed to give students experience in the design and development of practical biomedical devices. Projects are provided by local industry and engineering research laboratories. For students in the Biomedical Option only. Credit will be given for only one of: MECH 454, MECH 457, MECH 458, MECH 459, or APSC 496. 
+preq: MECH 328 and fourth-year standing in the Biomedical Option
+
+code: MECH 460
+name: Advanced Mechanics of Materials
+cred: 3
+desc: Axisymmetric membrane stresses in thin shells of revolution, stresses in thick-walled cylinders and rotating disks, beams on elastic foundations, axisymmetric bending of cylindrical shells, axisymmetric bending of circular plates. 
+preq: MECH 360
+
+code: MECH 462
+name: Finite Element Analysis
+cred: 3
+desc: Theory and element selection. Virtual work and weighted residual formulation. Linear elastic analysis. Heat transfer analysis. Isoparametic elements. Development of computer programs for simple problems. Utilization of existing computer packages. Application to mechanical engineering problems. 
+preq: MECH 360 and MECH 375
+
+code: MECH 463
+name: Mechanical Vibrations
+cred: 4
+desc: Theory of vibration of mechanical systems. Undamped 1 degree of freedom vibration, forced vibrations and resonance, damping, multiple degree of freedom systems, mode shapes and orthogonality, continuous systems, vibration measuring instruments and frequency spectrum analysis. 
+preq: MECH 224 or MECH 260
+
+code: MECH 464
+name: Industrial Robotics
+cred: 3
+desc: Definition and classification of industrial robotic devices. Selection and implementation issues. Workcell environments. Forward and inverse kinematics, dynamics, trajectory planning. Sensing and manipulation tasks. Control architectures. Credit will be granted for only one of ELEC 442, EECE 487, MECH 464, or MECH 563. 
+creq: MECH 466 or MECH 467
+
+code: MECH 466
+name: Automatic Control
+cred: 4
+desc: Process and system characteristics; transient response; the closed loop; block diagrams and transfer functions; control actions; stability; Nyquist diagrams; Bode diagrams; root locus methods; frequency response; system compensation; nonlinear control systems; digital computer control. Laboratory experiments to support the lecture content. Credit cannot be obtained for both MECH 466 and MECH 467. 
+preq: ((MECH 220 and MECH 221 and MECH 463) or (MATH 255 and MECH 463)) and (ELEC 201 or ELEC 202 or EECE 251 or EECE 253)
+
+code: MECH 467
+name: Computer Control of Mechatronics Systems
+cred: 4
+desc: Block diagrams and transfer functions, continuous and discrete domain transformations, feedback control system characteristics, control design in both continuous and discrete domain, absolute and relative stability, laboratory examples of Mechatronic systems design. Credit cannot be obtained for both MECH 466 and MECH 467. 
+preq: MECH 326 and MECH 366
+
+code: MECH 468
+name: Modern Control Engineering
+cred: 3
+desc: Introduction to state space control methods for linear systems including modal control, controllability, observability, linear quadratic regulators, optimal control. 
+creq: MECH 366 or MECH 466
+
+code: MECH 469
+name: Dynamic System Modeling
+cred: 3
+desc: Modeling of mechanical, electrical, fluid, and thermal systems; analytical models; model representations such as linear and bond graphs; response analysis; digital simulation. 
+
+code: MECH 470
+name: Energy Conversion Systems
+cred: 3
+desc: Energy supply and demand. Energy conversion chain. Electrical power generation using thermal power plants, renewable energy, and fuel cells. Rankine cycle steam power. Brayton cycle gas turbine power plants, intercooling, reheat, and regeneration. Combined and binary cycles. Nuclear power. 
+preq: MECH 327
+
+code: MECH 473
+name: Heating, Ventilating and Air Conditioning
+cred: 3
+desc: Principles of air conditioning; psychometrics and refrigeration. Heat transfer through building materials. Estimation of heating and cooling loads including the use of current software. System design. Ground, air and water source heat pumps. Lab demonstration/analysis of basic psychometric processes. 
+preq: MECH 375
+
+code: MECH 475
+name: Heat Transfer II
+cred: 3
+desc: Unsteady heat conduction. Radiative heat exchange between gray surfaces. Gas radiation. Free convection from plates and cylinders. Boiling. Mass transfer. Simultaneous heat and mass transfer. Heat exchanger design. Boilers, condensers, and cooling towers. Building heat transfer. 
+preq: MECH 375
+
+code: MECH 478
+name: Internal Combustion Engines
+cred: 3
+desc: Analysis of spark and compression ignition engines. Calculation of fuel economy, power, and emission. Practical and regulatory considerations in engine design. Engine emission and control systems. Credit will be granted for only one of MECH 478 or MECH 578. 
+preq: MECH 327
+
+code: MECH 479
+name: Computational Fluid Dynamics
+cred: 3
+desc: Techniques for numerical solution of ordinary and partial differential equations, including an introduction to the finite difference, finite volume and finite element approaches. Simulation of laminar and turbulent flows, including common turbulent models. Validation techniques. 
+preq: MECH 327 and MECH 380
+
+code: MECH 481
+name: Aerodynamics of Aircraft I
+cred: 3
+desc: Low speed aerodynamics of airfoils, wings, wind tunnels. 
+preq: MECH 380
+
+code: MECH 484
+name: Aircraft Design: Aerodynamics
+cred: 3
+desc: Aircraft performance, stability and control, loading and air worthiness. Detailed example. 
+
+code: MECH 485
+name: Aircraft Design: Structures
+cred: 3
+desc: Development of aircraft wing structure, moments of inertia for complex shapes, crippling loads, shear lag. 
+
+code: MECH 488
+name: Introduction to Ship Hydrodynamics
+cred: 3
+desc: Ship terminology, lines plans, ship hydrostatics, transverse and longitudinal stability of ships, dimensional analysis, ship resistance prediction; ship propulsion methods, propeller selection and design. 
+preq: MECH 380 or CIVL 315 or permission of instructor
+
+code: MECH 489
+name: Experimental Thermofluids
+cred: 4
+desc: Experimental uncertainty. Design of experiments. Test facilities. Temperature and pressure measurement techniques and instrumentation. Velocity and flow rate measurement techniques. Flow visualization. Case studies of industrial and research experimental practice. Credit will not be given for both MECH 489 and MECH 582. 
+preq: MECH 375 and MECH 380
+
+code: MECH 491
+name: Computer-Aided Manufacturing
+cred: 3
+desc: NC programming and machining with interactive CAD/CAM systems. Curve and surface geometry for tool-path generation. Tool-path generation methodologies. Geometric modeling techniques for simulation and verification of manufacturing processes. Introduction to Computer-Aided Process Planning. Supplementary tutorial laboratory experiments. 
+preq: MECH 392
+
+code: MECH 492
+name: CAD/CAM
+cred: 4
+desc: Introduction to computer assisted design and manufacturing with a focus on the fundamental issues of geometry and machine tools including an understanding of standard computer tools. Applications to secondary wood products manufacturing. Not open to students in the Faculty of Applied Science. 
+preq: WOOD 290
+
+code: MECH 493
+name: Introduction to Academic Research
+cred: 3
+desc: Research project directed by a faculty member in Mechanical Engineeing. 
+preq: Fourth-year standing and at least 80% average in third-year courses and permission of instructor
+
+code: MECH 495
+name: Industrial Engineering
+cred: 3
+desc: Organizational structure. Manufacturing systems and group technology. Classification and coding. Scheduling and sequencing of operations. Forecasting. Quality control for variables and attributes. Plant location. System reliability analysis. Advanced manufacturing automation concepts. 
+
+code: MECH 496
+name: Engineering Management
+cred: 3
+desc: Organization structures. Management styles. Cost systems and control. Financial statements; accounting procedures. Budgets and performance control. Project management. Human resources management. 

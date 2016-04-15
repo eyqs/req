@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.3
+req v1.1.0
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or

@@ -1,0 +1,76 @@
+
+
+code: EDST 314
+name: Social Issues in Education
+cred: 3
+desc: Pass/Fail. 
+
+code: EDST 400
+name: Social and Ethical Considerations in Education
+cred: 2, 3, 4
+desc:  [5-0-0]
+
+code: EDST 401
+name: Education, School, and Social Institutions
+cred: 3
+desc: Pass/Fail. 
+
+code: EDST 403
+name: Education, Knowledge, and Curriculum
+cred: 1
+desc: Pass/Fail. 
+
+code: EDST 404
+name: Ethics and Teaching
+cred: 1
+desc: Pass/Fail. 
+
+code: EDST 425
+name: Educational Anthropology
+cred: 3
+desc: Selected concepts from educational anthropology for teachers. Comparative study of school and classroom culture, school teaching, and multicultural education. Pass/Fail. 
+
+code: EDST 426
+name: History of Education
+cred: 3
+desc: An examination of selected topics in the history of Canadian and British Columbian education and of the relationships between historical development and current educational policy. Pass/Fail. 
+
+code: EDST 427
+name: Philosophy of Education
+cred: 3
+desc: An introductory course in which consideration is given to the philosophical foundations of education and to the practical bearing of theory upon curriculum content and classroom practice in our schools. Pass/Fail. 
+
+code: EDST 428
+name: The Social Foundations of Education
+cred: 3
+desc: An application of the social sciences to the study of education. Pass/Fail. 
+
+code: EDST 429
+name: Educational Sociology
+cred: 3
+desc: Selected theories of society and schooling applied to Canadian education. Pass/Fail. 
+
+code: EDST 451
+name: Issues and Frameworks in Environmental Education
+cred: 3
+desc: Competing conceptions of environmental education; the social construction of nature and of science; addressing class, race, culture, and gender in developing sound teaching strategies. Pass/Fail. 
+
+code: EDST 452
+name: Gender and Education
+cred: 3
+desc: Pass/Fail. 
+
+code: EDST 453
+name: Moral Education in Elementary and Secondary Schooling
+cred: 3
+desc: Approaches to moral education; developing educationally and morally justifiable teaching strategies. Pass/Fail. 
+
+code: EDST 454
+name: Critical Thinking: Frameworks, Methods, and Challenges
+cred: 3
+desc: Competing conceptions of critical thinking, including feminist and post-colonial; teaching and evaluation strategies. Pass/Fail. 
+
+code: EDST 455
+name: History of  Childhood and Youth
+cred: 3
+desc: Pass/Fail. 

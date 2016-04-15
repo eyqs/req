@@ -1,0 +1,788 @@
+
+
+code: HIST 101
+name: World History to Oceanic Contact
+cred: 6
+desc: Origins and diffusion of the world's great religions; cultural contact along overland trade routes; emergence of civilizations such as the Inca, Chinese, and Christian European; ordering of societies and their political development. 
+
+code: HIST 102
+name: World History from 1500 to the Twentieth Century
+cred: 6
+desc: The civilizations of Asia, Europe, Africa and the Americas, with emphasis on the political, economic, ecological and cultural links among them, and the impact of oceanic contact, imperialism, warfare, migration, and globalization. 
+
+code: HIST 103
+name: World History Since 1900
+cred: 6
+desc: International relations; changes in the nation-state system; the emergence and impact of major political ideologies; genocide; decolonization; the globalization of trade; and the dynamics of economic, social, cultural, and environmental change in a global context. 
+
+code: HIST 104
+name: Topics in World History
+cred: 3
+desc: Thematically-organized topics will explore global aspects of human experience across time. Each section will examine a single theme. Check with the department for course offerings. 
+
+code: HIST 105
+name: Contemporary Global Issues in Historical Perspective
+cred: 3
+desc: Places issues and problems of current relevance such as disease, terrorism, drugs, or ethnic conflict in historical perspective. Each section will explore a single theme. Check with department for course offerings. 
+
+code: HIST 106
+name: Global Environmental History
+cred: 3
+desc: The impact humans have had on the environment, and the ways in which the physical environment has shaped human history: climate, agriculture, energy use, and urbanization. 
+
+code: HIST 107
+name: Global Indigenous Histories
+cred: 3
+desc: An introduction to the experiences of Indigenous peoples and the nature of colonialisms around the world since 1500, and an introduction to historical practices and perspectives. 
+
+code: HIST 108
+name: Global History of Capitalism
+cred: 3
+desc: The history of capitalism in its global dimension from the beginnings to the age of industrialization.  An investigation of economies - in both their practices and cultures - around the world and across the ages from ancient times to the modern era. 
+
+code: HIST 109
+name: Cultural Histories of Media: From Writing to Tweeting
+cred: 3
+desc: The history of different forms of media in global perspective, with particular attention to audiovisual electronic media. 
+
+code: HIST 200
+name: Asia and the World
+cred: 6
+desc: The political, economic, social, cultural, and human interactions between Asia and the world, inter-Asian relations, Asian diaspora, colonialism, war and the social consequences of conflict, decolonization, industrial growth, and developing world issues. 
+
+code: HIST 202
+name: Gateway to the Middle Ages
+cred: 3, 6
+desc: Problems and themes of medieval European History through the close study of the people and cultures that produced them. 
+
+code: HIST 205
+name: Introduction to Historical Archaeology
+cred: 3
+desc: An introduction to the study of medieval and modern material culture, with special emphasis on Canada, using archaeological evidence to illustrate the principles, aims, and techniques of historical archaeology and related disciplines. 
+
+code: HIST 220
+name: History of Europe
+cred: 3, 6
+desc: Selected themes and historical approaches in European history; may include Europe's history of religious conflict, state formation, colonialism, nationalism, industrialization, revolution, total war, globalization, genocide, or environmental change. 
+
+code: HIST 235
+name: History of Canada: Moments that Matter
+cred: 3
+desc: An introduction to major turning points in Canadian history.  Exploration of the social, political, cultural, and environmental transformations/revolutions that have shaped Canada from early European colonialism to the twenty-first century. 
+
+code: HIST 236
+name: Public History in Canada: Memory, Representation, and Interpretation
+cred: 3
+desc: An introduction to public history in Canada.  An exploration of the politics and practice of representing the past in a variety of sites, and questions of historical interpretation, memory, and audience. 
+
+code: HIST 237
+name: History of the United States
+cred: 3, 6
+desc: Survey from colonial period to present examining political system, slavery, Civil War, race relations and civil rights, westward expansion, industrialization, feminism, expanding international presence, Cold War, and modern culture. 
+
+code: HIST 250
+name: Latin American History
+cred: 3, 6
+desc: A general course designed to show by discussion of the major issues how the modern society and culture of Latin America came into being. 
+
+code: HIST 252
+name: Modern Caribbean History
+cred: 3
+desc: A survey of social, cultural and political history of Anglophone, Francophone and Spanish Caribbean from the Haitian Revolution to the present. 
+
+code: HIST 256
+name: History of Africa
+cred: 3
+desc: An introduction to selected themes and historical approaches in African history. These may include African geography and identities, sources and methodology, pre-modern state formation, gender relations, world religions, labour systems, colonialism, and post-colonialism. 
+
+code: HIST 259
+name: Science, Medicine, and Technology in the Ancient and Medieval Worlds
+cred: 3
+desc: The history of science, medicine, and technology, emphasizing networks, exchanges, and encounters in a global context. 
+
+code: HIST 260
+name: Science and Society in the Contemporary World
+cred: 3
+desc: An introduction to the historical development, conceptual foundations, and cultural significance of contemporary science. Themes will vary from year to year. 
+
+code: HIST 270
+name: China in World History
+cred: 3, 6
+desc: The history of China in a global context, from the earliest times to the most recent past; how China has changed the world and how engagement with the world has changed China. 
+
+code: HIST 271
+name: Japan and Global History, 1550 - 1900
+cred: 3
+desc: Thematic study of comparisons and relations between Japan and the world outside (primarily Europe and China). Commercial expansion, systems of world order, social institutions, religious and ideological expression, and state organization. 
+
+code: HIST 273
+name: History of India
+cred: 3
+desc: Societies, cultures, and politics of the Indian subcontinent from its ancient civilizations to the formation of the modern nation-states of South Asia. 
+
+code: HIST 280
+name: Islamic World History
+cred: 3
+desc: The history of the Islamic world in its global dimensions from its origins to the present day through the themes of religion, law, politics, culture, and modernity. 
+
+code: HIST 302
+name: History of the Indigenous Peoples of North America
+cred: 6
+desc: Indigenous peoples from pre-contact to the present in Canada and the U.S.  Topics include colonial frontiers, disease, fur trade, government policies, environment, gender, religion, oral narratives, activism, urbanization, and identity. 
+
+code: HIST 303
+name: History of the Canadian West
+cred: 6
+desc: Selected topics in the history of the Canadian West with an emphasis on the prairie west: the Indian and the fur trade, Louis Riel, prairie settlement, and western social and political protest. 
+
+code: HIST 304
+name: Researching Local History from the Ground Up
+cred: 3
+desc: Sources and methods for reconstructing local history that can be used by Social Studies teachers in B.C. The aim is to develop an appreciation of the formative processes and past experiences that created one's familiar community. 
+
+code: HIST 305
+name: British Columbia
+cred: 6
+desc: Selected themes in the history of the region, primarily during the post-confederation years. Topics will emphasize changes in the economic, social, and institutional structures of the province. Credit will only be granted for one of HIST 305 or 404, if 404 was taken before 2007W. 
+
+code: HIST 306
+name: History of France, 1461-1715
+cred: 6
+desc: The development of absolute monarchy in France, with emphasis on change and conflict in French society; spiritual and intellectual "crisis"; the place of France in the emerging European state system; and opposition to the monarchy. 
+
+code: HIST 307
+name: French North America to 1803
+cred: 3
+desc: Historical background for understanding the French-speaking peoples of North America: Acadians, Franco-Quebecois, French-Canadians and Cajuns. It also deals extensively with French-Indigenous relations and introduces the student to the historiography of French North America. 
+
+code: HIST 308
+name: Quebec from the End of the 18th Century to the Present
+cred: 3
+desc: Relations between the English and the Canadians prior to the Rebellions of 1837-38, the emergence of French Canadian nationalism after 1840, the impact of State formation and  industrialization in Quebec, the Quiet Revolution, and the independence movement. 
+
+code: HIST 309
+name: Topics in Sub-Saharan African History
+cred: 3
+desc: Examination of a major theme in the history of Sub-Saharan Africa. 
+
+code: HIST 310
+name: The British Empire to 1850
+cred: 3
+desc: Rise of the British imperial system within a global context from its beginnings to 1850. Focuses on economic and social themes with emphasis on settlements in the southern hemisphere as well as the West Indies. 
+
+code: HIST 311
+name: The British Empire after 1850
+cred: 3
+desc: Transformation of the British imperial system from the mid-nineteenth century to de-colonization and neo-colonialism after the second World War. 
+
+code: HIST 312
+name: Southern Africa
+cred: 3
+desc: Pre-colonial, colonial, and contemporary, emphasizing South Africa. 
+
+code: HIST 313
+name: Africa from Imperialism to Independence
+cred: 3
+desc: The history of Africa in the 19th and 20th Centuries: the growth of Islam and Christianity, the impact of European colonialism, the development of nationalism, and the variety of different political and social outcomes after independence. 
+
+code: HIST 314
+name: Early Modern Britain
+cred: 6
+desc: The social, economic, political, religious, cultural, and intellectual history of Britain between the Reformation and the Industrial Revolution, emphasizing the rise of modern industrial society. 
+
+code: HIST 315
+name: Britain 1750-1850
+cred: 3
+desc: Emergence of the world's first industrial society, and the political, economic, and cultural struggles accompanying this transformation. 
+
+code: HIST 317
+name: Britain, 1850-1918
+cred: 3
+desc: Britain from the Great Exhibition to the Great War: the creation of a mass electorate, the "New Imperialism," the "New Woman," and the ways that class, race, gender, and sexuality shaped modern Britain. 
+
+code: HIST 318
+name: Early Twentieth-Century Britain
+cred: 3
+desc: British society and politics in the era of the two world wars: the liberal reforms before the Great War, war experiences, the Great Depression, and the impact of new political movements. 
+
+code: HIST 319
+name: Britain, 1945 to the Present
+cred: 3
+desc: Survey of recent British history, with emphasis on de-colonization, emergence of the welfare state, new social movements and patterns of immigration, and Britain's changing relationship with Europe. 
+
+code: HIST 321
+name: Honours Tutorial
+cred: 6, 7, 8, 9, 10, 11
+
+code: HIST 322
+name: Honours Tutorial
+cred: 6, 7, 8, 9, 10, 11
+
+code: HIST 323
+name: Empires, Wars, and Revolutions in Europe and the Americas,1763-1838
+cred: 3
+desc: Political, social, cultural, and intellectual transformations that reshaped the Atlantic world between 1763 and 1838; special attention will be given to the American, French, and Haitian Revolutions, the Latin American Wars of Independence and Canadian rebellions. 
+
+code: HIST 324
+name: Inventing Canada, 1840-1896
+cred: 3
+desc: An examination of political, cultural and national developments within the British North American colonies in the second half of the nineteenth century. Credit will not be granted for both HIST 324 or 326, if 326 was taken before 2007W. 
+
+code: HIST 325
+name: Canada 1896-1945: Boom, Bust and War
+cred: 3
+desc: Includes Aboriginal policy, immigration and national identity; Canada, Britain and the US; World Wars; economic modernization; the Great Depression; regionalism; political and social movements; and the creation of 'Canadian' culture.  Credit will only be granted for one of HIST 325 or 426, if 426 was taken before 2007W. 
+
+code: HIST 326
+name: Canada Since 1945: Affluence and Anxiety in the Atomic Age
+cred: 3
+desc: Includes immigration policy; the welfare state; Aboriginal peoples; the Cold War; resource economies and national politics; continentalism and free trade; constitutional crises; conflicting nationalisms; and new social movements.  Credit will only be granted for one of HIST 326 or 426, if 426 was taken before 2007W. 
+
+code: HIST 327
+name: Colonial America: Encounter and Settlement, 1607 - 1763
+cred: 3
+desc: Encounters between European, African, and Indigenous North American peoples as well as the history of the colonies within the Atlantic world, from the late sixteenth century to the eve of the American Revolution. 
+
+code: HIST 328
+name: Rebels in America: Revolution to Civil War, 1763 - 1865
+cred: 3
+desc: Issues in U.S. history from the colonial era through the Civil War,  including the causes of the American Revolution; slavery; aboriginal peoples; labour, gender, and industrialization. 
+
+code: HIST 329
+name: Canadian Lives: A Social and Cultural History
+cred: 6
+desc: A survey of Canadian society from colonial times to post-industrialization through the lenses of race, class, and gender. Topics include colonialism, slavery, immigration, religion, industrialization, citizenship, sexuality, social movements, and moral regulation. 
+
+code: HIST 331
+name: The United States, 1865-1900: Labour, Race, Gender, and Empire
+cred: 3
+desc: The complicated political, economic and social history of the United States in the three decades following the Civil War. 
+
+code: HIST 333
+name: Third-Year Honours Seminar
+cred: 3, 6
+
+code: HIST 334
+name: Senegambia to South Carolina, Ghana to Georgia: African-American History, 1450 - 1850
+cred: 3
+desc: The history of African Americans from the beginnings of the African slave trade in the 15th Century through the mid-1800s and the coming of the U.S. Civil War. 
+
+code: HIST 335
+name: From Slavery to Citizenship and Beyond: African-American History, 1850 to the Present
+cred: 3
+desc: Relationships between changing gender roles and other historical processes from the French and industrial revolutions to imperialism, nationalism, and the rise of consumer cultures in Europe from the eighteenth century to the present. 
+
+code: HIST 338
+name: American Modernity: The United States, 1890-1945
+cred: 3
+desc: U.S. emergence as an industrial powerhouse and, eventually, a global superpower; responses to industrial society, meaning of "modern times," economic upheaval and social change, U.S.'s role as a world power, and politics of race, ethnicity, and gender. 
+
+code: HIST 339
+name: The United States Since 1945: The Limits of Power
+cred: 3
+desc: American military and geo-political power during and after Cold War; wars in Korea, Vietnam, and Middle East; domestic issues including McCarthyism, social movements (blacks, women, youth, gays and lesbians, and Native Americans), consumerism, immigration, and rise of New Right. 
+
+code: HIST 341
+name: Medieval Jewish History
+cred: 3
+desc: A survey of the political, social, economic, and cultural history of the Jews from the time of the Christianization of the Roman Empire to the expulsion of professing Jews from Spain and Portugal at the end of the fifteenth century. 
+
+code: HIST 342
+name: Modern Jewish History
+cred: 3
+desc: A survey of the political, social, economic, and cultural history of the Jews from the beginning of the sixteenth century to the present with special emphasis on changing attitudes to Jews and Judaism, social and cultural transformations. 
+
+code: HIST 344
+name: Ancien Regime France
+cred: 6
+desc: The political, social and/or cultural history of early modern France before the Revolution.  Topics may include: the changing significance of the monarchy; the Enlightenment critique of the Catholic Church and religion; the 'pre-revolution'. Credit will only be granted for one of HIST 344 or 406. 
+
+code: HIST 346
+name: France Since the Revolution
+cred: 6
+desc: The political, social and/or cultural history of France after the Revolution, possibly including nation building and regional identities; the Dreyfus affair; France as a colonial power; decolonization; the two world wars; the EU. 
+
+code: HIST 347
+name: Medieval and Imperial Russian History, 998 to 1800
+cred: 3
+desc: Russian politics, society, culture, and empire, beginning with the medieval period extending through the era of Peter the Great's modernization efforts and the Enlightenment. 
+
+code: HIST 349
+name: Imperial Russian History, 1800 to 1917
+cred: 3
+desc: History of Russia from the time of Catherine the Great to the Russian Revolution with particular focus on social and cultural history. 
+
+code: HIST 350
+name: The Soviet Union
+cred: 6
+desc: Political, social, and cultural history of the Soviet Union and post-Soviet successor states from 1900 to the present. 
+
+code: HIST 351
+name: East Central Europe in the 19th and 20th Centuries
+cred: 3, 6
+desc: Covers the region between Germany and Russia as well as Southeast Europe. Emphasis on comparisons with Western Europe and features that make the area significant to Europe as a whole. 
+
+code: HIST 355
+name: Nineteenth Century Germany
+cred: 3
+desc: The political, social, and cultural history of modern Germany during the "long nineteenth century" (1780s to the early twentieth century). 
+
+code: HIST 356
+name: Twentieth-Century Germany
+cred: 3
+desc: The political, social, and cultural history of Germany in the twentieth century. 
+
+code: HIST 357
+name: History of Mexico
+cred: 3
+desc: Examines themes in the last five hundred years of Mexican history, with an emphasis on the critical reading of primary sources and the use of a variety of texts that may include letters, diaries, paintings, photographs, novels, and movies. 
+
+code: HIST 358
+name: State and Society in 20th century Cuba
+cred: 3
+desc: The history and historiography of 20th century Cuba, with particular attention to changing state structures and their impact on everyday life. 
+
+code: HIST 359
+name: A History of Brazil: From Colony to Nation
+cred: 3
+desc: The cultural and political history of Brazil, from the earliest arrival of the Portuguese to Brazil’s emergence as one of the economic powerhouses of the twenty-first century. 
+
+code: HIST 363
+name: Europe in the Early Middle Ages
+cred: 3
+desc: A survey of the development of institutions, ideas and the economy in Europe from about 400 through about 1000 CE. 
+
+code: HIST 364
+name: Europe in the Late Middle Ages
+cred: 3
+desc: A survey of the development of institutions, ideas and the economy in Europe from about 1000 CE through the fourteenth century. 
+
+code: HIST 365
+name: Europe During the Renaissance
+cred: 3
+desc: The interplay between new and traditional ideas, styles, and institutions from the fourteenth to the mid-sixteenth century, with emphasis upon the relationship of social, economic, and political factors to intellectual and cultural change. 
+
+code: HIST 366
+name: Europe During the Reformation
+cred: 3
+desc: An examination of European history that place both the Protestant Reformation and the Catholic Reformation in the broader context of the political, social, cultural, and economic changes during the early modern era. 
+
+code: HIST 367
+name: Europe in the Age of the Enlightenment
+cred: 3
+desc: Europe during the age of the Enlightenment, from the end of the religious wars to the French Revolution, with emphasis on political, social, cultural, and intellectual changes in their global context. 
+
+code: HIST 368
+name: Europe in the 19th Century
+cred: 3
+desc: An investigation of main themes in European history from the French Revolution to the beginning of the 20th century. Topics of particular importance are: domestic politics; the interaction of states; the formation of new states; social and economic transformations affecting the whole civilization; major cultural expressions of the century. 
+
+code: HIST 369
+name: Europe, 1900-1950
+cred: 3
+desc: Europe in the first half of the twentieth century. Themes include the imperialist system, two world wars and their aftermaths, political and social movements of the interwar years, the Depression, and the crisis of liberal democracy. Credit will only be granted for one of HIST 369 or 462. 
+
+code: HIST 370
+name: Europe Since 1950
+cred: 3
+desc: Europe since the middle of the twentieth century. Themes include the Cold War, the development of separate social and political systems in Western and Eastern Europe, the emergence of the welfare state, and the problems of European integration. 
+
+code: HIST 376
+name: Modern Japanese History Since 1800
+cred: 6
+desc: The building of a modern state, its crisis in the 1930s, and its postwar recovery; topics include business institutions, politics, imperialism, intellectual syncretism, social change, and Japan's growing influence in the world. 
+
+code: HIST 378
+name: History of Early China
+cred: 3
+desc: History of China from the earliest times to the disintegration of the Tang Empire. Students will acquire the analytical skills and tools to understand the origins and foundations of Chinese society. 
+
+code: HIST 379
+name: History of Later Imperial China
+cred: 3
+desc: History of China from the end of Tang to the eve of its modern transformation. Students will acquire the analytical skills and tools to understant the political, socio-economic, and cultural changes in imperial China. 
+
+code: HIST 380
+name: The Making of Modern China: Nationalism, War, Revolution
+cred: 3, 6
+desc: The history of China from 1800 to the present including the decline of the Qing empire, the rise of modern nationalism, foreign invasion, and China's multiple revolutions. 
+
+code: HIST 381
+name: Imperialism and Nationalism in Southeast Asia
+cred: 3
+desc: The history of European imperial rule, the forms of resistance to it, and the formation of nationalist movements in Southeast Asia. The countries studied include Vietnam, Indonesia, the Philippines, Burma, and Thailand. 
+
+code: HIST 382
+name: Post-Colonial Southeast Asia
+cred: 3
+desc: The history of the Japanese occupation, wars of independence, international relations of the independent nation-states, and internal armed conflicts. Special attention will be paid to the wars in Vietnam, Indonesia, and East Timor. 
+
+code: HIST 385
+name: India from Raj to Republic
+cred: 3
+desc: Exploration of the rise of the East India Company as territorial power, the formation of a colonial society in India, competing responses to British rule, the struggle for independence, and the legacies of partition. 
+
+code: HIST 386
+name: Korea Since 1860
+cred: 3, 6
+desc: An examination of the political, economic, social, and cultural transformations of Korea since the late nineteenth century. Topics include the end of the Choson Dynasty, the history of Japanese colonial rule, the Korean war, and the two Koreas in the international system. 
+
+code: HIST 387
+name: Voices from Medieval India
+cred: 3
+desc: History of medieval India explored through different stories from and about India's pre-modern past. Studies trends in society, religion, politics, and material life to reveal the dynamism of this period and to challenge simplified narratives of Hindu-Muslim confrontation. 
+
+code: HIST 388
+name: India in the Early Modern World: Mughals, Merchants, and Marauders
+cred: 3
+desc: History of India during the period of Mughal rule (roughly 1500-1750). Studies the role of India and the Mughals within the global dynamics of the early modern world. 
+
+code: HIST 389
+name: The Sikhs: History, Religion and Society
+cred: 6
+desc: A historical study of the social and cultural forces that helped shape Sikh religious beliefs and ritual practices over the past four centuries. In dealing with the evolution of Sikh identity, attention will be given to Sikh ideals, social organization, religious institutions and sacred literature. 
+
+code: HIST 390
+name: Topics in History
+cred: 3
+desc: Small-group instruction in a seminar format on a variety of historical topics. Check with the department for course offerings. This course does not satisfy the History Majors Research Seminar (490) requirement. 
+
+code: HIST 391
+name: Human Rights in World History
+cred: 3
+desc: Changing ideas about humanity and rights. Considers the relationship between human rights and the nation-state, imperialism, and capitalism. Assesses the efforts to end large-scale human rights violations and the role of the United Nations. 
+
+code: HIST 392
+name: Scientific Revolution: Circulation of Knowledge in the Early Modern World
+cred: 3
+desc: The profound transformation of knowledge about the world in the context of the first global encounter of civilizations between 1450 and 1800. Explores the foundations for modern science. 
+
+code: HIST 393
+name: Introduction to History and Philosophy of Science
+cred: 3
+desc: An examination of historical, conceptual, and methodological conditions of scientific knowledge through detailed consideration of important episodes in the history of science. 
+
+code: HIST 394
+name: Darwin, Evolution, and Modern History
+cred: 3
+desc: Darwin and the science of evolution in nineteenth and early twentieth century. 
+
+code: HIST 395
+name: The Nuclear Century: Scientists, Atoms, and the World Order Since 1900
+cred: 3
+desc: Science and the military-industrial complex; quantum and relativistic revolutions in physics; nuclear energy and weapons of mass destruction; international tensions, environmental damage, and global perils. 
+
+code: HIST 396
+name: Environmental History of North America
+cred: 3
+desc: Overview of land use and environmental change in Canada and the United States; examines ideas and practices that shaped indigenous and non-indigenous resource exploitation, management, and activism to the end of the twentieth century. 
+
+code: HIST 398
+name: The History of Modern Medicine
+cred: 3
+desc: The history of health and disease in the modern world, focusing in particular on the emergence and history of modern biomedicine. 
+
+code: HIST 399
+name: Theory and Practice of History
+cred: 3, 6
+desc: Approaches to the history of historical inquiry, with particular attention to theoretical and methodo-logical debates among historians. Recommended for history majors. Not open to Department of History honours students. 
+
+code: HIST 401
+name: Seafaring in the Age of Sail
+cred: 3
+desc: Humankind’s encounter with its ocean frontier through exploration, trading, fishing, whaling, piracy, and naval warfare from 1400 to 1850. 
+
+code: HIST 402
+name: Problems in International Relations
+cred: 3
+desc: Selected topics such as trade, migration, diplomacy, war, migration, colonialism, and post- colonialism. Priority for registration to majors in History or International Relations. 
+
+code: HIST 403
+name: Seminar in the History of International Relations
+cred: 3
+desc: Selected topics in the history of international relations. Priority for registration will be given to fourth-year majors in the International Relations and History programs. 
+
+code: HIST 404
+name: Constitutions in Canadian History: From Pre-contact to the Charter of Rights
+cred: 3
+desc: European precedents, Colonial self-government, Canadian Confederation, and issues such as gay rights, abortion, and First Nations land rights. 
+
+code: HIST 405
+name: Diplomacy and Conflict in the Middle East, 1914 to the Present
+cred: 3
+desc: International relations in the Middle East in the aftermath of the Ottoman Empire, with special attention to the conflicts between Jews of Palestine/Israel and their Arab neighbours. 
+
+code: HIST 408
+name: U.S. Foreign Relations from Independence to World War II
+cred: 3
+desc: U.S. foreign policy and international history.  Examines the American rise to power and political, economic, and cultural relationships between the United States and other peoples, organizations, and states worldwide. 
+
+code: HIST 409
+name: U.S. Foreign Relations since 1945
+cred: 3
+desc: U.S. foreign policy and international history.  Political, economic, and cultural relationships between the United States and other peoples, organizations, and states worldwide. 
+
+code: HIST 411
+name: Development of Canadian External Policy Since Confederation
+cred: 6
+desc: Examines the history of Canada's external relations since Confederation with particular emphasis on Canada's changing international status and role in the twentieth century. 
+
+code: HIST 412
+name: The American Impact on Canada
+cred: 6
+desc: An examination of the influence of the United States' rise to continental, hemispheric, and world power upon Canada in the areas of economics, defence, and foreign policy. 
+
+code: HIST 413
+name: Imagining the Nation: 19th- and 20th-Century Canada
+cred: 3
+desc: The political and intellectual history of the concept of the nation in French and English Canada, and the different forms of nationalism it inspired from the middle of the nineteenth century to the 1995 Quebec Referendum. 
+
+code: HIST 414
+name: Constitutions in Canadian History: From Pre-Contact to the Charter of Rights
+cred: 3
+desc: European precedents, Colonial self-government, Canadian Confederation, and issues such as gay rights, abortion, and First Nations land rights. 
+
+code: HIST 418
+name: The 1960s in Global Perspective
+cred: 3
+desc: The history of the 1960s from a transnational perspective: culture, social change, student activism, and global conflict. 
+
+code: HIST 419
+name: Crime and Punishment in Canadian History
+cred: 3
+desc: The relationship between law and society; the development of legal institutions and the evolving character of crime in Canada. 
+
+code: HIST 420
+name: Topics in Canadian History
+cred: 3, 4, 5
+desc: May include immigration, French-English relations, the growth of the state, health and welfare, or the family. 
+
+code: HIST 421
+name: Honours Tutorial
+cred: 6, 7, 8, 9, 10, 11
+
+code: HIST 423
+name: Economic and Business History of Modern Japan
+cred: 3
+desc: From 1800 to the present; emphasis on the business strategies of Japan's largest companies; attention also to broader economic topics such as international trade, government policy, social impact of industry, business and politics, labour, and post-1971 multi-nationalism. 
+
+code: HIST 424
+name: Economic History of Pre-Modern Europe
+cred: 3
+desc: This course traces the roots of the “Rise of the West” through long-term economic, social, and political developments in European and global history. 
+
+code: HIST 425
+name: War and Society
+cred: 6
+desc: Continuity and change in the relations of war and society, the connections between the economy, society, the military, and government in peacetime as well as war; not a course in military history. 
+
+code: HIST 432
+name: International Relations of the Great Powers in the Twentieth Century
+cred: 6
+desc: The international relations of the great powers from the end of the First World War to the end of the Cold War. 
+
+code: HIST 433
+name: Fourth-Year Honours Seminar
+cred: 6
+
+code: HIST 435
+name: Gender and Sexuality in the Modern U. S
+cred: 3
+desc: Gender roles and gender relations from the Gilded Age to the present day. Topics include political movements such as suffrage and feminism; labour and recreation; marriage, family, and children's socialization; sexuality; and popular culture. 
+
+code: HIST 436
+name: European Social History
+cred: 6
+desc: A study of the changes in economic activity, social structure, family life, religious attitudes, and popular behaviour which accompanied the transformation of Europe from a pre-industrial to an industrial society. 
+
+code: HIST 439
+name: Politics and Culture in Fin-de-Siècle Europe (1890-1914)
+cred: 3
+desc: Explores relationships between politics, culture, and social change in Europe. Topics include the changing role of intellectuals: literary aestheticism, painting, design and the city, origins of psychology. 
+
+code: HIST 440
+name: History of Health in the Modern West
+cred: 3
+desc: Changing conditions of health in Europe and North America from the beginning of the modern mortality decline to the recent past. 
+
+code: HIST 441
+name: History of the Holocaust
+cred: 3
+desc: A study of the systematic attempt to destroy European Jewry during the Nazi regime, 1933-1945. Topics of special importance include: the motivations and behaviour of the perpetrators; the reactions of the victims; the roles of bystanders. 
+
+code: HIST 443
+name: History of North American Children and Youth
+cred: 3
+desc: Children’s history from settler days to the present. Topics include education, work and play, ideologies of childhood and adolescence, children’s material and popular culture, and differences of identity based on region, class, race, and gender. 
+
+code: HIST 444
+name: Slave Societies in the Americas
+cred: 3
+desc: A comparative analysis of the institution of chattel slavery, its growth, its effects on slaves and masters, its relation to the larger society, and the causes of its decline, in the various cultures of the Americas. 
+
+code: HIST 446
+name: Topics in U.S. Cultural History
+cred: 3, 6
+
+code: HIST 447
+name: Selected Topics in United States History
+cred: 3
+desc: Examines in depth a significant period, theme, or topic in the history of the United States. Possible subjects include The West, the Great Depression, the Sixties, and Class, Race, and Gender. 
+
+code: HIST 449
+name: Honours Essay
+cred: 12
+
+code: HIST 450
+name: Selected Topics in Latin American History
+cred: 3, 6
+desc: A study in depth of one major topic (such as the Cuban Revolution or Peronismo) in the recent history of Latin America. 
+
+code: HIST 451
+name: Family and Community in Latin America
+cred: 3
+desc: The role of family and community from the colonial period to the present. Emergence of the nation state as it affected community and family structures. 
+
+code: HIST 453
+name: Class and Culture in Latin America
+cred: 3
+desc: The relationship between culture and class formation from the late colonial period to the present. 
+
+code: HIST 455
+name: Gender and Sexuality in Latin America
+cred: 3
+desc: The construction of gender ideologies and gendered and sexual identities, including masculine, feminine, and transgendered, in modern Latin America. [3-0-0]
+
+code: HIST 456
+name: Race in the Americas
+cred: 3
+desc: Legacies of African, European, and Asian migrations, and colonial encounters with indigenous peoples in the Americas. Includes the creation of racial categories, the making of transnational and transracial families, and the emergence of race-based social and cultural movements. 
+
+code: HIST 460
+name: Revolution and Resistance in the Third World
+cred: 3
+desc: Revolutionary movements in the Third World during the second half of the twentieth century; the radicalisation of anticolonial nationalism; the impact of anticolonial radicalism in the developed world; the decline of Marxism as a revolutionary inspiration. 
+
+code: HIST 464
+name: First Contacts in the Pacific
+cred: 3
+desc: An interdisciplinary history of early European contact with the Indigenous peoples of the northwest coast of  North America and the Pacific Islands. 
+
+code: HIST 466
+name: Topics in Indigenous History of Canada
+cred: 3
+desc: Selected interdisciplinary topics in the history of Canada's Indigenous peoples after European contact, including historical demography, economic interdependency, missionary encounters, gender relations, and interactions with colonial powers and the nation state. Recommended: HIST 302 or other background in the field. 
+
+code: HIST 467
+name: Topics in Indigenous History of the United States
+cred: 3
+desc: Interdisciplinary topics in the history of the United States' Indigenous peoples from before European contact. HIST 302 or other background in the field is recommended. 
+
+code: HIST 468
+name: Topics in Comparative Indigenous History
+cred: 3
+desc: Comparative  interdisciplinary analysis of selected topics in Indigenous history in North America and beyong. HIST 302 or other background in the field is recommended. 
+
+code: HIST 469
+name: Aboriginal Title in British Columbia: History and Legacy
+cred: 3
+desc: Colonial land policy, Indigenous resistance and organizing, treaties, and court decisions. Some previous knowledge of Indigenous history is strongly recommended. 
+
+code: HIST 470
+name: Seminar in Medieval History
+cred: 6
+desc: Annually changing topics of medieval studies with special attention to research methods on primary sources. 
+
+code: HIST 473
+name: Women in the Middle Ages
+cred: 3
+desc: A study of women's roles in the family, society, law, religion, the economy, and literature from about 500 to 1500 CE. 
+
+code: HIST 474
+name: Ideas and Religions of the Middle Ages
+cred: 3
+desc: A survey and exploration of the development, interpenetration, conflict, and transformation of various intellectual and religious traditions during the Middle Ages. 
+
+code: HIST 476
+name: Law and Society in the Middle Ages
+cred: 3
+desc: The history of law in the Middle Ages, including English common law, civil (Roman) law, and canon law, and how changes in both medieval law and society affected the development of each. 
+
+code: HIST 477
+name: Constitutional History of Medieval Europe
+cred: 3
+desc: The evolution of political institutions, the emergence of royal governments as well as representative assemblies and urban republic and conflicts within and among them leading to the emergence of modern structures. 
+
+code: HIST 478
+name: Medieval Portraits and Personalities
+cred: 3
+desc: The lives of leading and controversial figures in the Middle Ages and the means by which they have portrayed themselves and been portrayed by others. 
+
+code: HIST 479
+name: Cultural History of Imperial China
+cred: 3, 6
+desc: An in-depth examination of the construction, transmission, and transformation of Chinese culture(s) prior to 1800. 
+
+code: HIST 480
+name: Social History of Modern China
+cred: 6
+desc: Changes and continuities in Chinese society and culture from the late imperial period to the present; rural and urban life, social stratification, social movements and ideology, family and community, popular beliefs and cultural values. 
+
+code: HIST 481
+name: Education and Society in Modern China
+cred: 3
+desc: The relationship between education and society in China since 1600; classical learning and the civil service examination system; popular literacy; sino-foreign interactions in education; education and gender; nationalism and education; the education revolution in China after 1949. 
+
+code: HIST 482
+name: Chinese Migration
+cred: 3
+desc: This history of Chinese migrations from the founding of the state to the present day. Migration is used as a focus through which to examine some key themes of Chinese history; ethnicity, boundary creation, economic growth and international relations. 
+
+code: HIST 483
+name: Asian Migrations to the Americas
+cred: 3
+desc: Examines both the historical and contemporary contexts for migration from Asia to Canada and the Americas. 
+
+code: HIST 484
+name: East Asian Military systems and warfare China
+cred: 3
+desc: Confucian societies are often thought of as ones in which the brush is mightier than the sword. In fact the military has been a crucial factor in East Asia, and warfare has been the engine which has driven many of the most significant changes in East Asian history. This course will look at the evolution of East Asian military systems, and at the impact of recurrent warfare on East Asia societies. 
+
+code: HIST 485
+name: Asian Migrant Communities in Vancouver
+cred: 3
+desc: This course will examine the history of Asian migration to Vancouver and British Columbia, focusing on the development of local communities and provide a background in historical research methods that will enable the students to conduct research on the history of these communities. 
+
+code: HIST 487
+name: History of Alternative and Complementary Medicine: Acupuncture to Yoga
+cred: 3
+desc: Alternative and complementary healing in history, including Traditional Chinese Medicine (TCM), yoga, meditation, and alternative drug therapies. Specific themes may vary from year to year. 
+
+code: HIST 488
+name: Special Topics in Asian History
+cred: 3, 6
+
+code: HIST 490
+name: Seminar for Majors in History
+cred: 3
+desc: Selected problems in the theory and practice of historical work. Check with the department for course offerings. Restricted to fourth year students majoring in History or in the History and Philosophy of Science. Also open to History Honours students. 
+
+code: HIST 491
+name: Science and the Enlightenment
+cred: 3
+desc: Examines the relationship between science and society in the long eighteenth century. Topics include empiricism, classification, academies, print culture, and voyages of exploration. 
+
+code: HIST 493
+name: History and Social Relations of Modern Sciences
+cred: 3
+desc: Science and society in the 19th to 21st Centuries. [3-0-0]
+
+code: HIST 494
+name: Machines, Media, and Modernity: Frankenstein to Cinema
+cred: 3
+desc: The cultural contexts and consequences of science and nineteenth century technology. European and North American developments. 
+
+code: HIST 495
+name: Evolution and the Sciences of Mind, Brain, and Behaviour
+cred: 3
+desc: Examines how Darwin's theory of evolution changed the investigation of human nature. Questions will be historical and scientific, but will also concern the social, ethical, and existential stakes raised by the human mind as a product of evolution. 

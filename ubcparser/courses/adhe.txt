@@ -1,0 +1,46 @@
+
+
+code: ADHE 313
+name: Organization of Adult Basic Education Programs
+cred: 6
+desc: Rationale, structures, and functions of basic education completion. [3-0-0]
+
+code: ADHE 314
+name: Adult Correctional Education
+cred: 6
+desc: Planning prison education; methods and techniques as they are affected by historical, philosophical, structural, and organizational contexts of penal institutions. [3-0-0]
+
+code: ADHE 327
+name: Teaching Adults
+cred: 3
+desc: Planning, conducting and evaluating instruction for adults.  Consideration is given to different beliefs and ways of thinking about teaching. [3-0-0]
+
+code: ADHE 328
+name: Institutions of Adult Education
+cred: 3
+desc: The history, roles, and activities of institutions in the field of adult education.  Institutions in Canada, Great Britain, and the United States are emphasized, and some experiences in other countries are examined. [3-0-0]
+
+code: ADHE 329
+name: Developing Short Courses, Workshops and Seminars
+cred: 3
+desc: Organization and administration of adult education events such as short courses, seminars, workshops, conferences and institutes. [3-0-0]
+
+code: ADHE 330
+name: The Community Practice of Adult Education
+cred: 3
+desc: Community based adult education with particular emphasis on the application of knowledge of the social, economic, cultural and political environment in developing and conducting adult education programs with an for individuals and groups. [2-3-0]
+
+code: ADHE 375
+name: Diploma Seminar and Internship in Adult Education
+cred: 6
+desc:  [2-3-0]
+
+code: ADHE 412
+name: An Overview of Adult Education
+cred: 3
+desc: Survey of adult education theory and practice in Canada and the world. The focus is on the purpose and participation in, adult education, characteristics of learners, and the training of adult educators. [3-0-0; 3-0-0]
+
+code: ADHE 493
+name: Post Secondary Education: Canada and British Columbia
+cred: 3
+desc: An overview of post-secondary education in Canada and British Columbia, emphasizing current issues such as diversity of offerings, enrolment, accessibility, and the role that secondary and post-secondary personnel play in facilitating access and retention of students. [3-0-0]

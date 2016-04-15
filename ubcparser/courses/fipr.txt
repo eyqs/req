@@ -1,0 +1,110 @@
+
+
+code: FIPR 101
+name: Introduction to the History of Film Production
+cred: 3
+desc: The history of film and film production by decade with a strong emphasis on filmmakers and advances in production technology. 
+
+code: FIPR 131
+name: Introduction to Screen Acting
+cred: 3
+desc: Fundamental techniques used to create emotionally engaged and narratively effective performances for film, video, and digital media. 
+
+code: FIPR 230
+name: Introduction to Motion Picture Directing
+cred: 3
+desc: The role and methods of the motion picture director. 
+
+code: FIPR 233
+name: Video Production I
+cred: 3
+desc: Camera operation, lighting, sounds, and editing for video production. 
+
+code: FIPR 234
+name: Production Planning and Professional Practices
+cred: 3
+desc: Planning of film productions from concept to completion. 
+
+code: FIPR 235
+name: Image Concepts for Filmmakers
+cred: 3
+desc: The theory and practice involved in creating images for film and video. 
+
+code: FIPR 269
+name: Special Topics in Film Production
+cred: 3, 6
+desc: A topic of current interest in film production.  Topic will change from year to year. 
+
+code: FIPR 299
+name: Directed Studies: On-Campus Research
+cred: 3
+desc: On-campus film production field research. Based on film project work on campus productions. Restricted to Film Production students except with permission. Contact department. 
+
+code: FIPR 330
+name: Intermediate Motion Picture Directing
+cred: 3
+preq: FIPR 230
+
+code: FIPR 333
+name: Motion Picture Production I
+cred: 6
+desc: Intermediate film and video production. Open only to students in the Film BFA Program. 
+
+code: FIPR 337
+name: Cinematography and Lighting I
+cred: 3
+desc: Introductory cinematography and lighting techniques and aesthetics for 16mm film and video. 
+
+code: FIPR 338
+name: Motion Picture Sound
+cred: 3
+desc: An introduction to the technique and aesthetics of creating production and post-production sound for film and video. 
+
+code: FIPR 339
+name: Post-Production Techniques I
+cred: 3
+desc: Open only to students in the Film Production BFA Program. 
+
+code: FIPR 399
+name: Directed Studies: Off-Campus Research
+cred: 3, 6
+desc: Off-campus film production field research. Based on film project work outside the university. 
+
+code: FIPR 433
+name: Motion Picture Production II
+cred: 6
+desc: Advanced film and video production. 
+preq: FIPR 333 or FILM 333
+
+code: FIPR 434
+name: Producing for Film and Television
+cred: 3, 6
+desc: The creative and business aspects of producing for film and television. 
+
+code: FIPR 435
+name: Alternative Cinema Production
+cred: 3, 6
+desc: Experimental approaches to content, structure, technology and style in film and video production. 
+creq: Pre-requisites or co-requisites FIPR 233 or 234 or 337 or 339
+
+code: FIPR 436
+name: Documentary Development and Production
+cred: 3, 6
+desc: Documentary concept development, essential production techniques, and marketing. 
+
+code: FIPR 437
+name: Cinematography II
+cred: 3
+desc: Advanced camera operation, lighting, and shot design. Open only to students in the FILM BFA Program. 
+preq: FIPR 333 or FILM 333
+
+code: FIPR 439
+name: Post-Production Techniques II
+cred: 3
+desc: Advanced instruction in motion picture and sound editing practice. Open only to students in FILM BFA Production Program. 
+preq: FIPR 333 or FILM 333
+
+code: FIPR 469
+name: Special Projects
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Advanced film production, including interdisciplinary projects. 

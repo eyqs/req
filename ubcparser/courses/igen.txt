@@ -1,0 +1,53 @@
+
+
+code: IGEN 201
+name: Integrated Technical Communication
+cred: 3
+desc: Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material.  Restricted to students in second year of the Integrated Engineering Program. 
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+creq: IGEN 230
+
+code: IGEN 230
+name: Introduction to Engineering Design
+cred: 6
+desc: Introduction to engineering design methods, problem solving, working individually and in teams, and methods of communication of results. Engineering design projects will be assigned. Restricted to students in the second year of the Integrated Engineering program. 
+
+code: IGEN 330
+name: Intermediate Engineering Design
+cred: 6
+desc: Intermediate level engineering design projects involving material in the curriculum of the Integrated Engineering program. 
+preq: Third-year standing in the Integrated Engineering program
+
+code: IGEN 340
+name: Technology Entrepreneurship
+cred: 3
+desc: Theory and skills needed for engineers to capitalize on the opportunities that exist in commercializing technology, including the relationships between ideas and opportunities, customers and competition, and products and solutions. 
+
+code: IGEN 430
+name: Advanced Engineering Design Projects
+cred: 6
+desc: Projects involving all material in the curriculum of the Integrated Engineering Program. Students will be expected to propose a project and complete the design and construction of a prototype. Restricted to students in the fourth year of the Integrated Engineering program. 
+
+code: IGEN 450
+name: Pipeline Engineering
+cred: 3
+desc: Pipeline materials and material selection; fracture mechanics; manufacturing and processing; welding and corrosion; soil-pipe interactions; surveying and site investigations; slope stability; natural hazards; pipeline loads and response. 
+preq: (MECH 221 or APSC 278) and (CIVL 215 or MTRL 263) and (CIVL 230 or MECH 260)
+
+code: IGEN 451
+name: Pipeline Systems and Infrastructure
+cred: 3
+desc: Energy infrastructure; pipe flows; equipment and facilities including compressors, pumping stations, coolers, and controls; terminals; pipeline integrity; corrosion control. 
+preq: (MECH 221 or APSC 278) and (CIVL 215 or MTRL 263) and (CIVL 230 or MECH 260)
+
+code: IGEN 452
+name: Pipeline Design
+cred: 3
+desc: Pipeline and pipeline system design reflecting applicable policies, regulations, design codes, and design guidelines; construction management and construction techniques; risk assessment and mitigation; linear optimization; route selection; field monitoring and testing; technical design project. 
+preq: IGEN 450
+
+code: IGEN 453
+name: Pipelines, Society and the Environment
+cred: 3
+desc: Pipeline and pipeline system design reflecting environmental, community, social, professional, economic and business considerations; public awareness and communications; stakeholder interactions; decision making; design project. 
+preq: Third year standing in any B.A.Sc. program

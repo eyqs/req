@@ -1,0 +1,21 @@
+
+
+code: CNRS 335
+name: Practicum in Classical or Near Eastern Archaeology
+cred: 3, 4, 5
+desc: Training in excavation techniques and interpretation through participation in the excavation of a Greek, Roman, or Near Eastern site in Europe or the Middle East. The minimum length of the course is three weeks; it may be repeated once. 
+
+code: CNRS 370
+name: Theories of Myth
+cred: 3
+desc: Origins, nature, and transmission of myth in the Western tradition, with particular attention devoted to the interpretation of myth from ancient times up to the present. Some background in myth is recommended. 
+
+code: CNRS 410
+name: The Archaeology of Ancient Cyprus
+cred: 3
+desc: An overview of the archaeology of ancient Cyprus from the island's initial colonization in the 10th millennium BCE through the period of its rule as part of the Roman Empire (4th century CE). 
+preq: NEST 101 or NEST 319 or CLST 204
+
+code: CNRS 449
+name: Honours Essay
+cred: 6

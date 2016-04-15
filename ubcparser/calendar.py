@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.0.9
+req v1.1.0
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -17,72 +17,79 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
+import urllib.request
 LOGFILE   = 'web.log'
-INFOLDER  = 'input/'
-OUTFOLDER = 'output/'
+OUTFOLDER = 'courses/'
 
 
 # Translate a file into a format that req can parse
-def translate(inname, outname):
-    with open(inname) as infile:
-        # Skip all lines before the actual course list
-        for line in infile:
-            if line.strip() != '<dl class="double">':
-                continue
+def translate(url, out):
+    html = urllib.request.urlopen(url)
+    # Skip all lines before the actual course list
+    for byte in html:
+        line = byte.decode('UTF-8', 'backslashreplace')
+        if line.strip() != '<dl class="double">':
+            continue
+        break
+
+    # Open the output .txt file and start writing to it
+    outfile = open(out, 'w')
+    hascode = False     # The corresponding course code
+    for byte in html:
+        line = byte.decode('UTF-8', 'backslashreplace')
+        if line.strip() == '</dl>': # End of course list
             break
 
-        # Open the output .txt file and start writing to it
-        outfile = open(outname, 'w')
-        hascode = False     # The corresponding course code
-        for line in infile:
-            if line.strip() == '</dl>': # End of course list
-                break
+        # Example of split, rest of the code is just chopping this up
+        # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
+        #  'b>Models of Computation', '/b>', '/dt>\n']
+        if line.strip().startswith('<dt>'):
+            split = line.split('<')
+            code = ' '.join(split[3][3:].split()[:2])
+            if int(code.split()[1]) >= 500: # Skip grad courses
+                hascode = False
+                continue
+            hascode = code
 
-            # Example of split, rest of the code is just chopping this up
-            # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
-            #  'b>Models of Computation', '/b>', '/dt>\n']
-            if line.strip().startswith('<dt>'):
-                split = line.split('<')
-                code = ' '.join(split[3][3:].split()[:2])
-                if int(code.split()[1]) >= 500: # Skip grad courses
-                    hascode = False
-                    continue
-                hascode = code
-
-                name = split[4][2:]
-                cred = split[3].split('(')[1].split(')')[0]
-                if '-' in cred:                 # Put credits into a range
+            name = split[4][2:]
+            cred = split[3].split('(')[1].split(')')[0]
+            if '-' in cred:                 # Put credits into a range
+                if cred.startswith('1.5-'): # Why do these exist. Come on.
+                    cred = '1.5, ' + \
+                        ', '.join([str(x) for x in range(int(cred[4:]))])
+                else:
                     cred = ', '.join([str(x) for x in range(
                         *map(int, cred.split('-')))])
-                elif '/' in cred:
-                    cred = ', '.join(cred.split('/'))
-                outfile.write('\n\ncode: ' + code)
-                outfile.write('\nname: ' + name)
-                outfile.write('\ncred: ' + cred)
+            elif '/' in cred:
+                cred = ', '.join(cred.split('/'))
+            outfile.write('\n\ncode: ' + code)
+            outfile.write('\nname: ' + name)
+            outfile.write('\ncred: ' + cred)
 
-            # Example of split, rest of the code is just chopping this up
-            # ['\t', 'dd>Structures of computation. [3-2-1]', 'br > ',
-            #  'em>Prerequisite:', '/em> Principles of Mathematics 12',
-            #  'br> ', 'em>Corequisite:', '/em> CPSC 110.', 'br> \n']
-            elif hascode and line.strip().startswith('<dd>'):
-                split = line.split('<')
-                desc = split[1][3:]
+        # Example of split, rest of the code is just chopping this up
+        # ['\t', 'dd>Structures of computation. [3-2-1]', 'br > ',
+        #  'em>Prerequisite:', '/em> Principles of Mathematics 12',
+        #  'br> ', 'em>Corequisite:', '/em> CPSC 110.', 'br> \n']
+        elif hascode and line.strip().startswith('<dd>'):
+            split = line.split('<')
+            desc = split[1][3:]
+            if desc.strip():
                 outfile.write('\ndesc: ' + desc)
-                preq = ''
-                creq = ''
-                for i in range(len(split)):
-                    if 'em>Prerequisite:' in split[i]:
-                        # Remove leading '/em> ' and trailing period
-                        preq = parse_reqs(split[i+1][5:-1])
-                        outfile.write('\npreq: ' + preq)
-                    elif 'em>Corequisite:' in split[i]:
-                        creq = parse_reqs(split[i+1][5:-1])
-                        outfile.write('\ncreq: ' + creq)
-                if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
-                    or (creq and any(x in creq for x in ['.', ':', ';']))):
-                    with open(LOGFILE, 'a') as logfile:
-                        logfile.write(hascode + ', ')
-        outfile.close()
+            preq = ''
+            creq = ''
+            for i in range(len(split)):
+                if 'em>Prerequisite:' in split[i]:
+                    # Remove leading '/em> ' and trailing period
+                    preq = parse_reqs(split[i+1][5:-1])
+                    outfile.write('\npreq: ' + preq)
+                elif 'em>Corequisite:' in split[i]:
+                    creq = parse_reqs(split[i+1][5:-1])
+                    outfile.write('\ncreq: ' + creq)
+            if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
+                or (creq and any(x in creq for x in ['.', ':', ';']))):
+                with open(LOGFILE, 'a') as logfile:
+                    logfile.write(hascode + ', ')
+    outfile.close()
 
 
 # Parse all clauses, which are:
@@ -154,8 +161,10 @@ def parse_reqs(reqs):
                 parsed.append(parse_phrase(terms[flag:i]))
             # Last phrase has been processed, next phrase starts after 'and'
             flag = i+1
-        # Parentheses signal the beginning of a phrase in an either expression
-        elif terms[i].startswith('(') and terms[i].endswith(')'):
+        # Parentheses around a single character signal
+        #   the beginning of a phrase in an either expression
+        elif (terms[i].startswith('(') and terms[i].endswith(')') and
+              len(terms[i]) == 3):
             # 'or' signals the end of a phrase, but that's before '(a)'
             if terms[i-1].lower() == 'or':  # Therefore -1
                 either.append(parse_phrase(terms[flag:i-1]))
@@ -176,12 +185,19 @@ def parse_reqs(reqs):
     return ' and '.join(parsed)
 
 
-# Translate all .html files in FOLDER into .txt files
+# Translate all webpages into .txt files from the UBC Academic Calendar
 if __name__ == '__main__':
-    logfile = open(LOGFILE, 'w')  # Clear logfile
+    logfile = open(LOGFILE, 'w')    # Clear logfile
     logfile.write('Please review the requisites for the following courses:\n')
     logfile.close()
-    for filename in os.listdir(INFOLDER):
-        if filename.endswith('.html'):
-            translate(INFOLDER + filename,
-                OUTFOLDER + '.'.join(filename.split('.')[:-1]) + '.txt')
+    calendar = urllib.request.urlopen('http://www.calendar.ubc.ca/' +
+                                      'vancouver/courses.cfm?page=code')
+    for line in calendar:
+        # Department looks like <tr class="row-highlight"
+        #   onClick="window.open('courses.cfm?page=code&code=AANB','_self');">
+        department = line.decode('UTF-8', 'backslashreplace')
+        if '<tr class="row-highlight"' in department:
+            dept = department.split('=')[4].split("'")[0]
+            translate('http://www.calendar.ubc.ca/' +
+                      'vancouver/courses.cfm?page=code&code=' + dept,
+                      OUTFOLDER + dept.lower() + '.txt')

@@ -1,0 +1,6 @@
+
+
+code: PRIN 401
+name: Principles of Human Biology
+cred: 12
+desc: An interdisciplinary approach to the structural design and functioning of the human body, from subcellular organelles to gross anatomic structures. Integrates major concepts from gross anatomy, cell biology, biochemistry, molecular biology, genetics, physiology, immunology, pathology and pharmacology. 

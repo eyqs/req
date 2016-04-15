@@ -1,0 +1,156 @@
+
+
+code: BIOT 201
+name: Lab Safety
+cred: 0
+desc: Enrolment limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 1371. 
+
+code: BIOT 203
+name: Introduction to Biotechnology
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 3210. 
+
+code: BIOT 205
+name: Microbiology I
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 3201. 
+
+code: BIOT 206
+name: Microbiology II
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 4201. 
+
+code: BIOT 207
+name: Principles of Animal Physiology
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 3260. 
+
+code: BIOT 208
+name: Plant Anatomy and Physiology
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 4260. 
+
+code: BIOT 210
+name: Animal Cell Biotechnology
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 4230. 
+
+code: BIOT 221
+name: Organic Chemistry I for Biotechnology
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT CHEM 3338. 
+
+code: BIOT 222
+name: Organic Chemistry II for Biotechnology
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT CHEM 4438. 
+
+code: BIOT 231
+name: Communications for Biotechnology
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT COMM 3343. 
+
+code: BIOT 232
+name: Communication Workshop
+cred: 0
+desc: Enrolment limited to students in the Joint Degree Program in Biotechnology. Same as BCIT COMM 4443. 
+
+code: BIOT 241
+name: Basic Statistics and Information Technology for Biotechnology
+cred: 1
+desc: Enrolment limited to students in the Joint Degree Program in Biotechnology. Same as BCIT MATH 2444. 
+
+code: BIOT 242
+name: Inferential Statistics and Research Methodology for Biotechnology
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT MATH 4442. 
+
+code: BIOT 280
+name: Introductory Biotechnology
+cred: 0
+desc: Block registration for the biotechnology, microbiology, physiology, communication for biotechnology, organic chemistry, information technology, plant anatomy, plant physiology and cell biology courses taken in the Joint BCIT/UBC Degree in Biotechnology.  Credit limited to students in the Joint Degree Program. 
+
+code: BIOT 306
+name: Microbiology III
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 6201. 
+
+code: BIOT 307
+name: Molecular Genetics I
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 5220. 
+
+code: BIOT 308
+name: Molecular Genetics II
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 6220. 
+
+code: BIOT 309
+name: Advanced Plant Cell Biotechnology
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 5230. 
+
+code: BIOT 310
+name: Process Systems
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 5361. 
+
+code: BIOT 311
+name: Biochemistry I
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 5240. 
+
+code: BIOT 312
+name: Biochemistry II
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 6240. 
+
+code: BIOT 313
+name: Introduction to Pharmaceutical Development
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 5250. 
+
+code: BIOT 323
+name: Analytical Chemistry I
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT CHEM 5509. 
+
+code: BIOT 324
+name: Analytical Chemistry II
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT CHEM 6609. 
+
+code: BIOT 331
+name: Critical Reading & Writing
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT LIBS 7001. 
+
+code: BIOT 351
+name: Management Skills and Applications
+cred: 0
+desc: Enrolment limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BUSA 7250. 
+
+code: BIOT 352
+name: Management and Regulatory Affairs
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT BIOT 6270. 
+
+code: BIOT 361
+name: Applied Ethics
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. Same as BCIT LIBS 7002. 
+
+code: BIOT 380
+name: Advanced Biotechnology
+cred: 0
+desc: Block registration for the microbiology, molecular genetics, biochemistry, management and regulatory affairs, process systems, analytical chemistry and communication courses taken in the BCIT/UBC Joint Degree in Biotechnology.  Credit limited to students in the Joint Degree Program. 
+
+code: BIOT 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. 
+
+code: BIOT 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biotechnology. 

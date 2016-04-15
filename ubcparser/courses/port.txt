@@ -1,0 +1,51 @@
+
+
+code: PORT 101
+name: First-Year Portuguese I
+cred: 3
+desc: Grammar, composition, translation, oral practice. Credit will be granted for only one of PORT 101 or PORT 110. 
+
+code: PORT 102
+name: First-Year Portuguese II
+cred: 3
+desc: Grammar, composition, translation, oral practice. Credit will be granted for only one of PORT 102 or PORT 110. 
+preq: PORT 101 or equivalent
+
+code: PORT 110
+name: Elementary Portuguese for Romance Language Speakers
+cred: 3
+desc: A single-term alternative to PORT 101 and 102 for students with heritage Portuguese or another Romance language. Credit will be granted for only one of PORT 110, PORT 101, or PORT 102. 
+
+code: PORT 201
+name: Second-Year Portuguese I
+cred: 3
+desc: Grammar, composition, translation, oral practice, readings. Credit will be granted for only one of PORT 201 or PORT 210 
+preq: PORT 102 or PORT 110
+
+code: PORT 202
+name: Second-Year Portuguese II
+cred: 3
+desc: Grammar, composition, translation, oral practice, readings. Credit may be granted for only one of PORT 202 or PORT 210. 
+preq: PORT 201
+
+code: PORT 210
+name: Intermediate Portuguese for Romance Language Speakers
+cred: 3
+desc: A single-term alternative to PORT 201 and 202 for students with heritage Portuguese or another Romance language. Credit will be granted for only one of PORT 210, PORT 201, or PORT 202. 
+preq: PORT 110. Heritage speakers who feel ready to enter PORT 210 directly should consult the undergraduate adviser in Portuguese
+
+code: PORT 301
+name: Advanced Portuguese
+cred: 3
+desc: Advanced work in composition for students who have reached the Language-Requirement level of Portuguese. 
+preq: PORT 202 or PORT 210
+
+code: PORT 308
+name: Portuguese for Business (in Portuguese)
+cred: 3
+desc: Communicative Portuguese for students studying Commerce or otherwise preparing for a career in business. 
+preq: PORT 202 or PORT 210
+
+code: PORT 392
+name: Studies in Portuguese and Brazilian Literature
+cred: 3, 6

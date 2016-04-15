@@ -1,0 +1,382 @@
+
+
+code: ELEC 201
+name: Circuit Analysis I
+cred: 4
+desc: The fundamentals of analysis of lumped linear time-invariant circuits; network theorems; operational amplifiers; first order circuits; DC analysis of diodes, BJT, and FET circuits. 
+preq: MATH 101 and (PHYS 102 or PHYS 153 or PHYS 158)
+creq: MATH 255 or MATH 256 or MATH 265
+
+code: ELEC 202
+name: Circuit Analysis II
+cred: 4
+desc: Phasor analysis and AC three phase systems power; transfer functions; Bode plots; filters and resonance; Laplace transforms; transformers; two-port networks. First and second order circuits. 
+preq: (PHYS 153 and MATH 101) and (EECE 251 or EECE 263 or ELEC 201 or ELEC 203)
+creq: MATH 255 or MATH 256 or MATH 265
+
+code: ELEC 203
+name: Basic Circuit Analysis
+cred: 3
+desc: Ideal passive elements and sources; Kirchhoff's Laws; DC circuits; natural and complete response of first order circuits; operational amplifiers; impedance; phasors; complex power. Not open to students in Electrical and Computer Engineering. 
+creq: MATH 255 or MATH 256
+
+code: ELEC 204
+name: Linear Circuits
+cred: 4
+desc: Basic concepts and analysis techniques in the context of electric and electronic circuits including Bode plots and the Laplace transform. Treatment of RLC circuits, phasors, op-amps. Introduction to nonlinear circuit elements, diodes, BJT, FET circuits. 
+preq: MATH 152 and (PHYS 102 or PHYS 158 or PHYS 153)
+creq: MATH 256 or MATH 255
+
+code: ELEC 205
+name: Electronics Laboratory
+cred: 1
+desc: Experiments involving electronic devices and circuits. 
+creq: EECE 252 or ELEC 204
+
+code: ELEC 211
+name: Engineering Electromagnetics
+cred: 2
+desc: Electrostatics, electric currents, dielectrics, capacitance, electrostatic potential, magnetostatics. 
+preq: (MATH 263 or MATH 253) and (PHYS 102 or PHYS 153 or PHYS 158)
+creq: MATH 264
+
+code: ELEC 221
+name: Signals and Systems
+cred: 4
+desc: Complex numbers, LTI systems, convolution sum, discrete-time Fourier series and transforms, z-transform, sampling, introduction to filtering and modulation, feedback systems, stability. 
+preq: MATH 256 or MATH 255
+
+code: ELEC 271
+name: Selected Topics in Biomedical Engineering
+cred: 1
+desc: Effective communication in a multidisciplinary environment, introduction to emerging areas of biomedical engineering and biotechnology, ethics, and responsibility. Restricted to students admitted to the Biomedical Engineering program in Electrical Engineering. 
+creq: EECE 253 or ELEC 202
+
+code: ELEC 281
+name: Technical Communication
+cred: 3
+desc: Written and oral communication in engineering. Technical description, report preparation, business correspondence, and oral presentation of technical material. Restricted to students in second year of Electrical and Computer Engineering programs. Credit will be granted for only one of ELEC 281, CPEN 281, or APSC 201. 
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+
+code: ELEC 291
+name: Electrical Engineering Design Studio I
+cred: 6
+desc: Design projects involving electronic devices and circuits, electromagnetics, signals and systems, and microcomputers. 
+preq: (EECE 251 or ELEC 201) and (EECE 259 or CPEN 211)
+
+code: ELEC 292
+name: Biomedical Engineering Design Studio
+cred: 6
+desc: Design projects involving electronic devices and circuits, electromagnetics, signals and systems, microcomputers with applications in biomedical engineering. Final group project requiring oral presentation of student-prepared slides. 
+creq: (EECE 251 or ELEC 201) and (EECE 259 or CPEN 211) and (EECE 269 or ELEC 221)
+
+code: ELEC 301
+name: Electronic Circuits
+cred: 4
+desc: Analysis and design of electronic circuits; biasing of and small-signal models for transistors; frequency response of amplifiers; feedback and stability aspects of amplifier design; OP-AMPs; active filters; oscillators; IC specification and selection. Credit will only be given for one of EECE 356, ELEC 301, and EECE 374. 
+preq: ((EECE 252 or ELEC 204) or (EECE 251 or ELEC 201)) and (EECE 253 or ELEC 202 or EECE 263 or ELEC 203)
+
+code: ELEC 302
+name: Electronic Circuits for Electromechanical Design
+cred: 3
+desc: Semiconductor fundamentals; modelling of electronic devices including diodes and transistors; design of power supplies, waveform generators and logic circuits; signals in time and frequency domains; operational amplifiers; active filters; oscillators; device specification and selection. 
+preq: EECE 251 or ELEC 201 or EECE 263 or ELEC 203 or MECH 221
+
+code: ELEC 311
+name: Electromagnetic Fields and Waves
+cred: 4
+desc: Waves and propagation; Maxwell's equations; applications including transmission lines; impedance matching and Smith charts; reflection and refraction; waveguides and antennas. 
+preq: (EECE 261 or ELEC 211) and ((MATH 101 and MATH 263 and MATH 265 and MATH 267) or (MATH 101 and MATH 253 and MATH 264 and MATH 265 and MATH 267) or (MATH 101 and MATH 253 and MATH 256 and MATH 264))
+
+code: ELEC 315
+name: Electronic Materials and Devices
+cred: 4
+desc: Fundamental aspects of electronic materials such as: semiconductors, metals, dielectrics, piezoelectrics, magnetic materials, and their applications in devices such as diodes, transistors, and transducers. 
+preq: EECE 261 or ELEC 211 or ENPH 253
+
+code: ELEC 321
+name: Stochastic Signals and Systems
+cred: 4
+desc: Stochastic behaviour of signals and systems; discrete and continuous probability; random processes; modeling and identification of linear time-invariant systems; binary hypothesis testing and decision making. Credit will be granted for only one of ELEC 321 or STAT 357. 
+preq: EECE 269 or ELEC 221
+
+code: ELEC 331
+name: Computer Communications
+cred: 4
+desc: Analysis, design and implementation of computer networks and their protocols. Application layer protocols, transmission control protocol (TCP), Internet protocol (IP), routing algorithms, reliable data transfer, multiple access, Ethernet. 
+preq: EECE 269 or ELEC 221 or CPSC 261 or EECE 359 or EECE 315 or CPEN 331
+
+code: ELEC 341
+name: Systems and Control
+cred: 4
+desc: Continuous time system analysis by Laplace transforms; system modeling by transfer function and state space methods; feedback, stability and sensitivity; control design; frequency domain analysis. Credit will be granted for only one of EECE 360, ELEC 341 or EECE 369. 
+preq: EECE 253 or ELEC 202 or EECE 269 or ELEC 221
+
+code: ELEC 342
+name: Electro-Mechanical Energy Conversion and Transmission
+cred: 4
+desc: Three phase power; transformers and harmonics; magnetic materials and circuits, electromechanical energy conversion; DC machines; rotating magnetic field, AC induction and synchronous machines; variable frequency operation, brushless DC machines; stepper and single-phase motors. Credit will only be given for one of EECE 373, ELEC 342, and EECE 374. 
+preq: PHYS 170 and (EECE 253 or EECE 263 or ELEC 202 or ELEC 203)
+
+code: ELEC 343
+name: Electromechanics
+cred: 3
+desc: Electromechanical energy conversion; linear actuators; torque/speed of rotating devices; reluctance, stepper, permanent-magnet, induction, brushless-DC motors and DC motors; actuator/motor drive circuits/controllers. Credit will be granted for only one of EECE 365, ELEC 344, EECE 370, EECE 373, ELEC 342, EECE 374, EECE 376, or ELEC 343. 
+preq: EECE 253 or ELEC 202 or EECE 363 or ELEC 302
+
+code: ELEC 344
+name: Applied Electronics and Electromechanics
+cred: 3
+desc: Characteristics of semiconductor devices; analog circuits; force and torque production; motor principles and torque-speed characteristics; principles of power electronics. Not open to students in Electrical and Computer Engineering. 
+preq: EECE 251 or ELEC 201 or EECE 263 or ELEC 203 or MECH 221
+
+code: ELEC 352
+name: Electric Energy Systems
+cred: 4
+desc: Balanced and unbalanced three phase energy systems. Modeling of generators, transmission lines, transformers and loads. High voltage transmission, low voltage industrial and domestic distribution. 
+preq: (EECE 253 or ELEC 202) and (EECE 373 or ELEC 342)
+
+code: ELEC 361
+name: Molecules to Mechanisms
+cred: 4
+desc: Forces, scaling, thermal, fluidic, and mechanical properties relevant to the design of emerging devices and systems whose basic structures are at micrometer and nanometer scales. 
+creq: EECE 360
+
+code: ELEC 371
+name: Biomedical Engineering Instrumentation
+cred: 3
+desc: Theory and experiments involving instruments for general, orthopedic, cardiac and minimally invasive surgery as well as sensors for respiratory, cardiac, bioelectric, biochemical and nervous system measurement. Restricted to students admitted to the Biomedical Engineering option in Electrical Engineering. 
+preq: ((MATH 265 and MATH 267) or MATH 256;) and (MATH 253 or MATH 263;) and (EECE 253 or (ELEC 202 and EECE 259) or (CPEN 211 and EECE 261) or (ELEC 211 and EECE 282) or ELEC 292)
+
+code: ELEC 391
+name: Electrical Engineering Design Studio II
+cred: 6
+desc: Introduction to project management.  Problem definition.  Design principles and practices.  Implementation techniques including circuit design, software design, solid modeling, PCBs, assembling, and packaging.  Testing and evaluation.  Effective presentations. 
+preq: (CPEN 291 or ELEC 291 or ELEC 292 or EECE 281) and two of EECE 352 ELEC 315 EECE 356 ELEC 301 EECE 359 EECE 360 ELEC 341 EECE 364 ELEC 311 EECE 373 ELEC 342
+
+code: ELEC 400
+name: Topics in Electrical Engineering
+cred: 1, 2, 3, 4, 5, 6, 7
+desc: Lectures or projects on subjects of current interest. 
+
+code: ELEC 401
+name: Analog CMOS Integrated Circuit Design
+cred: 3
+desc: Design and analysis of analog integrated circuits, with emphasis on CMOS design techniques. Gain stages, opamp design, frequency compensation, oscillators, A/D, D/A converters, PLL, DLL. 
+preq: EECE 356 or ELEC 301 or EECE 363 or ELEC 302 or EECE 374
+
+code: ELEC 402
+name: Introduction to VLSI Systems
+cred: 4
+desc: Static CMOS combinational logic circuits. Standard cells design and layout. Memory element (flip-flop and latch) design. Dynamic logic families. Synchronous logic and timing analysis. Power, scaling, and industry trends. Verification. VHDL/Verilog design, layout and synthesis project using CAD tools. 
+preq: EECE 353 or CPEN 311
+
+code: ELEC 403
+name: Advanced Digital VLSI Systems
+cred: 3
+desc: Logical effort. Noise in digital systems. Low power techniques. Power distribution. SRAM and DRAM design. Non-volatile memory technologies. High speed adder, multiplier and divider design. Clock Trees. Synchronization and FIFO. Scaling, and industry trends. High-speed circuit design and layout project. 
+preq: ELEC 402 or EECE 479
+
+code: ELEC 404
+name: RF Integrated Circuits
+cred: 3
+desc: Introduction to radio-frequency (RF) communication systems; matching networks, transceiver architectures, low noise amplifiers, mixers, oscillators, etc. 
+preq: ELEC 221 or EECE 359 or EECE 369
+creq: EECE 488 or ELEC 401
+
+code: ELEC 411
+name: Antennas and Propagation
+cred: 3
+desc: Basic antenna concepts; antennas for low, medium and high frequencies; terrestrial and satellite propagation links; environmental effects on electromagnetic radiation. 
+preq: EECE 364 or ELEC 311 or PHYS 301 or PHYS 354
+
+code: ELEC 412
+name: Optical Waveguides and Photonics
+cred: 3
+desc: Planar dielectric waveguides; single mode optical fibers; integrated optics waveguides and devices; semiconductor lasers; optical detectors; optical communications links. 
+
+code: ELEC 413
+name: Semiconductor Lasers
+cred: 3
+desc: An introduction to lasers and applications. Theory, modeling, fabrication and performance of semiconductor lasers. Optical communications links. 
+
+code: ELEC 415
+name: Semiconductor Devices: Physics, Design and Analysis
+cred: 3
+desc: Physics of operation, and design and analysis of semiconductor devices of topical interest, e.g., solar cells, LEDs, high-speed MOSFETs, high-frequency HBTs, low-noise HEMTs. 
+preq: EECE 352 or ELEC 315 or PHYS 304
+
+code: ELEC 416
+name: Quantum Dots and Device Applications
+cred: 3
+desc: Theory and modeling techniques of 0-dimensional structures. Electronic, magnetic, and optical properties of quantum dots. Current and future applications of quantum dots including: single electron transistors, quantum dot lasers, optical detectors. 
+
+code: ELEC 421
+name: Digital Signal and Image Processing
+cred: 3
+desc: DSP fundamentals; image processing; signal representation; digital filtering; statistical estimation; DSP applications. 
+preq: EECE 269 or ELEC 221 or EECE 359 or EECE 369
+
+code: ELEC 422
+name: Biosignals and Systems
+cred: 3
+desc: Data acquisition, time and frequency domain analysis, analog and discrete filter design, sampling theory, time-dependent processing, linear prediction, random signals, biomedical system modeling, and stability analysis; introduction to nonlinear systems. 
+preq: (EECE 331 or ELEC 371) and (EECE 360 or ELEC 341) and (EECE 269 or ELEC 221 or EECE 359) and (CPSC 260 or CPSC 259) and (STAT 251 or MATH 318 or MATH 302 or STAT 302)
+
+code: ELEC 431
+name: Communication Systems
+cred: 3
+desc: Review of probability theory, signals and noise, spectral analysis; detection and estimation of signals in the presence of noise; performance calculations of amplitude, angle and pulse modulation systems; introduction to digital communication techniques. 
+preq: (EECE 269 or EECE 359 or ELEC 221) and (EECE 357 or ELEC 321 or MATH 302 or MATH 318 or STAT 251 or STAT 302 or STAT 357)
+
+code: ELEC 432
+name: Digital Communications
+cred: 3
+desc: Formulation of the digital communication problem; definition of information, source and channel coding; digital modulation techniques, signal space, design of optimum digital receivers and performance calculations; trellis coded modulation; spread spectrum techniques; issues in wireless communication techniques and new standards. 
+preq: EECE 453 or ELEC 431
+
+code: ELEC 433
+name: Error Control Coding for Communications and Computers
+cred: 3
+desc: Design techniques, including Hamming, BCH, Reed-Solomon, LDPC and convolutional codes, ARQ techniques, and LFSR implementation of encoding-decoding algorithms. 
+
+code: ELEC 434
+name: Introduction to Optical Networks
+cred: 3
+desc: Wavelength division multiplexing, framing techniques, traffic grooming, virtual topology design, routing and wavelength assignment, protection and restoration, optical packet switching. 
+preq: EECE 269 or ELEC 221 or EECE 359 or EECE 369
+
+code: ELEC 441
+name: Control Systems
+cred: 3
+desc: Relationships between system parameters and system responses for linear control systems. Design specifications for dynamic and steady-state performance and realization by use of feedback control. Robust design of PID controllers and multivariable controllers. 
+preq: EECE 360 or ELEC 341
+
+code: ELEC 442
+name: Introduction to Robotics
+cred: 3
+desc: Common manipulator configurations, actuator and sensor technology. Efficient representations and computational methods for real-time microprocessor-based implementation of robot control algorithms. Robot control methods, network equivalents, impedance control. Introduction to teleoperation implementation aspects. 
+preq: PHYS 170
+
+code: ELEC 451
+name: Power Electronics
+cred: 4
+desc: Power diodes, thyristors, transistors and FETs; analysis of idealized circuits with generalized loads; AC-DC, DC-DC, DC-AC, AC-AC converters, modulation techniques, gating circuits; practical design and applications. 
+preq: EECE 356 or EECE 365 or ELEC 301 or ELEC 344 or EECE 373 or ELEC 342
+
+code: ELEC 452
+name: Industrial Drives
+cred: 3
+desc: Typical mechanical loads; dynamic and static characteristics and analysis of DC and AC drives; microprocessor-based controllers; commercial choices of drives for various applications. 
+preq: EECE 373 or ELEC 342 or EECE 376 or ELEC 343
+
+code: ELEC 453
+name: Power System Analysis
+cred: 4
+desc: Transmission and distribution; phasors, complex power; balanced/unbalanced three-phase operation; symmetrical components, sequence networks; voltage regulation; short circuit capacity; circuit breakers; transmission lines, series/shunt impedance; short, medium, and long line models. 
+preq: (EECE 373 or ELEC 342) and (ELEC 352 or EECE 392)
+
+code: ELEC 454
+name: Power System Analysis II
+cred: 4
+desc: Power system monitoring/control; large networks; automatic generation control; optimum power flow calculations; traveling wave transmission lines; EMTP and MATLAB programs for transients, short-circuit, and transient stability analysis. 
+preq: EECE 458 or ELEC 453
+
+code: ELEC 455
+name: Power Systems Protection
+cred: 3
+desc: Analysis of disturbances, security of power systems, cascading and blackouts; role and impact of protection; transducers and measuring elements; protection of transmission and distribution systems; protection of generators, substation equipment, special protection systems and relays. 
+preq: (EECE 458 or ELEC 453) and (EECE 373 or ELEC 342 or EECE 374)
+
+code: ELEC 456
+name: Decision Support Methods in Power Systems Operation
+cred: 3
+desc: Principles; acceptable regions of operation; energy management systems; load flow methods; static and dynamic security; contingency analysis; transient and voltage stability; on-line stability assessment. 
+
+code: ELEC 457
+name: Optimization of Power System Operation
+cred: 3
+desc: Application of linear and nonlinear optimization methods in power systems; constrained optimization; optimal power flow; economic dispatch; electricity market; local prices for active and reactive power; security-constrained OPF; state estimation, reliability analysis. 
+
+code: ELEC 461
+name: Nanotechnology in Electronics
+cred: 3
+desc: Topics of special importance to understanding and designing electronic devices in which quantum effects and the discrete nature of matter become important. 
+preq: CHEM 312 or EECE 352 or ELEC 315 or PHYS 250 or PHYS 304
+creq: APSC 201 or MTRL 478
+
+code: ELEC 462
+name: Sensors and Actuators in Microsystems
+cred: 3
+desc: The mechanisms, design, fabrication, and testing of microsensors, actuators, and microelectromechanical systems (MEMS). 
+
+code: ELEC 463
+name: Micro/Nanofabrication and Instrumentation Laboratory
+cred: 3
+desc: Microfabrication methods and nanofabrication techniques. Imaging and characterization of micro and nanostructures. Restricted to students admitted to the Nanotechnology and Microsystems Option in Electrical Engineering. 
+
+code: ELEC 464
+name: Nanotechnology and Nature
+cred: 3
+desc: Examples of nature's fabrication methods, sensors, actuators, energy harvesting, signaling and information processing, and comparisons with artificial methods. 
+
+code: ELEC 465
+name: Microsystems Design
+cred: 3
+desc: Structured modeling and design practices; multiphysics at microscales; physical limitations in MEMS; interface with electronics; behavioural modeling languages for mixed analog-digital system design. Credit will only be given for one of EECE 489, ELEC 465, or EECE 581. 
+
+code: ELEC 471
+name: Medical Imaging
+cred: 3
+desc: Physical principles of ultrasound, magnetic resonance, computed tomography, nuclear medicine, and X-ray projection imaging.  Applications in diagnostics, therapeutics, and interventions. 
+preq: (EECE 331 or ELEC 371) and (EECE 360 or ELEC 341) and (EECE 364 or ELEC 311) and (EECE 269 or ELEC 221 or EECE 359)
+
+code: ELEC 472
+name: Biomechatronics
+cred: 3
+desc: Design of mechatronic systems to measure and manipulate biological materials and processes; compliant structures; bioelectronic circuits; biomedical embedded systems and BioMEMS.  Example applications from clinical medicine and biomedical research.  Credit will be granted for only one of MECH 423 or EECE 424. 
+preq: (EECE 251 or ELEC 201) and (EECE 253 or ELEC 202) and (EECE 259 or CPEN 211) and (EECE 360 or ELEC 341)
+
+code: ELEC 473
+name: Biological Micro-Electro-Mechanical Systems
+cred: 3
+desc: Principles of sensors, actuators, microfluidics, biotechnology and nanotechnology, with applications in probing, detection, assaying and drug delivery. 
+
+code: ELEC 474
+name: Biophotonics
+cred: 3
+desc: Lens theory, light sources and detectors, image resolution and contrast, tissue absorption and scattering, fluorescence, microscopy, spectroscopy, optical imaging systems, and their applications to life sciences and medicine. 
+
+code: ELEC 481
+name: Economic Analysis of Engineering Projects
+cred: 3
+desc: Time-money relationships; economic analysis of alternatives including the effects of interest rates, inflation, depreciation, taxation and uncertainty; cost estimation and budgeting; financial analysis of engineering operations. 
+
+code: ELEC 491
+name: Electrical Engineering Capstone Design Project
+cred: 10
+desc: Design, analysis, and implementation of solutions in response to a real world electrical engineering problem, provided by industry, research laboratories, or other suitable entities.  Includes coverage of topics such as project management. 
+preq: ELEC 391 or EECE 380
+
+code: ELEC 492
+name: Electrical Energy Systems Capstone Design Project
+cred: 10
+desc: Design, analysis, and implementation of solutions in response to a real world electrical energy systems problem, provided by industry, research laboratories, or other suitable entities.  Includes coverage of topics such as project management. 
+preq: ELEC 391 or EECE 380
+
+code: ELEC 493
+name: Nanotechnology and Microsystems Capstone Design Project
+cred: 10
+desc: Design, analysis, and implementation of solutions in response to a real world nanotechnology and microsystems engineering problem.  Projects are provided by industry, research laboratories, or other suitable entities.  Includes coverage of topics such as project management. 
+preq: ELEC 391 or EECE 380
+
+code: ELEC 494
+name: Biomedical Engineering Capstone Design Project
+cred: 10
+desc: Design, analysis, and implementation of solutions in response to a real world biomedical engineering problem, provided by industry, research laboratories, or other suitable entities.  Includes coverage of topics such as project management. 
+preq: ELEC 391 or EECE 380
+
+code: ELEC 499
+name: Undergraduate Thesis
+cred: 3, 6
+desc: Project in electrical engineering or computer engineering involving design, experimental and/or computer simulation work as selected from topics supplied by faculty members. An individual project thesis is to be prepared according to specifications available from the departmental office. 

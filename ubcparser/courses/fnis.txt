@@ -1,0 +1,69 @@
+
+
+code: FNIS 100
+name: Indigenous Foundations
+cred: 3, 6
+desc: The historical, cultural, political, economic and legal issues that inform the experiences of Indigenous peoples in Canada, examined from both Indigenous and non-Indigenous perspectives. Credit will be granted for only one of FNIS 100, FNSP 100, or FNSP 200. 
+
+code: FNIS 210
+name: Indigenous Politics and Self-Determination
+cred: 3
+desc: The cultural, historical, political, economic, and gender dynamics that structure the relationship between Indigenous peoples and the state in Canada; Indigenous self-determination struggles in relation to constitutional recognition, self-government, land claims, and economic development. Credit will be granted for only one of FNSP 200, FNIS 210, or FNSP 210. 
+
+code: FNIS 220
+name: Representation and Indigenous Cultural Politics
+cred: 3
+desc: Representation, identity, and cultural politics through Indigenous literature, film, and the visual arts; the relationship between these sites of cultural production and the self-determination struggles of Indigenous peoples. Credit will be granted for only one of FNSP 200, FNIS 220, or FNSP 220. 
+preq: FNIS 210 or FNSP 210
+
+code: FNIS 300
+name: Writing First Nations
+cred: 3
+desc: A writing-intensive course examining approaches to writing Indigenous research: Representation & the Other; Indigenous critiques of research & representation; Indigenous, feminist and cultural studies approaches to writing ethnography, oral history, and related research methods. Credit will be granted for only one of FNIS 300 or FNSP 300. 
+preq: FNSP 200 or FNIS 210 or FNSP 210 or FNIS 220 or FNSP 220
+
+code: FNIS 310
+name: Theory Seminar
+cred: 3
+desc: Adapting and integrating current conceptual paradigms in the humanities, social sciences, performing arts, and Indigenous studies into approaches in First Nations/Indigenous Studies, including identity construction, political and cultural self-determination, representation, essentialism/authenticity, ethics, and decolonization. Credit will be granted for only one of FNIS 310 or FNSP 310. 
+preq: FNSP 200 or (FNIS 210 and FNIS 220) or (FNSP 210 and FNSP 220)
+
+code: FNIS 320
+name: Methods Seminar
+cred: 3
+desc: Responsible and community-based research from a critical Indigenous perspective; methods for identifying and assessing research materials, critical analysis, oral history/qualitative research interviewing and analysis, and research ethics in the design and implementation of community-based student research projects. Credit will be granted for only one of FNIS 320 or FNSP 320. 
+preq: FNIS 310 or FNSP 310
+
+code: FNIS 400
+name: Practicum/Advanced Research Seminar
+cred: 6
+desc: Applied research/community oriented project designed and implemented in collaboration with student, faculty and Aboriginal community organization. Emphasis on examining ethical issues and developing culturally respectful and academically rigorous forms of research. Credit will be granted for only one of FNIS 400 or FNSP 400. 
+preq: (FNIS 310 and FNIS 320) or (FNSP 310 and FNSP 320. Students must pass FNIS 320 and FNSP 320 with a B- and higher and request program approval)
+
+code: FNIS 401
+name: Special Topics
+cred: 3, 4, 5
+desc: Topics will vary from year to year. Consult the departmental website: http://fnsp.arts.ubc.ca. 
+preq: FNSP 200 or FNIS 210 or FNSP 210 or FNIS 220 or FNSP 220 or third-year standing
+
+code: FNIS 433
+name: Directed Study
+cred: 3, 6
+
+code: FNIS 451
+name: Indigenous Feminisms
+cred: 3
+desc: The historical, cultural, political, and activist roots of contemporary Indigenous feminisms. Indigenous feminist methodologies, theory, and praxis in relation to contemporary Indigenous politics and social justice movements. Credit will be granted for only one of FNSP 401D, FNIS 451, or FNSP 451. 
+preq: FNSP 200 or FNIS 210 or FNSP 210 or FNIS 220 or FNSP 220 or third-year standing
+
+code: FNIS 452
+name: Indigenous Social Movements
+cred: 3
+desc: Draws on Indigenous and non-Indigenous intellectual traditions to explore the theoretical, cultural, political, economic, and historical bases of Indigenous peoples decolonization struggles in Canada. Credit will be granted for only one of FNSP 401A, FNIS 452, or FNSP 452. 
+preq: FNSP 200 or FNIS 210 or FNSP 210 or FNIS 220 or FNSP 220 or third-year standing
+
+code: FNIS 453
+name: Indigenous Legal Traditions
+cred: 3
+desc: Socio-historical, political and cultural context of Indigenous legal traditions and strategies for ethical engagement within state and Indigenous polities. Methods include oral history analysis, legal theory, literary/narrative studies, and philosophy from an Indigenous studies perspective. 
+preq: FNSP 200 or FNIS 210 or FNSP 210 or FNIS 220 or FNSP 220 or 3rd year standing

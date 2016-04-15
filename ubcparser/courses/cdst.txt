@@ -1,0 +1,16 @@
+
+
+code: CDST 250
+name: Introduction to Canada
+cred: 3, 6
+desc: Approaches to the study of Canada from an interdisciplinary perspective, including cultural, political, historical, and economic dimensions. 
+
+code: CDST 350
+name: Canadian Studies
+cred: 3, 6
+desc: An interdisciplinary introduction to Canadian studies. Required of all Canadian Studies Majors. 
+
+code: CDST 450
+name: Senior Seminar in Canadian Studies
+cred: 3, 6
+desc: The Canadian experience from a variety of disciplinary perspectives. Offered by the McLean Chair in Canadian Studies. Required of all Canadian Studies Majors. 

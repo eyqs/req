@@ -1,0 +1,6 @@
+
+
+code: MEDI 430
+name: Medicine - Clinical Clerkship
+cred: 8
+desc: Clinical activities including examination, diagnosis, on-going management and discharge planning of patients and participation in academic half-days, consisting of seminars and patient-related discussions. 
