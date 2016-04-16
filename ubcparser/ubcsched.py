@@ -17,10 +17,10 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import urllib.request
-OUTFILE = 'terms.txt'
 # Adjust these according to which sessions are available
 SESSION = {'&sessyr=2015&sesscd=W': '2015W',
-           '&sessyr=2016&sesscd=S': '2016S'}
+           '&sessyr=2016&sesscd=S': '2016S',
+           '&sessyr=2016&sesscd=W': '2016W'}
 
 # Get the terms a course is offered
 def get_terms(url):
@@ -67,8 +67,8 @@ def get_depts(url):
 
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
-    with open(OUTFILE, 'w') as f:
-        for session in SESSION:
+    for session in SESSION:
+        with open(SESSION[session] + 'terms.txt', 'w') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' + session)
             if d:
