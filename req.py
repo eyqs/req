@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.0
+req v1.1.2
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -21,6 +21,7 @@ import tkinter as tk
 import tkinter.ttk as ttk
 
 FOLDER  = 'courses' # relative path to folder with course lists
+SHOWS   = 'shows.txt'
 MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
@@ -44,6 +45,12 @@ class Main(ttk.Frame):
         self.courses = {}
         self.widgets = {}
 
+        # Read in all course codes to show
+        show = []
+        with open(SHOWS) as f:
+            for line in f:
+                show.append(line.strip())
+
         # Parse all files in FOLDER as Courses
         for name in os.listdir(FOLDER):
             if name.endswith('.txt'):
@@ -54,9 +61,16 @@ class Main(ttk.Frame):
                             param = split[0].strip()
                             value = split[1].strip()
                             if param == 'code':
-                                course = Course(value)
-                                self.courses[value] = course
-                            else:
+                                if value in self.courses.keys():
+                                    hascourse = True
+                                    course = self.courses[value]
+                                elif value in show:
+                                    course = Course(value)
+                                    self.courses[value] = course
+                                    hascourse = True
+                                else:
+                                    hascourse = False
+                            elif hascourse:
                                 course.set_params(param, value)
 
         # Add prereqs, coreqs, and exclusions as dependencies
@@ -241,7 +255,7 @@ class Course():
             except KeyError:
                 pass
         elif param == 'term':
-            self.term = [t.strip() for t in value.split(',')]
+            self.term = [t.strip() for t in value[-1].split(',')]
         elif param == 'excl':
             self.excl = ['or'] + [e.strip() for e in value.split(',')]
         else:
