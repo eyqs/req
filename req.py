@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.4
+req v1.1.5
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -43,7 +43,8 @@ class Main(ttk.Frame):
         ttk.Frame.__init__(self, parent)
         self.pack(fill=tk.BOTH)
         self.courses = {}
-        self.widgets = {}
+        self.labels = {}
+        self.tooltips = {}
 
         # Read in all course codes in tabs and create them
         notebook = ttk.Notebook(self)
@@ -81,7 +82,8 @@ class Main(ttk.Frame):
                                 elif value in tabsall:
                                     course = Course(value)
                                     self.courses[value] = course
-                                    self.widgets[value] = []
+                                    self.labels[value] = []
+                                    self.tooltips[value] = []
                                     hascourse = True
                                 else:
                                     hascourse = False
@@ -142,12 +144,26 @@ class Main(ttk.Frame):
                 label = tk.Button(frame, text=code,
                                   command=lambda c=code: self.set_done(c))
                 label.grid(row=row, column=col)
-                self.widgets[code].append(label)
+                label.bind("<Enter>", lambda e, c=code: self.open_tooltip(c))
+                label.bind("<Leave>", lambda e, c=code: self.close_tooltip(c))
+                self.labels[code].append(label)
+                tooltip = ttk.Label(frame, text='')
+                tooltip.grid(row=row, column=col+1)
+                self.tooltips[code].append(tooltip)
                 self.update_course(code)
                 col += 1
                 if col >= MAXNUM:
                     row += 1
                     col = 0
+
+
+    # Open and close tooltips on mouse hover
+    def open_tooltip(self, code):
+        for tab in self.tooltips[code]:
+            tab.configure(text=self.courses[code].get_params('desc'))
+    def close_tooltip(self, code):
+        for tab in self.tooltips[code]:
+            tab.configure(text='')
 
 
     # Toggle whether the course has been taken and update its dependencies
@@ -195,8 +211,7 @@ class Main(ttk.Frame):
             else:
                 self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
-        print(code, colour)
-        for tab in self.widgets[code]:
+        for tab in self.labels[code]:
             tab.configure(activebackground = colour, bg = colour)
 
 
@@ -239,6 +254,7 @@ class Course():
     def __init__(self, code):
         self.code = code
         self.name = ''
+        self.desc = ''
         self.cred = []
         self.preq = []
         self.creq = []
@@ -255,6 +271,8 @@ class Course():
     def set_params(self, param, value):
         if param == 'name':
             self.name = value
+        elif param == 'desc':
+            self.desc = value
         elif param == 'cred':
             self.cred = [int(c.strip()) for c in value.split(',')]
         elif param == 'preq':
@@ -289,10 +307,11 @@ class Course():
 
     # Get course parameters
     def get_params(self, param=''):
-        params = {'code':self.code, 'name':self.name, 'cred':self.cred,
-                  'preq':self.preq, 'creq':self.creq, 'term':self.term,
-                  'excl':self.excl, 'preqs':self.preqs, 'creqs':self.creqs,
-                  'dreqs':self.dreqs, 'needs':self.needs, 'depth':self.depth}
+        params = {'code':self.code, 'name':self.name, 'desc':self.desc,
+                  'cred':self.cred, 'excl':self.excl, 'term':self.term,
+                  'preq':self.preq, 'creq':self.creq, 'preqs':self.preqs,
+                  'creqs':self.creqs, 'dreqs':self.dreqs,
+                  'needs':self.needs, 'depth':self.depth}
         if param in params.keys():
             return params[param]
         else:
