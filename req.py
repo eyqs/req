@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.5
+req v1.1.6
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -44,7 +44,7 @@ class Main(ttk.Frame):
         self.pack(fill=tk.BOTH)
         self.courses = {}
         self.labels = {}
-        self.tooltips = {}
+        self.tooltip = None
 
         # Read in all course codes in tabs and create them
         notebook = ttk.Notebook(self)
@@ -74,7 +74,7 @@ class Main(ttk.Frame):
                         split = line.split(':')
                         if len(split) > 1:
                             param = split[0].strip()
-                            value = split[1].strip()
+                            value = ':'.join(split[1:]).strip()
                             if param == 'code':
                                 if value in self.courses.keys():
                                     hascourse = True
@@ -83,7 +83,6 @@ class Main(ttk.Frame):
                                     course = Course(value)
                                     self.courses[value] = course
                                     self.labels[value] = []
-                                    self.tooltips[value] = []
                                     hascourse = True
                                 else:
                                     hascourse = False
@@ -144,12 +143,9 @@ class Main(ttk.Frame):
                 label = tk.Button(frame, text=code,
                                   command=lambda c=code: self.set_done(c))
                 label.grid(row=row, column=col)
-                label.bind("<Enter>", lambda e, c=code: self.open_tooltip(c))
-                label.bind("<Leave>", lambda e, c=code: self.close_tooltip(c))
+                label.bind("<Enter>", lambda e,c=code: self.open_tooltip(e,c))
+                label.bind("<Leave>", lambda e: self.close_tooltip(e))
                 self.labels[code].append(label)
-                tooltip = ttk.Label(frame, text='')
-                tooltip.grid(row=row, column=col+1)
-                self.tooltips[code].append(tooltip)
                 self.update_course(code)
                 col += 1
                 if col >= MAXNUM:
@@ -158,12 +154,18 @@ class Main(ttk.Frame):
 
 
     # Open and close tooltips on mouse hover
-    def open_tooltip(self, code):
-        for tab in self.tooltips[code]:
-            tab.configure(text=self.courses[code].get_params('desc'))
-    def close_tooltip(self, code):
-        for tab in self.tooltips[code]:
-            tab.configure(text='')
+    def open_tooltip(self, event, code):
+        if self.tooltip:
+            return
+        self.tooltip = tk.Toplevel(event.widget)
+        self.tooltip.geometry("+%d+%d" % (event.x_root + 5, event.y_root + 5))
+        label = ttk.Label(self.tooltip, wraplength=400,
+                          text=self.courses[code].get_params('desc'))
+        label.pack()
+    def close_tooltip(self, event):
+        if self.tooltip:
+            self.tooltip.destroy()
+            self.tooltip = None
 
 
     # Toggle whether the course has been taken and update its dependencies
