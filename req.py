@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.4
+req v1.1.7
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -195,7 +195,6 @@ class Main(ttk.Frame):
             else:
                 self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
-        print(code, colour)
         for tab in self.widgets[code]:
             tab.configure(activebackground = colour, bg = colour)
 
@@ -243,7 +242,7 @@ class Course():
         self.preq = []
         self.creq = []
         self.term = []
-        self.excl = []
+        self.excl = ['or']
         self.preqs = set()
         self.creqs = set()
         self.dreqs = set()
@@ -256,10 +255,10 @@ class Course():
         if param == 'name':
             self.name = value
         elif param == 'cred':
-            self.cred = [int(c.strip()) for c in value.split(',')]
+            self.cred.extend([int(c.strip()) for c in value.split(',')])
         elif param == 'preq':
             self.preq = get_reqs(value.split())
-            self.preqs = set(flatten(self.preq))
+            self.preqs.update(flatten(self.preq))
             try:
                 self.preqs.remove('and')
             except KeyError:
@@ -270,7 +269,7 @@ class Course():
                 pass
         elif param == 'creq':
             self.creq = get_reqs(value.split())
-            self.creqs = set(flatten(self.creq))
+            self.creqs.update(flatten(self.creq))
             try:
                 self.creqs.remove('and')
             except KeyError:
@@ -280,9 +279,9 @@ class Course():
             except KeyError:
                 pass
         elif param == 'term':
-            self.term = [t.strip() for t in value[-1].split(',')]
+            self.term.extend([t.strip() for t in value[-1].split(',')])
         elif param == 'excl':
-            self.excl = ['or'] + [e.strip() for e in value.split(',')]
+            self.excl.extend([e.strip() for e in value.split(',')])
         else:
             print('Error: parameter not recognized.')
 
