@@ -1,2000 +1,5 @@
 
 
-code: ADHE 327
-term: 2016S1, 
-
-code: ADHE 328
-term: 2016S1, 
-
-code: ADHE 329
-term: 2016S1, 
-
-code: ADHE 330
-term: 2016S1, 
-
-code: ADHE 412
-term: 2016S1, 
-
-code: ADHE 493
-term: 2016S1, 
-
-code: ANTH 100
-term: 2016S1, 
-
-code: ANTH 308
-term: 2016S1, 
-
-code: ANTH 378
-term: 2016S2, 
-
-code: ANTH 480A
-term: 2016S1, 
-
-code: ANTH 480B
-term: 2016S1, 
-
-code: APBI 100
-term: 2016SA, 
-
-code: APBI 314
-term: 2016S1, 
-
-code: APBI 315
-term: 2016S2, 
-
-code: APBI 365
-term: 2016S1-2, 
-
-code: APBI 428
-term: 2016SA, 
-
-code: APBI 496A
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: APBI 496B
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: APPP 504
-term: 2016S2, 
-
-code: APSC 110
-term: 2016S1-2, 
-
-code: APSC 160
-term: 2016S1, 
-
-code: APSC 176
-term: 2016S1-2, 2016S1, 
-
-code: APSC 180
-term: 2016S1-2, 
-
-code: APSC 201
-term: 2016S1, 
-
-code: APSC 210
-term: 2016S1-2, 
-
-code: APSC 310
-term: 2016S1-2, 
-
-code: APSC 410
-term: 2016S1-2, 
-
-code: APSC 411
-term: 2016S1-2, 
-
-code: APSC 412
-term: 2016S1-2, 
-
-code: APSC 461
-term: 2016S1, 
-
-code: APSC 462
-term: 2016S2, 
-
-code: ARCH 544G
-term: 2016S1-2, 
-
-code: ARCH 544Y
-term: 2016S1, 
-
-code: ARCH 555
-term: 2016S1-2, 
-
-code: ARCH 556
-term: 2016S1-2, 
-
-code: ARCH 573G
-term: 2016S1, 
-
-code: ARCH 577
-term: 2016S1-2, 
-
-code: ARST 517
-term: 2016S1, 
-
-code: ARST 554
-term: 2016S1, 
-
-code: ARST 570
-term: 2016S2, 
-
-code: ARST 593D
-term: 2016S1-2, 
-
-code: ARST 595
-term: 2016S1-2, 
-
-code: ARST 596
-term: 2016S1-2, 
-
-code: ASIA 326
-term: 2016S2, 
-
-code: ASIA 329
-term: 2016S1, 
-
-code: ASIA 339
-term: 2016S1, 
-
-code: ASIA 355
-term: 2016S2, 
-
-code: ASIA 371
-term: 2016S2, 
-
-code: ASIA 390
-term: 2016S1, 
-
-code: ASIA 397
-term: 2016S2, 
-
-code: ASIA 451
-term: 2016S2, 
-
-code: ASTR 311
-term: 2016SA, 
-
-code: ASTU 310
-term: 2016S1-2, 
-
-code: ASTU 311
-term: 2016S1-2, 
-
-code: ASTU 410
-term: 2016S1-2, 
-
-code: ASTU 411
-term: 2016S1-2, 
-
-code: ASTU 412
-term: 2016S1-2, 
-
-code: ASTU 501
-term: 2016S1-2, 
-
-code: ASTU 502
-term: 2016S1-2, 
-
-code: ASTU 503
-term: 2016S1-2, 
-
-code: ASTU 610
-term: 2016S1-2, 
-
-code: ASTU 611
-term: 2016S1-2, 
-
-code: ASTU 612
-term: 2016S1-2, 
-
-code: ASTU 613
-term: 2016S1-2, 
-
-code: ATSC 113
-term: 2016SA, 
-
-code: ATSC 398
-term: 2016S1-2, 
-
-code: ATSC 399
-term: 2016S1-2, 
-
-code: ATSC 498
-term: 2016S1-2, 
-
-code: ATSC 499
-term: 2016S1-2, 
-
-code: ATSC 597
-term: 2016S1-2, 
-
-code: ATSC 598
-term: 2016S1-2, 
-
-code: AUDI 402
-term: 2016S1-2, 2016SA, 
-
-code: AUDI 546A
-term: 2016S1, 
-
-code: AUDI 550A
-term: 2016S1, 
-
-code: AUDI 559
-term: 2016S1-2, 
-
-code: AUDI 565C
-term: 2016S1-2, 
-
-code: AUDI 566C
-term: 2016S1-2, 
-
-code: AUDI 567C
-term: 2016S1-2, 
-
-code: AUDI 576
-term: 2016S1, 
-
-code: AUDI 579
-term: 2016S1-2, 
-
-code: AUDI 590C
-term: 2016S1-2, 
-
-code: AUDI 591C
-term: 2016S1-2, 
-
-code: AUDI 593C
-term: 2016S1-2, 
-
-code: AUDI 594C
-term: 2016S1-2, 
-
-code: BIOC 202
-term: 2016S1, 
-
-code: BIOC 302
-term: 2016S2, 
-
-code: BIOC 398
-term: 2016S1-2, 
-
-code: BIOC 399
-term: 2016S1-2, 
-
-code: BIOC 498
-term: 2016S1-2, 
-
-code: BIOC 499
-term: 2016S1-2, 
-
-code: BIOL 111
-term: 2016S1, 
-
-code: BIOL 112
-term: 2016S1, 
-
-code: BIOL 121
-term: 2016S1, 
-
-code: BIOL 155
-term: 2016S1, 
-
-code: BIOL 200
-term: 2016S1, 
-
-code: BIOL 230
-term: 2016S1, 
-
-code: BIOL 234
-term: 2016S1, 
-
-code: BIOL 260
-term: 2016S1, 
-
-code: BIOL 300
-term: 2016S1, 
-
-code: BIOL 324
-term: 2016S2, 
-
-code: BIOL 335
-term: 2016S2, 
-
-code: BIOL 336
-term: 2016S2, 
-
-code: BIOL 361
-term: 2016S1, 
-
-code: BIOL 398
-term: 2016S1-2, 
-
-code: BIOL 399
-term: 2016S1-2, 
-
-code: BIOL 498
-term: 2016S1-2, 
-
-code: BIOL 499
-term: 2016S1-2, 
-
-code: BUSI 100
-term: 2016S1-2, 
-
-code: BUSI 101
-term: 2016S1-2, 
-
-code: BUSI 111
-term: 2016S1-2, 
-
-code: BUSI 112
-term: 2016S1-2, 
-
-code: BUSI 121
-term: 2016S1-2, 
-
-code: BUSI 293
-term: 2016S1, 
-
-code: BUSI 294
-term: 2016S2, 2016S1, 
-
-code: BUSI 300
-term: 2016S1, 
-
-code: BUSI 330
-term: 2016S1-2, 
-
-code: BUSI 331
-term: 2016S1-2, 
-
-code: BUSI 335
-term: 2016S2, 2016S1, 
-
-code: BUSI 344
-term: 2016S1-2, 
-
-code: BUSI 353
-term: 2016S2, 2016S1, 
-
-code: BUSI 354
-term: 2016S2, 2016S1, 
-
-code: BUSI 355
-term: 2016S2, 2016S1, 
-
-code: BUSI 370
-term: 2016S2, 2016S1, 
-
-code: BUSI 393
-term: 2016S2, 2016S1, 
-
-code: BUSI 398
-term: 2016S1-2, 
-
-code: BUSI 400
-term: 2016S1-2, 
-
-code: BUSI 401
-term: 2016S1-2, 
-
-code: BUSI 433
-term: 2016S2, 
-
-code: BUSI 442
-term: 2016S1-2, 
-
-code: BUSI 443
-term: 2016S1-2, 
-
-code: BUSI 444
-term: 2016S1-2, 
-
-code: BUSI 450
-term: 2016S2, 2016S1, 
-
-code: BUSI 452
-term: 2016S1-2, 
-
-code: BUSI 453
-term: 2016S2, 2016S1, 
-
-code: BUSI 455
-term: 2016S2, 2016S1, 
-
-code: BUSI 470
-term: 2016S2, 
-
-code: BUSI 493
-term: 2016S1, 
-
-code: BUSI 497
-term: 2016S1-2, 
-
-code: CAPS 301
-term: 2016S1-2, 
-
-code: CAPS 390
-term: 2016S1-2, 2016S1, 
-
-code: CAPS 391
-term: 2016S1, 
-
-code: CAPS 398
-term: 2016S1-2, 
-
-code: CAPS 399
-term: 2016S1-2, 
-
-code: CAPS 498
-term: 2016S1-2, 
-
-code: CAPS 499
-term: 2016S1-2, 
-
-code: CHEM 121
-term: 2016S1, 
-
-code: CHEM 123
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: CHEM 233
-term: 2016S1, 
-
-code: CHEM 235
-term: 2016S1, 
-
-code: CHEM 398
-term: 2016S1-2, 
-
-code: CHEM 399
-term: 2016S1-2, 
-
-code: CHEM 498
-term: 2016S1-2, 
-
-code: CHEM 499
-term: 2016S1-2, 
-
-code: CHIN 134
-term: 2016S2, 2016S1, 
-
-code: CHIN 234
-term: 2016S2, 
-
-code: CHIN 244
-term: 2016S2, 
-
-code: CHIN 435
-term: 2016S1, 
-
-code: CHIN 437
-term: 2016S1, 
-
-code: CHIN 444
-term: 2016S2, 
-
-code: CHIN 464
-term: 2016S1, 
-
-code: CHIN 474
-term: 2016S2, 
-
-code: CHIN 484
-term: 2016S2, 2016S1, 
-
-code: CIVL 200
-term: 2016SA, 2016S1, 
-
-code: CIVL 235
-term: 2016S1, 
-
-code: CIVL 541
-term: 2016S1-2, 
-
-code: CIVL 598G
-term: 2016S1, 
-
-code: CNPS 363
-term: 2016S1, 
-
-code: CNPS 364
-term: 2016S1, 
-
-code: CNPS 365
-term: 2016S2, 2016S1, 
-
-code: CNPS 427
-term: 2016S1, 
-
-code: CNPS 433
-term: 2016S1-2, 
-
-code: CNPS 580A
-term: 2016S1-2, 
-
-code: CNPS 598C
-term: 2016S1, 
-
-code: CNPS 598H
-term: 2016S1-2, 2016S1, 
-
-code: CNRS 535
-term: 2016S1-2, 
-
-code: CNTO 301
-term: 2016S1, 
-
-code: CNTO 303
-term: 2016S2, 
-
-code: COMM 203
-term: 2016S1, 
-
-code: COMM 204
-term: 2016S2, 2016S1, 
-
-code: COMM 205
-term: 2016S1, 
-
-code: COMM 290
-term: 2016S1, 
-
-code: COMM 293
-term: 2016S1, 
-
-code: COMM 294
-term: 2016S2, 2016S1, 
-
-code: COMM 295
-term: 2016S1, 
-
-code: COMM 335
-term: 2016S1, 
-
-code: COMM 380
-term: 2016S1-2, 
-
-code: COMM 381
-term: 2016S1-2, 
-
-code: COMM 390
-term: 2016S1-2, 2016S1, 
-
-code: COMM 393
-term: 2016S2, 2016S1, 
-
-code: COMM 394
-term: 2016S1, 
-
-code: COMM 395
-term: 2016S2, 2016S1, 
-
-code: COMM 480
-term: 2016S1-2, 
-
-code: COMM 481
-term: 2016S1-2, 
-
-code: COMM 491
-term: 2016S2, 2016S1, 
-
-code: COMM 493
-term: 2016S2, 
-
-code: COMM 498
-term: 2016S1, 
-
-code: CPEN 291
-term: 2016S1, 
-
-code: CPEN 311
-term: 2016S1, 
-
-code: CPEN 481
-term: 2016S1, 
-
-code: CPEN 499A
-term: 2016S1, 
-
-code: CPEN 499B
-term: 2016S1, 
-
-code: CPSC 110
-term: 2016S1-2, 2016S1, 
-
-code: CPSC 121
-term: 2016S1, 
-
-code: CPSC 210
-term: 2016S2, 
-
-code: CPSC 213
-term: 2016S2, 
-
-code: CPSC 221
-term: 2016S1, 
-
-code: CPSC 304
-term: 2016S1, 
-
-code: CPSC 310
-term: 2016S1-2, 2016S1, 
-
-code: CPSC 313
-term: 2016S1, 
-
-code: CPSC 320
-term: 2016S1, 
-
-code: CRWR 200
-term: 2016S1, 
-
-code: CRWR 570L
-term: 2016S2, 
-
-code: DENT 420
-term: 2016S1, 
-
-code: ECED 407
-term: 2016S1-2, 
-
-code: ECED 416
-term: 2016S2, 
-
-code: ECED 417
-term: 2016S1-2, 
-
-code: ECED 420
-term: 2016S1-2, 
-
-code: ECED 438
-term: 2016S1-2, 
-
-code: ECED 598A
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: ECED 598C
-term: 2016S1-2, 
-
-code: ECON 101
-term: 2016S2, 2016S1, 
-
-code: ECON 102
-term: 2016S2, 2016S1, 
-
-code: ECON 301
-term: 2016S1, 
-
-code: ECON 302
-term: 2016S2, 
-
-code: ECON 325
-term: 2016S1, 
-
-code: ECON 326
-term: 2016S2, 
-
-code: ECON 345
-term: 2016S1, 
-
-code: ECON 351
-term: 2016S1, 
-
-code: ECON 355
-term: 2016S1, 
-
-code: ECON 356
-term: 2016S2, 
-
-code: ECON 456
-term: 2016S1, 
-
-code: ECON 471
-term: 2016S1, 
-
-code: ECON 594
-term: 2016S1-2, 
-
-code: EDCP 305
-term: 2016S2, 
-
-code: EDCP 325
-term: 2016S2, 
-
-code: EDCP 344
-term: 2016S2, 
-
-code: EDCP 409
-term: 2016S2, 
-
-code: EDCP 412
-term: 2016S2, 
-
-code: EDCP 420
-term: 2016S2, 
-
-code: EDCP 431
-term: 2016S2, 
-
-code: EDCP 432
-term: 2016S2, 
-
-code: EDCP 441B
-term: 2016S2, 
-
-code: EDCP 470
-term: 2016S2, 
-
-code: EDCP 471A
-term: 2016S2, 
-
-code: EDCP 472
-term: 2016S2, 
-
-code: EDCP 474
-term: 2016S2, 
-
-code: EDCP 481
-term: 2016S2, 
-
-code: EDCP 491
-term: 2016S2, 
-
-code: EDCP 493
-term: 2016S1-2, 
-
-code: EDCP 494
-term: 2016S1-2, 
-
-code: EDCP 496
-term: 2016S2, 
-
-code: EDCP 585D
-term: 2016S2, 
-
-code: EDCP 598C
-term: 2016S2, 2016S1, 
-
-code: EDST 403
-term: 2016S1-2, 2016S1, 
-
-code: EDST 404
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: EDST 561A
-term: 2016S1, 
-
-code: EDST 565E
-term: 2016S1-2, 
-
-code: EDUC 179
-term: 2016S1-2, 
-
-code: EDUC 279
-term: 2016S1-2, 
-
-code: EDUC 319
-term: 2016S1, 
-
-code: EDUC 321
-term: 2016S1, 
-
-code: EDUC 399
-term: 2016S1, 
-
-code: EDUC 430
-term: 2016S1, 
-
-code: EDUC 440
-term: 2016S1, 
-
-code: EDUC 442A
-term: 2016S2, 
-
-code: EDUC 452A
-term: 2016S1-2, 2016S2, 
-
-code: EDUC 452B
-term: 2016S1-2, 2016S2, 
-
-code: EDUC 495F
-term: 2016S1, 
-
-code: EDUC 496B
-term: 2016S1, 
-
-code: EDUC 496I
-term: 2016S1, 
-
-code: EECE 543
-term: 2016S1, 
-
-code: EECE 584
-term: 2016S1-2, 
-
-code: ELEC 291
-term: 2016S1, 
-
-code: ELEC 341
-term: 2016S1, 
-
-code: ELEC 391
-term: 2016S1, 
-
-code: ELEC 400V
-term: 2016S1-2, 
-
-code: ELEC 481
-term: 2016S1, 
-
-code: ENDS 482D
-term: 2016S1-2, 
-
-code: ENDS 482G
-term: 2016S1-2, 
-
-code: ENDS 482H
-term: 2016S1-2, 
-
-code: ENDS 482O
-term: 2016S1-2, 
-
-code: ENGL 110
-term: 2016S2, 2016S1, 
-
-code: ENGL 112
-term: 2016S1-2, 2016SA, 2016S2, 2016S1, 
-
-code: ENGL 220
-term: 2016S2, 2016S1, 
-
-code: ENGL 223
-term: 2016S1, 
-
-code: ENGL 301
-term: 2016S1-2, 2016SA, 
-
-code: ENGL 321
-term: 2016SA, 
-
-code: ENGL 348A
-term: 2016S1, 
-
-code: ENGL 359A
-term: 2016S2, 
-
-code: ENGL 364A
-term: 2016SA, 
-
-code: ENGL 406A
-term: 2016S2, 
-
-code: ENGL 468A
-term: 2016S1, 
-
-code: ENGL 470A
-term: 2016SA, 
-
-code: ENGL 474A
-term: 2016S1, 
-
-code: ENPH 253
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: ENPH 257
-term: 2016S1, 
-
-code: ENPH 270
-term: 2016S1, 
-
-code: EOSC 114
-term: 2016SA, 2016S1, 
-
-code: EOSC 116
-term: 2016SA, 
-
-code: EOSC 118
-term: 2016SA, 
-
-code: EOSC 310
-term: 2016SA, 
-
-code: EOSC 315
-term: 2016SA, 
-
-code: EOSC 326
-term: 2016SA, 
-
-code: EOSC 398
-term: 2016S1-2, 
-
-code: EOSC 399
-term: 2016S1-2, 
-
-code: EOSC 498
-term: 2016S1-2, 
-
-code: EOSC 499
-term: 2016S1-2, 
-
-code: EPSE 303
-term: 2016S2, 
-
-code: EPSE 308
-term: 2016S1-2, 
-
-code: EPSE 312
-term: 2016S2, 
-
-code: EPSE 316
-term: 2016S2, 
-
-code: EPSE 317
-term: 2016S2, 
-
-code: EPSE 348
-term: 2016S1-2, 
-
-code: EPSE 390A
-term: 2016S1, 
-
-code: EPSE 401
-term: 2016S2, 
-
-code: EPSE 403
-term: 2016S2, 2016S1, 
-
-code: EPSE 406
-term: 2016S1, 
-
-code: EPSE 408
-term: 2016S2, 
-
-code: EPSE 421
-term: 2016S2, 
-
-code: EPSE 432
-term: 2016S2, 
-
-code: EPSE 433
-term: 2016S2, 
-
-code: EPSE 436
-term: 2016S2, 
-
-code: EPSE 437
-term: 2016S2, 
-
-code: EPSE 449
-term: 2016S2, 2016S1, 
-
-code: EPSE 482
-term: 2016S2, 
-
-code: EPSE 554
-term: 2016S1-2, 
-
-code: EPSE 561C
-term: 2016S1, 
-
-code: EPSE 589B
-term: 2016S1-2, 
-
-code: EPSE 598A
-term: 2016S1-2, 2016S1, 
-
-code: EPSE 598B
-term: 2016S1, 
-
-code: EPSE 598G
-term: 2016S1, 
-
-code: EPSE 687A
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: EPSE 687C
-term: 2016S1-2, 
-
-code: EPSE 688A
-term: 2016S1-2, 
-
-code: EPSE 689B
-term: 2016S1-2, 
-
-code: FMST 210
-term: 2016S2, 2016S1, 
-
-code: FMST 312
-term: 2016S2, 2016S1, 
-
-code: FMST 314
-term: 2016S2, 2016S1, 
-
-code: FMST 316
-term: 2016S1, 
-
-code: FNH 200
-term: 2016S1-2, 2016SA, 2016S2, 2016S1, 
-
-code: FNH 250
-term: 2016S1-2, 2016SA, 2016S1, 
-
-code: FNH 355
-term: 2016S1, 
-
-code: FNH 483
-term: 2016S1, 
-
-code: FNIS 210
-term: 2016S1, 
-
-code: FNIS 220
-term: 2016S2, 
-
-code: FNIS 401P
-term: 2016S1-2, 
-
-code: FOOD 531
-term: 2016S1-2, 
-
-code: FOPR 264
-term: 2016SB, 
-
-code: FOPR 362
-term: 2016SB, 
-
-code: FREN 101
-term: 2016S1, 
-
-code: FREN 102
-term: 2016S2, 
-
-code: FREN 111
-term: 2016S1, 
-
-code: FREN 112
-term: 2016S2, 
-
-code: FREN 329
-term: 2016S1, 
-
-code: FREN 420D
-term: 2016S1, 
-
-code: FREN 420R
-term: 2016S1, 
-
-code: FRST 231
-term: 2016SA, 
-
-code: FRST 248
-term: 2016S1-2, 
-
-code: FRST 346
-term: 2016S1-2, 
-
-code: FRST 347
-term: 2016S1-2, 
-
-code: FRST 348
-term: 2016S1-2, 
-
-code: FRST 446
-term: 2016S1-2, 
-
-code: FRST 447
-term: 2016S1-2, 
-
-code: FRST 448
-term: 2016S1-2, 
-
-code: FRST 449C
-term: 2016S2, 
-
-code: FRST 555
-term: 2016S2, 
-
-code: GBPR 502
-term: 2016S1-2, 
-
-code: GEOB 103
-term: 2016S1, 
-
-code: GEOG 122
-term: 2016S1, 
-
-code: GEOG 310
-term: 2016S1, 
-
-code: GEOG 350
-term: 2016SA, 
-
-code: GEOG 352
-term: 2016S1, 
-
-code: GERM 100
-term: 2016S1, 
-
-code: GERM 110
-term: 2016S2, 
-
-code: GERM 112
-term: 2016S1, 
-
-code: GERM 200
-term: 2016S1, 
-
-code: GERM 210
-term: 2016S2, 
-
-code: GERM 433
-term: 2016S1, 
-
-code: GERM 515A
-term: 2016S1, 
-
-code: GRSJ 101
-term: 2016S1, 
-
-code: GRSJ 224A
-term: 2016S1-2, 2016SA, 
-
-code: GRSJ 224C
-term: 2016S1-2, 
-
-code: GRSJ 300
-term: 2016S1-2, 2016SA, 2016S1, 
-
-code: GRSJ 503G
-term: 2016S1, 
-
-code: HIST 103
-term: 2016S1-2, 
-
-code: HIST 104
-term: 2016SA, 
-
-code: HIST 326
-term: 2016S1, 
-
-code: HIST 357
-term: 2016S2, 
-
-code: HIST 370
-term: 2016S1, 
-
-code: HIST 380C
-term: 2016S1-2, 
-
-code: HIST 425
-term: 2016S1-2, 
-
-code: HIST 441
-term: 2016S2, 
-
-code: IAR 525
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: ISCI 398
-term: 2016S1-2, 
-
-code: ISCI 399
-term: 2016S1-2, 
-
-code: ISCI 498
-term: 2016S1-2, 
-
-code: ISCI 499
-term: 2016S1-2, 
-
-code: ITAL 101
-term: 2016S1, 
-
-code: ITAL 102
-term: 2016S2, 
-
-code: ITAL 104
-term: 2016S1, 
-
-code: ITAL 342
-term: 2016S2, 
-
-code: IWME 501
-term: 2016S1-2, 
-
-code: IWME 502
-term: 2016S1, 
-
-code: JAPN 100
-term: 2016S1-2, 2016SA, 2016S2, 2016S1, 
-
-code: JAPN 101
-term: 2016S2, 2016S1, 
-
-code: JAPN 200
-term: 2016S2, 
-
-code: JAPN 201
-term: 2016S2, 
-
-code: JAPN 320
-term: 2016S1, 
-
-code: JAPN 321
-term: 2016S1, 
-
-code: JAPN 322
-term: 2016S2, 
-
-code: JAPN 323
-term: 2016S2, 
-
-code: JAPN 400
-term: 2016S1, 
-
-code: JAPN 401
-term: 2016S1, 
-
-code: JAPN 402
-term: 2016S2, 
-
-code: JRNL 527
-term: 2016S1-2, 
-
-code: KIN 101
-term: 2016S1-2, 
-
-code: KIN 151
-term: 2016S1, 
-
-code: KIN 161
-term: 2016S1, 
-
-code: KIN 190
-term: 2016S1, 
-
-code: KIN 191
-term: 2016S2, 
-
-code: KIN 201
-term: 2016S1-2, 
-
-code: KIN 275
-term: 2016S1, 
-
-code: KIN 284
-term: 2016S2, 
-
-code: KIN 301
-term: 2016S1-2, 
-
-code: KIN 375
-term: 2016S2, 
-
-code: KIN 401
-term: 2016S1-2, 
-
-code: KIN 402
-term: 2016S1-2, 
-
-code: KIN 469
-term: 2016S1, 
-
-code: KORN 102
-term: 2016S1, 
-
-code: LARC 510A
-term: 2016S1, 
-
-code: LARC 510B
-term: 2016S1-2, 
-
-code: LARC 582K
-term: 2016S1-2, 
-
-code: LATN 101
-term: 2016S2, 
-
-code: LAW 379D
-term: 2016S1-2, 
-
-code: LAW 468
-term: 2016S2, 
-
-code: LAW 476
-term: 2016S1, 
-
-code: LAW 488
-term: 2016S1-2, 
-
-code: LAW 505
-term: 2016S1-2, 
-
-code: LAW 507
-term: 2016S1, 
-
-code: LAW 515
-term: 2016S1-2, 
-
-code: LAW 555C
-term: 2016S2, 
-
-code: LFS 398
-term: 2016S1-2, 
-
-code: LFS 399
-term: 2016S1-2, 
-
-code: LFS 496A
-term: 2016S1-2, 
-
-code: LFS 496B
-term: 2016S1-2, 
-
-code: LFS 498
-term: 2016S1-2, 
-
-code: LFS 499
-term: 2016S1-2, 
-
-code: LIBE 461
-term: 2016S1, 
-
-code: LIBE 598A
-term: 2016S1, 
-
-code: LIBR 504
-term: 2016S2, 
-
-code: LIBR 522J
-term: 2016S1, 
-
-code: LIBR 524
-term: 2016S1, 
-
-code: LIBR 525
-term: 2016S2, 
-
-code: LIBR 548H
-term: 2016S2, 
-
-code: LIBR 554
-term: 2016S1, 
-
-code: LIBR 572
-term: 2016S1, 
-
-code: LIBR 576
-term: 2016S2, 
-
-code: LIBR 579G
-term: 2016S1, 
-
-code: LIBR 580
-term: 2016S1, 
-
-code: LIBR 592
-term: 2016S1-2, 
-
-code: LIBR 595
-term: 2016S1-2, 
-
-code: LIBR 596
-term: 2016S1-2, 2016S1, 
-
-code: LING 101
-term: 2016S1, 
-
-code: LING 200
-term: 2016S1, 
-
-code: LING 201
-term: 2016S1, 
-
-code: LING 222
-term: 2016S2, 
-
-code: LING 448C
-term: 2016S1-2, 
-
-code: LLED 352
-term: 2016S1-2, 
-
-code: LLED 361
-term: 2016S1, 
-
-code: LLED 367
-term: 2016S2, 
-
-code: LLED 387
-term: 2016S2, 
-
-code: LLED 399
-term: 2016S2, 
-
-code: LLED 421
-term: 2016S1-2, 
-
-code: LLED 423
-term: 2016S2, 
-
-code: LLED 433
-term: 2016S2, 
-
-code: LLED 434
-term: 2016S2, 
-
-code: LLED 435A
-term: 2016S2, 
-
-code: LLED 444
-term: 2016S2, 
-
-code: LLED 449
-term: 2016S2, 
-
-code: LLED 469
-term: 2016S2, 
-
-code: LLED 478A
-term: 2016S2, 
-
-code: LLED 478B
-term: 2016S2, 
-
-code: LLED 478C
-term: 2016S2, 
-
-code: LLED 480A
-term: 2016S2, 
-
-code: LLED 489A
-term: 2016S2, 2016S1, 
-
-code: LLED 489B
-term: 2016S2, 2016S1, 
-
-code: LLED 489C
-term: 2016S2, 
-
-code: MATH 002
-term: 2016S2, 
-
-code: MATH 100
-term: 2016S1, 
-
-code: MATH 101
-term: 2016S2, 
-
-code: MATH 104
-term: 2016S1, 
-
-code: MATH 105
-term: 2016S2, 
-
-code: MATH 200
-term: 2016S1, 
-
-code: MATH 215
-term: 2016S1, 
-
-code: MATH 220
-term: 2016S1-2, 
-
-code: MATH 221
-term: 2016S1, 
-
-code: MATH 253
-term: 2016S1, 
-
-code: MATH 255
-term: 2016S1, 
-
-code: MATH 257
-term: 2016S2, 
-
-code: MATH 307
-term: 2016S1, 
-
-code: MATH 312
-term: 2016S1, 
-
-code: MATH 316
-term: 2016S2, 
-
-code: MECH 227
-term: 2016S2, 
-
-code: MECH 575H
-term: 2016S1-2, 
-
-code: MECH 575I
-term: 2016S1-2, 
-
-code: MEDG 570
-term: 2016S1-2, 
-
-code: MEDG 575
-term: 2016S1-2, 
-
-code: MGMT 100
-term: 2016S1-2, 
-
-code: MGMT 200
-term: 2016S1-2, 
-
-code: MICB 201
-term: 2016S1, 
-
-code: MICB 202
-term: 2016S2, 
-
-code: MICB 398
-term: 2016S1-2, 
-
-code: MICB 399
-term: 2016S1-2, 
-
-code: MICB 498
-term: 2016S1-2, 
-
-code: MICB 499
-term: 2016S1-2, 
-
-code: MTRL 512
-term: 2016S1-2, 
-
-code: MUSC 512E
-term: 2016S1-2, 
-
-code: NAME 592
-term: 2016S1-2, 2016S2, 
-
-code: NURS 340
-term: 2016S2, 2016S1, 
-
-code: NURS 342
-term: 2016S1, 
-
-code: NURS 410A
-term: 2016S1, 
-
-code: NURS 504
-term: 2016S1, 
-
-code: NURS 541
-term: 2016S1, 
-
-code: NURS 548
-term: 2016S1, 
-
-code: NURS 586A
-term: 2016S1, 
-
-code: PATH 451
-term: 2016S1-2, 
-
-code: PATH 548C
-term: 2016S1, 
-
-code: PCTH 398
-term: 2016S1-2, 
-
-code: PCTH 399
-term: 2016S1-2, 
-
-code: PCTH 498
-term: 2016S1-2, 
-
-code: PCTH 499
-term: 2016S1-2, 
-
-code: PHAR 369
-term: 2016S2, 2016S1, 
-
-code: PHAR 469
-term: 2016S2, 2016S1, 
-
-code: PHAR 479
-term: 2016S1-2, 
-
-code: PHAR 533A
-term: 2016S1-2, 
-
-code: PHAR 534S
-term: 2016S1-2, 
-
-code: PHAR 534T
-term: 2016S1-2, 
-
-code: PHIL 101
-term: 2016S2, 2016S1, 
-
-code: PHIL 102
-term: 2016S1, 
-
-code: PHIL 120
-term: 2016SA, 2016S1, 
-
-code: PHIL 220A
-term: 2016SA, 2016S1, 
-
-code: PHIL 230A
-term: 2016S2, 
-
-code: PHIL 338A
-term: 2016S1, 
-
-code: PHIL 433A
-term: 2016S1-2, 2016SA, 2016S2, 
-
-code: PHIL 434A
-term: 2016S1-2, 2016SA, 
-
-code: PHRM 171
-term: 2016S2, 2016S1, 
-
-code: PHTH 531
-term: 2016S2, 
-
-code: PHTH 534
-term: 2016S1, 
-
-code: PHTH 544
-term: 2016S2, 
-
-code: PHTH 545
-term: 2016S2, 
-
-code: PHTH 546
-term: 2016S2, 
-
-code: PHTH 574
-term: 2016S1-2, 
-
-code: PHYS 100
-term: 2016SA, 
-
-code: PHYS 101
-term: 2016S1, 
-
-code: PHYS 118
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: PHYS 119
-term: 2016S1, 
-
-code: PHYS 250
-term: 2016S1-2, 
-
-code: PHYS 298
-term: 2016S1-2, 2016S2, 
-
-code: PHYS 299
-term: 2016S1-2, 
-
-code: PHYS 399
-term: 2016S1-2, 
-
-code: PHYS 498
-term: 2016S1-2, 
-
-code: PHYS 499
-term: 2016S1-2, 
-
-code: PHYS 555B
-term: 2016S1-2, 
-
-code: PHYS 555F
-term: 2016S1-2, 
-
-code: PLAN 503
-term: 2016S1, 
-
-code: PLAN 548E
-term: 2016S1, 
-
-code: PLAN 548H
-term: 2016S1, 
-
-code: PLAN 548W
-term: 2016S1-2, 
-
-code: PLAN 548Z
-term: 2016S1, 
-
-code: PLAN 583
-term: 2016S2, 
-
-code: PLAN 587B
-term: 2016S1, 
-
-code: PLAN 587E
-term: 2016S1, 
-
-code: PLAN 590A
-term: 2016S1, 
-
-code: POLI 100
-term: 2016S2, 
-
-code: POLI 101
-term: 2016S1, 
-
-code: POLI 110
-term: 2016S1, 
-
-code: POLI 240
-term: 2016S1, 
-
-code: POLI 260
-term: 2016S1, 
-
-code: POLI 308B
-term: 2016S2, 
-
-code: POLI 326
-term: 2016S1, 
-
-code: POLI 364A
-term: 2016S1, 
-
-code: POLI 373
-term: 2016S2, 
-
-code: POLI 375A
-term: 2016S2, 
-
-code: PORT 101
-term: 2016S1, 
-
-code: PSYC 101
-term: 2016S1, 
-
-code: PSYC 102
-term: 2016S1, 
-
-code: PSYC 217
-term: 2016S1, 
-
-code: PSYC 218
-term: 2016S2, 
-
-code: PSYC 300A
-term: 2016SA, 2016S1, 
-
-code: PSYC 304
-term: 2016SA, 
-
-code: PSYC 305A
-term: 2016S1, 
-
-code: PSYC 309A
-term: 2016S1, 
-
-code: PSYC 314
-term: 2016SA, 2016S2, 
-
-code: PSYC 315
-term: 2016SA, 
-
-code: PSYC 321
-term: 2016S1, 
-
-code: PSYC 331
-term: 2016S2, 
-
-code: PSYC 333
-term: 2016S2, 
-
-code: PSYC 350A
-term: 2016S1, 
-
-code: PSYC 398
-term: 2016S1-2, 
-
-code: PSYC 399
-term: 2016S1-2, 
-
-code: PSYC 417A
-term: 2016S1, 
-
-code: PSYC 498
-term: 2016S1-2, 
-
-code: PSYC 499
-term: 2016S1-2, 
-
-code: PSYC 559
-term: 2016S1-2, 2016S1, 
-
-code: RHSC 420
-term: 2016S2, 
-
-code: RMST 234
-term: 2016S1, 
-
-code: RSOT 519
-term: 2016S1-2, 
-
-code: RSOT 538
-term: 2016S1-2, 
-
-code: RSOT 545
-term: 2016S1-2, 
-
-code: RSOT 547
-term: 2016S1-2, 
-
-code: RSOT 549
-term: 2016S1-2, 
-
-code: RSOT 551
-term: 2016S1, 
-
-code: RSOT 553
-term: 2016S1, 
-
-code: SCAN 411B
-term: 2016S1, 
-
-code: SOCI 100C
-term: 2016S2, 2016S1, 
-
-code: SOCI 200
-term: 2016S2, 2016S1, 
-
-code: SOCI 201A
-term: 2016S1, 
-
-code: SOCI 217A
-term: 2016S1, 
-
-code: SOCI 240A
-term: 2016S2, 
-
-code: SOCI 250A
-term: 2016S1, 
-
-code: SOCI 260A
-term: 2016S2, 
-
-code: SOCI 310A
-term: 2016S2, 
-
-code: SOCI 328
-term: 2016S2, 
-
-code: SOCI 342
-term: 2016S2, 
-
-code: SOCI 350A
-term: 2016S1, 
-
-code: SOCI 480A
-term: 2016S1, 
-
-code: SOCI 480B
-term: 2016S1, 
-
-code: SOWK 415
-term: 2016S1-2, 
-
-code: SOWK 452
-term: 2016S1, 
-
-code: SOWK 506
-term: 2016S1-2, 
-
-code: SOWK 560C
-term: 2016S1-2, 
-
-code: SPAN 101
-term: 2016S1, 
-
-code: SPAN 102
-term: 2016S2, 
-
-code: SPAN 201
-term: 2016S1, 
-
-code: SPAN 202
-term: 2016S2, 
-
-code: SPAN 430E
-term: 2016S1, 
-
-code: SPHA 533
-term: 2016S1, 
-
-code: SPHA 544
-term: 2016S1, 
-
-code: SPHA 561
-term: 2016S1, 
-
-code: SPHA 564
-term: 2016S1, 
-
-code: SPPH 508
-term: 2016S1-2, 
-
-code: SPPH 580A
-term: 2016S1, 
-
-code: SPPH 598
-term: 2016S1-2, 
-
-code: STAT 200
-term: 2016S2, 
-
-code: STAT 241
-term: 2016S1, 
-
-code: STAT 251
-term: 2016S1, 
-
-code: STAT 398
-term: 2016S1-2, 
-
-code: STAT 399
-term: 2016S1-2, 
-
-code: STAT 498
-term: 2016S1-2, 
-
-code: STAT 499
-term: 2016S1-2, 
-
-code: STAT 598
-term: 2016S1-2, 
-
-code: STAT 599
-term: 2016S1-2, 
-
-code: URSY 530
-term: 2016S1-2, 
-
-code: URSY 550
-term: 2016S1-2, 
-
-code: VANT 140A
-term: 2016S1-2, 
-
-code: VANT 149
-term: 2016S1-2, 
-
-code: VANT 151
-term: 2016S1-2, 
-
-code: WOOD 300
-term: 2016S1-2, 
-
-code: WOOD 305
-term: 2016S1, 
-
-code: WOOD 312
-term: 2016S1-2, 
-
-code: WOOD 400
-term: 2016S1-2, 
-
-code: WOOD 411
-term: 2016S1-2, 
-
-code: WRDS 150
-term: 2016S2, 2016S1, 
-
-code: WRIT 098
-term: 2016S1-2, 2016S2, 2016S1, 
-
-code: WRIT 099
-term: 2016S1-2, 2016S2, 2016S1, 
-
 code: AANB 504
 term: 2015W1, 
 
@@ -2002,31 +7,31 @@ code: AANB 515
 term: 2015W2, 
 
 code: ADHE 327
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ADHE 328
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ADHE 329
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ADHE 330
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ADHE 412
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: AFST 250A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANAT 527
 term: 2015W1, 
 
 code: ANTH 100A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 201A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 202A
 term: 2015W2, 
@@ -2041,19 +46,19 @@ code: ANTH 215
 term: 2015W1, 
 
 code: ANTH 217
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 220
 term: 2015W2, 
 
 code: ANTH 227
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 241
 term: 2015W2, 
 
 code: ANTH 300A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 301
 term: 2015W2, 
@@ -2074,7 +79,7 @@ code: ANTH 317A
 term: 2015W1, 
 
 code: ANTH 331A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 350A
 term: 2015W1, 
@@ -2086,7 +91,7 @@ code: ANTH 378
 term: 2015W2, 
 
 code: ANTH 400A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ANTH 409A
 term: 2015W1, 
@@ -2143,7 +148,7 @@ code: APBI 312
 term: 2015W2, 
 
 code: APBI 314
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APBI 315
 term: 2015W2, 
@@ -2239,10 +244,10 @@ code: APBI 495
 term: 2015W2, 
 
 code: APBI 496A
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: APBI 496B
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: APPP 501
 term: 2015W2, 
@@ -2260,10 +265,10 @@ code: APSC 101
 term: 2015W2, 
 
 code: APSC 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 160
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 172
 term: 2015W1, 
@@ -2281,10 +286,10 @@ code: APSC 183
 term: 2015W2, 
 
 code: APSC 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 210
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 261
 term: 2015W1, 
@@ -2293,31 +298,31 @@ code: APSC 262
 term: 2015W2, 
 
 code: APSC 278
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 279
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 310
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 377
 term: 2015W1, 
 
 code: APSC 410
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 411
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 412
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 440
 term: 2015W2, 
 
 code: APSC 450
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: APSC 498A
 term: 2015W2, 
@@ -2383,10 +388,10 @@ code: ARCH 544S
 term: 2015W1, 
 
 code: ARCH 555
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARCH 556
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARCH 561
 term: 2015W1, 
@@ -2407,13 +412,13 @@ code: ARCH 573E
 term: 2015W1, 
 
 code: ARCL 103
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARCL 140
 term: 2015W1, 
 
 code: ARCL 203
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARCL 204
 term: 2015W2, 
@@ -2500,7 +505,7 @@ code: ARST 565
 term: 2015W2, 
 
 code: ARST 570
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARST 573
 term: 2015W1, 
@@ -2515,7 +520,7 @@ code: ARST 580
 term: 2015W2, 
 
 code: ARST 587
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARST 591
 term: 2015W1, 
@@ -2524,7 +529,7 @@ code: ARST 595
 term: 2015W1-2, 
 
 code: ARST 596
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: ARST 620
 term: 2015W1-2, 
@@ -2542,13 +547,13 @@ code: ARTH 226
 term: 2015W2, 
 
 code: ARTH 227
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARTH 251
 term: 2015W2, 
 
 code: ARTH 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARTH 312
 term: 2015W2, 
@@ -2611,10 +616,10 @@ code: ARTH 577C
 term: 2015W1-2, 
 
 code: ARTS 001A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ARTS 001B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASIA 100
 term: 2015W1, 
@@ -2629,7 +634,7 @@ code: ASIA 211
 term: 2015W2, 
 
 code: ASIA 250
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASIA 254
 term: 2015W2, 
@@ -2713,7 +718,7 @@ code: ASIA 354
 term: 2015W1, 
 
 code: ASIA 355
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASIA 356
 term: 2015W1, 
@@ -2836,7 +841,7 @@ code: ASTR 310
 term: 2015W1, 
 
 code: ASTR 311
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: ASTR 333
 term: 2015W2, 
@@ -2884,28 +889,28 @@ code: ASTU 211
 term: 2015W2, 
 
 code: ASTU 310
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 311
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 360
 term: 2015W2, 
 
 code: ASTU 400A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 400S
 term: 2015W1-2, 
 
 code: ASTU 410
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 411
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 412
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 412A
 term: 2015W1, 
@@ -2914,25 +919,25 @@ code: ASTU 412B
 term: 2015W2, 
 
 code: ASTU 501
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 502
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 503
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 610
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 611
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 612
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ASTU 613
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ATSC 201
 term: 2015W1, 
@@ -2941,10 +946,10 @@ code: ATSC 212
 term: 2015W2, 
 
 code: ATSC 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ATSC 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ATSC 404
 term: 2015W2, 
@@ -2959,10 +964,10 @@ code: ATSC 409
 term: 2015W1, 
 
 code: ATSC 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ATSC 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ATSC 500
 term: 2015W1, 
@@ -2971,10 +976,10 @@ code: ATSC 506
 term: 2015W1, 
 
 code: AUDI 402
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: AUDI 403
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: AUDI 513
 term: 2015W1, 
@@ -3028,13 +1033,13 @@ code: AUDI 530A
 term: 2015W1, 
 
 code: AUDI 530B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: AUDI 530C
 term: 2015W1, 
 
 code: AUDI 545
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: AUDI 546A
 term: 2015W1, 
@@ -3166,7 +1171,7 @@ code: BASM 502
 term: 2015W2, 
 
 code: BIOC 202
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 203
 term: 2015W2, 
@@ -3175,19 +1180,19 @@ code: BIOC 301
 term: 2015W1-2, 
 
 code: BIOC 302
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 303
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 304
 term: 2015W2, 
 
 code: BIOC 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 402
 term: 2015W1, 
@@ -3196,7 +1201,7 @@ code: BIOC 403
 term: 2015W2, 
 
 code: BIOC 404
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 410
 term: 2015W1, 
@@ -3217,16 +1222,16 @@ code: BIOC 460
 term: 2015W2, 
 
 code: BIOC 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 501A
 term: 2015W1, 
 
 code: BIOC 501C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOC 509
 term: 2015W1, 
@@ -3244,13 +1249,13 @@ code: BIOL 111
 term: 2015W1, 
 
 code: BIOL 112
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 121
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 140
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 153
 term: 2015W1-2, 
@@ -3280,19 +1285,19 @@ code: BIOL 210
 term: 2015W2, 
 
 code: BIOL 230
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 233
 term: 2015W1, 
 
 code: BIOL 234
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 260
 term: 2015W2, 
 
 code: BIOL 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 301
 term: 2015W1, 
@@ -3337,16 +1342,16 @@ code: BIOL 335
 term: 2015W2, 
 
 code: BIOL 336
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 337
 term: 2015W2, 
 
 code: BIOL 340
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 341
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 342
 term: 2015W1, 
@@ -3358,7 +1363,7 @@ code: BIOL 344
 term: 2015W1, 
 
 code: BIOL 345
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: BIOL 346
 term: 2015W2, 
@@ -3370,22 +1375,22 @@ code: BIOL 352
 term: 2015W2, 
 
 code: BIOL 361
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 362
 term: 2015W2, 
 
 code: BIOL 363
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 364
 term: 2015W2, 
 
 code: BIOL 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 404
 term: 2015W2, 
@@ -3493,7 +1498,7 @@ code: BIOL 457
 term: 2015W1, 
 
 code: BIOL 458
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 459
 term: 2015W2, 
@@ -3511,10 +1516,10 @@ code: BIOL 465
 term: 2015W1, 
 
 code: BIOL 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BIOL 501
 term: 2015W2, 
@@ -3583,64 +1588,64 @@ code: BOTA 546B
 term: 2015W2, 
 
 code: BUSI 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 111
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 112
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: BUSI 121
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 221
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: BUSI 291
 term: 2015W2, 
 
 code: BUSI 293
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 294
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 329
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 330
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 331
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 335
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 344
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: BUSI 353
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 354
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 355
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 370
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 393
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 398
 term: 2015W1-2, 
@@ -3649,58 +1654,58 @@ code: BUSI 399
 term: 2015W2, 
 
 code: BUSI 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 401
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 433
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 441
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 442
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 443
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 444
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 445
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 446
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 450
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 451
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 452
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 453
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 455
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 460
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 465
 term: 2015W2, 
 
 code: BUSI 470
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 493
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: BUSI 497
 term: 2015W1-2, 
@@ -3712,7 +1717,7 @@ code: CAPS 200
 term: 2015W2, 
 
 code: CAPS 301
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: CAPS 303
 term: 2015W1-2, 
@@ -3724,10 +1729,10 @@ code: CAPS 391
 term: 2015W2, 
 
 code: CAPS 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CAPS 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CAPS 421
 term: 2015W1, 
@@ -3748,10 +1753,10 @@ code: CAPS 430
 term: 2015W1-2, 
 
 code: CAPS 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CAPS 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CDST 350B
 term: 2015W1, 
@@ -3802,13 +1807,13 @@ code: CELL 512
 term: 2015W2, 
 
 code: CENS 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CENS 202
 term: 2015W2, 
 
 code: CENS 303A
-term: 2015WC, 2015W1, 
+term: 2015W1, 2015WC, 
 
 code: CENS 303B
 term: 2015W2, 
@@ -3838,7 +1843,7 @@ code: CHBE 251
 term: 2015W2, 
 
 code: CHBE 262
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: CHBE 344
 term: 2015W1, 
@@ -3883,7 +1888,7 @@ code: CHBE 419
 term: 2015W2, 
 
 code: CHBE 455
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: CHBE 456
 term: 2015W2, 
@@ -3931,7 +1936,7 @@ code: CHBE 560
 term: 2015W2, 
 
 code: CHBE 561
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHBE 563
 term: 2015W1, 
@@ -3967,7 +1972,7 @@ code: CHEM 208
 term: 2015W1, 
 
 code: CHEM 211
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 213
 term: 2015W2, 
@@ -3979,7 +1984,7 @@ code: CHEM 233
 term: 2015W1, 
 
 code: CHEM 235
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: CHEM 245
 term: 2015W2, 
@@ -4024,13 +2029,13 @@ code: CHEM 313
 term: 2015W1, 
 
 code: CHEM 315
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 319
 term: 2015W2, 
 
 code: CHEM 325
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 329
 term: 2015W1, 
@@ -4042,19 +2047,19 @@ code: CHEM 333
 term: 2015W2, 
 
 code: CHEM 335
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 341
 term: 2015W2, 
 
 code: CHEM 345
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 401
 term: 2015W2, 
@@ -4111,10 +2116,10 @@ code: CHEM 445C
 term: 2015W1-2, 
 
 code: CHEM 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHEM 501
 term: 2015W1, 
@@ -4171,7 +2176,7 @@ code: CHEM 573
 term: 2015W2, 
 
 code: CHIN 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CHIN 103
 term: 2015W2, 
@@ -4309,7 +2314,7 @@ code: CICS 530
 term: 2015W2, 
 
 code: CIVL 200
-term: 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 
 
 code: CIVL 201
 term: 2015W1, 
@@ -4321,7 +2326,7 @@ code: CIVL 210
 term: 2015W2, 
 
 code: CIVL 215
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CIVL 228
 term: 2015W2, 
@@ -4582,7 +2587,7 @@ code: CLCH 401
 term: 2015W2, 
 
 code: CLST 105
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CLST 110
 term: 2015W1, 
@@ -4609,7 +2614,7 @@ code: CLST 260
 term: 2015W2, 
 
 code: CLST 301
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: CLST 307
 term: 2015W2, 
@@ -4657,25 +2662,25 @@ code: CLST 401B
 term: 2015W2, 
 
 code: CNPS 362
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 363
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 364
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 365
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 426
 term: 2015W1-2, 
 
 code: CNPS 427
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 433
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CNPS 588C
 term: 2015W1-2, 
@@ -4684,7 +2689,7 @@ code: CNPS 598C
 term: 2015W1-2, 
 
 code: CNPS 598H
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: CNPS 632
 term: 2015W2, 
@@ -4708,7 +2713,7 @@ code: COEC 126
 term: 2015W1, 
 
 code: COEC 293
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COEC 298
 term: 2015W1, 
@@ -4720,10 +2725,10 @@ code: COEC 394
 term: 2015W1, 
 
 code: COGS 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COGS 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COHR 301
 term: 2015W2, 
@@ -4777,19 +2782,19 @@ code: COMM 101
 term: 2015W1, 
 
 code: COMM 202
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 203
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 204
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 205
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 280
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 286V
 term: 2015W1, 
@@ -4798,25 +2803,25 @@ code: COMM 290
 term: 2015W1, 
 
 code: COMM 291
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 292
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 293
 term: 2015W1, 
 
 code: COMM 294
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 295
 term: 2015W1, 
 
 code: COMM 296
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 298
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 306
 term: 2015W2, 
@@ -4825,34 +2830,34 @@ code: COMM 307
 term: 2015W2, 
 
 code: COMM 329
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 335
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 336
 term: 2015W2, 
 
 code: COMM 353
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 354
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 355
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 362
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 363
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 365
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 370
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 371
 term: 2015W1, 
@@ -4861,13 +2866,13 @@ code: COMM 374
 term: 2015W2, 
 
 code: COMM 377
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 380
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 381
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 382
 term: 2015W1, 
@@ -4897,25 +2902,25 @@ code: COMM 387
 term: 2015W2, 
 
 code: COMM 388
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 389
 term: 2015W1, 
 
 code: COMM 390
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 393
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 394
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 395
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 405
 term: 2015W1, 
@@ -4939,25 +2944,25 @@ code: COMM 434
 term: 2015W2, 
 
 code: COMM 436
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 437
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 438
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 439
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 441
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 444
 term: 2015W2, 
 
 code: COMM 445
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 446
 term: 2015W1, 
@@ -4966,22 +2971,22 @@ code: COMM 447
 term: 2015W2, 
 
 code: COMM 449
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 450
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 452
 term: 2015W2, 
 
 code: COMM 453
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 454
 term: 2015W1, 
 
 code: COMM 455
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 457
 term: 2015W1, 
@@ -4999,49 +3004,49 @@ code: COMM 461
 term: 2015W1, 
 
 code: COMM 462
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 464
 term: 2015W1, 
 
 code: COMM 465
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 466
 term: 2015W1-2, 
 
 code: COMM 467
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 468
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 469
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 471
 term: 2015W1, 
 
 code: COMM 473
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 474
 term: 2015W2, 
 
 code: COMM 475
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 477
 term: 2015W2, 
 
 code: COMM 480
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 481
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 482
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 486D
 term: 2015W1, 
@@ -5074,19 +3079,19 @@ code: COMM 487
 term: 2015W1, 
 
 code: COMM 491
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 493
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 495
 term: 2015W2, 
 
 code: COMM 497
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: COMM 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CONS 101
 term: 2015W1, 
@@ -5095,7 +3100,7 @@ code: CONS 127
 term: 2015W2, 
 
 code: CONS 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CONS 210
 term: 2015W1, 
@@ -5137,7 +3142,7 @@ code: CPEN 281
 term: 2015W1, 
 
 code: CPEN 311
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPEN 312
 term: 2015W2, 
@@ -5152,7 +3157,7 @@ code: CPEN 333
 term: 2015W1, 
 
 code: CPEN 391
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPEN 400A
 term: 2015W1, 
@@ -5176,28 +3181,28 @@ code: CPEN 442
 term: 2015W1, 
 
 code: CPEN 481
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPEN 491
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: CPEN 492
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: CPSC 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 121
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 210
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 213
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 259
 term: 2015W1, 
@@ -5215,10 +3220,10 @@ code: CPSC 303
 term: 2015W2, 
 
 code: CPSC 304
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 310
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 311
 term: 2015W1, 
@@ -5227,22 +3232,22 @@ code: CPSC 312
 term: 2015W1, 
 
 code: CPSC 313
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 314
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 317
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 319
 term: 2015W2, 
 
 code: CPSC 320
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 322
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 340
 term: 2015W1, 
@@ -5251,7 +3256,7 @@ code: CPSC 344
 term: 2015W1, 
 
 code: CPSC 404
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CPSC 410
 term: 2015W1, 
@@ -5344,31 +3349,31 @@ code: CPSC 547
 term: 2015W1, 
 
 code: CRWR 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 203
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 205
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 206
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 208
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 209
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 213
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 230
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 301A
 term: 2015W2, 
@@ -5386,7 +3391,7 @@ code: CRWR 307A
 term: 2015W1, 
 
 code: CRWR 309A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: CRWR 311A
 term: 2015W1, 
@@ -5437,7 +3442,7 @@ code: DENT 555
 term: 2015W2, 
 
 code: DENT 570
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: DENT 573
 term: 2015W1-2, 
@@ -5470,40 +3475,40 @@ code: DHYG 206
 term: 2015W1, 
 
 code: DHYG 210
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: DHYG 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: DHYG 401
-term: 2015W1-2, 2015W2, 2015W1, 2015WB, 
+term: 2015W1, 2015W2, 2015W1-2, 2015WB, 
 
 code: DHYG 402
 term: 2015WB, 
 
 code: DHYG 405
-term: 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 
 
 code: DHYG 410
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: DHYG 412
-term: 2015W2, 2015W1, 2015WB, 
+term: 2015W1, 2015W2, 2015WB, 
 
 code: DHYG 433
-term: 2015WC, 2015W1-2, 
+term: 2015W1-2, 2015WC, 
 
 code: DHYG 435
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: DHYG 461
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: DHYG 462
-term: 2015WC, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WC, 
 
 code: DPAS 410
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: DPAS 420
 term: 2015W1-2, 
@@ -5530,7 +3535,7 @@ code: ECED 438
 term: 2015W2, 
 
 code: ECED 439
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECED 440
 term: 2015W1, 
@@ -5545,10 +3550,10 @@ code: ECED 590B
 term: 2015W1-2, 
 
 code: ECON 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 210
 term: 2015W1, 
@@ -5557,7 +3562,7 @@ code: ECON 211
 term: 2015W2, 
 
 code: ECON 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 226
 term: 2015W2, 
@@ -5569,10 +3574,10 @@ code: ECON 255
 term: 2015W2, 
 
 code: ECON 301
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 302
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 303
 term: 2015W2, 
@@ -5590,7 +3595,7 @@ code: ECON 307
 term: 2015W2, 
 
 code: ECON 308
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 309
 term: 2015W2, 
@@ -5626,7 +3631,7 @@ code: ECON 334
 term: 2015W1, 
 
 code: ECON 335
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 336
 term: 2015W2, 
@@ -5638,19 +3643,19 @@ code: ECON 339
 term: 2015W1, 
 
 code: ECON 345
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 350
 term: 2015W2, 
 
 code: ECON 351
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 355
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 356
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 365
 term: 2015W2, 
@@ -5662,7 +3667,7 @@ code: ECON 370
 term: 2015W1, 
 
 code: ECON 371
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 374
 term: 2015W1, 
@@ -5725,7 +3730,7 @@ code: ECON 482
 term: 2015W2, 
 
 code: ECON 490
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ECON 499
 term: 2015W2, 
@@ -5845,16 +3850,16 @@ code: EDCP 322A
 term: 2015W1-2, 
 
 code: EDCP 331
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDCP 332A
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: EDCP 333
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: EDCP 340
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: EDCP 342A
 term: 2015W1, 
@@ -5863,7 +3868,7 @@ code: EDCP 343
 term: 2015W1, 
 
 code: EDCP 349
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: EDCP 352A
 term: 2015W1-2, 
@@ -5884,7 +3889,7 @@ code: EDCP 362B
 term: 2015W1, 
 
 code: EDCP 362D
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: EDCP 373A
 term: 2015W1, 
@@ -5923,7 +3928,7 @@ code: EDST 403
 term: 2015W2, 
 
 code: EDST 561A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDST 561B
 term: 2015W2, 
@@ -5932,10 +3937,10 @@ code: EDST 597
 term: 2015W1, 
 
 code: EDUC 140
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EDUC 143
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EDUC 172
 term: 2015W1, 
@@ -5947,7 +3952,7 @@ code: EDUC 211
 term: 2015W2, 
 
 code: EDUC 240
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EDUC 272
 term: 2015W2, 
@@ -5971,10 +3976,10 @@ code: EDUC 323A
 term: 2015W2, 
 
 code: EDUC 344
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EDUC 399
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EDUC 418D
 term: 2015W2, 
@@ -5989,7 +3994,7 @@ code: EDUC 419E
 term: 2015W2, 
 
 code: EDUC 421D
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 421E
 term: 2015W2, 
@@ -6007,28 +4012,28 @@ code: EDUC 450B
 term: 2015W1, 
 
 code: EDUC 451A
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: EDUC 451B
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: EDUC 452B
 term: 2015W2, 
 
 code: EDUC 490E
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 490H
 term: 2015W1, 
 
 code: EDUC 490I
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 490J
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 490K
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 490L
 term: 2015W1, 
@@ -6037,43 +4042,43 @@ code: EDUC 490M
 term: 2015W1, 
 
 code: EDUC 490N
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 490W
 term: 2015W1, 
 
 code: EDUC 495A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495D
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495E
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495F
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495G
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 495H
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 496A
 term: 2015W2, 
 
 code: EDUC 496B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 496C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 496D
 term: 2015W2, 
@@ -6082,7 +4087,7 @@ code: EDUC 496E
 term: 2015W2, 
 
 code: EDUC 496F
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EDUC 496G
 term: 2015W2, 
@@ -6220,10 +4225,10 @@ code: EECE 595
 term: 2015W2, 
 
 code: ELEC 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 202
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 203
 term: 2015W1, 
@@ -6238,7 +4243,7 @@ code: ELEC 211
 term: 2015W2, 
 
 code: ELEC 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 271
 term: 2015W2, 
@@ -6253,16 +4258,16 @@ code: ELEC 292
 term: 2015W2, 
 
 code: ELEC 301
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 302
 term: 2015W2, 
 
 code: ELEC 311
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 315
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 321
 term: 2015W1, 
@@ -6271,19 +4276,19 @@ code: ELEC 331
 term: 2015W2, 
 
 code: ELEC 341
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 342
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 343
 term: 2015W2, 
 
 code: ELEC 344
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 352
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: ELEC 371
 term: 2015W2, 
@@ -6373,19 +4378,19 @@ code: ELEC 474
 term: 2015W2, 
 
 code: ELEC 481
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ELEC 491
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: ELEC 492
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: ELEC 493
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: ELEC 494
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: EMBA 598A
 term: 2015W1, 
@@ -6403,43 +4408,43 @@ code: ENDS 420
 term: 2015W2, 
 
 code: ENGL 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 111
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 112
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: ENGL 140
 term: 2015W2, 
 
 code: ENGL 210
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 220
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 222
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 223
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 224
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 225
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 227
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 229A
 term: 2015W2, 
@@ -6454,7 +4459,7 @@ code: ENGL 232
 term: 2015W1, 
 
 code: ENGL 301
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: ENGL 304A
 term: 2015WC, 
@@ -6481,19 +4486,19 @@ code: ENGL 319
 term: 2015W2, 
 
 code: ENGL 321
-term: 2015WC, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WC, 
 
 code: ENGL 322A
-term: 2015WA, 2015W2, 
+term: 2015W2, 2015WA, 
 
 code: ENGL 328
 term: 2015W2, 
 
 code: ENGL 330A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 331
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 340
 term: 2015W1, 
@@ -6517,7 +4522,7 @@ code: ENGL 347K
 term: 2015W1, 
 
 code: ENGL 348A
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: ENGL 349A
 term: 2015W1, 
@@ -6532,7 +4537,7 @@ code: ENGL 357M
 term: 2015W1, 
 
 code: ENGL 358
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 359A
 term: 2015W1, 
@@ -6541,16 +4546,16 @@ code: ENGL 359B
 term: 2015W2, 
 
 code: ENGL 362
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 364A
-term: 2015WC, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WC, 
 
 code: ENGL 405A
 term: 2015W1, 
 
 code: ENGL 406A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 406B
 term: 2015W1, 
@@ -6568,16 +4573,16 @@ code: ENGL 462E
 term: 2015W1, 
 
 code: ENGL 464A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 466A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 468A
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: ENGL 470A
-term: 2015WC, 2015W1, 
+term: 2015W1, 2015WC, 
 
 code: ENGL 470B
 term: 2015W1, 
@@ -6592,7 +4597,7 @@ code: ENGL 472D
 term: 2015W2, 
 
 code: ENGL 474A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENGL 474F
 term: 2015W2, 
@@ -6625,13 +4630,13 @@ code: ENPH 481
 term: 2015W2, 
 
 code: ENVR 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENVR 300
 term: 2015W2, 
 
 code: ENVR 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ENVR 410
 term: 2015W2, 
@@ -6643,22 +4648,22 @@ code: ENVR 430
 term: 2015W1, 
 
 code: EOSC 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 111
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 112
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 114
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: EOSC 116
-term: 2015WC, 2015WA, 2015W2, 
+term: 2015W2, 2015WA, 2015WC, 
 
 code: EOSC 118
-term: 2015WC, 2015WA, 
+term: 2015WA, 2015WC, 
 
 code: EOSC 210
 term: 2015W1, 
@@ -6691,16 +4696,16 @@ code: EOSC 270
 term: 2015W2, 
 
 code: EOSC 310
-term: 2015WC, 2015WA, 
+term: 2015WA, 2015WC, 
 
 code: EOSC 311
 term: 2015WC, 
 
 code: EOSC 314
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: EOSC 315
-term: 2015WC, 2015WA, 2015W2, 
+term: 2015W2, 2015WA, 2015WC, 
 
 code: EOSC 320
 term: 2015W2, 
@@ -6715,7 +4720,7 @@ code: EOSC 323
 term: 2015W1, 
 
 code: EOSC 326
-term: 2015WC, 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 2015WC, 
 
 code: EOSC 329
 term: 2015W1, 
@@ -6733,7 +4738,7 @@ code: EOSC 333
 term: 2015W2, 
 
 code: EOSC 340
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 350
 term: 2015W1, 
@@ -6754,10 +4759,10 @@ code: EOSC 373
 term: 2015W2, 
 
 code: EOSC 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 399
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EOSC 420
 term: 2015W1, 
@@ -6790,7 +4795,7 @@ code: EOSC 434
 term: 2015W2, 
 
 code: EOSC 442
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 448B
 term: 2015W2, 
@@ -6823,10 +4828,10 @@ code: EOSC 478
 term: 2015W1, 
 
 code: EOSC 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 510
 term: 2015W1, 
@@ -6841,7 +4846,7 @@ code: EOSC 516
 term: 2015W1, 
 
 code: EOSC 520
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EOSC 526
 term: 2015W2, 
@@ -6919,37 +4924,37 @@ code: EPSE 303
 term: 2015W1, 
 
 code: EPSE 308
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EPSE 310A
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EPSE 310B
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: EPSE 311
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 312
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 316
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 317
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 348
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 390A
 term: 2015W2, 
 
 code: EPSE 403
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 406
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 408
 term: 2015W2, 
@@ -6958,7 +4963,7 @@ code: EPSE 411
 term: 2015W2, 
 
 code: EPSE 421
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 431
 term: 2015W1, 
@@ -6973,13 +4978,13 @@ code: EPSE 437
 term: 2015W2, 
 
 code: EPSE 449
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 481
 term: 2015W2, 
 
 code: EPSE 482
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: EPSE 501
 term: 2015W1, 
@@ -6997,10 +5002,10 @@ code: EPSE 589A
 term: 2015W1-2, 
 
 code: EPSE 598A
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EPSE 687A
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: EPSE 687B
 term: 2015W1-2, 
@@ -7036,7 +5041,7 @@ code: FISH 520
 term: 2015W1, 
 
 code: FIST 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FIST 200
 term: 2015W1, 
@@ -7057,7 +5062,7 @@ code: FIST 300
 term: 2015W1, 
 
 code: FIST 332
-term: 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 
 
 code: FMED 401
 term: 2015W2, 
@@ -7093,19 +5098,19 @@ code: FMED 427
 term: 2015W2, 
 
 code: FMST 210
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FMST 238
 term: 2015W2, 
 
 code: FMST 312
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FMST 314
 term: 2015W1, 
 
 code: FMST 316
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FMST 440
 term: 2015W2, 
@@ -7123,10 +5128,10 @@ code: FNEL 202
 term: 2015W2, 
 
 code: FNH 200
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: FNH 250
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: FNH 300
 term: 2015W1, 
@@ -7153,7 +5158,7 @@ code: FNH 326
 term: 2015W2, 
 
 code: FNH 330
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FNH 335
 term: 2015W1, 
@@ -7174,10 +5179,10 @@ code: FNH 351
 term: 2015W2, 
 
 code: FNH 355
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FNH 370
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FNH 380
 term: 2015W1, 
@@ -7240,10 +5245,10 @@ code: FNH 482
 term: 2015W2, 
 
 code: FNH 490
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FNIS 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FNIS 210
 term: 2015W1, 
@@ -7294,7 +5299,7 @@ code: FOPR 264
 term: 2015W1, 
 
 code: FOPR 362
-term: 2015WD, 2015W2, 2015WB, 
+term: 2015W2, 2015WD, 2015WB, 
 
 code: FOPR 388
 term: 2015W1, 
@@ -7369,31 +5374,31 @@ code: FRE 585
 term: 2015W2, 
 
 code: FREN 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 102
 term: 2015W2, 
 
 code: FREN 111
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 112
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 122
 term: 2015W1, 
 
 code: FREN 123
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 215
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: FREN 220
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 222
 term: 2015W1, 
@@ -7429,7 +5434,7 @@ code: FREN 349
 term: 2015W2, 
 
 code: FREN 353
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 355
 term: 2015W1, 
@@ -7441,7 +5446,7 @@ code: FREN 360
 term: 2015W1, 
 
 code: FREN 370
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FREN 371
 term: 2015W2, 
@@ -7489,16 +5494,16 @@ code: FRST 211
 term: 2015W2, 
 
 code: FRST 231
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: FRST 232
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 239
 term: 2015W2, 
 
 code: FRST 248
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 270
 term: 2015W1, 
@@ -7534,7 +5539,7 @@ code: FRST 318
 term: 2015W2, 
 
 code: FRST 319
-term: 2015WD, 2015WB, 
+term: 2015WB, 2015WD, 
 
 code: FRST 320
 term: 2015W1, 
@@ -7543,10 +5548,10 @@ code: FRST 339
 term: 2015W2, 
 
 code: FRST 346
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 347
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 348
 term: 2015W1, 
@@ -7600,19 +5605,19 @@ code: FRST 444
 term: 2015W2, 
 
 code: FRST 446
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 447
 term: 2015W2, 
 
 code: FRST 448
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 449A
-term: 2015WC, 2015WA, 
+term: 2015WA, 2015WC, 
 
 code: FRST 449B
-term: 2015WD, 2015WB, 
+term: 2015WB, 2015WD, 
 
 code: FRST 449C
 term: 2015W2, 
@@ -7672,7 +5677,7 @@ code: FRST 543
 term: 2015W1, 
 
 code: FRST 544
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: FRST 545
 term: 2015W2, 
@@ -7723,10 +5728,10 @@ code: GBPR 501
 term: 2015W2, 
 
 code: GEOB 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOB 103
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOB 200
 term: 2015W1, 
@@ -7741,7 +5746,7 @@ code: GEOB 207
 term: 2015W1, 
 
 code: GEOB 270
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOB 300
 term: 2015W1, 
@@ -7762,7 +5767,7 @@ code: GEOB 370
 term: 2015W2, 
 
 code: GEOB 372
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOB 373
 term: 2015W2, 
@@ -7816,7 +5821,7 @@ code: GEOG 290
 term: 2015W2, 
 
 code: GEOG 310
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOG 311
 term: 2015W2, 
@@ -7849,7 +5854,7 @@ code: GEOG 345
 term: 2015W1, 
 
 code: GEOG 350
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: GEOG 352
 term: 2015W2, 
@@ -7873,7 +5878,7 @@ code: GEOG 371
 term: 2015W1, 
 
 code: GEOG 374
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GEOG 379B
 term: 2015W2, 
@@ -7921,10 +5926,10 @@ code: GEOG 545A
 term: 2015W1, 
 
 code: GERM 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GERM 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GERM 200
 term: 2015W1, 
@@ -7945,7 +5950,7 @@ code: GERM 303
 term: 2015W2, 
 
 code: GERM 304
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GERM 310
 term: 2015W2, 
@@ -7984,7 +5989,7 @@ code: GERM 411
 term: 2015W1, 
 
 code: GERM 433
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GERM 434
 term: 2015W2, 
@@ -8023,22 +6028,22 @@ code: GRS 390
 term: 2015W1-2, 
 
 code: GRS 490
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: GRSJ 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GRSJ 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GRSJ 224A
-term: 2015WC, 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 2015WC, 
 
 code: GRSJ 224B
 term: 2015W2, 
 
 code: GRSJ 224C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GRSJ 230
 term: 2015W1, 
@@ -8047,7 +6052,7 @@ code: GRSJ 235
 term: 2015W2, 
 
 code: GRSJ 300
-term: 2015WC, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WC, 
 
 code: GRSJ 301
 term: 2015W1, 
@@ -8059,7 +6064,7 @@ code: GRSJ 305
 term: 2015W2, 
 
 code: GRSJ 306
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: GRSJ 307
 term: 2015W1, 
@@ -8116,22 +6121,22 @@ code: HEBR 202
 term: 2015W2, 
 
 code: HINU 102
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: HIST 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 103
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 104
-term: 2015WA, 2015W1, 
+term: 2015W1, 2015WA, 
 
 code: HIST 105
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 106
 term: 2015W2, 
@@ -8173,10 +6178,10 @@ code: HIST 280
 term: 2015W2, 
 
 code: HIST 302
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 305
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 310
 term: 2015W1, 
@@ -8275,7 +6280,7 @@ code: HIST 379
 term: 2015W2, 
 
 code: HIST 380C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 382
 term: 2015W2, 
@@ -8323,7 +6328,7 @@ code: HIST 421D
 term: 2015W2, 
 
 code: HIST 425
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 432
 term: 2015W1-2, 
@@ -8341,7 +6346,7 @@ code: HIST 476
 term: 2015W1, 
 
 code: HIST 483
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: HIST 485
 term: 2015W1, 
@@ -8350,16 +6355,16 @@ code: HUNU 505
 term: 2015W2, 
 
 code: IAR 525
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: IGEN 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: IGEN 230
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: IGEN 330
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: IGEN 340
 term: 2015W1, 
@@ -8398,10 +6403,10 @@ code: ISCI 360
 term: 2015W2, 
 
 code: ISCI 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ISCI 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ISCI 422
 term: 2015W1, 
@@ -8410,13 +6415,13 @@ code: ISCI 433
 term: 2015W1, 
 
 code: ISCI 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ISCI 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ITAL 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ITAL 102
 term: 2015W2, 
@@ -8482,10 +6487,10 @@ code: IWME 503
 term: 2015W2, 
 
 code: JAPN 100
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: JAPN 101
-term: 2015WC, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WC, 
 
 code: JAPN 102
 term: 2015W1, 
@@ -8557,10 +6562,10 @@ code: JRNL 100A
 term: 2015W2, 
 
 code: KIN 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 103
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 115A
 term: 2015W1-2, 
@@ -8569,19 +6574,19 @@ code: KIN 115B
 term: 2015W1, 
 
 code: KIN 151
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 161
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 190
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 191
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 215A
 term: 2015W2, 
@@ -8590,28 +6595,28 @@ code: KIN 215B
 term: 2015W2, 
 
 code: KIN 230
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 231
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 261
 term: 2015W2, 
 
 code: KIN 275
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 284
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 301
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 303
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 330
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 343
 term: 2015W1, 
@@ -8623,13 +6628,13 @@ code: KIN 360
 term: 2015W1, 
 
 code: KIN 361
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 362
 term: 2015W2, 
 
 code: KIN 365
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 366
 term: 2015W2, 
@@ -8641,13 +6646,13 @@ code: KIN 369
 term: 2015W1, 
 
 code: KIN 371
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 373
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 375
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 381
 term: 2015W2, 
@@ -8665,10 +6670,10 @@ code: KIN 400
 term: 2015W1, 
 
 code: KIN 401
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 402
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: KIN 415
 term: 2015W1, 
@@ -8728,10 +6733,10 @@ code: KORN 101
 term: 2015W2, 
 
 code: KORN 102
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: KORN 200
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: KORN 301
 term: 2015W1, 
@@ -8776,7 +6781,7 @@ code: LARC 570A
 term: 2015W1, 
 
 code: LARC 570C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LARC 582B
 term: 2015W1, 
@@ -8794,10 +6799,10 @@ code: LAST 201
 term: 2015W2, 
 
 code: LATN 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LATN 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LATN 201
 term: 2015W1, 
@@ -8806,19 +6811,19 @@ code: LATN 202
 term: 2015W2, 
 
 code: LAW 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 211
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LAW 221
 term: 2015W1-2, 
 
 code: LAW 231
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LAW 241
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LAW 251
 term: 2015W1, 
@@ -8830,7 +6835,7 @@ code: LAW 281
 term: 2015W1, 
 
 code: LAW 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 303
 term: 2015W2, 
@@ -8842,7 +6847,7 @@ code: LAW 316
 term: 2015W1, 
 
 code: LAW 325
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 334
 term: 2015W1, 
@@ -8869,10 +6874,10 @@ code: LAW 358B
 term: 2015W2, 
 
 code: LAW 359
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 372
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 374
 term: 2015W2, 
@@ -8887,7 +6892,7 @@ code: LAW 379C
 term: 2015W2, 
 
 code: LAW 379E
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 382
 term: 2015W1, 
@@ -8914,7 +6919,7 @@ code: LAW 406C
 term: 2015W1, 
 
 code: LAW 407
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 408
 term: 2015W2, 
@@ -8935,7 +6940,7 @@ code: LAW 419C
 term: 2015W2, 
 
 code: LAW 422
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 423C
 term: 2015W1, 
@@ -8974,7 +6979,7 @@ code: LAW 449
 term: 2015W2, 
 
 code: LAW 451
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 452
 term: 2015W1, 
@@ -8989,7 +6994,7 @@ code: LAW 457
 term: 2015W1, 
 
 code: LAW 459
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 460
 term: 2015W2, 
@@ -8998,7 +7003,7 @@ code: LAW 461
 term: 2015W2, 
 
 code: LAW 463
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 464
 term: 2015W2, 
@@ -9010,10 +7015,10 @@ code: LAW 466
 term: 2015W2, 
 
 code: LAW 468
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 469
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 470
 term: 2015W1-2, 
@@ -9028,7 +7033,7 @@ code: LAW 475D
 term: 2015W1-2, 
 
 code: LAW 476
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 483A
 term: 2015W1-2, 
@@ -9043,7 +7048,7 @@ code: LAW 486
 term: 2015W1-2, 
 
 code: LAW 488
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 490
 term: 2015W2, 
@@ -9055,10 +7060,10 @@ code: LAW 507
 term: 2015W2, 
 
 code: LAW 508D
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 509
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 525
 term: 2015W1, 
@@ -9073,13 +7078,13 @@ code: LAW 554C
 term: 2015W2, 
 
 code: LAW 555C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 556B
 term: 2015W1, 
 
 code: LAW 556C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LAW 557C
 term: 2015W2, 
@@ -9106,10 +7111,10 @@ code: LFS 100
 term: 2015W1, 
 
 code: LFS 150
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LFS 250
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LFS 252
 term: 2015W2, 
@@ -9118,13 +7123,13 @@ code: LFS 340
 term: 2015W2, 
 
 code: LFS 350
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LFS 398
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LFS 399
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LFS 400
 term: 2015W2, 
@@ -9133,10 +7138,10 @@ code: LFS 450
 term: 2015W2, 
 
 code: LFS 498
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LFS 499
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LIBE 461
 term: 2015W2, 
@@ -9157,25 +7162,25 @@ code: LIBE 598A
 term: 2015W1, 
 
 code: LIBR 504
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 505
 term: 2015W1, 
 
 code: LIBR 506
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 507
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 508
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 509
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 511
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 512
 term: 2015W2, 
@@ -9283,22 +7288,22 @@ code: LIBR 582
 term: 2015W2, 
 
 code: LIBR 587
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 595
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LIBR 596
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LIBR 620
 term: 2015W1-2, 
 
 code: LING 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LING 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LING 140
 term: 2015W2, 
@@ -9382,7 +7387,7 @@ code: LING 525
 term: 2015W2, 
 
 code: LING 530B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LING 531
 term: 2015W1, 
@@ -9391,7 +7396,7 @@ code: LING 532
 term: 2015W2, 
 
 code: LLED 200
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: LLED 201
 term: 2015W , 2015W2, 
@@ -9409,7 +7414,7 @@ code: LLED 213
 term: 2015W2, 
 
 code: LLED 220
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 221
 term: 2015W2, 
@@ -9418,25 +7423,25 @@ code: LLED 222
 term: 2015W2, 
 
 code: LLED 223
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 315A
 term: 2015W1, 
 
 code: LLED 325A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 350
 term: 2015W1, 
 
 code: LLED 351
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: LLED 352
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 353
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: LLED 360
 term: 2015W1, 
@@ -9445,7 +7450,7 @@ code: LLED 361
 term: 2015W1-2, 
 
 code: LLED 366
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: LLED 367
 term: 2015W1, 
@@ -9454,16 +7459,16 @@ code: LLED 368
 term: 2015W1, 
 
 code: LLED 371
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: LLED 372
 term: 2015W1, 
 
 code: LLED 381
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: LLED 386
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: LLED 391
 term: 2015W1, 
@@ -9472,7 +7477,7 @@ code: LLED 399
 term: 2015W2, 
 
 code: LLED 441
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 446
 term: 2015W2, 
@@ -9505,7 +7510,7 @@ code: LLED 478C
 term: 2015W1, 
 
 code: LLED 479
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: LLED 480B
 term: 2015W2, 
@@ -9532,7 +7537,7 @@ code: MATH 002
 term: 2015W2, 
 
 code: MATH 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 101
 term: 2015W2, 
@@ -9571,22 +7576,22 @@ code: MATH 190
 term: 2015W1, 
 
 code: MATH 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 210
 term: 2015W2, 
 
 code: MATH 215
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 217
 term: 2015W1, 
 
 code: MATH 220
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 223
 term: 2015W1, 
@@ -9598,28 +7603,28 @@ code: MATH 227
 term: 2015W2, 
 
 code: MATH 253
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 255
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 256
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 257
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 264
 term: 2015W2, 
 
 code: MATH 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 301
 term: 2015W2, 
 
 code: MATH 302
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 303
 term: 2015W2, 
@@ -9628,7 +7633,7 @@ code: MATH 305
 term: 2015W2, 
 
 code: MATH 307
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 308
 term: 2015W1, 
@@ -9643,10 +7648,10 @@ code: MATH 313
 term: 2015W2, 
 
 code: MATH 316
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 317
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 318
 term: 2015W2, 
@@ -9664,10 +7669,10 @@ code: MATH 323
 term: 2015W2, 
 
 code: MATH 335
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 340
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 342
 term: 2015W2, 
@@ -9682,13 +7687,13 @@ code: MATH 360
 term: 2015W1, 
 
 code: MATH 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 401
 term: 2015W2, 
@@ -9748,10 +7753,10 @@ code: MATH 450
 term: 2015W1, 
 
 code: MATH 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MATH 501
 term: 2015W1, 
@@ -9913,7 +7918,7 @@ code: MECH 358
 term: 2015W2, 
 
 code: MECH 360
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 366
 term: 2015W1, 
@@ -9922,7 +7927,7 @@ code: MECH 368
 term: 2015W1, 
 
 code: MECH 375
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 380
 term: 2015W2, 
@@ -9958,22 +7963,22 @@ code: MECH 435
 term: 2015W2, 
 
 code: MECH 436
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 445
 term: 2015W2, 
 
 code: MECH 454
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 457
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 458
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 459
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 460
 term: 2015W2, 
@@ -10063,7 +8068,7 @@ code: MECH 535
 term: 2015W2, 
 
 code: MECH 536
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MECH 543
 term: 2015W1, 
@@ -10126,7 +8131,7 @@ code: MEDG 520
 term: 2015W1, 
 
 code: MEDG 545
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: MEDG 550
 term: 2015W1-2, 
@@ -10150,10 +8155,10 @@ code: MEDI 590
 term: 2015W1, 
 
 code: MICB 201
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MICB 202
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MICB 203
 term: 2015W2, 
@@ -10183,13 +8188,13 @@ code: MICB 353
 term: 2015W1, 
 
 code: MICB 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MICB 399
 term: 2015W1, 
 
 code: MICB 401
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MICB 402
 term: 2015W1, 
@@ -10231,10 +8236,10 @@ code: MICB 447
 term: 2015W1, 
 
 code: MICB 498
-term: 2015W1-2, 2015W2, 
+term: 2015W2, 2015W1-2, 
 
 code: MICB 499
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: MICB 502
 term: 2015W2, 
@@ -10249,7 +8254,7 @@ code: MIDW 103
 term: 2015W1, 
 
 code: MIDW 105
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MIDW 110
 term: 2015W2, 
@@ -10363,7 +8368,7 @@ code: MINE 488
 term: 2015W2, 
 
 code: MINE 491
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MINE 501A
 term: 2015W1, 
@@ -10513,10 +8518,10 @@ code: MTRL 460
 term: 2015W1, 
 
 code: MTRL 466
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MTRL 467
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MTRL 471
 term: 2015W2, 
@@ -10582,7 +8587,7 @@ code: MUSC 104
 term: 2015W2, 
 
 code: MUSC 105
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MUSC 106
 term: 2015W2, 
@@ -10636,10 +8641,10 @@ code: MUSC 201
 term: 2015W2, 
 
 code: MUSC 205
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MUSC 206
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: MUSC 207A
 term: 2015W2, 
@@ -10888,19 +8893,19 @@ code: NURS 306
 term: 2015W1, 
 
 code: NURS 333
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: NURS 334
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: NURS 335
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: NURS 336
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: NURS 337
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: NURS 338
 term: 2015W2, 
@@ -10918,7 +8923,7 @@ code: NURS 427
 term: 2015W2, 
 
 code: NURS 502
-term: 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 
 
 code: NURS 504
 term: 2015W1, 
@@ -10930,13 +8935,13 @@ code: NURS 506
 term: 2015W1, 
 
 code: NURS 511
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: NURS 512
-term: 2015WC, 2015WA, 
+term: 2015WA, 2015WC, 
 
 code: NURS 540
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: NURS 542
 term: 2015W2, 
@@ -11023,7 +9028,7 @@ code: ORPA 904
 term: 2015W1-2, 
 
 code: PATH 301
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PATH 303
 term: 2015W2, 
@@ -11038,7 +9043,7 @@ code: PATH 402
 term: 2015W1-2, 
 
 code: PATH 404
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PATH 406
 term: 2015W1-2, 
@@ -11056,7 +9061,7 @@ code: PATH 417A
 term: 2015WC, 
 
 code: PATH 427
-term: 2015WD, 2015W2, 
+term: 2015W2, 2015WD, 
 
 code: PATH 437
 term: 2015W1, 
@@ -11068,13 +9073,13 @@ code: PATH 450
 term: 2015W1-2, 
 
 code: PATH 451
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PATH 467
-term: 2015WD, 2015W2, 
+term: 2015W2, 2015WD, 
 
 code: PATH 477
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: PATH 501
 term: 2015W1, 
@@ -11113,7 +9118,7 @@ code: PCTH 398
 term: 2015W1, 
 
 code: PCTH 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PCTH 400
 term: 2015W1-2, 
@@ -11125,7 +9130,7 @@ code: PCTH 404
 term: 2015W1-2, 
 
 code: PCTH 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PCTH 499
 term: 2015W1, 
@@ -11140,13 +9145,13 @@ code: PCTH 513
 term: 2015W1-2, 
 
 code: PERS 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PERS 101
 term: 2015W2, 
 
 code: PERS 104
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PERS 300
 term: 2015W1, 
@@ -11167,7 +9172,7 @@ code: PHAR 330
 term: 2015W2, 
 
 code: PHAR 341
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 342
 term: 2015W2, 
@@ -11179,7 +9184,7 @@ code: PHAR 352
 term: 2015W2, 
 
 code: PHAR 361
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 362
 term: 2015W2, 
@@ -11188,19 +9193,19 @@ code: PHAR 371
 term: 2015W1, 
 
 code: PHAR 399
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PHAR 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 401
 term: 2015W1-2, 
 
 code: PHAR 403
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 406
-term: 2015W1-2, 2015W1, 
+term: 2015W1, 2015W1-2, 
 
 code: PHAR 408
 term: 2015W2, 
@@ -11227,7 +9232,7 @@ code: PHAR 448
 term: 2015W1, 
 
 code: PHAR 450B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 451
 term: 2015W1, 
@@ -11263,22 +9268,22 @@ code: PHAR 472
 term: 2015W2, 
 
 code: PHAR 479
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 489
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 498
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PHAR 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHAR 502
 term: 2015W1, 
 
 code: PHAR 506
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PHAR 508
 term: 2015W2, 
@@ -11314,19 +9319,19 @@ code: PHIL 100
 term: 2015W1-2, 
 
 code: PHIL 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 120
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PHIL 125
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 150
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 211A
 term: 2015W1, 
@@ -11335,13 +9340,13 @@ code: PHIL 212A
 term: 2015W2, 
 
 code: PHIL 220A
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PHIL 230A
 term: 2015W1, 
 
 code: PHIL 240A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 260A
 term: 2015W1, 
@@ -11368,19 +9373,19 @@ code: PHIL 321A
 term: 2015W1, 
 
 code: PHIL 330A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 334
 term: 2015W1, 
 
 code: PHIL 338A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 340A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 349A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 360A
 term: 2015W1, 
@@ -11398,7 +9403,7 @@ code: PHIL 371
 term: 2015W1, 
 
 code: PHIL 375A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 378
 term: 2015W1, 
@@ -11422,13 +9427,13 @@ code: PHIL 432A
 term: 2015W2, 
 
 code: PHIL 433A
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PHIL 434A
-term: 2015WC, 2015WA, 
+term: 2015WA, 2015WC, 
 
 code: PHIL 435A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 441A
 term: 2015W2, 
@@ -11437,7 +9442,7 @@ code: PHIL 449A
 term: 2015W2, 
 
 code: PHIL 451A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHIL 460A
 term: 2015W1, 
@@ -11458,7 +9463,7 @@ code: PHRM 131
 term: 2015W2, 
 
 code: PHRM 141
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHRM 161
 term: 2015W2, 
@@ -11497,7 +9502,7 @@ code: PHTH 548
 term: 2015W2, 
 
 code: PHTH 554
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHTH 564
 term: 2015W2, 
@@ -11527,10 +9532,10 @@ code: PHYL 532
 term: 2015W2, 
 
 code: PHYS 100
-term: 2015WC, 2015W1, 
+term: 2015W1, 2015WC, 
 
 code: PHYS 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 102
 term: 2015W2, 
@@ -11554,7 +9559,7 @@ code: PHYS 119
 term: 2015W2, 
 
 code: PHYS 157
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 158
 term: 2015W2, 
@@ -11563,7 +9568,7 @@ code: PHYS 159
 term: 2015W2, 
 
 code: PHYS 170
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 200
 term: 2015W1, 
@@ -11584,16 +9589,16 @@ code: PHYS 229
 term: 2015W2, 
 
 code: PHYS 298
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 299
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 301
 term: 2015W1, 
 
 code: PHYS 304
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 305
 term: 2015W2, 
@@ -11671,10 +9676,10 @@ code: PHYS 474
 term: 2015W2, 
 
 code: PHYS 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 500
 term: 2015W1, 
@@ -11707,7 +9712,7 @@ code: PHYS 520A
 term: 2015W1, 
 
 code: PHYS 520B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 526
 term: 2015W1, 
@@ -11743,7 +9748,7 @@ code: PHYS 555B
 term: 2015W2, 
 
 code: PHYS 555F
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PHYS 560
 term: 2015W2, 
@@ -11860,22 +9865,22 @@ code: PLNT 542
 term: 2015W1, 
 
 code: POLI 100
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 220
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 240
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 260
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 303
 term: 2015W1, 
@@ -11938,16 +9943,16 @@ code: POLI 352A
 term: 2015W1, 
 
 code: POLI 360A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 363A
 term: 2015W2, 
 
 code: POLI 366
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 367B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 369A
 term: 2015W2, 
@@ -11959,7 +9964,7 @@ code: POLI 369D
 term: 2015W2, 
 
 code: POLI 373
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 375A
 term: 2015W2, 
@@ -11968,13 +9973,13 @@ code: POLI 377
 term: 2015W1, 
 
 code: POLI 380
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLI 385A
 term: 2015W1, 
 
 code: POLS 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: POLS 424
 term: 2015W1, 
@@ -12007,13 +10012,13 @@ code: PRIN 401
 term: 2015W1, 
 
 code: PSYC 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 207
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 208
 term: 2015W2, 
@@ -12025,34 +10030,34 @@ code: PSYC 218
 term: 2015W2, 
 
 code: PSYC 260
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 300A
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PSYC 301
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 302
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PSYC 304
-term: 2015W1-2, 2015W2, 2015W1, 2015WB, 
+term: 2015W1, 2015W2, 2015W1-2, 2015WB, 
 
 code: PSYC 305A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 306A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 307
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PSYC 308A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 309A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 311
 term: 2015W1, 
@@ -12061,10 +10066,10 @@ code: PSYC 312A
 term: 2015W2, 
 
 code: PSYC 314
-term: 2015WC, 2015WA, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015WA, 2015WC, 
 
 code: PSYC 315
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 319
 term: 2015W1, 
@@ -12082,7 +10087,7 @@ code: PSYC 331
 term: 2015W1, 
 
 code: PSYC 333
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 335
 term: 2015W1, 
@@ -12091,7 +10096,7 @@ code: PSYC 336
 term: 2015W2, 
 
 code: PSYC 350A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 358
 term: 2015W1, 
@@ -12100,7 +10105,7 @@ code: PSYC 359
 term: 2015W1, 
 
 code: PSYC 360
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 361
 term: 2015W2, 
@@ -12112,7 +10117,7 @@ code: PSYC 365
 term: 2015W2, 
 
 code: PSYC 366
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PSYC 367
 term: 2015W1, 
@@ -12121,13 +10126,13 @@ code: PSYC 368
 term: 2015W2, 
 
 code: PSYC 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 401
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 404
 term: 2015W1, 
@@ -12145,10 +10150,10 @@ code: PSYC 462
 term: 2015W2, 
 
 code: PSYC 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: PSYC 534B
 term: 2015W1-2, 
@@ -12160,7 +10165,7 @@ code: PUNJ 100
 term: 2015W1, 
 
 code: PUNJ 102
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: PUNJ 200
 term: 2015W1-2, 
@@ -12277,13 +10282,13 @@ code: RSOT 558
 term: 2015W2, 
 
 code: RUSS 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: RUSS 102
 term: 2015W2, 
 
 code: RUSS 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: RUSS 206
 term: 2015W1, 
@@ -12292,7 +10297,7 @@ code: RUSS 207
 term: 2015W2, 
 
 code: RUSS 300
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: RUSS 306A
 term: 2015W1, 
@@ -12304,7 +10309,7 @@ code: RUSS 316
 term: 2015W2, 
 
 code: RUSS 400
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: RUSS 412
 term: 2015W2, 
@@ -12313,10 +10318,10 @@ code: SANS 100
 term: 2015W1, 
 
 code: SANS 102
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: SANS 200
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: SCAN 333
 term: 2015W1, 
@@ -12337,37 +10342,37 @@ code: SCAN 414
 term: 2015W2, 
 
 code: SCIE 001
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: SCIE 113
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SCIE 300
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: SLAV 307A
 term: 2015W2, 
 
 code: SOCI 100A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 100B
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 100C
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: SOCI 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 201A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 210A
 term: 2015W1, 
 
 code: SOCI 217A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 220
 term: 2015W1, 
@@ -12376,31 +10381,31 @@ code: SOCI 240A
 term: 2015W1, 
 
 code: SOCI 250A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 260A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 285
 term: 2015W1, 
 
 code: SOCI 301A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 302A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 303A
 term: 2015W1, 
 
 code: SOCI 310A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 312A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 324
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 328
 term: 2015W1, 
@@ -12409,7 +10414,7 @@ code: SOCI 328A
 term: 2015W2, 
 
 code: SOCI 342
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 350A
 term: 2015W2, 
@@ -12418,7 +10423,7 @@ code: SOCI 350B
 term: 2015W1, 
 
 code: SOCI 350C
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 352A
 term: 2015W1, 
@@ -12427,19 +10432,19 @@ code: SOCI 354B
 term: 2015W2, 
 
 code: SOCI 360A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 361A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 364
 term: 2015W2, 
 
 code: SOCI 369A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 380
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 382
 term: 2015W1, 
@@ -12451,7 +10456,7 @@ code: SOCI 423
 term: 2015W2, 
 
 code: SOCI 425A
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SOCI 433B
 term: 2015W2, 
@@ -12502,7 +10507,7 @@ code: SOWK 415
 term: 2015W2, 
 
 code: SOWK 450
-term: 2015WC, 2015W2, 
+term: 2015W2, 2015WC, 
 
 code: SOWK 506
 term: 2015W2, 
@@ -12514,10 +10519,10 @@ code: SOWK 560C
 term: 2015W1-2, 
 
 code: SPAN 101
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SPAN 102
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SPAN 201
 term: 2015W1, 
@@ -12532,7 +10537,7 @@ code: SPAN 207
 term: 2015W2, 
 
 code: SPAN 221
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: SPAN 222
 term: 2015W1, 
@@ -12646,25 +10651,25 @@ code: SPPH 400
 term: 2015W1, 
 
 code: SPPH 508
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: STAT 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 203
 term: 2015W1, 
 
 code: STAT 241
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 251
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 300
 term: 2015W1, 
 
 code: STAT 302
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 305
 term: 2015W2, 
@@ -12679,10 +10684,10 @@ code: STAT 357
 term: 2015W2, 
 
 code: STAT 398
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 399
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 404
 term: 2015W1, 
@@ -12703,10 +10708,10 @@ code: STAT 461
 term: 2015W2, 
 
 code: STAT 498
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 499
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: STAT 521B
 term: 2015W1, 
@@ -12784,7 +10789,7 @@ code: TEST 100
 term: 2015W2, 
 
 code: TEST 200
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: THTR 120
 term: 2015W2, 
@@ -12898,28 +10903,28 @@ code: URST 400
 term: 2015W2, 
 
 code: VANT 140C
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: VANT 140D
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: VANT 140E
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: VANT 148
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: VANT 150
-term: 2015W1-2, 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 2015W1-2, 
 
 code: VISA 110
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: VISA 180
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: VISA 183
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: VISA 241
 term: 2015W2, 
@@ -12997,7 +11002,7 @@ code: WOOD 474
 term: 2015W1, 
 
 code: WOOD 475
-term: 2015WD, 2015WB, 
+term: 2015WB, 2015WD, 
 
 code: WOOD 476
 term: 2015W1, 
@@ -13018,19 +11023,19 @@ code: WOOD 492
 term: 2015W1, 
 
 code: WOOD 494
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: WOOD 499
 term: 2015W2, 
 
 code: WRDS 150
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: WRIT 098
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: WRIT 099
-term: 2015W2, 2015W1, 
+term: 2015W1, 2015W2, 
 
 code: ZOOL 503
 term: 2015W1-2, 

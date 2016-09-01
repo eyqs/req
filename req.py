@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.6
+req v1.1.7
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -55,16 +55,18 @@ class Main(ttk.Frame):
         tabsall = []    # List of all courses to put in each tab
         for name in os.listdir(TABS):
             if name.endswith('.txt'):
-                tab = '.'.join(name.split('.')[:-1])
-                frame = ttk.Frame(notebook)
-                notebook.add(frame, text=tab)
-                tabsttk[tab] = frame
                 temp = []
                 with open(TABS + '/' + name) as f:
                     for line in f:
-                        temp.append(line.strip())
-                        tabsall.append(line.strip())
-                tabs[tab] = tuple(temp)
+                        if line.strip():
+                            temp.append(line.strip())
+                            tabsall.append(line.strip())
+                if temp:
+                    tab = '.'.join(name.split('.')[:-1])
+                    frame = ttk.Frame(notebook)
+                    notebook.add(frame, text=tab)
+                    tabsttk[tab] = frame
+                    tabs[tab] = tuple(temp)
 
         # Parse all files in COURSES as Courses
         for name in os.listdir(COURSES):
@@ -104,26 +106,28 @@ class Main(ttk.Frame):
         # of which the maximum is 1, and set their depth to 2, etc. until done
         for tab in tabs.keys():
             depth = 0
-            courses = self.courses.copy()
             unordered = set(tabs[tab])
+            for code in tabs[tab]:
+                self.courses[code].set_depth(0)
             while unordered:
                 depth += 1
                 for code in list(unordered):
-                    params = courses[code].get_params()
+                    params = self.courses[code].get_params()
                     hasreq = False  # Has a prereq in the current tree
                     badreq = False  # Has a prereq with zero or current depth
                     for preq in params['preqs']:
                         if preq in tabs[tab]:
                             hasreq = True
-                            if courses[preq].get_params('depth') in (0,depth):
+                            if (self.courses[preq].get_params('depth') in
+                                (0, depth)):
                                 badreq = True
                     if depth == 1 and not hasreq:
-                        courses[code].set_depth(1)
+                        self.courses[code].set_depth(1)
                         unordered.remove(code)
                         continue
                     if badreq:
                         continue
-                    courses[code].set_depth(depth)
+                    self.courses[code].set_depth(depth)
                     unordered.remove(code)
 
             # Grid courses in rows of MAXNUM
@@ -133,8 +137,8 @@ class Main(ttk.Frame):
             depth = 0
             # Sort first by depth of course and second by alphanumeric order
             for code in sorted(tabs[tab], key=lambda code:
-                               (courses[code].get_params('depth'), code)):
-                if courses[code].get_params('depth') > depth:
+                               (self.courses[code].get_params('depth'),code)):
+                if self.courses[code].get_params('depth') > depth:
                     section = tk.Label(frame)
                     section.grid(row=row+1, column=0)
                     row += 2
@@ -261,7 +265,7 @@ class Course():
         self.preq = []
         self.creq = []
         self.term = []
-        self.excl = []
+        self.excl = ['or']
         self.preqs = set()
         self.creqs = set()
         self.dreqs = set()
@@ -276,10 +280,10 @@ class Course():
         elif param == 'desc':
             self.desc = value
         elif param == 'cred':
-            self.cred = [int(c.strip()) for c in value.split(',')]
+            self.cred.extend([float(c.strip()) for c in value.split(',')])
         elif param == 'preq':
             self.preq = get_reqs(value.split())
-            self.preqs = set(flatten(self.preq))
+            self.preqs.update(flatten(self.preq))
             try:
                 self.preqs.remove('and')
             except KeyError:
@@ -290,7 +294,7 @@ class Course():
                 pass
         elif param == 'creq':
             self.creq = get_reqs(value.split())
-            self.creqs = set(flatten(self.creq))
+            self.creqs.update(flatten(self.creq))
             try:
                 self.creqs.remove('and')
             except KeyError:
@@ -300,9 +304,9 @@ class Course():
             except KeyError:
                 pass
         elif param == 'term':
-            self.term = [t.strip() for t in value[-1].split(',')]
+            self.term.extend([t.strip() for t in value[-1].split(',')])
         elif param == 'excl':
-            self.excl = ['or'] + [e.strip() for e in value.split(',')]
+            self.excl.extend([e.strip() for e in value.split(',')])
         else:
             print('Error: parameter not recognized.')
 

@@ -1,0 +1,2005 @@
+
+
+code: ADHE 327
+term: 2016S1, 
+
+code: ADHE 328
+term: 2016S1, 
+
+code: ADHE 329
+term: 2016S1, 
+
+code: ADHE 330
+term: 2016S1, 
+
+code: ADHE 412
+term: 2016S1, 
+
+code: ADHE 493
+term: 2016S1, 
+
+code: ANTH 100
+term: 2016S1, 
+
+code: ANTH 308
+term: 2016S1, 
+
+code: ANTH 378
+term: 2016S2, 
+
+code: ANTH 480A
+term: 2016S1, 
+
+code: ANTH 480B
+term: 2016S1, 
+
+code: APBI 100
+term: 2016SA, 
+
+code: APBI 314
+term: 2016S1, 
+
+code: APBI 315
+term: 2016S2, 
+
+code: APBI 365
+term: 2016S1-2, 
+
+code: APBI 428
+term: 2016SA, 
+
+code: APBI 496A
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: APBI 496B
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: APPP 504
+term: 2016S2, 
+
+code: APSC 110
+term: 2016S1-2, 
+
+code: APSC 160
+term: 2016S1, 
+
+code: APSC 176
+term: 2016S1, 2016S1-2, 
+
+code: APSC 180
+term: 2016S1-2, 
+
+code: APSC 201
+term: 2016S1, 
+
+code: APSC 210
+term: 2016S1-2, 
+
+code: APSC 310
+term: 2016S1-2, 
+
+code: APSC 410
+term: 2016S1-2, 
+
+code: APSC 411
+term: 2016S1-2, 
+
+code: APSC 412
+term: 2016S1-2, 
+
+code: APSC 461
+term: 2016S1, 
+
+code: APSC 462
+term: 2016S2, 
+
+code: ARCH 544G
+term: 2016S1-2, 
+
+code: ARCH 544Y
+term: 2016S1, 
+
+code: ARCH 555
+term: 2016S1-2, 
+
+code: ARCH 556
+term: 2016S1-2, 
+
+code: ARCH 573G
+term: 2016S1, 
+
+code: ARCH 577
+term: 2016S1-2, 
+
+code: ARST 517
+term: 2016S1, 
+
+code: ARST 554
+term: 2016S1, 
+
+code: ARST 570
+term: 2016S2, 
+
+code: ARST 593D
+term: 2016S1-2, 
+
+code: ARST 595
+term: 2016S1-2, 
+
+code: ARST 596
+term: 2016S1-2, 
+
+code: ASIA 326
+term: 2016S2, 
+
+code: ASIA 329
+term: 2016S1, 
+
+code: ASIA 339
+term: 2016S1, 
+
+code: ASIA 355
+term: 2016S2, 
+
+code: ASIA 371
+term: 2016S2, 
+
+code: ASIA 390
+term: 2016S1, 
+
+code: ASIA 397
+term: 2016S2, 
+
+code: ASIA 451
+term: 2016S2, 
+
+code: ASTR 311
+term: 2016SA, 
+
+code: ASTU 310
+term: 2016S1-2, 
+
+code: ASTU 311
+term: 2016S1-2, 
+
+code: ASTU 410
+term: 2016S1-2, 
+
+code: ASTU 411
+term: 2016S1-2, 
+
+code: ASTU 412
+term: 2016S1-2, 
+
+code: ASTU 501
+term: 2016S1-2, 
+
+code: ASTU 502
+term: 2016S1-2, 
+
+code: ASTU 503
+term: 2016S1-2, 
+
+code: ASTU 610
+term: 2016S1-2, 
+
+code: ASTU 611
+term: 2016S1-2, 
+
+code: ASTU 612
+term: 2016S1-2, 
+
+code: ASTU 613
+term: 2016S1-2, 
+
+code: ATSC 113
+term: 2016SA, 
+
+code: ATSC 398
+term: 2016S1-2, 
+
+code: ATSC 399
+term: 2016S1-2, 
+
+code: ATSC 498
+term: 2016S1-2, 
+
+code: ATSC 499
+term: 2016S1-2, 
+
+code: ATSC 597
+term: 2016S1-2, 
+
+code: ATSC 598
+term: 2016S1-2, 
+
+code: AUDI 402
+term: 2016S1-2, 2016SA, 
+
+code: AUDI 546A
+term: 2016S1, 
+
+code: AUDI 550A
+term: 2016S1, 
+
+code: AUDI 559
+term: 2016S1-2, 
+
+code: AUDI 565C
+term: 2016S1-2, 
+
+code: AUDI 566C
+term: 2016S1-2, 
+
+code: AUDI 567C
+term: 2016S1-2, 
+
+code: AUDI 576
+term: 2016S1, 
+
+code: AUDI 579
+term: 2016S1-2, 
+
+code: AUDI 590C
+term: 2016S1-2, 
+
+code: AUDI 591C
+term: 2016S1-2, 
+
+code: AUDI 593C
+term: 2016S1-2, 
+
+code: AUDI 594C
+term: 2016S1-2, 
+
+code: BIOC 202
+term: 2016S1, 
+
+code: BIOC 302
+term: 2016S2, 
+
+code: BIOC 398
+term: 2016S1-2, 
+
+code: BIOC 399
+term: 2016S1-2, 
+
+code: BIOC 498
+term: 2016S1-2, 
+
+code: BIOC 499
+term: 2016S1-2, 
+
+code: BIOL 111
+term: 2016S1, 
+
+code: BIOL 112
+term: 2016S1, 
+
+code: BIOL 121
+term: 2016S1, 
+
+code: BIOL 155
+term: 2016S1, 
+
+code: BIOL 200
+term: 2016S1, 
+
+code: BIOL 230
+term: 2016S1, 
+
+code: BIOL 234
+term: 2016S1, 
+
+code: BIOL 260
+term: 2016S1, 
+
+code: BIOL 300
+term: 2016S1, 
+
+code: BIOL 324
+term: 2016S2, 
+
+code: BIOL 335
+term: 2016S2, 
+
+code: BIOL 336
+term: 2016S2, 
+
+code: BIOL 361
+term: 2016S1, 
+
+code: BIOL 398
+term: 2016S1-2, 
+
+code: BIOL 399
+term: 2016S1-2, 
+
+code: BIOL 498
+term: 2016S1-2, 
+
+code: BIOL 499
+term: 2016S1-2, 
+
+code: BUSI 100
+term: 2016S1-2, 
+
+code: BUSI 101
+term: 2016S1-2, 
+
+code: BUSI 111
+term: 2016S1-2, 
+
+code: BUSI 112
+term: 2016S1-2, 
+
+code: BUSI 121
+term: 2016S1-2, 
+
+code: BUSI 293
+term: 2016S1, 
+
+code: BUSI 294
+term: 2016S1, 2016S2, 
+
+code: BUSI 300
+term: 2016S1, 
+
+code: BUSI 330
+term: 2016S1-2, 
+
+code: BUSI 331
+term: 2016S1-2, 
+
+code: BUSI 335
+term: 2016S1, 2016S2, 
+
+code: BUSI 344
+term: 2016S1-2, 
+
+code: BUSI 353
+term: 2016S1, 2016S2, 
+
+code: BUSI 354
+term: 2016S1, 2016S2, 
+
+code: BUSI 355
+term: 2016S1, 2016S2, 
+
+code: BUSI 370
+term: 2016S1, 2016S2, 
+
+code: BUSI 393
+term: 2016S1, 2016S2, 
+
+code: BUSI 398
+term: 2016S1-2, 
+
+code: BUSI 400
+term: 2016S1-2, 
+
+code: BUSI 401
+term: 2016S1-2, 
+
+code: BUSI 433
+term: 2016S2, 
+
+code: BUSI 442
+term: 2016S1-2, 
+
+code: BUSI 443
+term: 2016S1-2, 
+
+code: BUSI 444
+term: 2016S1-2, 
+
+code: BUSI 450
+term: 2016S1, 2016S2, 
+
+code: BUSI 452
+term: 2016S1-2, 
+
+code: BUSI 453
+term: 2016S1, 2016S2, 
+
+code: BUSI 455
+term: 2016S1, 2016S2, 
+
+code: BUSI 470
+term: 2016S2, 
+
+code: BUSI 493
+term: 2016S1, 
+
+code: BUSI 497
+term: 2016S1-2, 
+
+code: CAPS 301
+term: 2016S1-2, 
+
+code: CAPS 390
+term: 2016S1, 2016S1-2, 
+
+code: CAPS 391
+term: 2016S1, 
+
+code: CAPS 398
+term: 2016S1-2, 
+
+code: CAPS 399
+term: 2016S1-2, 
+
+code: CAPS 498
+term: 2016S1-2, 
+
+code: CAPS 499
+term: 2016S1-2, 
+
+code: CHEM 121
+term: 2016S1, 
+
+code: CHEM 123
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: CHEM 233
+term: 2016S1, 
+
+code: CHEM 235
+term: 2016S1, 
+
+code: CHEM 398
+term: 2016S1-2, 
+
+code: CHEM 399
+term: 2016S1-2, 
+
+code: CHEM 498
+term: 2016S1-2, 
+
+code: CHEM 499
+term: 2016S1-2, 
+
+code: CHIN 134
+term: 2016S1, 2016S2, 
+
+code: CHIN 234
+term: 2016S2, 
+
+code: CHIN 244
+term: 2016S2, 
+
+code: CHIN 435
+term: 2016S1, 
+
+code: CHIN 437
+term: 2016S1, 
+
+code: CHIN 444
+term: 2016S2, 
+
+code: CHIN 464
+term: 2016S1, 
+
+code: CHIN 474
+term: 2016S2, 
+
+code: CHIN 484
+term: 2016S1, 2016S2, 
+
+code: CIVL 200
+term: 2016S1, 2016SA, 
+
+code: CIVL 235
+term: 2016S1, 
+
+code: CIVL 541
+term: 2016S1-2, 
+
+code: CIVL 598G
+term: 2016S1, 
+
+code: CNPS 363
+term: 2016S1, 
+
+code: CNPS 364
+term: 2016S1, 
+
+code: CNPS 365
+term: 2016S1, 2016S2, 
+
+code: CNPS 427
+term: 2016S1, 
+
+code: CNPS 433
+term: 2016S1-2, 
+
+code: CNPS 580A
+term: 2016S1-2, 
+
+code: CNPS 598C
+term: 2016S1, 
+
+code: CNPS 598H
+term: 2016S1, 2016S1-2, 
+
+code: CNRS 535
+term: 2016S1-2, 
+
+code: CNTO 301
+term: 2016S1, 
+
+code: CNTO 303
+term: 2016S2, 
+
+code: COMM 203
+term: 2016S1, 
+
+code: COMM 204
+term: 2016S1, 2016S2, 
+
+code: COMM 205
+term: 2016S1, 
+
+code: COMM 290
+term: 2016S1, 
+
+code: COMM 293
+term: 2016S1, 
+
+code: COMM 294
+term: 2016S1, 2016S2, 
+
+code: COMM 295
+term: 2016S1, 
+
+code: COMM 335
+term: 2016S1, 
+
+code: COMM 380
+term: 2016S1-2, 
+
+code: COMM 381
+term: 2016S1-2, 
+
+code: COMM 390
+term: 2016S1, 2016S1-2, 
+
+code: COMM 393
+term: 2016S1, 2016S2, 
+
+code: COMM 394
+term: 2016S1, 
+
+code: COMM 395
+term: 2016S1, 2016S2, 
+
+code: COMM 450
+term: 2016S1, 2016S2, 
+
+code: COMM 453
+term: 2016S2, 
+
+code: COMM 455
+term: 2016S1, 2016S2, 
+
+code: COMM 480
+term: 2016S1-2, 
+
+code: COMM 481
+term: 2016S1-2, 
+
+code: COMM 491
+term: 2016S1, 2016S2, 
+
+code: COMM 493
+term: 2016S2, 
+
+code: COMM 498
+term: 2016S1, 
+
+code: CPEN 291
+term: 2016S1, 
+
+code: CPEN 311
+term: 2016S1, 
+
+code: CPEN 481
+term: 2016S1, 
+
+code: CPEN 499A
+term: 2016S1, 
+
+code: CPEN 499B
+term: 2016S1, 
+
+code: CPSC 110
+term: 2016S1, 2016S1-2, 
+
+code: CPSC 121
+term: 2016S1, 
+
+code: CPSC 210
+term: 2016S2, 
+
+code: CPSC 213
+term: 2016S2, 
+
+code: CPSC 221
+term: 2016S1, 
+
+code: CPSC 304
+term: 2016S1, 
+
+code: CPSC 310
+term: 2016S1, 2016S1-2, 
+
+code: CPSC 313
+term: 2016S1, 
+
+code: CPSC 320
+term: 2016S1, 
+
+code: CRWR 200
+term: 2016S1, 
+
+code: CRWR 570L
+term: 2016S2, 
+
+code: DENT 420
+term: 2016S1, 
+
+code: ECED 407
+term: 2016S1-2, 
+
+code: ECED 416
+term: 2016S2, 
+
+code: ECED 417
+term: 2016S1-2, 
+
+code: ECED 420
+term: 2016S1-2, 
+
+code: ECED 438
+term: 2016S1-2, 
+
+code: ECED 598A
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: ECED 598C
+term: 2016S1-2, 
+
+code: ECON 101
+term: 2016S1, 2016S2, 
+
+code: ECON 102
+term: 2016S1, 2016S2, 
+
+code: ECON 301
+term: 2016S1, 
+
+code: ECON 302
+term: 2016S2, 
+
+code: ECON 325
+term: 2016S1, 
+
+code: ECON 326
+term: 2016S2, 
+
+code: ECON 345
+term: 2016S1, 
+
+code: ECON 351
+term: 2016S1, 
+
+code: ECON 355
+term: 2016S1, 
+
+code: ECON 356
+term: 2016S2, 
+
+code: ECON 456
+term: 2016S1, 
+
+code: ECON 471
+term: 2016S1, 
+
+code: ECON 594
+term: 2016S1-2, 
+
+code: EDCP 305
+term: 2016S2, 
+
+code: EDCP 325
+term: 2016S2, 
+
+code: EDCP 344
+term: 2016S2, 
+
+code: EDCP 409
+term: 2016S2, 
+
+code: EDCP 412
+term: 2016S2, 
+
+code: EDCP 420
+term: 2016S2, 
+
+code: EDCP 431
+term: 2016S2, 
+
+code: EDCP 432
+term: 2016S2, 
+
+code: EDCP 441B
+term: 2016S2, 
+
+code: EDCP 470
+term: 2016S2, 
+
+code: EDCP 471A
+term: 2016S2, 
+
+code: EDCP 472
+term: 2016S2, 
+
+code: EDCP 474
+term: 2016S2, 
+
+code: EDCP 481
+term: 2016S2, 
+
+code: EDCP 491
+term: 2016S2, 
+
+code: EDCP 493
+term: 2016S1-2, 
+
+code: EDCP 494
+term: 2016S1-2, 
+
+code: EDCP 496
+term: 2016S2, 
+
+code: EDCP 585D
+term: 2016S2, 
+
+code: EDCP 598C
+term: 2016S1, 2016S2, 
+
+code: EDST 403
+term: 2016S1, 2016S1-2, 
+
+code: EDST 404
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: EDST 561A
+term: 2016S1, 
+
+code: EDST 565E
+term: 2016S1-2, 
+
+code: EDUC 179
+term: 2016S1-2, 
+
+code: EDUC 279
+term: 2016S1-2, 
+
+code: EDUC 319
+term: 2016S1, 
+
+code: EDUC 321
+term: 2016S1, 
+
+code: EDUC 399
+term: 2016S1, 
+
+code: EDUC 430
+term: 2016S1, 
+
+code: EDUC 440
+term: 2016S1, 
+
+code: EDUC 442A
+term: 2016S2, 
+
+code: EDUC 452A
+term: 2016S2, 2016S1-2, 
+
+code: EDUC 452B
+term: 2016S2, 2016S1-2, 
+
+code: EDUC 495F
+term: 2016S1, 
+
+code: EDUC 496B
+term: 2016S1, 
+
+code: EDUC 496I
+term: 2016S1, 
+
+code: EECE 543
+term: 2016S1, 
+
+code: EECE 584
+term: 2016S1-2, 
+
+code: ELEC 291
+term: 2016S1, 
+
+code: ELEC 341
+term: 2016S1, 
+
+code: ELEC 391
+term: 2016S1, 
+
+code: ELEC 400V
+term: 2016S1-2, 
+
+code: ELEC 481
+term: 2016S1, 
+
+code: ENDS 482D
+term: 2016S1-2, 
+
+code: ENDS 482G
+term: 2016S1-2, 
+
+code: ENDS 482H
+term: 2016S1-2, 
+
+code: ENDS 482O
+term: 2016S1-2, 
+
+code: ENGL 110
+term: 2016S1, 2016S2, 
+
+code: ENGL 112
+term: 2016S1, 2016S2, 2016S1-2, 2016SA, 
+
+code: ENGL 220
+term: 2016S1, 2016S2, 
+
+code: ENGL 223
+term: 2016S1, 
+
+code: ENGL 301
+term: 2016S1-2, 2016SA, 
+
+code: ENGL 321
+term: 2016SA, 
+
+code: ENGL 348A
+term: 2016S1, 
+
+code: ENGL 359A
+term: 2016S2, 
+
+code: ENGL 364A
+term: 2016SA, 
+
+code: ENGL 406A
+term: 2016S2, 
+
+code: ENGL 468A
+term: 2016S1, 
+
+code: ENGL 470A
+term: 2016SA, 
+
+code: ENGL 474A
+term: 2016S1, 
+
+code: ENPH 253
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: ENPH 257
+term: 2016S1, 
+
+code: ENPH 270
+term: 2016S1, 
+
+code: EOSC 114
+term: 2016S1, 2016SA, 
+
+code: EOSC 116
+term: 2016SA, 
+
+code: EOSC 118
+term: 2016SA, 
+
+code: EOSC 310
+term: 2016SA, 
+
+code: EOSC 315
+term: 2016SA, 
+
+code: EOSC 326
+term: 2016SA, 
+
+code: EOSC 398
+term: 2016S1-2, 
+
+code: EOSC 399
+term: 2016S1-2, 
+
+code: EOSC 498
+term: 2016S1-2, 
+
+code: EOSC 499
+term: 2016S1-2, 
+
+code: EPSE 303
+term: 2016S2, 
+
+code: EPSE 308
+term: 2016S1-2, 
+
+code: EPSE 312
+term: 2016S2, 
+
+code: EPSE 316
+term: 2016S2, 
+
+code: EPSE 317
+term: 2016S2, 
+
+code: EPSE 348
+term: 2016S1-2, 
+
+code: EPSE 390A
+term: 2016S1, 
+
+code: EPSE 401
+term: 2016S2, 
+
+code: EPSE 403
+term: 2016S1, 2016S2, 
+
+code: EPSE 406
+term: 2016S1, 
+
+code: EPSE 408
+term: 2016S2, 
+
+code: EPSE 421
+term: 2016S2, 
+
+code: EPSE 432
+term: 2016S2, 
+
+code: EPSE 433
+term: 2016S2, 
+
+code: EPSE 436
+term: 2016S2, 
+
+code: EPSE 437
+term: 2016S2, 
+
+code: EPSE 449
+term: 2016S1, 2016S2, 
+
+code: EPSE 482
+term: 2016S2, 
+
+code: EPSE 554
+term: 2016S1-2, 
+
+code: EPSE 561C
+term: 2016S1, 
+
+code: EPSE 589B
+term: 2016S1-2, 
+
+code: EPSE 598A
+term: 2016S1, 2016S1-2, 
+
+code: EPSE 598B
+term: 2016S1, 
+
+code: EPSE 598G
+term: 2016S1, 
+
+code: EPSE 687A
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: EPSE 687C
+term: 2016S1-2, 
+
+code: EPSE 688A
+term: 2016S1-2, 
+
+code: EPSE 689B
+term: 2016S1-2, 
+
+code: FMST 210
+term: 2016S1, 2016S2, 
+
+code: FMST 312
+term: 2016S1, 2016S2, 
+
+code: FMST 314
+term: 2016S1, 2016S2, 
+
+code: FMST 316
+term: 2016S1, 
+
+code: FNH 200
+term: 2016S1, 2016S2, 2016S1-2, 2016SA, 
+
+code: FNH 250
+term: 2016S1, 2016S1-2, 2016SA, 
+
+code: FNH 355
+term: 2016S1, 
+
+code: FNH 483
+term: 2016S1, 
+
+code: FNIS 210
+term: 2016S1, 
+
+code: FNIS 220
+term: 2016S2, 
+
+code: FNIS 401P
+term: 2016S1-2, 
+
+code: FOOD 531
+term: 2016S1-2, 
+
+code: FOPR 264
+term: 2016SB, 
+
+code: FOPR 362
+term: 2016SB, 
+
+code: FREN 101
+term: 2016S1, 
+
+code: FREN 102
+term: 2016S2, 
+
+code: FREN 111
+term: 2016S1, 
+
+code: FREN 112
+term: 2016S2, 
+
+code: FREN 329
+term: 2016S1, 
+
+code: FREN 420D
+term: 2016S1, 
+
+code: FREN 420R
+term: 2016S1, 
+
+code: FRST 231
+term: 2016SA, 
+
+code: FRST 248
+term: 2016S1-2, 
+
+code: FRST 346
+term: 2016S1-2, 
+
+code: FRST 347
+term: 2016S1-2, 
+
+code: FRST 348
+term: 2016S1-2, 
+
+code: FRST 446
+term: 2016S1-2, 
+
+code: FRST 447
+term: 2016S1-2, 
+
+code: FRST 448
+term: 2016S1-2, 
+
+code: FRST 449C
+term: 2016S2, 
+
+code: FRST 555
+term: 2016S2, 
+
+code: GBPR 502
+term: 2016S1-2, 
+
+code: GEOB 103
+term: 2016S1, 
+
+code: GEOG 122
+term: 2016S1, 
+
+code: GEOG 310
+term: 2016S1, 
+
+code: GEOG 350
+term: 2016SA, 
+
+code: GEOG 352
+term: 2016S1, 
+
+code: GERM 100
+term: 2016S1, 
+
+code: GERM 110
+term: 2016S2, 
+
+code: GERM 112
+term: 2016S1, 
+
+code: GERM 200
+term: 2016S1, 
+
+code: GERM 210
+term: 2016S2, 
+
+code: GERM 433
+term: 2016S1, 
+
+code: GERM 515A
+term: 2016S1, 
+
+code: GRSJ 101
+term: 2016S1, 
+
+code: GRSJ 224A
+term: 2016S1-2, 2016SA, 
+
+code: GRSJ 224C
+term: 2016S1-2, 
+
+code: GRSJ 300
+term: 2016S1, 2016S1-2, 2016SA, 
+
+code: GRSJ 503G
+term: 2016S1, 
+
+code: HIST 103
+term: 2016S1-2, 
+
+code: HIST 104
+term: 2016SA, 
+
+code: HIST 326
+term: 2016S1, 
+
+code: HIST 357
+term: 2016S2, 
+
+code: HIST 370
+term: 2016S1, 
+
+code: HIST 380C
+term: 2016S1-2, 
+
+code: HIST 425
+term: 2016S1-2, 
+
+code: HIST 441
+term: 2016S2, 
+
+code: IAR 525
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: ISCI 398
+term: 2016S1-2, 
+
+code: ISCI 399
+term: 2016S1-2, 
+
+code: ISCI 498
+term: 2016S1-2, 
+
+code: ISCI 499
+term: 2016S1-2, 
+
+code: ITAL 101
+term: 2016S1, 
+
+code: ITAL 102
+term: 2016S2, 
+
+code: ITAL 104
+term: 2016S1, 
+
+code: ITAL 342
+term: 2016S2, 
+
+code: IWME 501
+term: 2016S1-2, 
+
+code: IWME 502
+term: 2016S1, 
+
+code: JAPN 100
+term: 2016S1, 2016S2, 2016S1-2, 2016SA, 
+
+code: JAPN 101
+term: 2016S1, 2016S2, 
+
+code: JAPN 200
+term: 2016S2, 
+
+code: JAPN 201
+term: 2016S2, 
+
+code: JAPN 320
+term: 2016S1, 
+
+code: JAPN 321
+term: 2016S1, 
+
+code: JAPN 322
+term: 2016S2, 
+
+code: JAPN 323
+term: 2016S2, 
+
+code: JAPN 400
+term: 2016S1, 
+
+code: JAPN 401
+term: 2016S1, 
+
+code: JAPN 402
+term: 2016S2, 
+
+code: JRNL 527
+term: 2016S1-2, 
+
+code: KIN 101
+term: 2016S1-2, 
+
+code: KIN 151
+term: 2016S1, 
+
+code: KIN 161
+term: 2016S1, 
+
+code: KIN 190
+term: 2016S1, 
+
+code: KIN 191
+term: 2016S2, 
+
+code: KIN 201
+term: 2016S1-2, 
+
+code: KIN 275
+term: 2016S1, 
+
+code: KIN 284
+term: 2016S2, 
+
+code: KIN 301
+term: 2016S1-2, 
+
+code: KIN 375
+term: 2016S2, 
+
+code: KIN 401
+term: 2016S1-2, 
+
+code: KIN 402
+term: 2016S1-2, 
+
+code: KIN 469
+term: 2016S1, 
+
+code: KORN 102
+term: 2016S1, 
+
+code: LARC 510A
+term: 2016S1, 
+
+code: LARC 510B
+term: 2016S1-2, 
+
+code: LARC 582K
+term: 2016S1-2, 
+
+code: LATN 101
+term: 2016S2, 
+
+code: LAW 379D
+term: 2016S1-2, 
+
+code: LAW 468
+term: 2016S2, 
+
+code: LAW 476
+term: 2016S1, 
+
+code: LAW 488
+term: 2016S1-2, 
+
+code: LAW 505
+term: 2016S1-2, 
+
+code: LAW 507
+term: 2016S1, 
+
+code: LAW 515
+term: 2016S1-2, 
+
+code: LAW 555C
+term: 2016S2, 
+
+code: LFS 398
+term: 2016S1-2, 
+
+code: LFS 399
+term: 2016S1-2, 
+
+code: LFS 496A
+term: 2016S1-2, 
+
+code: LFS 496B
+term: 2016S1-2, 
+
+code: LFS 498
+term: 2016S1-2, 
+
+code: LFS 499
+term: 2016S1-2, 
+
+code: LIBE 461
+term: 2016S1, 
+
+code: LIBE 598A
+term: 2016S1, 
+
+code: LIBR 504
+term: 2016S2, 
+
+code: LIBR 522J
+term: 2016S1, 
+
+code: LIBR 524
+term: 2016S1, 
+
+code: LIBR 525
+term: 2016S2, 
+
+code: LIBR 548H
+term: 2016S2, 
+
+code: LIBR 554
+term: 2016S1, 
+
+code: LIBR 572
+term: 2016S1, 
+
+code: LIBR 576
+term: 2016S2, 
+
+code: LIBR 579G
+term: 2016S1, 
+
+code: LIBR 580
+term: 2016S1, 
+
+code: LIBR 592
+term: 2016S1-2, 
+
+code: LIBR 595
+term: 2016S1-2, 
+
+code: LIBR 596
+term: 2016S1, 2016S1-2, 
+
+code: LING 101
+term: 2016S1, 
+
+code: LING 200
+term: 2016S1, 
+
+code: LING 201
+term: 2016S1, 
+
+code: LING 222
+term: 2016S2, 
+
+code: LING 448C
+term: 2016S1-2, 
+
+code: LLED 352
+term: 2016S1-2, 
+
+code: LLED 361
+term: 2016S1, 
+
+code: LLED 367
+term: 2016S2, 
+
+code: LLED 387
+term: 2016S2, 
+
+code: LLED 399
+term: 2016S2, 
+
+code: LLED 421
+term: 2016S1-2, 
+
+code: LLED 423
+term: 2016S2, 
+
+code: LLED 433
+term: 2016S2, 
+
+code: LLED 434
+term: 2016S2, 
+
+code: LLED 435A
+term: 2016S2, 
+
+code: LLED 444
+term: 2016S2, 
+
+code: LLED 449
+term: 2016S2, 
+
+code: LLED 469
+term: 2016S2, 
+
+code: LLED 478A
+term: 2016S2, 
+
+code: LLED 478B
+term: 2016S2, 
+
+code: LLED 478C
+term: 2016S2, 
+
+code: LLED 480A
+term: 2016S2, 
+
+code: LLED 489A
+term: 2016S1, 2016S2, 
+
+code: LLED 489B
+term: 2016S1, 2016S2, 
+
+code: LLED 489C
+term: 2016S2, 
+
+code: MATH 002
+term: 2016S2, 
+
+code: MATH 100
+term: 2016S1, 
+
+code: MATH 101
+term: 2016S2, 
+
+code: MATH 104
+term: 2016S1, 
+
+code: MATH 105
+term: 2016S2, 
+
+code: MATH 200
+term: 2016S1, 
+
+code: MATH 215
+term: 2016S1, 
+
+code: MATH 220
+term: 2016S1-2, 
+
+code: MATH 221
+term: 2016S1, 
+
+code: MATH 253
+term: 2016S1, 
+
+code: MATH 255
+term: 2016S1, 
+
+code: MATH 257
+term: 2016S2, 
+
+code: MATH 307
+term: 2016S1, 
+
+code: MATH 312
+term: 2016S1, 
+
+code: MATH 316
+term: 2016S2, 
+
+code: MECH 227
+term: 2016S2, 
+
+code: MECH 575H
+term: 2016S1-2, 
+
+code: MECH 575I
+term: 2016S1-2, 
+
+code: MEDG 570
+term: 2016S1-2, 
+
+code: MEDG 575
+term: 2016S1-2, 
+
+code: MGMT 100
+term: 2016S1-2, 
+
+code: MGMT 200
+term: 2016S1-2, 
+
+code: MICB 201
+term: 2016S1, 
+
+code: MICB 202
+term: 2016S2, 
+
+code: MICB 398
+term: 2016S1-2, 
+
+code: MICB 399
+term: 2016S1-2, 
+
+code: MICB 498
+term: 2016S1-2, 
+
+code: MICB 499
+term: 2016S1-2, 
+
+code: MTRL 512
+term: 2016S1-2, 
+
+code: MUSC 512E
+term: 2016S1-2, 
+
+code: NAME 592
+term: 2016S2, 2016S1-2, 
+
+code: NURS 340
+term: 2016S1, 2016S2, 
+
+code: NURS 342
+term: 2016S1, 
+
+code: NURS 410A
+term: 2016S1, 
+
+code: NURS 504
+term: 2016S1, 
+
+code: NURS 541
+term: 2016S1, 
+
+code: NURS 548
+term: 2016S1, 
+
+code: NURS 586A
+term: 2016S1, 
+
+code: PATH 451
+term: 2016S1-2, 
+
+code: PATH 548C
+term: 2016S1, 
+
+code: PCTH 398
+term: 2016S1-2, 
+
+code: PCTH 399
+term: 2016S1-2, 
+
+code: PCTH 498
+term: 2016S1-2, 
+
+code: PCTH 499
+term: 2016S1-2, 
+
+code: PHAR 369
+term: 2016S1, 2016S2, 
+
+code: PHAR 469
+term: 2016S1, 2016S2, 
+
+code: PHAR 479
+term: 2016S1-2, 
+
+code: PHAR 533A
+term: 2016S1-2, 
+
+code: PHAR 534S
+term: 2016S1-2, 
+
+code: PHAR 534T
+term: 2016S1-2, 
+
+code: PHIL 101
+term: 2016S1, 2016S2, 
+
+code: PHIL 102
+term: 2016S1, 
+
+code: PHIL 120
+term: 2016S1, 2016SA, 
+
+code: PHIL 220A
+term: 2016S1, 2016SA, 
+
+code: PHIL 230A
+term: 2016S2, 
+
+code: PHIL 338A
+term: 2016S1, 
+
+code: PHIL 433A
+term: 2016S2, 2016S1-2, 2016SA, 
+
+code: PHIL 434A
+term: 2016S1-2, 2016SA, 
+
+code: PHRM 171
+term: 2016S1, 2016S2, 
+
+code: PHTH 531
+term: 2016S2, 
+
+code: PHTH 534
+term: 2016S1, 
+
+code: PHTH 544
+term: 2016S2, 
+
+code: PHTH 545
+term: 2016S2, 
+
+code: PHTH 546
+term: 2016S2, 
+
+code: PHTH 574
+term: 2016S1-2, 
+
+code: PHYS 100
+term: 2016SA, 
+
+code: PHYS 101
+term: 2016S1, 
+
+code: PHYS 118
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: PHYS 119
+term: 2016S1, 
+
+code: PHYS 250
+term: 2016S1-2, 
+
+code: PHYS 298
+term: 2016S2, 2016S1-2, 
+
+code: PHYS 299
+term: 2016S1-2, 
+
+code: PHYS 399
+term: 2016S1-2, 
+
+code: PHYS 498
+term: 2016S1-2, 
+
+code: PHYS 499
+term: 2016S1-2, 
+
+code: PHYS 555B
+term: 2016S1-2, 
+
+code: PHYS 555F
+term: 2016S1-2, 
+
+code: PLAN 503
+term: 2016S1, 
+
+code: PLAN 548E
+term: 2016S1, 
+
+code: PLAN 548H
+term: 2016S1, 
+
+code: PLAN 548W
+term: 2016S1-2, 
+
+code: PLAN 548Z
+term: 2016S1, 
+
+code: PLAN 583
+term: 2016S2, 
+
+code: PLAN 587B
+term: 2016S1, 
+
+code: PLAN 587E
+term: 2016S1, 
+
+code: PLAN 590A
+term: 2016S1, 
+
+code: POLI 100
+term: 2016S2, 
+
+code: POLI 101
+term: 2016S1, 
+
+code: POLI 110
+term: 2016S1, 
+
+code: POLI 240
+term: 2016S1, 
+
+code: POLI 260
+term: 2016S1, 
+
+code: POLI 308B
+term: 2016S2, 
+
+code: POLI 326
+term: 2016S1, 
+
+code: POLI 364A
+term: 2016S1, 
+
+code: POLI 373
+term: 2016S2, 
+
+code: POLI 375A
+term: 2016S2, 
+
+code: PORT 101
+term: 2016S1, 
+
+code: PSYC 101
+term: 2016S1, 
+
+code: PSYC 102
+term: 2016S1, 
+
+code: PSYC 217
+term: 2016S1, 
+
+code: PSYC 218
+term: 2016S2, 
+
+code: PSYC 300A
+term: 2016S1, 2016SA, 
+
+code: PSYC 304
+term: 2016SA, 
+
+code: PSYC 305A
+term: 2016S1, 
+
+code: PSYC 309A
+term: 2016S1, 
+
+code: PSYC 314
+term: 2016S2, 2016SA, 
+
+code: PSYC 315
+term: 2016SA, 
+
+code: PSYC 321
+term: 2016S1, 
+
+code: PSYC 331
+term: 2016S2, 
+
+code: PSYC 333
+term: 2016S2, 
+
+code: PSYC 350A
+term: 2016S1, 
+
+code: PSYC 398
+term: 2016S1-2, 
+
+code: PSYC 399
+term: 2016S1-2, 
+
+code: PSYC 417A
+term: 2016S1, 
+
+code: PSYC 498
+term: 2016S1-2, 
+
+code: PSYC 499
+term: 2016S1-2, 
+
+code: PSYC 559
+term: 2016S1, 2016S1-2, 
+
+code: RHSC 420
+term: 2016S2, 
+
+code: RMST 234
+term: 2016S1, 
+
+code: RSOT 519
+term: 2016S1-2, 
+
+code: RSOT 538
+term: 2016S1-2, 
+
+code: RSOT 545
+term: 2016S1-2, 
+
+code: RSOT 547
+term: 2016S1-2, 
+
+code: RSOT 549
+term: 2016S1-2, 
+
+code: RSOT 551
+term: 2016S1, 
+
+code: RSOT 553
+term: 2016S1, 
+
+code: SCAN 411B
+term: 2016S1, 
+
+code: SOCI 100C
+term: 2016S1, 2016S2, 
+
+code: SOCI 200
+term: 2016S1, 2016S2, 
+
+code: SOCI 201A
+term: 2016S1, 
+
+code: SOCI 217A
+term: 2016S1, 
+
+code: SOCI 240A
+term: 2016S2, 
+
+code: SOCI 250A
+term: 2016S1, 
+
+code: SOCI 260A
+term: 2016S2, 
+
+code: SOCI 310A
+term: 2016S2, 
+
+code: SOCI 328
+term: 2016S2, 
+
+code: SOCI 342
+term: 2016S2, 
+
+code: SOCI 350A
+term: 2016S1, 
+
+code: SOCI 480A
+term: 2016S1, 
+
+code: SOCI 480B
+term: 2016S1, 
+
+code: SOWK 415
+term: 2016S1-2, 
+
+code: SOWK 452
+term: 2016S1, 
+
+code: SOWK 506
+term: 2016S1-2, 
+
+code: SOWK 560C
+term: 2016S1-2, 
+
+code: SPAN 101
+term: 2016S1, 
+
+code: SPAN 102
+term: 2016S2, 
+
+code: SPAN 201
+term: 2016S1, 
+
+code: SPAN 202
+term: 2016S2, 
+
+code: SPAN 430E
+term: 2016S1, 
+
+code: SPHA 533
+term: 2016S1, 
+
+code: SPHA 544
+term: 2016S1, 
+
+code: SPHA 561
+term: 2016S1, 
+
+code: SPHA 564
+term: 2016S1, 
+
+code: SPPH 508
+term: 2016S1-2, 
+
+code: SPPH 580A
+term: 2016S1, 
+
+code: SPPH 598
+term: 2016S1-2, 
+
+code: STAT 200
+term: 2016S2, 
+
+code: STAT 241
+term: 2016S1, 
+
+code: STAT 251
+term: 2016S1, 
+
+code: STAT 398
+term: 2016S1-2, 
+
+code: STAT 399
+term: 2016S1-2, 
+
+code: STAT 498
+term: 2016S1-2, 
+
+code: STAT 499
+term: 2016S1-2, 
+
+code: STAT 598
+term: 2016S1-2, 
+
+code: STAT 599
+term: 2016S1-2, 
+
+code: URSY 530
+term: 2016S1-2, 
+
+code: URSY 550
+term: 2016S1-2, 
+
+code: VANT 140A
+term: 2016S1-2, 
+
+code: VANT 149
+term: 2016S1-2, 
+
+code: VANT 151
+term: 2016S1-2, 
+
+code: WOOD 300
+term: 2016S1-2, 
+
+code: WOOD 305
+term: 2016S1, 
+
+code: WOOD 312
+term: 2016S1-2, 
+
+code: WOOD 400
+term: 2016S1-2, 
+
+code: WOOD 411
+term: 2016S1-2, 
+
+code: WRDS 150
+term: 2016S1, 2016S2, 
+
+code: WRIT 098
+term: 2016S1, 2016S2, 2016S1-2, 
+
+code: WRIT 099
+term: 2016S1, 2016S2, 2016S1-2, 
