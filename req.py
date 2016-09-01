@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.1.7
+req v1.2.0
 Copyright © 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -20,8 +20,8 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 
-COURSES = 'courses' # relative path to folder with course lists
-TABS    = 'tabs'    # relative path to folder with course tabs
+COURSES = 'ubcparser/courses'   # relative path to folder with course lists
+TABS    = 'ubcparser/tabs'      # relative path to folder with course tabs
 MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
