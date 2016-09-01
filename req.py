@@ -43,7 +43,8 @@ class Main(ttk.Frame):
         ttk.Frame.__init__(self, parent)
         self.pack(fill=tk.BOTH)
         self.courses = {}
-        self.widgets = {}
+        self.labels = {}
+        self.tooltip = None
 
         # Read in all course codes in tabs and create them
         notebook = ttk.Notebook(self)
@@ -75,7 +76,7 @@ class Main(ttk.Frame):
                         split = line.split(':')
                         if len(split) > 1:
                             param = split[0].strip()
-                            value = split[1].strip()
+                            value = ':'.join(split[1:]).strip()
                             if param == 'code':
                                 if value in self.courses.keys():
                                     hascourse = True
@@ -83,7 +84,7 @@ class Main(ttk.Frame):
                                 elif value in tabsall:
                                     course = Course(value)
                                     self.courses[value] = course
-                                    self.widgets[value] = []
+                                    self.labels[value] = []
                                     hascourse = True
                                 else:
                                     hascourse = False
@@ -146,12 +147,29 @@ class Main(ttk.Frame):
                 label = tk.Button(frame, text=code,
                                   command=lambda c=code: self.set_done(c))
                 label.grid(row=row, column=col)
-                self.widgets[code].append(label)
+                label.bind("<Enter>", lambda e,c=code: self.open_tooltip(e,c))
+                label.bind("<Leave>", lambda e: self.close_tooltip(e))
+                self.labels[code].append(label)
                 self.update_course(code)
                 col += 1
                 if col >= MAXNUM:
                     row += 1
                     col = 0
+
+
+    # Open and close tooltips on mouse hover
+    def open_tooltip(self, event, code):
+        if self.tooltip:
+            return
+        self.tooltip = tk.Toplevel(event.widget)
+        self.tooltip.geometry("+%d+%d" % (event.x_root + 5, event.y_root + 5))
+        label = ttk.Label(self.tooltip, wraplength=400,
+                          text=self.courses[code].get_params('desc'))
+        label.pack()
+    def close_tooltip(self, event):
+        if self.tooltip:
+            self.tooltip.destroy()
+            self.tooltip = None
 
 
     # Toggle whether the course has been taken and update its dependencies
@@ -199,7 +217,7 @@ class Main(ttk.Frame):
             else:
                 self.courses[code].set_status('outs')
         colour = COLOURS[self.courses[code].get_params('needs')]
-        for tab in self.widgets[code]:
+        for tab in self.labels[code]:
             tab.configure(activebackground = colour, bg = colour)
 
 
@@ -242,6 +260,7 @@ class Course():
     def __init__(self, code):
         self.code = code
         self.name = ''
+        self.desc = ''
         self.cred = []
         self.preq = []
         self.creq = []
@@ -258,6 +277,8 @@ class Course():
     def set_params(self, param, value):
         if param == 'name':
             self.name = value
+        elif param == 'desc':
+            self.desc = value
         elif param == 'cred':
             self.cred.extend([float(c.strip()) for c in value.split(',')])
         elif param == 'preq':
@@ -292,10 +313,11 @@ class Course():
 
     # Get course parameters
     def get_params(self, param=''):
-        params = {'code':self.code, 'name':self.name, 'cred':self.cred,
-                  'preq':self.preq, 'creq':self.creq, 'term':self.term,
-                  'excl':self.excl, 'preqs':self.preqs, 'creqs':self.creqs,
-                  'dreqs':self.dreqs, 'needs':self.needs, 'depth':self.depth}
+        params = {'code':self.code, 'name':self.name, 'desc':self.desc,
+                  'cred':self.cred, 'excl':self.excl, 'term':self.term,
+                  'preq':self.preq, 'creq':self.creq, 'preqs':self.preqs,
+                  'creqs':self.creqs, 'dreqs':self.dreqs,
+                  'needs':self.needs, 'depth':self.depth}
         if param in params.keys():
             return params[param]
         else:
