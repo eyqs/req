@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>req</title>
+  <script src="req.js"></script>
+</head>
+<body>
+  <form id="form" onsubmit="initApp(document.getElementById('form'),
+                                    document.getElementById('nocanvas'),
+                                    document.getElementById('canvas'));
+                            return false;">
+    <input type="submit" value="Launch">
+  </form>
+  <p id="nocanvas"></p>
+  <canvas id="canvas"></canvas>
+</body>
+</html>
