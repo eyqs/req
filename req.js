@@ -25,6 +25,27 @@ var BTNWIDTH = 100;
 var BTNHEIGHT = 30;
 var BTNPADDING = 10;
 var TITLEPADDING = 40;
+var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
+                "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
+
+/* Structure for course buttons */
+function Course(code, x, y) {
+    this.code = code;
+    this.x = x;
+    this.y = y;
+    this.name = "";
+    this.desc = "";
+    this.cred = -1.0;
+    this.excl = [];
+    this.term = [];
+    this.preq = "";
+    this.creq = "";
+    this.preqs = []
+    this.creqs = []
+    this.dreqs = []
+    this.needs = "none";
+    this.depth = 0;
+}
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
@@ -46,13 +67,27 @@ function getCursorPosition(e) {
 /* Decide what to do when user clicks */
 function onClick(e) {
     var pos = getCursorPosition(e);
+    for (var i = 0; i < courseList.length; i++) {
+        if (pos.x > courseList[i].x && pos.x < courseList[i].x + BTNWIDTH &&
+            pos.y > courseList[i].y && pos.y < courseList[i].y + BTNHEIGHT) {
+            switch (courseList[i].needs) {
+            case "done": courseList[i].needs = "none"; break;
+            case "none": courseList[i].needs = "outs"; break;
+            case "outs": courseList[i].needs = "creq"; break;
+            case "creq": courseList[i].needs = "preq"; break;
+            case "preq": courseList[i].needs = "excl"; break;
+            case "excl": courseList[i].needs = "done"; break;
+            default: break;
+            }
+        }
+    }
     drawApp();
 }
 
 /* Draw the entire application on the canvas */
 function drawApp() {
+    ctx.fillStyle = "black";
     ctx.clearRect(0, 0, WIDTH, HEIGHT);
-    ctx.fillStyle = "#000000";
     ctx.strokeRect(0, 0, WIDTH, HEIGHT);
     ctx.textAlign = "center";
     ctx.textBaseline = "top";
@@ -64,11 +99,22 @@ function drawApp() {
                  WIDTH / 2, HEIGHT - BORDER);
     ctx.textBaseline = "middle";
     ctx.font = "14px sans-serif";
+    for (var i = 0; i < courseList.length; i++) {
+        ctx.fillStyle = COLOURS[courseList[i].needs];
+        ctx.fillRect(courseList[i].x, courseList[i].y, BTNWIDTH, BTNHEIGHT);
+        ctx.fillStyle = "black";
+        ctx.strokeRect(courseList[i].x, courseList[i].y, BTNWIDTH, BTNHEIGHT);
+        ctx.fillText(courseList[i].code, courseList[i].x + BTNWIDTH / 2,
+                     courseList[i].y + BTNHEIGHT / 2);
+    }
+}
+
+/* Parse the given course codes */
+function parseCodes(codeList) {
     var x = BORDER;
     var y = BORDER + TITLEPADDING;
-    for (var i = 0; i < courseList.length; i++) {
-        ctx.strokeRect(x, y, BTNWIDTH, BTNHEIGHT);
-        ctx.fillText(courseList[i], x + BTNWIDTH / 2, y + BTNHEIGHT / 2);
+    for (var i = 0; i < codeList.length; i++) {
+        courseList.push(new Course(codeList[i], x, y));
         x += BTNWIDTH + BTNPADDING;
         if (x + BTNWIDTH > WIDTH - BORDER) {
             x = BORDER;
@@ -87,9 +133,9 @@ function initApp(formElement, messageElement, canvasElement) {
     if (!ctx)
         messageElement.innerHTML = "Your browser does not support this app!";
     else {
-        courseList = formElement.elements["courses"].value.split(", ");
-        console.log(courseList[0]);
-        console.log(courseList[1]);
+        courseList = [];
+        var codeList = formElement.elements["courses"].value.split(", ");
+        parseCodes(codeList);
         c.width = WIDTH;
         c.height = HEIGHT;
         c.addEventListener("click", onClick, false);
