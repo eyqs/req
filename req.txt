@@ -1,0 +1,24 @@
+/* Structure for courses */
+function Course(code, name, desc, cred, term,
+								preq, creq, excl, preqs, creqs, dreqs) {
+    this.code = code;
+    this.name = name;
+    this.desc = desc;
+    this.cred = cred;
+    this.term = term;
+		this.preq = preq;
+		this.creq = creq;
+		this.excl = excl;
+    this.preqs = preqs;
+    this.creqs = creqs;
+    this.dreqs = dreqs;
+    this.needs = "none";
+    this.depth = 0;
+    this.x;
+    this.y;
+}
+
+var allCourses = {
+"MATH 100": new Course("MATH 100", "Differential Calculus with Applications to Physical Sciences and Engineering", "Derivatives of elementary functions. Applications and modeling: graphing, optimization. Consult the Faculty of Science Credit Exclusion List: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-0-0]", [3.0], [], ["and", "High-school calculus", ["or", ["or", "a score of 80%", "higher in BC Principles of Mathematics 12", "Pre-calculus 12"], "a satisfactory score in the UBC Mathematics Basic Skills Test"]], [], ["or", "MATH 100", "MATH 102", "MATH 104", "MATH 110", "MATH 120", "MATH 180", "MATH 184", "SCIE 001", "SCIE 001", "MATH 100", "MATH 102", "MATH 104", "MATH 110", "MATH 111", "MATH 120", "MATH 140", "MATH 153", "MATH 180", "MATH 184"], ["a score of 80%", "Pre-calculus 12", "higher in BC Principles of Mathematics 12", "a satisfactory score in the UBC Mathematics Basic Skills Test", "High-school calculus"], [], ["SCIE 001", "COMM 473", "PHYS 119", "PHYS 157", "MATH 102", "COMM 290", "MATH 120", "MATH 180", "MATH 105", "FRST 231", "PHYS 107", "MATH 184", "CHEM 205", "MATH 103", "PHYS 117", "PHYS 118", "MATH 100", "PHYS 101", "MATH 101", "MATH 104", "LFS 252", "MATH 110", "PHYS 170"]),
+"MATH 101": new Course("MATH 101", "Integral Calculus with Applications to Physical Sciences and Engineering", "The definite integral, integration techniques, applications, modeling, infinite series. Please consult the Faculty of Science Credit Exclusion List: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-0-0]", [3.0], [], ["or", "MATH 100", "MATH 102", "MATH 104", "MATH 110", "MATH 111", "MATH 120", "MATH 180", "MATH 184"], [], ["or", "MATH 101", "MATH 103", "MATH 105", "MATH 121", "SCIE 001", "SCIE 001", "MATH 101", "MATH 103", "MATH 105", "MATH 121", "MATH 141", "MATH 154"], ["MATH 180", "MATH 104", "MATH 102", "MATH 100", "MATH 111", "MATH 184", "MATH 110", "MATH 120"], [], ["MATH 253", "ELEC 202", "SCIE 001", "CIVL 230", "STAT 200", "MATH 256", "CIVL 215", "EOSC 329", "BIOL 300", "EOSC 211", "CPSC 302", "EOSC 354", "MATH 105", "ELEC 201", "MATH 210", "MATH 255", "MATH 121", "PHYS 200", "MATH 360", "PHYS 333", "MATH 215", "MECH 220", "CPSC 303", "PHYS 102", "MATH 152", "CAPS 301", "MATH 103", "PHYS 118", "PHYS 108", "EOSC 372", "ELEC 311", "CHBE 381", "MATH 101", "PHYS 158", "ASTR 200", "EOSC 340", "MATH 221", "WOOD 244", "MECH 221", "MECH 260", "PHYS 170", "WOOD 276", "MATH 200"])
+};

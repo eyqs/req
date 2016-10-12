@@ -17,7 +17,7 @@
 
 var c;
 var ctx;
-var courseList;
+var codeList;
 var WIDTH = 640;
 var HEIGHT = 480;
 var BORDER = 50;
@@ -28,24 +28,7 @@ var TITLEPADDING = 40;
 var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
                 "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
 
-/* Structure for course buttons */
-function Course(code, x, y) {
-    this.code = code;
-    this.x = x;
-    this.y = y;
-    this.name = "";
-    this.desc = "";
-    this.cred = -1.0;
-    this.excl = [];
-    this.term = [];
-    this.preq = "";
-    this.creq = "";
-    this.preqs = []
-    this.creqs = []
-    this.dreqs = []
-    this.needs = "none";
-    this.depth = 0;
-}
+/* Structure for courses is in req.txt */
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
@@ -67,16 +50,18 @@ function getCursorPosition(e) {
 /* Decide what to do when user clicks */
 function onClick(e) {
     var pos = getCursorPosition(e);
-    for (var i = 0; i < courseList.length; i++) {
-        if (pos.x > courseList[i].x && pos.x < courseList[i].x + BTNWIDTH &&
-            pos.y > courseList[i].y && pos.y < courseList[i].y + BTNHEIGHT) {
-            switch (courseList[i].needs) {
-            case "done": courseList[i].needs = "none"; break;
-            case "none": courseList[i].needs = "outs"; break;
-            case "outs": courseList[i].needs = "creq"; break;
-            case "creq": courseList[i].needs = "preq"; break;
-            case "preq": courseList[i].needs = "excl"; break;
-            case "excl": courseList[i].needs = "done"; break;
+    for (var i = 0; i < codeList.length; i++) {
+        if (pos.x > allCourses[codeList[i]].x &&
+            pos.x < allCourses[codeList[i]].x + BTNWIDTH &&
+            pos.y > allCourses[codeList[i]].y &&
+            pos.y < allCourses[codeList[i]].y + BTNHEIGHT) {
+            switch (allCourses[codeList[i]].needs) {
+            case "done": allCourses[codeList[i]].needs = "none"; break;
+            case "none": allCourses[codeList[i]].needs = "outs"; break;
+            case "outs": allCourses[codeList[i]].needs = "creq"; break;
+            case "creq": allCourses[codeList[i]].needs = "preq"; break;
+            case "preq": allCourses[codeList[i]].needs = "excl"; break;
+            case "excl": allCourses[codeList[i]].needs = "done"; break;
             default: break;
             }
         }
@@ -99,22 +84,35 @@ function drawApp() {
                  WIDTH / 2, HEIGHT - BORDER);
     ctx.textBaseline = "middle";
     ctx.font = "14px sans-serif";
-    for (var i = 0; i < courseList.length; i++) {
-        ctx.fillStyle = COLOURS[courseList[i].needs];
-        ctx.fillRect(courseList[i].x, courseList[i].y, BTNWIDTH, BTNHEIGHT);
+    for (var i = 0; i < codeList.length; i++) {
+        ctx.fillStyle = COLOURS[allCourses[codeList[i]].needs];
+        ctx.fillRect(allCourses[codeList[i]].x, allCourses[codeList[i]].y,
+                     BTNWIDTH, BTNHEIGHT);
         ctx.fillStyle = "black";
-        ctx.strokeRect(courseList[i].x, courseList[i].y, BTNWIDTH, BTNHEIGHT);
-        ctx.fillText(courseList[i].code, courseList[i].x + BTNWIDTH / 2,
-                     courseList[i].y + BTNHEIGHT / 2);
+        ctx.strokeRect(allCourses[codeList[i]].x, allCourses[codeList[i]].y,
+                       BTNWIDTH, BTNHEIGHT);
+        ctx.fillText(allCourses[codeList[i]].code,
+                     allCourses[codeList[i]].x + BTNWIDTH / 2,
+                     allCourses[codeList[i]].y + BTNHEIGHT / 2);
     }
 }
 
 /* Parse the given course codes */
-function parseCodes(codeList) {
+function parseCodes() {
+	/* Remove unknown course codes and duplicates */
+    for (var i = codeList.length - 1; i >= 0; i--) {
+        if (!(codeList[i] in allCourses) ||
+			codeList.indexOf(codeList[i]) != i) {
+            codeList.splice(i, 1);
+        }
+	}
+
+    /* Find correct coordinates to place each button */
     var x = BORDER;
     var y = BORDER + TITLEPADDING;
     for (var i = 0; i < codeList.length; i++) {
-        courseList.push(new Course(codeList[i], x, y));
+        allCourses[codeList[i]].x = x;
+        allCourses[codeList[i]].y = y;
         x += BTNWIDTH + BTNPADDING;
         if (x + BTNWIDTH > WIDTH - BORDER) {
             x = BORDER;
@@ -133,9 +131,8 @@ function initApp(formElement, messageElement, canvasElement) {
     if (!ctx)
         messageElement.innerHTML = "Your browser does not support this app!";
     else {
-        courseList = [];
-        var codeList = formElement.elements["courses"].value.split(", ");
-        parseCodes(codeList);
+	    codeList = formElement.elements["courses"].value.split(", ");
+        parseCodes();
         c.width = WIDTH;
         c.height = HEIGHT;
         c.addEventListener("click", onClick, false);
