@@ -17,8 +17,14 @@
 
 var c;
 var ctx;
-var WIDTH = 600;
-var HEIGHT = 400;
+var courseList;
+var WIDTH = 640;
+var HEIGHT = 480;
+var BORDER = 50;
+var BTNWIDTH = 100;
+var BTNHEIGHT = 30;
+var BTNPADDING = 10;
+var TITLEPADDING = 40;
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
@@ -41,7 +47,6 @@ function getCursorPosition(e) {
 function onClick(e) {
     var pos = getCursorPosition(e);
     drawApp();
-    ctx.fillText(pos.x, WIDTH / 2, HEIGHT / 2);
 }
 
 /* Draw the entire application on the canvas */
@@ -49,24 +54,44 @@ function drawApp() {
     ctx.clearRect(0, 0, WIDTH, HEIGHT);
     ctx.fillStyle = "#000000";
     ctx.strokeRect(0, 0, WIDTH, HEIGHT);
-    ctx.font = "bold 18px sans-serif";
     ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillText("req v1.2", WIDTH / 2, 30);
+    ctx.textBaseline = "top";
+    ctx.font = "bold 18px sans-serif";
+    ctx.fillText("req v1.2", WIDTH / 2, BORDER);
+    ctx.textBaseline = "bottom";
     ctx.font = "8px sans-serif";
     ctx.fillText("Copyright \u00a9 2016 Eugene Y. Q. Shen.",
-                 WIDTH / 2, HEIGHT - 30);
+                 WIDTH / 2, HEIGHT - BORDER);
+    ctx.textBaseline = "middle";
+    ctx.font = "14px sans-serif";
+    var x = BORDER;
+    var y = BORDER + TITLEPADDING;
+    for (var i = 0; i < courseList.length; i++) {
+        ctx.strokeRect(x, y, BTNWIDTH, BTNHEIGHT);
+        ctx.fillText(courseList[i], x + BTNWIDTH / 2, y + BTNHEIGHT / 2);
+        x += BTNWIDTH + BTNPADDING;
+        if (x + BTNWIDTH > WIDTH - BORDER) {
+            x = BORDER;
+            y += BTNHEIGHT + BTNPADDING;
+            if (y + BTNHEIGHT > HEIGHT - BORDER) {
+                break;
+            }
+        }
+    }
 }
 
 /* Initialize the application */
 function initApp(formElement, messageElement, canvasElement) {
     c = canvasElement;
     ctx = c.getContext("2d");
-    c.width = WIDTH;
-    c.height = HEIGHT;
     if (!ctx)
         messageElement.innerHTML = "Your browser does not support this app!";
     else {
+        courseList = formElement.elements["courses"].value.split(", ");
+        console.log(courseList[0]);
+        console.log(courseList[1]);
+        c.width = WIDTH;
+        c.height = HEIGHT;
         c.addEventListener("click", onClick, false);
         drawApp();
     }
