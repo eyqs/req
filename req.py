@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 req v1.2.0
-Copyright © 2016 Eugene Y. Q. Shen.
+Copyright (c) 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -22,6 +22,7 @@ import tkinter.ttk as ttk
 
 COURSES = 'ubcparser/courses'   # relative path to folder with course lists
 TABS    = 'ubcparser/tabs'      # relative path to folder with course tabs
+DUMP    = 'req.txt'             # relative path to file to dump courses
 MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}
@@ -100,6 +101,23 @@ class Main(ttk.Frame):
                     except KeyError:
                         pass
 
+        # Dump courses into file for JavaScript frontend
+        with open(DUMP, 'w') as f:
+            f.write(DUMPHEADER);
+            for code, course in self.courses.items():
+                params = self.courses[code].get_params()
+                f.write(repr(params['code']) + ': new Course(')
+                f.write(', '.join([repr(params['code']), repr(params['name']),
+                    repr(params['desc']), repr(params['cred']),
+                    repr(params['excl']), repr(params['term']),
+                    repr(params['preq']), repr(params['creq'])]))
+                for sets in ['preqs', 'creqs', 'dreqs']:
+                    if len(params[sets]) == 0:
+                        f.write(', []')
+                    else:
+                        f.write(', [' + repr(params[sets])[1:-1] + ']')
+                f.write('),\n')
+            f.write('};')
         # Arrange courses in order depending on their depth of prereqs
         # First scan through courses with no preqs and set their depth to 1,
         # then scan through all courses whose preqs all have a non-zero depth
@@ -391,6 +409,30 @@ def flatten(lislis):
             yield from flatten(lis)
         else:
             yield lis
+
+
+DUMPHEADER = '\n'.join([
+'/* Structure for courses */',
+'function Course(code, name, desc, cred, excl, term,',
+'                preq, creq, preqs, creqs, dreqs) {',
+'    this.code = code;',
+'    this.name = name;',
+'    this.desc = desc;',
+'    this.cred = cred;',
+'    this.excl = excl;',
+'    this.term = term;',
+'    this.preq = preq;',
+'    this.creq = creq;',
+'    this.preqs = preqs;',
+'    this.creqs = creqs;',
+'    this.dreqs = dreqs;',
+'    this.needs = "none";',
+'    this.depth = 0;',
+'    this.x;',
+'    this.y;',
+'}',
+'',
+'var allCourses = {\n'])
 
 
 if __name__ == '__main__':
