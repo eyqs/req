@@ -24,6 +24,7 @@ var BORDER = 50;
 var BTNWIDTH = 100;
 var BTNHEIGHT = 30;
 var BTNPADDING = 10;
+var DEPTHPADDING = 20;
 var TITLEPADDING = 40;
 var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
                 "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
@@ -99,27 +100,75 @@ function drawApp() {
 
 /* Parse the given course codes */
 function parseCodes() {
-	/* Remove unknown course codes and duplicates */
+    /* Remove unknown course codes and duplicates */
     for (var i = codeList.length - 1; i >= 0; i--) {
         if (!(codeList[i] in allCourses) ||
-			codeList.indexOf(codeList[i]) != i) {
+            codeList.indexOf(codeList[i]) != i) {
             codeList.splice(i, 1);
         }
-	}
+    }
+    /* Arrange courses in order depending on their depth of prereqs
+     * First scan through courses with no preqs and set their depth to 1,
+     * then scan through all courses whose preqs all have a non-zero depth
+     * of which the maximum is 1, and set their depth to 2, etc. until done */
+    var unordered = [];
+    for (var i = 0; i < codeList.length; i++) {
+        unordered.push(codeList[i]);
+    }
+
+    var depth = 0;
+    while (unordered.length > 0) {
+        depth += 1;
+        if (depth > 2000) return;
+        for (var i = unordered.length - 1; i >= 0; i--) {
+            var code = unordered[i];
+            var hasreq = false; /* Has a prereq in the current tree */
+            var badreq = false; /* Has a prereq with zero or current depth */
+            for (var j = 0; j < allCourses[code].preqs.length; j++) {
+                var preq = allCourses[code].preqs[j];
+                if (codeList.indexOf(preq) != -1) {
+                    hasreq = true;
+                    if (allCourses[preq].depth == 0 ||
+                        allCourses[preq].depth == depth) {
+                        badreq = true;
+                    }
+                }
+            }
+            if (depth == 1 && !hasreq) {
+                allCourses[code].depth = 1;
+                unordered.splice(i, 1);
+                continue;
+            }
+            if (badreq) {
+                continue;
+            }
+            allCourses[code].depth = depth;
+            unordered.splice(i, 1);
+        }
+    }
 
     /* Find correct coordinates to place each button */
     var x = BORDER;
     var y = BORDER + TITLEPADDING;
-    for (var i = 0; i < codeList.length; i++) {
-        allCourses[codeList[i]].x = x;
-        allCourses[codeList[i]].y = y;
-        x += BTNWIDTH + BTNPADDING;
-        if (x + BTNWIDTH > WIDTH - BORDER) {
-            x = BORDER;
-            y += BTNHEIGHT + BTNPADDING;
-            if (y + BTNHEIGHT > HEIGHT - BORDER) {
-                break;
+    for (var d = 0; d <= depth; d++) {
+        for (var i = 0; i < codeList.length; i++) {
+            if (allCourses[codeList[i]].depth == d) {
+                allCourses[codeList[i]].x = x;
+                allCourses[codeList[i]].y = y;
+                x += BTNWIDTH + BTNPADDING;
+                if (x + BTNWIDTH > WIDTH - BORDER) {
+                    x = BORDER;
+                    y += BTNHEIGHT + BTNPADDING;
+                    if (y + BTNHEIGHT > HEIGHT - BORDER) {
+                        break;
+                    }
+                }
             }
+        }
+        x = BORDER;
+        y += BTNHEIGHT + BTNPADDING + DEPTHPADDING;
+        if (y + BTNHEIGHT > HEIGHT - BORDER) {
+            break;
         }
     }
 }
@@ -131,7 +180,7 @@ function initApp(formElement, messageElement, canvasElement) {
     if (!ctx)
         messageElement.innerHTML = "Your browser does not support this app!";
     else {
-	    codeList = formElement.elements["courses"].value.split(", ");
+        codeList = formElement.elements["courses"].value.split(", ");
         parseCodes();
         c.width = WIDTH;
         c.height = HEIGHT;
