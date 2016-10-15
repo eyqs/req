@@ -52,22 +52,87 @@ function getCursorPosition(e) {
 function onClick(e) {
     var pos = getCursorPosition(e);
     for (var i = 0; i < codeList.length; i++) {
-        if (pos.x > allCourses[codeList[i]].x &&
-            pos.x < allCourses[codeList[i]].x + BTNWIDTH &&
-            pos.y > allCourses[codeList[i]].y &&
-            pos.y < allCourses[codeList[i]].y + BTNHEIGHT) {
-            switch (allCourses[codeList[i]].needs) {
-            case "done": allCourses[codeList[i]].needs = "none"; break;
-            case "none": allCourses[codeList[i]].needs = "outs"; break;
-            case "outs": allCourses[codeList[i]].needs = "creq"; break;
-            case "creq": allCourses[codeList[i]].needs = "preq"; break;
-            case "preq": allCourses[codeList[i]].needs = "excl"; break;
-            case "excl": allCourses[codeList[i]].needs = "done"; break;
-            default: break;
+        var code = codeList[i];
+        if (pos.x > allCourses[code].x &&
+            pos.x < allCourses[code].x + BTNWIDTH &&
+            pos.y > allCourses[code].y &&
+            pos.y < allCourses[code].y + BTNHEIGHT) {
+            if (allCourses[code].needs == "done") {
+                allCourses[code].needs = "none";
+            } else {
+                allCourses[code].needs = "done";
+            }
+            updateCourse(code);
+            for (var j = 0; j < allCourses[code].dreqs.length; j++) {
+                var dependency = allCourses[code].dreqs[j];
+                if (codeList.indexOf(dependency) != -1) {
+                    updateCourse(dependency);
+                }
             }
         }
     }
     drawApp();
+}
+
+/* Recursively check whether the requirements are satisfied */
+function doneReqs(reqs) {
+    if (reqs.length == 0) {
+        return "done";
+    }
+    var done = [];
+    var operator = reqs[0];
+    for (var i = 1; i < reqs.length; i++) {
+        if (reqs[i] instanceof Array) {
+            done.push(doneReqs(reqs[i]));
+        } else if (codeList.indexOf(reqs[i]) != -1) {
+            if (allCourses[reqs[i]].needs == "done") {
+                done.push("done");
+            } else {
+                done.push("none");
+            }
+        } else {
+            done.push("outs");
+        }
+    }
+    if (operator == "and") {
+        if (done.indexOf("none") != -1) {
+            return "none";
+        } else if (done.indexOf("outs") != -1) {
+            return "outs";
+        } else {
+            return "done";
+        }
+    } else if (operator == "or") {
+        if (done.indexOf("done") != -1) {
+            return "done";
+        } else if (done.indexOf("outs") != -1) {
+            return "outs";
+        } else {
+            return "none";
+        }
+    }
+}
+
+/* Update the status of a course */
+function updateCourse(code) {
+    if (allCourses[code].needs != "done") {
+        /* See req.py for detailed comments */
+        if (allCourses[code].excl.length > 1 &&
+            doneReqs(allCourses[code].excl) == "done") {
+            allCourses[code].needs = "excl";
+        } else if (doneReqs(allCourses[code].preq) == "none") {
+            allCourses[code].needs = "preq";
+        } else if (doneReqs(allCourses[code].creq) == "none") {
+            allCourses[code].needs = "creq";
+        } else if ((allCourses[code].excl.length <= 1 ||
+                    doneReqs(allCourses[code].excl) == "none") &&
+                   doneReqs(allCourses[code].preq) == "done" &&
+                   doneReqs(allCourses[code].creq) == "done") {
+            allCourses[code].needs = "none";
+        } else {
+            allCourses[code].needs = "outs";
+        }
+    }
 }
 
 /* Draw the entire application on the canvas */
@@ -107,6 +172,7 @@ function parseCodes() {
             codeList.splice(i, 1);
         }
     }
+
     /* Arrange courses in order depending on their depth of prereqs
      * First scan through courses with no preqs and set their depth to 1,
      * then scan through all courses whose preqs all have a non-zero depth
@@ -155,6 +221,7 @@ function parseCodes() {
             if (allCourses[codeList[i]].depth == d) {
                 allCourses[codeList[i]].x = x;
                 allCourses[codeList[i]].y = y;
+                updateCourse(codeList[i]);
                 x += BTNWIDTH + BTNPADDING;
                 if (x + BTNWIDTH > WIDTH - BORDER) {
                     x = BORDER;
