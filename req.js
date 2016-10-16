@@ -18,6 +18,7 @@
 var c;
 var ctx;
 var codeList;
+var courseData;
 var WIDTH = 640;
 var HEIGHT = 480;
 var BORDER = 50;
@@ -30,6 +31,12 @@ var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
                 "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
 
 /* Structure for courses is in req.txt */
+function CourseData() {
+    this.x;
+    this.y;
+    this.depth = 0;
+    this.needs = "none";
+}
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
@@ -53,14 +60,14 @@ function onClick(e) {
     var pos = getCursorPosition(e);
     for (var i = 0; i < codeList.length; i++) {
         var code = codeList[i];
-        if (pos.x > allCourses[code].x &&
-            pos.x < allCourses[code].x + BTNWIDTH &&
-            pos.y > allCourses[code].y &&
-            pos.y < allCourses[code].y + BTNHEIGHT) {
-            if (allCourses[code].needs == "done") {
-                allCourses[code].needs = "none";
+        if (pos.x > courseData[code].x &&
+            pos.x < courseData[code].x + BTNWIDTH &&
+            pos.y > courseData[code].y &&
+            pos.y < courseData[code].y + BTNHEIGHT) {
+            if (courseData[code].needs == "done") {
+                courseData[code].needs = "none";
             } else {
-                allCourses[code].needs = "done";
+                courseData[code].needs = "done";
             }
             updateCourse(code);
             for (var j = 0; j < allCourses[code].dreqs.length; j++) {
@@ -85,7 +92,7 @@ function doneReqs(reqs) {
         if (reqs[i] instanceof Array) {
             done.push(doneReqs(reqs[i]));
         } else if (codeList.indexOf(reqs[i]) != -1) {
-            if (allCourses[reqs[i]].needs == "done") {
+            if (courseData[reqs[i]].needs == "done") {
                 done.push("done");
             } else {
                 done.push("none");
@@ -115,22 +122,22 @@ function doneReqs(reqs) {
 
 /* Update the status of a course */
 function updateCourse(code) {
-    if (allCourses[code].needs != "done") {
+    if (courseData[code].needs != "done") {
         /* See req.py for detailed comments */
         if (allCourses[code].excl.length > 1 &&
             doneReqs(allCourses[code].excl) == "done") {
-            allCourses[code].needs = "excl";
+            courseData[code].needs = "excl";
         } else if (doneReqs(allCourses[code].preq) == "none") {
-            allCourses[code].needs = "preq";
+            courseData[code].needs = "preq";
         } else if (doneReqs(allCourses[code].creq) == "none") {
-            allCourses[code].needs = "creq";
+            courseData[code].needs = "creq";
         } else if ((allCourses[code].excl.length <= 1 ||
                     doneReqs(allCourses[code].excl) == "none") &&
                    doneReqs(allCourses[code].preq) == "done" &&
                    doneReqs(allCourses[code].creq) == "done") {
-            allCourses[code].needs = "none";
+            courseData[code].needs = "none";
         } else {
-            allCourses[code].needs = "outs";
+            courseData[code].needs = "outs";
         }
     }
 }
@@ -151,15 +158,15 @@ function drawApp() {
     ctx.textBaseline = "middle";
     ctx.font = "14px sans-serif";
     for (var i = 0; i < codeList.length; i++) {
-        ctx.fillStyle = COLOURS[allCourses[codeList[i]].needs];
-        ctx.fillRect(allCourses[codeList[i]].x, allCourses[codeList[i]].y,
+        var code = codeList[i];
+        ctx.fillStyle = COLOURS[courseData[code].needs];
+        ctx.fillRect(courseData[code].x, courseData[code].y,
                      BTNWIDTH, BTNHEIGHT);
         ctx.fillStyle = "black";
-        ctx.strokeRect(allCourses[codeList[i]].x, allCourses[codeList[i]].y,
+        ctx.strokeRect(courseData[code].x, courseData[code].y,
                        BTNWIDTH, BTNHEIGHT);
-        ctx.fillText(allCourses[codeList[i]].code,
-                     allCourses[codeList[i]].x + BTNWIDTH / 2,
-                     allCourses[codeList[i]].y + BTNHEIGHT / 2);
+        ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
+                     courseData[code].y + BTNHEIGHT / 2);
     }
 }
 
@@ -185,7 +192,6 @@ function parseCodes() {
     var depth = 0;
     while (unordered.length > 0) {
         depth += 1;
-        if (depth > 2000) return;
         for (var i = unordered.length - 1; i >= 0; i--) {
             var code = unordered[i];
             var hasreq = false; /* Has a prereq in the current tree */
@@ -194,21 +200,21 @@ function parseCodes() {
                 var preq = allCourses[code].preqs[j];
                 if (codeList.indexOf(preq) != -1) {
                     hasreq = true;
-                    if (allCourses[preq].depth == 0 ||
-                        allCourses[preq].depth == depth) {
+                    if (courseData[preq].depth == 0 ||
+                        courseData[preq].depth == depth) {
                         badreq = true;
                     }
                 }
             }
             if (depth == 1 && !hasreq) {
-                allCourses[code].depth = 1;
+                courseData[code].depth = 1;
                 unordered.splice(i, 1);
                 continue;
             }
             if (badreq) {
                 continue;
             }
-            allCourses[code].depth = depth;
+            courseData[code].depth = depth;
             unordered.splice(i, 1);
         }
     }
@@ -218,9 +224,9 @@ function parseCodes() {
     var y = BORDER + TITLEPADDING;
     for (var d = 0; d <= depth; d++) {
         for (var i = 0; i < codeList.length; i++) {
-            if (allCourses[codeList[i]].depth == d) {
-                allCourses[codeList[i]].x = x;
-                allCourses[codeList[i]].y = y;
+            if (courseData[codeList[i]].depth == d) {
+                courseData[codeList[i]].x = x;
+                courseData[codeList[i]].y = y;
                 updateCourse(codeList[i]);
                 x += BTNWIDTH + BTNPADDING;
                 if (x + BTNWIDTH > WIDTH - BORDER) {
@@ -248,6 +254,10 @@ function initApp(formElement, messageElement, canvasElement) {
         messageElement.innerHTML = "Your browser does not support this app!";
     else {
         codeList = formElement.elements["courses"].value.split(", ");
+        courseData = []
+        for (var i = 0; i < codeList.length; i++) {
+            courseData[codeList[i]] = new CourseData();
+        }
         parseCodes();
         c.width = WIDTH;
         c.height = HEIGHT;
