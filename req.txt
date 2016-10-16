@@ -12,10 +12,6 @@ function Course(code, name, desc, cred, excl, term,
     this.preqs = preqs;
     this.creqs = creqs;
     this.dreqs = dreqs;
-    this.needs = "none";
-    this.depth = 0;
-    this.x;
-    this.y;
 }
 
 var allCourses = {

@@ -426,10 +426,6 @@ DUMPHEADER = '\n'.join([
 '    this.preqs = preqs;',
 '    this.creqs = creqs;',
 '    this.dreqs = dreqs;',
-'    this.needs = "none";',
-'    this.depth = 0;',
-'    this.x;',
-'    this.y;',
 '}',
 '',
 'var allCourses = {\n'])

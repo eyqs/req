@@ -19,8 +19,8 @@ var c;
 var ctx;
 var codeList;
 var courseData;
-var WIDTH = 640;
-var HEIGHT = 480;
+var WIDTH = 960;
+var HEIGHT = 1920;
 var BORDER = 50;
 var BTNWIDTH = 100;
 var BTNHEIGHT = 30;
@@ -238,8 +238,12 @@ function parseCodes() {
                 }
             }
         }
+        if (x == BORDER) {
+            y += DEPTHPADDING;
+        } else {
+            y += BTNHEIGHT + BTNPADDING + DEPTHPADDING;
+        }
         x = BORDER;
-        y += BTNHEIGHT + BTNPADDING + DEPTHPADDING;
         if (y + BTNHEIGHT > HEIGHT - BORDER) {
             break;
         }
