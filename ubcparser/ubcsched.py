@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
-req v1.2.0
-Copyright © 2016 Eugene Y. Q. Shen.
+req v1.3
+Copyright (c) 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -17,10 +17,18 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import urllib.request
+OUTFILE = 'terms.txt'
 # Adjust these according to which sessions are available
 SESSION = {'&sessyr=2015&sesscd=W': '2015W',
            '&sessyr=2016&sesscd=S': '2016S',
            '&sessyr=2016&sesscd=W': '2016W'}
+# List of all activity types, taken from search page
+ACTIVITY = ['Lecture', 'Laboratory', 'Seminar', 'Tutorial', 'Waiting List',
+    'Discussion', 'Directed Studies', 'Thesis', 'Work Placement', 'Practicum',
+    'Lecture-Laboratory', 'Studio', 'Web-Oriented Course', 'Exchange Program',
+    'Rehearsal', 'Essay/Report', 'Project', 'Workshop', 'Problem Session',
+    'Lecture-Seminar', 'Lab-Seminar', 'Flexible Learning', 'Reserved Section',
+    'Optional Section', 'Research', 'Field Trip', 'Lecture-Discussion']
 
 # Get the terms a course is offered
 def get_terms(url):
@@ -34,9 +42,11 @@ def get_terms(url):
             terms.add(term.split('>')[1].split('<')[0])
             flag = False
         # Term is always preceded by one of these activities
-        if term in ['<td>Lecture</td>', '<td>Laboratory</td>',
+        if '<td>' + term + '</td>' in ACTIVITY:['<td>Lecture</td>', '<td>Laboratory</td>',
                     '<td>Tutorial</td>', '<td>Waiting List</td>',
                     '<td>Practicum</td>', '<td>Work Placement</td>',
+                    '<td>Field Trip</td>', '<td>Directed Studies</td>',
+                    '<td>Thesis</td>', '<td>Seminar</td>',
                     '<td>Distance Education</td>']:
             flag = True
     return terms
@@ -67,8 +77,8 @@ def get_depts(url):
 
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
-    for session in SESSION:
-        with open(SESSION[session] + 'terms.txt', 'w') as f:
+    with open(OUTFILE, 'w') as f:
+        for session in SESSION:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' + session)
             if d:

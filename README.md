@@ -15,6 +15,7 @@ Probably works on earlier versions too. Definitely does not work on Python 2.
     $ git clone https://github.com/eyqs/req.git/
     $ cd req/
     $ python req.py
+    $ xdg-open req.html
 
 ## Usage
 
@@ -54,7 +55,7 @@ Reading the example lists in this repo will probably make more sense than me.
 
 ## License
 
-Copyright © 2016 Eugene Y. Q. Shen.
+Copyright (c) 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License

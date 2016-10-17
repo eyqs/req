@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.2.0
+req v1.3
 Copyright (c) 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -49,7 +49,7 @@ class Main(ttk.Frame):
 
         # Read in all course codes in tabs and create them
         notebook = ttk.Notebook(self)
-        notebook.bind_all("<<NotebookTabChanged>>", self.update_all)
+        notebook.bind_all('<<NotebookTabChanged>>', self.update_all)
         notebook.pack(fill=tk.BOTH)
         tabs = {}       # Dictionary of courses to put in each tab
         tabsttk = {}    # Dictionary of ttk Frames for each tab
@@ -118,6 +118,7 @@ class Main(ttk.Frame):
                         f.write(', [' + repr(params[sets])[1:-1] + ']')
                 f.write('),\n')
             f.write('};')
+
         # Arrange courses in order depending on their depth of prereqs
         # First scan through courses with no preqs and set their depth to 1,
         # then scan through all courses whose preqs all have a non-zero depth
@@ -165,8 +166,8 @@ class Main(ttk.Frame):
                 label = tk.Button(frame, text=code,
                                   command=lambda c=code: self.set_done(c))
                 label.grid(row=row, column=col)
-                label.bind("<Enter>", lambda e,c=code: self.open_tooltip(e,c))
-                label.bind("<Leave>", lambda e: self.close_tooltip(e))
+                label.bind('<Enter>', lambda e,c=code: self.open_tooltip(e,c))
+                label.bind('<Leave>', lambda e: self.close_tooltip(e))
                 self.labels[code].append(label)
                 self.update_course(code)
                 col += 1
@@ -180,7 +181,7 @@ class Main(ttk.Frame):
         if self.tooltip:
             return
         self.tooltip = tk.Toplevel(event.widget)
-        self.tooltip.geometry("+%d+%d" % (event.x_root + 5, event.y_root + 5))
+        self.tooltip.geometry('+%d+%d' % (event.x_root + 5, event.y_root + 5))
         label = ttk.Label(self.tooltip, wraplength=400,
                           text=self.courses[code].get_params('desc'))
         label.pack()
@@ -213,10 +214,9 @@ class Main(ttk.Frame):
         params = self.courses[code].get_params()
         if params['needs'] != 'done':
             # If any excluded course in the current tree is done -> excl
-            if ((len(params['excl']) > 1) and
+            if (len(params['excl']) > 1 and
                 self.done_reqs(params['excl']) == 'done'):
-                if self.done_reqs(params['excl']) == 'done':
-                    self.courses[code].set_status('excl')
+                self.courses[code].set_status('excl')
             # If any prerequisite in the current tree is not done -> preq
             elif self.done_reqs(params['preq']) == 'none':
                 self.courses[code].set_status('preq')
@@ -248,14 +248,13 @@ class Main(ttk.Frame):
         for term in reqs[1:]:
             if isinstance(term, list):
                 done.append(self.done_reqs(term))
-            else:
-                if term in self.courses.keys():
-                    if self.courses[term].get_params('needs') == 'done':
-                        done.append('done')
-                    else:
-                        done.append('none')
+            elif term in self.courses.keys():
+                if self.courses[term].get_params('needs') == 'done':
+                    done.append('done')
                 else:
-                    done.append('outs')
+                    done.append('none')
+            else:
+                done.append('outs')
         if operator == 'and':
             if 'none' in done:
                 return 'none'

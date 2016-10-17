@@ -1,4 +1,4 @@
-/* req v1.2.0
+/* req v1.3
  * Copyright (c) 2016 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
@@ -150,7 +150,7 @@ function drawApp() {
     ctx.textAlign = "center";
     ctx.textBaseline = "top";
     ctx.font = "bold 18px sans-serif";
-    ctx.fillText("req v1.2", WIDTH / 2, BORDER);
+    ctx.fillText("req v1.3", WIDTH / 2, BORDER);
     ctx.textBaseline = "bottom";
     ctx.font = "8px sans-serif";
     ctx.fillText("Copyright \u00a9 2016 Eugene Y. Q. Shen.",
