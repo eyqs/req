@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>req</title>
+  <script src="req.txt"></script>
+  <script src="req.js"></script>
+</head>
+<body>
+  <form id="form" onsubmit="initApp(document.getElementById('form'),
+                                    document.getElementById('nocanvas'),
+                                    document.getElementById('canvas'));
+                            return false;">
+    Enter course codes to display, separated by commas and spaces (no newlines! remember the space!):<br>
+    <textarea id="courses" rows="10" placeholder="MATH 100, MATH 101, ENGL 112"></textarea><br>
+    <input type="submit" value="Launch">
+  </form>
+  <p id="nocanvas"></p>
+  <canvas id="canvas"></canvas>
+</body>
+</html>

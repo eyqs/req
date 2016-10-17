@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
-req v1.2.0
-Copyright © 2016 Eugene Y. Q. Shen.
+req v1.3
+Copyright (c) 2016 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -18,7 +18,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import bs4
 import requests
-OUTFILE = 'excls.txt'
+OUTFILE = 'courses/excls.txt'
 
 if __name__ == '__main__':
     res = requests.get('http://www.calendar.ubc.ca/vancouver/?tree=12,215,410,414')
