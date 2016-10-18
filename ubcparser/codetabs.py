@@ -17,9 +17,9 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
-INFOLDER  = 'courses'
-OUTFOLDER = 'tabs'
-TERMSFILE = 'terms.txt'
+INFOLDER  = '2016/courses/'
+OUTFOLDER = '2016/tabs/'
+TERMSFILE = '2016/courses/terms.txt'
 
 if __name__ == '__main__':
     terms = set()
@@ -28,8 +28,8 @@ if __name__ == '__main__':
             if line.strip().startswith('code'):
                 terms.add(line.split(':')[1].strip())
     for name in os.listdir(INFOLDER):
-        with open(INFOLDER + '/' + name, 'r') as infile:
-            with open(OUTFOLDER + '/' + name, 'w') as outfile:
+        with open(INFOLDER + name, 'r') as infile:
+            with open(OUTFOLDER + name, 'w') as outfile:
                 for line in infile:
                     if line.strip().startswith('code'):
                         course = line.split(':')[1].strip()

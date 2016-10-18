@@ -18,10 +18,11 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import bs4
 import requests
-OUTFILE = 'courses/excls.txt'
+OUTFILE = '2016/courses/excls.txt'
 
 if __name__ == '__main__':
-    res = requests.get('http://www.calendar.ubc.ca/vancouver/?tree=12,215,410,414')
+    res = requests.get('http://www.calendar.ubc.ca/' +
+                       'vancouver/?tree=12,215,410,414')
     try:
         res.raise_for_status()
     except Exception as exc:

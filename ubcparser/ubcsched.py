@@ -17,18 +17,20 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import urllib.request
-OUTFILE = 'terms.txt'
 # Adjust these according to which sessions are available
-SESSION = {'&sessyr=2015&sesscd=W': '2015W',
-           '&sessyr=2016&sesscd=S': '2016S',
-           '&sessyr=2016&sesscd=W': '2016W'}
+SESSION = [
+    {'url': '&sessyr=2016&sesscd=S', 'name': '2016S', 'year': '2015/'},
+    {'url': '&sessyr=2016&sesscd=W', 'name': '2016W', 'year': '2016/'}]
+OUTFILE = 'courses/terms.txt'
 # List of all activity types, taken from search page
-ACTIVITY = ['Lecture', 'Laboratory', 'Seminar', 'Tutorial', 'Waiting List',
+ACTIVITY = ['<td>' + activity + '</td>' for activity in
+    ['Lecture', 'Laboratory', 'Seminar', 'Tutorial', 'Waiting List',
     'Discussion', 'Directed Studies', 'Thesis', 'Work Placement', 'Practicum',
     'Lecture-Laboratory', 'Studio', 'Web-Oriented Course', 'Exchange Program',
     'Rehearsal', 'Essay/Report', 'Project', 'Workshop', 'Problem Session',
     'Lecture-Seminar', 'Lab-Seminar', 'Flexible Learning', 'Reserved Section',
-    'Optional Section', 'Research', 'Field Trip', 'Lecture-Discussion']
+    'Optional Section', 'Research', 'Field Trip', 'Lecture-Discussion',
+    'Distance Education']]
 
 # Get the terms a course is offered
 def get_terms(url):
@@ -42,12 +44,7 @@ def get_terms(url):
             terms.add(term.split('>')[1].split('<')[0])
             flag = False
         # Term is always preceded by one of these activities
-        if '<td>' + term + '</td>' in ACTIVITY:['<td>Lecture</td>', '<td>Laboratory</td>',
-                    '<td>Tutorial</td>', '<td>Waiting List</td>',
-                    '<td>Practicum</td>', '<td>Work Placement</td>',
-                    '<td>Field Trip</td>', '<td>Directed Studies</td>',
-                    '<td>Thesis</td>', '<td>Seminar</td>',
-                    '<td>Distance Education</td>']:
+        if term in ACTIVITY:
             flag = True
     return terms
 
@@ -77,23 +74,24 @@ def get_depts(url):
 
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
-    with open(OUTFILE, 'w') as f:
-        for session in SESSION:
+    for session in SESSION:
+        with open(session['year'] + OUTFILE, 'w') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
-                          'pname=subjarea&tname=subjareas&req=0' + session)
+                          'pname=subjarea&tname=subjareas&req=0' +
+                          session['name'])
             if d:
                 for dept in d:
                     c = get_codes('https://courses.students.ubc.ca/cs/main?' +
                                   'pname=subjarea&tname=subjareas&req=1&dept='
-                                  + dept + session)
+                                  + dept + session['url'])
                     if c:
                         for code in c:
                             t = get_terms(
                                 'https://courses.students.ubc.ca/cs/main?' +
                                 'pname=subjarea&tname=subjareas&req=3&dept='
-                                + dept + session + '&course=' + code)
+                                + dept + session['url'] + '&course=' + code)
                             if t:
                                 f.write(' '.join(['\n\ncode:', dept, code]))
                                 f.write('\nterm: ')
                                 for term in t:
-                                    f.write(SESSION[session] + term + ', ')
+                                    f.write(session['name'] + term + ', ')
