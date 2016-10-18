@@ -1,0 +1,6 @@
+
+
+code: LASO 204
+name: Introduction to Law and Society
+cred: 3
+desc: Ideas, concepts, and frameworks for thinking about the nature of law and legal processes in both Canadian and global contexts. 

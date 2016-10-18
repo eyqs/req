@@ -1,0 +1,61 @@
+
+
+code: FMED 401
+name: Host Defenses and Infection
+cred: 6
+desc: An introduction to the anatomic and physiologic basis of host defense against infection. The classification and pathogenic mechanisms of micro-organisms will be taught as will the biological and pharmacological bases of treatment and prevention. 
+
+code: FMED 402
+name: Cardiovascular
+cred: 6
+desc: An introduction to human cardiovascular anatomy, physiology and relevant biochemistry and genetics. Disordered function of the system will be taught by integration of discussion with the normal. As appropriate, pharmacological and other therapeutic and preventative modalities will be taught. 
+
+code: FMED 403
+name: Pulmonary
+cred: 6
+desc: An introduction to human respiratory medicine. The relevant anatomy, physiology, biochemistry and genetics will be taught. Instruction in disordered function of the system will be taught by integration of discussion with the normal. As appropriate, pharmacological, therapeutic and other preventative modalities will be introduced. 
+
+code: FMED 404
+name: Fluids, Electrolytes, Renal and GU
+cred: 6
+desc: An introduction to the anatomy, histology, anatomical and histopathology of the kidney and urinary system and renal physiology and the major fluid and electrolyte disorders associated with renal dysfunction. Students are also introducted to the principles of diagnosis and management of genitourinary and renal disorders. 
+
+code: FMED 421
+name: Blood and Lymphatics
+cred: 2
+desc: Blood and lymphatic system; anatomy, physiology and relevant biochemistry; normal and disordered function; pharmacological and other therapeutic and preventative modalities. 
+
+code: FMED 422
+name: Integument
+cred: 1
+desc: A one-week block covering the basic science and common clinical issues of skin, hair, nails, and accessible mucosae. Normal anatomy and physiology, common clinical and pathophysiological changes and dysfunction, and psychosocial relevance of integumentary diseases are the three principal areas explored. 
+
+code: FMED 423
+name: Musculoskeletal and Locomotor
+cred: 4
+desc: The student is introduced to the basic science components which underlie common clinical conditions. Case-based themes involving normal and abnormal bone metabolism, rheumatoid and osteoarthritis, ligament and muscle contributions, and overall joint mechanics are highlighted. 
+
+code: FMED 424
+name: Gastrointestinal
+cred: 6
+desc: Introduces the student to the clinically relevant basic sciences and pathophysiological events of the human gastrointestinal (GI) tract comprising the oral cavity and teeth, esophagus, stomach, bowel, exocrine pancreas, liver and biliary tree as well as the fundamental principles of human nutrition. 
+
+code: FMED 425
+name: Endocrine and Metabolism
+cred: 6
+desc: This block will focus on normal and abnormal carbohydrate and lipid metabolisms well as the physiological function and disorders of the pituitary, thyroid and adrenal. Relevant pathology, anatomy, genetics, biochemistry, pharmacology, and radiology will be included as learning issues. 
+
+code: FMED 426
+name: Brain and Behaviour
+cred: 10
+desc: Structure and functional interrelationship within the central nervous system; normal and abnormal functions. 
+
+code: FMED 427
+name: Reproduction
+cred: 4
+desc: Reproduction, human sexuality, pregnancy, lactation and aging. 
+
+code: FMED 428
+name: Nutrition, Growth & Development
+cred: 5
+desc: Physiology of growth, neurodevelopmental maturation, antenatal testing, neonatal physiology, child behaviour, cognitive and pubertal development, principles of nutrition, the role of nutrition in growth, development, and disease. 

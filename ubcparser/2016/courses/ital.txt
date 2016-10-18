@@ -1,0 +1,147 @@
+
+
+code: ITAL 101
+name: First-Year Italian I
+cred: 3
+desc: Grammar, reading, writing, and oral practice for beginners without previous exposure to the Italian language or dialects. 
+
+code: ITAL 102
+name: First-Year Italian II
+cred: 3
+desc: Grammar, reading, writing and oral practice for beginners without previous exposure to the Italian language or dialects. 
+preq: ITAL 101. Or permission of the instructor
+
+code: ITAL 103
+name: Intensive First-Year Italian
+cred: 6
+desc: An accelerated course. Grammar, reading, writing, comprehension. This course is equivalent to ITAL 101 plus 102 offered in the same semester. 
+
+code: ITAL 104
+name: Italian for Singers
+cred: 3
+desc: The study of the Italian language with the study of Italian lyric diction and musical culture; practice in translation, phonetic transcription and the performance of vocal music. 
+preq: ITAL 101
+
+code: ITAL 201
+name: Second-Year Italian I
+cred: 3
+desc: Reading, writing and oral practice, with constant and systematic reference to the grammatical structure of the language. 
+preq: ITAL 102. Or permission of the instructor
+
+code: ITAL 202
+name: Second-Year Italian II
+cred: 3
+desc: Reading, writing and oral practice, with constant and systematic reference to the grammatical structure of the language. 
+preq: ITAL 201. Or permission of the department
+
+code: ITAL 203
+name: Intensive Second-Year Italian
+cred: 6
+desc: An accelerated course. Grammar review, reading, composition, comprehension. This course is equivalent to ITAL 201 plus 202 offered in the same semester. 
+
+code: ITAL 206
+name: Conversational Italian for Intermediate Learners
+cred: 3
+desc: The development of spoken proficiency. Contemporary Italy will be presented and discussed through a variety of multimedia resources in this highly interactive environment. 
+preq: ITAL 201
+
+code: ITAL 301
+name: Third-Year Italian I
+cred: 3
+desc: Reading, writing, speaking, comprehension. Special emphasis on oral practice and on composition. 
+preq: ITAL 202 or ITAL 203. Or permission of the department
+
+code: ITAL 302
+name: Third-Year Italian II
+cred: 3
+desc: Reading, writing, speaking, comprehension. Special emphasis on oral practice and on composition. 
+preq: ITAL 301. Or permission of the department
+
+code: ITAL 303
+name: Italian Literature and Culture of the Medieval and Early Modern Period
+cred: 3
+desc: A thematic approach to Italian literary works from the origins to the end of the sixteenth century considered in a broad cultural context. Alternates with ITAL 304. 
+creq: ITST 231. Or permission of the Departmental Undergraduate Advisor in Italian
+
+code: ITAL 304
+name: Italian Literature and Culture of the Modern and Contemporary Age
+cred: 3
+desc: The development of modern and contemporary Italian literature and culture against the background of social and historical events. Alternates with ITAL 303. 
+creq: ITST 232. Or permission of Departmental Undergraduate Advisor in Italian
+
+code: ITAL 342
+name: Introduction to Italian for Senior Students I
+cred: 3
+desc: An intensive course in spoken and written Italian. Grammar, conversation, reading of literary texts. Prerequisite: proficiency in another Romance language or Latin. Not considered a third-year course for purposes of satisfying Italian program requirements. 
+preq: Proficiency in another Romance Language or in Lati
+
+code: ITAL 343
+name: Introduction to Italian for Senior Students II
+cred: 3
+desc: An intensive course in spoken and written Italian. Grammar, conversation, progressive reading of various texts. Prerequisite: Proficiency in another Romance language or Latin. Not considered a third-year course for purposes of satisfying Italian program requirements. 
+
+code: ITAL 401
+name: Advanced Studies in Italian Language and Style I
+cred: 3
+desc: Advanced reading, writing, speaking, comprehension. Special emphasis on oral practice. Alternates with ITAL 402. 
+preq: ITAL 302
+
+code: ITAL 402
+name: Advanced Studies in Italian Language and Style II
+cred: 3
+desc: Advanced reading, writing, speaking, comprehension. Special emphasis on composition. Alternates with ITAL 401. 
+preq: ITAL 302
+
+code: ITAL 403
+name: Dante Alighieri's Divine Comedy
+cred: 3
+desc: A close reading of Dante's masterpiece, along with excerpts from some of his other works: 
+
+code: ITAL 404
+name: Italian Literature of the Middle Ages
+cred: 3
+desc: Italian literature of the Middle Ages in its intellectual, socio-political and cultural context. Dante and his contemporaries and/or immediate followers (may include Petrarch and Boccaccio). Precludes credit for ITST 414. 
+
+code: ITAL 405
+name: Topics in the Italian Literature and Culture of the Renaissance
+cred: 3
+desc: Masterpieces of the Italian Renaissance in literature and the other Arts. Authors and artists studied range from Pico to Ariosto and Machiavelli, from Botticelli to Leonardo and Michelangelo. Credit will be granted for only one of ITAL 405 or ITAL 415. 
+
+code: ITAL 406
+name: Topics in Seventeenth-Century Italian Literature and Culture
+cred: 3, 6
+desc: Classics of the Italian literature of the Mannerist and Baroque age in their intellectual, socio-political, and cultural context.  Credit will be granted for only one of ITAL 406 or ITST 416. 
+
+code: ITAL 407
+name: Topics in Eighteenth-Century Italian Literature and Culture
+cred: 3, 6
+desc: Classics of the Italian literature of the age of the Enlightenment in its intellectual, socio-political, and cultural context.  Credit will be granted for only one of ITAL 407 or ITST 417. 
+
+code: ITAL 408
+name: Topics in Nineteenth-Century Italian Literature and Culture
+cred: 3
+desc: Italian literature of the 19th century in its intellectual, socio-political and cultural context. Precludes credit for ITST 418. 
+
+code: ITAL 409
+name: Topics in Modern and Contemporary Italian Literature and Culture
+cred: 3
+desc: Italian literature of the 20th century in its intellectual, socio-political and cultural context. Precludes credit for ITST 419. 
+
+code: ITAL 420
+name: Special Topics in Italian Language, Literature and Culture
+cred: 3
+desc: Course content will vary. May be taken twice for a total of 6 credits. 
+
+code: ITAL 430
+name: Italian Cinema in its Cultural Background
+cred: 3
+desc: A survey of major films in their intellectual, socio-political, and cultural context. Auteurs may range from De Sica, Rossellini, Pasolini, and Visconti to Bertolucci, Rosi, the Tavianis, and Moretti. Precludes credit for ITST 432. 
+
+code: ITAL 495
+name: Research Intensive Seminar in Italian Literature and Culture
+cred: 3
+desc: Credit will be granted for only one of ITAL 495 or ITST 495. 
+
+code: ITAL 499
+name: Honours Essay
+cred: 3

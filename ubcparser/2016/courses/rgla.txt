@@ -1,0 +1,15 @@
+
+
+code: RGLA 371
+name: Seminar in Religion and Literature
+cred: 3
+
+code: RGLA 372
+name: Topics in Religion, Literature, and the Arts
+cred: 3, 6
+desc: The topic is selected and announced annually by the RGLA Committee. 
+
+code: RGLA 471
+name: Advanced Seminar in Religion and Literature
+cred: 3
+desc: Application of critical methods to one or more major authors. 

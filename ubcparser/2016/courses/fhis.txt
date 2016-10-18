@@ -1,0 +1,11 @@
+
+
+code: FHIS 333
+name: Short Fiction in Romance Literatures
+cred: 3
+desc: A study of the genres of the "novella" and the short story within and across Romance cultures. 
+
+code: FHIS 334
+name: Afterlife of the Text: Rewritings and Adaptations
+cred: 3
+desc: How stories travel across media and across national and linguistic boundaries in the Romance-speaking world. Dialogue between different versions and inter-media translations. Questions of authorship and reception. 

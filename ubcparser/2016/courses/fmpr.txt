@@ -1,0 +1,16 @@
+
+
+code: FMPR 401
+name: Family Practice Continuum
+cred: 6
+desc: Principles and skills of patient interviewing, history taking, physical examination are learned and practiced under supervision in office, home, hospital and community settings. Seminars and lectures support students in this clinical endeavour. The role of the Family Physician in the provision of comprehensive patient care is explored. 
+
+code: FMPR 420
+name: Family Practice Continuum II
+cred: 6
+desc: This clinical course is a continuation of FMPR 401. Supervised patient interviewing, history taking, and physical examinations in the Family Practice setting. A period of time will be spent in family practice settings demonstrating focused care in a particular area. 
+
+code: FMPR 428
+name: Rural and Underserved Community Practice
+cred: 6
+desc: A 4 week full time course that allows medical students in Phase III of the undergraduate program to apprentice with family physicians in rural and underserved community practices. This course is the start of year 3 clerkships and takes place at the end of second year. 

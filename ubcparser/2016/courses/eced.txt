@@ -1,0 +1,86 @@
+
+
+code: ECED 380
+name: Selected Topics in Infant Development and Supported Child Development
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Formerly EPSE 380 
+
+code: ECED 400
+name: Introduction to Early Childhood Education and Care
+cred: 3
+
+code: ECED 401
+name: Supporting Young Children's Health and Well-Being in Early Childhood Settings
+cred: 3
+
+code: ECED 405
+name: Foundations of Curriculum and Instruction in Early Childhood Education
+cred: 1, 2
+
+code: ECED 406
+name: Early Learning Curriculum in the Pre-School Years
+cred: 3
+desc: The development of pre-kindergarten programs with reference to recent research, theories of early learning, and curriculum trends and practices. 
+
+code: ECED 407
+name: Supporting Early Learning in the Pre-School Years
+cred: 3
+desc: Planning and implementing pre-kindergarten learning experiences; resources, materials, curriculum integration, evaluation, scheduling, and classroom design. 
+
+code: ECED 415
+name: Supporting Learning in The Primary Years
+cred: 3
+desc: Designing environments, experiences, activities, instruction, and assessment to foster children's learning in the primary years (grades 1-3). 
+preq: ECED 405 or teaching experience or successful completion of the extended practicum
+
+code: ECED 416
+name: Kindergarten Curriculum
+cred: 3
+desc: The development of kindergarten programs with reference to recent research, theories of early learning, curriculum trends and practices, and the place of kindergarten in contemporary education. 
+
+code: ECED 417
+name: Supporting Learning in the Kindergarten Year
+cred: 3
+desc: Designing environments, experiences, activities, instruction, and assessment to foster children's learning in the kindergarten year. 
+preq: ECED 405 or ECED 416 or teaching experience or successful completion of extended practicum
+
+code: ECED 420
+name: History of Early Childhood Education
+cred: 3
+desc: Political and social factors which influenced movements and trends in early childhood education in North America, pre-kindergarten through primary. 
+
+code: ECED 421
+name: Supporting Young Children Through Home, School, and Community Relationships
+cred: 3
+
+code: ECED 425
+name: Advanced Studies in Early Childhood Education
+cred: 3, 6
+preq: ECED 405 or an introductory level early childhood education course or teaching experience or successful completion of extended practicum
+
+code: ECED 438
+name: Observation and Documentation in Early Childhood Settings
+cred: 3
+
+code: ECED 439
+name: Assessment of Infants and Young Children with Special Needs
+cred: 3
+desc: (Formerly EPSE 420). 
+
+code: ECED 440
+name: Supporting Social and Communication Development in Infants and Young Children with Special Needs
+cred: 3
+desc: (Formerly EPSE 440). 
+
+code: ECED 441
+name: Early Intervention for Infants and Young Children with Sensory Loss and Motor Impairments
+cred: 3
+desc: (Formerly EPSE 441). 
+
+code: ECED 442
+name: Supporting Indigenous Infants and Young Children within the Context of Their Communities
+cred: 3
+
+code: ECED 480
+name: Selected Topics in Early Childhood Education
+cred: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11

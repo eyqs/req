@@ -1,0 +1,10 @@
+
+
+code: HESO 400
+name: Sociocultural Determinants of Health
+cred: 3, 6
+desc: Methods for analyzing population health data and medical research reporting. 
+
+code: HESO 449
+name: Topics in Health and Society
+cred: 3, 6

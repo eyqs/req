@@ -1,0 +1,6 @@
+
+
+code: OPTH 450
+name: Ophthalmology
+cred: 1
+desc: Third-year Medicine Students only. An introduction to Clinical Ophthalmology: four morning sessions introducing the third-year Medical Students to basic ophthalmic history, clinical symptoms, signs and patient management. 

@@ -1,0 +1,6 @@
+
+
+code: JRNL 100
+name: New Media and Society
+cred: 3, 6
+desc: Development of new media technologies, their applications, and their cultural, political, and social impacts. 
