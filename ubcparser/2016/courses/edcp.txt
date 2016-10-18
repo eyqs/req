@@ -1,0 +1,600 @@
+
+
+code: EDCP 150
+name: General Science for Elementary Classrooms
+cred: 6
+
+code: EDCP 210
+name: Introduction to Music Education
+cred: 3
+desc: Role of music education in schools and society, including historical, philosophical, psychological, and sociological perspectives. Includes guided class observations and practice music teaching in elementary and secondary schools. Criminal Record Check required. 
+
+code: EDCP 301
+name: Art - Elementary: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 302
+name: Art - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+preq: A concentration in art or permission of the Head
+
+code: EDCP 303
+name: Ceramic Design and Pedagogical Approaches: Art Education
+cred: 6
+preq: 6 credits of introductory art studio or art history courses
+
+code: EDCP 304
+name: Textile Design and Pedagogical Approaches: Art Education
+cred: 6
+preq: 6 credits of introductory art studio or art history courses
+
+code: EDCP 305
+name: Digital Media in Arts Education: Introduction
+cred: 3
+
+code: EDCP 306
+name: Digital Media in Arts Education: Advanced
+cred: 3
+preq: EDCP 305
+
+code: EDCP 308
+name: Music - Elementary: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 309
+name: Instrumental Pedagogy: Elementary
+cred: 3
+desc:  [3-0-0]
+
+code: EDCP 311
+name: Music - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 312
+name: Instrumental Pedagogy: Secondary
+cred: 4, 6
+
+code: EDCP 313
+name: Choral Pedagogy: Secondary
+cred: 4, 6
+
+code: EDCP 314
+name: Instrumental Jazz Pedagogy: Secondary
+cred: 3
+desc:  [3-0]
+
+code: EDCP 315
+name: Choral Jazz Pedagogy
+cred: 3
+desc:  [3-0]
+
+code: EDCP 316
+name: Contemporary Methods of Instruction in Ear Training, Music Reading, and Musicianship I
+cred: 3
+
+code: EDCP 317
+name: Contemporary Methods of Instruction in Ear Training, Music Reading, and Musicianship II
+cred: 3
+preq: EDCP 316
+
+code: EDCP 318
+name: Canadian Music in the Classroom: Elementary/Secondary
+cred: 3
+desc:  [3-0]
+
+code: EDCP 319
+name: The Musical: Organization and Production
+cred: 3
+desc:  [3-0]
+
+code: EDCP 320
+name: Physical Education - Elementary: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 322
+name: Physical Education - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+preq: A completed concentration in physical education or permission of the head
+
+code: EDCP 323
+name: Outdoor Environmental Education: Curriculum and Pedagogy
+cred: 3
+desc: Costs for field trips and an overnight experience are borne by students. Pass/Fail. 
+
+code: EDCP 325
+name: Approaches to Health Education
+cred: 3
+
+code: EDCP 326
+name: Health Education: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 327
+name: Special Topics  in Health Education
+cred: 3, 6
+
+code: EDCP 328
+name: Environmental Education
+cred: 3
+
+code: EDCP 329
+name: Agriculture in the Curriculum
+cred: 3
+desc: Agricultural awareness, understanding the food system, and integration of food and agricultural literacy across the curriculum. 
+
+code: EDCP 331
+name: Social Studies - Elementary: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 332
+name: Social Studies - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 333
+name: Contemporary Issues in Social Studies: Secondary
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 334
+name: Canadian Studies: Curriculum and Pedagogy
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 335
+name: Law-Related Education: Curriculum and Pedagogy
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 340
+name: Mathematics - Elementary and Middle Years: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 341
+name: Mathematics across the Curriculum: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 342
+name: Mathematics - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+preq: A completed concentration in mathematics or permission of the Head
+
+code: EDCP 343
+name: Mathematics Education: Problem Solving
+cred: 3
+desc:  [3-0-0]
+preq: EDCP 340 or EDCP 342
+
+code: EDCP 344
+name: Mathematics Education: Geometry and Measurement
+cred: 3
+desc:  [3-0-0]
+preq: EDCP 340 or EDCP 342
+
+code: EDCP 349
+name: Science - Elementary: Curriculum and Pedagogy
+cred: 2
+desc: Pass/Fail. 
+
+code: EDCP 350
+name: Biological Sciences - Elementary: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 351
+name: Physical Sciences - Elementary: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 352
+name: General Science - Secondary: Curriculum and Pedagogy
+cred: 2, 3, 4
+desc: Pass/Fail. 
+preq: A completed concentration in agricultural sciences biological sciences chemistry earth and (space science or physics or permission of the Head)
+
+code: EDCP 353
+name: Agricultural Sciences - Secondary: Curriculum and Pedagogy
+cred: 2, 3
+desc: Pass/Fail. 
+preq: A completed concentration in Agricultural Sciences or permission of the Head
+
+code: EDCP 354
+name: Biological Sciences - Secondary: Curriculum and Pedagogy
+cred: 2, 3
+desc: Pass/Fail. 
+preq: A completed concentration in biological sciences or permission of the Head
+
+code: EDCP 355
+name: Chemistry - Secondary: Curriculum and Pedagogy
+cred: 2, 3
+desc: Pass/Fail. 
+preq: A completed concentration in chemistry or permission of the Head
+
+code: EDCP 356
+name: Earth and Space Science - Secondary: Curriculum and Pedagogy
+cred: 2, 3
+desc: Pass/Fail. 
+preq: A completed concentration in earth and (space science or permission of the Head)
+
+code: EDCP 357
+name: Physics - Secondary: Curriculum and Pedagogy
+cred: 2, 3
+desc: Pass/Fail. 
+preq: A completed concentration in physics or permission of the Head
+
+code: EDCP 358
+name: Applied Studies in Mathematics, Science and Technology I: Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 360
+name: Elementary and Middle Years: Curriculum and Pedagogy
+cred: 1
+desc: Pass/Fail. 
+
+code: EDCP 362
+name: Curriculum Design and Evaluation: Practical and Theoretical Issues
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+code: EDCP 363
+name: Interdisciplinarity in Curriculum and Pedagogy
+cred: 3
+desc:  [3-0]
+
+code: EDCP 370
+name: Integrating ICT Across the Curriculum: Elementary and Middle Years
+cred: 3
+
+code: EDCP 371
+name: Integrating Design and Technology Across the Curriculum: Elementary and Middle Years
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 372
+name: Integrating Business Applications across the Curriculum: Elementary and Middle Years
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 373
+name: Information and Communication Technologies I - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 374
+name: Design and Technology I - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 375
+name: Business Education I - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 376
+name: Information and Communication Technologies II - Secondary: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 377
+name: Design and Technology II - Secondary: Curriculum and Pedagogy
+cred: 3
+preq: EDCP 374
+
+code: EDCP 378
+name: Business Education II - Secondary: Curriculum and Pedagogy
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 390
+name: Home Economics - Elementary and Middle Years: Curriculum and Pedagogy
+cred: 3
+
+code: EDCP 391
+name: Home Economics I - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: EDCP 392
+name: Assessment and Evaluation in Textile Studies: Home Economics
+cred: 3
+desc: Practical and conceptual issues of developing and evaluating secondary school textile studies curricula in home economics. 
+
+code: EDCP 400
+name: Studies in an Art Education Studio Area
+cred: 2, 3, 4, 5
+desc: Pass/Fail. 
+
+code: EDCP 401
+name: Visual Arts for Classroom Practice: Two-Dimensional Practices and Processes
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 402
+name: Visual Arts for Classroom Practice: Printmaking Practices and Processes
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 403
+name: Visual Arts for Classroom Practice: Three-Dimensional Practices and Processes
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 404
+name: Visual Arts for Classroom Practice: Textile Design
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 405
+name: Visual Arts for Classroom Practice: New Media and Digital Processes
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 406
+name: Visual Arts for Classroom Practice: Photography
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 407
+name: Art Education Curriculum and Pedagogy: Theory and Practice
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 408
+name: Art, Education and Cultural Diversity
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 409
+name: Art Education Theory and Research
+cred: 3
+desc: Pass/Fail. 
+preq: (Art education as a major or minor) and completion of a practicum in Art Education
+
+code: EDCP 410
+name: Music and Movement - Elementary: Curriculum and Pedagogy
+cred: 3
+preq: EDCP 308. Or an introductory course in music education
+
+code: EDCP 411
+name: Music - Elementary: Advanced Curriculum and Pedagogy
+cred: 3
+preq: EDCP 308 or an introductory course in music education
+
+code: EDCP 412
+name: Conducting and Rehearsal Techniques for Teachers
+cred: 3
+preq: Prior experience in teaching music
+
+code: EDCP 413
+name: Digital Media for Music Education
+cred: 3
+preq: EDCP 305 or equivalent experience
+
+code: EDCP 414
+name: Elementary Choral Music
+cred: 3
+preq: EDCP 308 or an introductory course in music education
+
+code: EDCP 415
+name: Music Education for Children with Exceptional Needs
+cred: 3
+preq: EPSE 312 or EPSE 317
+
+code: EDCP 416
+name: Music Education: Orff Basics
+cred: 3
+
+code: EDCP 417
+name: Music Education: Orff Level I
+cred: 3
+preq: EDCP 309 or EDCP 416 or EDCP 411 or EDCP 414
+
+code: EDCP 418
+name: Music Education: Orff Level II
+cred: 3
+preq: EDCP 417
+
+code: EDCP 419
+name: Music Education: Orff Level III
+cred: 3
+preq: EDCP 418
+
+code: EDCP 420
+name: Advanced Physical Education: Elementary
+cred: 3
+
+code: EDCP 423
+name: Advanced Methodology in Outdoor Environmental Education
+cred: 3
+desc: Costs for field trips and an overnight experience are borne by students. 
+preq: EDCP 323 or permission of the instructor
+
+code: EDCP 430
+name: Social Studies - Elementary: Advanced Curriculum and Pedagogy
+cred: 3, 6
+preq: EDCP 331
+
+code: EDCP 431
+name: Special Study in Social Studies: History
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 432
+name: Special Study in Social Studies: Geography
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 433
+name: Current Practices in Values Education
+cred: 3, 6
+
+code: EDCP 440
+name: Topics in the Curriculum and Pedagogy in Mathematics: Secondary
+cred: 3
+desc:  [3-0-0]
+
+code: EDCP 441
+name: Assessment in Mathematics Education
+cred: 3, 6
+preq: EDCP 340 or EDCP 342
+
+code: EDCP 442
+name: Mathematics History for Teachers
+cred: 3
+desc:  [3-0]
+
+code: EDCP 446
+name: Forest Education
+cred: 3
+desc: Transportation and living costs for required field experiences will be borne by the student. [3-0]
+
+code: EDCP 447
+name: Technology-Based Science Education
+cred: 3
+
+code: EDCP 448
+name: Conceptions of the Natural World: Implications for Science Education
+cred: 3
+desc:  [3-0]
+
+code: EDCP 449
+name: Teaching Earth and Space Science Beyond the Textbook
+cred: 3
+
+code: EDCP 450
+name: Teaching Life Science Beyond the Textbook
+cred: 3
+
+code: EDCP 451
+name: Teaching Physical Science Beyond the Textbook
+cred: 3
+
+code: EDCP 452
+name: Science, Technology, and Society
+cred: 3
+desc:  [3-0]
+
+code: EDCP 453
+name: Biology for Teaching: Topics and Pedagogical Approaches - Secondary
+cred: 3
+desc: Teacher Education Office approval is required. Open only to secondary students admitted with an academic deficiency. Not for credit towards a graduate degree or for undergraduate credit in an academic subject. Pass/Fail. 
+
+code: EDCP 454
+name: Chemistry for Teaching: Topics and Pedagogical Approaches - Secondary
+cred: 3
+desc: Teacher Education Office approval is required. Open only to secondary students admitted with an academic deficiency. Not for credit toward graduate degree or for undergraduate credit in an academic subject. Pass/Fail. 
+
+code: EDCP 455
+name: Earth and Space Science for Teaching: Topics and Pedagogical Approaches - Secondary
+cred: 3
+desc: Teacher Education Office approval is required.  Open only to secondary students admitted with an academic deficiency. Not for credit toward graduate degree or for undergraduate credit in an academic subject. Pass/Fail. 
+
+code: EDCP 456
+name: Botany for Teaching: Topics and Pedagogical Approaches - Secondary
+cred: 3
+desc: Teacher Education Office approval is required. Open only to secondary students admitted with an academic deficiecy. Not for credit toward graduate degree or for undergraduate credit in an academic subject. Pass/Fail. 
+
+code: EDCP 457
+name: Zoology for Teaching: Topics and Pedagogical Approaches - Secondary
+cred: 3
+desc: Teacher Education Office approval is required. Open only to secondary students admitted with an academic deficiency. Not for credit toward graduate degree or for undergraduate credit in an academic subject. Pass/Fail. 
+
+code: EDCP 458
+name: Applied Studies in Mathematics, Science, and Technology II - Secondary: Curriculum and Pedagogy
+cred: 3
+preq: EDCP 358
+
+code: EDCP 460
+name: Recent Developments in Elementary Curriculum and Pedagogy
+cred: 3, 4, 5
+desc:  [3-0-0]
+
+code: EDCP 462
+name: Perspectives in Curriculum Theory
+cred: 3
+desc:  [3-0]
+
+code: EDCP 467
+name: Special Topics in Curriculum and Pedagogy
+cred: 3, 6
+
+code: EDCP 468
+name: Directed Study in Curriculum and Pedagogy
+cred: 3, 4, 5, 6, 7, 8
+desc: Pass/Fail. 
+
+code: EDCP 470
+name: ICT Practices in Education
+cred: 3
+desc:  [3-0]
+
+code: EDCP 471
+name: Technological Practices in Education: Technical Problems
+cred: 3, 12
+
+code: EDCP 472
+name: Business Practices in Education
+cred: 3
+desc: Pass/Fail. 
+
+code: EDCP 473
+name: Digital Media in ICT Education: Ethical Uses
+cred: 3
+
+code: EDCP 474
+name: Digital Media in ICT Education: Design and Pedagogy
+cred: 3
+
+code: EDCP 475
+name: Digital Media in ICT Education: Development and Assessment
+cred: 3
+preq: EDCP 474
+
+code: EDCP 480
+name: Visual Culture Across the Curriculum
+cred: 3
+
+code: EDCP 481
+name: Media Studies Across the Curriculum
+cred: 3
+
+code: EDCP 491
+name: Home Economics II - Secondary: Curriculum and Pedagogy
+cred: 3
+preq: EDCP 391
+
+code: EDCP 492
+name: Special Study in Home Economics: Textile Studies
+cred: 3
+
+code: EDCP 493
+name: Special Study in Home Economics: Foods Studies
+cred: 3
+
+code: EDCP 494
+name: Special Study in Home Economics: Family Studies
+cred: 3
+
+code: EDCP 495
+name: Special Topics in Home Economics Education
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+code: EDCP 496
+name: Global Education and Curriculum
+cred: 3
+desc:  [3-0-0]
+
+code: EDCP 497
+name: Career Education and Curriculum
+cred: 3
+
+code: EDCP 498
+name: Curriculum Inquiry in Home Economics Education
+cred: 3
+desc: Culminating inquiry in curriculum and pedagogy for the Home Economics Education Diploma. 

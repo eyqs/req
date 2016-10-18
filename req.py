@@ -20,9 +20,9 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 
-COURSES = 'ubcparser/courses'   # relative path to folder with course lists
-TABS    = 'ubcparser/tabs'      # relative path to folder with course tabs
-DUMP    = 'req.txt'             # relative path to file to dump courses
+COURSES = 'ubcparser/2016/courses'      # path to folder with course lists
+TABS    = 'ubcparser/2016/tabs'         # path to folder with course tabs
+DUMP    = 'req.txt'                     # path to file to dump courses
 MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',
            'creq':'gold', 'preq':'pink', 'excl':'light steel blue'}

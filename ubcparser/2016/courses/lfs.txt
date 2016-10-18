@@ -1,0 +1,93 @@
+
+
+code: LFS 100
+name: Introduction to Land, Food and Community
+cred: 1
+desc: Orientation to the programs, learning environment and core values of the Faculty of Land and Food Systems; career programs; survey of professional opportunities and requirements. [1-0-0]
+
+code: LFS 150
+name: Scholarly Writing and Argumentation in Land and Food Systems
+cred: 3
+desc: Communicating concepts of food systems and links to human and environmental health through writing, elements of argumentation, evaluating evidence, and searching for and citing references to back up claims; small-class experience. Enrolment limited to LFS students with first year status and a Language Proficiency Index (LPI) of 4 or equivalent. 
+
+code: LFS 250
+name: Land, Food and Community I
+cred: 6
+desc: Introduction to managed systems and concepts of sustainability; economic, ecological and social components; managed landscapes, agri-food systems, and communities; urban and rural systems; the land, food, nutrition and human health continuum. [4-0-4]
+
+code: LFS 252
+name: Land, Food, and Community: Quantitative Data Analysis
+cred: 3
+desc: Introduction to tools needed for data analysis of the economic, ecological, health, and scientific components of land and food systems. [3-0-1]
+preq: MATH 100 or MATH 102 or MATH 104 or MATH 110 or MATH 120 or MATH 180 or MATH 184
+
+code: LFS 297
+name: Directed Studies
+cred: 3
+desc: Restricted to Land and Food Systems students with first or second year status and a cumulative average of 72% or higher. 
+preq: Approval of program advisor
+
+code: LFS 301
+name: Aquaculture Field Studies
+cred: 3
+desc: An orientation to the aquaculture system in BC. Participating students are assessed a fee. 
+
+code: LFS 302
+name: International Field Studies
+cred: 3, 6
+desc: Field studies carried out abroad under staff direction. Participating students are assessed a fee. 
+
+code: LFS 340
+name: First Nations Health and the Traditional Role of Plants
+cred: 3
+desc: This Interprofessional Health and Human Service (IHHS) course covers the First Nations medical systems and medicinal plants. Bridging the traditional with modern sciences. Credit will be granted for only one of LFS 340 or IHHS 301. 
+
+code: LFS 350
+name: Land, Food, and Community II
+cred: 3
+desc: Introduction to tools and skills required to assess the economic, ecological, social, and technological components of managed landscapes, agrifood systems and communities comprising the land, food, nutrition and health continuum. [3-0-0]
+preq: LFS 250
+
+code: LFS 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail. 
+preq: Must attend all Co-op pre-employment workshops
+
+code: LFS 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail. 
+preq: LFS 398
+
+code: LFS 400
+name: Audio Storytelling
+cred: 3
+desc: Adopts a journalistic framework to communicate powerful stories and present academic content in new ways through the use of audio technology. [1-2-0]
+
+code: LFS 450
+name: Land, Food, and Community III: Food System Sustainability
+cred: 3
+desc: Problem-based analysis of complex case studies aimed at increasing the sustainability of the UBC Vancouver campus food system. The main activities are integrated into the ongoing UBC Food System Project. Cases are specifically designed to require development of integrated disciplinary and inter-disciplinary analysis. [1-0-3]
+
+code: LFS 490
+name: Topics in Land and Food Systems
+cred: 3
+desc: Analysis and interpretation of current issues related to land and food systems. 
+
+code: LFS 496
+name: Career Development Internship
+cred: 3, 6
+desc: Technical work experience appropriate to students' career goals. Enrolment subject to competition and availability of work placements. 
+
+code: LFS 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail. 
+preq: LFS 399
+
+code: LFS 499
+name: Co-operative Work Placement IV
+cred: 3
+desc: Work experience in relevant private and/or public sector settings.  Work terms are normally four months long.  Restricted to students admitted to the Co-op Program in Land and Food Systems. Pass/Fail. 
+preq: LFS 498

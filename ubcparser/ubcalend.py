@@ -19,7 +19,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import os
 import urllib.request
 LOGFILE   = 'calendar.log'
-OUTFOLDER = 'courses/'
+OUTFOLDER = '2016/courses/'
 
 
 # Translate a file into a format that req can parse

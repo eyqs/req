@@ -1,0 +1,6 @@
+
+
+code: PSYT 430
+name: Psychiatry Clinical Clerkship
+cred: 6
+desc: Supervised treatment of adult inpatients and outpatients within a multi-disciplinary team. Assessment and treatment of a child and family as well as seminars on selected topics. 

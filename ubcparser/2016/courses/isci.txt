@@ -1,0 +1,126 @@
+
+
+code: ISCI 300
+name: Interdisciplinary Seminar
+cred: 1
+desc: Critical analysis of recent scientific literature that combines disciplines that students are integrating in their Integrated Sciences Curriculum. 
+preq: Registration in Integrated Sciences Progra
+
+code: ISCI 311
+name: The Size of Things
+cred: 3
+desc: Scaling as a general approach to laws governing the geometry, kinematics and dynamics of systems. Dimensional analysis, isometry and allometry applied to topics from Biology, Physics, Earth Science and Economics. Priority to students in the Integrated Sciences Program. [2-0-2]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 320
+name: Research Development Project
+cred: 3
+desc: Retreat to develop skills in writing scientific research proposals.  Emphasis on formulating and testing hypotheses to explain observations.  Course location will vary; fee payable prior to retreat. 
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 322
+name: Science of Measurement and Instrumentation
+cred: 3
+desc: Interactive course integrating diverse aspects of science: semi-quantitative overview of physical principles underlying modern measurement technology; philosophy of measurement; accuracy and limits to measurement, and resultant scientific, sociological and economic consequences. Priority to students in the Integrated Sciences Program. 
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 330
+name: Topics in Integrated Sciences
+cred: 3, 4, 5
+desc: Interactive examination of a theme common to all areas of science. Themes will change from year to year. Priority to students in the Integrated Sciences Program. [3-0-0]
+preq: Third-year standing in the Faculty of Scienc
+
+code: ISCI 333
+name: Principles of Biological and Artificial Control Systems
+cred: 3
+desc: Interactive exploration of information networks. Integrated principles of neural and computational control systems encompassing scientific, social and philosophical perspectives. Priority to students in the Integrated Sciences Program. [2-0-2]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 344
+name: Theory and Practice of Games in Economics and Evolution
+cred: 3
+desc: Exploration of human and animal interactions: integrating evolutionary and economic perspectives to investigate individual and social behaviour.  Credit will be given for only one of ECON 221 or ISCI 344. [3-0-0]
+preq: Third-year standing
+
+code: ISCI 345
+name: Integrative Bioinformatics
+cred: 3
+desc: Storage and processing of information in biological systems. Computational methods for recovering and interpreting stored genetic information. Priority to students in the Integrated Sciences Program. [2-0-2]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 350
+name: Darwinian Medicine
+cred: 3
+desc: Using the Darwinian theory of natural selection to explore explanations of infectious diseases, allergies, cancer, mental illness, and other human diseases. Priority to students in the Integrated Sciences Program. [2-0-2]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 360
+name: Systems Approaches to Regional Sustainability
+cred: 3
+desc: Application of systems science encompassing geological, hydrological, ecological, atmospheric sciences, and energy systems approaches to study regional sustainability. [3-0-0]
+preq: Third-year or higher standing in the Faculty of Science
+
+code: ISCI 361
+name: Field Course: Systems Approaches to Regional Sustainability
+cred: 3
+desc: Systems science approaches encompassing geological, hydrological, ecological, atmospheric sciences, and energy systems to investigate a selected region of the world.  Course location will vary; fee payable prior to field course. 
+preq: ISCI 360
+
+code: ISCI 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Industrial or academic work experience for a minimum of 4 months. Normally taken in Winter Session of third year or Summer Session after third year. Technical report required. Restricted to students in the ISP Co-op program. 
+preq: One term in ISP
+
+code: ISCI 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Industrial or academic work experience for a minimum of 4 months. Technical report required. Restricted to students admitted to the Co-op Program in ISP. 
+preq: ISCI 398
+
+code: ISCI 411
+name: Scientific Uncertainty and Risk
+cred: 3
+desc: Examines theory and practice of analyzing risk in many fields and disciplines. Topics include assessing, communicating, and managing risks. Emphasis on dealing with scientific uncertainty. Priority to ISP students. [3-0-0]
+preq: Third-year standing in Faculty of Science and a statistics course
+
+code: ISCI 422
+name: Models in Science
+cred: 3
+desc: Meaning, nature, use, strengths and limitations of models as investigative tools in all scientific disciplines. Detailed investigation of selected model systems from different scientific disciplines. Priority to students in the Integrated Sciences Program. [2-0-2]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 433
+name: Ethical Issues in Science
+cred: 3
+desc: Theoretical and practical consideration of ethics in the practice, reporting, public impact and accountability of science. [3-0-0]
+preq: Third-year standing in any faculty
+
+code: ISCI 448
+name: Directed Studies
+cred: 3, 4, 5
+desc: Permission of the Director is required. 
+
+code: ISCI 451
+name: Complexity
+cred: 3
+desc: Structure, function, evolution and manipulation of complex systems from various disciplines. Tools for analysis and synthesis of complexity. Case studies include real (e.g. weather, human brain, economics) and formal (e.g., chaos, artificial neural networks, genetic algorithms) systems. [3-0-0]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 490
+name: Student Directed Seminars
+cred: 3
+desc: Self-directed, collaborative studies, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment and delivery methods will comply with the Handbook for Student Directed Seminars. [3-0-0]
+preq: Third-year standing in the Faculty of Science
+
+code: ISCI 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Industrial or academic work experience for a minimum of 4 months.  Technical report required.  Restricted to students admitted to the Co-op Program in ISP. 
+preq: ISCI 399
+
+code: ISCI 499
+name: Co-Operative Work Placement IV
+cred: 3
+desc: Industrial or academic work experience for a minimum of 4 months. Technical report required.  Restricted to students admitted to the Co-op Program in ISP. 
+preq: ISCI 498

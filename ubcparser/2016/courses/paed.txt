@@ -1,0 +1,6 @@
+
+
+code: PAED 430
+name: Paediatrics
+cred: 8
+desc: In-patient experience; experience in ambulatory clinics. Clinical teaching in small groups and Academic Half-Days, which supply a series of lectures and seminars. Emphasis on acquisition of clinical skills and a knowledge base of general paediatrics. Clinical duties include patient histories, physical examinations, participation in investigation and management, following patient progress, taking part in daily rounds, and night call. 

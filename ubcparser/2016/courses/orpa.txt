@@ -1,0 +1,6 @@
+
+
+code: ORPA 430
+name: Orthopaedics
+cred: 2
+desc: Musculoskeletal pathology, including baseline levels of knowledge, skill and attitude, plus surgical exposure to orthopaedic injuries and management. 

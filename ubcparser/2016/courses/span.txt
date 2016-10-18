@@ -1,0 +1,215 @@
+
+
+code: SPAN 101
+name: Beginners' Spanish I
+cred: 3
+desc: Grammar, composition, translation, oral practice. 
+
+code: SPAN 102
+name: Beginners' Spanish II
+cred: 3
+desc: Grammar, composition, translation, oral practice. 
+preq: SPAN 101
+
+code: SPAN 201
+name: Intermediate Spanish I
+cred: 3
+desc: Grammar, composition, translation, oral practice, readings. 
+preq: SPAN 102
+
+code: SPAN 202
+name: Intermediate Spanish II
+cred: 3
+desc: Grammar, composition, translation, oral practice, readings. 
+preq: SPAN 201
+
+code: SPAN 206
+name: Conversational Spanish I
+cred: 3
+desc: Conversation (group discussion and debates), readings, and grammar review. 
+preq: SPAN 12 or SPAN 202
+
+code: SPAN 207
+name: Conversational Spanish II
+cred: 3
+desc: Conversation (group discussion and debates), readings, and grammar review. 
+preq: SPAN 206
+
+code: SPAN 221
+name: Introduction to Literary Analysis in Spanish
+cred: 3
+desc: Critical analysis (e.g., terminology, analytical concepts) of at least three genres through the study of selected Iberian and Latin American literary texts.  This course is required for the Major Program and is taught in Spanish. 
+preq: SPAN 202
+
+code: SPAN 222
+name: Introduction to the Analysis of Hispanic Cultural Texts
+cred: 3
+desc: Critical analysis of different cultural genres such as music, cinema, art, photography, through the study of selected Iberian and Latin American cultural texts.  Not available for credit toward the Major or Minor in Spanish.  Taught in Spanish. 
+preq: SPAN 202
+
+code: SPAN 280
+name: Selected Topics on Revolution in Latin America (in English)
+cred: 3
+desc: A cultural studies approach to Revolution in Latin America: basic concepts of revolt and revolution, highlighting the intersection of political, literary, and cultural production during Latin American revolutionary periods. 
+
+code: SPAN 301
+name: Advanced Spanish I
+cred: 3
+desc: Composition, translation, and oral practice.  Special emphasis on pronunciation and syntax. 
+preq: SPAN 202 or SPAN 207
+
+code: SPAN 302
+name: Advanced Spanish II
+cred: 3
+desc: Composition, translation, and oral practice.  Special emphasis on pronunciation and syntax. 
+preq: SPAN 301
+
+code: SPAN 303
+name: Conversational Spanish for Advanced Speakers
+cred: 3
+desc: Conversational Spanish, based on topics from current electronic media sources. Recommended for upper-level students and heritage speakers of Spanish. For students at Level C1 (CEFR). For further information on CEFR levels see http://www.fhis.ubc.ca/undergraduate/spanish/advising/deciding-what-spanish-course-to-take.html. 
+
+code: SPAN 308
+name: Spanish for Business
+cred: 3
+desc: Not available for credit toward a Major or Minor in Spanish. 
+preq: SPAN 202 or 12 credits of Spanish
+
+code: SPAN 309
+name: Business Spanish of International Trade in the Hispanic World (in Spanish)
+cred: 3
+desc: The language and the legal, logistic, and administrative procedures of international trade. For students at level B2 (CEFR). For further information on CEFR levels see http://www.fhis.ubc.ca/undergraduate/spanish/advising/deciding-what-spanish-course-to-take.html. Not available for credit toward a Major or Minor in Spanish. 
+
+code: SPAN 310
+name: Advanced Spanish for Native and Bilingual Speakers
+cred: 3
+desc: Not available for credit toward a Major or Minor in Spanish. 
+preq: Placement test required
+
+code: SPAN 312
+name: Topics in Latin American Literature in Translation
+cred: 3, 6
+desc: Introduction for the non-specialist to the major contemporary Latin American literary works and their cultural background. Not available for credit toward a Major or Minor program in Spanish. 
+
+code: SPAN 321
+name: Introduction to Spanish Civilization and Culture
+cred: 3
+desc: History and culture of Spain. 
+preq: SPAN 202 or SPAN 207
+
+code: SPAN 322
+name: Latin-American Civilization and Culture
+cred: 3
+desc: History and culture of Latin-America. 
+preq: SPAN 202 or SPAN 207
+
+code: SPAN 357
+name: Survey of Peninsular Literature and Culture from the Origins to 1700
+cred: 3
+preq: SPAN 302 and (SPAN 220 or SPAN 221)
+creq: SPAN 302 may be taken as a co-requisite or with the permission of the instructor or the Spanish Major Adviser
+
+code: SPAN 358
+name: Survey of Peninsular Literature and Culture from 1700 to the Present
+cred: 3
+preq: SPAN 302 and (SPAN 220 or SPAN 221)
+creq: SPAN 302 may be taken as a co-requisite or with the permission of the instructor or the Spanish Major Adviser
+
+code: SPAN 364
+name: Survey of Spanish-American Literature and Culture to the 1820s
+cred: 3
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+creq: SPAN 302 may be taken as a corequisite or with the permission of the instructor or the Spanish Major Adviser
+
+code: SPAN 365
+name: Survey of Spanish-American Literature and Culture since the 1820s
+cred: 3
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+creq: SPAN 302 may be taken as a co-requisite or with the permission of the instructor or the Spanish Major Adviser
+
+code: SPAN 401
+name: Advanced Translation: Spanish-English
+cred: 3
+desc: Intensive training in advanced translation from a variety of sources (literary, journalistic, legal and technical), with an introduction to translation theory. 
+preq: SPAN 302
+
+code: SPAN 402
+name: Advanced Spanish III
+cred: 3
+desc: Advanced studies in Spanish language and style. 
+preq: SPAN 302
+
+code: SPAN 403
+name: History of the Spanish Language
+cred: 3
+desc: The origins and development of Spanish; study of representative texts. 
+preq: SPAN 302
+
+code: SPAN 404
+name: Topics in Hispanic Cinema
+cred: 3, 6
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 405
+name: Topics in Peninsular and Latin-American Culture
+cred: 3, 6
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 406
+name: Gender Representation(s) in Hispanic Literature and Culture
+cred: 3
+desc: Analysis of major works from the eleventh century to the present. 
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 410
+name: Medieval Literature
+cred: 3
+desc: Topics in Spanish Literature from its origins to 1500. 
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 411
+name: Introduction to Hispanic Linguistics
+cred: 3
+desc: Spanish as a linguistic system from its origins to the present: structure of words and sentences, dialectal varieties. For native and heritage speakers or students at Level C1 (CEFR). For further information on CEFR levels see http://www.fhis.ubc.ca/undergraduate/spanish/advising/deciding-what-spanish-course-to-take.html. 
+preq: SPAN 302
+
+code: SPAN 420
+name: Golden-Age Literature
+cred: 3
+desc: Topics in Spanish Literature from 1500 to 1700. 
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 430
+name: Topics in Peninsular Literature and Culture from the 18th Century to the Present
+cred: 3, 6
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 450
+name: Topics in Spanish Language
+cred: 3, 6
+desc: Introduction to some problems of dialectology and/or other Romance languages spoken in the Hispanic world. 
+preq: SPAN 302
+
+code: SPAN 468
+name: Romance Linguistics
+cred: 6
+desc: The Indo-European background, Classical and Vulgar Latin; the origin, development and spread of the Romance languages; their vocabulary, phonology, morphology, syntax; vernacular Latin texts and Romance texts. 
+preq: (Two years study of each of two Romance languages or two years of one Romance language) and one year of Latin
+
+code: SPAN 470
+name: Topics in Spanish-American Colonial and Nineteenth-Century Literature
+cred: 3, 6
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 490
+name: Topics in Spanish-American Literature of the Twentieth-Century
+cred: 3, 6
+preq: (SPAN 220 or SPAN 221) and SPAN 302
+
+code: SPAN 495
+name: Research Intensive Seminar in Hispanic Literature and Culture
+cred: 3
+
+code: SPAN 499
+name: Honours Essay
+cred: 3

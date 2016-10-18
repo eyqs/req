@@ -1,0 +1,6 @@
+
+
+code: ANAE 430
+name: Introduction to Anesthesia
+cred: 2
+desc: Patient assessment and preparation for surgery, conduct of general and regional anesthesia and airway management. 

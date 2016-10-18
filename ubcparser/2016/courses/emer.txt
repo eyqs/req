@@ -1,0 +1,6 @@
+
+
+code: EMER 430
+name: Emergency Medicine
+cred: 4
+desc: This course covers the principles of Emergency Medicine.  The seminar series is case based and interactive.  Teaching resuscitative skills is emphasized. 
