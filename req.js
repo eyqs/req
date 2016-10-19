@@ -40,19 +40,13 @@ function CourseData() {
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
-    var x, y;
-    if (e.pageX != undefined && e.pageY != undefined) {
-        x = e.pageX;
-        y = e.pageY;
-    } else {
-        x = e.clientX + document.body.scrollLeft +
-            document.documentElement.scrollLeft;
-        y = e.clientY + document.body.scrollTop +
-            document.documentElement.scrollTop;
-    }
-    x -= c.offsetLeft;
-    y -= c.offsetTop;
-    return { x:x, y:y };
+    var rect = c.getBoundingClientRect();
+    var scaleX = c.width / rect.width;
+    var scaleY = c.height / rect.height;
+    return {
+        x: (e.clientX - rect.left) * scaleX,
+        y: (e.clientY - rect.top) * scaleY
+    };
 }
 
 /* Decide what to do when user clicks */
