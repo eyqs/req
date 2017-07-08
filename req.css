@@ -21,15 +21,17 @@ h1, h2 {
   color: red;
 }
 
-canvas {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 1em auto;
-}
-
 textarea {
   width: 100%;
+}
+
+#canvas-wrapper {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+canvas {
+  width = 100%;
 }
 
 input[type="submit"] {

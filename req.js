@@ -19,12 +19,16 @@ var c;
 var ctx;
 var codeList;
 var courseData;
-var WIDTH = 960;
+var last_hover_code = "";
+var current_hover_code = "";
+var WIDTH;
 var HEIGHT = 1920;
-var BORDER = 50;
+var PADDING = 50;
 var BTNWIDTH = 100;
 var BTNHEIGHT = 30;
 var BTNPADDING = 10;
+var BLACKLINE = 1;
+var HOVERLINE = 5;
 var HOVERWIDTH = 300;
 var HOVERHEIGHT = 500;
 var HOVERPADDING = 5;
@@ -91,26 +95,32 @@ function getCursorPosition(e) {
 // decide what to do when user clicks
 function onClick(e) {
   var pos = getCursorPosition(e);
-  for (var i = 0; i < codeList.length; i++) {
-    var code = codeList[i];
-    if (pos.x > courseData[code].x &&
-      pos.x < courseData[code].x + BTNWIDTH &&
-      pos.y > courseData[code].y &&
-      pos.y < courseData[code].y + BTNHEIGHT) {
-      if (courseData[code].needs == "done") {
-        courseData[code].needs = "none";
-      } else {
-        courseData[code].needs = "done";
-      }
-      updateCourse(code);
-      for (var j = 0; j < allCourses[code].dreqs.length; j++) {
-        var dependency = allCourses[code].dreqs[j];
-        if (codeList.indexOf(dependency) != -1) {
-          updateCourse(dependency);
+  if (current_hover_code) {
+    last_hover_code = current_hover_code;
+    current_hover_code = "";
+    drawApp(last_hover_code);
+  } else {
+    for (var i = 0; i < codeList.length; i++) {
+      var code = codeList[i];
+      if (pos.x > courseData[code].x &&
+        pos.x < courseData[code].x + BTNWIDTH &&
+        pos.y > courseData[code].y &&
+        pos.y < courseData[code].y + BTNHEIGHT) {
+        if (courseData[code].needs == "done") {
+          courseData[code].needs = "none";
+        } else {
+          courseData[code].needs = "done";
         }
+        updateCourse(code);
+        for (var j = 0; j < allCourses[code].dreqs.length; j++) {
+          var dependency = allCourses[code].dreqs[j];
+          if (codeList.indexOf(dependency) != -1) {
+            updateCourse(dependency);
+          }
+        }
+        drawApp();
+        return;
       }
-      drawApp();
-      return;
     }
   }
 }
@@ -124,7 +134,10 @@ function onMouseMove(e) {
       pos.x < courseData[code].x + BTNWIDTH &&
       pos.y > courseData[code].y &&
       pos.y < courseData[code].y + BTNHEIGHT) {
-      drawApp();
+      if (code === last_hover_code) {
+        return;
+      }
+      current_hover_code = code;
       var text = [];
       text.push(allCourses[code].code)
       if (allCourses[code].name) {
@@ -142,6 +155,7 @@ function onMouseMove(e) {
       } if (allCourses[code].cred.length > 0) {
         text.push("Credits: " + allCourses[code].cred.join(", "));
       }
+      drawApp(current_hover_code);
       ctx.textAlign = "start";
       ctx.textBaseline = "top";
       ctx.font = "12px sans-serif";
@@ -171,7 +185,8 @@ function onMouseMove(e) {
           y += 6;
         }
       }
-      var posx = pos.x - HOVERWIDTH < BORDER ? pos.x : pos.x - HOVERWIDTH;
+      var posx = pos.x - HOVERWIDTH < PADDING ? pos.x : pos.x - HOVERWIDTH;
+      ctx.lineWidth = BLACKLINE;
       ctx.fillStyle = "honeydew";
       ctx.fillRect(posx, pos.y, HOVERWIDTH, y + 2 * HOVERPADDING);
       ctx.fillStyle = "black";
@@ -189,6 +204,8 @@ function onMouseMove(e) {
       return;
     }
   }
+  current_hover_code = "";
+  last_hover_code = "";
   drawApp();
 }
 
@@ -264,18 +281,19 @@ function updateCourse(code) {
 }
 
 // draw the entire application on the canvas
-function drawApp() {
+function drawApp(hover_code) {
+  ctx.lineWidth = BLACKLINE;
   ctx.fillStyle = "black";
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
   ctx.textAlign = "center";
   ctx.textBaseline = "top";
   ctx.font = "bold 18px sans-serif";
-  ctx.fillText("req v1.3", WIDTH / 2, BORDER);
+  ctx.fillText("req v1.3", WIDTH / 2, PADDING);
   ctx.textBaseline = "bottom";
   ctx.font = "8px sans-serif";
   ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
-    WIDTH / 2, HEIGHT - BORDER);
+    WIDTH / 2, HEIGHT - PADDING);
   ctx.textBaseline = "middle";
   ctx.font = "14px sans-serif";
   for (var i = 0; i < codeList.length; i++) {
@@ -288,6 +306,39 @@ function drawApp() {
       BTNWIDTH, BTNHEIGHT);
     ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
       courseData[code].y + BTNHEIGHT / 2);
+  }
+  if (hover_code) {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+    ctx.fillRect(0, 0, WIDTH, HEIGHT);
+    for (var i = 0; i < codeList.length; i++) {
+      var code = codeList[i];
+      var border = "";
+      if (allCourses[hover_code].preqs.indexOf(code) != -1) {
+        border = COLOURS["preq"];
+      } if (allCourses[hover_code].creqs.indexOf(code) != -1) {
+        border = COLOURS["creq"];
+      } if (allCourses[hover_code].dreqs.indexOf(code) != -1) {
+        border = COLOURS["done"];
+      } if (allCourses[hover_code].excl.indexOf(code) != -1) {
+        border = COLOURS["excl"];
+      }
+      if (border) {
+        ctx.fillStyle = COLOURS[courseData[code].needs];
+        ctx.fillRect(courseData[code].x, courseData[code].y,
+          BTNWIDTH, BTNHEIGHT);
+        ctx.lineWidth = HOVERLINE;
+        ctx.strokeStyle = border;
+        ctx.strokeRect(courseData[code].x, courseData[code].y,
+          BTNWIDTH, BTNHEIGHT);
+        ctx.lineWidth = BLACKLINE
+        ctx.strokeStyle = "black";
+        ctx.strokeRect(courseData[code].x, courseData[code].y,
+          BTNWIDTH, BTNHEIGHT);
+        ctx.fillStyle = "black";
+        ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
+          courseData[code].y + BTNHEIGHT / 2);
+      }
+    }
   }
 }
 
@@ -348,8 +399,8 @@ function parseCodes() {
     }
 
     // find correct coordinates to place each button
-    var x = BORDER;
-    var y = BORDER + TITLEPADDING;
+    var x = PADDING;
+    var y = PADDING + TITLEPADDING;
     for (var d = 0; d <= depth; d++) {
         for (var i = 0; i < codeList.length; i++) {
             if (courseData[codeList[i]].depth == d) {
@@ -357,22 +408,22 @@ function parseCodes() {
                 courseData[codeList[i]].y = y;
                 updateCourse(codeList[i]);
                 x += BTNWIDTH + BTNPADDING;
-                if (x + BTNWIDTH > WIDTH - BORDER) {
-                    x = BORDER;
+                if (x + BTNWIDTH > WIDTH - PADDING) {
+                    x = PADDING;
                     y += BTNHEIGHT + BTNPADDING;
-                    if (y + BTNHEIGHT > HEIGHT - BORDER) {
+                    if (y + BTNHEIGHT > HEIGHT - PADDING) {
                         break;
                     }
                 }
             }
         }
-        if (x == BORDER) {
+        if (x == PADDING) {
             y += DEPTHPADDING;
         } else {
             y += BTNHEIGHT + BTNPADDING + DEPTHPADDING;
         }
-        x = BORDER;
-        if (y + BTNHEIGHT > HEIGHT - BORDER) {
+        x = PADDING;
+        if (y + BTNHEIGHT > HEIGHT - PADDING) {
             break;
         }
     }
@@ -389,13 +440,16 @@ function startApp() {
     document.getElementById("nocanvas").innerHTML =
       "Your browser does not support this app!";
   } else {
-    codeList = document.getElementById("form")
-      .elements["courses"].value.split(",");
-    parseCodes();
+    WIDTH = document.getElementById("canvas-wrapper").offsetWidth;
+    var btncols = Math.floor((WIDTH - 2 * PADDING) / (BTNWIDTH + BTNPADDING));
+    BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNPADDING) / btncols;
     c.width = WIDTH;
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
     c.addEventListener("mousemove", onMouseMove, false);
+    codeList = document.getElementById("form")
+      .elements["courses"].value.split(",");
+    parseCodes();
     drawApp();
   }
 }
