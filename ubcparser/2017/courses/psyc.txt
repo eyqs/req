@@ -1,0 +1,481 @@
+
+
+code: PSYC 100
+name: Introductory Psychology
+cred: 6
+desc: Introduction to methods and statistics, biopsychology, learning, perception, memory, cognition, motivation, assessment, developmental, personality, clinical, and social psychology.  Credit will be given for either PSYC 100 or PSYC 101 and 102. 
+
+code: PSYC 101
+name: Introduction to Biological and Cognitive Psychology
+cred: 3
+desc: Introduction to Methods and Statistics, Biopsychology, Learning, Perception, Memory, and Cognition. Credit will not be given for both PSYC 100 and PSYC 101. 
+
+code: PSYC 102
+name: Introduction to Developmental, Social, Personality, and Clinical Psychology
+cred: 3
+desc: Introduction to methods and statistics, motivation, assessment, developmental, personality, clinical, and social psychology. Credit will not be given for both PSYC 100 and PSYC 102. 
+
+code: PSYC 205
+name: Contemporary Issues in Psychology
+cred: 3, 6
+desc: Topics include addiction, culture and evolution in social behaviour, personal relationships, pro- and anti-social behaviour, judgment and decision-making, prejudice and discrimination. Consult the Psychology Department for topics offered each term. May be repeated on a different topic once for credit. 
+
+code: PSYC 207
+name: Contemporary Topics in Biological and Cognitive Psychology
+cred: 3
+desc: A focus on the interpretation of contemporary research in neuroscience, cognition, perception, memory, and learning. 
+
+code: PSYC 208
+name: Contemporary Topics in Social, Developmental, Personality, and Clinical Psychology
+cred: 3
+desc: A focus on the interpretation of contemporary research in social, developmental, personality, and clinical psychology. 
+
+code: PSYC 216
+name: Questioning Psychological Science in the Media
+cred: 3
+desc: Use basic principles of quantitative psychological research methods to critique psychological claims presented in the media and to translate psychological science to everyday life. 
+
+code: PSYC 217
+name: Research Methods
+cred: 3
+desc: Focus on various research methods used in psychology, with an emphasis on critical thinking and experimental design.  Restricted to students in the Faculty of Arts who have declared their major in one of Psychology, Cognitive Systems, or Speech Sciences (Linguistics Department). 
+creq: PSYC 100 or (PSYC 101 and PSYC 102)
+
+code: PSYC 218
+name: Analysis of Behavioural Data
+cred: 3
+desc: Use of inferential statistics in psychology and conceptual interpretation of data; experimental design (laboratory, field research methods); presentation of data analyses in reports. PSYC 218 excludes credit for a number of other statistics courses in various departments. Please consult the Science Exclusion List (www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414) before registering. 
+preq: PSYC 217. and (a major in Psychology or Cognitive Systems or Speech Sciences)
+creq: PSYC 100 or (PSYC 101 and PSYC 102)
+
+code: PSYC 260
+name: Experimental Psychology and Laboratory
+cred: 8
+desc: Detailed introduction to experimental and theoretical aspects of motivation, sensation, perception and learning. 
+preq: Completion of first-year Science program and permission of the department head is also required
+creq: PSYC 100 or (PSYC 101 and PSYC 102)
+
+code: PSYC 263
+name: Contemporary Issues in Biopsychology
+cred: 3, 6
+desc: Contemporary issues in biopsychology (e.g., neuropsychology, mental illness, brain damage, addiction, hormones and the brain). Consult the Psychology Department for topics offered each term. May be repeated on a different topic once for credit. 
+
+code: PSYC 300
+name: Behaviour Disorders
+cred: 3, 6
+desc: The definition, history, and scope of deviant behaviour; emphasis on the psychological factors that control its origins, maintenance, and modification. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 301
+name: Brain Dysfunction and Recovery
+cred: 3
+desc: Cognitive and behavioral impairments resulting from brain dysfunction. Focus on the efficacy of various intervention approaches. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102. Or 6 credits of 200-level PSYC (but not PSYC 205 and PSYC 263))
+
+code: PSYC 302
+name: Infancy
+cred: 3
+desc: Human cognition, perception, motor, social, emotional needs, brain development and their interactions from birth until the emergence of language. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 303
+name: Tests and Measurements I
+cred: 3
+desc: Theory and practice of mental measurement, test reliability and validity, uses, administration, scoring, and interpretation of psychological tests. 
+preq: PSYC 217 or PSYC 366
+creq: May be taken concurrently with PSYC 366
+
+code: PSYC 304
+name: Brain and Behaviour
+cred: 6
+desc: The neurobiological bases of behaviour; brain processes involved in perception, motivation, emotion, psychopathology, learning and memory. Open to all Arts and Science majors except those in the B.Sc. Psychology program. Credit will not be given for both PSYC 304 and PSYC 360. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or two of PSYC 207 PSYC 208 PSYC 217 PSYC 218 or PSYC 260
+
+code: PSYC 305
+name: Personality Psychology
+cred: 3, 6
+desc: Theory and research on individual differences in motivation, emotion, and social behaviour. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 306
+name: Principles of Animal Behaviour
+cred: 3, 6
+desc: Theory of evolution; behavioural genetics; social systems as ecological adaptation; mating and parental strategies; instinct and learning; evolution of human behaviour. Credit will be given for only one of BIOL 310 or PSYC 306. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102.) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 307
+name: Cultural Psychology
+cred: 3
+desc: Cultural influences on human thought and behaviour; interactions of culture and self; multicultural experiences; intercultural relations; methodological issues. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102.) or (6 credits of 200-level PSYC (but not 205 or 263))
+
+code: PSYC 308
+name: Social Psychology
+cred: 3, 6
+desc: Theory and research of individual social behaviour; social motivation; attitudes; group interaction; socialization; prejudice. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 309
+name: Cognitive Processes
+cred: 3, 6
+desc: Contribution of cognitive processes to perception, attention, and memory; cognitive development, language, thinking, and creativity. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102.) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 311
+name: Psychology of Sport
+cred: 3
+desc: Psychological theory, research, and skills training related to sport performance, exercise motivation, and adherence. Credit will not be given for both PSYC 311 and HKIN 231 and 364. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102)
+
+code: PSYC 312
+name: History of Psychology
+cred: 3, 6
+desc: The principal trends of psychological explanation and events in the history of psychology from the earliest times to the present. Open only to Major or Honours students or by permission of the instructor. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 314
+name: Health Psychology
+cred: 3
+desc: Health-related behaviours such as smoking and drug use; effects of stressful events on health; methods for coping with stress; impact of chronic illness on the family; social support systems. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102.) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 315
+name: Childhood and Adolescence
+cred: 3
+desc: Human development from the preschool period through adolescence. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 319
+name: Applied Developmental Psychology
+cred: 3
+desc: Applications of theories and research in developmental psychology to contemporary social issues; topics may include daycare, child abuse, divorce and remarriage, substance abuse, sexuality. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 320
+name: Psychology of Gender and Sex Differences
+cred: 6
+desc: Theory and research on gender development and the influence of gender on cognition, emotion, motivation, social behaviour, and health. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 321
+name: Environmental Psychology
+cred: 3
+desc: Psychological theory and research on the interaction between organisms and the physical environment; emphasis on applications to the design and management of constructed and natural environments. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 322
+name: Adulthood and Aging
+cred: 3
+desc: Issues, theories, and psychological research regarding adulthood and the aging process. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 323
+name: Tests and Measurements II
+cred: 3
+desc: A survey of tests for assessing intelligence, abilities, personality, motivation, and interests. 
+preq: PSYC 303
+
+code: PSYC 325
+name: Socialization: Media Content and Effects
+cred: 3
+desc: Examines human development in the context of the socializing role of media. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 331
+name: Forensic Psychology
+cred: 3
+desc: The application of psychological theory and research to legal issues and the criminal justice system. Credit will not be granted for both PSYC 331 and PSYC 430. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level psychology (but not PSYC 205 or 263))
+
+code: PSYC 333
+name: Memory: Historical, Clinical and Cognitive Perspectives
+cred: 3
+desc: Classical and contemporary metaphors for memory and their impact on theory development. 
+preq: (PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263). Non-PSYC students may substitute LING 460 or LING 200)) and 201 for the above prerequisite
+
+code: PSYC 334
+name: Memory II
+cred: 3
+desc: Organic amnesia; remembering childhood events; the self and memory; and the problem of distinguishing genuine from simulated forgetting. 
+preq: PSYC 333
+
+code: PSYC 335
+name: Gambling and Decision Making
+cred: 3
+desc: The psychology of gambling behaviour, with emphasis on relevant work from judgment and decision-making, the cognitive neuroscience of choice, and clinical perspectives on disordered gambling. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102)
+
+code: PSYC 336
+name: The Psychology of Language I
+cred: 3
+desc: Psychological abilities underlying human language; language processing, lexical representation, and principles of online conversation; animal versus human communication. 
+preq: (PSYC 100 or (PSYC 101 and PSYC 102. Non-PSYC students may substitute ENGL 329 and LING 420 and LING 200)) and 201 for the above prerequisite
+
+code: PSYC 337
+name: The Psychology of Language II
+cred: 3
+desc: Language and thought; deriving psychological principles from language universals; the psychology of literacy, dyslexia, multilingualism, and natural language processing. 
+preq: PSYC 336 or permission of the instructor
+
+code: PSYC 340
+name: Directed Studies in Psychology
+cred: 2, 3, 4, 5
+desc: Directed investigation of a problem, requiring a written report of the findings. 
+preq: At least 72% average in the preceding 30 credits and permission of a faculty member who is prepared to supervise the investigation
+
+code: PSYC 348
+name: Directed Studies in Biopsychology
+cred: 2, 3, 4, 5
+desc: Directed investigation of an experimental problem requiring a written report of the findings. 
+preq: At least 72% average in the preceding 30 credits and permission of a faculty member who is prepared to supervise the investigation
+
+code: PSYC 349
+name: Honours Seminar
+cred: 6
+desc: Orientation to psychological research, with special emphasis on ongoing research within the department; effective presentation of research findings, oral and written; critical evaluation of research. Requires a research project. 
+preq: (PSYC 100 or (PSYC 101 and PSYC 102;)) and (PSYC 217 and 218)
+
+code: PSYC 350
+name: Psychological Aspects of Human Sexuality
+cred: 3, 6
+desc: Human sexuality from a biopsychological, behavioural, and psychosocial perspective. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 358
+name: Evolutionary Psychology
+cred: 3
+desc: Theory and research on the evolution of the human mind, with emphasis on implications for cognition and behaviour in contemporary environments. 
+preq: (PSYC 100 or (PSYC 101 and PSYC 102.) or 6 credits of 200-level PSYC (but not PSYC 205) and 263)
+
+code: PSYC 359
+name: Advanced Research Methods in Behavioural Sciences
+cred: 3
+desc: Prepares students for graduate studies or other advanced behavioural research; experimental design and analytic techniques; laboratory with computer applications. 
+preq: (PSYC 217 and PSYC 218) or PSYC 366
+
+code: PSYC 360
+name: Biopsychology
+cred: 6
+desc: The relationship between the nervous system and behaviour; the physiological basis of perception, motivation, learning, and memory. Please consult the Faculty of Science Credit Exclusion List: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. 
+preq: PSYC 260
+
+code: PSYC 361
+name: Motivation
+cred: 3
+desc: Experimental analysis of hunger, thirst, exploratory and curiosity behaviour, maternal and reproductive behaviour, fixed action patterns, and complex processes involved in social motivation with emphasis on the biological basis of motivation. 
+preq: (PSYC 101 and PSYC 102) or (PSYC 100 or PSYC 260 or PSYC 304 or PSYC 360)
+
+code: PSYC 363
+name: Principles of Animal Learning
+cred: 3
+desc: Introduction to basic theories of non-associative learning, classical and operant conditioning. Experimental findings from behavioural and biological analyses with animals and humans. 
+preq: PSYC 260 or PSYC 263 or PSYC 304
+
+code: PSYC 364
+name: Animal Cognition
+cred: 3
+desc: Investigations of animal cognitive abilities, including spatial learning, timing, counting, concept formation and language use. Experimental findings presented from behavioural and biological approaches with animals and humans. 
+preq: PSYC 363
+
+code: PSYC 365
+name: Cognitive Neuroscience
+cred: 3
+desc: Brain mechanisms underlying cognitive processes such as perception, attention, consciousness, and memory. 
+preq: PSYC 260 or COGS 200
+
+code: PSYC 366
+name: Methods in Research
+cred: 8
+desc: Detailed coverage of basic research methods; the design of experiments and statistical analysis; methods will be applied in laboratory and project work. Please consult the Faculty of Science Credit Exclusion List:  www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. 
+preq: PSYC 260 or in Honours program
+
+code: PSYC 367
+name: Sensory Systems
+cred: 3
+desc: Anatomy and physiology of the sensory pathways and their relation to perception. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 368
+name: Perceptual Processing
+cred: 3
+desc: Perceptual phenomena and their underlying brain mechanisms. 
+preq: PSYC 367
+
+code: PSYC 398
+name: Cooperative Work Placement I
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in Summer Session after third year. Work term report required. Restricted to students admitted to the Co-op Program in Psychology (B.Sc.). 
+preq: Co-op Workshops PSYC 360
+
+code: PSYC 399
+name: Cooperative Work Placement II
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in fourth year Winter Session, Term 1. Work term report required. Restricted to students admitted to the Co-op Program in Psychology (B.Sc.). 
+preq: PSYC 398
+
+code: PSYC 400
+name: Clinical Psychology: A Health Profession
+cred: 6
+desc: Theory, research, practice, and professional issues in clinical psychology, including a practicum placement. Credit will not be given for both PSYC 400 and 401. 
+preq: PSYC 300
+
+code: PSYC 401
+name: Clinical Psychology
+cred: 3
+desc: Theoretical and research foundations of the processes of assessment and behaviour modification in clinical psychology. Credit will not be given for both PSYC 400 and PSYC 401. 
+preq: PSYC 300
+
+code: PSYC 402
+name: Research in Anxiety Disorders
+cred: 3
+desc: Focus on the cognitive, biological, and motivational underpinnings of anxiety disorders. Topics include current research methods, controversies in the research literature, and directions for future research. 
+preq: (PSYC 217 and PSYC 218) or (PSYC 300 and PSYC 366)
+
+code: PSYC 403
+name: Human Emotion
+cred: 6
+desc: Developmental, cognitive, and social psychological theories and research on human emotion. 
+preq: PSYC 302 or PSYC 305 or PSYC 308 or PSYC 309 or PSYC 315
+
+code: PSYC 404
+name: Psychology of Religion
+cred: 3
+desc: Cognitive, emotional, and motivational underpinnings of religious behaviour; supernatural beliefs, magical thinking, ritual, sacrifice; religion's role in morality, prosociality, health, violence, and intergroup relations. 
+preq: ((PSYC 217 and PSYC 218) or PSYC 366) and (PSYC 307 or PSYC 308)
+
+code: PSYC 407
+name: Cognition and Culture
+cred: 3
+desc: Cultural learning; cultural variation and universality in cognition and emotion; cognitive and emotional bases of cultural phenomena. 
+preq: PSYC 307 or PSYC 308. Or permission of the instructor
+
+code: PSYC 408
+name: Research in Social Psychology
+cred: 3
+desc: Representative studies on social psychological topics; emphasis on the formulation of significant questions and the design and execution of relevant research. 
+preq: (PSYC 217 and PSYC 218) or (PSYC 308 or PSYC 366)
+
+code: PSYC 409
+name: Cognitive Neuropsychology
+cred: 3
+desc: The structure of the mind as revealed by brain injury, neurological illness, and surgical intervention.  Topics include attention, memory, language, sense of self, topographic awareness, moral reasoning, emotion, theory of mind, and social awareness. 
+preq: ((PSYC 217 and PSYC 218) or PSYC 366) and (PSYC 309 or PSYC 365)
+
+code: PSYC 412
+name: Cognitive Development
+cred: 3
+desc: The development of fundamental cognitive abilities from infancy through adulthood, including traditional approaches to cognitive development as well as new areas of current investigation. 
+preq: PSYC 302 or PSYC 315 or PSYC 319 or PSYC 322 or PSYC 325
+
+code: PSYC 413
+name: Social and Personality Development
+cred: 3
+desc: Comprehensive overview of the psychological processes in the social and personality development of infants, children, and adolescents. 
+preq: PSYC 302 or PSYC 315 or PSYC 319 or PSYC 322 or PSYC 325
+
+code: PSYC 414
+name: Research in Developmental Psychology
+cred: 3
+desc: Advanced study of current research in a specific area of developmental psychology. 
+preq: ((PSYC 217 and PSYC 218) or PSYC 366;) and (PSYC 302 or PSYC 315 or PSYC 319 or PSYC 322 or PSYC 325)
+
+code: PSYC 415
+name: Applied Social Psychology
+cred: 3, 6
+desc: The application of social psychological research and theory to the solution of social problems. 
+preq: PSYC 308 and ((PSYC 217 and PSYC 218) or (PSYC 366 or permission of instructor))
+
+code: PSYC 417
+name: Special Topics in Psychology
+cred: 3, 6
+desc: Intensive examination of selected topics and issues in psychology. 
+preq: (PSYC 217 and PSYC 218) or PSYC 366
+
+code: PSYC 418
+name: The Self-Concept
+cred: 3
+desc: Theory and research on the self: development, knowledge, motivation, emotions, presentation. 
+preq: PSYC 308
+
+code: PSYC 420
+name: Community Psychology
+cred: 3
+desc: The relationships between social contexts and wellbeing with a focus on disadvantaged populations.  Students engage in a community service placement to complement academic learning. 
+preq: PSYC 300 or PSYC 308 or PSYC 314 or PSYC 319
+
+code: PSYC 430
+name: Forensic Psychology
+cred: 6
+desc: The implications of theory and research in psychology for the criminal justice system. Credit will not be granted for both PSYC 331 and PSYC 430. 
+preq: PSYC 100 or (PSYC 101 and PSYC 102.) or (6 credits of 200-level Psychology (but not 205 or 263))
+
+code: PSYC 431
+name: Special Topics in Forensic Psychology
+cred: 3
+desc: Selected topics in psychological theory and research applied to the criminal justice system. 
+preq: PSYC 331
+
+code: PSYC 440
+name: Directed Studies in Psychology
+cred: 2, 3, 4, 5
+desc: Directed investigation of an experimental problem, requiring a written report of the findings. 
+preq: At least 72% average in the preceding 30 credits and permission of a faculty member who is prepared to supervise the investigation
+
+code: PSYC 448
+name: Directed Studies in Biopsychology
+cred: 2, 3, 4, 5
+desc: Directed investigation of an experimental problem requiring a written report of the findings. 
+preq: At least a 72% average in the preceding 30 credits and permission of a faculty member who is prepared to supervise the investigation
+
+code: PSYC 449
+name: Honours Seminar and Essay
+cred: 6
+desc: Students carry out a research project and report on its development during seminars. Students also discuss research by Departmental staff, with emphasis on choice of problems, research design and data analysis. 
+
+code: PSYC 460
+name: Behavioural Neuroendocrinology
+cred: 3
+desc: Detailed examination of the interaction between hormones and neural control of reproductive and non-reproductive behaviours; emphasis on gonadal and adrenal hormone effects on learning and memory in the brain. 
+preq: PSYC 304 or PSYC 360
+
+code: PSYC 461
+name: Neuroplasticity and Behaviour
+cred: 3
+desc: Experimental findings and theory documenting the plasticity of the brain and its relationship to behaviour: emphasis on gene regulation, neurogenesis and cell morphology changes in relation to learning and experience. 
+preq: PSYC 304 or PSYC 360 or PSYC 460
+
+code: PSYC 462
+name: Drugs and Behavioural Neuroscience
+cred: 3
+desc: Introduction to neurochemical systems and functional neuroanatomy; animal models of human cognitive processes and mental disorders; neurochemical foundations and treatments for mental disorders. BIOL 205 and/or PCTH 325 recommended. 
+preq: PSYC 304 or PSYC 360
+
+code: PSYC 463
+name: Research in Sensation and Perception
+cred: 3, 6
+desc: Vision and audition; physical properties and subjective experience of stimuli. 
+preq: (PSYC 217 and PSYC 218) or PSYC 260
+
+code: PSYC 466
+name: Research in Animal Learning and Cognition
+cred: 3
+desc: Examination and evaluation of studies of animal learning and cognition; includes one or more research projects based on material covered. 
+preq: ((PSYC 217 and PSYC 218) or PSYC 366) and ((PSYC 304 or PSYC 360 or PSYC 363 or PSYC 365;) or (BIOL 355 or BIOL 455) or (PHYL 301 or PHYL 426))
+
+code: PSYC 469
+name: Psychoneuroimmunology
+cred: 3
+desc: Research linking psychological characteristics with the immune system, including implications regarding the onset and course of disease. 
+preq: ((PSYC 314 or PSYC 360) or MICB 302) and (PSYC 100 or (PSYC 101 and PSYC 102))
+
+code: PSYC 498
+name: Cooperative Work Placement III
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full-time. Normally taken in fourth year Winter Session, Term 2. Work term report required. Restricted to students admitted to the Co-op Program in Psychology (B.Sc.). 
+preq: PSYC 399
+
+code: PSYC 499
+name: Cooperative Work Placement IV
+cred: 3
+desc: Approved and supervised relevant work experience in an industrial, academic, or government setting for a minimum of 13 weeks, full time. Normally taken in Summer Session after fourth year. Work term report required. Restricted to students admitted to the Co-op Program in Psychology (B.Sc.). 
+preq: PSYC 498

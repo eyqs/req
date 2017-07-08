@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 req v1.3
-Copyright (c) 2016 Eugene Y. Q. Shen.
+Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -17,9 +17,9 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
-INFOLDER  = '2016/courses/'
-OUTFOLDER = '2016/tabs/'
-TERMSFILE = '2016/courses/terms.txt'
+INFOLDER  = '2017/courses/'
+OUTFOLDER = '2017/tabs/'
+TERMSFILE = '2017/courses/terms.txt'
 
 if __name__ == '__main__':
     terms = set()

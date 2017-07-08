@@ -1,0 +1,371 @@
+
+
+code: ANTH 100
+name: Introduction to Cultural Anthropology
+cred: 3, 4
+desc: Basic concepts and methods of anthropology; culture and race; comparative study of social systems, religion, symbolism, art, and other institutions. Examples are drawn from a variety of cultures. 
+
+code: ANTH 200
+name: Introduction to Problems in Method and Theory in Anthropology
+cred: 3
+desc: A survey of basic concepts and procedures in the cross-cultural study of human societies. 
+preq: ANTH 100
+
+code: ANTH 201
+name: Ethnic Relations
+cred: 3
+desc: An introduction to the study of the relations between ethnic groups and of the interplay between ethnicity and other social factors. 
+
+code: ANTH 202
+name: Contemporary Social Problems
+cred: 3, 6
+desc: Cultural background to contemporary events; problems of nationalism and regional conflicts, economic and social development, gender, religion and social change. Course may stress a different region of the world in different years. 
+
+code: ANTH 210
+name: Eating Culture
+cred: 3
+desc: An anthropological exploration of how the collection, cultivation and consumption of food shapes human society and culture. 
+
+code: ANTH 213
+name: Sex, Gender, and Culture
+cred: 3
+desc: An anthropological exploration of how understandings of sex and gender are culturally and historically shaped. 
+
+code: ANTH 214
+name: The Family in Cross-Cultural Perspective
+cred: 3, 6
+desc: A cross-cultural comparison of family and kinship to provide an understanding of variations in the structure and meaning of marriage relations; forms of domestic organization; and the sexual division of labour, property, and inheritance. 
+
+code: ANTH 215
+name: Japanese Popular Culture
+cred: 3
+desc: Television shows, dramas, movies, advertising, marketing, manga (Japanese style "comics"), anime (Japanese animation), theatrical forms, popular literature, popular music, fashion fads, tourism, toys, and sports. 
+
+code: ANTH 217
+name: Culture and Communication
+cred: 3
+desc: The study of communication; the relation between communication and its cultural context with emphasis on verbal and non-verbal communication, cross-cultural communication, and cultural differences in the use of oral, literate, and electronic media. 
+
+code: ANTH 220
+name: First Nations of British Columbia
+cred: 3
+desc: The cultures, languages, and resources of First Nations, with anthropological perspectives on colonization and development. 
+
+code: ANTH 221
+name: Contemporary Indigenous Cultural Expressions
+cred: 3
+desc: Forms and styles of indigenous expressive arts, and their current place in the lives of Indigenous Peoples. 
+preq: ANTH 220 is recommended
+
+code: ANTH 227
+name: Introduction to Medical Anthropology
+cred: 3
+desc: An examination of health and illness, in their social and cultural contexts. 
+
+code: ANTH 241
+name: Introduction to Museums and Museology
+cred: 3
+desc: The critical study of anthropology museums as social institutions and material culture research and classification from the late 19th century to the present day. 
+
+code: ANTH 300
+name: Contemporary Anthropological Theory
+cred: 3, 6
+desc: Contemporary approaches to society and culture in anthropology. 
+preq: ANTH 200 is recommended
+
+code: ANTH 301
+name: Ethnography of Eurasia
+cred: 3
+desc: Eurasia, including the Russian Federation, Central Asia, and Mongolia, with an emphasis on issues of power, identities, and transnational mobility in the region. 
+
+code: ANTH 302
+name: Ethnography of South Asia
+cred: 3, 6
+desc: A specialized study of ethnographic and theoretical problems relating to South Asia. 
+
+code: ANTH 303
+name: Ethnography of Special Areas
+cred: 3, 6
+desc: A specialized study of ethnographic and theoretical problems in one area. Different culture areas or regions may be selected each term. Consult the Department for this year's offerings. 
+
+code: ANTH 304
+name: Ethnography of the Northwest Coast
+cred: 3, 6
+desc: Specialized study of ethnographic and theoretical problems of the region. 
+
+code: ANTH 307
+name: Ethnography of Korea
+cred: 3, 6
+desc: An exploration of ethnographic, topical, and theoretical issues. 
+
+code: ANTH 308
+name: Ethnography of Sub-Saharan Africa
+cred: 3, 6
+desc: An exploration of ethnographic, topical, and theoretical issues. 
+
+code: ANTH 312
+name: Introduction to the Anthropology of Gender
+cred: 3
+desc: Theoretical approaches to, and the ethnographic study of, gender in cross-cultural contexts. 
+
+code: ANTH 315
+name: Japanese Culture and Society
+cred: 3
+desc: Japanese culture and society: patterns of organization, value systems, family, education, work, minorities and diversity, harmony and conflict, urban/rural differences, gender, sexuality, youth, tradition, continuity, change, and future prospects. 
+
+code: ANTH 316
+name: Political Anthropology
+cred: 3, 6
+desc: Comparative study of political organization; leadership and non-centralized and centralized political systems. 
+
+code: ANTH 317
+name: Linguistic Anthropology
+cred: 3, 6
+desc: A survey of the ethnographic uses of language data and the techniques of linguistic analysis. 
+
+code: ANTH 329
+name: Contemporary First Nations Issues
+cred: 3, 6
+desc: Anthropological perspectives on contemporary issues of public policy, law, and political activity, as they affect the place of First Nations people in British Columbia and Canada. 
+preq: ANTH 220 is recommended
+
+code: ANTH 330
+name: Anthropology of Rural Peoples and the Global Economy
+cred: 3
+desc: A comparative study of rural peoples (such as small-scale horticulturists, artisans and craft workers, peasants, fisherfolk, or industrial/manufacturing workers) in the global economy. 
+
+code: ANTH 331
+name: Art, Aesthetics and Anthropology
+cred: 3, 6
+desc: Anthropological perspectives on art, aesthetics, and expressive culture. 
+
+code: ANTH 332
+name: Oral Tradition
+cred: 3, 6
+desc: An ethnographic perspective on the dynamics of oral tradition in various oral and literate cultures; the characteristics and roles of oral genres including folktale, genealogy, oral history, autobiography, and myth in these societies; and the relationship between orality and literacy. 
+
+code: ANTH 333
+name: Language and Power
+cred: 3
+desc: A sociolinguistic examination of the role of language in articulating, maintaining, and subverting power relations in society. 
+
+code: ANTH 341
+name: Museums, Heritage and Memory
+cred: 3, 6
+desc: Museums, galleries, monuments, and other cultural institutions' relations to our perception of history and geography. 
+
+code: ANTH 350
+name: Ethnography of the Pacific Islands: Polynesia and Micronesia
+cred: 3, 6
+desc: Major cultural groupings in Polynesia and Micronesia, emphasizing both traditional cultures and the incorporation of the region into modern international institutions. 
+
+code: ANTH 351
+name: Ethnography of the Pacific Islands: Melanesia
+cred: 3, 6
+desc: Major cultural groupings in Melanesia, emphasizing both traditional cultures and the incorporation of the region into modern international institutions. 
+
+code: ANTH 353
+name: Ethnography of Latin America
+cred: 3
+desc: Indigenous peoples of Latin America, emphasizing both pre-Columbian cultural traditions and socioeconomic and cultural changes from the Colonial period to the present. 
+
+code: ANTH 360
+name: Introduction to Ecological Anthropology
+cred: 3
+desc: Analysis of the relations between human societies and the ecological aspects of their environment (including technology, society, and ideology).  Previously ANTH 460. 
+
+code: ANTH 378
+name: Anthropology of Media
+cred: 3
+desc: Analysis of contemporary mass media and of the anthropological use of media (photography, film, digital audio and video, etc.). 
+
+code: ANTH 400
+name: History of Anthropology
+cred: 3, 6
+desc: The development of anthropological theory and practice in institutional contexts. 
+preq: ANTH 300
+
+code: ANTH 401
+name: First Peoples of North America
+cred: 3
+desc: Anthropological perspectives of indigenous cultures and societies of North America. 
+preq: ANTH 329 is recommended
+
+code: ANTH 402
+name: Ethnography of China
+cred: 3, 6
+desc: Advanced studies in the ethnography of China, premodern and contemporary. Topics may include kinship, rural and urban social structure, stratification and mobility, religion, national power structures, and social change in Chinese society. 
+
+code: ANTH 403
+name: Ethnography of Special Areas
+cred: 3, 6
+desc: An advanced study of ethnographic and theoretical problems. A different region may be studied each term. 
+
+code: ANTH 404
+name: Ethnography in Circumpolar North: Comparative Perspectives
+cred: 3, 6
+desc: An examination of relationships between indigenous people and nation states in Greenland, Canada, Alaska and Siberia, using ethnographic methods. 
+
+code: ANTH 407
+name: Principles of Field Work
+cred: 3
+desc: An examination of field work as the basic setting for ethnographic research. Research design; relationships with study participants, field techniques, and data analysis and presentation. 
+
+code: ANTH 408
+name: Field Methods
+cred: 3, 6
+desc: Intensive examination and application of selected methods of ethnographic data-collection, e.g., visual anthropology, anthropological interviewing, genealogies, ethnographic semantics, life histories, oral traditions. Consult department for current description. 
+
+code: ANTH 409
+name: Topics in Applied Anthropology
+cred: 3, 6
+desc: Advanced study of the theory and practice of applied, action, and consultancy anthropology. Topics may include the application of anthropology to questions of aboriginal rights and title, education, medicine, development, women and development, tourism, and other social issues. 
+
+code: ANTH 412
+name: Advanced Topics in the Anthropology of Gender
+cred: 3
+desc: Contemporary theory employed in the anthropological study of gender. 
+preq: ANTH 312
+
+code: ANTH 413
+name: Relatedness: Family, Kinship, and Social Relations
+cred: 3, 6
+desc: A cross-cultural survey of the social and cultural bases of relatedness including changing family relationships, kinship, and social organization, based on theoretical analysis and case studies. 
+
+code: ANTH 414
+name: Anthropology of Globalization
+cred: 3
+desc: Theories on the global flow of people, commodities, images, and ideas with critical ethnographic attention to the different ways people respond to globalization. 
+
+code: ANTH 415
+name: Religion and Society
+cred: 3, 6
+desc: Comparative study of religious beliefs, practices, and movements; relations between religious, social, and political institutions; religion as a force for stability and change; anthropological/sociological theories of religion. 
+
+code: ANTH 416
+name: The Ethnography of Japan
+cred: 3
+desc: Ethnographies about Japan and processes of conducting fieldwork on Japan, covering topics such as work, leisure, identity, tradition, popular culture, rural/urban lifestyles, gender, sexuality, internationalization. 
+preq: ANTH 215 or ANTH 315
+
+code: ANTH 417
+name: Language, Culture, and Cognition
+cred: 3, 6
+desc: The relationships between linguistic and cultural phenomena; how language affects normative and cognitive systems of thought and behaviour. 
+preq: ANTH 100 or LING 200. May be taken as co-requisites
+
+code: ANTH 418
+name: Anthropological Statistics
+cred: 3
+desc: Applications of statistical techniques to quantitative and qualitative data in Anthropology. 
+
+code: ANTH 421
+name: The Anthropology of Place and Space
+cred: 3, 6
+desc: An anthropological understanding of the spatial dimensions of social practice, and the relationships of space to culture, history, and power. 
+
+code: ANTH 422
+name: Modes of Subsistence
+cred: 3
+desc: The nature of subsistence systems antedating or alternative to modern commercial systems. Introductory survey with basic readings; focus on problems such as the development of complex cultures without agriculture, the ambiguity of hunting and gathering, agricultural and other "intensification", "orchestration" of the use of adjacent microenvironments. Of interest to students of archaeology, anthropology and cultural geography. 
+
+code: ANTH 423
+name: Ethnography of East Africa and the Swahili Coast
+cred: 3
+desc: The everyday lives of people who inhabit East Africa and the Swahili Coast, and consideration of slave trade, long distance migration, colonialism, nationalism, independence movements, religion, identity politics, music, gender, sexuality, health, ecotourism and conservation. 
+
+code: ANTH 427
+name: Topics in Medical Anthropology
+cred: 3
+desc: Anthropological perspectives on health, illness, and disability as represented by classic and contemporary research in selected topics in medical anthropology including disease and human evolution, illness and human ecology, culture and epidemiology, ethnomedical systems, the relationship between folk and biomedicine and the cultural construction and social organization of health care, illness and disability. Specific content will vary from year to year. Consult the Department brochure. 
+preq: ANTH 100 or SOCI 100
+
+code: ANTH 428
+name: Medicine, Technology, Culture, and Society
+cred: 3
+desc: A medical anthropological perspective on medical science, technology, translational research, and clinical practice, in laboratory, clinic, family, social, and cultural contexts. Topics include explanatory models of health, acute and chronic illness, disability; social and cultural dimensions genetics; clinical interaction. 
+
+code: ANTH 429
+name: Global Health in Cross-Cultural Contexts
+cred: 3
+desc: Includes examination of the social and cultural dimensions of specific life-threatening emerging and re-emerging infectious diseases, the political economy of health, cultural interpretations of illness and healing, medical pluralism, therapy management, and the cultural construction of efficacy. 
+
+code: ANTH 431
+name: Museum Practice and Curatorship
+cred: 3, 6
+desc: Management of museum collections and their public presentation, addressing questions of access, collaboration, and cultural property. The public interpretation of anthropological concepts and materials utilizing the programs and facilities of the Museum of Anthropology. 
+preq: ANTH 341
+
+code: ANTH 432
+name: The Anthropology of Public Representation
+cred: 3, 6
+desc: The public presentation and interpretation of anthropological concepts and materials utilizing the programs and facilities of the Museum of Anthropology. 
+preq: ANTH 341. Permission of the department is also acceptable
+
+code: ANTH 433
+name: Directed Studies
+cred: 3, 6
+desc: General reading and/or a research undertaking, with the agreement, and under the supervision, of a Department faculty member selected by the student. No more than six credits of Directed Studies may be taken for credit toward the Major or Honours program. 
+
+code: ANTH 435
+name: The Japanese Tea Ceremony: Ethnography of Performance, Practice, and Ritual
+cred: 3
+desc: An exploration of Chanoyu, Japanese Tea Practice, as a culturally embedded ritual, performance, and aesthetic form, and as a way of understanding underlying elements of Japanese culture. This course has a studio component and a nominal fee may be charged. 
+
+code: ANTH 449
+name: Honours Tutorial
+cred: 6, 12
+desc: Will usually require the presentation of at least one research paper. 
+
+code: ANTH 451
+name: Conservation of Organic Materials
+cred: 3, 6
+desc: Conservation of organic materials within a museum environment; the nature of materials, mechanisms of deterioration and principles of preventive conservation. Recommended for students intending to work with cultural materials. 
+preq: Permission of instructor required
+
+code: ANTH 452
+name: Conservation of Inorganic Materials
+cred: 3
+desc: Conservation of inorganic materials within a museum environment; the nature of materials, mechanisms of deterioration and principles of preventive conservation. Recommended for students intending to work with cultural materials. 
+preq: Permission of instructor is required
+
+code: ANTH 461
+name: Anthropological Study of Local Ecological Knowledge
+cred: 3
+desc: Analysis of the concepts of ecological anthropology via the medium of local ecological knowledge. ANTH 360 is recommended as background. 
+
+code: ANTH 462
+name: Special Topics in Ecological Anthropology
+cred: 3
+desc: May include environmental discourse and social movements, anthropological contributions to ecological management systems, or examination of emerging issues in the field.  ANTH 360 is recommended as background. 
+
+code: ANTH 470
+name: Topics in Contemporary Theory
+cred: 3, 6
+desc: Selected topics in contemporary social and cultural theory which contribute to anthropological analyses. Topics may include Marxist anthropology, critical theory, theories of culture, phenomenology, behavioural ecology, structuralism, hermeneutics, formal theory and examination of specific social theorists. 
+
+code: ANTH 471
+name: Anthropology of Law
+cred: 3
+desc: Cross-cultural study of the operation of law within contested systems of meaning, the social organization of law, and forms of consciousness of the participants in legal/justice practices. 
+
+code: ANTH 472
+name: Anthropological Study of Social Inequality
+cred: 3
+desc: An anthropological perspective on the historical origins and theoretical explanations of social inequality. 
+
+code: ANTH 478
+name: Ethnographic Film Methods
+cred: 3, 6
+desc: Ethnographic digital video production, including methods of ethnographic fieldwork, creation of field notes, and research design; basics of digital video planning, production, and editing. Production fees are charged for this course. Prerequisite: ANTH 378 is recommended. 
+
+code: ANTH 480
+name: Urban Ethnographic Field School (UEFS)
+cred: 3, 6
+desc: A combination of approximately 50 hours of volunteering and fieldwork based in community organizations with theoretical approaches to urban spaces.  Students will engage in collaborative research while considering a range of theoretical and methodological approaches. 
+preq: ANTH 100
+
+code: ANTH 495
+name: Advanced Studies in Anthropology
+cred: 3, 6
+desc: An intensive examination of selected topics in Anthropology. Consult the Department for this year's offerings. 

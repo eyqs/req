@@ -1,0 +1,516 @@
+
+
+code: POLI 100
+name: Introduction to Politics
+cred: 3
+desc: Political issues and case studies, drawn from Canadian and international contexts, will be used to introduce students to central debates and concepts of politics and political analysis. 
+
+code: POLI 101
+name: The Government of Canada
+cred: 3
+desc: An examination of the institutions and processes of Canadian government. 
+
+code: POLI 110
+name: Investigating Politics: An Introduction to Scientific Political Analysis
+cred: 3
+desc: The logic, challenges, and major strategies of empirical political research. Core research tasks including: asking answerable questions, defining concepts, formulating hypotheses, gathering evidence, measuring variables, constructing comparisons, drawing causal inferences, and reporting findings. 
+
+code: POLI 220
+name: Introduction to Comparative Politics
+cred: 3
+desc: A comparative analysis of foreign governments. Specific countries to be covered will vary according to section; consult the brochure issued by the Department. 
+
+code: POLI 240
+name: Currents of Political Thought
+cred: 3
+desc: A critical introduction to some major ideologies and traditions of Western political thought that examines their philosophical origins as well as their implications for political life. 
+
+code: POLI 260
+name: Introduction to Global Politics
+cred: 3
+desc: Applies conceptual tools to topics such as war, conflict management, the global economy, poverty, and civil society. 
+preq: Recommended for prospective students of POLI 360-373
+
+code: POLI 301
+name: Canadian Political Parties
+cred: 3
+desc: The organization and operation of party politics and the systems of party competition in Canada. The focus is on national-level politics. 
+preq: POLI 101
+
+code: POLI 302
+name: Public Administration
+cred: 3, 6
+desc: The structure and organization of the administrative branch of government in theory and practice. Administrative powers and policy-making in the modern state. Examples of the administrative processes are drawn from Canada and other countries. 
+preq: POLI 101
+
+code: POLI 303
+name: Federalism in Canada
+cred: 3
+desc: Theory and practice of federalism; cultural duality, social stresses, and problems of flexibility. The constitution and role of the courts. 
+preq: POLI 101
+
+code: POLI 304
+name: British Columbia Government and Politics
+cred: 3
+desc: An examination of the party system, and other institutions and processes of the British Columbia political system. 
+preq: POLI 101
+
+code: POLI 305
+name: Canadian Political Ideas
+cred: 3
+desc: Political theories and ideologies in Canada. 
+preq: POLI 101
+
+code: POLI 306
+name: Local Government and Politics in Canada
+cred: 3
+desc: Local and regional political institutions and processes in Canada, with particular attention to those of Vancouver and other British Columbia localities. 
+preq: POLI 101
+
+code: POLI 307
+name: Quebec Government and Politics
+cred: 3
+desc: The nature of politics and the conduct of government in contemporary Quebec. The course is open to students from fields other than political science. 
+preq: POLI 101
+
+code: POLI 308
+name: Issues in Canadian Politics
+cred: 3, 6
+desc: An examination of one or more major issues in Canadian politics (e.g., the Charter, electoral reform). Topics will vary from year to year. 
+preq: POLI 101
+
+code: POLI 309
+name: Canadian Perspectives on Human Rights
+cred: 3
+desc: Key issues in the theory and practice of human rights in Canada. Topics will vary from year to year. 
+preq: POLI 101
+
+code: POLI 310
+name: Parliament and Party: The Strategy of Politics
+cred: 3
+desc: Parliamentary and party politics, showing how politicians in Canada and other countries strike bargains with allies, outmanoeuvre opponents in debates, and manipulate institutional rules. 
+preq: POLI 101
+
+code: POLI 316
+name: Global Indigenous Politics
+cred: 3, 6
+desc: The political dynamics of Indigenous peoples’ politics on the global level; the legal and practical realities of colonization as a global Indigenous experience; current global Indigenous political issues and avenues of Indigenous resistance. 
+
+code: POLI 320
+name: Government and Politics of the United States of America
+cred: 3, 6
+desc: The distinctive political system of the U.S. Covers all major institutions and processes, focusing on contemporary issues. Comparisons with the Canadian system. Sources of political failure and possible reform. 
+
+code: POLI 321
+name: Chinese Politics and Development
+cred: 3, 6
+desc: The course will explore various aspects of Chinese politics and the dynamics of China’s development since 1949.  Topics include: the Cultural Revolution, political reform and protest, and economic reform policies and their consequences. 
+
+code: POLI 322
+name: Japanese Government and Politics
+cred: 3
+desc: A general introduction to modern Japanese politics from various theoretical and comparative perspectives. 
+
+code: POLI 323
+name: South Asian Government and Politics
+cred: 3, 6
+desc: Comparative analysis of politics and government in India, Pakistan, Bangladesh, and Sri Lanka. Imperial legacies and nationalist movements; political institution-building amidst socio-cultural diversity; parties and interest groups; elections and leadership crises; military intervention; ethnic and class conflicts; foreign policy. 
+
+code: POLI 324
+name: Southeast Asian Government and Politics
+cred: 3, 6
+desc: The political systems of contemporary Southeast Asia. 
+
+code: POLI 325
+name: Communist and Post-Communist Politics
+cred: 3
+desc: An examination of the origins, development, and demise of Communist political systems, as well as the nature of post-Communist politics, with special emphasis on the Soviet Union and its successor states. 
+
+code: POLI 326
+name: European Politics: Selected Cases
+cred: 3
+desc: The politics and government of one or more European countries: political development, institutional structure, party politics, and policy-making. The specific country or countries will vary by section. 
+
+code: POLI 327
+name: European Integration
+cred: 3
+desc: Post-1945 integration of Europe, comparison of national politics and attitudes to integration, and the history and institutions of the European Union. 
+
+code: POLI 328
+name: Topics in Comparative Politics
+cred: 3, 6
+desc: Topics will vary from year to year. Consult the departmental website. 
+
+code: POLI 329
+name: Gender and Politics
+cred: 3
+desc: Relations between gender and political processes and institutions, including the impact of globalization and economic development. 
+
+code: POLI 330
+name: Japanese Political Economy
+cred: 3
+desc: Issues in contemporary Japanese political economy, including industrial policy, the Keiretsu groupings, the main-bank system, trends toward deregulation, and business-labour relations. 
+
+code: POLI 331
+name: Korean Government and Politics
+cred: 3
+desc: An introduction to the politics of Korea. The evolution of Korean politics from authoritarian rule to democratic transition, focusing on present and future political, economic and social issues. 
+
+code: POLI 332
+name: Politics and Government of Latin America
+cred: 3, 6
+desc: A comparative examination of democracy and authoritarianism in Latin America: populism, corporatism, bureaucratic authoritarianism, transitions from authoritarianism, and contemporary debates on the quality and diversity of democratic institutions. 
+
+code: POLI 333
+name: Issues in Comparative Politics
+cred: 3, 6
+desc: An examination of a major issue in comparative politics (e.g., the media, gender, nationalism, ethnic conflict). Topics will vary from year to year. 
+
+code: POLI 334
+name: Comparative Democratization
+cred: 3
+desc: Literatures and theories on regime democratization around the world; the roles of political, economic, social, and international factors in encouraging or impeding democratization. 
+
+code: POLI 335
+name: Comparative Federalism
+cred: 3, 6
+desc: An empirical and normative analysis of federalism as a way of structuring political life in industrialized democracies, investigating explanations for the design, persistence and operation of federal systems. 
+
+code: POLI 336
+name: Associations and the State in Comparative Perspective
+cred: 3
+desc: How organised groups (civil society organizations, NGOs, interest groups) interact with governments in a variety of countries. 
+
+code: POLI 337
+name: The U.S. Presidency in Comparative Perspective
+cred: 3
+desc: Executive leadership of the U.S. presidency in comparison to the leadership of other Anglo-American systems, including the U.K., Canada, and Australia. 
+
+code: POLI 340
+name: History of Political Ideas
+cred: 6
+desc: An introduction to the political ideas of leading political philosophers from Ancient Greece to the 19th century. 
+
+code: POLI 341
+name: Contemporary Political Theory
+cred: 3, 6
+desc: Topics may include freedom, colonialism, capitalism, Critical Theory and ideology, power and knowledge, social justice, rationalism, gender and identity politics, and the "political." 
+
+code: POLI 342
+name: Modern Political Theory: Analysis of a Selected Theorist
+cred: 3
+desc: A detailed examination of an acknowledged masterpiece of modern political theory. The text and attendant literature vary from year to year. Consult the departmental website. 
+
+code: POLI 343
+name: Theories of State and Society
+cred: 3
+desc: Classical origins of contemporary theories of the state, market, and civil society, focused on the relationship between social order, politics, and democracy. Readings from Smith, Toqueville, Weber, and contemporary sources. 
+
+code: POLI 344
+name: Social and Political Thought
+cred: 3, 6
+desc: An examination of some of the major concepts in political philosophy such as justice, equality, rights, obligation, liberty in the context of both classical and contemporary political thought. 
+
+code: POLI 345
+name: Gender and Politics: Political Thought and Practice
+cred: 3, 6
+desc: The role of gender in Western political theory and the implications for the practice of politics. 
+
+code: POLI 346
+name: Democratic Theory
+cred: 3
+desc: An examination of both classical and contemporary theories of democracy. Representative democratic theory, participatory democratic theory, and their relationship to twentieth century concepts of democracy. 
+
+code: POLI 347
+name: Law and Political Theory
+cred: 3, 6
+desc: An examination of law and political theory that considers topics such as sovereignty, constitutionalism, civil disobedience, rights and the political role of judges. 
+
+code: POLI 348
+name: Political Theory and Public Policy
+cred: 3
+desc: Application of frameworks to policy questions that factor in debates about citizenship and social inclusion, and an examination of contemporary normative frameworks that fall along, and transcend, the left-right political spectrum. 
+
+code: POLI 350
+name: Public Policy
+cred: 3, 6
+desc: An introduction to public policy: rationales for government intervention, the influence of interest groups and political institutions on policy outcomes, and the various stages in the policy process. 
+
+code: POLI 351
+name: Environmental Politics and Policy
+cred: 3
+desc: Domestic and international determinants of environmental policy; alternative approaches to environmental protection. The sustainable development paradigm; public opinion and interest group pressures; risk assessment; mandatory, voluntary and market-based policy instruments. 
+
+code: POLI 352
+name: Comparative Politics of Public Policy
+cred: 3, 6
+desc: Policy making across industrialized democracies, with a focus on North America and Europe. 
+
+code: POLI 360
+name: Security Studies
+cred: 3, 6
+desc: The contemporary international security context: reorientation of the study of security, patterns of inter- and intrastate conflict and communal violence, dilemmas of international response and conflict management. 
+
+code: POLI 361
+name: International Violence and Its Control
+cred: 3, 6
+desc: A study of the nature of international violence from guerrilla to nuclear war; a survey of theories of the causes of interstate war; recent research findings on the causes of war and conditions for peace; a comparative analysis of strategies for controlling violence through disarmament and the promotion of alternative means of conflict resolution. 
+
+code: POLI 362
+name: The Great Powers and International Politics
+cred: 3
+desc: An examination of the changing nature of Great Power relations, including procedures and institutions for managing their conflicts, in the pre-Cold War, Cold War, and post-Cold War international systems. 
+
+code: POLI 363
+name: Canadian Foreign Policy
+cred: 3, 6
+desc: An analysis of Canadian foreign policy on important international issues since the 1960s and of the policy-making process. Issues may include defence commitments, economic relations, activities of international organizations, and relations with the US, Europe, USSR, Asia and the Third World. 
+
+code: POLI 364
+name: International Organizations
+cred: 3, 6
+desc: Analysis of the activities and influence of modern international organizations in international security, economic, and social issue areas. The course will focus on organizations associated with the United Nations, but other world and regional bodies will be analysed as well. 
+
+code: POLI 365
+name: Asian International Relations
+cred: 3, 6
+desc: Analysis of the foreign policies of one or more of the states of East, Southeast, and South Asia; their relations with other states in the region as well as with major outside powers. 
+
+code: POLI 366
+name: International Political Economy
+cred: 3
+desc: An analysis of governmental policies and international political bargaining in regard to such issues as international investment, trade, and monetary relations. Pre-requisite: ECON 100 or 309 are recommended. 
+
+code: POLI 367
+name: International Relations Theory and the International System
+cred: 3, 6
+desc: The evolution of the international system and empirical and normative theories of international relations such as realism, liberalism, and Marxism. 
+
+code: POLI 368
+name: Japan's Foreign Relations
+cred: 3
+desc: Japan's security policy, aid policy, relations with the United States and with neighbouring Asian nations, role in the United Nations and other international institutions. 
+
+code: POLI 369
+name: Issues in International Security
+cred: 3, 6
+desc: An examination of issues such as interstate conflicts, terrorism, environmental change, international crime. Topics will vary from year to year. 
+
+code: POLI 370
+name: Issues in International Conflict Management
+cred: 3, 4, 5
+desc: Problems of managing conflict in the international system (e.g., intervention, mediation, sanctions). Topics will vary from year to year. 
+
+code: POLI 373
+name: Ethics in World Politics
+cred: 3
+desc: When is it right to wage war?  Who should pay for global warming?  Should the wealthy provide foreign aid- how much?  Analysis of traditions of moral thought to reach reasoned judgments about such dilemmas in global politics. 
+
+code: POLI 374
+name: International Peacekeeping
+cred: 3, 6
+desc: The development of peacekeeping within and outside the United Nations system and as an instrument of conflict management. 
+
+code: POLI 375
+name: Global Environmental Politics
+cred: 3, 6
+desc: Ecological consequences of the global political economy. 
+
+code: POLI 376
+name: International Law
+cred: 3
+desc: The nature, sources, and sanctions of international law; the notion of nationhood with particular reference to the status of the British Dominions; territorial and extra-territorial jurisdiction; diplomatic and sovereign immunities; international delinquency; treaties; settlement of disputes; international organizations. This course  may not be taken for credit in both Arts and Law. 
+
+code: POLI 377
+name: Nuclear Weapons and Arms Control
+cred: 3
+desc: Evolution and contemporary significance of nuclear weapons and arms control policy and technology from the perspective of the physical and life sciences and the social sciences and humanities. 
+preq: Third-year standing in B.A. or B.Sc. progrm or second-year standing in B.A.Sc. progra
+
+code: POLI 380
+name: Quantitative Methods in Political Science
+cred: 3
+desc: An introduction to quantitative methods as utilized in the study of Political Science. Not available for credit in the Faculty of Commerce and Business Administration. 
+
+code: POLI 381
+name: Topics in Quantitative Analysis
+cred: 3
+desc: Application of quantitative techniques to selected topics in Political Science. Topics vary from year to year. Consult the departmental website. 
+preq: POLI 380
+
+code: POLI 385
+name: Public Opinion and Elections
+cred: 3, 6
+desc: Psychological and social foundations of public opinion; quality of democratic decision-making; how voters make up their minds; impact of electoral systems; social bases of party systems; campaigns and the mass media. The Canadian experience in comparative context. 
+
+code: POLI 390
+name: Honours Seminar
+cred: 6
+desc: An examination of the dimensions of Political Science and the major debates within the discipline. 
+
+code: POLI 401
+name: Canadian Provincial and Regional Politics
+cred: 3, 6
+desc: Seminar examines political parties, processes, and institutions in the provincial political systems and regional arrangements between provinces. 
+preq: POLI 101 and (POLI 301 or POLI 302 or POLI 303 or POLI 304 or POLI 305 or POLI 306 or POLI 307 or POLI 308)
+
+code: POLI 402
+name: Law and Politics of the Canadian Constitution
+cred: 3, 6
+desc: Seminar on the origins and development of the Canadian Constitution: the political aspects of federalism and the legal consequences of the Charter of Rights. 
+preq: POLI 101 and (POLI 301 or POLI 302 or POLI 303 or POLI 304 or POLI 305 or POLI 306 or POLI 307 or POLI 308)
+
+code: POLI 403
+name: The Political Economy of Canada
+cred: 3, 6
+desc: A seminar devoted to the analysis of the interplay of economic and social factors in the shaping of Canadian politics: the major issues and strains in the functioning of the Canadian polity. 
+preq: POLI 101 and (POLI 301 or POLI 302 or POLI 303 or POLI 304 or POLI 305 or POLI 306 or POLI 307 or POLI 308)
+
+code: POLI 404
+name: Public Policy and Its Administration
+cred: 3, 6
+desc: Political and administrative aspects of public policy, particularly in Canada. 
+preq: POLI 101 and (POLI 301 or POLI 302 or POLI 303 or POLI 304 or POLI 305 or POLI 306 or POLI 307 or POLI 308 or POLI 350 or POLI 351 or POLI 352)
+
+code: POLI 405
+name: Topics in Canadian Politics
+cred: 3, 6
+desc: This seminar examines in depth some of the important issues in Canadian politics. 
+preq: POLI 101 and (POLI 301 or POLI 302 or POLI 303 or POLI 304 or POLI 305 or POLI 306 or POLI 307 or POLI 308)
+
+code: POLI 406
+name: Aboriginal Peoples and Canadian Politics
+cred: 3
+desc: Seminar in political structures, activities, and demands of aboriginal peoples; policies of federal, provincial, and territorial governments; relations between these governments and aboriginal peoples; role of the courts and the Constitution. 
+preq: POLI 101 and at least 3 credits from POLI 301–308
+
+code: POLI 420
+name: Advanced Topics in Comparative Politics
+cred: 3, 6
+desc: Seminar in comparative analysis of politics in democratic systems. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 350 POLI 351
+
+code: POLI 421
+name: Advanced Topics in Comparative Politics: Non-Western
+cred: 3, 6
+desc: A seminar devoted to comparative analysis of politics in non-western states. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 350 POLI 351
+
+code: POLI 422
+name: Selected Problems in Comparative Politics
+cred: 3, 6
+desc: A seminar devoted to intensive analysis of a contemporary political problem from a comparative perspective, e.g., ethnic politics, class politics, the politics of post-industrial society. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 350 POLI 351
+
+code: POLI 423
+name: Issues in Comparative Politics
+cred: 3, 6
+desc: Seminar in comparative analysis of constitutionalism, authoritarianism, democracy, etc. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 350 POLI 351
+
+code: POLI 426
+name: Seminar on Comparative Parties and Party Systems
+cred: 3, 6
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 350 POLI 351
+
+code: POLI 427
+name: Issues in Chinese Politics and Development
+cred: 3
+desc: Seminar examines one issue in Chinese politics (e.g., environmental politics, local government, state-society relations) from a broadly comparative perspective. 
+preq: POLI 220 and (POLI 320–337)
+
+code: POLI 429
+name: Seminar in Issues in Gender and Politics
+cred: 3
+preq: Two of POLI 220 POLI 320 POLI 321 POLI 322 POLI 323 POLI 324 POLI 325 POLI 326 POLI 327 POLI 328 POLI 329 POLI 330 POLI 331 POLI 332 POLI 333 POLI 345 POLI 350 POLI 351
+
+code: POLI 440
+name: Contemporary Political Theory
+cred: 3, 6
+desc: This seminar examines the political ideas of leading political philosophers of the twentieth century. Consult the departmental website. 
+preq: Any 6 credits from POLI 240 POLI 340–349
+
+code: POLI 441
+name: Interpretation and Criticism in Political Theory
+cred: 3, 4, 5
+desc: Approaches to political criticism: Critical Theory, Foucauldian genealogy, critical realism, and feminism, including forms of domination, which shape people's beliefs and self-conceptions. 
+preq: Any 6 credits from POLI 240 340–349
+
+code: POLI 442
+name: Contemporary Political Theorists: Analysis of a Selected Theorist
+cred: 3
+desc: This seminar examines in detail the political ideas of an important political philosopher of the twentieth century. The theorist studied varies from year to year. Consult the departmental website. 
+preq: Any 6 credits from POLI 240 340–349
+
+code: POLI 443
+name: MODERN WESTERN POLITICAL THOUGHT
+cred: 3, 6
+desc: Seminar: Texts in the history of modern Western political thought, such as works by Thomas Hobbes, John Locke, Jean-Jacques Rousseau, Karl Marx, Alexis de Tocqueville, John Stuart Mill, Friedrich Nietzsche, Max Weber, and Sigmund Freud. 
+preq: Prerequisite: Any 6 credits from POLI 240 340–349
+
+code: POLI 445
+name: Critical Theory: Policitical Theory and the Problems of Race
+cred: 3, 6
+desc: Traditions of critical social theory, broadly construed, to examine the modern politics of 'race,' racism, and racialized identities. 
+preq: Any 6 credits from POLI 240 340-349
+
+code: POLI 446
+name: Multiculturalism and Identity Politics
+cred: 3, 6
+desc: Seminar will examines how "identity" is theorized in contemporary political thought, beginning with the role that identity plays in the "western" canon and proceeding to examine feminist, multicultural, queer, and post-colonial theories of citizenship along with their critics. 
+preq: Any 6 credits from POLI 240 340-349
+
+code: POLI 448
+name: Democratic Theory
+cred: 3, 6
+desc: Overview of traditional democratic theory with close readings of several contemporary theories, such as those of Habermas, Rawls, and Arendt. Readings are drawn from complete original texts, and assessment is based on a research essay. 
+preq: Any 6 credits from POLI 240 340-349
+
+code: POLI 449
+name: Topics in Political Theory
+cred: 3, 6
+
+code: POLI 450
+name: Policy Analysis
+cred: 3
+desc: Practical skills for generating written and oral analysis for a client or supervisor. 
+preq: POLI 101 and ((POLI 302 or POLI 306 or POLI 350;) or (POLI 350 and POLI 352))
+
+code: POLI 460
+name: Foreign Policy Analysis
+cred: 3, 6
+desc: A seminar devoted to the analysis of the foreign policies of one or more states, as well as to the study of literature pertaining to foreign policy analysis. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 260 POLI 360 POLI 361 POLI 362 POLI 363 POLI 364 POLI 365 POLI 366 POLI 367 POLI 368 POLI 369 POLI 370
+
+code: POLI 461
+name: Peace and Conflict Studies
+cred: 3
+desc: A seminar on a selected topic concerning the causes of war and strategies for the promotion of peace. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 260 POLI 360 POLI 361 POLI 362 POLI 363 POLI 364 POLI 365 POLI 366 POLI 367 POLI 368 POLI 369 POLI 370
+
+code: POLI 462
+name: International Relations Theory
+cred: 3
+desc: This seminar examines some of the major theoretical approaches to the study of international relations. For specific content in a given year, consult the departmental website. 
+preq: Two of POLI 260 POLI 360 POLI 361 POLI 362 POLI 363 POLI 364 POLI 365 POLI 366 POLI 367 POLI 368 POLI 369 POLI 370
+
+code: POLI 463
+name: International Interdependence
+cred: 3
+desc: This seminar analyses issues relating to the politics of international economic relations. For specific content in a given year, consult the brochure issued by the Department. 
+preq: Two of POLI 260 POLI 360 POLI 361 POLI 362 POLI 363 POLI 364 POLI 365 POLI 366 POLI 367 POLI 368 POLI 369 POLI 370. 6 credits of ECON are recommended
+
+code: POLI 464
+name: Problems in International Relations
+cred: 3, 6
+desc: Content varies from year to year. Consult the departmental website. One section (of 3 credits) is reserved for fourth-year students in the Major program in International Relations. 
+
+code: POLI 466
+name: The Politics of International Law
+cred: 3
+desc: Seminar on the origins and politics of international law, and its impact on international affairs; the laws of war, human rights, environment, law of the sea, and international criminal law. 
+
+code: POLI 492
+name: Honours Thesis
+cred: 12
+desc: In consultation with faculty, students develop a research project, report on their project during seminars, give feedback on their fellow students' projects, and write a thesis. 

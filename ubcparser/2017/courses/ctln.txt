@@ -1,0 +1,7 @@
+
+
+code: CTLN 301
+name: Catalan Language and Culture
+cred: 3
+desc: Introduction to the Catalan language and important aspects of the culture of Catalonia. Languages of instruction: English and Catalan. 
+preq: Familiarity with another Romance language

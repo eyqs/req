@@ -1,0 +1,354 @@
+
+
+code: THTR 120
+name: Introduction to Theatre
+cred: 3
+desc: Theory and practice of the theatrical arts. Attendance at plays is required. 
+
+code: THTR 130
+name: Introduction to Stage Acting
+cred: 3
+
+code: THTR 150
+name: Introduction to Technical Production
+cred: 3
+desc: Foundation study of production technologies for the performing arts. 
+
+code: THTR 205
+name: Graphics for Theatre and Film Design
+cred: 3, 6
+
+code: THTR 210
+name: Drama: Forms and Ideas I
+cred: 3
+desc: The Anatomy of Drama: Its history, aesthetic principles, performative potential. 
+
+code: THTR 211
+name: Drama: Forms and Ideas II
+cred: 3
+desc: Topics in comparative drama; drama and the other performing arts; dramaturgy. 
+
+code: THTR 230
+name: Performance Study I
+cred: 3
+desc: Study of the actor's process. 
+
+code: THTR 245
+name: Play-Interpretation and Production-Analysis
+cred: 3
+desc: Basic methods of interpreting dramatic texts and analyzing plays in performance. The plays presented on the Frederic Wood Stage will be studied in this course. 
+
+code: THTR 250
+name: Technical Production
+cred: 3
+desc: The construction and execution of scenery, costumes, properties, lighting, and sound for the stage. 
+preq: THTR 150
+
+code: THTR 271
+name: Beginning B.F.A. Acting I
+cred: 3
+desc: Open only to B.F.A. Acting students. An audition is required. 
+preq: At least one theatre course
+
+code: THTR 272
+name: Beginning B.F.A. Acting II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+
+code: THTR 273
+name: Beginning Voice and Movement I
+cred: 3
+desc: Open only to B.F.A. Acting students. An audition is required. 
+preq: At least one theatre course
+
+code: THTR 274
+name: Beginning Voice and Movement II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+
+code: THTR 299
+name: Production I
+cred: 3, 6
+desc: Assigned projects in theatre production. 
+creq: THTR 205 or THTR 250
+
+code: THTR 301
+name: Styles of Decor and Dress
+cred: 3, 6
+desc: Artistic, decorative, cultural, and social contexts of selected theatrical genres and periods. 
+
+code: THTR 305
+name: Scenery Design I
+cred: 3
+desc: Principles and practice of scenery design for the performing arts. 
+preq: THTR 205
+
+code: THTR 306
+name: Costume Design I
+cred: 3
+desc: Principles and practice of costume design for the performing arts. 
+
+code: THTR 307
+name: Lighting Design I
+cred: 3
+desc: The optical, distribution, and control systems used in stage lighting design. 
+
+code: THTR 308
+name: Sound Design
+cred: 3
+desc: Audio design and production for theatre and other performance forms. 
+
+code: THTR 310
+name: Theory of Drama Performance
+cred: 3
+desc: The basic principles of dramaturgy and theory of performance. Historical and contemporary writing on dramatic theory and criticism and their relation to theatrical practice. 
+
+code: THTR 311
+name: Studies in Drama
+cred: 3
+desc: Topics will vary from year to year. 
+
+code: THTR 317
+name: Introduction to Directing
+cred: 3
+preq: (THTR 130 or THTR 230) and THTR 299
+creq: THTR 299 or THTR 399
+
+code: THTR 320
+name: History of Theatre I
+cred: 3
+desc: Core concepts in world theatre history and the development of theatre prior to the nineteenth century. 
+
+code: THTR 323
+name: History and Theory of Directing
+cred: 3
+
+code: THTR 325
+name: History of Canadian Theatre
+cred: 3, 6
+
+code: THTR 330
+name: Performance Study II
+cred: 3
+desc: Study of performance styles. 
+preq: THTR 130 or THTR 230
+
+code: THTR 335
+name: Voice and Movement Study
+cred: 3
+preq: THTR 130 or THTR 230
+
+code: THTR 339
+name: Creating Theatre I
+cred: 3
+desc: Study and practice of processes and forms used to create ensemble performance. 
+preq: THTR 130 or THTR 230
+
+code: THTR 340
+name: Studies in Non-Western Theatre
+cred: 3, 6
+desc: Open to all students in third year and above. 
+
+code: THTR 350
+name: Scenery Production I
+cred: 3
+desc: Scenery construction, rigging, and systems. 
+
+code: THTR 352
+name: Scene Painting I
+cred: 3
+desc: Media, techniques, and textural treatments used in scene painting. 
+
+code: THTR 354
+name: Stage Management
+cred: 3
+desc: Principles and procedures of stage management: organizations, systems, and operations. 
+
+code: THTR 356
+name: Costume Construction
+cred: 3
+desc: Advanced assembly and specialized construction methods for producing costume for stage and screen. 
+
+code: THTR 371
+name: Intermediate B.F.A. Acting I
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+preq: THTR 271 and THTR 272 and THTR 273 and THTR 274
+
+code: THTR 372
+name: Intermediate B.F.A. Acting II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+creq: THTR 371 and THTR 373 and THTR 374
+
+code: THTR 373
+name: Intermediate Voice, Speech, and Movement I
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+preq: THTR 271 and THTR 272 and THTR 273 and THTR 274
+
+code: THTR 374
+name: Intermediate Voice, Speech, and Movement II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+creq: THTR 371 and THTR 372 and THTR 373
+
+code: THTR 391
+name: Rehearsal and Performance
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Open only to  B.F.A. Acting students. 
+preq: THTR 271 and THTR 272 and THTR 273 and THTR 274
+
+code: THTR 399
+name: Production II
+cred: 3, 6
+desc: Assigned projects in theatre design and production. 
+creq: THTR 305 or THTR 306 or THTR 307 or THTR 308 or THTR 350 or THTR 352 or THTR 354 or THTR 356
+
+code: THTR 405
+name: Scenery Design II
+cred: 3
+desc: Exploration of complex scenery design and development of design portfolio. 
+preq: THTR 305
+
+code: THTR 406
+name: Costume Design II
+cred: 3
+desc: Complex problems and selected historical studies in costume design. 
+preq: THTR 306
+
+code: THTR 407
+name: Lighting Design II
+cred: 3
+desc: Complex design and advanced technologies in stage lighting and scenography. 
+preq: THTR 307
+
+code: THTR 408
+name: Advanced Study in Design and Scenography
+cred: 3, 6
+desc: Topics will vary from year to year. Consent of Department required. 
+
+code: THTR 410
+name: Dramaturgy
+cred: 3
+desc: Advanced problems in dramaturgy, both in a historical and a contemporary context. 
+
+code: THTR 417
+name: Directing Lab
+cred: 3
+preq: THTR 317. Permission of the instructor is required for admission to this course
+
+code: THTR 420
+name: History of Theatre II
+cred: 3
+desc: Key movements in world theatre history from the nineteenth century to the present. 
+preq: THTR 320
+
+code: THTR 421
+name: History of Theatre from 1900 to the present
+cred: 3
+desc: The development of Western Theatre from 1900 to the present 
+
+code: THTR 425
+name: Topics in Canadian Theatre
+cred: 3, 6
+
+code: THTR 430
+name: Theory of Drama and Performance
+cred: 6
+desc: The basic principles of dramaturgy and theory of performance. Historical and contemporary writing on theatrical theory and criticism and their relation to theatrical practice. 
+
+code: THTR 439
+name: Creating Theatre
+cred: 3, 6
+desc: Ensemble creation culminating in the presentation of a theatrical work. Permission of the instructor is required. 
+
+code: THTR 440
+name: Topics in Theatre
+cred: 3, 6
+desc: An examination in depth of a selected area of theatre history, theory or practice. Topics will change from year to year. May be repeated for credit when topics differ. 
+preq: 6 credits of THTR at the 300-level or above
+
+code: THTR 443
+name: Women in Theatre and Film
+cred: 3, 6
+desc: A course dealing with women's involvement in and contribution to various aspects of Theatre and/or Film Topics will change from year to year. 
+
+code: THTR 445
+name: Majors and Honours Seminar
+cred: 3
+
+code: THTR 448
+name: Directed Studies in Theatre Theory and Practice
+cred: 3, 6
+
+code: THTR 449
+name: Supervised Study and Honours Essay
+cred: 6
+
+code: THTR 450
+name: Scenery Production II
+cred: 3
+desc: Technical direction; complex techniques and problems in scenery production. 
+preq: THTR 350
+
+code: THTR 452
+name: Scene Painting II
+cred: 3
+desc: Study of selected scene painting styles. 
+preq: THTR 352
+
+code: THTR 454
+name: Production and Theatre Management
+cred: 3
+desc: Production and theatre management with emphasis on budgeting, publicity, scheduling, press relations, special events, legal issues, season selection, resumes and interpersonal skills. 
+preq: THTR 354
+
+code: THTR 456
+name: Costume Construction II
+cred: 3
+desc: Pattern development and cutting for costume for stage and screen using flat pattern and draping. 
+preq: THTR 356
+
+code: THTR 469
+name: Interdisciplinary Projects
+cred: 3, 6
+desc: Group projects and workshops with students majoring in other creative arts. 
+preq: Permission of instructor
+
+code: THTR 471
+name: Advanced B.F.A. Acting I
+cred: 3
+desc: Open only to B.F.A. (Acting) students. 
+preq: THTR 371 and THTR 372 and THTR 373 and THTR 374 and THTR 391
+
+code: THTR 472
+name: Advanced B.F.A. Acting II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+creq: THTR 471 and THTR 473 and THTR 474
+
+code: THTR 473
+name: Advanced Speech and Movement I
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+preq: Three of THTR 371 THTR 372 THTR 373 THTR 374 THTR 391
+
+code: THTR 474
+name: Advanced Speech and Movement II
+cred: 3
+desc: Open only to B.F.A. Acting students. 
+creq: THTR 471 THTR 472 THTR 47
+
+code: THTR 491
+name: Advanced Rehearsal and Performance
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Open only to B.F.A. Acting students. 
+preq: Three of THTR 371 THTR 372 THTR 373 THTR 374 THTR 391
+
+code: THTR 499
+name: Production III
+cred: 6, 7, 8, 9, 10, 11
+desc: Assigned projects in Theatre or Film design and production. 
+preq: THTR 399
+creq: THTR 405 or THTR 406 or THTR 407 or THTR 408 or THTR 450 or THTR 452 or THTR 454 or THTR 456 or THTR 470

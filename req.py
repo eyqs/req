@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 req v1.3
-Copyright (c) 2016 Eugene Y. Q. Shen.
+Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -20,8 +20,8 @@ import os
 import tkinter as tk
 import tkinter.ttk as ttk
 
-COURSES = 'ubcparser/2016/courses'      # path to folder with course lists
-TABS    = 'ubcparser/2016/tabs'         # path to folder with course tabs
+COURSES = 'ubcparser/2017/courses'      # path to folder with course lists
+TABS    = 'ubcparser/2017/tabs'         # path to folder with course tabs
 DUMP    = 'req.txt'                     # path to file to dump courses
 MAXNUM  = 10
 COLOURS = {'done':'green yellow', 'none':'white', 'outs':'wheat',

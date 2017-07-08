@@ -1,0 +1,17 @@
+
+
+code: SWED 100
+name: Elementary Swedish I
+cred: 3
+
+code: SWED 110
+name: Elementary Swedish II
+cred: 3
+
+code: SWED 200
+name: Intermediate Swedish I
+cred: 3
+
+code: SWED 210
+name: Intermediate Swedish II
+cred: 3

@@ -1,0 +1,39 @@
+
+
+code: VANT 140
+name: Content and Language Enrichment Tutorials
+cred: 1, 2, 3, 4, 5, 6
+desc: Sustained language support for linked content courses in International Program. Students develop strategies for self-directed learning. 
+
+code: VANT 148
+name: UBC Vantage College Projects
+cred: 2
+desc: Projects linked to topics explored in the UBC Vantage College International Program curricula. [1-0-1; 1-0-1]
+
+code: VANT 149
+name: Multidisciplinary Research Project
+cred: 1
+desc: Research project that culminates in student-led conference and research presentation. [1-0-1]
+preq: VANT 148
+
+code: VANT 150
+name: Sustainability and Engineering Design
+cred: 3
+desc: Topics in sustainability, including the impact of technology on the environment and society, and fundamentals of engineering design. Restricted to students in the UBC Vantage College Engineering Stream. [1-0-2; 1-0-2]
+
+code: VANT 150
+name: Sustainability and Engineering Design
+cred: 2
+desc: Topics in sustainability, including the impact of technology on the environment and society, and fundamentals of engineering design. Restricted to students in the UBC Vantage College Engineering Stream. [1-0-1; 1-0-1]
+
+code: VANT 151
+name: Multidisciplinary Engineering Design Project
+cred: 3
+desc: Design project that culminates in student-led project fair. Restricted to students in the UBC Vantage College Engineering Stream. [2-0-3]
+preq: VANT 150
+
+code: VANT 151
+name: Multidisciplinary Engineering Design Project
+cred: 1
+desc: Design project that culminates in student-led project fair. Restricted to students in the UBC Vantage College Engineering Stream. [1-0-1]
+preq: VANT 150

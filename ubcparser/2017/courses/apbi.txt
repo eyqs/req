@@ -1,0 +1,312 @@
+
+
+code: APBI 100
+name: Soil and the Global Environment
+cred: 3
+desc: Soil as the base of the Earth’s ecosystem pyramid. The interconnection between soil, climate change and human activity, the carbon cycle, water resources, food security, food safety, and biofuel production. Strategies for sustaining soil resources. 
+
+code: APBI 200
+name: Introduction to Soil Science
+cred: 3
+desc: Physical, chemical and biological properties of soils; soil formation, classification, use and conservation. There are no prerequisites for this course, but background in Biology 12, Chemistry 12, and Physics 12 (or first-year university-level) is strongly advised. [3-2]
+
+code: APBI 210
+name: Vascular Plants
+cred: 4
+desc: A comparative study of pteridophytes, gymnosperms and angiosperms, integrating form, function, and ecology. [3-3]
+preq: (BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140.) or 7 credits of first-year biology
+
+code: APBI 222
+name: Introduction to Horticulture
+cred: 3
+desc: The cultivation of key temperate fruits, vegetables, greenhouse, ornamental and nursery crops in BC, integrated with scientific and practical aspects of their sustainable production and marketing. 
+
+code: APBI 235
+name: Biotechnology in Agricultural Food Production
+cred: 3
+desc: Genetics, genomics, and biotechnology concepts with applications to agricultural food production and food safety. [3-3]
+preq: BIOL 112 and BIOL 121 and BIOL 140
+
+code: APBI 244
+name: Introduction to Biometeorology
+cred: 3
+desc: Basic principles and processes of climatology. Energy and water balance concepts. Weather systems and climate change, microclimate of soils, crops, forests, and animals. [3-2-0]
+
+code: APBI 260
+name: Agroecology I
+cred: 6
+desc: Introduction to the biophysical and socioeconomic factors affecting systems management and production in selected agroecosystems. [1-3-6]
+
+code: APBI 265
+name: Sustainable Agriculture and Food Systems
+cred: 3
+desc: Principles and practices necessary to understand practical concerns of sustainable food systems.  Credit will be given for only one of APBI 265 or APBI 260. [1-3-0]
+
+code: APBI 290
+name: Introductory Topics in Applied Biology
+cred: 3
+desc: Analysis and interpretation of current issues in applied biology. Topics will vary from year to year. 
+
+code: APBI 311
+name: Comparative Cardiovascular, Respiratory and Osmoregulatory Physiology
+cred: 3
+desc: Cardiovascular, respiratory and osmoregulatory physiology of vertebrates. [1-0-3]
+preq: BIOL 204 and (BIOL 260 or BIOL 361.) and 3rd year standing
+
+code: APBI 312
+name: Reproductive and Digestive Physiology
+cred: 3
+desc: Reproductive and digestive physiology, and current technologies applied to these systems in domestic and wild animals. 
+preq: BIOL 204 or BIOL 260. 3rd year standing
+
+code: APBI 314
+name: Animals and Society
+cred: 3
+desc: Contemporary use of animals for food production, companionship, recreation and science; social and ethical issues concerning human impacts on animals; animals in human culture; protection of animals by society and the law. 
+preq: At least third-year standing in any faculty
+
+code: APBI 315
+name: Animal Welfare and the Ethics of Animal Use
+cred: 3
+desc: Scientific assessment of animal well-being, ethical concepts applied to animal use, and animal welfare issues arising in agriculture, biomedical research and other areas. [1-0-3]
+preq: At least third-year standing in any faculty
+
+code: APBI 316
+name: Equine Biology, Health and Welfare
+cred: 3
+desc: Anatomy, physiology, reproduction, nutrition of the horse; common disease pathology, prevention and treatments; equine behaviour. [3-0]
+
+code: APBI 318
+name: Applied Plant Breeding
+cred: 4
+desc: Small-scale classical (i.e., non-biotechnological) plant breeding. Hands-on, application-oriented approach to techniques and procedures for managing seed inventories, designing and implementing a simple plant breeding program, and evaluating the impact of selection on breeding populations and desired outcomes. [3-1-0]
+
+code: APBI 319
+name: Aquaculture and the Environment
+cred: 3
+desc: Interactions between aquaculture and the environment. Current issues, comparison of systems, species, production methods, environments, and socioeconomics. 
+preq: (BIOL 230 or APBI 260 or APBI 265 or CONS 330 or ENVR 200 or ENVR 300) and third year standing. Or permission of the instructor
+
+code: APBI 322
+name: Horticultural Techniques
+cred: 3
+desc: An introduction to horticultural practice in an experiential learning format. Plant identification, seeding, propagation, pruning, cultivation media, pesticide application and safety are examined in the context of integrated crop management. An additional fee may be required for the pesticide certification examination. [0-3-3]
+
+code: APBI 324
+name: Introduction to Seed Plant Taxonomy
+cred: 3
+desc: Introduction to seed plant taxonomy emphasizing descriptive morphology and identification. Each student will be required to submit a plant collection. [2-3-0]
+preq: BIOL 121
+
+code: APBI 326
+name: Introductory Plant Pathology
+cred: 4
+desc: Study of the ecology of plant pathogenic organisms; principles of disease development and control. [3-2-0]
+
+code: APBI 327
+name: Introduction to Entomology
+cred: 3
+desc: A survey of the structure, classification and biology of insects; ecology and life-histories of insects; insect-plant relations. [2-3-0]
+preq: BIOL 121
+
+code: APBI 328
+name: Weed Science
+cred: 4
+desc: Importance, identification, dissemination and biology of weeds; preventive, cultural, biological and chemical methods of control. [3-2-0]
+
+code: APBI 342
+name: Soil Biology
+cred: 3
+desc: The diversity of soil organisms (bacteria, protozoa, fungi, animals, plants) in natural and managed ecosystems; roles in primary production, nutrient cycling, decomposition and reclamation; interactions between soil organisms; responses to environmental change. [2-3-0]
+preq: BIOL 121
+
+code: APBI 351
+name: Plant Physiology
+cred: 4
+desc: Mechanisms and regulation of functional processes contributing to the assimilation, transport and utilization of water, mineral nutrients and carbon by plants. [3-3-0]
+preq: BIOL 121 and (CHEM 123 or (CHEM 111 and CHEM 113. CHEM 233 is recommended))
+
+code: APBI 360
+name: Agroecology II
+cred: 4
+desc: Animals and Plants as Components of Agricultural Ecosystems. A systems approach is used to investigate the functions and interactions of plants and animals in agricultural systems. Field trips for assessment of existing agroecosystems. [3-0-3]
+preq: APBI 260 or APBI 265
+
+code: APBI 361
+name: Key Indicators of Agroecosystem Sustainability
+cred: 3
+desc: A detailed exploration of biophysical, economic, and social ecosystem sustainability indicators for primary production subsystems. [1-0-3]
+
+code: APBI 365
+name: Summer Practicum in Sustainable Agriculture and Food Systems
+cred: 6
+desc: Based at the UBC Farm. Application required. Fees will be assessed to meet expenses. 
+preq: (APBI 260 or APBI 265) and third-year standing
+
+code: APBI 398
+name: Research Methods in Applied Biology
+cred: 3
+desc: Research methods including research design, scientific critique, writing proposals and reports, and oral presentation. 
+preq: Third-year standing in the Applied Biology program and permission of the instructor
+
+code: APBI 401
+name: Soil Processes
+cred: 3
+desc: Integration of soil physics, chemistry, and biology in understanding essential soil processes. [3-0-0]
+preq: APBI 200
+
+code: APBI 402
+name: Sustainable Soil Management
+cred: 3
+desc: Application of fundamental, unifying, soil science principles in sustainable ecosystem management. [1-0-3]
+preq: APBI 200
+
+code: APBI 403
+name: Soil Sampling, Analyses and Data Interpretation
+cred: 3
+desc: Field and laboratory analytical techniques in the chemical, biological and physical assessment of soils. Credit will be granted for only one of SOIL 503 or APBI 403. [1-3-0]
+preq: APBI 200
+
+code: APBI 410
+name: Applied Animal Health and Physiology
+cred: 3
+desc: Application of physiology and pathology principles to health and disease of domestic animals. [3-0-0]
+preq: BIOL 201 and (APBI 311 or CAPS 301)
+
+code: APBI 411
+name: Reproductive Physiology and Technology
+cred: 4
+desc: A comparative overview of reproductive physiology and reproductive technologies in domesticated and laboratory animals. [3-2-0]
+preq: BIOL 201. Third year standing or higher
+
+code: APBI 412
+name: Belowground Ecosystems
+cred: 3
+desc: Concepts, methods, and applications of belowground ecology with emphasis on biotic interactions in soil; roles that aboveground and belowground communities play in regulating the structure and function of terrestrial ecosystems and their responses to global change. Credit will be granted for only one of FRST 512 or APBI 412. [3-0-0]
+preq: Fourth year standing in a Bachelor of Science Program. Permission is required for registration
+
+code: APBI 413
+name: Stress and Coping in Animals
+cred: 3
+desc: Understanding, assessing, and managing stress in farm, companion, captive wildlife, and research animals: sources of stress; behavioural, emotional, cognitive, and physiological responses; effects on growth, reproduction, health. 
+preq: (Third-year standing or higher. APBI 315) and courses in animal physiology and animal behavior recommended
+
+code: APBI 414
+name: Animals and Global Issues
+cred: 3
+desc: Research seminar integrating diverse information to address global animal issues including: animal-source foods and human health, environmental impact of livestock production, trade in exotic animals. [3-0-0]
+preq: APBI 314 or APBI 315
+
+code: APBI 415
+name: Applied Animal Behaviour
+cred: 3
+desc: Application of principles and research methods of animal behaviour to practical problems in the care of farm, companion, wild and research animals, and in animal training, and human-wildlife conflict. [3-0-0]
+
+code: APBI 416
+name: Animal Welfare and Conservation Biology
+cred: 3
+desc: Evaluation of humane treatment of individual animals living in the wild and managed within conservation biology. Assessment of attitudes and viewpoints of the role of animal welfare in conservation biology. 
+preq: (Third-year standing or higher. APBI 315) and (BIOL 416 or CONS 220/330 recommended)
+
+code: APBI 417
+name: Production and Postharvest Physiology of Vegetable Crops
+cred: 4
+desc: Morphology, growth and development, production, compostition, quality, and postharvest physiology of vegetable crops. [3-2-0]
+
+code: APBI 418
+name: Intensive Fish Production
+cred: 3
+desc: Management of fin fish throughout the life cycle; broodstock, egg, larvae, and juvenile. Control of environmental factors, including pathogens, for maximum productivity at all life stages. [3-2-0]
+preq: Third-year standing or higher. One of APBI 311 or BIOL 204 or BIOL 260. APBI 312 recommended
+
+code: APBI 419
+name: Fish Health
+cred: 3
+desc: Management of fish health in aquaculture; common fish pathogens, epidemiology, prevention, and treatment of diseases. 
+preq: (Third year standing or higher. One of APBI 311 or BIOL 204 or BIOL 260. APBI 312) and APBI 418 strongly recommended
+
+code: APBI 426
+name: Plant-Microbe Interactions
+cred: 3
+desc: Biology and physiology of selected plant-microbe relationships. Impacts of plant-microbe relationships on society. [3-2-0]
+preq: BIOL 201
+
+code: APBI 427
+name: Insect Ecology
+cred: 3
+desc: Behavioural, population, and community ecology of insects. Interaction between insects and plants and the application of the principals of insect ecology to biological control of insects and weeds. [3-0]
+preq: BIOL 205 or (BIOL 327 and APBI 327)
+
+code: APBI 428
+name: Integrated Pest Management
+cred: 3
+desc: Development and implementation of multi-disciplinary pest management programs in agricultural crops. [3-2]
+preq: BIOL 121
+
+code: APBI 440
+name: Plant Genomics
+cred: 3
+desc: Concepts, principles, and recent discoveries in genome structure and comparative genomics in plants with a focus on economically important plants; applications of genomics approaches to questions in plant genetics, evolution, and ecology. [3-0-0]
+creq: BIOL 335
+
+code: APBI 442
+name: Wine Grape and Berry Biology
+cred: 3
+desc: Grapevine genetics, morphology, and physiology and major biological features of other important berry crops for British Columbia such as blueberry, cranberry, and raspberry. Credit will be granted for only one of APBI 442 or PLNT 542. 
+preq: (BIOL 112 and BIOL 121) and (BIOL 200 or BIOL 201 or APBI 210 or BIOL 210)
+
+code: APBI 444
+name: Agroforestry
+cred: 3
+desc: An introduction to the application of knowledge and principles of agroecology and forest ecology to global agroforestry systems. The course includes a one-weekend field trip that requires a supplemental fee. [1-0-3]
+preq: An undergraduate course in ecology or equivalent
+
+code: APBI 460
+name: Advanced Agroecology
+cred: 3
+desc: The relationship between biological diversity and sustainability for the management of agroecosystems; emphasise on ecological interactions between natural ecosystems and agroecosystems, including connections between agroecology and conservation biology. A fee will be assessed each student to cover field trip costs. [1-0-3]
+preq: APBI 360 or equivalent
+
+code: APBI 461
+name: Applied Agroecology
+cred: 3
+desc: Analysis and solution of problems in agricultural production systems through the integration and application of agroecological knowledge and principles. [1-0-3]
+
+code: APBI 465
+name: Capstone in Sustainable Agriculture and Food Systems
+cred: 3
+desc: Integrates classroom and applied learning at the UBC Farm with design project. [1-3-0]
+preq: APBI 365
+
+code: APBI 490
+name: Advanced Topics in Applied Biology
+cred: 3
+desc: Analysis and interpretation of current issues in applied biology. 
+preq: 3rd year standing or higher
+
+code: APBI 495
+name: Principles of Wildlife Management in Forests and Agricultural Environments
+cred: 3
+desc: Impacts of wildlife on crop productivity in temperate and tropical environments, the resiliency of wildlife populations to conventional control methodology, adoption of innovative methods to reduce crop damage, and the impact of introduced species on native fauna. [2-0-1]
+
+code: APBI 496
+name: Applied Animal Biology Practicum
+cred: 3, 6
+desc: Application of principles and concepts of Applied Animal Biology to experiential learning in the fields of wild, companion, lab, and farm animal welfare and management. 
+preq: Third-year standing or higher. APBI 314 and/or APBI 315 are recommended
+
+code: APBI 497
+name: Directed Studies
+cred: 2, 3, 4, 5
+preq: Approval of program advisor
+
+code: APBI 498
+name: Undergraduate Essay
+cred: 3
+desc: Preparation of a comprehensive and analytical review of an approved topic under the supervision of a faculty member. Consultation with a program adviser is required. 
+
+code: APBI 499
+name: Undergraduate Thesis
+cred: 6
+desc: Design and execution of an experimental/analytical research project leading to the preparation of a thesis. 
+preq: Approval of a program adviser; consult before the end of classes in third year

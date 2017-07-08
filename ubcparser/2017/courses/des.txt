@@ -1,0 +1,165 @@
+
+
+code: DES 101
+name: Introductory Workshop
+cred: 1
+desc: Week long orientation to the School community, the City and the study of design one week prior to the start of Winter Session Term 1. Credit will be granted for only one of ENDS 101 or DES 101. 
+
+code: DES 110
+name: Measured Architectural Drawing
+cred: 3
+desc: Techniques applicable to analytic and technical drawing used in architecture, landscape architecture, and urban design with focus primarily on analog drawing techniques. Open to all UBC students regardless of prior experience. Credit will be granted for only one of ENDS 110 or DES 110. 
+
+code: DES 200
+name: Design Thinking
+cred: 3
+desc: Design thinking through the analysis of architecture, landscape architecture and urban design and through hands-on design projects. This course is open to all UBC students, regardless of prior experience. Credit will granted for only one of ENDS 231 or DES 200. 
+
+code: DES 201
+name: Design Studio I - Context and Site
+cred: 6
+desc: Design within the context of various analytical lenses including ecological, climatic, social, political, cultural and historical influences. 
+preq: DES 110 or VISA 281
+
+code: DES 202
+name: Design Studio II - Form
+cred: 6
+desc: Essential processes and methods for thinking in three-dimensional spatial terms. 
+preq: A score of 60% or higher in DES 201
+
+code: DES 211
+name: Design Media I
+cred: 3
+desc: Techniques in architectural drawing, two-dimensional representation, three-dimensional representation and general visual literacy. Credit will be granted for only one of ENDS 320, ARCH 515 or DES 211. 
+preq: DES 110 or VISA 180
+
+code: DES 212
+name: Design Media II
+cred: 3
+desc: Advanced techniques in architectural representation and discourse in digital representation and digital making. Credit will be granted for only one of ARCH 437, ARCH 517 or DES 212. 
+preq: DES 211
+
+code: DES 220
+name: Architecture in Context: Vancouver and its Region
+cred: 3
+desc: The unfolding architecture and urbanism of Metro Vancouver. Using Vancouver as a laboratory to examine the historical transformation of the built environment, and how this has affected particular activities, land uses, and social groups within the region. This course is open to all UBC students, regardless of prior experience. Credit will be granted for only one of ENDS 220 or DES 220. 
+
+code: DES 230
+name: Sustainability by Design
+cred: 3
+desc: Interactions between human and natural urban systems using local and international examples of successful sustainable community designs. This course is open to all UBC students, regardless of prior experience. Credit will be granted for only one of ENDS 221 or DES 230. 
+
+code: DES 231
+name: Site Analysis and Planning
+cred: 3
+desc: Analysis and planning of relatively complex sites, emphasizing storm water management design. Credit will be given for only one of DES 231, LARC 440, or LARC 540. 
+
+code: DES 232
+name: Material Culture
+cred: 3
+desc: An investigation of building materials and associated design objectives, environmental conditions, historical context, regulatory controls, and economic constraints. Credit will be granted for only one of DES 232 or ARCH 411. 
+
+code: DES 301
+name: Design Studio III - Building Scale Synthesis
+cred: 9
+desc: Design at the architectural scale through the medium of program and site. 
+preq: A score of 60% or higher in DES 202
+
+code: DES 302
+name: Design Studio IV - Vancouver
+cred: 9
+desc: Vancouver as a laboratory for design at the architectural and urban scale with a focused view into how design is implicated in the social, political, and environmental transformation of the city. 
+preq: A score of 60% or higher in DES 301
+
+code: DES 321
+name: Architectural History I
+cred: 3
+desc: A global history of architecture pre-20th century. Credit will be granted for only one of  DES 321, ARCH 404 or ARCH 505. 
+
+code: DES 322
+name: Architectural History II
+cred: 3
+desc: A global history of architecture, 20th and 21st century. Credit will be granted for only one of DES 322, ARCH 405, or ARCH 505. 
+
+code: DES 323
+name: Histories in Landscape Architecture
+cred: 3
+desc: Landscapes from medieval times to the present studied synchronically across design elements as well as chronologically with the development of several key historical concepts. 
+
+code: DES 330
+name: Structural Systems and Supports
+cred: 3
+desc: Basic structural systems in the built world including wood, steel, concrete, composite systems and essential structural logics of soil retention systems and drainage. 
+preq: DES 231 and DES 232
+
+code: DES 341
+name: Co-operative Education I
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Experiential Report required. Restricted to students meeting the requirements of the Bachelor of Design and the Co-operative Education Program. 
+
+code: DES 350
+name: Design Build
+cred: 3
+desc: Direct hands-on confrontation with the realities of design and construction, engaging in both conventional and unconventional building processes. 
+preq: DES 302
+
+code: DES 401
+name: Design Studio V - Urban Systems Scale Synthesis
+cred: 9
+desc: Relationships between communities and environment, urban infrastructure and ecological systems. 
+preq: DES 302
+
+code: DES 402
+name: Design Studio VI - Away
+cred: 9
+desc: A design project engaged with an international context and site. Emphasis placed on mapping, interpretation of the international context as well as methods of construction, notions of program, and policies, regulations and codes that relate to the site. 
+preq: A score of 60% or higher in DES 401
+
+code: DES 403
+name: Senior Design Project
+cred: 9
+desc: Final design project in the Honours Option with an independently conceived methodology allowing a student the opportunity to pursue his/her own set of interests and concerns. 
+preq: A score of 80% or higher in DES 401
+
+code: DES 421
+name: Design Theory
+cred: 3
+desc: Introduction to a broad range of theories in architecture and design as they relate to the built environment. 
+
+code: DES 422
+name: Urbanism by Design
+cred: 3
+desc: A history of the planning, landscape architecture and urban design of cities, and of how ideas have influenced the design of the city. 
+preq: Two of DES 321 DES 322 DES 323
+
+code: DES 430
+name: Environment, Urban Form, and Infrastructure
+cred: 3
+desc: Relationships between, and integration of, the natural environment and the physical form, spatial structure, and infrastructure of livability of cities. 
+
+code: DES 442
+name: Co-operative Education II
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Career Development Report required. Restricted to students meeting the requirements of the Bachelor of Design and the Co-operative Education Program. 
+preq: DES 341
+
+code: DES 443
+name: Co-operative Education III
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Oral Presentation required. Restricted to students meeting the requirements of the Bachelor of Design and the Co-operative Education Program. 
+preq: DES 442
+
+code: DES 444
+name: Co-operative Education IV
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Oral Presentation required. Restricted to students meeting the requirements of the Bachelor of Design and the Co-operative Education Program. 
+preq: DES 443
+
+code: DES 445
+name: Entrepreneurship and Ethics in Design
+cred: 3
+desc: Core business skills, building on students' design capabilities to pursue ethical and sustainable design-based business goals. 
+
+code: DES 450
+name: Special Topics
+cred: 1, 2, 3, 4, 5, 6, 7, 8

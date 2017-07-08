@@ -1,0 +1,202 @@
+
+
+code: JAPN 100
+name: Beginning Japanese IA
+cred: 3
+desc: An introduction to modern spoken and written Japanese with emphasis on both form (grammar and syntax) and functions (Non-intensive). Not available for credit to students with JAPN 11 and/or JAPN 12. Credit will be granted for only one of JAPN 100 or JAPN 160. 
+
+code: JAPN 101
+name: Beginning Japanese IB
+cred: 3
+desc: Continuation of JAPN 100 (Non-intensive). Not available for credit to students with JAPN 12. Credit will be granted for only one of JAPN 101 or JAPN 160. 
+preq: JAPN 100
+
+code: JAPN 160
+name: Intensive Beginning Japanese I
+cred: 6
+desc: An introduction to modern spoken and written Japanese with emphasis on both form (grammar and syntax) and functions. Offered in Term 1. Not available for credit to students with JAPN 12. Students are recommended to complete JAPN 160 and 260 in the same year. Credit will be granted for only one of JAPN 160 or JAPN 150 or both JAPN 100, JAPN 101. 
+
+code: JAPN 200
+name: Beginning Japanese II A
+cred: 3
+desc: Continuation of JAPN 101 (Non-intensive). Credit will be granted for only one of JAPN 200 or JAPN 102 or JAPN 260. 
+preq: JAPN 101 or JAPN 150 or JAPN 160
+
+code: JAPN 201
+name: Beginning Japanese II B
+cred: 3
+desc: Continuation of JAPN 200 (Non-intensive). Credit will be granted for only one of JAPN 201 or JAPN 103 or JAPN 260. 
+preq: JAPN 102 or JAPN 200
+
+code: JAPN 204
+name: Basic Japanese Grammar
+cred: 6
+desc: Emphasis on grammar, writing and reading Intended for students with a background in spoken Japanese. Credit will be granted for only one of JAPN 204 or JAPN 104. 
+
+code: JAPN 260
+name: Intensive Beginning Japanese II
+cred: 6
+desc: Continuation of JAPN 160. Offered in Term 2. Students are recommended to complete JAPN 160 and 260 in the same year. Credit will be granted for only one of JAPN 260 or JAPN 151 or both JAPN 102, JAPN 103 or both JAPN 200, JAPN 201. 
+preq: JAPN 101 or JAPN 150 or JAPN 160
+
+code: JAPN 261
+name: Enriched Summer Intensive Beginning Japanese
+cred: 9
+desc: An integrated language course developing communicative competence in speaking, listening to, reading, and writing modern Japanese. Credit will be granted for only one of JAPN 261 or JAPN 161. 
+
+code: JAPN 320
+name: Intermediate Japanese I A
+cred: 3
+desc: Integrated coverage of topics on culture and cross-cultural communication designed to develop competencies in speaking, listening, reading, and writing. It is strongly recommended that JAPN 320 and JAPN 321 be taken in the same year. Credit will be granted for only one of JAPN 320 or JAPN 210 or JAPN 360. 
+preq: JAPN 103 or JAPN 151 or JAPN 201 or JAPN 260
+
+code: JAPN 321
+name: Intermediate Japanese I B
+cred: 3
+desc: Continuation of JAPN 320. It is strongly recommended that JAPN 320 and JAPN 321 be taken in the same year. Credit will be granted for only one of JAPN 321 or JAPN 211 or JAPN 360. 
+preq: JAPN 210 or JAPN 320
+
+code: JAPN 322
+name: Intermediate Japanese II A
+cred: 3
+desc: It is strongly recommended that students plan to complete both JAPN 322 and JAPN 323 within one year. Credit will be granted for only one of JAPN 322 or JAPN 212 or JAPN 361. 
+preq: JAPN 211 or JAPN 250 or JAPN 321 or JAPN 360
+
+code: JAPN 323
+name: Intermediate Japanese II B
+cred: 3
+desc: A continuation of JAPN 322. It is strongly recommended that students plan to complete both JAPN 322 and JAPN 323 within one year. Credit will be granted for only one of JAPN 322 and JAPN 212 or JAPN 361. 
+preq: JAPN 212 or JAPN 322
+
+code: JAPN 342
+name: Reading Course in Japanese for Honours Students
+cred: 6
+
+code: JAPN 360
+name: Intensive Intermediate Japanese I
+cred: 6
+desc: Integrated coverage of topics on culture and  cross-cultural communication designed to develop competencies in speaking, listening, reading, and writing. Offered in Term 1. It is strongly recommended that students plan to complete both JAPN 360 and JAPN 361 within one year. Credit will be granted for only one of JAPN 322 or JAPN 212 or both JAPN 210, JAPN 211 or both JAPN 320, JAPN 321. 
+preq: JAPN 103 or JAPN 151 or JAPN 201 or JAPN 260
+
+code: JAPN 361
+name: Intensive Intermediate Japanese II
+cred: 6
+desc: Continuation of JAPN 360. It is strongly recommended that students plan to complete both JAPN 360 and JAPN 361 within one year. Credit will be granted for only one of JAPN 361 or JAPN 251 or both JAPN 212, JAPN 213 or both JAPN 322, JAPN 323. 
+preq: JAPN 211 or JAPN 250 or JAPN 321 or JAPN 360
+
+code: JAPN 400
+name: Advanced Modern Japanese: Reading and Writing I
+cred: 3
+desc: Selected texts covering various aspects of Japanese cultural history and contemporary Japanese culture/society; emphasis on grammatical analysis and development of advanced competencies for reading and writing. It is strongly recommended that students plan to complete both JAPN 400 and JAPN 401 within one year. Credit will be granted for only one of JAPN 400 or JAPN 300. 
+preq: JAPN 213 or JAPN 251 or JAPN 323 or JAPN 361
+
+code: JAPN 401
+name: Advanced Modern Japanese: Reading and Writing II
+cred: 3
+desc: Continuation of JAPN 301. It is strongly recommended that students plan to complete both JAPN 400 and JAPN 401 within one year. Credit will be granted for only one of JAPN 401 or JAPN 301. 
+preq: JAPN 300 or JAPN 400
+
+code: JAPN 402
+name: Advanced Modern Japanese: Conversation and Composition I
+cred: 3
+desc: Improvement of speaking and writing skills through readings and discussions on a variety of social and cultural issues; emphasis on appropriate language use in formal situations. It is strongly recommended that students plan to complete both JAPN 402 and JAPN 403 within one year. Credit will be granted for only one of JAPN 402 or JAPN 302. 
+preq: JAPN 213 or JAPN 251 or JAPN 323 or JAPN 361
+
+code: JAPN 403
+name: Advanced Modern Japanese: Conversation and Composition II
+cred: 3
+desc: Improvement of speaking and writing skills through readings and discussions on a variety of social and cultural issues; emphasis on the development of formal presentation skills. It is strongly recommended that students plan to complete both JAPN 402 and JAPN 403 within one year. Credit will be granted for only one of JAPN 403 or JAPN 303. 
+preq: JAPN 302 or JAPN 402
+
+code: JAPN 422
+name: Classical Japanese I
+cred: 3
+desc: The grammar, orthography, and literary style of pre-modern Japanese (bungo).  It is strongly recommended that students have 12 credits of JAPN, or equivalent, prior to registration. Credit will be granted for only one of JAPN 422 or JAPN 311. 
+
+code: JAPN 423
+name: Classical Japanese II
+cred: 3
+desc: A continuation of JAPN 422.  Focus on reading pre-modern primary sources and producing English translations. Credit will be granted for only one of JAPN 423 or JAPN 312. 
+preq: JAPN 311 or JAPN 422
+
+code: JAPN 424
+name: Japanese for Professional Life I
+cred: 3
+desc: Technical Japanese as it is used in business, commerce, industry, etc. Emphasis on specialized current vocabulary and on the development of communicative competence relevant for workplaces in these fields. Credit will be granted for only one of JAPN 424 or JAPN 314. 
+preq: JAPN 213 or JAPN 251 or JAPN 323 or JAPN 361
+
+code: JAPN 425
+name: Japanese for Professional Life II
+cred: 3
+desc: Continuation of JAPN 424. Credit will be granted for only one of JAPN 425 or JAPN 315. 
+preq: JAPN 314 or JAPN 424
+
+code: JAPN 450
+name: Advanced Oral Communication I
+cred: 3
+desc: Oral communication skills appropriate for studying and working in a Japanese-speaking environment either formal or informal. Credit will be granted for only one of JAPN 450 or JAPN 410. 
+preq: (JAPN 301 or JAPN 401) and (JAPN 302 or JAPN 402 or JAPN 314 or JAPN 424)
+
+code: JAPN 451
+name: Advanced Oral Communication II
+cred: 3
+desc: A continuation of JAPN 450. Credit will be granted for only one of JAPN 451 or JAPN 411. 
+preq: JAPN 410 or JAPN 450
+
+code: JAPN 452
+name: Readings in Modern Japanese Essays
+cred: 3
+desc: Advanced reading and analysis of scholarly texts in modern Japanese drawn from history, sociology, economics, etc. Advanced conversation, composition, and practice in the use of standard reference tools as preparation for independent research in Japanese. Students are recommended to complete JAPN 403 prior to taking JAPN 452. Credit will be granted for only one of JAPN 452 or JAPN 406. 
+preq: JAPN 301 or JAPN 401
+
+code: JAPN 453
+name: Readings in Modern Japanese Literature
+cred: 3
+desc: An advanced course in the reading and analysis of literary texts in modern Japanese. Advanced conversation, translation into English and practice in the use of standard reference tools as preparation for advanced research in Japanese. Credit will be granted for only one of JAPN 453 or JAPN 408. 
+preq: JAPN 301 or JAPN 401
+
+code: JAPN 456
+name: Newspaper Japanese I
+cred: 3
+desc: Developing fluency in reading contemporary Japanese newspapers; concentration on current and emerging vocabulary, evolving grammatical features, and style of presentation. Credit will be granted for only one of JAPN 456 or JAPN 416. 
+preq: (JAPN 301 or JAPN 401) and (JAPN 302 or JAPN 402 or JAPN 314 or JAPN 424)
+
+code: JAPN 457
+name: Newspaper Japanese II
+cred: 3
+desc: A continuation of JAPN 456. Credit will be granted for only one of JAPN 457 or JAPN 417. 
+preq: JAPN 416 or JAPN 456
+
+code: JAPN 459
+name: Topics in Japanese Language, Culture, and Society
+cred: 3
+desc: Advanced Japanese language course combined with analysis of various media in literary, journalistic, and popular genres drawn from history, sociology, cultural studies, etc. Practice in the use of standard reference tools prepares students for independent research in Japanese. Students are recommended to complete JAPN 403 prior to JAPN 459. Credit will be granted for only one of JAPN 459 or JAPN 419. 
+preq: (JAPN 301 or JAPN 401) and permission from instructor
+
+code: JAPN 460
+name: Grammatical Analysis of Japanese I
+cred: 3
+desc: Analysis of the grammatical structure of modern Japanese. Contrastive analysis of Japanese and English as well as error analysis. Credit will be granted for only one of JAPN 460 or JAPN 420. 
+preq: (JAPN 301 or JAPN 401) and (JAPN 303 or JAPN 403)
+
+code: JAPN 461
+name: Grammatical Analysis of Japanese II
+cred: 3
+desc: A continuation of JAPN 460. Credit will be granted for only one of JAPN 461 or JAPN 421. 
+preq: JAPN 420 or JAPN 460
+
+code: JAPN 462
+name: Researching Modern Japanese Religions
+cred: 3
+desc: Research tools and approaches to the interdisciplinary study of modern Japanese religions (nineteenth century to the present) including state-of-the-field works in English, and locating primary and secondary materials in Japanese. Credit will be granted for only one of JAPN 462 or JAPN 452. 
+preq: (6 credits of 200- or 300-level courses in Asian religions; 3 credit writing-intensive course in Asian Studies; ability to read modern Japanese or 18 credits of Japanese language courses) and permission of instructor
+
+code: JAPN 470
+name: Supervised Study in the Japanese Language
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+desc: Primarily for graduate students. Credit will be granted for only one of JAPN 470 or JAPN 440. 
+
+code: JAPN 472
+name: Tutorial in Japanese for Honours Students
+cred: 12
+desc: This course will require the presentation of at least one research paper. Credit will be granted for only one of JAPN 472 or JAPN 442. 

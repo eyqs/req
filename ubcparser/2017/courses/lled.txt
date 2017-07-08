@@ -1,0 +1,422 @@
+
+
+code: LLED 200
+name: Introduction to Writing in Academic and Professional Registers
+cred: 3
+desc: Examination of sociolinguistic knowledge and skills that are central to the production of academic and professional texts. 
+
+code: LLED 201
+name: Critical Reading and Writing in Academic and Professional Registers
+cred: 3
+
+code: LLED 206
+name: Language Field Experience
+cred: 3, 6
+desc: Guided individual and group projects related to concurrent studies. Field-based assignments related to language study. 
+
+code: LLED 210
+name: Introduction to Analyzing Meanings of Images in Texts
+cred: 3
+desc: Systematic analysis of visual and verbal modalities in academic and professional registers through a "grammar" designed for this purpose. 
+
+code: LLED 211
+name: Field Research in Social Processes of Inclusion and Exclusion: Discourse Perspectives
+cred: 3
+desc: Roles that social discourses of inclusion and exclusion play in intercultural integration. 
+
+code: LLED 212
+name: Introduction to Language Communities and Variation in Language Practices
+cred: 3
+desc: Sociolinguistic analysis of language variation according to age, ethnicity, class, race, and gender, and how these variations function in both reflecting and constructing specific identities and memberships in society. 
+
+code: LLED 213
+name: Introduction to Intercultural Communication and Socialization in Multicultural Contexts
+cred: 3
+desc: The processes by which individuals become competent members of society through the use of language. 
+
+code: LLED 220
+name: Introduction to Translating in a Globalized Society
+cred: 3
+desc: Basic tenets of translation as a methodology for increasing students' sociocultural understanding, intercultural communication, pragmatics, and written English. 
+
+code: LLED 221
+name: Language Maintenance and the Integration of Immigrants in Canada: An Introduction
+cred: 3
+desc: The concept of societal and individual bilingualism/multilingualism in a variety of settings, including Canada in particular. 
+
+code: LLED 222
+name: Introduction to Public and Private Language Practices in a Globalized Society
+cred: 3
+desc: Exploration of the interrelationships between language structure, usage and social context and the interpretive differences that may result from their interaction. 
+
+code: LLED 223
+name: Introduction to the Nature of World Englishes
+cred: 3
+desc: Exploration of the emergence of new English varieties, as well as a critical examination of main reasons linked to the rise of English worldwide and its proposed role as a neutral global language. 
+
+code: LLED 226
+name: Introduction to Language Across the Curriculum
+cred: 3, 6
+desc: Understanding text structure within, and language diversity among, subject areas. Analysis of oral and written language from various curriculum areas in which English is the medium of instruction; implications for learning and instruction. [1.5-3-0]
+
+code: LLED 300
+name: Foundations of Language and Literacy Education: Elementary and Middle Years
+cred: 5
+
+code: LLED 301
+name: Language Across the Curriculum in Multilingual Classrooms: Secondary
+cred: 4
+desc: Pass/Fail. 
+
+code: LLED 310
+name: Introduction to Reading and Language Arts Instruction: Elementary and Middle Years
+cred: 3
+desc: Pass/Fail. 
+creq: EDUC 310 and EDUC 315
+
+code: LLED 312
+name: Curriculum and Instruction in French: Secondary
+cred: 4, 5
+desc: Taught in French. Pass/fail. 
+preq: A completed concentration in French or permission of the Head
+
+code: LLED 313
+name: Curriculum and Instruction in Theatre and Drama: Secondary
+cred: 4, 5
+desc: Pass/fail. 
+preq: A completed concentration in theatre or drama or permission of the Head
+
+code: LLED 315
+name: English as a Second Language - Secondary: Curriculum and Pedagogy
+cred: 3, 4
+desc: Pass/Fail. 
+
+code: LLED 318
+name: Curriculum and Instruction in Modern Languages: Secondary
+cred: 4, 5
+desc: A completed concentration in a modern language (Chinese, German, Italian, Japanese, Russian, Spanish, or Punjabi) or permission of the Head. Pass/Fail. 
+
+code: LLED 320
+name: Curriculum and Instruction in Language and Literacy Education: Elementary and Middle Years
+cred: 4
+desc: Pass/Fail. 
+preq: LLED 310
+
+code: LLED 323
+name: Teaching and Learning Modern Languages: Elementary and Middle Years
+cred: 3
+desc: Curriculum and methods of teaching in modern languages (including Chinese, French, German, Italian, Japanese, Punjabi, Russian, and Spanish). 
+
+code: LLED 324
+name: Teaching and Learning French: Elementary and Middle Years
+cred: 3
+desc: An introduction to communicative core French teaching and learning for generalists. Pass/Fail. 
+preq: French 12 or equivalent prior French experience
+
+code: LLED 325
+name: Teaching and Learning French in Elementary Schools
+cred: 4, 6
+desc: Taught in French. Strategies, theoretical foundations, and approaches related to teaching elementary French (Immersion, Core, Intensive) programs. Pass/Fail. 
+preq: A completed concentration in French or permission of the Head
+
+code: LLED 326
+name: Introduction to Teaching and Learning Mandarin: Elementary/Secondary
+cred: 3
+desc: Pass/Fail for B.Ed. students.  Non-B.Ed. students are eligible for percentage grading or Credit/D/Fail. 
+preq: Grade 11 Mandarin or equivalent
+
+code: LLED 336
+name: Communication: Voice, Audience, Message
+cred: 3
+desc: Knowledge and development of skills necessary to create a transactional style of teaching. 
+
+code: LLED 350
+name: Classroom Discourses: Elementary
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 351
+name: Literacy Practices and Assessment: Elementary
+cred: 2
+desc: Pass/Fail. 
+
+code: LLED 352
+name: Introduction to Teaching and Learning French: Elementary
+cred: 2
+desc: Pass/Fail. 
+
+code: LLED 353
+name: Teaching and Learning English as an Additional Language: Elementary
+cred: 2
+desc: Pass/Fail. 
+
+code: LLED 360
+name: Classroom Discourses and Teaching English Language Learners: Secondary
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 361
+name: Literacy Practices and Assessment: Secondary
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 363
+name: Teaching and Learning English as an Additional Language: Secondary
+cred: 1
+desc: Pass/Fail. 
+
+code: LLED 366
+name: Teaching Literature
+cred: 3
+desc: Curriculum and pedagogy related to the theories, concepts, and strategies relevant in secondary school classrooms. 
+
+code: LLED 367
+name: Teaching Writing
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 368
+name: Multiliteracies in English Language Arts Classrooms
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 371
+name: Foundations of Teaching French: Secondary
+cred: 3
+desc: Pass/Fail. 
+preq: A completed concentration in French of permission of the Department Head
+
+code: LLED 372
+name: Teaching French Language and Literacy: Secondary
+cred: 3
+desc: Language of instruction is French. Pass/Fail for B.Ed. students. Non-B.Ed. students are eligible for percentage grading or Credit/D/Fail grading. 
+
+code: LLED 381
+name: Foundations of Teaching Modern Languages: Secondary
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 382
+name: Teaching Language and Literacy - Modern Languages: Secondary
+cred: 3
+desc: Pass/Fail for B.Ed. students.  Non-B.Ed. students are eligible for percentage grading or Credit/D/Fail grading. 
+
+code: LLED 386
+name: Secondary Theatre: Introduction to Curriculum & Pedagogy
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 387
+name: Secondary Theatre: Applications to Curriculum
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 388
+name: Secondary Theatre: Principles and Design
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 391
+name: Theory and Practice in Reading Instruction
+cred: 3
+desc: Credit may be obtained for only one of LLED 310, 391, 300. 
+
+code: LLED 399
+name: Practicum in Teaching English as a Second Language
+cred: 3
+
+code: LLED 420
+name: Using Canadian Children's Literature in the French Education Classroom
+cred: 3, 4
+desc: Taught in French. Credit will be given for one of LLED 440, LLED 420. 
+
+code: LLED 421
+name: Gramligne: Learning and Teaching Grammar in Text for the Second Language Classroom
+cred: 3
+desc: Taught in French. 
+
+code: LLED 422
+name: Language Assessment in the French as a Second/Additional Language Classroom
+cred: 3
+preq: A completed concentration or major in French or permission of Department Head
+
+code: LLED 423
+name: Teaching French Adolescent Literature: Secondary
+cred: 3
+preq: A completed concentration or major in French or permission of Department Head
+
+code: LLED 426
+name: Principles and Practice of French Program Development
+cred: 3
+desc: Taught in French. The development and implementation of French Immersion, Program Cadre, and French as a Second language Programs for preschool, elementary, secondary, or adult. 
+
+code: LLED 428
+name: Applied Linguistics for Teachers of French
+cred: 3
+preq: FREN 220 or (FREN 222 and FREN 223)
+
+code: LLED 429
+name: Advanced Studies in Modern Language Education
+cred: 3, 6
+desc: Credit will be given for only 6 credits of LLED 480 and LLED 429. 
+
+code: LLED 433
+name: Drama in Education: Creative Approaches and Strategies
+cred: 3
+desc: Drama-based activities relevant to a wide range of classroom contexts; involves reading about, practicing, and discussing various creative drama approaches and strategies developed by contemporary scholars and practitioners. Pass/Fail. 
+
+code: LLED 434
+name: Drama in Education: Cross-Curricular Learning and Story
+cred: 3
+desc: Pass/Fail. 
+
+code: LLED 435
+name: Drama in Education: Community, Inquiry, and Performance
+cred: 3, 6
+desc: Pass/Fail. 
+
+code: LLED 436
+name: Advanced Speech Communication
+cred: 3, 6
+
+code: LLED 439
+name: Shakespeare in the Classroom
+cred: 3
+desc: Pass/Fail. 
+preq: LLED 314. Recommended: at least 3 credit hours of Shakespeare study at the 300- or 400-level in the Faculty of Arts
+
+code: LLED 440
+name: Using Canadian Children's Literature in the Classroom
+cred: 3
+
+code: LLED 441
+name: Introduction to Teaching Children's Literature
+cred: 3
+
+code: LLED 442
+name: Trends and Issues in Teaching Children's Literature
+cred: 3
+
+code: LLED 443
+name: Teaching Folklore in the Elementary Classroom
+cred: 3
+
+code: LLED 444
+name: Transcultural Children's Literature
+cred: 3
+desc: Ways in which children's literature is informed by diverse, complex influences including culture(s) and language(s), and related problems, issues and controversies. 
+
+code: LLED 445
+name: Teaching Poetry
+cred: 3
+desc: Instructional methodologies and theories in teaching all forms of poetry. 
+
+code: LLED 446
+name: Teaching with Illustrated Materials, K-12: From Picture Books to Information Texts
+cred: 3
+
+code: LLED 449
+name: Teaching Adolescents Literature
+cred: 3
+desc: Instructional methodologies and theories in teaching literature to adolescents. 
+
+code: LLED 450
+name: Teaching and Learning Language and Literacy: Kindergarten and Primary Grades
+cred: 3
+preq: An introductory-level reading or language arts education cours
+
+code: LLED 451
+name: Teaching and Learning Language and Literacy: Intermediate and Middle Years
+cred: 3
+preq: An introductory-level reading or language arts education course
+
+code: LLED 452
+name: Disciplinary Literacies: Intermediate Through Secondary
+cred: 3
+desc: How teachers can support students to develop disciplinary literacies that will enable them to understand, analyze, interpret and critique ideas, genres, and language in discipline-specific texts in and beyond the intermediate and secondary school contexts. 
+
+code: LLED 453
+name: Materials and Texts of Literacy Instruction: Elementary
+cred: 3
+preq: An introductory-level reading or language arts education course
+
+code: LLED 454
+name: Adolescent Literacies: Processes and Practices
+cred: 3
+preq: corequisite: an introductory-level reading or language arts or English education course
+
+code: LLED 455
+name: Supporting Language and Literacy for First Nations Learners (K-12)
+cred: 3
+
+code: LLED 456
+name: Identifying and Supporting Learners with Literacy Difficulties
+cred: 3, 6
+desc: Individualized assessment, diagnosis, and instructional planning for students with literacy difficulties. Intensive practicum is included in the 6-credit version of this course. 
+preq: An introductory- level reading or language arts course; successful completion of an extended practicum or one year of teaching experience
+
+code: LLED 457
+name: Special Topics in Reading
+cred: 3, 6
+
+code: LLED 459
+name: Trends and Issues in Literacy Instruction
+cred: 3
+preq: An introductory-level reading or language arts education course
+
+code: LLED 462
+name: School Library Resource Centre Programs
+cred: 3
+
+code: LLED 469
+name: Inquiry-Based Pedagogy in School Library Programs
+cred: 3
+desc: Principles and practices of teachers and teacher-librarians designing and teaching curriculum using inquiry-based pedagogy. LLED 469 is a core course for the Teacher Librarian Diploma. 
+
+code: LLED 478
+name: Introduction to Teaching English as a Second Language
+cred: 3, 4, 5
+preq: For B.Ed. TESL LLED 315
+
+code: LLED 479
+name: The Education of Immigrant Students
+cred: 3
+desc: An examination of the cultural backgrounds of major ethnic groups. Instructional techniques for meeting the needs of immigrant students in the regular classroom with respect to culture and language. 
+
+code: LLED 480
+name: Advanced Studies in Language and Literacy Education
+cred: 1, 2, 3, 4, 5
+desc: Credit will be given for only 6 credits of LLED 480 and 429. 
+
+code: LLED 481
+name: Digital Media in English Language Arts Education
+cred: 3
+
+code: LLED 482
+name: Language, Education, and Gender
+cred: 3
+
+code: LLED 486
+name: Supporting Children's Oral Language Development
+cred: 3
+
+code: LLED 487
+name: Special Topics in English Education
+cred: 3, 6
+preq: An introductory-level reading or language arts or English education course
+
+code: LLED 489
+name: Applied Linguistics for Teachers
+cred: 3, 6
+
+code: LLED 491
+name: Supervised Study in English Education
+cred: 3, 6
+
+code: LLED 492
+name: Supervised Study in Reading
+cred: 3, 6
+
+code: LLED 493
+name: Supervised Study in Modern Languages Education
+cred: 3, 6

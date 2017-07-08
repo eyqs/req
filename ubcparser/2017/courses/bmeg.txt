@@ -1,0 +1,144 @@
+
+
+code: BMEG 101
+name: Introduction to Biomedical Engineering
+cred: 3
+desc: Core principles of biomedical engineering from a clinical perspective. Sensors and instrumentation, bioelectric phenomenon, biosignals, physiological modeling, biomechanics, biomaterials, tissue engineering, the principles of and design for medical imaging equipment, clinical engineering, moral and ethical issues. 
+preq: PHYS 157 and PHYS 158 and MATH 100 and MATH 101
+
+code: BMEG 102
+name: Biomedical Engineering Lab
+cred: 2
+desc: Rapid prototyping of mechanical, electrical and electromechanical systems. Building parts with state of the art software and 3-D printing. Use of laboratory equipment and instrumentation. 
+preq: PHYS 157 and PHYS 158
+creq: BMEG 101
+
+code: BMEG 150
+name: The Fundamental Units of Life: From Cells To Systems
+cred: 4
+desc: The structure and function of cells and how they are organized to generate tissues and organ systems [3-3*-0]
+preq: (BIOL 12) and CHEM 1
+
+code: BMEG 201
+name: Technical Communication for Biomedical Engineers
+cred: 3
+desc: Report preparation, business correspondence, and oral presentation in biomedical engineering specific cases and projects. Credit will not be granted for both BMEG 201 and APSC 201. 
+preq: ENGL 112 and BMEG 101 and BMEG 102
+
+code: BMEG 210
+name: Thermodynamics in Biomedical Engineering
+cred: 2
+desc: Work, heat and energy; material and energy balances; the first law and second law of thermodynamics; entropy and process reversibility; availability (energy) analysis; Hess's Law; thermodynamic properties of fluids; and applications to biomedical systems. 
+preq: CHEM 123 is recommende
+
+code: BMEG 220
+name: Circuits and Electromagnetics with Application to Biomedical Engineering
+cred: 4
+desc: Electromagnetic phenomena in the  body; bioinstrumentation; electrostatic and electromagnetic fields, forces, capacitance and inductance; bio-effects of electromagnetic fields; and modelling electrical components of physiological and biomedical systems. 
+preq: PHYS 157 and PHYS 158 and MATH 100 and MATH 101 and MATH 253 and MATH 256
+creq: MATH 264
+
+code: BMEG 230
+name: Biomechanics I
+cred: 4
+desc: Integrating the study of two dimensional movement of animals and humans with the study of the manner in which forces on biomechanical structures such as bones, ligaments, tendons, muscles and joints cause motion. Techniques of solid mechanics and two dimensional rigid body dynamics. 
+preq: BMEG 101 and PHYS 170
+
+code: BMEG 250
+name: Cellular  Physiology  and Biophysics
+cred: 4
+desc: Cellular structure and mechanisms of membrane transport, signal transduction, muscle mechanochemistry and neurotransmission. Structure and hierarchical organization up to the level of tissues. Light and electron microscopy. 
+preq: BMEG 150
+
+code: BMEG 257
+name: Biomedical Engineering Design I
+cred: 4
+desc: Engineering design process for medical technologies. Clinical practice, the healthcare system, medical approach to diagnosis, ethics and regulations for clinical trials, medical technology management, medical device development and standards, use of statistics for evaluating medical technologies. 
+preq: BMEG 101 and BMEG 102
+
+code: BMEG 310
+name: Introduction to Bioinformatics
+cred: 3
+desc: Principles behind the methods of bioinformatics. The use of bioinformatics databases and tools for solving problems in genomics, proteomics, structural biology and evolutionary biology. 
+preq: BMEG 150 and APSC 160
+
+code: BMEG 320
+name: Bioengineering Feedback Systems and Controls
+cred: 3
+desc: Modeling, analysis and simulation of dynamic systems; system modeling by state space; linearization; feedback, stability and sensitivity; control system design. Examples from biological systems, assistive systems and biomedical equipment 
+preq: PHYS 157 and MATH 253 and MATH 256 and BMEG 220
+
+code: BMEG 330
+name: Biomechanics II
+cred: 3
+desc: Principles and common elements of sports-, orthopaedic-, injury- and cellular length-biomechanics. Improving sports performance and preventing overuse injuries through sports biomechanics, designing orthopaedic implants through orthopaedic biomechanics, preventing injuries through injury biomechanics and identifying and filtering cancerous blood cells through cellular biomechanics. 
+preq: BMEG 230
+
+code: BMEG 350
+name: Human Structure/Function from Cells to Systems
+cred: 4
+desc: Human anatomy, histology and physiology with examples from biomedical engineering. Anatomical compartmentation and function regulation; homeostatic control systems, sensors and effectors; intercellular communication strategies; and cellular and organ function assessment. 
+preq: BMEG 150 and BMEG 250
+
+code: BMEG 357
+name: Biomedical  Engineering Design II
+cred: 3
+desc: Creating innovations in medical technologies. Case studies in need clinical identification. Supervised design process, building and testing prototypes with potential users. 
+preq: BMEG 257
+
+code: BMEG 370
+name: Cellular  Responses  to Forces and Biomaterials
+cred: 3
+desc: Mechanical forces and biomaterials regulating cellular functions critical to tissue development, regeneration and repair. 
+preq: BMEG 150 and BMEG 250 and BMEG 350
+
+code: BMEG 371
+name: Transport Phenomena within Cells and Tissues
+cred: 3
+desc: Fluid flow and mass transport analysis within healthy and diseased cells and tissues using mathematics. Drug delivery and tissue engineering. 
+preq: MATH 100 and MATH 101 and MATH 253 and MATH 256
+
+code: BMEG 372
+name: Biomedical Materials and Drug Delivery
+cred: 3
+desc: Biomaterials science/engineering applied to design and synthesis of drug delivery systems. Biomaterial types, synthesis and testing; the use of biomaterials; biological response; biocompatibility and degradation; drug delivery systems; nanocarriers; modification of polymers; liposomes and micelles; nucleic acid, transdermal and oral delivery. 
+preq: BMEG 150 and BMEG 250 and CHEM 123
+
+code: BMEG 373
+name: Microfludics
+cred: 3
+desc: Advantages and disadvantages of miniaturization of complex fluid flow processes. Manipulating liquid flow; electrophoretic velocity and mobility; serial dilution; capillary electrophoresis; integrated microfluidic platforms; and blood and the motility of bacteria. 
+preq: CHBE 251
+
+code: BMEG 390
+name: Medical Imaging
+cred: 3
+desc: Physical principles of ultrasound, magnetic resonance, computed tomography, X-ray projection imaging and molecular imaging in medical imaging for diagnostics, therapeutics and interventions. 
+preq: BMEG 220 and BMEG 250 and ELEC 371
+
+code: BMEG 410
+name: Biomedical Equipment, Physiology, and Anatomy
+cred: 3
+desc: Principles and operation of biomedical equipment for cardiovascular system, respiratory system, renal dialysis, endoscopy, surgery, and imaging. Functional relationships of biomedical equipment to physiology and anatomy of major body systems. Restricted to students in EECE and MECH Biomedical Engineering options. Credit will be given for only one of BMEG 410 or BMEG 510. [3-0-2*]
+
+code: BMEG 430
+name: Economics of Healthcare Solutions
+cred: 3
+desc: Canadian and USA engineering economics in BME and healthcare systems.  Economic equivalence, cost estimation, risk assessment, regulatory frameworks, economic optimization, intangible factors, ethics, sustainability, financial tools, commercialization and regulator regimes. 
+
+code: BMEG 450
+name: Biomedical Engineering Design Project
+cred: 6
+desc: Capstone design and development of a practical biomedical device or system. Projects provided by local industry and engineering research laboratories. 
+preq: BMEG 350
+
+code: BMEG 456
+name: Clinical and Industrial Biomedical Engineering
+cred: 3
+desc: Principles of clinical practice, Canadian healthcare system, medical approach to diagnosis, ethics and regulations for clinical trials, medical technology management, medical device development and standards, biostatistics. Restricted to students in EECE and MECH Biomedical Engineering options. Credit will be granted for only one of BMEG 456 or BMEG 556. 
+
+code: BMEG 474
+name: Stem Cells and Regenerative Medicine
+cred: 3
+desc: Biology and applications of stem cells in regenerative medicine. Modeling human biology and disease in vitro and in vivo. Regulatory and commercialization pathways for regenerative medicine innovations. 
+preq: BMEG 150 and BMEG 250 and BMEG 350

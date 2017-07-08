@@ -1,0 +1,6 @@
+
+
+code: ORNT 400
+name: Orientation to Medical School and Profession
+cred: 2
+desc: A general introduction to the medical school including beliefs and values embedded within the curriculum. The overall curricular design and expectations regarding evaluation are discussed. 

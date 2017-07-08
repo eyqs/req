@@ -1,0 +1,41 @@
+
+
+code: SANS 300
+name: Introductory Sanskrit
+cred: 6
+desc: Basic vocabulary and most important grammatical features of classical Sanskrit. Useful to students of South Asian history, culture, languages, philosophies, and religions, and of linguistics and classics. Credit will be granted for only one of SANS 300 or SANS 102 or both SANS 100, SANS 101 or both SANS 301, SANS 302. 
+
+code: SANS 301
+name: Introductory Sanskrit I
+cred: 3
+desc: Basic vocabulary and most important grammatical features of classical Sanskrit. Useful to students of South Asian history, culture, languages, philosophies, and religions, and of linguistics and classics. No prior proficiency in Sanskrit required. Credit will be granted for only one of SANS 301 or SANS 100 or SANS 300. 
+
+code: SANS 302
+name: Introductory Sanskrit II
+cred: 3
+desc: Continuation of SANS 301. Credit will be granted for only one of SANS 302 or SANS 101 or SANS 300. 
+preq: SANS 301
+
+code: SANS 400
+name: Intermediate Sanskrit
+cred: 6
+desc: Advanced grammar and selected readings. Credit will be granted for only one of SANS 400 or SANS 200 or both SANS 201, SANS 202 or both SANS 401, SANS 402. 
+preq: SANS 300 or SANS 302
+
+code: SANS 401
+name: Intermediate Sanskrit I
+cred: 3
+desc: Advanced grammar and selected readings. Credit will be granted for only one of SANS 401 or SANS 201 or SANS 400. 
+preq: SANS 300 or SANS 302
+
+code: SANS 402
+name: Intermediate Sanskrit II
+cred: 3
+desc: Continuation of SANS 401. Credit will be granted for only one of SANS 402 or SANS 202 or SANS 400. 
+preq: SANS 401
+
+code: SANS 450
+name: Further Readings in Sanskrit
+cred: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+desc: Study of selected texts belonging to a particular period (e.g., Vedic) or representing a specific branch of kavya (poetic literature) or sastra (technical-philosophical literature). 
+preq: SANS 200 or SANS 202 or SANS 400 or SANS 402

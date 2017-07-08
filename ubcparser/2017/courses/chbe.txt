@@ -1,0 +1,320 @@
+
+
+code: CHBE 201
+name: Integrated Technical Communication
+cred: 3
+desc: Written and oral communication in chemical and biological engineering: business correspondence, laboratory reports, technical description, and poster presentations. Restricted to students in second year of the Chemical and Biological Engineering programs. 
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+creq: CHBE 262
+
+code: CHBE 230
+name: Computational Methods
+cred: 3
+desc: Mathematical formulation of chemical and biological engineering problems; standard techniques of numerical analysis and their application to chemical, environmental and biotechnological systems; program development; use of commercial numerical analysis software. 
+preq: APSC 160
+creq: MATH 256
+
+code: CHBE 241
+name: Material and Energy Balances
+cred: 3
+desc: Introduction to Chemical and Biological Engineering; units; stoichiometry; phase equilibria; material balances; energy balances. 
+
+code: CHBE 243
+name: Introduction to Chemical and Biological Engineering Process and Technology
+cred: 1
+desc: Processes used in chemical and biological industries, which emphasize underlying physical, chemical, and biological principles. 
+
+code: CHBE 244
+name: Chemical and Biological Engineering Thermodynamics I
+cred: 3
+desc: Energy and the first law; second law of thermodynamics; entropy; availability (energy) analysis; thermodynamic properties of fluids, application to power generation, refrigeration, and liquefaction, as well as biological, environmental, and electrochemical systems. 
+preq: CHBE 241
+
+code: CHBE 251
+name: Transport Phenomena I
+cred: 3
+desc: Fluid Mechanics. Momentum-transfer in fluids in laminar and turbulent flow; microscopic and macroscopic material; momentum and energy balances; rheology; dimensional analysis; flow in conduits; pumps; fluid metering. 
+preq: PHYS 170
+creq: MATH 256
+
+code: CHBE 262
+name: Chemical Engineering and Applied Chemistry Laboratory
+cred: 4
+desc: Experiments chosen to illustrate and use material presented in 200-level CHBE and CHEM courses. 
+creq: CHBE 201 and CHBE 241 and CHBE 251 and CHEM 250 and CHEM 251 and CHEM 260
+
+code: CHBE 344
+name: Unit Operations I
+cred: 3
+desc: Characterization of particles, droplets, and bubbles; comminution, screening and classification; filtration, sedimentation, centrifugal separations and fluidization; thermal operations including evaporation and crystalization. 
+preq: CHBE 241 and CHBE 244
+
+code: CHBE 345
+name: Unit Operations II
+cred: 4
+desc: Stage-wise mass transfer operations; extraction and absorption; single and stage-wise binary and multi-component distillation; principles and equipment design for continuous contact mass transfer operations including absorption, binary distillation and others such as extraction, drying, humidification, membrane separations. 
+preq: CHBE 244 and CHBE 251
+
+code: CHBE 346
+name: Chemical and Biological Engineering Thermodynamics
+cred: 3
+desc: Volumetric and thermodynamic properties of fluids; equations of state; heat effects; ideal and non-ideal mixtures; fugacities and activity coefficients; vapor-liquid and liquid-liquid phase equilibrium; solubility of gases and solids in liquids; chemical reaction equilibrium; equilibrium partitioning of pollutants. 
+preq: CHBE 241 and CHBE 244 and CHEM 251
+
+code: CHBE 351
+name: Transport Phenomena II
+cred: 3
+desc: Heat and mass transfer; conduction and molecular diffusion; convective transfer; thermal radiation; analogies among heat, mass and momentum transfer; heat exchanger design. 
+preq: CHBE 251
+
+code: CHBE 355
+name: Kinetics and Reactor Design
+cred: 3
+desc: Kinetics of homogeneous chemical and biological reactions, isothermal ideal reactor design, analysis of non-ideal reactors using residence time distribution and mixing models. [3-0-1]
+preq: CHEM 251
+
+code: CHBE 356
+name: Process Dynamics and Control
+cred: 3
+desc: Introduction to modeling of chemical processes; transient response analysis; design of feedback control systems; stability analysis; frequency response analysis; process control applications; instrumentation; advanced control techniques; distributed control systems. 
+preq: MATH 255 or MATH 256
+
+code: CHBE 362
+name: Process and Environmental Engineering Laboratory
+cred: 2
+desc: Experiments to illustrate and use material presented in 200 and 300-level CHBE courses.  Field trips may be required. 
+preq: CHBE 241 and CHBE 251 and CHBE 262
+creq: CHBE 344 and CHBE 351
+
+code: CHBE 364
+name: Environmental Engineering Laboratory
+cred: 2
+desc: Laboratory experiments to illustrate key concepts and measurement techniques in environmental engineering as used by  engineers. 
+creq: Third-year standing in ENVE program
+
+code: CHBE 365
+name: Biological Engineering  Laboratory
+cred: 2
+desc: Laboratory experiments to illustrate key concepts and measurement techniques in biotechnology as used by engineers. Field trips may be required. 
+preq: CHBE 241 and CHBE 262 and BIOL 112
+creq: CHBE 381
+
+code: CHBE 366
+name: Chemical Engineering Laboratory
+cred: 2
+desc: Experiments to illustrate and use material presented in 300-level CHBE process option courses. Field trips may be required. 
+preq: CHBE 241 and CHBE 251 and CHBE 262
+creq: CHBE 345 and CHBE 356
+
+code: CHBE 373
+name: Water Pollution Control
+cred: 3
+desc: Legal, environmental and physicochemical aspects of industrial water pollution and its abatement will be surveyed; techniques for design of wastewater treatment processes currently used in industry; case studies from chemical and process industries will be considered in detail. 
+preq: CHBE 251 or CIVL 215 or MECH 280 or MTRL 263
+
+code: CHBE 376
+name: Computer Flowsheeting and Fluid Properties Estimation
+cred: 3
+desc: Theory and practice of computer flowsheeting in chemical plant design; hands-on use of modern process simulators, prediction of thermodynamic properties of fluids; behaviour of single and multiphase systems. 
+preq: CHBE 241
+
+code: CHBE 381
+name: Bioprocess Engineering I
+cred: 3
+desc: Design of industrial bioreactor systems: organism selection; kinetics of microbial processes and enzyme reactions; design and modeling of single and multi-stage bioreactors. 
+preq: BIOL 112 and (MATH 101 or MATH 103 or MATH 105 or CHBE 241 or CHBE 251. Third or fourth year standing)
+
+code: CHBE 401
+name: Mechanical Pulping and Papermaking
+cred: 3
+desc: Process and unit operations in mechanical pulping and papermaking, emphasizing principles and practice of refining, screening, cleaning, papermaking and properties of paper products, key economic and environmental issues. 
+
+code: CHBE 402
+name: Biomass Fractionation Technology
+cred: 3
+desc: Process and unit operations in the conversion of wood chips to pulp and green bio-products. Biorefinery concepts and emerging technologies for the production of biomaterials, biochemicals and bioenergy. 
+
+code: CHBE 419
+name: Industrial Biotechnology Laboratory
+cred: 3
+desc: Modern bioreactor technology, upstream and downstream processing of biotechnology products. Restricted to students in the Joint Degree in Biotechnology. [1-4-0]
+
+code: CHBE 452
+name: Environmental Process Design Project
+cred: 6
+desc: 8-month project-based course, concepts from chemical, biological, and environmental science engineering with economics, life cycle analysis and health and safety considerations to solve problems related to the protection of the environment. [2-0-8]
+preq: CHBE 254 and CHBE 344 and CHBE 346 and CHBE 351 and CHBE 356 and CHBE 373
+creq: CHBE 459
+
+code: CHBE 453
+name: Biological Process and Product Design
+cred: 6
+desc: 8-month project-based course, integrating chemical and biological engineering concepts with economics, life cycle analysis and health and safety considerations in the design of major biological processes. 
+preq: BIOL 112 and CHBE 346 and CHBE 356 and CHBE 376 and CHBE 381
+creq: CHBE 457 and CHBE 459
+
+code: CHBE 454
+name: Chemical Process and Product Design
+cred: 6
+desc: 8-month project-based course, integrating chemical engineering concepts with economics, life cycle analysis and health and safety considerations in the design of major chemical processes. 
+preq: CHBE 346 and CHBE 351 and CHBE 356 and CHBE 376
+creq: CHBE 457 and CHBE 459
+
+code: CHBE 455
+name: Kinetics and Reactor Design
+cred: 3
+desc: Kinetics of homogeneous chemical and biological reactions, isothermal ideal reactor design, analysis of non-ideal reactors using residence time distribution and mixing models. 
+preq: CHEM 251
+
+code: CHBE 456
+name: Heterogenous Catalysis and Advanced Reactor Design
+cred: 3
+desc: Definition of heterogeneous catalysis; properties of catalysts; kinetics of catalytic reactions; ideal heterogeneous reactors; non-isothermal reactor design; mass and heat transfer effects in heterogeneous reactors; examples of industrial reactors. 
+preq: CHBE 351 and CHBE 355
+
+code: CHBE 457
+name: Process Synthesis
+cred: 3
+desc: Strategy for the conceptual design of industrial chemical and biological processes; rules of thumb for chemical engineers, simulation to assist process synthesis, reactor-separator network synthesis, introduction to product design and molecular structure design, efficiency and sustainability in the chemical industry. 
+preq: CHBE 241 and CHBE 346 and CHBE 376 and CHBE 344
+
+code: CHBE 459
+name: Chemical and Biological Engineering Economics
+cred: 3
+desc: Estimation of capital and operating costs; interest calculations; taxes; economic comparison of alternatives; economic optimization. 
+
+code: CHBE 464
+name: Chemical and Biological Engineering Laboratory
+cred: 4
+desc: Experiments in unit operations relating to process, environmental and biological engineering. Experiments are designed to provide experience in instrumentation and control. Field trips may be required. 
+preq: (CHBE 345 and CHBE 355 and CHBE 356 and CHBE 362) and (CHBE 365 or CHBE 366)
+
+code: CHBE 465
+name: Rehabilitation and Design of Aquatic Habitat
+cred: 3
+desc: Modeling the effects of the environment and nutrient availability on growth and waste production; designing closed and open environments for aquatic organisms; developing prescriptions for habitat rehabilitation. 
+preq: BIOL 112 and third-year standing also required
+
+code: CHBE 470
+name: Transport in Biological Systems
+cred: 3
+desc: Mass transport and fluid flow, including physiological tissues and tissue constructs. Mass transport deficiencies that lead to the development of pathological tissue and drug delivery to these tissues. Biological engineering for the design of tissue constructs and artificial organs. Credit will be granted for only one of CHBE 470 or CHBE 570. 
+preq: BIOL 112
+
+code: CHBE 474
+name: Process Control Engineering
+cred: 3
+desc: Frequency response analysis; advanced control techniques; multivariable control systems; mathematical tools for computer control systems; design of computer control systems; engineering design of industrial control applications; plant wide control concepts; distributed control systems concepts. 
+preq: CHBE 356 and CHBE 376
+
+code: CHBE 476
+name: Modelling and Optimization in Chemical Engineering
+cred: 3
+desc: Mathematical modelling of chemical plants and processes; computer simulation; introduction to numerical optimization techniques. 
+preq: CHBE 344 and CHBE 376
+
+code: CHBE 477
+name: Fuel Cell and Electrochemical Engineering
+cred: 3
+desc: Stoichiometry, thermodynamics and kinetics of electrode reactions; conductivity and mass transport in electrolytes; material, energy and voltage balances; design of  electrosynthesis, electrorecovery of metals, and energy generation of batteries and fuel cells. 
+preq: CHBE 241 and CHBE 345
+
+code: CHBE 479
+name: Chemical Engineering Aspects of Occupational Health and Safety
+cred: 3
+desc: Relationship between current engineering practice and worker health and safety. Engineering analysis of industrial health and safety problems. 
+preq: Third-year Chemical and Biological Engineering
+
+code: CHBE 480
+name: Hazardous Waste Processing Technology
+cred: 3
+desc: Characterization, treatment and final disposal of hazardous waste with emphasis upon chemical engineering principles. Topics to include relevant legislation, in-plant minimization, treatment options and clean-up of contaminated sites. Case studies to be used for illustration. 
+preq: Third year Chemical and Biological Engineering
+
+code: CHBE 481
+name: Bioprocess Engineering II
+cred: 3
+desc: Bioprocess flowsheeting; production-scale fermenter design; product recovery and purification; bioseparations; chromatography; viral inactivation and removal; process validation. 
+preq: CHBE 381
+
+code: CHBE 482
+name: Petroleum Refining Process Modeling and Simulation
+cred: 3
+desc: Petroleum feed stocks testing methods, pseudocomponents, and property methods. Design and simulation of separation and reaction systems. Steady state and dynamic simulation. 
+preq: CHBE 345 and CHBE 355 and CHBE 376
+
+code: CHBE 483
+name: Energy Engineering
+cred: 3
+desc: Supply and use of conventional and alternative fuels and energy.  Design and operation of unit operations for processing of fossil fuels, biomass, and other energy sources.  Environmental considerations of energy use. 
+preq: Third-year Chemical and Biological Engineering
+
+code: CHBE 484
+name: Green Engineering Principles and Applications for Process Industries
+cred: 3
+desc: Pollution prevention, cleaner production, green chemistry and engineering, industrial ecology, eco-industrial parks, and sustainable development; environmental impact assessment including life-cycle assessment, total cost analysis and environmental systems analysis; reduce/recycling/reuse of wastes and by-products. 
+preq: CHBE 241 and CHBE 244
+
+code: CHBE 485
+name: Air Pollution Prevention and Control
+cred: 3
+desc: Impacts of air pollutants on health, visibility, smog formation, ozone depletion and global warming; air quality and emission standards; atmospheric dispersion of air pollutants; prevention and control technologies for particulates, SOx, NOx, VOCs, and CO2. 
+
+code: CHBE 486
+name: Waste Management for Resource Recovery
+cred: 3
+desc: Physico-chemical, thermal, and biological methods for purification of solid waste and wastewater, and conversion to bioproducts/industrial products, energy and clean water. 
+preq: CHBE 241 and CHBE 244 and CHBE 373
+
+code: CHBE 487
+name: Interfacial Phenomena
+cred: 3
+desc: Outline of the physics and chemistry of interfaces; discussion of the part played by surface effects in technical processes. Credit will be granted for only one of CHBE 357 and CHBE 487. [3-0-0]
+preq: CHBE 241
+
+code: CHBE 489
+name: Pollution Control in the Pulp and Paper Industry
+cred: 3
+desc: Pollutants of concern in the pulp and paper industry; environmental impact of the industry; technologies used for the control of solid, liquid and gaseous wastes. 
+
+code: CHBE 491
+name: Thesis Proposal
+cred: 1
+desc: Literature searching, planning, equipment design, experimental design for an individual research project leading to a written proposal and oral presentation. 
+preq: CHBE 362 and CHBE 366
+
+code: CHBE 492
+name: Thesis
+cred: 5
+desc: Research project under the direction of a staff member. 
+preq: CHBE 491
+
+code: CHBE 493
+name: Thesis Proposal-Environmental Topic
+cred: 1
+desc: Literature search, planning, equipment design for an individual research project leading to a written proposal and oral presentation. Topic to be chosen from a selection of environmental topics offered by the department. 
+preq: CHBE 362 and CHBE 364
+
+code: CHBE 494
+name: Thesis-Environmental Topic
+cred: 5
+desc: Environmental engineering research topic. 
+preq: CHBE 493
+
+code: CHBE 495
+name: Thesis Proposal-Biotechnology Topic
+cred: 1
+desc: Literature search, planning, equipment design for an individual research project leading to a written proposal and oral presentation. Topic to be chosen from a selection of biotechnology topics offered by the department. 
+preq: CHBE 362 and CHBE 365
+
+code: CHBE 496
+name: Thesis Biotechnology Topic
+cred: 5
+desc: Biotechnological engineering research topic. 
+preq: CHBE 495
+
+code: CHBE 498
+name: Engineering Report
+cred: 1
+desc: This should be written on some subject of scientific interest or technical interest, based preferably on personal experience. Specifications are issued by the Department. 
+preq: Third-year Chemical and Biological Engineering

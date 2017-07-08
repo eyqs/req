@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """
 req v1.3
-Copyright (c) 2016 Eugene Y. Q. Shen.
+Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -19,8 +19,8 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import urllib.request
 # Adjust these according to which sessions are available
 SESSION = [
-    {'url': '&sessyr=2016&sesscd=S', 'name': '2016S', 'year': '2015/'},
-    {'url': '&sessyr=2016&sesscd=W', 'name': '2016W', 'year': '2016/'}]
+    {'url': '&sessyr=2017&sesscd=S', 'name': '2017S', 'year': '2016/'},
+    {'url': '&sessyr=2017&sesscd=W', 'name': '2017W', 'year': '2017/'}]
 OUTFILE = 'courses/terms.txt'
 # List of all activity types, taken from search page
 ACTIVITY = ['<td>' + activity + '</td>' for activity in
@@ -56,7 +56,7 @@ def get_codes(url):
         # Course looks like <td><a href="/cs/main?pname=subjarea& \
         #   tname=subjareas&req=3&dept=CPSC&course=110">CPSC 110</a></td>
         course = line.decode('UTF-8', 'backslashreplace')
-        if '&course' in course:
+        if '&course' in course or '&amp;course' in course:
             codes.add(course.split('=')[7].split('"')[0])
     return sorted(codes)
 
@@ -68,14 +68,14 @@ def get_depts(url):
         # Department looks like <a href="/cs/main?pname=subjarea& \
         #   tname=subjareas&req=1&dept=CPSC">CPSC</a>
         department = line.decode('UTF-8', 'backslashreplace')
-        if '&dept' in department:
+        if '&dept' in department or '&amp;dept' in department:
             depts.add(department.split('=')[6].split('"')[0])
     return sorted(depts)
 
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
     for session in SESSION:
-        with open(session['year'] + OUTFILE, 'w') as f:
+        with open(session['year'] + OUTFILE, 'a') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' +
                           session['name'])

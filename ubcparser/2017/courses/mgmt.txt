@@ -1,0 +1,11 @@
+
+
+code: MGMT 100
+name: Introduction to Canadian Business
+cred: 3
+desc: Introduction to the Faculty of Management and functional areas of business including accounting, economics, finance, marketing, organizational behaviour, business policy, and entrepreneurship. Steps needed to build a successful local, national, and international competitive business. Ethical and policy decisions faced by business and government. 
+
+code: MGMT 200
+name: Personal and Corporate Social Responsibility
+cred: 3
+desc: Increase awareness of a wide range of ethical challenges, test the strengths of personal moral beliefs and ethical arguments, and utilize critical thinking skills in making ethical decisions appropriate for corporate social responsibility practices. 
