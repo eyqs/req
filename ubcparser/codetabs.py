@@ -17,21 +17,22 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
-INFOLDER  = '2017/courses/'
+INFILE = '2017/courses/terms.txt'
 OUTFOLDER = '2017/tabs/'
-TERMSFILE = '2017/courses/terms.txt'
 
 if __name__ == '__main__':
-    terms = set()
-    with open(TERMSFILE, 'r') as termsfile:
-        for line in termsfile:
+    codes = set()
+    outfile = None
+    current_dept = None
+    with open(INFILE, 'r') as infile:
+        for line in infile:
             if line.strip().startswith('code'):
-                terms.add(line.split(':')[1].strip())
-    for name in os.listdir(INFOLDER):
-        with open(INFOLDER + name, 'r') as infile:
-            with open(OUTFOLDER + name, 'w') as outfile:
-                for line in infile:
-                    if line.strip().startswith('code'):
-                        course = line.split(':')[1].strip()
-                        if course in terms:
-                            outfile.write('\n' + course)
+                dept, course = line.split(':')[1].strip().split(' ')
+                if int(course[0]) > 4:
+                    continue
+                if dept != current_dept:
+                    current_dept = dept
+                    if outfile:
+                        outfile.close()
+                    outfile =  open(OUTFOLDER + dept.lower() + '.txt', 'w')
+                outfile.write(dept + ' ' + course + ',\n')

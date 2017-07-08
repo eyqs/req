@@ -191,14 +191,15 @@ function drawApp() {
 
 // parse the given course codes
 function parseCodes() {
+  // TODO: instead of deleting trailing letters, parse UBC Course Schedule
   /* Remove all whitespace, add one space before first number,
-   * convert to uppercase, filter out blanks and unknown codes,
-   * and finally return only unique valid course codes.
+   * delete trailing letters, convert to uppercase, filter out blanks,
+   * filter out unknown codes, and return only unique valid course codes.
    */
     codeList = codeList.map((code) => code.replace(/\s/g, "")
-      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2$3").toUpperCase())
-      .filter((code, i) => code.length !== 1
-        && allCourses.hasOwnProperty(code) && codeList.indexOf(code) != i);
+      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
+    codeList = codeList.filter((code, i) => code.length !== 1
+        && allCourses.hasOwnProperty(code) && codeList.indexOf(code) == i);
     courseData = []
     for (var i = 0; i < codeList.length; i++) {
         courseData[codeList[i]] = new CourseData();

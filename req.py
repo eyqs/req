@@ -201,8 +201,8 @@ for name in os.listdir(TABS):
         with open(TABS + '/' + name) as f:
             for line in f:
                 if line.strip():
-                    temp.append(line.strip())
-                    tabsall.append(line.strip())
+                    temp.append(line.strip().strip(','))
+                    tabsall.append(line.strip().strip(','))
         if temp:
             tab = '.'.join(name.split('.')[:-1])
             tabs[tab] = tuple(temp)
@@ -218,15 +218,11 @@ for name in os.listdir(COURSES):
                     value = ':'.join(split[1:]).strip()
                     if param == 'code':
                         if value in courses.keys():
-                            hascourse = True
                             course = courses[value]
-                        elif value in tabsall:
+                        else:
                             course = Course(value)
                             courses[value] = course
-                            hascourse = True
-                        else:
-                            hascourse = False
-                    elif hascourse:
+                    else:
                         course.set_params(param, value)
 
 # Add course dependencies and other miscellaneous things
