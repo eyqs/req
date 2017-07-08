@@ -28,9 +28,18 @@ var BTNPADDING = 10;
 var DEPTHPADDING = 20;
 var TITLEPADDING = 40;
 var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
-  "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
+  "creq":"gold", "preq":"pink", "excl":"lightsteelblue", "xout":"lavender" };
 
-/* Structure for courses is in req.txt */
+/* done: already taken
+ * none: meets all prerequisites and corequisites
+ * creq: meets all prerequisites, does not meet all corequisites
+ * preq: does not meet all prerequisites
+ * excl: cannot take for credit given previously taken and current courses
+ * xout: none or excl, depending on classes taken outside the current tree
+ * outs: status could be anything, depending on classes outside the tree
+ */
+
+// structure for courses is in req.txt
 function CourseData() {
   this.x;
   this.y;
@@ -38,7 +47,7 @@ function CourseData() {
   this.needs = "none";
 }
 
-/* Return the cursor position relative to the canvas */
+// return the cursor position relative to the canvas
 function getCursorPosition(e) {
   var x, y;
   if (e.pageX != undefined && e.pageY != undefined) {
@@ -55,7 +64,7 @@ function getCursorPosition(e) {
   return { x:x, y:y };
 }
 
-/* Decide what to do when user clicks */
+// decide what to do when user clicks
 function onClick(e) {
   var pos = getCursorPosition(e);
   for (var i = 0; i < codeList.length; i++) {
@@ -81,7 +90,7 @@ function onClick(e) {
   drawApp();
 }
 
-/* Recursively check whether the requirements are satisfied */
+// recursively check whether the requirements are satisfied
 function doneReqs(reqs) {
   if (reqs.length == 0) {
     return "done";
@@ -120,29 +129,39 @@ function doneReqs(reqs) {
   }
 }
 
-/* Update the status of a course */
+// update the status of a course
 function updateCourse(code) {
   if (courseData[code].needs != "done") {
-    /* See req.py for detailed comments */
+    // if any excluded course in the current tree is done -> excl
     if (allCourses[code].excl.length > 1 &&
       doneReqs(allCourses[code].excl) == "done") {
       courseData[code].needs = "excl";
+    // if any prerequisite in the current tree is not done -> preq
     } else if (doneReqs(allCourses[code].preq) == "none") {
       courseData[code].needs = "preq";
+    // if any corequisite in the current tree is not done -> creq
     } else if (doneReqs(allCourses[code].creq) == "none") {
       courseData[code].needs = "creq";
-    } else if ((allCourses[code].excl.length <= 1 ||
-      doneReqs(allCourses[code].excl) == "none") &&
-      doneReqs(allCourses[code].preq) == "done" &&
-      doneReqs(allCourses[code].creq) == "done") {
-      courseData[code].needs = "none";
+    // if all prerequisites are in the current tree and done, and
+    //    all corequisites are in the current tree and done, then check
+    } else if (doneReqs(allCourses[code].preq) == "done"
+               && doneReqs(allCourses[code].creq) == "done") {
+      // if all excluded courses are in the current tree and not done -> none
+      if (allCourses[code].excl.length <= 1
+          || doneReqs(allCourses[code].excl) == "none") {
+        courseData[code].needs = "none";
+      // otherwise, some excluded course is not in the current tree -> xout
+      } else {
+        courseData[code].needs = "xout";
+      }
+    // otherwise, some rerequisite course is not in the current tree -> outs
     } else {
       courseData[code].needs = "outs";
     }
   }
 }
 
-/* Draw the entire application on the canvas */
+// draw the entire application on the canvas
 function drawApp() {
   ctx.fillStyle = "black";
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
@@ -170,7 +189,7 @@ function drawApp() {
   }
 }
 
-/* Parse the given course codes */
+// parse the given course codes
 function parseCodes() {
   /* Remove all whitespace, add one space before first number,
    * convert to uppercase, filter out blanks and unknown codes,
@@ -188,7 +207,8 @@ function parseCodes() {
   /* Arrange courses in order depending on their depth of prereqs
    * First scan through courses with no preqs and set their depth to 1,
    * then scan through all courses whose preqs all have a non-zero depth
-   * of which the maximum is 1, and set their depth to 2, etc. until done */
+   * of which the maximum is 1, and set their depth to 2, etc. until done.
+   */
     var unordered = [];
     for (var i = 0; i < codeList.length; i++) {
         unordered.push(codeList[i]);
@@ -199,8 +219,8 @@ function parseCodes() {
         depth += 1;
         for (var i = unordered.length - 1; i >= 0; i--) {
             var code = unordered[i];
-            var hasreq = false; /* Has a prereq in the current tree */
-            var badreq = false; /* Has a prereq with zero or current depth */
+            var hasreq = false; // has a prereq in the current tree
+            var badreq = false; // has a prereq with zero or current depth
             for (var j = 0; j < allCourses[code].preqs.length; j++) {
                 var preq = allCourses[code].preqs[j];
                 if (codeList.indexOf(preq) != -1) {
@@ -224,7 +244,7 @@ function parseCodes() {
         }
     }
 
-    /* Find correct coordinates to place each button */
+    // find correct coordinates to place each button
     var x = BORDER;
     var y = BORDER + TITLEPADDING;
     for (var d = 0; d <= depth; d++) {
