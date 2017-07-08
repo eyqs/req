@@ -25,6 +25,9 @@ var BORDER = 50;
 var BTNWIDTH = 100;
 var BTNHEIGHT = 30;
 var BTNPADDING = 10;
+var HOVERWIDTH = 300;
+var HOVERHEIGHT = 500;
+var HOVERPADDING = 5;
 var DEPTHPADDING = 20;
 var TITLEPADDING = 40;
 var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
@@ -45,6 +48,27 @@ function CourseData() {
   this.y;
   this.depth = 0;
   this.needs = "none";
+}
+
+// return an array of lines of wrapped hoverbox text
+function wrapText(text) {
+  var padded_width = HOVERWIDTH - 2 * HOVERPADDING;
+  var lines = [];
+  for (var i = 0; i < text.length; i++) {
+    var line = "";
+    var words = text[i].split(' ');
+    lines.push("");
+    for (var j = 0; j < words.length; j++) {
+      if (ctx.measureText(line + words[j]).width > padded_width) {
+        lines.push(line.trim());
+        line = words[j] + ' ';
+      } else {
+        line += words[j] + ' ';
+      }
+    }
+    lines.push(line.trim());
+  }
+  return lines;
 }
 
 // return the cursor position relative to the canvas
@@ -85,6 +109,84 @@ function onClick(e) {
           updateCourse(dependency);
         }
       }
+      drawApp();
+      return;
+    }
+  }
+}
+
+// decide what to do when user moves mouse
+function onMouseMove(e) {
+  var pos = getCursorPosition(e);
+  for (var i = 0; i < codeList.length; i++) {
+    var code = codeList[i];
+    if (pos.x > courseData[code].x &&
+      pos.x < courseData[code].x + BTNWIDTH &&
+      pos.y > courseData[code].y &&
+      pos.y < courseData[code].y + BTNHEIGHT) {
+      drawApp();
+      var text = [];
+      text.push(allCourses[code].code)
+      if (allCourses[code].name) {
+        text[0] += ": " + allCourses[code].name;
+      } if (allCourses[code].desc.length > 0) {
+        text.push(allCourses[code].desc);
+      } if (allCourses[code].preqs.length > 0) {
+        text.push("Prereqs: " + allCourses[code].preqs.join(", "));
+      } if (allCourses[code].creqs.length > 0) {
+        text.push("Coreqs: " + allCourses[code].creqs.join(", "));
+      } if (allCourses[code].excl.length > 1) {
+        text.push("Exclusions: " + allCourses[code].excl.slice(1).join(", "));
+      } if (allCourses[code].dreqs.length > 0) {
+        text.push("Required by: " + allCourses[code].dreqs.join(", "));
+      } if (allCourses[code].cred.length > 0) {
+        text.push("Credits: " + allCourses[code].cred.join(", "));
+      }
+      ctx.textAlign = "start";
+      ctx.textBaseline = "top";
+      ctx.font = "12px sans-serif";
+      var y = 0;
+      var wrappedText = wrapText(text);
+      for (var i = 0; i < wrappedText.length; i++) {
+        var line = wrappedText[i];
+        if (line) {
+          y += 12;
+          if (y > HOVERHEIGHT - 2 * HOVERPADDING) {
+            var padded_width = HOVERWIDTH - 2 * HOVERPADDING;
+            wrappedText[i] = line + " ...";
+            if (ctx.measureText(wrappedText[i]).width > padded_width) {
+              var words = line.split(' ');
+              for (var j = words.length; j >= 0; j--) {
+                var cut_line = words.slice(0, j).join(' ') + " ...";
+                if (ctx.measureText(cut_line).width < padded_width) {
+                  wrappedText[i] = cut_line;
+                  break;
+                }
+              }
+            }
+            wrappedText = wrappedText.slice(0, i + 1)
+            break;
+          }
+        } else {
+          y += 6;
+        }
+      }
+      var posx = pos.x - HOVERWIDTH < BORDER ? pos.x : pos.x - HOVERWIDTH;
+      ctx.fillStyle = "honeydew";
+      ctx.fillRect(posx, pos.y, HOVERWIDTH, y + 2 * HOVERPADDING);
+      ctx.fillStyle = "black";
+      ctx.strokeRect(posx, pos.y, HOVERWIDTH, y + 2 * HOVERPADDING);
+      y = 0;
+      for (var i = 0; i < wrappedText.length; i++) {
+        var line = wrappedText[i];
+        if (line) {
+          ctx.fillText(line, posx + HOVERPADDING, pos.y + HOVERPADDING + y);
+          y += 12;
+        } else {
+          y += 6;
+        }
+      }
+      return;
     }
   }
   drawApp();
@@ -293,6 +395,7 @@ function startApp() {
     c.width = WIDTH;
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
+    c.addEventListener("mousemove", onMouseMove, false);
     drawApp();
   }
 }
