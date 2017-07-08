@@ -4,16 +4,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>req</title>
+  <link href="req.css" rel="stylesheet">
   <script src="req.txt"></script>
   <script src="req.js"></script>
 </head>
 <body>
-  <form id="form" onsubmit="initApp(document.getElementById('form'),
-                                    document.getElementById('nocanvas'),
-                                    document.getElementById('canvas'));
-                            return false;">
-    Enter course codes to display, separated by commas and spaces (no newlines! remember the space!):<br>
-    <textarea id="courses" rows="10" placeholder="MATH 100, MATH 101, ENGL 112"></textarea><br>
+<div id="wrapper">
+  <h1>req v1.3</h1>
+  <h2>The UBC Prereq Tree</h2>
+  <a href="https://github.com/eyqs/req">
+    <img id="github" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+  </a>
+  <form id="form">
+    <p>Enter course codes to display, separated by commas:</p>
+    <textarea id="courses" rows="10" placeholder="MATH 100, MATH101,engl112,,,  TeSt2 0 0"></textarea><br>
     <input type="submit" value="Launch">
   </form>
   <p id="nocanvas"></p>

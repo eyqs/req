@@ -28,162 +28,167 @@ var BTNPADDING = 10;
 var DEPTHPADDING = 20;
 var TITLEPADDING = 40;
 var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
-                "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
+  "creq":"gold", "preq":"pink", "excl":"lightsteelblue" };
 
 /* Structure for courses is in req.txt */
 function CourseData() {
-    this.x;
-    this.y;
-    this.depth = 0;
-    this.needs = "none";
+  this.x;
+  this.y;
+  this.depth = 0;
+  this.needs = "none";
 }
 
 /* Return the cursor position relative to the canvas */
 function getCursorPosition(e) {
-    var x, y;
-    if (e.pageX != undefined && e.pageY != undefined) {
-        x = e.pageX;
-        y = e.pageY;
-    } else {
-        x = e.clientX + document.body.scrollLeft +
-            document.documentElement.scrollLeft;
-        y = e.clientY + document.body.scrollTop +
-            document.documentElement.scrollTop;
-    }
-    x -= c.offsetLeft;
-    y -= c.offsetTop;
-    return { x:x, y:y };
+  var x, y;
+  if (e.pageX != undefined && e.pageY != undefined) {
+    x = e.pageX;
+    y = e.pageY;
+  } else {
+    x = e.clientX + document.body.scrollLeft +
+      document.documentElement.scrollLeft;
+    y = e.clientY + document.body.scrollTop +
+      document.documentElement.scrollTop;
+  }
+  x -= c.offsetLeft;
+  y -= c.offsetTop;
+  return { x:x, y:y };
 }
 
 /* Decide what to do when user clicks */
 function onClick(e) {
-    var pos = getCursorPosition(e);
-    for (var i = 0; i < codeList.length; i++) {
-        var code = codeList[i];
-        if (pos.x > courseData[code].x &&
-            pos.x < courseData[code].x + BTNWIDTH &&
-            pos.y > courseData[code].y &&
-            pos.y < courseData[code].y + BTNHEIGHT) {
-            if (courseData[code].needs == "done") {
-                courseData[code].needs = "none";
-            } else {
-                courseData[code].needs = "done";
-            }
-            updateCourse(code);
-            for (var j = 0; j < allCourses[code].dreqs.length; j++) {
-                var dependency = allCourses[code].dreqs[j];
-                if (codeList.indexOf(dependency) != -1) {
-                    updateCourse(dependency);
-                }
-            }
+  var pos = getCursorPosition(e);
+  for (var i = 0; i < codeList.length; i++) {
+    var code = codeList[i];
+    if (pos.x > courseData[code].x &&
+      pos.x < courseData[code].x + BTNWIDTH &&
+      pos.y > courseData[code].y &&
+      pos.y < courseData[code].y + BTNHEIGHT) {
+      if (courseData[code].needs == "done") {
+        courseData[code].needs = "none";
+      } else {
+        courseData[code].needs = "done";
+      }
+      updateCourse(code);
+      for (var j = 0; j < allCourses[code].dreqs.length; j++) {
+        var dependency = allCourses[code].dreqs[j];
+        if (codeList.indexOf(dependency) != -1) {
+          updateCourse(dependency);
         }
+      }
     }
-    drawApp();
+  }
+  drawApp();
 }
 
 /* Recursively check whether the requirements are satisfied */
 function doneReqs(reqs) {
-    if (reqs.length == 0) {
-        return "done";
+  if (reqs.length == 0) {
+    return "done";
+  }
+  var done = [];
+  var operator = reqs[0];
+  for (var i = 1; i < reqs.length; i++) {
+    if (reqs[i] instanceof Array) {
+      done.push(doneReqs(reqs[i]));
+    } else if (codeList.indexOf(reqs[i]) != -1) {
+      if (courseData[reqs[i]].needs == "done") {
+        done.push("done");
+      } else {
+        done.push("none");
+      }
+    } else {
+      done.push("outs");
     }
-    var done = [];
-    var operator = reqs[0];
-    for (var i = 1; i < reqs.length; i++) {
-        if (reqs[i] instanceof Array) {
-            done.push(doneReqs(reqs[i]));
-        } else if (codeList.indexOf(reqs[i]) != -1) {
-            if (courseData[reqs[i]].needs == "done") {
-                done.push("done");
-            } else {
-                done.push("none");
-            }
-        } else {
-            done.push("outs");
-        }
+  }
+  if (operator == "and") {
+    if (done.indexOf("none") != -1) {
+      return "none";
+    } else if (done.indexOf("outs") != -1) {
+      return "outs";
+    } else {
+      return "done";
     }
-    if (operator == "and") {
-        if (done.indexOf("none") != -1) {
-            return "none";
-        } else if (done.indexOf("outs") != -1) {
-            return "outs";
-        } else {
-            return "done";
-        }
-    } else if (operator == "or") {
-        if (done.indexOf("done") != -1) {
-            return "done";
-        } else if (done.indexOf("outs") != -1) {
-            return "outs";
-        } else {
-            return "none";
-        }
+  } else if (operator == "or") {
+    if (done.indexOf("done") != -1) {
+      return "done";
+    } else if (done.indexOf("outs") != -1) {
+      return "outs";
+    } else {
+      return "none";
     }
+  }
 }
 
 /* Update the status of a course */
 function updateCourse(code) {
-    if (courseData[code].needs != "done") {
-        /* See req.py for detailed comments */
-        if (allCourses[code].excl.length > 1 &&
-            doneReqs(allCourses[code].excl) == "done") {
-            courseData[code].needs = "excl";
-        } else if (doneReqs(allCourses[code].preq) == "none") {
-            courseData[code].needs = "preq";
-        } else if (doneReqs(allCourses[code].creq) == "none") {
-            courseData[code].needs = "creq";
-        } else if ((allCourses[code].excl.length <= 1 ||
-                    doneReqs(allCourses[code].excl) == "none") &&
-                   doneReqs(allCourses[code].preq) == "done" &&
-                   doneReqs(allCourses[code].creq) == "done") {
-            courseData[code].needs = "none";
-        } else {
-            courseData[code].needs = "outs";
-        }
+  if (courseData[code].needs != "done") {
+    /* See req.py for detailed comments */
+    if (allCourses[code].excl.length > 1 &&
+      doneReqs(allCourses[code].excl) == "done") {
+      courseData[code].needs = "excl";
+    } else if (doneReqs(allCourses[code].preq) == "none") {
+      courseData[code].needs = "preq";
+    } else if (doneReqs(allCourses[code].creq) == "none") {
+      courseData[code].needs = "creq";
+    } else if ((allCourses[code].excl.length <= 1 ||
+      doneReqs(allCourses[code].excl) == "none") &&
+      doneReqs(allCourses[code].preq) == "done" &&
+      doneReqs(allCourses[code].creq) == "done") {
+      courseData[code].needs = "none";
+    } else {
+      courseData[code].needs = "outs";
     }
+  }
 }
 
 /* Draw the entire application on the canvas */
 function drawApp() {
+  ctx.fillStyle = "black";
+  ctx.clearRect(0, 0, WIDTH, HEIGHT);
+  ctx.strokeRect(0, 0, WIDTH, HEIGHT);
+  ctx.textAlign = "center";
+  ctx.textBaseline = "top";
+  ctx.font = "bold 18px sans-serif";
+  ctx.fillText("req v1.3", WIDTH / 2, BORDER);
+  ctx.textBaseline = "bottom";
+  ctx.font = "8px sans-serif";
+  ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
+    WIDTH / 2, HEIGHT - BORDER);
+  ctx.textBaseline = "middle";
+  ctx.font = "14px sans-serif";
+  for (var i = 0; i < codeList.length; i++) {
+    var code = codeList[i];
+    ctx.fillStyle = COLOURS[courseData[code].needs];
+    ctx.fillRect(courseData[code].x, courseData[code].y,
+      BTNWIDTH, BTNHEIGHT);
     ctx.fillStyle = "black";
-    ctx.clearRect(0, 0, WIDTH, HEIGHT);
-    ctx.strokeRect(0, 0, WIDTH, HEIGHT);
-    ctx.textAlign = "center";
-    ctx.textBaseline = "top";
-    ctx.font = "bold 18px sans-serif";
-    ctx.fillText("req v1.3", WIDTH / 2, BORDER);
-    ctx.textBaseline = "bottom";
-    ctx.font = "8px sans-serif";
-    ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
-                 WIDTH / 2, HEIGHT - BORDER);
-    ctx.textBaseline = "middle";
-    ctx.font = "14px sans-serif";
-    for (var i = 0; i < codeList.length; i++) {
-        var code = codeList[i];
-        ctx.fillStyle = COLOURS[courseData[code].needs];
-        ctx.fillRect(courseData[code].x, courseData[code].y,
-                     BTNWIDTH, BTNHEIGHT);
-        ctx.fillStyle = "black";
-        ctx.strokeRect(courseData[code].x, courseData[code].y,
-                       BTNWIDTH, BTNHEIGHT);
-        ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
-                     courseData[code].y + BTNHEIGHT / 2);
-    }
+    ctx.strokeRect(courseData[code].x, courseData[code].y,
+      BTNWIDTH, BTNHEIGHT);
+    ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
+      courseData[code].y + BTNHEIGHT / 2);
+  }
 }
 
 /* Parse the given course codes */
 function parseCodes() {
-    /* Remove unknown course codes and duplicates */
-    for (var i = codeList.length - 1; i >= 0; i--) {
-        if (!(codeList[i] in allCourses) ||
-            codeList.indexOf(codeList[i]) != i) {
-            codeList.splice(i, 1);
-        }
+  /* Remove all whitespace, add one space before first number,
+   * convert to uppercase, filter out blanks and unknown codes,
+   * and finally return only unique valid course codes.
+   */
+    codeList = codeList.map((code) => code.replace(/\s/g, "")
+      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2$3").toUpperCase())
+      .filter((code, i) => code.length !== 1
+        && allCourses.hasOwnProperty(code) && codeList.indexOf(code) != i);
+    courseData = []
+    for (var i = 0; i < codeList.length; i++) {
+        courseData[codeList[i]] = new CourseData();
     }
 
-    /* Arrange courses in order depending on their depth of prereqs
-     * First scan through courses with no preqs and set their depth to 1,
-     * then scan through all courses whose preqs all have a non-zero depth
-     * of which the maximum is 1, and set their depth to 2, etc. until done */
+  /* Arrange courses in order depending on their depth of prereqs
+   * First scan through courses with no preqs and set their depth to 1,
+   * then scan through all courses whose preqs all have a non-zero depth
+   * of which the maximum is 1, and set their depth to 2, etc. until done */
     var unordered = [];
     for (var i = 0; i < codeList.length; i++) {
         unordered.push(codeList[i]);
@@ -250,22 +255,33 @@ function parseCodes() {
     }
 }
 
-/* Initialize the application */
-function initApp(formElement, messageElement, canvasElement) {
-    c = canvasElement;
-    ctx = c.getContext("2d");
-    if (!ctx)
-        messageElement.innerHTML = "Your browser does not support this app!";
-    else {
-        codeList = formElement.elements["courses"].value.split(", ");
-        courseData = []
-        for (var i = 0; i < codeList.length; i++) {
-            courseData[codeList[i]] = new CourseData();
-        }
-        parseCodes();
-        c.width = WIDTH;
-        c.height = HEIGHT;
-        c.addEventListener("click", onClick, false);
-        drawApp();
-    }
+// start the application
+
+function startApp() {
+
+  // save canvas and context into global variables
+  c = document.getElementById("canvas");
+  ctx = c.getContext("2d");
+  if (!ctx) {
+    document.getElementById("nocanvas").innerHTML =
+      "Your browser does not support this app!";
+  } else {
+    codeList = document.getElementById("form")
+      .elements["courses"].value.split(",");
+    parseCodes();
+    c.width = WIDTH;
+    c.height = HEIGHT;
+    c.addEventListener("click", onClick, false);
+    drawApp();
+  }
 }
+
+
+// add all event listeners when ready
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    startApp();
+  });
+});

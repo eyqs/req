@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 36em;
+}
+
+#github {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#nocanvas {
+  color: red;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em auto;
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: dimgray;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus,
+input[type="submit"]:active, {
+  background-color: gray;
+}
