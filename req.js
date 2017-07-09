@@ -15,70 +15,66 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 
-var c;
-var ctx;
-var codeList;
-var courseData;
-var last_hover_code = "";
-var current_hover_code = "";
-var WIDTH;
-var HEIGHT = 1920;
-var PADDING = 50;
-var BTNWIDTH = 100;
-var BTNHEIGHT = 30;
-var BTNPADDING = 10;
-var BLACKLINE = 1;
-var HOVERLINE = 5;
-var HOVERWIDTH = 300;
-var HOVERHEIGHT = 500;
-var HOVERPADDING = 5;
-var DEPTHPADDING = 20;
-var TITLEPADDING = 40;
-var COLOURS = { "done":"greenyellow", "none":"whitesmoke", "outs":"wheat",
-  "creq":"gold", "preq":"pink", "excl":"lightsteelblue", "xout":"lavender" };
+let c;                              // c = document.getElementById("canvas")
+let ctx;                            // ctx = c.getContext("2d")
+let button_dict;                    // button_dict["CPSC 110"] = Button()
+let hover_code = "";                // course code that mouse is hovering over
+                                    //   "" if mouse is not hovering over any
+let closed_hoverbox = false;        // true if hoverbox has been manually
+                                    //   closed by the user, otherwise false
 
-/* done: already taken
- * none: meets all prerequisites and corequisites
- * creq: meets all prerequisites, does not meet all corequisites
- * preq: does not meet all prerequisites
- * excl: cannot take for credit given previously taken and current courses
- * xout: none or excl, depending on classes taken outside the current tree
- * outs: status could be anything, depending on classes outside the tree
- */
+let WIDTH;                          // canvas width, set by its width in CSS
+const HEIGHT = 1920;                // canvas height
+const PADDING = 50;                 // canvas padding
+let BTNWIDTH = 100;                 // approximate button width
+const BTNHEIGHT = 30                // button height
+const BTNMARGIN = 10;               // margin between buttons
+const BLACKLINE = 1;                // normal button border width
+const HOVERLINE = 5;                // highlighted button border width
+const HOVERWIDTH = 300;             // hoverbox width
+const HOVERHEIGHT = 500;            // maximum hoverbox height
+const HOVERPADDING = 5;             // hoverbox padding
+const DEPTHSPACING = 20;            // spacing between different depths
+const TITLESPACING = 40;            // spacing from top to title
+
+const COLOURS = {                   // button background colours:
+  "done": "greenyellow",            // course is already taken
+  "none": "whitesmoke",             // course meets all prereqs and coreqs
+  "creq": "gold",                   // meets all prereqs, does not meet coreqs
+  "preq": "pink",                   // course does not meet all prereqs
+  "excl": "lightsteelblue",         // credit excluded by already taken course
+  "xout": "lavender",               // either none or excl, depending
+                                    //   on courses taken outside the tree
+  "outs": "wheat",                  // either none, creq, or preq, depending
+                                    //   on courses taken outside the tree
+  "hovr": "honeydew",               // hoverbox background colour
+
+                                    // button border colours:
+  "preb": "deeppink",               // prereq of hovered course
+  "creb": "darkorange",             // coreq of hovered course
+  "excb": "indigo",                 // credit excluded by hovered course
+  "dreq": "olive",                  // has hovered course as prereq or coreq
+};
+
 
 // structure for courses is in req.txt
-function CourseData() {
-  this.x;
-  this.y;
-  this.depth = 0;
-  this.needs = "none";
+
+// structure for course buttons
+
+class Button {
+  constructor(x, y) {
+    Object.assign(this, {x, y});    // coordinates of top left corner
+    this.depth = 0;                 // depth down the tree
+    this.needs = "none";            // corresponds to button background colour
+  }
 }
 
-// return an array of lines of wrapped hoverbox text
-function wrapText(text) {
-  var padded_width = HOVERWIDTH - 2 * HOVERPADDING;
-  var lines = [];
-  for (var i = 0; i < text.length; i++) {
-    var line = "";
-    var words = text[i].split(' ');
-    lines.push("");
-    for (var j = 0; j < words.length; j++) {
-      if (ctx.measureText(line + words[j]).width > padded_width) {
-        lines.push(line.trim());
-        line = words[j] + ' ';
-      } else {
-        line += words[j] + ' ';
-      }
-    }
-    lines.push(line.trim());
-  }
-  return lines;
-}
 
 // return the cursor position relative to the canvas
+
 function getCursorPosition(e) {
-  var x, y;
-  if (e.pageX != undefined && e.pageY != undefined) {
+  let x, y;
+  if (e.pageX !== undefined && e.pageY !== undefined) {
     x = e.pageX;
     y = e.pageY;
   } else {
@@ -89,201 +85,292 @@ function getCursorPosition(e) {
   }
   x -= c.offsetLeft;
   y -= c.offsetTop;
-  return { x:x, y:y };
+  return {x, y};
 }
+
+
+// given an array of paragraphs of text and a maximum text width,
+// return an array of lines of text wrapped under that maximum width
+
+function wrapText(paragraphs, max_width) {
+  const lines = [];
+  for (const paragraph of paragraphs) {
+    let line = "";
+    lines.push("");
+    for (const word of paragraph.split(' ')) {
+      if (ctx.measureText(line + word).width > max_width) {
+        lines.push(line.trim());
+        line = "";
+      }
+      line += word + ' ';
+    }
+    lines.push(line.trim());
+  }
+  return lines;
+}
+
+
+// given an array of lines of text, a line index, and a maximum text width,
+// return an array of lines up to that index, with " ..." appended to the
+// last line, possibly with words cut out to fit under that maximum width
+
+function dotText(lines, index, max_width) {
+  if (ctx.measureText(lines[index] + " ...").width > max_width) {
+    const words = lines[index].split(' ');
+    for (let i = words.length; i >= 0; i--) {
+      const cut_line = words.slice(0, i).join(' ') + " ...";
+      if (ctx.measureText(cut_line).width < max_width) {
+        lines[index] = cut_line;
+        break;
+      }
+    }
+  }
+  return lines.slice(0, index + 1);
+}
+
+
+// given a course code, return an array of paragraphs of text for its hoverbox
+
+function writeHoverbox(code) {
+  const paragraphs = [];
+  const course = allCourses[code];
+  paragraphs.push(course.code);
+  if (course.name) {
+    paragraphs[0] += ": " + course.name;
+  } if (course.desc.length > 0) {
+    paragraphs.push(course.desc);
+  } if (course.preqs.length > 0) {
+    paragraphs.push("Prereqs: " + course.preqs.join(", "));
+  } if (course.creqs.length > 0) {
+    paragraphs.push("Coreqs: " + course.creqs.join(", "));
+  } if (course.excl.length > 1) {
+    paragraphs.push("Exclusions: " + course.excl.slice(1).join(", "));
+  } if (course.dreqs.length > 0) {
+    paragraphs.push("Required by: " + course.dreqs.join(", "));
+  } if (course.cred.length > 0) {
+    paragraphs.push("Credits: " + course.cred.join(", "));
+  }
+  return paragraphs;
+}
+
+
+// given the mouse position and a course code, draw its hoverbox there
+
+function drawHoverbox(pos, code) {
+  const padded_width = HOVERWIDTH - 2 * HOVERPADDING;
+  ctx.textAlign = "start";
+  ctx.textBaseline = "top";
+  ctx.font = "12px sans-serif";
+
+  // calculate actual height of hoverbox and cut text over the maximum height
+  let lines = wrapText(writeHoverbox(code), padded_width);
+  let padded_height = 2 * HOVERPADDING;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i]) {
+      padded_height += 6;
+    }
+    padded_height += 6;
+    if (padded_height > HOVERHEIGHT) {
+      lines = dotText(lines, i, padded_width);
+      break;
+    }
+  }
+
+  // calculate direction to draw hoverbox, then draw its box
+  const x = pos.x - HOVERWIDTH < PADDING ? pos.x : pos.x - HOVERWIDTH;
+  ctx.lineWidth = BLACKLINE;
+  ctx.fillStyle = COLOURS["hovr"];
+  ctx.fillRect(x, pos.y, HOVERWIDTH, padded_height);
+  ctx.fillStyle = "black";
+  ctx.strokeRect(x, pos.y, HOVERWIDTH, padded_height);
+
+  // draw the hoverbox text
+  let y = pos.y;
+  for (const line of lines) {
+    if (line) {
+      ctx.fillText(line, x + HOVERPADDING, y + HOVERPADDING);
+      y += 6;
+    }
+    y += 6;
+  }
+}
+
 
 // decide what to do when user clicks
+
 function onClick(e) {
-  var pos = getCursorPosition(e);
-  if (current_hover_code) {
-    last_hover_code = current_hover_code;
-    current_hover_code = "";
-    drawApp(last_hover_code);
-  } else {
-    for (var i = 0; i < codeList.length; i++) {
-      var code = codeList[i];
-      if (pos.x > courseData[code].x &&
-        pos.x < courseData[code].x + BTNWIDTH &&
-        pos.y > courseData[code].y &&
-        pos.y < courseData[code].y + BTNHEIGHT) {
-        if (courseData[code].needs == "done") {
-          courseData[code].needs = "none";
-        } else {
-          courseData[code].needs = "done";
-        }
-        updateCourse(code);
-        for (var j = 0; j < allCourses[code].dreqs.length; j++) {
-          var dependency = allCourses[code].dreqs[j];
-          if (codeList.indexOf(dependency) != -1) {
-            updateCourse(dependency);
-          }
-        }
-        drawApp();
-        return;
+  console.log(hover_code);
+  console.log(closed_hoverbox);
+
+  // if hoverbox is open, then close the hoverbox but keep the tree shaded
+  if (hover_code && !closed_hoverbox) {
+    closed_hoverbox = true;
+    shadeApp();
+  }
+
+  // if mouse is hovering over a course but the hoverbox is closed,
+  // then it must have been closed by the above, so toggle its status,
+  // update its dependencies' statuses, and unshade the tree
+  else if (hover_code && closed_hoverbox) {
+    if (button_dict[hover_code].needs === "done") {
+      button_dict[hover_code].needs = "none";
+    } else {
+      button_dict[hover_code].needs = "done";
+    }
+    updateCourse(hover_code);
+    for (const dependency of allCourses[code].dreqs) {
+      if (button_dict.hasOwnProperty(dependency)) {
+        updateCourse(dependency);
       }
     }
+    drawApp();
+  }
+
+  // if mouse is not hovering over a course, unshade the tree
+  else {
+    drawApp();
   }
 }
 
+
 // decide what to do when user moves mouse
+
 function onMouseMove(e) {
-  var pos = getCursorPosition(e);
-  for (var i = 0; i < codeList.length; i++) {
-    var code = codeList[i];
-    if (pos.x > courseData[code].x &&
-      pos.x < courseData[code].x + BTNWIDTH &&
-      pos.y > courseData[code].y &&
-      pos.y < courseData[code].y + BTNHEIGHT) {
-      if (code === last_hover_code) {
+  const pos = getCursorPosition(e);
+
+  // go through all course buttons to see if mouse is hovering over any
+  for (const code in button_dict) {
+    if (button_dict.hasOwnProperty(code)) {
+      const button = button_dict[code];
+      if (pos.x > button.x && pos.x < button.x + BTNWIDTH
+          && pos.y > button.y && pos.y < button.y + BTNHEIGHT) {
+        // do not shade the tree if the user manually closed its hoverbox
+        if (code === hover_code && closed_hoverbox) {
+          return;
+        }
+        hover_code = code;
+        shadeApp();
+        drawHoverbox(pos, code);
         return;
       }
-      current_hover_code = code;
-      var text = [];
-      text.push(allCourses[code].code)
-      if (allCourses[code].name) {
-        text[0] += ": " + allCourses[code].name;
-      } if (allCourses[code].desc.length > 0) {
-        text.push(allCourses[code].desc);
-      } if (allCourses[code].preqs.length > 0) {
-        text.push("Prereqs: " + allCourses[code].preqs.join(", "));
-      } if (allCourses[code].creqs.length > 0) {
-        text.push("Coreqs: " + allCourses[code].creqs.join(", "));
-      } if (allCourses[code].excl.length > 1) {
-        text.push("Exclusions: " + allCourses[code].excl.slice(1).join(", "));
-      } if (allCourses[code].dreqs.length > 0) {
-        text.push("Required by: " + allCourses[code].dreqs.join(", "));
-      } if (allCourses[code].cred.length > 0) {
-        text.push("Credits: " + allCourses[code].cred.join(", "));
-      }
-      drawApp(current_hover_code);
-      ctx.textAlign = "start";
-      ctx.textBaseline = "top";
-      ctx.font = "12px sans-serif";
-      var y = 0;
-      var wrappedText = wrapText(text);
-      for (var i = 0; i < wrappedText.length; i++) {
-        var line = wrappedText[i];
-        if (line) {
-          y += 12;
-          if (y > HOVERHEIGHT - 2 * HOVERPADDING) {
-            var padded_width = HOVERWIDTH - 2 * HOVERPADDING;
-            wrappedText[i] = line + " ...";
-            if (ctx.measureText(wrappedText[i]).width > padded_width) {
-              var words = line.split(' ');
-              for (var j = words.length; j >= 0; j--) {
-                var cut_line = words.slice(0, j).join(' ') + " ...";
-                if (ctx.measureText(cut_line).width < padded_width) {
-                  wrappedText[i] = cut_line;
-                  break;
-                }
-              }
-            }
-            wrappedText = wrappedText.slice(0, i + 1)
-            break;
-          }
-        } else {
-          y += 6;
-        }
-      }
-      var posx = pos.x - HOVERWIDTH < PADDING ? pos.x : pos.x - HOVERWIDTH;
-      ctx.lineWidth = BLACKLINE;
-      ctx.fillStyle = "honeydew";
-      ctx.fillRect(posx, pos.y, HOVERWIDTH, y + 2 * HOVERPADDING);
-      ctx.fillStyle = "black";
-      ctx.strokeRect(posx, pos.y, HOVERWIDTH, y + 2 * HOVERPADDING);
-      y = 0;
-      for (var i = 0; i < wrappedText.length; i++) {
-        var line = wrappedText[i];
-        if (line) {
-          ctx.fillText(line, posx + HOVERPADDING, pos.y + HOVERPADDING + y);
-          y += 12;
-        } else {
-          y += 6;
-        }
-      }
-      return;
     }
   }
-  current_hover_code = "";
-  last_hover_code = "";
+
+  // if mouse is not hovering over any, then reset hover_code
+  hover_code = "";
+  closed_hoverbox = false;
   drawApp();
 }
 
-// recursively check whether the requirements are satisfied
+
+// recursively check whether the given requirements are satisfied
+
 function doneReqs(reqs) {
-  if (reqs.length == 0) {
+  if (reqs.length === 0) {
     return "done";
   }
-  var done = [];
-  var operator = reqs[0];
-  for (var i = 1; i < reqs.length; i++) {
+
+  // recursively push status of each clause into status array
+  const statuses = [];
+  const operator = reqs[0];
+  for (let i = 1; i < reqs.length; i++) {
     if (reqs[i] instanceof Array) {
-      done.push(doneReqs(reqs[i]));
-    } else if (codeList.indexOf(reqs[i]) != -1) {
-      if (courseData[reqs[i]].needs == "done") {
-        done.push("done");
+      statuses.push(doneReqs(reqs[i]));
+    }
+    // push status of each course in the current tree
+    else if (button_dict.hasOwnProperty(reqs[i])) {
+      if (button_dict[reqs[i]].needs === "done") {
+        statuses.push("done");
       } else {
-        done.push("none");
+        statuses.push("none");
       }
-    } else {
-      done.push("outs");
+    }
+    // courses outside the current tree are unknown
+    else {
+      statuses.push("outs");
     }
   }
-  if (operator == "and") {
-    if (done.indexOf("none") != -1) {
-      return "none";
-    } else if (done.indexOf("outs") != -1) {
-      return "outs";
+
+  if (operator === "and") {
+    if (statuses.indexOf("none") !== -1) {
+      return "none";                // any course is none -> none
+    } else if (statuses.indexOf("outs") !== -1) {
+      return "outs";                // any course is outs -> outs
     } else {
-      return "done";
+      return "done";                // all courses are done -> done
     }
-  } else if (operator == "or") {
-    if (done.indexOf("done") != -1) {
-      return "done";
-    } else if (done.indexOf("outs") != -1) {
-      return "outs";
+  } else if (operator === "or") {
+    if (statuses.indexOf("done") !== -1) {
+      return "done";                // any course is done -> done
+    } else if (statuses.indexOf("outs") !== -1) {
+      return "outs";                // any course is outs -> outs
     } else {
-      return "none";
+      return "none";                // all courses are none -> none
     }
   }
 }
 
-// update the status of a course
+
+// update the status of the course with the given code
+
 function updateCourse(code) {
-  if (courseData[code].needs != "done") {
+  // courses can be taken in onClick -> done
+  const button = button_dict[code];
+  if (button.needs !== "done") {
+    const course = allCourses[code];
     // if any excluded course in the current tree is done -> excl
-    if (allCourses[code].excl.length > 1 &&
-      doneReqs(allCourses[code].excl) == "done") {
-      courseData[code].needs = "excl";
+    if (course.excl.length > 1 && doneReqs(course.excl) === "done") {
+      button.needs = "excl";
     // if any prerequisite in the current tree is not done -> preq
-    } else if (doneReqs(allCourses[code].preq) == "none") {
-      courseData[code].needs = "preq";
+    } else if (doneReqs(course.preq) === "none") {
+      button.needs = "preq";
     // if any corequisite in the current tree is not done -> creq
-    } else if (doneReqs(allCourses[code].creq) == "none") {
-      courseData[code].needs = "creq";
+    } else if (doneReqs(course.creq) === "none") {
+      button.needs = "creq";
     // if all prerequisites are in the current tree and done, and
-    //    all corequisites are in the current tree and done, then check
-    } else if (doneReqs(allCourses[code].preq) == "done"
-               && doneReqs(allCourses[code].creq) == "done") {
+    //    all corequisites are in the current tree and done, then check...
+    } else if (doneReqs(course.preq) === "done"
+        && doneReqs(course.creq) === "done") {
       // if all excluded courses are in the current tree and not done -> none
-      if (allCourses[code].excl.length <= 1
-          || doneReqs(allCourses[code].excl) == "none") {
-        courseData[code].needs = "none";
+      if (course.excl.length <= 1 || doneReqs(course.excl) === "none") {
+        button.needs = "none";
       // otherwise, some excluded course is not in the current tree -> xout
       } else {
-        courseData[code].needs = "xout";
+        button.needs = "xout";
       }
-    // otherwise, some rerequisite course is not in the current tree -> outs
+    // otherwise, some requisite course is not in the current tree -> outs
     } else {
-      courseData[code].needs = "outs";
+      button.needs = "outs";
     }
   }
 }
 
-// draw the entire application on the canvas
-function drawApp(hover_code) {
-  ctx.lineWidth = BLACKLINE;
+
+// draw a single course button on the canvas, with an optional border
+
+function drawButton(code, button, border_colour) {
+  ctx.textBaseline = "middle";
+  ctx.font = "14px sans-serif";
+  ctx.fillStyle = COLOURS[button.needs];
+  ctx.fillRect(button.x, button.y, BTNWIDTH, BTNHEIGHT);
+  if (border_colour) {
+    ctx.lineWidth = HOVERLINE;
+    ctx.strokeStyle = border_colour;
+    ctx.strokeRect(button.x, button.y, BTNWIDTH, BTNHEIGHT);
+  } else {
+    ctx.lineWidth = BLACKLINE;
+    ctx.strokeStyle = "black";
+    ctx.strokeRect(button.x, button.y, BTNWIDTH, BTNHEIGHT);
+  }
   ctx.fillStyle = "black";
+  ctx.fillText(code, button.x + BTNWIDTH / 2, button.y + BTNHEIGHT / 2);
+}
+
+
+// draw the entire application on the canvas
+
+function drawApp() {
+  ctx.lineWidth = BLACKLINE;
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
   ctx.textAlign = "center";
@@ -293,141 +380,36 @@ function drawApp(hover_code) {
   ctx.textBaseline = "bottom";
   ctx.font = "8px sans-serif";
   ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
-    WIDTH / 2, HEIGHT - PADDING);
-  ctx.textBaseline = "middle";
-  ctx.font = "14px sans-serif";
-  for (var i = 0; i < codeList.length; i++) {
-    var code = codeList[i];
-    ctx.fillStyle = COLOURS[courseData[code].needs];
-    ctx.fillRect(courseData[code].x, courseData[code].y,
-      BTNWIDTH, BTNHEIGHT);
-    ctx.fillStyle = "black";
-    ctx.strokeRect(courseData[code].x, courseData[code].y,
-      BTNWIDTH, BTNHEIGHT);
-    ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
-      courseData[code].y + BTNHEIGHT / 2);
+      WIDTH / 2, HEIGHT - PADDING);
+  for (const code in button_dict) {
+    if (button_dict.hasOwnProperty(code)) {
+      drawButton(code, button_dict[code]);
+    }
   }
-  if (hover_code) {
-    ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
-    ctx.fillRect(0, 0, WIDTH, HEIGHT);
-    for (var i = 0; i < codeList.length; i++) {
-      var code = codeList[i];
-      var border = "";
-      if (allCourses[hover_code].preqs.indexOf(code) != -1) {
-        border = COLOURS["preq"];
-      } if (allCourses[hover_code].creqs.indexOf(code) != -1) {
-        border = COLOURS["creq"];
-      } if (allCourses[hover_code].dreqs.indexOf(code) != -1) {
-        border = COLOURS["done"];
-      } if (allCourses[hover_code].excl.indexOf(code) != -1) {
-        border = COLOURS["excl"];
-      }
-      if (border) {
-        ctx.fillStyle = COLOURS[courseData[code].needs];
-        ctx.fillRect(courseData[code].x, courseData[code].y,
-          BTNWIDTH, BTNHEIGHT);
-        ctx.lineWidth = HOVERLINE;
-        ctx.strokeStyle = border;
-        ctx.strokeRect(courseData[code].x, courseData[code].y,
-          BTNWIDTH, BTNHEIGHT);
-        ctx.lineWidth = BLACKLINE
-        ctx.strokeStyle = "black";
-        ctx.strokeRect(courseData[code].x, courseData[code].y,
-          BTNWIDTH, BTNHEIGHT);
-        ctx.fillStyle = "black";
-        ctx.fillText(code, courseData[code].x + BTNWIDTH / 2,
-          courseData[code].y + BTNHEIGHT / 2);
+}
+
+
+// draw the entire application on the canvas, shade it,
+// and highlight the courses related to the currently hovered course
+
+function shadeApp() {
+  drawApp();
+  ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  const hover_course = allCourses[hover_code];
+  const related_courses = [
+    [hover_course.preqs, "preb"], [hover_course.creqs, "creb"],
+    [hover_course.excl, "excb"], [hover_course.dreqs, "dreq"],
+  ];
+  for (const code_list of related_courses) {
+    for (const code of code_list[0]) {
+      if (button_dict.hasOwnProperty(code)) {
+        drawButton(code, button_dict[code], COLOURS[code_list[1]]);
       }
     }
   }
 }
 
-// parse the given course codes
-function parseCodes() {
-  // TODO: instead of deleting trailing letters, parse UBC Course Schedule
-  /* Remove all whitespace, add one space before first number,
-   * delete trailing letters, convert to uppercase, filter out blanks,
-   * filter out unknown codes, and return only unique valid course codes.
-   */
-    codeList = codeList.map((code) => code.replace(/\s/g, "")
-      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
-    codeList = codeList.filter((code, i) => code.length !== 1
-        && allCourses.hasOwnProperty(code) && codeList.indexOf(code) == i);
-    courseData = []
-    for (var i = 0; i < codeList.length; i++) {
-        courseData[codeList[i]] = new CourseData();
-    }
-
-  /* Arrange courses in order depending on their depth of prereqs
-   * First scan through courses with no preqs and set their depth to 1,
-   * then scan through all courses whose preqs all have a non-zero depth
-   * of which the maximum is 1, and set their depth to 2, etc. until done.
-   */
-    var unordered = [];
-    for (var i = 0; i < codeList.length; i++) {
-        unordered.push(codeList[i]);
-    }
-
-    var depth = 0;
-    while (unordered.length > 0) {
-        depth += 1;
-        for (var i = unordered.length - 1; i >= 0; i--) {
-            var code = unordered[i];
-            var hasreq = false; // has a prereq in the current tree
-            var badreq = false; // has a prereq with zero or current depth
-            for (var j = 0; j < allCourses[code].preqs.length; j++) {
-                var preq = allCourses[code].preqs[j];
-                if (codeList.indexOf(preq) != -1) {
-                    hasreq = true;
-                    if (courseData[preq].depth == 0 ||
-                        courseData[preq].depth == depth) {
-                        badreq = true;
-                    }
-                }
-            }
-            if (depth == 1 && !hasreq) {
-                courseData[code].depth = 1;
-                unordered.splice(i, 1);
-                continue;
-            }
-            if (badreq) {
-                continue;
-            }
-            courseData[code].depth = depth;
-            unordered.splice(i, 1);
-        }
-    }
-
-    // find correct coordinates to place each button
-    var x = PADDING;
-    var y = PADDING + TITLEPADDING;
-    for (var d = 0; d <= depth; d++) {
-        for (var i = 0; i < codeList.length; i++) {
-            if (courseData[codeList[i]].depth == d) {
-                courseData[codeList[i]].x = x;
-                courseData[codeList[i]].y = y;
-                updateCourse(codeList[i]);
-                x += BTNWIDTH + BTNPADDING;
-                if (x + BTNWIDTH > WIDTH - PADDING) {
-                    x = PADDING;
-                    y += BTNHEIGHT + BTNPADDING;
-                    if (y + BTNHEIGHT > HEIGHT - PADDING) {
-                        break;
-                    }
-                }
-            }
-        }
-        if (x == PADDING) {
-            y += DEPTHPADDING;
-        } else {
-            y += BTNHEIGHT + BTNPADDING + DEPTHPADDING;
-        }
-        x = PADDING;
-        if (y + BTNHEIGHT > HEIGHT - PADDING) {
-            break;
-        }
-    }
-}
 
 // start the application
 
@@ -441,15 +423,88 @@ function startApp() {
       "Your browser does not support this app!";
   } else {
     WIDTH = document.getElementById("canvas-wrapper").offsetWidth;
-    var btncols = Math.floor((WIDTH - 2 * PADDING) / (BTNWIDTH + BTNPADDING));
-    BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNPADDING) / btncols;
+    let btncols = Math.floor((WIDTH - 2 * PADDING) / (BTNWIDTH + BTNMARGIN));
+    BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNMARGIN) / btncols;
     c.width = WIDTH;
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
     c.addEventListener("mousemove", onMouseMove, false);
-    codeList = document.getElementById("form")
-      .elements["courses"].value.split(",");
-    parseCodes();
+
+    // TODO: instead of deleting trailing letters, parse UBC Course Schedule
+    /* Remove whitespace, add space before numbers, delete trailing letters,
+     * convert to uppercase, and filter out blanks and unknown codes.
+     */
+    let code_list = document.getElementById("form").elements["courses"]
+        .value.split(",").map((code) => code.replace(/\s/g, "")
+        .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
+    code_list = code_list.filter((code, i) => code.length !== 1
+        && allCourses.hasOwnProperty(code));
+    const unordered = {};
+    button_dict = {};
+    for (const code of code_list) {
+      unordered[code] = true;
+      button_dict[code] = new Button();
+    }
+
+    /* Arrange courses in order depending on their depth of prereqs
+     * First scan through courses with no preqs and set their depth to 1,
+     * then scan through all courses whose preqs all have a non-zero depth
+     * of which the maximum is 1, and set their depth to 2, etc. until done.
+     */
+    let depth = 0;
+    while (Object.keys(unordered).length !== 0) {
+      depth += 1;
+      for (const code in unordered) {
+        if (unordered.hasOwnProperty(code)) {
+          let hasreq = false;       // has a prereq in the current tree
+          let badreq = false;       // has a prereq with zero or current depth
+          for (const preq of allCourses[code].preqs) {
+            if (button_dict.hasOwnProperty(preq)) {
+              hasreq = true;
+              if (button_dict[preq].depth === 0
+                  || button_dict[preq].depth === depth) {
+                badreq = true;
+              }
+            }
+          }
+          if (!badreq || (depth === 1 && !hasreq)) {
+            button_dict[code].depth = depth;
+            delete unordered[code];
+          }
+        }
+      }
+    }
+
+    // find correct coordinates to place each button
+    let x = PADDING;
+    let y = PADDING + TITLESPACING;
+    for (let d = 0; d <= depth; d++) {
+      for (const code in button_dict) {
+        if (button_dict.hasOwnProperty(code)) {
+          if (button_dict[code].depth === d) {
+            Object.assign(button_dict[code], {x, y});
+            updateCourse(code);
+            x += BTNWIDTH + BTNMARGIN;
+            if (x + BTNWIDTH > WIDTH - PADDING) {
+              x = PADDING;
+              y += BTNHEIGHT + BTNMARGIN;
+              if (y + BTNHEIGHT > HEIGHT - PADDING) {
+                break;
+              }
+            }
+          }
+        }
+      }
+      if (x === PADDING) {
+        y += DEPTHSPACING;
+      } else {
+        y += BTNHEIGHT + BTNMARGIN + DEPTHSPACING;
+      }
+      x = PADDING;
+      if (y + BTNHEIGHT > HEIGHT - PADDING) {
+        break;
+      }
+    }
     drawApp();
   }
 }
