@@ -1,0 +1,134 @@
+
+
+code: EECE 265
+name: Circuits and Electronics
+cred: 3
+desc: Introduction to circuit analysis and electronic circuits; topics chosen for applicability to systems involving signal acquisition, amplification, low/high pass filtering and power control. Not open to students in the Faculty of Applied Science. 
+
+code: EECE 280
+name: Electrical and Computer Engineering Laboratory I
+cred: 4
+desc: Introduction to oscilloscopes, signal generators and electrical measuring instruments.  Design projects in analog and digital logic circuits. 
+prer: All of PHYS 153, MATH 101.
+preq: PHYS 153 and MATH 101
+crer: EECE 251.
+creq: EECE 251
+
+code: EECE 283
+name: Electro-Mechanical Laboratory
+cred: 2
+desc: Experiments in analog and digital electronics, including microcomputers. Not open to students in Electrical and Computer Engineering. 
+
+code: EECE 301
+name: Topics in Nanotechnology and Microsystems
+cred: 2
+desc: Guest lectures and preparatory theory will highlight emerging devices and systems. Restricted to students admitted to the Nanotechnology and Microsystems Option in the Electrical Engineering. 
+crer: APSC 201.
+creq: APSC 201
+
+code: EECE 320
+name: Discrete Structures and Algorithms
+cred: 4
+desc: Discrete structures, such as trees and graphs, and their properties; introduction to algorithms and algorithmic complexity. Proof of correctness; design techniques such as greedy algorithms and dynamic programming. Credit will be granted for only one of EECE 320 or CPSC 320. 
+prer: One of CPSC 260, CPSC 221.
+preq: CPSC 260 or CPSC 221
+
+code: EECE 321
+name: Languages and Translation
+cred: 3
+desc: Principles and practice of automated language translation. Language syntax and semantics, typing, binding and parameter passing. Syntactic and lexical analysis. Language automata, parsing. Compilers and compiler-compilers. 
+prer: CPSC 260.
+preq: CPSC 260
+
+code: EECE 359
+name: Signals and Communications
+cred: 4
+desc: Review of Fourier analysis of signals; convolution and correlation; filtering, sampling, multiplexing and modulation of signals; introduction to probability with applications in communications.  Credit will only be given for one of EECE 359 or EECE 369, although EECE 359 is not equivalent to EECE 369. 
+prer: One of EECE 253, ELEC 202, EECE 269, ELEC 221.
+preq: EECE 253 or ELEC 202 or EECE 269 or ELEC 221
+
+code: EECE 362
+name: Communications Systems and Networks
+cred: 3
+desc: Transceiver architectures; link budget analysis; elements of analog and digital communications methods; packet switched networks; multiple access; Internet architecture and protocols. 
+prer: One of EECE 269, EECE 359, EECE 369.
+preq: EECE 269 or EECE 359 or EECE 369
+
+code: EECE 370
+name: Electrical Machines and Power Transmission
+cred: 3
+desc: Electric power, three-phase systems, transmission/distribution; transformers, motors, generators. Not open to students in Electrical and Computer Engineering. Credit will only be given for one of EECE 365, 370, 373, 374 or 376. 
+prer: One of EECE 251, EECE 263.
+preq: EECE 251 or EECE 263
+
+code: EECE 374
+name: Electronics and Electromechanics
+cred: 3
+desc: BJT and MOSFET amplifiers; cascode and differential amplifiers; nonideal OP amps; feedback; active filters; permanent magnet. DC motors; variable voltage control; software control of variable frequency; mechanical power, torque and speed. Credit will be granted for only one of EECE 356, 365, 370, 373, 374, or 376. 
+prer: EECE 251 and one of EECE 253, EECE 263.
+preq: EECE 251 and (EECE 253 or EECE 263)
+
+code: EECE 375
+name: Computer-Based Instrumentation Design Laboratory
+cred: 6
+desc: Theory and practice of electronic instrumentation for software engineers. Computer-based data acquisition and control techniques. Design project. 
+
+code: EECE 400
+name: Nanotechnology and Microsystems Capstone Design Project
+cred: 10
+desc: Design, analysis, and implementation of solutions in response to a real world nanotechnology and microsystems engineering problem.  Projects are provided by industry, research laboratories, or other suitable entities.  Includes coverage of topics such as project management. 
+
+code: EECE 415
+name: Requirements Engineering for Software-Intensive Systems
+cred: 3
+desc: Elicitation, analysis, validation, description, management and traceability of functional and non-functional requirements. Specialized techniques. Emphasis on software-intensive systems but also applicable to other kinds of engineered systems. 
+
+code: EECE 423
+name: Software Systems for Modeling and Simulation
+cred: 3
+desc: Discrete, continuous and hybrid approaches to modeling and simulating natural and artificial systems.  Credit will not be given for both EECE 423 and CPSC 405. 
+prer: Either (a) CPSC 260 or (b) all of CPSC 211, CPSC 221;  and one of STAT 251, MATH 318.
+preq: (CPSC 260 or (CPSC 211 and CPSC 221;)) and (STAT 251 or MATH 318)
+
+code: EECE 451
+name: Engineering Product Development and Management
+cred: 3
+desc: Product development cycle: generation of ideas and market requirements for new products, economic and quality considerations, the team approach, relationships with suppliers and evaluation of proposed products. Cases involving North American and Japanese firms. 
+
+code: EECE 467
+name: Real-time Implementation of DSP Algorithms
+cred: 3
+desc: Review of sampling, digital filter design, convolution, transforms; DSP systems and architecture; programming DSP boards in "C" and assembly, fixed-point vs. floating point arithmetic; testing; DSP solutions in audio and telecommunications. 
+
+code: EECE 468
+name: Digital Process Control
+cred: 3
+desc: Discrete systems, z-transform; sampled data systems; process control algorithms; multivariable control; state space methods; response to stochastic inputs, Wiener and Kalman filtering; least squares parameter identification. 
+prer: EECE 360.
+preq: EECE 360
+
+code: EECE 470
+name: Microwave Circuits
+cred: 3
+desc: Transmission lines; microwave integrated circuit lines; passive microstrip devices; microwave solid state control devices and circuits, amplifiers, oscillators and frequency conversion circuits. 
+prer: One of EECE 364, PHYS 301, PHYS 354.
+preq: EECE 364 or PHYS 301 or PHYS 354
+
+code: EECE 474
+name: Instrumentation and Design Laboratory
+cred: 6
+desc: Theory and practice of electrical measurements and electronic instrumentation. 
+
+code: EECE 478
+name: Computer Graphics
+cred: 3
+desc: Physical and virtual graphics I/O devices. The GKS standard Interactive graphics. Transformations, modelling, rendering algorithms for 2-D and 3-D graphics. Curves and surfaces. Credit will not be given for both CPSC 314 and EECE 478. 
+prer: CPSC 260.
+preq: CPSC 260
+
+code: EECE 485
+name: Digital Instrumentation for Mechanical Systems
+cred: 3
+desc: Design of microcomputer-based controllers and instrumentation; basics of digital and analog computer interface hardware; processor structure and function; high-level and low-level languages and system design-related issues. Laboratory experiments in basic logic elements, computer interface control, and sensor-based software control of various devices. Credit will be given for only one of EECE 485 or APSC 380. Not open to students in Electrical and Computer Engineering. 
+prer: One of EECE 365, PHYS 253 and one of CPSC 152, CPSC 122, APSC 160 or APSC 171.
+preq: (EECE 365 or PHYS 253) and (CPSC 152 or CPSC 122 or APSC 160 or APSC 171)

@@ -1,0 +1,93 @@
+
+
+code: PUNJ 100
+name: Introductory Punjabi I
+cred: 3
+desc: Spoken and written Punjabi. Credit will be granted for only one of PUNJ 100 or PUNJ 102. Students who have taken Punjabi 11 in high school cannot take PUNJ 100 for credit. 
+
+code: PUNJ 101
+name: Introductory Punjabi II
+cred: 3
+desc: Continuation of PUNJ 100. Credit will be granted for only one of PUNJ 101 or PUNJ 102. Students who have taken Punjabi 11 in high school cannot take PUNJ 101 for credit. 
+prer: PUNJ 100.
+preq: PUNJ 100
+
+code: PUNJ 102
+name: Introductory Punjabi
+cred: 6
+desc: Spoken and written Punjabi. As of 2011W, credit will be granted for only one of PUNJ 100/101 or PUNJ 102. Students who have taken Punjabi 11 in high school cannot take PUNJ 102 for credit. 
+
+code: PUNJ 200
+name: Intermediate Punjabi
+cred: 6
+desc: Study of the grammar and introduction to Punjabi literature. As of 2011W, credit will be granted for only one of PUNJ 201/202 or PUNJ 200. 
+prer: One of PUNJ 101, PUNJ 102.
+preq: PUNJ 101 or PUNJ 102
+
+code: PUNJ 201
+name: Intermediate Punjabi I
+cred: 3
+desc: Study of the grammar and introduction to Punjabi literature. Credit will be granted for only one of PUNJ 201 or PUNJ 200. 
+prer: PUNJ 101.
+preq: PUNJ 101
+
+code: PUNJ 202
+name: Intermediate Punjabi II
+cred: 3
+desc: Continuation of PUNJ 201. Credit will be granted for only one of PUNJ 202 or PUNJ 200. 
+prer: PUNJ 201.
+preq: PUNJ 201
+
+code: PUNJ 205
+name: Introduction to the Gurmukhi Script
+cred: 1
+desc: The writing system of Punjabi for those with some background in the spoken language. May be taken at the same time as PUNJ 200. 
+
+code: PUNJ 300
+name: Advanced Punjabi
+cred: 6
+desc: Advanced grammar and conversation. Major genres of Punjabi literature. As of 2011W, credit will be granted for only one of PUNJ 301/302 or PUNJ 300. 
+prer: One of PUNJ 200, PUNJ 202.
+preq: PUNJ 200 or PUNJ 202
+
+code: PUNJ 401
+name: Devotional Literature in Punjabi
+cred: 3
+desc: Emphasis is on reading and written expression. Analytical writing in English and Punjabi required. 
+prer: PUNJ 300.
+preq: PUNJ 300
+
+code: PUNJ 402
+name: Medieval and Early Modern Punjabi Literature
+cred: 3
+desc: Emphasis is on reading and written expression. Analytical writing in English and Punjabi required. 
+prer: PUNJ 300.
+preq: PUNJ 300
+
+code: PUNJ 403
+name: Modern Punjabi Literature
+cred: 3
+desc: Popular and literary works in modern Punjabi, with a focus on short stories and poetry. Emphasis on reading, writing, and vocabulary development. 
+prer: PUNJ 300.
+preq: PUNJ 300
+
+code: PUNJ 404
+name: The Punjabi Novel (Advanced Punjabi)
+cred: 3
+desc: Study of the modern Punjabi novel to deepen understanding and use of Punjabi, and strengthen analysis in English and Punjabi. 
+prer: PUNJ 300.
+preq: PUNJ 300
+
+code: PUNJ 457
+name: Punjabi Theatre
+cred: 3
+desc: Punjabi-language theatre, with emphasis on Canadian forms. Reading, writing, and performance of plays; examination of history of Punjabi theatre. 
+prer: PUNJ 300.
+preq: PUNJ 300
+
+code: PUNJ 475
+name: Oral Histories in Punjabi
+cred: 3
+desc: Develops students' oral expression and listening comprehension in Punjabi through Community Based Learning. Students engage in oral history collection in the Punjabi-speaking community and develop short video or sound projects. Analytical reading and writing required. 
+prer: PUNJ 300.
+preq: PUNJ 300

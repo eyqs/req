@@ -1,0 +1,260 @@
+
+
+code: APSC 100
+name: Introduction to Engineering I
+cred: 3
+desc: An introduction to the engineering profession including: roles and responsibilities of the engineer, the engineering disciplines, sustainability, an introduction to the engineering design process, introduction and application of the relevant foundational scientific principles, prototyping, engineering graphics, technical communication, and engineering ethics. 
+
+code: APSC 101
+name: Introduction to Engineering II
+cred: 3
+desc: An introduction to the engineering profession including: the engineering design process, sustainability, prototype testing, introduction and application of the relevant foundational scientific principles, team functioning, engineering graphics, and technical communication. 
+prer: APSC 100.
+preq: APSC 100
+
+code: APSC 110
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. 
+
+code: APSC 122
+name: Introduction to Engineering
+cred: 0
+desc: Non-credit course designed to introduce students to Engineering. Information on the Faculty, the profession and the particular skills and type of work done by practising engineers in different disciplines. [1-0-0]
+
+code: APSC 150
+name: Engineering Case Studies
+cred: 5
+desc: Application of scientific principles and technical knowledge to practical problems. Introduction to the engineering design process and to engineering graphics. 
+
+code: APSC 151
+name: Computer-Aided Engineering Graphics
+cred: 3
+desc: Orthographic projection, technical sketching, development of the ability to visualize in three dimensions. Standards and conventions of engineering drawing, graphical presentation of engineering data. Micro-computer based graphics aids. Engineering geometry and the solution of space problems. 
+
+code: APSC 160
+name: Introduction to Computation in Engineering Design
+cred: 3
+desc: Analysis and simulation, laboratory data acquisition and processing, measurement interfaces, engineering tools, computer systems organization, programming languages. Credit will only be given for one of: APSC 160, CPSC 301, or EOSC 211. 
+
+code: APSC 172
+name: Engineering Analysis I
+cred: 3
+desc: Functions, limits, differentiation, applications of derivatives, integration, applications of definite integrals. 
+
+code: APSC 173
+name: Engineering Analysis II
+cred: 3
+desc: Integrals and transcendental functions, techniques of integration, applications of integration, polar coordinates, infinite sequences and series, vectors and the geometry of space, and partial derivatives. 
+prer: APSC 172.
+preq: APSC 172
+
+code: APSC 176
+name: Engineering Communication
+cred: 3
+desc: Purpose, audience, content, format, and tone are studied, as are team-based report writings and presentations. Community Service Learning projects are integrated into existing assignments. An LPI level 5 is required for registration in this course. 
+
+code: APSC 178
+name: Electricity, Magnetism, and Waves
+cred: 4
+desc: Coulomb's law, electric field, Gauss' law, electric potential, conductors, capacitance, electric currents, resistance, DC circuits, magnetic fields and forces, sources of magnetic fields, electromagnetic induction, mechanical waves, electromagnetic waves, light propagation, geometrical optics. 
+prer: APSC 172.
+preq: APSC 172
+crer: APSC 173.
+creq: APSC 173
+
+code: APSC 179
+name: Linear Algebra for Engineers
+cred: 3
+desc: Systems of linear equations, Gaussian elimination, engineering application of linear algebra, matrix operations, special matrices, determinants, vector space, orthogonality, eigenvalues and eigenvectors, linear transformation. [3-0-0]
+
+code: APSC 180
+name: Statics
+cred: 3
+desc: Force vectors, Cartesian coordinate system, free body diagram, dot and cross products, forces equilibrium of particles, force and moment equilibrium of rigid bodies, analysis of trusses, frames and machines, friction, wedges, pulleys, and belts. Applications of linear algebra in statics. 
+
+code: APSC 182
+name: Matter and Energy I
+cred: 3
+desc: Thermometry, states of matter and phase change, ideal and real gases, 1st law of thermodynamics, 2nd law of thermodynamics, liquids, solutions. 
+
+code: APSC 183
+name: Matter and Energy II
+cred: 3
+desc: Atomic structures and bonding, solid crystals, chemical equilibrium, reactions in gas phase and in aqueous solutions, acid-base and redox reactions, kinetics of chemical reactions, thermochemistry, electrochemistry. 
+
+code: APSC 201
+name: Technical Communication
+cred: 3
+desc: Written and oral communication in engineering. Report preparation, business correspondence, and oral presentation of technical material. Credit will be granted for only one of ELEC 281, CPEN 281, or APSC 201. 
+prer: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121.
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+
+code: APSC 202
+name: Technical Communication Engineering Physics I
+cred: 2
+desc: Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material. Restricted to students in second year of the Engineering Physics Program. 
+prer: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121.
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+crer: ENPH 259.
+creq: ENPH 259
+
+code: APSC 203
+name: Technical Communication Engineering Physics II
+cred: 1
+desc: Continuation of written and oral communication in business correspondence, engineering design methods, report preparation and oral presentations of technical material. Restricted to students in second year of the Engineering Physics Program. 
+prer: APSC 202.
+preq: APSC 202
+crer: ENPH 253.
+creq: ENPH 253
+
+code: APSC 210
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. 
+
+code: APSC 211
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education Program. 
+
+code: APSC 212
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education Program. 
+
+code: APSC 261
+name: Technology and Society I
+cred: 3
+desc: The course deals with the influence of technology on the social, political, economic, and environmental aspects of society. The specific subject matter varies from year to year. Examples of subjects considered include, resources, energy, nuclear power, technology, the effects of technology on the family, education, agriculture, international policy and others. [3-0-0]
+
+code: APSC 262
+name: Technology and Society II
+cred: 3
+desc: The course deals with the influence of technology on the social, political, economic and environmental aspects of society. The subject matter varies from year to year and differs from APSC 261. It may be taken as a continuation of APSC 261 or taken independently. Examples of subjects considered include pollution, work place health hazards, social impact of computers, problem solving, green revolution, technology and the third world, engineering ethics and others. 
+
+code: APSC 263
+name: Technology and Development
+cred: 3
+desc: Environmental, economic, political, and social aspects of appropriate technologies in the developing world. Appropriate technology and infrastructure, trade and finance, transportation, energy, water access, communication, health, and gender. 
+
+code: APSC 278
+name: Engineering Materials
+cred: 3
+desc: Atomic bonding; crystal structures and imperfections; properties of metals, ceramics, polymers, wood, concrete and fibre composite materials; selection of materials; corrosion; mechanical testing and heat treatment. 
+
+code: APSC 279
+name: Engineering Materials Laboratory
+cred: 1
+desc: Atomic bonding; crystal structures and imperfections; properties of metals, ceramics, polymers, wood, concrete and fibre composite materials; selection of materials; corrosion; mechanical testing and heat treatment. 
+prer: APSC 278.
+preq: APSC 278
+crer: APSC 278 may be taken.
+creq: APSC 278 may be taken
+
+code: APSC 310
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. 
+
+code: APSC 311
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education Program. 
+
+code: APSC 312
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education Program. 
+
+code: APSC 331
+name: Intermediate Engineering Design I
+cred: 3
+desc: Intermediate level engineering design project involving material in the curriculum of the Integrated Engineering program. For students in the Co-operative Education Program. 
+
+code: APSC 332
+name: Intermediate Engineering Design II
+cred: 3
+desc: Intermediate level engineering design project involving material in the curriculum of the Integrated Engineering program. For students in the Co-operative Education Program. 
+prer: APSC 331.
+preq: APSC 331
+
+code: APSC 364
+name: Applied Sustainability: UBC as a Living Laboratory
+cred: 3
+desc: The role and function of common infrastructures, and the impact of various technological solutions on people, the economy, and the environment. 
+prer: Third-year standing.
+preq: Third-year standing
+
+code: APSC 366
+name: The Art of the Possible: An Introduction to Engineering for Non-Engineers
+cred: 3
+desc: An introduction to engineering for the non-specialist. A case-studies approach includes examples from sustainability-related technology, consumer products, structures, and energy conversion. [3-0-0]
+
+code: APSC 377
+name: Nuclear Weapons and Arms Control
+cred: 3
+desc: The evolution and contemporary significance of nuclear weapons and arms control policy and technology from the perspective of the physical and life sciences and the social sciences and humanities. 
+prer: Third-year standing in B.A. or B.Sc. programs, or second-year standing in B.A.Sc. program.
+preq: Third-year standing in B.A. or B.Sc. programs or second-year standing in B.A.Sc. program
+
+code: APSC 380
+name: Introduction to Microcomputers
+cred: 3
+desc: An introductory course intended for potential users of microcomputers in real time or non-computational engineering applications. Topics include: perspective on applications and costs; basic microcomputer hardware; principles of microcomputer operation; introduction to microcomputer programming and software design tools; input-output devices including transducers, analog-to-digital converters, digital-to-analog converters; input-output methods and interface characteristics; selected case studies such as direct digital controllers and sensor-based systems. Limited enrolment. Restricted to engineering students not taking Electrical or Computer Engineering. 
+
+code: APSC 410
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and the Co-operative Education Program. 
+
+code: APSC 411
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education. 
+
+code: APSC 412
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an approved company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the Faculty of Applied Science and Co-operative Education Programs. 
+
+code: APSC 440
+name: Management Fundamentals for Technology-Based Product Marketing and Development
+cred: 3
+desc: Management topics are presented from the perspective of technology-based industrial practice; project management, marketing and marketing planning, product development and commercialization, introduction to quality management, teamwork and effective individual participation. 
+prer: Fourth-year standing in Engineering.
+preq: Fourth-year standing in Engineering
+
+code: APSC 450
+name: Professional Engineering Practice
+cred: 2
+desc: Legislation affecting the practice of engineering; ethical principles and responsibilities. Management of engineering enterprises; labour relations, safety and environmental legislation. Restricted to engineering undergraduate students in the final year of their program. 
+
+code: APSC 461
+name: Global Engineering Leadership
+cred: 3
+desc: Introduction to concepts, theory, and practice of engineering leadership, including characteristics; individual and cultural differences, service and management contexts; managing change, conflicts, and crises; real-world ethics and core values. 
+prer: Completion of third year.
+preq: Completion of third year
+
+code: APSC 462
+name: Global Engineering Leadership Practicum
+cred: 3
+desc: International service learning (ISL) placement in which concepts, theory, and practice of engineering leadership are applied by working with a community organization on appropriate technology projects. 
+prer: APSC 461 and registration with the Go Global ISL program and successful completion of Go Global program requirements.
+preq: APSC 461 and registration with the Go Global ISL program and successful completion of Go Global program requirements
+
+code: APSC 486
+name: New Venture Design
+cred: 6
+desc: Teams comprising students in APSC 486 and COMM 486 create a business plan and a prototype or engineering solution of a novel product, process, or process component. 
+
+code: APSC 496
+name: Interdisciplinary Engineering Design Project
+cred: 1, 2, 3, 4, 5, 6, 7, 8
+desc: Projects involving students from several departments. 
+
+code: APSC 498
+name: Directed Studies
+cred: 1, 2, 3, 4, 5
+desc: Requires approval of a Department Head or Program Director. 

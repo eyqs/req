@@ -1,0 +1,103 @@
+
+
+code: ASTU 100
+name: 1st Year CAP Seminar
+cred: 6
+desc: CAP seminar focused on writing and reading, including both literature and introduction to academic scholarship. Topics vary each year. Credits count toward both the Faculty of Arts Writing and Research Requirement and the Literature Requirement. Restricted to students in the Coordinated Arts Program. 
+
+code: ASTU 101
+name: Writing for Research in the Social Sciences and the Humanities
+cred: 3
+desc: Analysis of and practice in academic writing and reading in the social sciences and the humanities. Restricted to students in the Coordinated Arts Program. 
+
+code: ASTU 160
+name: International Perspectives on Writing in the Social Sciences and Humanities
+cred: 3
+desc: Analysis of and practice in writing and reading for research in the social sciences and humanities; national and international aspects of scholarship and of writing cultures. Fulfills the first component of the Arts' Writing and Research Requirement.  Restricted to students in the Sciences Po - UBC Dual Degree. 
+crer: ASTU 204.
+creq: ASTU 204
+
+code: ASTU 201
+name: Canada, Japan and the Pacific: Cultural Studies
+cred: 3
+desc: An interdisciplinary introduction to the cultures of Canada and Japan, and the interrelations between them. Specific topics vary from year to year but will include themes such as constructing the past; nationalism; self-perceptions; cross-cultural perceptions; multiculturalism in Canada and Japan; images in architecture, film and literature; mythologies. 
+
+code: ASTU 202
+name: Canada, Japan and the Pacific: Political, Economic and Geographical Perspectives
+cred: 3
+desc: An interdisciplinary introduction to political, economic and geographical interactions between Japan and Canada, the links between these countries and other Pacific Rim nations, and the historical origins of these connections. Specific topics will vary from year to year, but will include themes such as economic integration in the Pacific region; the role of resource economies such as Canada's; security relations in the Pacific; the role of Japanese investment in the Asia-Pacific region. 
+
+code: ASTU 204
+name: Topics in Interdisciplinary Arts Studies
+cred: 1, 2, 3, 4, 5
+desc: Selected interdisciplinary topics in Arts studies.  For upcoming offerings including course descriptions and possible enrolment restrictions, please see section information in the UBC course schedule. 
+
+code: ASTU 210
+name: Global Citizenship, Part 1: Introduction
+cred: 3
+desc: Themes of global citizenship, sustainability, and civil society, and barriers and bridges to global thinking. 
+
+code: ASTU 211
+name: Global Citizenship, Part 2: Community Service Learning and Capstone Conference
+cred: 3
+prer: One of ASTU 210, EDUC 210.
+preq: ASTU 210 or EDUC 210
+
+code: ASTU 260
+name: Knowledge Dissemination: Communicating Research to Public Audiences
+cred: 3
+desc: Research, theory, and practice in the communication of expert knowledge to non-specialist audiences; popular media and dissemination. Restricted to students in the Sciences Po - UBC Dual Degree. 
+crer: ASTU 400.
+creq: ASTU 400
+
+code: ASTU 310
+name: Co-operative Work Placement I
+cred: 3
+desc: Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Orientation workshops. Final work term report required. Restricted to students in the Arts Co-operative Education Program. 
+prer: 6 credits first-year English or Arts I; 6 credits of science; 6 credits of literature; satisfaction of Faculty language requirement.
+preq: 6 credits first-year English or Arts I; 6 credits of science; 6 credits of literature; satisfaction of Faculty language requirement
+
+code: ASTU 311
+name: Co-operative Work Placement II
+cred: 3
+desc: Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Final work term report required. 
+prer: ASTU 310.
+preq: ASTU 310
+
+code: ASTU 360
+name: Community-Based Research and Knowledge Creation
+cred: 3
+desc: Principles and practice of conducting research in community partnership. 
+prer: Third-year standing.
+preq: Third-year standing
+
+code: ASTU 400
+name: Interdisciplinary Studies in Arts
+cred: 3, 4, 5
+desc: For upper-division students in the Faculty of Arts. Topics announced annually. 
+
+code: ASTU 401
+name: Special Topics in Arts Studies
+cred: 1, 2, 3, 4, 5
+desc: Selected topics offered by a distinguished visitor to the campus. For upcoming offerings including course descriptions and possible enrolment restrictions, please see section information in the UBC course schedule. 
+
+code: ASTU 410
+name: Co-operative Work Placement III
+cred: 3
+desc: Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Final work term report. 
+prer: ASTU 311.
+preq: ASTU 311
+
+code: ASTU 411
+name: Co-operative Work Placement IV
+cred: 3
+desc: Optional extra work placement. Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Final work term report. 
+prer: ASTU 410.
+preq: ASTU 410
+
+code: ASTU 412
+name: Co-operative Work Placement V
+cred: 3, 4, 5
+desc: Optional extra work placement. Approved and supervised work experience with a public or private organization for a minimum of 13 weeks full-time. Final work term report. 
+prer: ASTU 411.
+preq: ASTU 411

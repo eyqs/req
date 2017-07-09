@@ -1,0 +1,123 @@
+
+
+code: DHYG 106
+name: Basics of Oral Microbiology
+cred: 3
+desc: Basic principles in the study of microorganisms and their relation to human health for dental hygiene students. 
+
+code: DHYG 108
+name: Oral Health Sciences I
+cred: 3
+desc: An introduction to normal, healthy facial, oral, and dental structures; oral health records, and charting terminology and symbols. 
+
+code: DHYG 110
+name: Dental Hygiene Theory & Practice I
+cred: 3
+desc: An introduction to the Dental Hygiene profession, practice roles and the process of care model. 
+
+code: DHYG 206
+name: Head & Neck Anatomy
+cred: 3
+prer: All of BIOL 153, DHYG 108.
+preq: BIOL 153 and DHYG 108
+
+code: DHYG 208
+name: Oral Health Sciences II
+cred: 12
+desc: An introduction to desease-related concepts during the study of dental materials, general pathology, plaque biofilm, nutrition, radiology, periodontology, and oral pathology. 
+prer: DHYG 108.
+preq: DHYG 108
+
+code: DHYG 210
+name: Dental Hygiene Theory and Practice II
+cred: 18
+desc: The study of dental hygiene theory and practice in clinical and community-based settings. 
+prer: DHYG 110.
+preq: DHYG 110
+
+code: DHYG 308
+name: Oral Health Sciences III
+cred: 6
+desc: An introduction to concepts and principles of pharmacology and local anesthesia, and further study of oral medicine, oral pathology, and radiology. 
+prer: DHYG 208.
+preq: DHYG 208
+
+code: DHYG 310
+name: Dental Hygiene Theory & Practice III
+cred: 18
+desc: The study of dental hygiene theory and practice with emphasis on diverse clients with oral health care needs. 
+prer: DHYG 210.
+preq: DHYG 210
+
+code: DHYG 325
+name: Applied Pharmacology
+cred: 3
+desc: Applied pharmacology concepts and principles for the dental health professional. 
+
+code: DHYG 400
+name: Policy Analysis and Change
+cred: 3, 6
+desc: Critical reviews of oral health care delivery, oral disease processes and dental hygiene. [3-0-0]
+
+code: DHYG 401
+name: Oral Epidemiology
+cred: 6
+desc: Basic epidemiological and statistical concepts and tests relevant to evidence-based oral health practices. 
+
+code: DHYG 402
+name: Dental Hygiene Practice I
+cred: 6
+desc: Dental hygiene concepts, processes, and skills for individuals and communities. [3-0-0; 3-0-0]
+
+code: DHYG 404
+name: Dental Hygiene Practice II
+cred: 6
+desc: Advanced dental hygiene concepts, processes and skills in community health, educational or institutional settings. 
+
+code: DHYG 405
+name: Oral Microbiology and Immunology
+cred: 3
+desc: Microbiology and immunological concepts relevant for dental hygiene practice. 
+
+code: DHYG 406
+name: Guided Study in Dental Hygiene
+cred: 6
+desc: Conduct an in-depth investigation of a health promotion issue. 
+prer: All of DHYG 400, DHYG 401, DHYG 461. And Faculty approval.
+preq: (DHYG 400 and DHYG 401 and DHYG 461.) and Faculty approval
+
+code: DHYG 410
+name: Dental Hygiene Theory & Practice IV
+cred: 18
+desc: Critical analysis of dental hygiene theory and practice related to diverse clients with complex oral health care needs. 
+prer: DHYG 310.
+preq: DHYG 310
+
+code: DHYG 412
+name: Oral Health Care Trends & Topics
+cred: 6
+desc: Critical analysis of health care trends and oral health care delivery with emphasis on underserved diverse populations. 
+
+code: DHYG 433
+name: Assessment and Treatment Planning for Advanced Periodontal Diseases
+cred: 3
+desc: Available in online distance education format only. 
+crer: All of DHYG 401, DHYG 462.
+creq: DHYG 401 and DHYG 462
+
+code: DHYG 435
+name: Oral Medicine and Pathology
+cred: 3
+desc: Pathobiology of oral diseases. Available in online distance education format only. 
+
+code: DHYG 461
+name: Literature Review I
+cred: 4
+desc:  [2-0-0]
+
+code: DHYG 462
+name: Literature Review II
+cred: 4
+desc: A continuation of DHYG 461. [2-0-0]
+crer: DHYG 401.
+creq: DHYG 401

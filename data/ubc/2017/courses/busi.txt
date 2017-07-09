@@ -1,0 +1,324 @@
+
+
+code: BUSI 100
+name: Micro Foundations of Real Estate Economics
+cred: 3
+desc: Basic principles of microeconomics and application to current economic problems. 
+
+code: BUSI 101
+name: Capital Markets and Real Estate
+cred: 3
+desc: Basic principles of macroeconomics and application to current economic problems. 
+prer: BUSI 100.
+preq: BUSI 100
+
+code: BUSI 111
+name: British Columbia Real Estate Law and Real Estate Ethics
+cred: 3
+desc: Canadian legal system and contract law and detailed aspects of real estate law as it applies in British Columbia. 
+
+code: BUSI 112
+name: Canadian Real Property Law and Real Estate Ethics
+cred: 3
+desc: Canadian legal system and contract law and detailed aspects of real estate law as it applies across Canada. 
+
+code: BUSI 121
+name: Foundations of Real Estate Mathematics
+cred: 3
+desc: Introduction to mathematics of real estate finance and statistical measures and methods and their application to practical real estate concepts. 
+prer: Algebra 12 strongly recommended.
+preq: Algebra 12 strongly recommended
+
+code: BUSI 221
+name: Real Estate Finance in a Canadian Context
+cred: 3
+desc: History, function and mechanics of Canadian mortgage markets. 
+prer: BUSI 121.
+preq: BUSI 121
+
+code: BUSI 290
+name: Introduction to Quantitative Decision Analysis
+cred: 3
+desc: Introduction to decision models in business, including basic optimization, linear programming, probability, decision analysis, random variables, simulation, and solving decision problems using spreadsheet tools. 
+
+code: BUSI 291
+name: Application of Statistics in Business
+cred: 3
+desc: Methods and applications of statistics in business; data analysis, descriptive regression; data generation; sampling distributions; hypothesis testing; confidence intervals; two sample problems; inference in regression. 
+
+code: BUSI 293
+name: Introductory Financial Accounting
+cred: 3
+desc: Introduction to the construction and interpretation of financial reports prepared primarily for external use. 
+
+code: BUSI 294
+name: Introductory Management Accounting
+cred: 3
+desc: Introduction to the development and use of accounting information for management planning and control, and the development of cost information for financial reports. 
+prer: BUSI 293 or equivalent.
+preq: BUSI 293 or equivalent
+crer: BUSI 293 or equivalent.
+creq: BUSI 293 or equivalent
+
+code: BUSI 295
+name: Managerial Economics
+cred: 3
+desc: Economic foundations of managerial decision making. 
+
+code: BUSI 299
+name: Business Communications
+cred: 1
+desc: Basic communication theory, communications in organizations.  Includes written and oral practice in lab sessions. 
+
+code: BUSI 300
+name: Urban and Real Estate Economics
+cred: 3
+desc: Comprehensive treatment of urban and real estate economics; introduction to study of cities and real estate market; analytical microeconomic principles. 
+prer: All of BUSI 100, BUSI 101.
+preq: BUSI 100 and BUSI 101
+
+code: BUSI 329
+name: Principles of Organizational Behaviour
+cred: 3
+desc: An introductory examination of work organizations and the behaviour of individuals within them.  Phenomena to be studied include organizational structure, evironments, group processes, motivation and leadership. 
+
+code: BUSI 330
+name: Foundations of Real Estate Appraisal
+cred: 3
+desc: Introduction to concepts and techniques for appraising the value of real estate. 
+prer: Recommend BUSI 121.
+preq: Recommend BUSI 121
+
+code: BUSI 331
+name: Real Estate Investment Analysis and Advanced Income Appraisal
+cred: 3
+desc: Valuation techniques for income real estate, including income method of appraisal, tax consequences of real property ownership, and portfolio analysis methodology. 
+prer: All of BUSI 121, BUSI 330.
+preq: BUSI 121 and BUSI 330
+
+code: BUSI 335
+name: Information Systems
+cred: 3
+desc: Introduction to information technology related to business use: design, implementation, and application of information systems. 
+
+code: BUSI 344
+name: Statistical and Computer Applications in Valuation
+cred: 3
+desc: Explores creative, practical uses of statistical and computer applications in determining and analyzing real estate value. Through case studies and hands-on computer work, students will learn the fundamentals of exploratory data analysis and appraisal valuation modeling. 
+
+code: BUSI 352
+name: Case Studies in Residential Valuation
+cred: 3
+desc: Examines common issues that affect the practice of residential real estate valuation. Credit will be granted for only one of BUSI 352 or both BUSI 442 and BUSI 452. 
+prer: BUSI 330. BUSI 121, BUSI 344 recommended.
+preq: BUSI 330. BUSI 121 BUSI 344 recommended
+
+code: BUSI 353
+name: Intermediate Financial Accounting I
+cred: 3
+desc: An examination of accounting as a means of measurement and as an information system for external reporting purposes. 
+prer: BUSI 293 or equivalent.
+preq: BUSI 293 or equivalent
+
+code: BUSI 354
+name: Cost Accounting
+cred: 3
+desc: The provision and analysis of cost accounting information that will assist management in making operating decisions and in evaluating operational performance. 
+prer: BUSI 294 or equivalent.
+preq: BUSI 294 or equivalent
+
+code: BUSI 355
+name: Introduction to Income Tax
+cred: 3
+desc: A study of income tax from the standpoint of the individual and business enterprise. 
+prer: BUSI 293 or equivalent.
+preq: BUSI 293 or equivalent
+
+code: BUSI 370
+name: Business Finance
+cred: 3
+desc: An introduction to the basic principles of financial valuation and an examination of corporate enterprise decisions including working capital management; capital budgeting; capital structures and dividend policy. 
+prer: BUSI 293 or equivalent.
+preq: BUSI 293 or equivalent
+
+code: BUSI 391
+name: Introduction to Management Information Systems
+cred: 3
+desc: Overview of computer technology and terminology; use of computers as managerial and administrative tools; the management of computer resources and the influence of information technology within the organization. 
+
+code: BUSI 393
+name: Introduction to Business Law
+cred: 3
+desc: Introduction to the law of contracts, with particular reference to contracts for sale of goods and related law of personal property, principles of agency, partnership, and company law. 
+
+code: BUSI 398
+name: Residental Property Guided Case Study
+cred: 4
+desc: The residential property appraisal process, focusing both on valuation techniques as well as general research and report writing skills. 
+
+code: BUSI 399
+name: Logistics and Operations Management
+cred: 3
+desc: The design and management of systems to make products, provide services and deliver them to the end user. 
+prer: All of BUSI 290, BUSI 291 or equivalents.
+preq: BUSI 290 and BUSI 291 and equivalents
+
+code: BUSI 400
+name: Residential Property Analysis
+cred: 3
+desc: Underlying theory and techniques used in design, construction, and inspection of residential properties. 
+
+code: BUSI 401
+name: Commercial Property Analysis
+cred: 3
+desc: Underlying theory and techniques used in the design and construction of commercial properties. 
+
+code: BUSI 433
+name: Real Estate Business
+cred: 3
+desc: General business skills for real estate practitioners. 
+
+code: BUSI 441
+name: Real Estate Management I
+cred: 3
+desc: Examines the day-to-day issues which affect the practice of property management. 
+prer: BUSI 330. BUSI 331 recommended.
+preq: BUSI 330. BUSI 331 recommended
+
+code: BUSI 442
+name: Case Studies in Appraisal I
+cred: 3
+desc: Examines the day-to day issues that affect the practice of real estate appraisal. 
+prer: All of BUSI 121, BUSI 330, BUSI 331.
+preq: BUSI 121 and BUSI 330 and BUSI 331
+
+code: BUSI 443
+name: Assessment Administration
+cred: 3
+desc: Introduces the practice of real property assessment, including the nature of the techniques used, the required duties of assessors, and how an assessment office is administrated. 
+prer: BUSI 330 recommended.
+preq: BUSI 330 recommended
+
+code: BUSI 444
+name: Computer Aided Mass Property Assessment
+cred: 6
+desc: This course develops and applies the major techniques for valuing real property. 
+prer: Recommend all of BUSI 121, BUSI 330, BUSI 443.
+preq: Recommend all of BUSI 121 BUSI 330 BUSI 443
+
+code: BUSI 445
+name: Real Estate Development I
+cred: 3
+desc: Real estate development process from the project idea to the cursory feasibility stage.  Steps in development planning, including analysis, design and evaluation.  Evaluating development potential, land acquisition, and site planning. 
+prer: All of BUSI 330, BUSI 331.
+preq: BUSI 330 and BUSI 331
+
+code: BUSI 446
+name: Real Estate Development II
+cred: 3
+desc: Analysis of real estate development process with an examination of economic feasibility studies, approval processes, project financing, construction, project management, and marketing phases. 
+prer: BUSI 445.
+preq: BUSI 445
+
+code: BUSI 450
+name: Intermediate Financial Accounting II
+cred: 3
+desc: A continuation of the examination of accounting as a means of measurement and as an information system for external reporting purposes. 
+prer: BUSI 353.
+preq: BUSI 353
+crer: BUSI 353.
+creq: BUSI 353
+
+code: BUSI 451
+name: Real Estate Management II
+cred: 3
+desc: Continuation of BUSI 441. 
+
+code: BUSI 452
+name: Case Studies in Appraisal II
+cred: 3
+desc: Continuation of BUSI 442 
+
+code: BUSI 453
+name: Advanced Financial Accounting
+cred: 3
+desc: An examination of advanced financial accounting topics. 
+prer: BUSI 450.
+preq: BUSI 450
+crer: BUSI 450.
+creq: BUSI 450
+
+code: BUSI 454
+name: Accounting for Management Control and Incentives
+cred: 3
+desc: Design of accounting systems for facilitating and influencing management decisions, with emphasis on performance evaluation in organizations. 
+prer: BUSI 294.
+preq: BUSI 294
+
+code: BUSI 455
+name: Principles of Auditing
+cred: 3
+desc: Principles of internal control; audit evidence; sampling and testing; audit reports; standards and responsibilities of the external audit. 
+prer: BUSI 353. Recommended prerequisite or corequisite: BUSI 450.
+preq: BUSI 353. Recommended prerequisite or corequisite: BUSI 450
+
+code: BUSI 460
+name: Critical Analysis and Forecasting in Real Estate
+cred: 3
+desc: Delves into two quantitative decision-making methodologies – decision analysis and forecasting – and explores them using a problem-solving framework. 
+prer: BUSI 121. BUSI 331 and BUSI 444 are also recommended.
+preq: BUSI 121. BUSI 331 and BUSI 444 are also recommended
+
+code: BUSI 465
+name: Marketing Management
+cred: 3
+desc: Basic considerations affecting the domestic and international marketing of goods and services. 
+prer: All of ECON 101, ECON 102, BUSI 293.
+preq: ECON 101 and ECON 102 and BUSI 293
+
+code: BUSI 470
+name: Financial Management
+cred: 3
+prer: One of BUSI 370, COMM 473.
+preq: BUSI 370 or COMM 473
+
+code: BUSI 485
+name: Taxes and Decision Making
+cred: 3
+desc: Analysis of business and financial decisions in the presence of taxes. 
+
+code: BUSI 486
+name: Special Topics in Business
+cred: 1, 2, 3, 4, 5, 6, 7, 8
+
+code: BUSI 493
+name: Strategic Management in Business
+cred: 3
+desc: A conceptual and practical introduction to the major areas of busness strategy with an integrative perspective on managing a business.  Includes the analysis of a business and its environment, the development and evaluation of strategic alternatives, and implementation of change. 
+prer: BUSI 293 and either (a) all of ECON 101, ECON 102 or (b) ECON 309.
+preq: BUSI 293 and ((ECON 101 and ECON 102) or ECON 309)
+crer: Two of BUSI 294, BUSI 329, BUSI 370, BUSI 465.
+creq: Two of BUSI 294 BUSI 329 BUSI 370 BUSI 465
+
+code: BUSI 497
+name: Guided Case Study in Agricultural Real Estate
+cred: 6
+desc: An agriculturally-focused version of BUSI 499. 
+prer: All of BUSI 330, BUSI 331, BUSI 442, BUSI 452.
+preq: BUSI 330 and BUSI 331 and BUSI 442 and BUSI 452
+
+code: BUSI 498
+name: International Business Management
+cred: 3
+desc: Development of general environmental framework for international business studies by drawing on international and development economics, research into government-business relations and studies in comparative socio-cultural systems and political systems. 
+prer: BUSI 293 and either (a) all of ECON 101, ECON 102 or (b) ECON 309.
+preq: BUSI 293 and ((ECON 101 and ECON 102) or ECON 309)
+crer: Two of BUSI 294, BUSI 329, BUSI 370, BUSI 465.
+creq: Two of BUSI 294 BUSI 329 BUSI 370 BUSI 465
+
+code: BUSI 499
+name: Income Property Guided Case Study
+cred: 6
+desc: The income property appraisal process, focusing both on valuation techniques as well as general research and report writing skills. 
+prer: All of BUSI 330, BUSI 331, BUSI 442, BUSI 452.
+preq: BUSI 330 and BUSI 331 and BUSI 442 and BUSI 452

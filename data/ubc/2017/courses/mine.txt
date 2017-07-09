@@ -1,0 +1,220 @@
+
+
+code: MINE 224
+name: Mineralogy for Mining Engineering
+cred: 4
+desc: Fundamentals of the main techniques used by the industry to characterize raw materials and troubleshoot processing plants. 
+
+code: MINE 291
+name: Introduction to Mining
+cred: 3
+desc: Leading practices and technologies employed in the design, planning, and operation of mining systems. Life cycle of surface and underground mining systems. 
+
+code: MINE 292
+name: Introduction to Mineral Processing
+cred: 3
+desc: Overview; extracting a mineral or final product from an ore. 
+
+code: MINE 293
+name: Seminar
+cred: 1
+desc: Oral presentation of topics by students. Graded on basis of report and presentation. 
+
+code: MINE 302
+name: Underground Mining and Design
+cred: 3
+desc: Selection, design and development of underground mining methods based upon physical, geological, economical and environmental constraints. Underground materials handling (ore, waste, slurry, water) with equipment selection, production requirements, performance and costs. 
+prer: MINE 291.
+preq: MINE 291
+
+code: MINE 303
+name: Rock Mechanics Fundamentals
+cred: 3
+desc: The study of the mechanical and structural properties of rock materials at the laboratory and field level. The relevance of such studies to common mining, geological and civil engineering problems. Credit will be granted for only one of MINE 303 or MINE 305. 
+prer: One of CIVL 230, MECH 260. MINE 290 is recommended.
+preq: CIVL 230 or MECH 260. MINE 290 is recommended
+
+code: MINE 304
+name: Rock Fragmentation
+cred: 3
+desc: Theory and practice of rock fragmentation by drilling and blasting; introduction to explosives and initiation systems; design of surface and underground blasts; machine excavation systems for tunneling and stoping; environmental impacts, safety, and risk assessment. 
+prer: MINE 291.
+preq: MINE 291
+
+code: MINE 310
+name: Surface Mining and Design
+cred: 3
+desc: Surface mining methods, production planning and scheduling; slope design and drainage; wall control; materials handling and equipment selection; production control and automation, waste disposal and closure. 
+prer: All of MINE 291, MINE 292.
+preq: MINE 291 and MINE 292
+
+code: MINE 331
+name: Physical Mineral Processes
+cred: 3
+desc: Mineral processing unit operations and sampling, crushing, grinding, screening, classification, gravity separation, magnetic separation, electrostatic separation, concentrate dewatering practices. 
+prer: MINE 292.
+preq: MINE 292
+
+code: MINE 333
+name: Flotation
+cred: 3
+desc: Theory and technology of flotation and ancillary processes. 
+prer: MINE 292.
+preq: MINE 292
+
+code: MINE 350
+name: Modeling and Simulation
+cred: 3
+desc: Methods for determining the behaviour of large scale industrial systems and their application to the design and analysis of such systems. 
+prer: STAT 251.
+preq: STAT 251
+
+code: MINE 393
+name: Seminar
+cred: 1
+desc: Oral presentation of topics by instructor and guest lecturers. 
+prer: Third-year standing in Mining Engineering.
+preq: Third-year standing in Mining Engineering
+
+code: MINE 395
+name: Mineral Deposit Modeling
+cred: 3
+desc: Types of mineral deposits. Exploration and sampling methods. Methods for data analysis and computer modeling of mineral deposits and their use in production planning and design. 
+prer: All of MINE 291, MINE 292.
+preq: MINE 291 and MINE 292
+crer: STAT 251.
+creq: STAT 251
+
+code: MINE 396
+name: Engineering Economics
+cred: 3
+desc: Discrete and continuous cash flow models, discounted cash flow analysis, effects of depreciation and taxes, economic analysis of projects, sensitivity and risk analysis, financing and cost of capital. 
+prer: Second-year standing in Engineering.
+preq: Second-year standing in Engineering
+
+code: MINE 402
+name: Mine Ventilation and Occupational Health and Safety
+cred: 3
+desc: Design and analysis for ventilation systems for mining. Topics such as ventilation design, ventilation surveys, thermodynamic aspects, psychrometry of air and air conditioning. 
+prer: MINE 291.
+preq: MINE 291
+
+code: MINE 403
+name: Rock Mechanics Design
+cred: 3
+desc: The design of rock slopes and underground openings with respect to stress, structure and the rock mass. Stabilization and monitoring of rock movement. 
+prer: One of MINE 303, MINE 305.
+preq: MINE 303 or MINE 305
+
+code: MINE 404
+name: Mine Management
+cred: 3
+desc: Human relations in an organization; types of organizations; personnel evaluations and job rating systems; impact of manpower planning on decision-making; union negotiations; public relations; dealing with the media; corporate responsibilities to society and employees. 
+prer: Third- or Fourth-year standing in Mining Engineering.
+preq: Third- or Fourth-year standing in Mining Engineering
+
+code: MINE 406
+name: Mine Project Valuation and Risk Assessment
+cred: 3
+desc: Mineral economics and finance. Analytical tools and techniques used in the valuation of mining companies and the financial analysis and risk assessment methods. [2-2-0]
+prer: MINE 396.
+preq: MINE 396
+
+code: MINE 432
+name: Mineral Process Control
+cred: 3
+desc: Automatic control theory, PID control, Laplace and z-transforms, loop tuning, frequency response, stability analysis, control strategies in flotation, comminution, dewatering, reagent and bin/sump levels, automated load-haul-dump and drilling equipment, instrumentation and soft sensors. 
+
+code: MINE 434
+name: Processing Precious Metal Ores
+cred: 3
+desc: Process alternatives and mineralogical considerations; physical and chemical recovery technologies; environmental protection; flowsheet studies. 
+prer: MINE 331.
+preq: MINE 331
+
+code: MINE 435
+name: Plant and Process Design
+cred: 3
+desc: Design of unit operations in a mineral processing plant including crushing, grinding, classification, gravity separation, magnetic separation, flotation, thickening and filtration. Equipment selection and sizing, flowsheet design, circuit analysis and processing options. 
+prer: MINE 331.
+preq: MINE 331
+
+code: MINE 438
+name: Advanced Process Mineralogy
+cred: 3
+desc: Textural parameters, such as mineral liberation size and mineral associations in connection with the mineral processing techniques for mineral recovery. 
+prer: MINE 331.
+preq: MINE 331
+
+code: MINE 455
+name: Mine Water Management
+cred: 3
+desc: Mine water management covering integrated water resource management, water balances, sources, water use optimization, water quality and treatment and long term stewardship. [2-2-0]
+prer: One of MINE 291, MINE 292.
+preq: MINE 291 or MINE 292
+
+code: MINE 462
+name: Coal Preparation Technology
+cred: 3
+desc: Thermal and metallurgical coals: objectives of their cleaning; coal washability and flotability fundamentals; coal preparation unit operations; performance characteristics of coal washing equipment; products dewatering; plant flowsheets. 
+prer: All of MINE 292, MINE 331.
+preq: MINE 292 and MINE 331
+
+code: MINE 465
+name: Materials Handling
+cred: 3
+desc: Knowledge and understanding of equipment used in mining operations, including diesel, electro-mechanical, hydraulic and pneumatic equipment as well as conveyors, load-haul-dump trucks and pumps. [2-2-0]
+prer: One of MINE 302, MINE 310.
+preq: MINE 302 or MINE 310
+
+code: MINE 480
+name: Mine Waste Management
+cred: 3
+desc: Basic geotechnical, hydrological, and water management aspects of mine waste management. 
+prer: CIVL 210 and fourth-year standing.
+preq: CIVL 210 and fourth-year standing
+
+code: MINE 482
+name: Maintenance Engineering
+cred: 3
+desc: Analytical foundation for maintenance of industrial plant equipment and mobile equipment in various production environments; maintenance planning and management, life cycle analysis, reliability theory, total quality maintenance, condition monitoring. 
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: MINE 485
+name: Cave Mining Systems: Design and Planning
+cred: 3
+desc: Designs, planning, and leading practices are applied to underground mining systems reliant on induced and controlled rock mass caving. 
+prer: MINE 302.
+preq: MINE 302
+
+code: MINE 486
+name: Mining and The Environment
+cred: 3
+desc: Environmental topics of importance to engineers practicing within the mining, metallurgical and related industries including technical practices, regulatory and public issues. 
+
+code: MINE 488
+name: Heavy Oil Sand Mining and Processing
+cred: 3
+desc: Life cycle of the production of Oil Sands resources, including mining, bitumen extraction, and reclamation. 
+prer: MINE 310.
+preq: MINE 310
+
+code: MINE 491
+name: Mine and Plant Feasibility Study
+cred: 4
+desc: Design of a mining operation or a mineral processing plant as part of a realistic feasibility study project. 
+prer: All of MINE 302, MINE 303, MINE 304, MINE 310, MINE 331, MINE 333, MINE 350, MINE 396. Fourth-year standing in Mining Engineering is required.
+preq: MINE 302 and MINE 303 and MINE 304 and MINE 310 and MINE 331 and MINE 333 and MINE 350 and MINE 396. Fourth-year standing in Mining Engineering is required
+
+code: MINE 493
+name: Seminar
+cred: 1
+desc: Oral presentation of a technical nature. Use of closed circuit television for personal evaluation. 
+prer: Fourth-year standing in Mining Engineering.
+preq: Fourth-year standing in Mining Engineering
+
+code: MINE 497
+name: Directed Studies
+cred: 1, 2, 3, 4, 5
+desc: Requires approval of the department head. 

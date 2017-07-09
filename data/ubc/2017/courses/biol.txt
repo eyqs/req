@@ -1,0 +1,718 @@
+
+
+code: BIOL 111
+name: Introduction to Modern Biology
+cred: 3
+desc: Concepts fundamental to biological issues, such as the genetic basis of biological variation, evolution, infectious diseases, causes of cancer, population growth, and human effects on ecosystems.  Not open to students who have credit for Biology 12 (including AP, IB). [3-0-0]
+
+code: BIOL 112
+name: Biology of the Cell
+cred: 3
+desc: The principles of cellular and molecular biology using bacterial and eukaryotic examples. [3-0-0]
+prer: One of CHEM 12, CHEM 111 and one of BIOL 11, BIOL 12, BIOL 111.
+preq: (CHEM 12 or CHEM 111) and (BIOL 11 or BIOL 12 or BIOL 111)
+
+code: BIOL 121
+name: Genetics, Evolution and Ecology
+cred: 3
+desc: Principles of storage and transmission of genetic variation; origin and evolution of species and their ecological interactions. [3-0-0]
+prer: One of BIOL 11, BIOL 12, BIOL 111.
+preq: BIOL 11 or BIOL 12 or BIOL 111
+
+code: BIOL 140
+name: Laboratory Investigations in Life Science
+cred: 2
+desc: Guided experimental investigations of biological questions. [1-2-0]
+prer: One of BIOL 11, BIOL 12, BIOL 111.
+preq: BIOL 11 or BIOL 12 or BIOL 111
+
+code: BIOL 153
+name: Human Biology
+cred: 7
+desc: The principles of biology with particular reference to the human body (anatomy and physiology). Laboratories include selected experiments on organ physiology and general anatomy. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. 
+
+code: BIOL 155
+name: Human Biology
+cred: 6
+desc: The principles of biology with particular reference to the human body (anatomy and physiology). [3-0-0; 3-0-0]
+
+code: BIOL 200
+name: Fundamentals of Cell Biology
+cred: 3
+desc: Structure and function of plant and animal cells; membrane models, cytoplasmic organelles, biological information from gene to protein, the endomembrane system, secretion, intracellular digestion, endocytosis, transport processes, cytoskeleton and cell motility. [3-0-1]
+prer: Either (a) BIOL 112 and one of CHEM 123, CHEM 113;  or (b) SCIE 001 or (c) 8 transfer credits of first-year BIOL and 6 credits of first-year CHEM or (d) one of BIOL 112 or BIOL 121 and a corequisite of CHEM 203.
+preq: BIOL 112 and ((CHEM 123 or CHEM 113;) or SCIE 001 or 8 transfer credits of first-year BIOL) and (6 credits of first-year CHEM or (BIOL 112 or BIOL 121)) and a corequisite of CHEM 203
+
+code: BIOL 201
+name: Introduction to Biochemistry
+cred: 3
+desc: Biological molecules, protein structure and enzyme action, energy transfer, central metabolic pathways and their regulation. Examples drawn from plants, animals and microorganisms. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar.) [3-0-1]
+prer: BIOL 200 and one of CHEM 233, CHEM 260; or BIOL 200 and a corequisite of CHEM 213; or a corequisite of either CHEM 313 or CHEM 330.
+preq: BIOL 200 and (CHEM 233 or CHEM 260; or BIOL 200) and (a corequisite of CHEM 213; or a corequisite of either CHEM 313 or CHEM 330)
+
+code: BIOL 203
+name: Eukaryotic Microbiology
+cred: 4
+desc: Introduction to the origin and diversity of protists (protozoa and algae) at both cellular and genomic levels, including the role of endosymbiosis in evolution. [3-3-0]
+prer: BIOL 140 and one of BIOL 121, SCIE 001. BIOL 200 recommended.
+preq: BIOL 140 and (BIOL 121 or SCIE 001. BIOL 200 recommended)
+
+code: BIOL 204
+name: Vertebrate Structure and Function
+cred: 4
+desc: Introduction to the vertebrate phyla and their evolution; a comparative study of vertebrate structure and function, with dissection of representative forms. [3-3-0]
+prer: Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140. Or (c) 8 transfer credits of first-year biology.
+preq: (BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140.) or 8 transfer credits of first-year biology
+
+code: BIOL 205
+name: Comparative Invertebrate Zoology
+cred: 4
+desc: An introduction to the unity, diversity and evolutionary history of invertebrates. [3-3-0]
+prer: Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140. Or (c) 8 transfer credits of first-year biology.
+preq: (BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140.) or 8 transfer credits of first-year biology
+
+code: BIOL 209
+name: Biodiversity of algae, fungi and bryophytes
+cred: 4
+desc: Diversity, ecology, cell biology and evolutionary origins of multicellular eukaryotes, illustrated through mosses and liverworts; fungi and slime molds; and fresh water and marine algae. [3-3-0]
+prer: Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140 or (c) 8 transfer credits of first-year biology.
+preq: (BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140) or 8 transfer credits of first-year biology
+
+code: BIOL 210
+name: Vascular Plants
+cred: 4
+desc: A comparative study of pteridophytes, gymnosperms and angiosperms, integrating form, function and ecology. [3-3]
+prer: Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140. Or (c) 8 transfer credits of first-year biology.
+preq: (BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140.) or 8 transfer credits of first-year biology
+
+code: BIOL 230
+name: Fundamentals of Ecology
+cred: 3
+desc: Dynamics of plant and animal populations, structure of ecological communities and functioning of ecosystems. Interpretation of research results and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-3*-0]
+prer: One of BIOL 121, SCIE 001.
+preq: BIOL 121 or SCIE 001
+
+code: BIOL 233
+name: Genetics for Life
+cred: 3
+desc: How genetic differences determine individual characteristics, and how they are inherited, analyzed, and modified. Emphasis on genetic diversity, human ancestry, personal genomics, and cancer genetics. [3-0-2]
+prer: Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001; or (c) a corequisite of CHEM 203 and one of BIOL 112 or BIOL 121.
+preq: ((BIOL 112 and BIOL 121) or SCIE 001; or a corequisite of CHEM 203) and (BIOL 112 or BIOL 121)
+
+code: BIOL 234
+name: Fundamentals of Genetics
+cred: 3
+desc: Genotype and phenotype, mechanisms of inheritance, genetic analysis. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-0-2]
+prer: Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) a corequisite of CHEM 203 and one of BIOL 112 or BIOL 121.
+preq: ((BIOL 112 and BIOL 121) or SCIE 001 or a corequisite of CHEM 203) and (BIOL 112 or BIOL 121)
+
+code: BIOL 260
+name: Fundamentals of Physiology
+cred: 3
+desc: Principles of cellular and organismal physiology illustrated with examples from unicellular organisms, plants and animals, focusing on transport processes, water balance, nutrient acquisition and communication. [3-0-0]
+prer: Either (a) all of BIOL 112, BIOL 121 or (b) SCIE 001 or (c) 8 transfer credits of 1st year BIOL and 6 credits of 1st year chemistry.
+preq: ((BIOL 112 and BIOL 121) or SCIE 001 or 8 transfer credits of 1st year BIOL) and 6 credits of 1st year chemistry
+
+code: BIOL 300
+name: Fundamentals of Biostatistics
+cred: 3
+desc: Statistical procedures for biological research; estimation, hypothesis testing, goodness of fit, analysis of variance and regression; use of computers for statistical analysis. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-2-0]
+prer: Either (a) BIOL 121 and one of MATH 101, MATH 103, MATH 105, MATH 121;  or (b) SCIE 001.
+preq: BIOL 121 and ((MATH 101 or MATH 103 or MATH 105 or MATH 121;) or SCIE 001)
+
+code: BIOL 301
+name: Biomathematics
+cred: 3
+desc: Introduction to uses of mathematics in the biological sciences; experimental design and modelling of biological processes. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-0-2]
+crer: One of BIOL 300, STAT 200.
+creq: BIOL 300 or STAT 200
+
+code: BIOL 306
+name: Advanced Ecology
+cred: 3
+desc: Ecology of populations, communities and ecosystems. Tests of ecological theory with experiments and application to environmental issues. Labs meet once a month. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-3*-0]
+prer: BIOL 230.
+preq: BIOL 230
+
+code: BIOL 310
+name: Introduction to Animal Behaviour
+cred: 3
+desc: Animal behavior from an ecological and evolutionary perspective; the methods used to study behaviour and test its adaptive significance. [3-0-2]
+prer: BIOL 121. Third-year standing is required.
+preq: BIOL 121. Third-year standing is required
+
+code: BIOL 317
+name: Weed Science
+cred: 4
+desc: Importance, identification, dissemination and biology of weeds; preventative, cultural, biological and chemical methods of control. [3-2-0]
+
+code: BIOL 320
+name: Survey of Algae
+cred: 4
+desc: A survey of the algae, considering their morphology, life history, classification, and ecology. [3-3-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 321
+name: Morphology and Evolution of Bryophytes
+cred: 3
+desc: A study of evolution, taxonomy and morphology of mosses, liverworts and hornworts with emphasis on living plants in their environment. [2-4-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 322
+name: Structure and Evolution of Ferns and Fern-allies
+cred: 3
+desc: Anatomy, morphology and relationships of the ferns and fern-allies, with assessment of both fossil and extant taxa. [2-4-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 323
+name: Structure and Reproduction of Fungi
+cred: 3
+desc: The evolutionary diversity of the fungi as shown by their morphology and reproductive biology. [2-3-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 324
+name: Introduction to Seed Plant Taxonomy
+cred: 3
+desc: Introduction to seed plant taxonomy emphasizing descriptive morphology and identification. Each student will be required to submit a plant collection. [2-3-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 325
+name: Introduction to Animal Mechanics and Locomotion
+cred: 3
+desc: Comparative aspects of the functional design of skeletal systems and the mechanics of swimming, flying and terrestrial locomotion, with particular reference to the vertebrates. [3-0-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 326
+name: Experimental Biology of Invertebrates
+cred: 3
+desc: Behaviour and ecology of invertebrates as revealed by hands-on experiments in the laboratory and field.  Marine emphasis. [1-4-0]
+prer: BIOL 205.
+preq: BIOL 205
+crer: Either (a) STAT 200 or (b) BIOL 300.
+creq: STAT 200 or BIOL 300
+
+code: BIOL 327
+name: Introduction to Entomology
+cred: 3
+desc: A survey of the structure, classification and biology of insects; ecology, life-histories and insect-plant relations. 
+prer: One of BIOL 121, SCIE 001.
+preq: BIOL 121 or SCIE 001
+
+code: BIOL 328
+name: Introductory Parasitology
+cred: 3
+desc: Classification, morphology and life histories of animal parasites affecting humans and other animals. [2-3-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 331
+name: Developmental Biology
+cred: 4
+desc: Animal development and its underlying causal principles; introductory embryology. [3-3-0]
+prer: Either (a) BIOL 201 or (b) all of BIOL 200, BIOL 260 and one of BIOL 233, BIOL 234.
+preq: (BIOL 201 or (BIOL 200 and BIOL 260)) and (BIOL 233 or BIOL 234)
+
+code: BIOL 332
+name: Protistology
+cred: 4
+desc: Cell biology, ecology, and evolution of protists; origins of multicellularity; the role of protists in micropaleontology, parasitology, and oceanography. [3-3-0]
+prer: BIOL 200.
+preq: BIOL 200
+
+code: BIOL 335
+name: Molecular Genetics
+cred: 3
+desc: Isolation and identification of genes, analysis of gene structure; gene expression and its regulation in prokaryotes and in eukaryotes; developmental genetics. [3-0-2]
+prer: One of BIOL 233, BIOL 234, MICB 322, FRST 302.
+preq: BIOL 233 or BIOL 234 or MICB 322 or FRST 302
+
+code: BIOL 336
+name: Fundamentals of Evolutionary Biology
+cred: 3
+desc: Natural selection; population genetics, quantitative genetics and systematics; classical and molecular approaches to the study of evolution. [3-0-2]
+prer: One of BIOL 233, BIOL 234.
+preq: BIOL 233 or BIOL 234
+
+code: BIOL 337
+name: Introductory Genetics Laboratory
+cred: 3
+desc: A laboratory course demonstrating the fundamental principles of inheritance: Mendel's Laws, sex-linkage, mapping, mutagenesis, chromosome structure, developmental biology, biochemical and population genetics. [1-4-0]
+prer: BIOL 200.
+preq: BIOL 200
+crer: One of BIOL 233, BIOL 234.
+creq: BIOL 233 or BIOL 234
+
+code: BIOL 338
+name: Introduction to Genomics
+cred: 4
+desc: An introduction to genome biology and applications of genomics. [3-0-1.5]
+prer: One of BIOL 234, BIOL 233, FRST 302.
+preq: BIOL 234 or BIOL 233 or FRST 302
+
+code: BIOL 340
+name: Introductory Cell Biology Laboratory
+cred: 2
+desc: Experiments using unicellular eukaryotes or prokaryotes with emphasis on techniques in microscopy and cell biology. [1-3-0]
+prer: All of BIOL 140, BIOL 200. And at least third-year standing in Science.
+preq: (BIOL 140 and BIOL 200.) and at least third-year standing in Science
+
+code: BIOL 341
+name: Introductory Molecular Biology Laboratory
+cred: 2
+desc: Use of recombinant DNA techniques. [1*-4-0]
+prer: BIOL 200. And at least third-year standing in Science.
+preq: BIOL 200. and at least third-year standing in Science
+
+code: BIOL 342
+name: Integrative Biology Laboratory
+cred: 2
+desc: Field-based and laboratory-based investigation of organisms. [1-3-0]
+prer: Either (a) all of BIOL 121, BIOL 140 or (b) all of SCIE 001, BIOL 140 or (c) 8 transfer credits of first-year biology; and third-year standing or higher in Combined Major in Science.
+preq: ((BIOL 121 and BIOL 140) or (SCIE 001 and BIOL 140) or 8 transfer credits of first-year biology;) and (third-year standing or higher in Combined Major in Science)
+
+code: BIOL 343
+name: Plants and Peoples
+cred: 3
+desc: The interactions of plants and human societies: the role of people in the origin, evolution and dispersal of food, drug and economic plants, and the influences of plants on human societies. Suitable for upper-level Arts students. [2-2-1]
+
+code: BIOL 344
+name: Human Heredity and Evolution
+cred: 3
+desc: Relates genetic and evolutionary concepts to humans. Primarily for upper-level students in the Faculty of Arts. Credit will be given for only one of BIOL 121 or BIOL 344. Not open to students in the Life Sciences. [3-0-2]
+
+code: BIOL 345
+name: Human Ecology
+cred: 3
+desc: Basics of ecology are introduced, focussing on observations of the natural world. Assignments, including a group project, consider connections between research, awareness and practical uses of ecology. Not for credit in the Life Sciences. [3-0-2]
+
+code: BIOL 346
+name: Microbes and Society
+cred: 3
+desc: An elementary course in molecular biology primarily for Arts students. The historical development of recent discoveries in molecular biology with emphasis on bacteria and viruses and their interaction with humans. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar.) Not for credit in Life Sciences. [3-0-0]
+
+code: BIOL 347
+name: Principles and Methodology in Biological Research
+cred: 3
+desc: Contemporary research in the Botany and Zoology Departments; history and methodology of scientific discovery; seminars on current problems. Restricted to Honours students in Biology. Not to be taken concurrently with BIOL 449. [2-3-0]
+
+code: BIOL 351
+name: Plant Physiology I
+cred: 4
+desc: Mechanisms and regulation of functional processes contributing to the assimilation, transport and utilization of water, mineral nutrients and carbon by plants. Restricted to Majors and Honours students in Biology. [3-3-0]
+prer: One of BIOL 121, SCIE 001 and either (a) CHEM 123 or (b) all of CHEM 111, CHEM 113. CHEM 233 is recommended.
+preq: (BIOL 121 or SCIE 001) and (CHEM 123 or (CHEM 111 and CHEM 113. CHEM 233 is recommended))
+
+code: BIOL 352
+name: Plant Physiology II: Plant Development
+cred: 3
+desc: Introduction to the processes involved in growth and development: cell division, tissue culture, meristems, differentiation, and the action of major growth regulators, and photomorphogenesis. Emphasis on experimental approaches. [2-3-1]
+prer: Either (a) BIOL 200 and one of BIOL 233, BIOL 234;  or (b) FRST 302. CHEM 233 is recommended.
+preq: BIOL 200 and ((BIOL 233 or BIOL 234;) or FRST 302. CHEM 233 is recommended)
+
+code: BIOL 361
+name: Physiology of Sensory, Nervous and Muscular Systems
+cred: 3
+desc: Excitable membranes, neural signaling and transmission; transduction and coding of sensory information; muscle contraction. [3-0-0]
+prer: BIOL 200. One of BIOL 260 or BIOL 201 recommended.
+preq: BIOL 200. One of BIOL 260 or BIOL 201 recommended
+
+code: BIOL 362
+name: Cellular Physiology
+cred: 2
+desc: The cytoskeleton, cell dynamics, and regulation of cellular activities. Preference will be given to Majors or Honours students in Biology and Honours Biophysics. [2-0-1]
+prer: Either (a) BIOL 361 or (b) all of BIOL 201, BIOL 351.
+preq: BIOL 361 or (BIOL 201 and BIOL 351)
+
+code: BIOL 363
+name: Laboratory in Animal Physiology
+cred: 2
+desc: Experimental studies in animal physiology. Restricted to Majors and Honours students in Biology, Nutritional Sciences and Biophysics. [1-3-1]
+prer: BIOL 204.
+preq: BIOL 204
+crer: BIOL 361.
+creq: BIOL 361
+
+code: BIOL 364
+name: Animal Physiology
+cred: 3
+desc: Cardiovascular, respiratory, and osmoregulatory physiology. Preference will be given to students who are in Biology, Nutritional Sciences, and Honours Biophysics. [3-0-0]
+prer: BIOL 204 and one of BIOL 260, BIOL 361.
+preq: BIOL 204 and (BIOL 260 or BIOL 361)
+
+code: BIOL 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Work experience in an industrial setting, taken during Winter Session (Term 2) of third year. Restricted to students admitted to the Co-operative Education Program in Biology. 
+
+code: BIOL 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Work experience in an industrial research setting, taken during Summer Session (Terms 1 and 2) following third year. Restricted to students admitted to the Co-operative Education Program in Biology. 
+prer: BIOL 398.
+preq: BIOL 398
+
+code: BIOL 401
+name: Theory of Evolutionary Dynamics
+cred: 3
+desc: Evolution as a dynamical system based on ecological interactions. Adaptive dynamics and evolutionary game theory. Credit will be granted for only one of BIOL 401 and BIOL 560. 
+prer: BIOL 301 and one of MATH 101, MATH 103, MATH 105, MATH 121.
+preq: BIOL 301 and (MATH 101 or MATH 103 or MATH 105 or MATH 121)
+
+code: BIOL 402
+name: Aquatic Ecology
+cred: 3
+desc: Theoretical and applied limnology; ecology of inland water organisms in relation to physical, chemical and biological factors. One weekend field trip required. [2-4-0]
+prer: BIOL 230 and one of BIOL 300, STAT 200.
+preq: BIOL 230 and (BIOL 300 or STAT 200)
+
+code: BIOL 404
+name: Ecological Methodology
+cred: 3
+desc: Design, execution, and analysis of ecological surveys and experiments. Practical field methods for estimating population metrics and describing community structure. Computer techniques for the statistical analysis of ecological data. [2-4-0]
+prer: BIOL 230 and one of BIOL 300, STAT 200.
+preq: BIOL 230 and (BIOL 300 or STAT 200)
+
+code: BIOL 406
+name: Plant Ecology I
+cred: 4
+desc: Plant community ecology including a consideration of the major approaches to sampling, analyzing and interpreting vegetation patterns. Instruction given in field work and computer analysis of field data. [3-3-0]
+prer: BIOL 230. BIOL 324 is recommended.
+preq: BIOL 230. BIOL 324 is recommended
+
+code: BIOL 408
+name: Principles of Applied Ecology
+cred: 6
+desc: Principles of animal and community ecology applicable to the management of animal resources; application of statistical and computer techniques for measuring, analyzing, modelling, and simulating resource systems; problems of multiple resource use. [2-2-0]
+prer: BIOL 300.
+preq: BIOL 300
+
+code: BIOL 409
+name: Field Course in Ecology
+cred: 3
+desc: A two-week intensive course in field methods used in ecology. Fieldwork for this course is normally in the summer. A fee will be assessed for living and traveling expenses. Pre-registration required. 
+prer: BIOL 230 and one of BIOL 300, STAT 200. BIOL 306 is recommended.
+preq: BIOL 230 and (BIOL 300 or STAT 200. BIOL 306 is recommended)
+
+code: BIOL 410
+name: Current Topics in Animal Behaviour
+cred: 3
+desc: Lectures and seminar discussions on selected topics in animal behaviour. [2-0-2]
+prer: BIOL 310. Permission of the head of Zoology is also acceptable.
+preq: BIOL 310. Permission of the head of Zoology is also acceptable
+
+code: BIOL 411
+name: Insect Ecology
+cred: 3
+desc: Behavioural, population and community ecology of insects. Interactions between insects and plants and the application of the principles of insect ecology to biological control of insects and weeds. [3-0-0]
+prer: Either (a) BIOL 205 or (b) all of AGRO 327, BIOL 327.
+preq: BIOL 205 or (AGRO 327 and BIOL 327)
+
+code: BIOL 412
+name: Phytogeography
+cred: 3
+desc: Description and interpretation of present and past floristic vegetational patterns; integration of evolutionary, ecological, and phytogeographical concepts. Terrestrial and aquatic plants are considered. Restricted to students of third and fourth years. [3-0-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 413
+name: Zoogeography
+cred: 3
+desc: The role of physical, ecological, and evolutionary processes in determining the geographic distribution of animals including humans, with implications for speciation and conservation. Restricted to students in third and fourth year. [3-0-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 415
+name: Evolutionary Processes in Plants
+cred: 3
+desc: Experimental and comparative analysis of evolutionary processes, speciation, and phylogenetic patterns in plants. [2-0-0]
+prer: BIOL 336. BIOL 324 is recommended.
+preq: BIOL 336. BIOL 324 is recommended
+
+code: BIOL 416
+name: Principles of Conservation Biology
+cred: 3
+desc: Ecological basis of conserving biological diversity and ecosystem services; application of ecological theory to global and local conservation problems in the context of economic, legal, political, and social perspectives. Please consult the Faculty of Science Credit Exclusion List: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [2-0-2]
+prer: One of BIOL 230, FRST 201.
+preq: BIOL 230 or FRST 201
+
+code: BIOL 417
+name: Phylogenetic Biology
+cred: 3
+desc: Biodiversity from an evolutionary perspective. The evolutionary (phylogenetic) tree of genetic descent that links all organisms: its reconstruction, interpretation, and implications for fields from ecology to molecular biology. [2-0-2]
+prer: BIOL 200 and one of BIOL 233, BIOL 234. BIOL 336 is recommended
+preq: BIOL 200 and (BIOL 233 or BIOL 234. BIOL 336 is recommended)
+
+code: BIOL 418
+name: Evolutionary Ecology
+cred: 3
+desc: Ecological adaptation and evolutionary processes in contemporary populations; natural selection, variation, optimization, foraging theory, coevolution, arms races; life history theory, evolution of sex, sexual selection, evolution in managed populations. [2-2-0]
+prer: BIOL 336 and BIOL 230.
+preq: BIOL 336 and BIOL 230
+
+code: BIOL 420
+name: Ocean Conservation and Sustainability
+cred: 3
+desc: An interdisciplinary conservation course with a solutions-oriented approach to marine issues, drawing from natural sciences, social sciences, business, law, and communication. 
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: BIOL 421
+name: Plant-Microbe Interactions
+cred: 3
+desc: Biology and physiology of selected plant-microbe relationships. Impacts of plant-microbe relationships on society. [3-0-2]
+prer: BIOL 200 and one of BIOL 233, BIOL 234, BIOL 260, BIOL 201.
+preq: BIOL 200 and (BIOL 233 or BIOL 234 or BIOL 260 or BIOL 201)
+
+code: BIOL 423
+name: Plant Stress Ecophysiology
+cred: 3
+desc: Molecular mechanisms of plant responses to extreme environments. Consult the Faculty of Science Credit Exclusion List: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-0-0]
+prer: BIOL 351. BIOL 406 or 407 are recommended.
+preq: BIOL 351. BIOL 406 or 407 are recommended
+
+code: BIOL 425
+name: Biomechanics
+cred: 3
+desc: An analytical approach to the study of skeletal mechanics and animal locomotion. Selected topics in the structure and properties of biological materials, the functional design of skeletons for locomotion, and the fluid mechanics of swimming and flight. [2-3-0]
+prer: BIOL 325.
+preq: BIOL 325
+
+code: BIOL 426
+name: Mammalogy
+cred: 3
+desc: Natural history, behavioral ecology and conservation of terrestrial mammals. The laboratory includes classification, life histories, and ecology, with particular attention to species from British Columbia. [2-3-0]
+prer: BIOL 204.
+preq: BIOL 204
+
+code: BIOL 427
+name: Ornithology and Herpetology
+cred: 3
+desc: Ecology, evolution, behavior, and conservation of birds, amphibians, and reptiles.  Laboratories and field projects will focus on identification, systematics, and natural history, with particular attention to species from British Columbia. [2-3-0]
+prer: BIOL 121.
+preq: BIOL 121
+
+code: BIOL 428
+name: Evolutionary Morphology of Marine Invertebrates
+cred: 3
+desc: Comparative analysis of marine invertebrate morphology from a macroevolutionary perspective.  Origin and evolution of reoccurring adaptations in meiofaunal, benthic, pelagic, and deep-sea invertebrates, including their larval stages. [3-0-0]
+prer: BIOL 205. And third-year standing.
+preq: BIOL 205. and third-year standing
+
+code: BIOL 430
+name: Genome Evolution
+cred: 3
+desc: Integration of molecular genetics and genomics with evolutionary biology. Emphasis on the evolutionary dynamics of genomes and the evolutionary implications of recent discoveries in molecular genetics and genomics. [3-0-0]
+prer: One of BIOL 335, BIOL 338. Or with instructor permission BIOL 336.
+preq: BIOL 335 or BIOL 338. Or with instructor permission BIOL 336
+
+code: BIOL 431
+name: Evolutionary Cell Biology
+cred: 3
+desc: Ultrastructure, biogenesis, and evolution of eukaryotic cells and cell organelles, including their macromolecular basis. [3-0-0]
+prer: BIOL 200. And fourth-year standing.
+preq: BIOL 200. and fourth-year standing
+
+code: BIOL 432
+name: Research Strategies and Techniques in Cell Biology
+cred: 3
+desc: Major physiological mechanisms that define eukaryotic cells, explored through student visits to UBC research laboratories and discussion of recent scientific literature, with emphasis on the techniques and strategies that enable researchers to test hypotheses and advance new concepts. [3-0-0]
+prer: BIOL 200 and one of BIOL 233, BIOL 234. And fourth-year standing.
+preq: BIOL 200 and (BIOL 233 or BIOL 234.) and fourth-year standing
+
+code: BIOL 433
+name: Plant Genetics
+cred: 4
+desc: Emphasis on molecular aspects. Systems and techniques for genetic analysis in plants; isolation and regulation of plant genes; genetic dissection of plant-specific processes; transposable elements; gene transfer in plants; cytoplasmic inheritance; genetic engineering. [3-0-2]
+prer: BIOL 335.
+preq: BIOL 335
+
+code: BIOL 434
+name: Population Genetics
+cred: 3
+desc: Theoretical and experimental aspects of population and quantitative genetics. [3-0-2]
+prer: BIOL 336 and either (a) BIOL 200 and one of BIOL 233, BIOL 234;  or (b) FRST 302.
+preq: BIOL 336 and BIOL 200 and ((BIOL 233 or BIOL 234;) or FRST 302)
+
+code: BIOL 436
+name: Integrated Functional Genomics
+cred: 3
+desc: Global transcript, protein, and metabolite profiling technologies and their integration; applications focus on plant functions and plant interactions with pathogens and pests. [3-0-0]
+prer: One of BIOL 335, BIOL 338.
+preq: BIOL 335 or BIOL 338
+
+code: BIOL 437
+name: Laboratory in Animal Cell Molecular Biology
+cred: 3
+desc: The use of recombinant DNA techniques to explore problems in animal developmental biology. [2-4-0]
+prer: All of BIOL 331, BIOL 335 and one of BIOL 201, BIOC 302, BIOC 303. Permission of the department head is also required.
+preq: (BIOL 331 and BIOL 335) and (BIOL 201 or BIOC 302 or BIOC 303. Permission of the department head is also required)
+
+code: BIOL 438
+name: Zoological Physics
+cred: 3
+desc: Animal systems viewed from a physicist's perspective. Topics include sensory systems, energy budgets, locomotion, internal flows, physical advantages of grouping. [3-0-0]
+prer: One of PHYS 101, PHYS 107, PHYS 117, PHYS 153, PHYS 157, SCIE 001. BIOL 325 is recommended.
+preq: PHYS 101 or PHYS 107 or PHYS 117 or PHYS 153 or PHYS 157 or SCIE 001. BIOL 325 is recommended
+
+code: BIOL 440
+name: Plant Genomics
+cred: 3
+desc: Concepts, principles, applications, and recent discoveries in genome structure, genetics, and comparative genomics in plants with a focus on economically important plants. [3-0-0]
+prer: One of BIOL 335, BIOL 338.
+preq: BIOL 335 or BIOL 338
+
+code: BIOL 441
+name: Cell Biology of Intracellular Trafficking
+cred: 3
+desc: Analysis of cellular organelles and the intracellular traffic between them, concentrating on mammalian cell systems. [3-0-0]
+prer: BIOL 335 and one of BIOL 340, BIOL 341 and one of BIOL 361, BIOL 362 and one of BIOL 201, BIOC 202, BIOC 203.
+preq: BIOL 335 and (BIOL 340 or BIOL 341) and (BIOL 361 or BIOL 362) and (BIOL 201 or BIOC 202 or BIOC 203)
+
+code: BIOL 444
+name: Techniques in Plant Molecular Biology
+cred: 3
+desc: Purification and analysis of nucleic acids, electrophoresis and immunodetection of proteins. Restricted to Honours students with permission of the Head of Botany and the Biotechnology Teaching Laboratory. [0-7-0]
+prer: BIOL 335.
+preq: BIOL 335
+crer: BIOL 433 is recommended.
+creq: BIOL 433 is recommended
+
+code: BIOL 445
+name: Darwin's Fishes
+cred: 3
+desc: A series of computer-assisted lectures using ichthyology and the work of Charles Darwin to illustrate basic principles of biology, and their practical implementation, i.e., how biologists select research programs, generate and test hypotheses, and present their case to peers and the public. [2-0-2]
+prer: Third-year standing in Science is required.
+preq: Third-year standing in Science is required
+
+code: BIOL 446
+name: History and Philosophy of Biology
+cred: 3
+desc: The nature of science, this history of evolutionary and molecular biology, philosophical questions about scientific methods and fundamental conclusions of biology. [3-0-0]
+prer: Fourth-year standing in any degree program is required.
+preq: Fourth-year standing in any degree program is required
+
+code: BIOL 447
+name: Principles and Methodology in Biological Research
+cred: 3
+desc: Seminars, debates, workshops and tutorials designed to produce competence in specific areas of Biology. Restricted to Honours students in Biology. [2-3-0]
+crer: BIOL 449.
+creq: BIOL 449
+
+code: BIOL 448
+name: Directed Studies in Biology
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A course designed to allow students to undertake an investigation on a specific topic as agreed upon by the faculty member and the student. Permission of the supervisor required. No more than six credits of BIOL 448 may be taken with the same supervisor. 
+
+code: BIOL 449
+name: Directed Biological Research
+cred: 6
+desc: A course designed to allow students to undertake a research project in selected fields. Open only to Honours students in Biology, with permission of the supervisor. Presentation of a thesis and an oral examination are required. 
+crer: BIOL 447.
+creq: BIOL 447
+
+code: BIOL 450
+name: Molecular Adaptation of Animals to the Environment
+cred: 3
+desc: Physiological, biochemical, and molecular strategies of adaptation of animals to environmental challenges.  The evolution of genetic and biochemical systems, and their impact on animal structure and function. [3-0-0]
+prer: One of BIOL 361, BIOL 362, BIOL 364 and one of BIOL 201, BIOC 202, BIOC 203. BIOL 457 is recommended.
+preq: (BIOL 361 or BIOL 362 or BIOL 364) and (BIOL 201 or BIOC 202 or BIOC 203. BIOL 457 is recommended)
+
+code: BIOL 454
+name: Comparative Animal Physiology
+cred: 3
+desc: Selected topics in physiology emphasizing comparisons between diverse phylogenetic groups of animals. [3-0-0]
+prer: One of BIOL 362, BIOL 364.
+preq: BIOL 362 or BIOL 364
+
+code: BIOL 455
+name: Comparative Neurobiology
+cred: 3
+desc: Current approaches in neurobiology, from the cellular to the behavioural level, are examined using representatives of vertebrate and invertebrate nervous systems. [3-0-2*]
+prer: One of BIOL 361, BIOL 362, BIOL 364, CAPS 301, PSYC 360.
+preq: BIOL 361 or BIOL 362 or BIOL 364 or CAPS 301 or PSYC 360
+
+code: BIOL 456
+name: Comparative and Molecular Endocrinology
+cred: 3
+desc: A comparative study of vertebrate and invertebrate endocrinology. [3-0-0]
+prer: BIOL 364.
+preq: BIOL 364
+
+code: BIOL 457
+name: Comparative Environmental Physiology
+cred: 3
+desc: A survey of physiological adaptions of animals to different environments. [3-0-0]
+prer: BIOL 364.
+preq: BIOL 364
+
+code: BIOL 458
+name: Developmental Neurobiology
+cred: 3
+desc: Cellular, molecular and physiological aspects of nervous system development with applications to understanding adult nervous system function and neurological disorders. [3-0-0]
+
+code: BIOL 459
+name: Neurobiology of Sensory and Motor Systems
+cred: 3
+desc: Analysis of the mechanisms of sensory processing and motor orchestration using vertebrate and invertebrate model systems.  Neural circuit structure, specialization, information coding, integration, and behaviour. [3-0-0]
+prer: BIOL 455.
+preq: BIOL 455
+
+code: BIOL 462
+name: Ecological Plant Biochemistry
+cred: 3
+desc: The structure, biosynthesis, distribution and biological function of secondary plant metabolites. [3-0-0]
+prer: All of BIOL 200, BIOL 201. BIOL 209 or BIOL 210 is recommended.
+preq: BIOL 200 and BIOL 201. BIOL 209 and BIOL 210 is recommended
+
+code: BIOL 463
+name: Gene Regulation in Development
+cred: 3
+desc: Control of gene expression in development; the genetic and physiological basis of epigenetic determination; inductive interactions. [3-0-0]
+prer: BIOL 335 and one of BIOC 302, BIOC 303. BIOL 331 is recommended.
+preq: BIOL 335 and (BIOC 302 or BIOC 303. BIOL 331 is recommended)
+
+code: BIOL 464
+name: Animal Developmental Genetics
+cred: 3
+desc: Role of genes in embryonic development.  Emphasis on tissue specific expression patterns and the role of genetic networks in establishing cell types. [3-0-0]
+prer: BIOL 463.
+preq: BIOL 463
+
+code: BIOL 465
+name: Diversity and Evolution of Fishes
+cred: 3
+desc: Introduction to fish diversity, with a focus on their phylogenetic interrelationships and the evolutionary, ecological, and biogeographic processes involved in generating patterns of fish biodiversity. [2-3-0]
+prer: BIOL 204.
+preq: BIOL 204
+
+code: BIOL 466
+name: Applied Biology of Fishes
+cred: 3
+desc: Physiological ecology and exploitation biology of teleost fishes; computer-based analysis and modeling of fish populations. 
+prer: BIOL 465.
+preq: BIOL 465
+
+code: BIOL 490
+name: Student Directed Seminars
+cred: 3
+desc: Self-directed, collaborative studies, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment, and delivery methods will comply with the "Handbook for Student Directed Seminars". Normally not suitable as a specific BIOL program elective. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: BIOL 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Work experience in an industrial research setting, taken during the Summer Session (Terms 1 and 2) following fourth year. Restricted to students admitted to the Co-operative Education Program in Biology. 
+
+code: BIOL 499
+name: Co-operative Work Placement IV
+cred: 3
+desc: Work experience in an industrial research setting, taken during the Winter Session (Terms 1 and 2) following fourth year. Restricted to students admitted to the Co-operative Education Program in Biology. 
+prer: One of BIOL 399, BIOL 498.
+preq: BIOL 399 or BIOL 498

@@ -1,0 +1,401 @@
+
+
+code: CRWR 200
+name: Introduction to Creative Writing
+cred: 3
+desc: Techniques of and practice in multiple genres of writing, including fiction, poetry, creative nonfiction, screenplay, stageplay, graphic forms, lyric forms, children’s literature, and writing for new media. Manuscript submission is not required for admission. 
+
+code: CRWR 201
+name: Introduction to Writing Poetry
+cred: 3
+desc: An exploration of and practice in the writing of poetry, focusing on how a writer employs the technical elements of the craft of poetry. Manuscript submission not required for admission. 
+
+code: CRWR 203
+name: Introduction to Writing for Children and Young Adults
+cred: 3
+desc: Techniques of and practice in creating, developing and writing for children and young adults. Manuscript submission is not required for admission. 
+
+code: CRWR 205
+name: Introduction to Writing Creative Nonfiction
+cred: 3
+desc: An exploration of and practice in the writing of creative nonfiction, focusing on how a writer employs the technical elements of the craft of creative nonfiction. Manuscript submission not required for admission. 
+
+code: CRWR 206
+name: Introduction to Writing for the Screen
+cred: 3
+desc: Techniques of and practice in creating, developing, and writing a screenplay. Manuscript submission is not required for admission. 
+
+code: CRWR 208
+name: Introduction to Writing for Graphic Forms
+cred: 3
+desc: Techniques of and practice in creating, developing, and writing the graphic novel, manga, and other forms of illustrated writing. The ability to draw is not required. Manuscript submission is not required for admission. 
+
+code: CRWR 209
+name: Introduction to Writing Fiction
+cred: 3
+desc: An exploration of the writing of fiction, focusing on how a writer employs the technical elements of the craft of fiction. Manuscript submission not required for admission. 
+
+code: CRWR 213
+name: Introduction to Writing for the New Media
+cred: 3
+desc: An exploration of and practice in writing for new media, including podcasting, blogging, and writing for websites, games, and online environments. Manuscript submission is not required for admission. 
+
+code: CRWR 216
+name: Short Screenplay Workshop
+cred: 3
+desc: Restricted to B.F.A. Film Production students. 
+
+code: CRWR 220
+name: Introduction to Creative Writing with an Indigenous Focus
+cred: 3, 6
+desc: Covers three genres from fiction, poetry, creative nonfiction, radio drama, radio feature, or stageplay. 
+
+code: CRWR 230
+name: Introduction to Writing for Comedic Forms
+cred: 3
+desc: An examination of and practice in creative writing in comedic forms, including stand-up, sketch, film, new media, and text. Manuscript submission not required for admission. 
+
+code: CRWR 301
+name: Intermediate Writing Poetry
+cred: 3
+desc: The writing of poetry in various forms using a combination of workshopping and online modules. Manuscript submission not required for admission. 
+prer: CRWR 201.
+preq: CRWR 201
+
+code: CRWR 302
+name: Writing for Podcast
+cred: 3
+desc: Exploration of and practice in writing for podcast. 
+prer: CRWR 213.
+preq: CRWR 213
+
+code: CRWR 303
+name: Intermediate Writing for Children and Young Adults
+cred: 3
+desc: The writing of work for children and young adults in various forms using a combination of workshopping and online modules. Manuscript submission not required for admission. 
+prer: CRWR 203.
+preq: CRWR 203
+
+code: CRWR 305
+name: Intermediate Writing of Creative Nonfiction
+cred: 3
+desc: An exploration of and practice in the writing of creative non-fiction, covering four of the more basic forms of this genre: memoir, profile, commentary, and exposition. Manuscript submission is not required for admission. 
+prer: CRWR 205.
+preq: CRWR 205
+
+code: CRWR 306
+name: Intermediate Writing for the Screen
+cred: 3
+desc: An exploration of and practice in writing for the screen, focusing on how a writer employs the technical elements of the craft of screenwriting. Manuscript submission is not required for admission. 
+prer: CRWR 206.
+preq: CRWR 206
+
+code: CRWR 307
+name: Intermediate Writing for the Stage and Radio
+cred: 3
+desc: An exploration of practice in the writing of the one-act stage play and short radio drama, focusing on how a writer employs the technical elements of the craft of these dramatic genres. Manuscript submission is not required for admission. 
+prer: One of CRWR 200, CRWR 202.
+preq: CRWR 200 or CRWR 202
+
+code: CRWR 308
+name: Intermediate Writing for Graphic Forms
+cred: 3
+desc: The writing of graphica (comics, manga and graphic novels), using a combination of workshopping and online modules. Manuscript submission not required for admission. 
+prer: CRWR 208.
+preq: CRWR 208
+
+code: CRWR 309
+name: Intermediate Writing Fiction
+cred: 3
+desc: An exploration of the writing of fiction, focusing on how a writer employs the technical elements of the craft of fiction. Manuscript submission not required for admission. 
+prer: CRWR 209.
+preq: CRWR 209
+
+code: CRWR 310
+name: Video Game Writing and Narrative
+cred: 3
+desc: Narrative design and writing for video games. 
+prer: CRWR 200.
+preq: CRWR 200
+
+code: CRWR 311
+name: Intermediate Writing for Lyric Forms
+cred: 3
+desc: Techniques of and practice in writing for lyric forms, including song lyrics, lyrical narratives, and libretti. Manuscript submission is not required for admission. 
+prer: One of CRWR 200, CRWR 202.
+preq: CRWR 200 or CRWR 202
+
+code: CRWR 351
+name: Intermediate Poetry Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing poetry. Manuscript submission is not required for admission. 
+prer: CRWR 301.
+preq: CRWR 301
+
+code: CRWR 353
+name: Intermediate Children and Young Adult Writing Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing for children and young adults. Manuscript submission is not required for admission. 
+prer: CRWR 303.
+preq: CRWR 303
+
+code: CRWR 355
+name: Intermediate Creative Nonfiction Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing of creative nonfiction. Manuscript submission is not required for admission. 
+prer: CRWR 305.
+preq: CRWR 305
+
+code: CRWR 356
+name: Intermediate Screenplay Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing for the screen. Manuscript submission is not required for admission. 
+prer: CRWR 306.
+preq: CRWR 306
+
+code: CRWR 358
+name: Intermediate Graphic Forms Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing for graphic forms. The ability to draw is not required. Manuscript submission is not required for admission. 
+prer: CRWR 308.
+preq: CRWR 308
+
+code: CRWR 359
+name: Intermediate Fiction Workshop
+cred: 3, 9
+desc: An intermediate level workshop class in writing of fiction. Manuscript submission is not required for admission. 
+prer: CRWR 309.
+preq: CRWR 309
+
+code: CRWR 401
+name: Writing Poetry I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in the writing of poetry. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 402
+name: Writing for New Media I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for new media. Restricted to Majors in Creative Writing. 
+
+code: CRWR 403
+name: Writing for Children and Young Adults I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing for Children and Young Adults. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 404
+name: Writing for Radio I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing for the radio. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 405
+name: Writing Creative Nonfiction I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing creative nonfiction, focused on some of the more popular forms of creative nonfiction: autobiography, rhetoric (commentary), literary journalism, and the personal essay. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 406
+name: Writing for the Screen I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing for the screen. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 407
+name: Writing of Drama for the Stage I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing of drama for the stage. Studio work is required, and some plays may be given a live stage production in Brave New Play Rites (adjudication process involved). 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 408
+name: Writing for Graphic Forms I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in the writing of graphic novel, manga, and other forms of illustrated writing. The ability to draw is not required. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 409
+name: Writing Fiction I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in the writing of fiction. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 411
+name: Writing for Lyric Forms I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class exploring the words that accompany music in varied forms including pop, art, musical theatre, and opera. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 415
+name: Workshop in Literary Translation I
+cred: 3, 6
+desc: Where a language department is regularly consulted on a project, the language adviser may assign marks equal to 3 credits of the course. 
+prer: Proficiency in a language other than English.
+preq: Proficiency in a language other than English
+
+code: CRWR 416
+name: Writing for Television I
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A workshop class in writing for television. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 417
+name: Play Development Workshop
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An interdisciplinary course, in cooperation with the Theatre program, emphasizing script development through scene work, character development and stagecraft. 
+prer: Manuscript submission or equivalent theatre experience.
+preq: Manuscript submission or equivalent theatre experience
+
+code: CRWR 430
+name: Preparation for a Career in Writing
+cred: 3
+
+code: CRWR 440
+name: Interdisciplinary Projects
+cred: 3, 6
+desc: Group projects and workshops with students majoring in other creative arts. 
+prer: Permission of instructor.
+preq: Permission of instructor
+
+code: CRWR 451
+name: Writing Poetry II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing poetry. Assumes a greater level of experience in writing poetry than CRWR 401. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 452
+name: Writing for New Media II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for new media. Assumes a greater level of experience in writing for new media than CRWR 402. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 453
+name: Writing for Children and Young Adults II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for children and young adults. Assumes a greater level of experience in this form than CRWR 403. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 454
+name: Writing for Radio II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for the radio. Assumes a greater level of experience in writing for the radio than CRWR 404. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 455
+name: Writing Creative Nonfiction II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class focusing on memoir, biography, rhetoric, literary journalism, the personal essay, and some hybrid forms of creative nonfiction. Includes instruction in researching and interviewing techniques. Assumes more writing experience than CRWR 405. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 456
+name: Writing for the Screen II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for the screen. Assumes more experience in this form that CRWR 406. Admission is restricted to B.F.A. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 457
+name: Writing of Drama for the Stage II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing drama for the stage. Studio work is required. Assumes a greater level of experience in writing drama for the stage than CRWR 407. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 458
+name: Writing for Graphic Forms II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for graphic forms. The ability to draw is not required. Assumes a greater level of experience in writing graphica than CRWR 408. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 459
+name: Writing Fiction II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing fiction. Assumes a greater level of experience in writing fiction than CRWR 409. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 460
+name: Workshop in Literary Translation II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+prer: CRWR 415.
+preq: CRWR 415
+
+code: CRWR 461
+name: Writing for Lyric Forms II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for lyric forms. Assumes a greater level of experience in writing lyrics than CRWR 411. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 466
+name: Writing for Television II
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: An advanced workshop class in writing for television. Assumes a greater level of experience in writing fiction than CRWR 416. 
+prer: Restricted to Majors in Creative Writing.
+preq: Restricted to Majors in Creative Writing
+
+code: CRWR 470
+name: Special Projects in Creative Writing
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive permission to do advanced work on a specific project. Admission is restricted to B.F.A. Majors in Creative Writing. 
+
+code: CRWR 471
+name: Special Projects in Writing Poetry
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 473
+name: Special Projects in Writing for Children
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 474
+name: Special Projects in Writing Drama for Radio
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 475
+name: Special Projects in Writing Non-Fiction
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 476
+name: Special Projects in Writing for Screen and Television
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 477
+name: Special Projects in Writing Drama for the Stage
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 479
+name: Special Projects in Writing Fiction
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in this genre. 
+
+code: CRWR 480
+name: Special Projects in Literary Translation
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: For students who receive departmental permission to do advanced work in translation. 
+
+code: CRWR 490
+name: Directed Reading
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: The course will emphasize current trends and techniques rather than critical evaluation. Not offered every year. 

@@ -1,0 +1,30 @@
+
+
+code: RMST 221
+name: Literatures and Cultures of the Romance World I: Medieval to Early Modern
+cred: 3
+desc: An introduction to the main themes that shaped the Western part of Europe as its different national identities emerged in the Mediterranean sphere. 
+
+code: RMST 222
+name: Literatures and Cultures of the Romance World II: Modern to Post-Modern
+cred: 3
+desc: An introduction to the main themes that shaped the Western part of Europe in the age of the nation state, imperialism, colonization, and decolonization. 
+
+code: RMST 234
+name: Introduction to Romance Language Cinema
+cred: 3
+
+code: RMST 420
+name: Studies in Romance Languages and Literature
+cred: 3, 6
+
+code: RMST 468
+name: Romance Linguistics
+cred: 6
+desc: The Indo-European background; Classical and Vulgar Latin; the origin, development and spread of the Romance languages; their vocabulary, phonology, morphology, syntax; vernacular Latin texts and Romance texts. 
+prer: Two years study of each of two Romance languages or two years of one Romance language and one year of Latin.
+preq: (Two years study of each of two Romance languages or two years of one Romance language) and one year of Latin
+
+code: RMST 495
+name: Research Intensive Seminar in Romance Studies
+cred: 3

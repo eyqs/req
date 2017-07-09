@@ -1,0 +1,25 @@
+
+
+code: ACAM 300
+name: Dis/Orienting Asian Canada
+cred: 3
+desc: The histories, cultures, social dynamics, and life experiences of Asian communities in Canada in the context of global migrations. Restricted to students with second year status or higher. 
+
+code: ACAM 320
+name: Selected Topics in ACAM Studies
+cred: 3, 6
+desc: Selected Asian Canadian Asian Migration topics. Consult acam.arts.ubc.ca for this year's offerings. 
+prer: Restricted to students with at least Second year standing; a previous course in Asian Canadian and Asian Migration Studies is recommended.
+preq: Restricted to students with at least Second year standing; a previous course in Asian Canadian and Asian Migration Studies is recommended
+
+code: ACAM 350
+name: Asian Canadian Community-Based Media
+cred: 3
+desc: Digital media production in the context of community engagement. Includes critical media literacy, community-based research ethics, project design, training in media forms such audio, video, photography, and web publishing. 
+
+code: ACAM 447
+name: Directed Studies in Asian Canadian and Asian Migration
+cred: 3, 6
+desc: General reading and/or a research undertaking within the scope of Asian Canadian and Asian Migration. 
+prer: Permission of the Chair of the ACAM program.
+preq: Permission of the Chair of the ACAM program

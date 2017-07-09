@@ -1,0 +1,34 @@
+
+
+code: MEDG 410
+name: Immunogenetics
+cred: 3
+desc: Molecular basis of lymphocyte development, activation and adhesion; immunogenetics and the major histocompatibility complex. Consult the Credit Exclusion list within the Faculty of Science section of the Calendar. [3-0-1]
+prer: MICB 302 and one of BIOL 334, BIOL 335. A standing of "B" or better is recommended.
+preq: MICB 302 and (BIOL 334 or BIOL 335. A standing of "B" or better is recommended)
+
+code: MEDG 419
+name: Developmental Origin of Human Disorders
+cred: 3
+desc: Genetic and epigenetic determinants of development from conception to birth. Topics include development of the neural tube, face, heart, endoderm, blastocyst, embryonic stem cells, gastrulation, genomic imprinting, placental complications, chromosomal abnormalities and prenatal diagnosis. Discussions based on published research articles. [3-0-1]
+prer: One of BIOL 234, BIOL 334 and one of BIOL 331, BIOL 335. A standing of 'B' or higher recommended.
+preq: (BIOL 234 or BIOL 334) and (BIOL 331 or BIOL 335. A standing of 'B' or higher recommended)
+
+code: MEDG 420
+name: Human Genomics and Medical Genetics
+cred: 3
+desc: Sequence and structure of the human genome. Human genetic evolution. Identification of genes affecting normal and pathological variation.  Molecular mechanisms of genetic diseases and disorders. Medical applications of human genetics. [3-0-0]
+prer: BIOL 335. A standing of 'B' or higher is recommended.
+preq: BIOL 335. A standing of 'B' or higher is recommended
+
+code: MEDG 421
+name: Genetics and Cell Biology of Cancer
+cred: 3
+desc: Molecular mechanisms of oncogenes and tumor suppressors and the effects of oncogenic mutations on the biology of cancer cells. [3-0-0]
+prer: BIOL 335 and one of BIOC 300, BIOC 302, BIOC 303, BIOL 350.
+preq: BIOL 335 and (BIOC 300 or BIOC 302 or BIOC 303 or BIOL 350)
+
+code: MEDG 448
+name: Directed Studies
+cred: 3, 6
+desc: A supervised individual program of study of a topic to be agreed upon by a member of faculty and the student. Permission of the appropriate supervisor and the department head is required. 

@@ -1,0 +1,115 @@
+
+
+code: KORN 100
+name: Basic Korean I
+cred: 3
+desc: An introduction to the grammar and syntax of modern spoken and written Korean. Credit will be granted for only one of KORN 100 or KORN 102. 
+
+code: KORN 101
+name: Basic Korean II
+cred: 3
+desc: Continuation of KORN 100. Credit will be granted for only one of KORN 101 or KORN 102. 
+prer: KORN 100.
+preq: KORN 100
+
+code: KORN 102
+name: Basic Korean
+cred: 6
+desc: An introduction to the grammar and syntax of modern spoken and written Korean. As of 2011W, credit will be granted for only one of KORN 100/101 or KORN 102. 
+
+code: KORN 104
+name: Basic Korean Grammar
+cred: 6
+desc: Emphasis on grammar, writing, and reading. For heritage learners and students with prior background in spoken Korean. 
+
+code: KORN 161
+name: Enriched Summer Intensive Beginning
+cred: 9
+desc: An integrated language course developing communicative competence in speaking, listening to, reading, and writing modern Korean. 
+
+code: KORN 200
+name: Intermediate Korean
+cred: 6
+desc: Reading and writing of modern colloquial Korean at an intermediate level. As of 2011W, credit will be granted for only one of KORN 201/202 or KORN 200. 
+prer: One of KORN 101, KORN 102.
+preq: KORN 101 or KORN 102
+
+code: KORN 201
+name: Intermediate Korean I
+cred: 3
+desc: Reading and writing of modern colloquial Korean at an intermediate level. Credit will be granted for only one of KORN 201 or KORN 200. 
+prer: KORN 101.
+preq: KORN 101
+
+code: KORN 202
+name: Intermediate Korean II
+cred: 3
+desc: Continuation of KORN 201. Credit will be granted for only one of KORN 202 or KORN 200. 
+prer: KORN 201.
+preq: KORN 201
+
+code: KORN 300
+name: Readings in Korean Topics
+cred: 6
+desc: Readings in intermediate-level Korean on aspects of Korean culture, customs, and contemporary life, along with structured conversations based on those readings. As of 2011W, credit will be granted for only one of KORN 301/302 or KORN 300. 
+prer: One of KORN 200, KORN 202.
+preq: KORN 200 or KORN 202
+
+code: KORN 301
+name: Readings in Korean Topics I
+cred: 3
+desc: Readings in intermediate-level Korean on aspects of Korean culture, customs, and contemporary life, along with structured conversations based on those readings. As of 2011W, credit will be granted for only one of KORN 301/302 or KORN 300. 
+prer: KORN 202. Or permission of instructor.
+preq: KORN 202. Or permission of instructor
+
+code: KORN 302
+name: Readings in Korean Topics II
+cred: 3
+desc: Continuation of KORN 301. As of 2011W, credit will be granted for only one of KORN 301/302 or KORN 300. 
+prer: KORN 301 or permission of instructor.
+preq: KORN 301 or permission of instructor
+
+code: KORN 351
+name: Introduction to Sino-Korean Readings
+cred: 3, 6
+desc: Chinese characters in their Korean pronunciations and shapes. Students learn approximately 600 characters, related vocabulary, and do structured readings in mixed scripts on aspects of Korean culture and contemporary life. 
+prer: Permission of instructor.
+preq: Permission of instructor
+
+code: KORN 410
+name: Modern Korean Short Fiction
+cred: 3, 6
+desc: Reading and translating twentieth-century Korean short fiction. 
+prer: Either (a) KORN 300 or (b) all of KORN 301, KORN 302.
+preq: KORN 300 or (KORN 301 and KORN 302)
+
+code: KORN 411
+name: Advanced Readings in Korean Non-Fiction
+cred: 3, 6
+desc: Guided readings on contemporary affairs from the Korean press and/or selected readings in Korean academic prose. 
+prer: KORN 300.
+preq: KORN 300
+
+code: KORN 412
+name: Korean-to-English Translation
+cred: 3, 6
+desc: Translation into English of Korean writing in various literary genres, including short story, poetry, personal essay, and academic essay. Supplementary readings in translation studies and translation theory. 
+
+code: KORN 415
+name: Korean Conversation and Composition
+cred: 3, 6
+desc: Structured conversation practice and weekly composition assignments based on viewing one designated Korean television program per week. 
+prer: KORN 300.
+preq: KORN 300
+
+code: KORN 420
+name: Readings in Middle and Early Modern Korean
+cred: 3
+desc: History and structure of the Korean language through targeted close readings in different editions of an illustrated text from the 15th and 18th centuries. 
+prer: Non-heritage speakers should have completed KORN 410 or be taking it concurrently. Heritage and native speakers of Korean welcome.
+preq: (Non-heritage speakers should have completed KORN 410 or be taking it concurrently. Heritage) and native speakers of Korean welcome
+
+code: KORN 440
+name: Supervised Study in the Korean Language
+cred: 3, 12
+desc: Primarily for students in Asian Studies and Linguistics. 

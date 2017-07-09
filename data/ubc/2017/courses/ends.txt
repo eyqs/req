@@ -1,0 +1,86 @@
+
+
+code: ENDS 101
+name: Introductory Workshop
+cred: 1
+desc: Week long orientation to the School community, the City and the study of design one week prior to the start of Winter Session Term 1. Credit will be granted for only one of ENDS 101 or DES 101. 
+
+code: ENDS 110
+name: Measured Architectural Drafting
+cred: 3
+desc: Techniques applicable to analytic and technical drawing used in architecture, landscape architecture, and urban design with focus primarily on analog drawing. 
+
+code: ENDS 211
+name: Introduction to Environmental Design
+cred: 3
+desc: Survey of the visual, cultural, ecological and spatial literacies in environmental design and planning. 
+
+code: ENDS 220
+name: Architecture in Context: Vancouver
+cred: 3
+desc: The unfolding architecture and urbanism of Metro Vancouver. Using Vancouver as a laboratory to examine the historical transformation of the built environment, and how this has affected particular activities, land uses, and social groups within the region. 
+
+code: ENDS 221
+name: Sustainability by Design
+cred: 3
+desc: Introduction to interactions between human and natural urban systems using local and international examples of successful sustainable community designs. 
+
+code: ENDS 231
+name: Thinking by Design
+cred: 3
+desc: Introduction to design thinking through the analysis of architecture, landscape architecture, urban design, and hands-on design projects. 
+
+code: ENDS 281
+name: Architecture in Context and Across Cultures: A History
+cred: 3
+desc: A world survey of architecture, from prehistory to postmodernity, which relates architecture to landscape and city, design principles and cultural values, formal and vernacular practices. It explores the different ways in which history has been conveyed and the purposes it serves. [2-0-1]
+
+code: ENDS 301
+name: Environmental Design Studio I
+cred: 3, 4, 5, 6, 7, 8
+desc: Introduction to the study of relationships of human beings' environments; methods of analysis and composition; physical properties of land, natural and man-made; simple spatial and functional programs deployed in the creation of outdoor spaces. 
+
+code: ENDS 302
+name: Environmental Design Studio II
+cred: 3, 4, 5, 6, 7, 8
+desc: Expands the terms of the purposeful transformation of "place" to include modifications to the environment at the scale of the individual; concepts of dwelling and habitation; the human body as an instrument of measure, dimension and design of the private realm. 
+prer: ENDS 301.
+preq: ENDS 301
+
+code: ENDS 320
+name: Design, Media and Representation
+cred: 3
+desc: Theories, histories and techniques of design representation; geometry, design and expression are principle areas of focus. 
+
+code: ENDS 401
+name: Environmental Design Studio III
+cred: 3, 4, 5, 6, 7, 8
+desc: The exploration of a complex physical and spatial program for building in the public realm, resulting in an integrative design project. 
+prer: ENDS 302.
+preq: ENDS 302
+
+code: ENDS 402
+name: Environmental Design Studio IV
+cred: 3, 4, 5, 6, 7, 8
+desc: Expands the scale and design enquiry to emphasize the relationships between communities and environment, urban infrastructure, and ecological systems. 
+prer: ENDS 401.
+preq: ENDS 401
+
+code: ENDS 404
+name: Environmental Design History
+cred: 3
+desc: A survey of environmental influences in architecture and landscape architecture design across time, geographies, and cultures, from neolithic settlements to nineteenth-century urbanization. Restricted to students in the Environmental Design program. 
+
+code: ENDS 420
+name: Technology and Technique
+cred: 3
+desc: Introduction to fundamental design principles and investigations of buildings, landscape, machines and furniture, including structure, enclosure, envelope and detailing. 
+
+code: ENDS 440
+name: Environment and Urban Form
+cred: 3
+desc: Relationships between, and integration of, the natural environment and the physical form, spatial structure, and livability of cities. 
+
+code: ENDS 482
+name: Special Topics
+cred: 1, 2, 3, 4, 5, 6, 7, 8

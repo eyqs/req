@@ -1,0 +1,53 @@
+
+
+code: OHS 430
+name: Operative Dentistry
+cred: 4
+desc: The art and science of diagnosing and treating single tooth defects. [0-4.5-0]
+
+code: OHS 431
+name: Orthodontics
+cred: 3
+desc: Differential diagnosis, treatment planning, biomechanical principles and clinical treatment. [1-2-0]
+
+code: OHS 432
+name: Pediatric Dentistry
+cred: 4
+desc:  [0-4.5-0; 1-4.5-0]
+
+code: OHS 434
+name: Behavioural Sciences in Dentistry
+cred: 2
+desc:  [1-0-0]
+
+code: OHS 435
+name: Prosthodontics I
+cred: 8
+desc: The art and science of restoring and replacing teeth and surrounding tissues. 
+
+code: OHS 440
+name: Advanced Operative Dentistry
+cred: 2
+desc: The art and science of diagnosing and treating single tooth defects. [0-3-0]
+prer: OHS  430.
+preq: OHS 430
+
+code: OHS 441
+name: Advanced Orthodontics
+cred: 3
+desc:  [1-2-0; 0-3-0]
+
+code: OHS 442
+name: Advanced Pediatric Dentistry
+cred: 1
+desc:  [0-3-0]
+
+code: OHS 444
+name: Practice Management
+cred: 4
+desc: Ethics, jurisprudence, practice management, intra- and interprofessional relationships. [2-0-0]
+
+code: OHS 445
+name: Prosthodontics II
+cred: 8
+desc: The art and science of restoring and replacing teeth and surrounding tissues. 
