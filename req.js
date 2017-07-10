@@ -17,11 +17,13 @@
 
 let c;                              // c = document.getElementById("canvas")
 let ctx;                            // ctx = c.getContext("2d")
+let pos = {x: 0, y: 0};             // current position of mouse
 let button_dict = [];               // button_dict["CPSC 110"] = Button()
 let hover_code = "";                // course code that mouse is hovering over
                                     //   "" if mouse is not hovering over any
-let closed_hoverbox = false;        // true if hoverbox has been manually
-                                    //   closed by the user, otherwise false
+let mobile_code = "";               // code that mobile user last clicked
+                                    //   "" if last click was not on a button
+let closed_mobile_hoverbox = false; // true if mobile user closes hoverbox
 
 let WIDTH;                          // canvas width, set by its width in CSS
 const HEIGHT = 1920;                // canvas height
@@ -32,7 +34,7 @@ const BTNHEIGHT = 30                // button height
 const BTNMARGIN = 10;               // margin between buttons
 const BLACKLINE = 1;                // normal button border width
 const HOVERLINE = 5;                // highlighted button border width
-const HOVERWIDTH = 300;             // hoverbox width
+const HOVERWIDTH = 400;             // hoverbox width
 const HOVERHEIGHT = 500;            // maximum hoverbox height
 const HOVERPADDING = 5;             // hoverbox padding
 const DEPTHSPACING = 20;            // spacing between different depths
@@ -71,9 +73,9 @@ class Button {
 }
 
 
-// return the cursor position relative to the canvas
+// update mouse position relative to the canvas in the global variable pos
 
-function getCursorPosition(e) {
+function updateMousePosition(e) {
   let x, y;
   if (e.pageX !== undefined && e.pageY !== undefined) {
     x = e.pageX;
@@ -86,7 +88,7 @@ function getCursorPosition(e) {
   }
   x -= c.offsetLeft;
   y -= c.offsetTop;
-  return {x, y};
+  pos = {x, y};
 }
 
 
@@ -171,9 +173,9 @@ function writeHoverbox(code) {
 }
 
 
-// given the mouse position and a course code, draw its hoverbox there
+// given a course code, draw its hoverbox at the current mouse position
 
-function drawHoverbox(pos, code) {
+function drawHoverbox(code) {
   const padded_width = HOVERWIDTH - 2 * HOVERPADDING;
   ctx.textAlign = "start";
   ctx.textBaseline = "top";
@@ -216,33 +218,41 @@ function drawHoverbox(pos, code) {
 // decide what to do when user clicks
 
 function onClick(e) {
+  updateMousePosition(e);
+  const code = getHoverCode(pos);
 
-  // if hoverbox is open, then close the hoverbox but keep the tree shaded
-  if (hover_code && !closed_hoverbox) {
-    closed_hoverbox = true;
-    shadeApp();
-  }
-
-  // if mouse is hovering over a course but the hoverbox is closed,
-  // then it must have been closed by the above, so toggle its status,
-  // update its dependencies' statuses, and unshade the tree
-  else if (hover_code && closed_hoverbox) {
-    if (button_dict[hover_code].needs === "done") {
-      button_dict[hover_code].needs = "none";
+  // if mouse is hovering over a course, then toggle it
+  if (hover_code) {
+    toggleDone(hover_code);
+    if (e.shiftKey) {
+      drawApp();
+      drawHoverbox(hover_code);
     } else {
-      button_dict[hover_code].needs = "done";
+      shadeApp(hover_code);
     }
-    updateCourse(hover_code);
-    for (const dependency of all_courses[hover_code].dreqs) {
-      if (button_dict.hasOwnProperty(dependency)) {
-        updateCourse(dependency);
-      }
-    }
-    drawApp();
   }
 
-  // if mouse is not hovering over a course, unshade the tree
+  // if not, yet mouse is clicking on a course, then user must be on mobile
+  else if (code) {
+    if (code == mobile_code) {
+      if (closed_mobile_hoverbox) {
+        toggleDone(hover_code);
+        shadeApp(hover_code);
+      } else {
+        closed_mobile_hoverbox = true;
+        shadeApp(mobile_code);
+      }
+    } else {
+      mobile_code = code;
+      closed_mobile_hoverbox = false;
+      shadeApp(mobile_code);
+      drawHoverbox(mobile_code);
+    }
+  }
+
+  // if mouse is neither hovering nor clicking on a course, do not shade tree
   else {
+    mobile_code = "";
     drawApp();
   }
 }
@@ -251,30 +261,33 @@ function onClick(e) {
 // decide what to do when user moves mouse
 
 function onMouseMove(e) {
-  const pos = getCursorPosition(e);
-
-  // go through all course buttons to see if mouse is hovering over any
-  for (const code in button_dict) {
-    if (button_dict.hasOwnProperty(code)) {
-      const button = button_dict[code];
-      if (pos.x > button.x && pos.x < button.x + BTNWIDTH
-          && pos.y > button.y && pos.y < button.y + BTNHEIGHT) {
-        // do not shade the tree if the user manually closed its hoverbox
-        if (code === hover_code && closed_hoverbox) {
-          return;
-        }
-        hover_code = code;
-        shadeApp();
-        drawHoverbox(pos, code);
-        return;
-      }
+  updateMousePosition(e);
+  const code = getHoverCode(pos);
+  if (code) {
+    hover_code = code;
+    shadeApp(hover_code);
+    if (e.shiftKey) {
+      drawHoverbox(hover_code);
     }
+  } else {
+    hover_code = "";
+    drawApp();
   }
+}
 
-  // if mouse is not hovering over any, then reset hover_code
-  hover_code = "";
-  closed_hoverbox = false;
-  drawApp();
+
+// toggle hoverbox when user presses shift
+
+function onKeyDown(e) {
+  if (e.shiftKey && hover_code) {
+    drawHoverbox(hover_code);
+  }
+}
+
+function onKeyUp(e) {
+  if (hover_code) {
+    shadeApp(hover_code);
+  }
 }
 
 
@@ -321,6 +334,39 @@ function doneReqs(reqs) {
       return "outs";                // any course is outs -> outs
     } else {
       return "none";                // all courses are none -> none
+    }
+  }
+}
+
+
+// return the code that the mouse is currently over, or false if there is none
+
+function getHoverCode() {
+  for (const code in button_dict) {
+    if (button_dict.hasOwnProperty(code)) {
+      const button = button_dict[code];
+      if (pos.x > button.x && pos.x < button.x + BTNWIDTH
+          && pos.y > button.y && pos.y < button.y + BTNHEIGHT) {
+        return code;
+      }
+    }
+  }
+  return false;
+}
+
+
+// given a course code, toggle its done status
+
+function toggleDone(code) {
+  if (button_dict[code].needs === "done") {
+    button_dict[code].needs = "none";
+  } else {
+    button_dict[code].needs = "done";
+  }
+  updateCourse(code);
+  for (const dependency of all_courses[code].dreqs) {
+    if (button_dict.hasOwnProperty(dependency)) {
+      updateCourse(dependency);
     }
   }
 }
@@ -409,14 +455,14 @@ function drawApp() {
 
 
 // draw the entire application on the canvas, shade it,
-// and highlight the courses related to the currently hovered course
+// and highlight the courses related to the given course
 
-function shadeApp() {
+function shadeApp(code) {
   drawApp();
   ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(hover_code, 'black');
-  const hover_course = all_courses[hover_code];
+  drawButton(code, 'black');
+  const hover_course = all_courses[code];
   for (const param of [["preqs", "preb"],
       ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
     for (const code of hover_course[param[0]]) {
@@ -433,14 +479,40 @@ function parseCodes() {
   /* Remove whitespace, add space before numbers, delete trailing letters,
    * convert to uppercase, and filter out blanks and unknown codes.
    */
-  let code_list = document.getElementById("form").elements["courses"]
+  const code_list = document.getElementById("form").elements["courses"]
       .value.split(",").map((code) => code.replace(/\s/g, "")
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
-  code_list = code_list.filter((code, i) => code.length !== 1
-      && all_courses.hasOwnProperty(code));
+  const code_dict = {};
+  for (const code of code_list) {
+    if (code.length > 1 && all_courses.hasOwnProperty(code)) {
+      code_dict[code] = true;
+    }
+  }
+
+  // add all prerequisites and corequisites of all codes, recursively
+  const reqlists = ["preqs", "creqs"];
+  const checked_dict = {};
+  while (Object.keys(checked_dict).length != Object.keys(code_dict).length) {
+    for (const code in code_dict) {
+      if (code_dict.hasOwnProperty(code)) {
+        if (!checked_dict[code]) {
+          checked_dict[code] = true;
+          for (const reqlist of reqlists) {
+            for (const req of all_courses[code][reqlist]) {
+              if (all_courses.hasOwnProperty(req)) {
+                code_dict[req] = true;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // create new buttons for each course and mark some as done
   const unordered = {};
   new_button_dict = {};
-  for (const code of code_list) {
+  for (const code in code_dict) {
     unordered[code] = true;
     new_button_dict[code] = new Button();
     if (button_dict[code] && button_dict[code].needs === "done") {
@@ -529,6 +601,8 @@ function startApp() {
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
     c.addEventListener("mousemove", onMouseMove, false);
+    c.addEventListener("keydown", onKeyDown, false);
+    c.addEventListener("keyup", onKeyUp, false);
 
     // update all courses in req.txt with preqs, creqs, and dreqs
     for (const code in all_courses) {
