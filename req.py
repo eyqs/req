@@ -165,6 +165,9 @@ if __name__ == '__main__':
         f.write(DUMPHEADER);
         for code, course in courses.items():
             params = courses[code].get_params()
+            # Ignore courses with no name
+            if not params['name']:
+                continue
             f.write(repr(params['code']) + ': new Course(')
             f.write(', '.join([repr(params['code']), repr(params['name']),
                                repr(params['desc']), repr(params['prer']),
