@@ -34,7 +34,12 @@ canvas {
   width = 100%;
 }
 
-input[type="submit"] {
+form {
+  margin-top: 2em;
+}
+
+input[type="submit"], button {
+  display: block;
   color: white;
   background-color: dimgray;
   font-size: 1em;
@@ -43,6 +48,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover, input[type="submit"]:focus,
-input[type="submit"]:active, {
+input[type="submit"]:active, button:hover, button:focus, button:active {
   background-color: gray;
 }

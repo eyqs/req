@@ -40,23 +40,25 @@ const HOVERPADDING = 5;             // hoverbox padding
 const DEPTHSPACING = 20;            // spacing between different depths
 const TITLESPACING = 40;            // spacing from top to title
 
-const COLOURS = {                   // button background colours:
-  "done": "greenyellow",            // course is already taken
-  "none": "whitesmoke",             // course meets all prereqs and coreqs
-  "creq": "gold",                   // meets all prereqs, does not meet coreqs
-  "preq": "pink",                   // course does not meet all prereqs
-  "excl": "lightsteelblue",         // credit excluded by already taken course
-  "xout": "lavender",               // either none or excl, depending
-                                    //   on courses taken outside the tree
-  "outs": "wheat",                  // either none, creq, or preq, depending
-                                    //   on courses taken outside the tree
-  "hovr": "honeydew",               // hoverbox background colour
-
-                                    // button border colours:
-  "preb": "deeppink",               // prereq of hovered course
-  "creb": "darkorange",             // coreq of hovered course
-  "excb": "indigo",                 // credit excluded by hovered course
-  "dreq": "olive",                  // has hovered course as prereq or coreq
+const HOVERBOX_COLOUR = "honeydew"; // hoverbox background colour
+const BUTTON_COLOURS = {            // button background colours
+  "done": ["greenyellow", " is already taken."],
+  "none": ["whitesmoke", " can be taken."],
+  "xout": ["lavender", " can be taken"
+      + " unless you've taken some credit excluded course outside the tree."],
+  "outs": ["wheat", " cannot be taken"
+      + " unless you've taken some requisite course outside the tree."],
+  "creq": ["gold", " cannot be taken, due to a missing corequisite."],
+  "preq": ["pink", " cannot be taken, due to a missing prerequisite."],
+  "excl": ["lightsteelblue", " cannot be taken, due to a"
+      + " credit excluded course that you've already taken."],
+};
+const BORDER_COLOURS = {            // button border colours
+  "high": ["black", " is the highlighted course"],
+  "preq": ["deeppink", " is a prerequisite of the highlighted course."],
+  "creq": ["darkorange", " is a corequisite of the highlighted course."],
+  "excl": ["indigo", " is credit excluded with the highlighted course."],
+  "dreq": ["olive", " has the highlighted course as a requisite."],
 };
 
 
@@ -198,7 +200,7 @@ function drawHoverbox(code) {
   // calculate direction to draw hoverbox, then draw its box
   const x = pos.x - HOVERWIDTH < PADDING ? pos.x : pos.x - HOVERWIDTH;
   ctx.lineWidth = BLACKLINE;
-  ctx.fillStyle = COLOURS["hovr"];
+  ctx.fillStyle = HOVERBOX_COLOUR;
   ctx.fillRect(x, pos.y, HOVERWIDTH, padded_height);
   ctx.fillStyle = "black";
   ctx.strokeRect(x, pos.y, HOVERWIDTH, padded_height);
@@ -416,7 +418,7 @@ function drawButton(code, border_colour) {
   const button = button_dict[code];
   ctx.textBaseline = "middle";
   ctx.font = "14px sans-serif";
-  ctx.fillStyle = COLOURS[button.needs];
+  ctx.fillStyle = BUTTON_COLOURS[button.needs][0];
   ctx.fillRect(button.x, button.y, BTNWIDTH, BTNHEIGHT);
   if (border_colour) {
     ctx.lineWidth = HOVERLINE;
@@ -461,13 +463,26 @@ function shadeApp(code) {
   drawApp();
   ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(code, 'black');
+  drawButton(code, BORDER_COLOURS["high"][0]);
   const hover_course = all_courses[code];
   for (const param of [["preqs", "preb"],
       ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
     for (const code of hover_course[param[0]]) {
-      drawButton(code, COLOURS[param[1]]);
+      drawButton(code, BORDER_COLOURS[param[1]][0]);
     }
+  }
+}
+
+
+// update the input course codes with all excluded or dependent courses
+
+function updateCodes(reqlist) {
+  const code = document.getElementById("course").value.replace(/\s/g, "")
+      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
+  document.getElementById("course").value = "";
+  if (all_courses.hasOwnProperty(code)) {
+    document.getElementById("courses").value +=
+      all_courses[code][reqlist].join(", ");
   }
 }
 
@@ -479,7 +494,7 @@ function parseCodes() {
   /* Remove whitespace, add space before numbers, delete trailing letters,
    * convert to uppercase, and filter out blanks and unknown codes.
    */
-  const code_list = document.getElementById("form").elements["courses"]
+  const code_list = document.getElementById("courses")
       .value.split(",").map((code) => code.replace(/\s/g, "")
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
   const code_dict = {};
@@ -594,6 +609,23 @@ function startApp() {
     document.getElementById("nocanvas").innerHTML =
       "Your browser does not support this app!";
   } else {
+    // write paragraph on button colours
+    const lis = [];
+    for (const param of [[BUTTON_COLOURS, "background-color:", " button"],
+        [BORDER_COLOURS, "color:", " border"]]) {
+      for (needs in param[0]) {
+        if (param[0].hasOwnProperty(needs)) {
+          lis.push('<li> A course with a <span style="' + param[1]
+              + param[0][needs][0] + '">' + param[0][needs][0]
+              + param[2] + "</span>" + param[0][needs][1] + "</li>"
+          );
+        }
+      }
+    }
+    document.getElementById("colours").innerHTML = lis.join("\n");
+
+
+    // set global variables and add canvas event listeners
     WIDTH = document.getElementById("canvas-wrapper").offsetWidth;
     let btncols = Math.floor((WIDTH - 2 * PADDING) / (ABTNWIDTH + BTNMARGIN));
     BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNMARGIN) / btncols;
@@ -632,7 +664,11 @@ function startApp() {
 
 document.addEventListener("DOMContentLoaded", function () {
   startApp();
-  document.getElementById("form").addEventListener("submit", function (e) {
+  document.getElementById("excls").addEventListener("click",
+    () => updateCodes("excls"));
+  document.getElementById("dreqs").addEventListener("click",
+    () => updateCodes("dreqs"));
+  document.getElementById("codes").addEventListener("submit", function (e) {
     e.preventDefault();
     parseCodes();
     drawApp();

@@ -15,12 +15,27 @@
   <a href="https://github.com/eyqs/req">
     <img id="github" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
   </a>
-  <form id="form">
-    <p>Enter course codes to display, separated by commas:</p>
-    <textarea id="courses" rows="10" placeholder="MATH 100, math101,e NGL1  12  ,, MATH 100,  TEST 200"></textarea><br>
+  <p id="desktop">
+    On desktop: click on a course button to toggle it between taken and untaken. Hold down shift to show a hoverbox of information about the highlighted course.
+  </p>
+  <p id="mobile">
+    On mobile: click on a course button to show a hoverbox. Click again to hide it. Click again (total three times) to toggle the course between taken and untaken.
+  </p>
+  <ul id="colours">
+  </ul>
+  <div id="code">
+    <label for="course">Enter one course code:</label>
+    <input type="text" id="course" placeholder="NURS 423">
+    <button id="excls">Add all excluded courses</button>
+    <button id="dreqs">Add all dependent courses</button>
+  </div>
+  <form id="codes">
+    <label for="courses">Enter multiple course codes to display, separated by commas:</label>
+    <textarea id="courses" rows="10" placeholder="MATH 100, math101,e NGL1  12  ,, MATH 100,  TEST 200"></textarea>
     <input type="submit" value="Launch">
   </form>
-  <p id="nocanvas"></p>
+  <p id="nocanvas">
+  </p>
 </div>
 <div id="canvas-wrapper">
   <canvas id="canvas" tabindex="1"></canvas>
