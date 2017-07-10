@@ -17,7 +17,7 @@
 
 let c;                              // c = document.getElementById("canvas")
 let ctx;                            // ctx = c.getContext("2d")
-let button_dict;                    // button_dict["CPSC 110"] = Button()
+let button_dict = [];               // button_dict["CPSC 110"] = Button()
 let hover_code = "";                // course code that mouse is hovering over
                                     //   "" if mouse is not hovering over any
 let closed_hoverbox = false;        // true if hoverbox has been manually
@@ -26,7 +26,8 @@ let closed_hoverbox = false;        // true if hoverbox has been manually
 let WIDTH;                          // canvas width, set by its width in CSS
 const HEIGHT = 1920;                // canvas height
 const PADDING = 50;                 // canvas padding
-let BTNWIDTH = 100;                 // approximate button width
+const ABTNWIDTH = 100;              // approximate button width
+let BTNWIDTH;                       // automatically calculated button width
 const BTNHEIGHT = 30                // button height
 const BTNMARGIN = 10;               // margin between buttons
 const BLACKLINE = 1;                // normal button border width
@@ -425,6 +426,91 @@ function shadeApp() {
 }
 
 
+// parse the input course codes and reposition the buttons on the tree
+
+function parseCodes() {
+  // TODO: instead of deleting trailing letters, parse UBC Course Schedule
+  /* Remove whitespace, add space before numbers, delete trailing letters,
+   * convert to uppercase, and filter out blanks and unknown codes.
+   */
+  let code_list = document.getElementById("form").elements["courses"]
+      .value.split(",").map((code) => code.replace(/\s/g, "")
+      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
+  code_list = code_list.filter((code, i) => code.length !== 1
+      && all_courses.hasOwnProperty(code));
+  const unordered = {};
+  new_button_dict = {};
+  for (const code of code_list) {
+    unordered[code] = true;
+    new_button_dict[code] = new Button();
+    if (button_dict[code] && button_dict[code].needs === "done") {
+      new_button_dict[code].needs = "done";
+    }
+  }
+  button_dict = new_button_dict;
+
+  /* Arrange courses in order depending on their depth of prereqs
+   * First scan through courses with no preqs and set their depth to 1,
+   * then scan through all courses whose preqs all have a non-zero depth
+   * of which the maximum is 1, and set their depth to 2, etc. until done.
+   */
+  let depth = 0;
+  while (Object.keys(unordered).length !== 0) {
+    depth += 1;
+    for (const code in unordered) {
+      if (unordered.hasOwnProperty(code)) {
+        let hasreq = false;       // has a prereq in the current tree
+        let badreq = false;       // has a prereq with zero or current depth
+        for (const preq of all_courses[code].preqs) {
+          if (button_dict.hasOwnProperty(preq)) {
+            hasreq = true;
+            if (button_dict[preq].depth === 0
+                || button_dict[preq].depth === depth) {
+              badreq = true;
+            }
+          }
+        }
+        if (!badreq || (depth === 1 && !hasreq)) {
+          button_dict[code].depth = depth;
+          delete unordered[code];
+        }
+      }
+    }
+  }
+
+  // find correct coordinates to place each button
+  let x = PADDING;
+  let y = PADDING + TITLESPACING;
+  for (let d = 0; d <= depth; d++) {
+    for (const code in button_dict) {
+      if (button_dict.hasOwnProperty(code)) {
+        if (button_dict[code].depth === d) {
+          Object.assign(button_dict[code], {x, y});
+          updateCourse(code);
+          x += BTNWIDTH + BTNMARGIN;
+          if (x + BTNWIDTH > WIDTH - PADDING) {
+            x = PADDING;
+            y += BTNHEIGHT + BTNMARGIN;
+            if (y + BTNHEIGHT > HEIGHT - PADDING) {
+              break;
+            }
+          }
+        }
+      }
+    }
+    if (x === PADDING) {
+      y += DEPTHSPACING;
+    } else {
+      y += BTNHEIGHT + BTNMARGIN + DEPTHSPACING;
+    }
+    x = PADDING;
+    if (y + BTNHEIGHT > HEIGHT - PADDING) {
+      break;
+    }
+  }
+}
+
+
 // start the application
 
 function startApp() {
@@ -437,7 +523,7 @@ function startApp() {
       "Your browser does not support this app!";
   } else {
     WIDTH = document.getElementById("canvas-wrapper").offsetWidth;
-    let btncols = Math.floor((WIDTH - 2 * PADDING) / (BTNWIDTH + BTNMARGIN));
+    let btncols = Math.floor((WIDTH - 2 * PADDING) / (ABTNWIDTH + BTNMARGIN));
     BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNMARGIN) / btncols;
     c.width = WIDTH;
     c.height = HEIGHT;
@@ -464,83 +550,6 @@ function startApp() {
         all_courses[code].dreqs = Object.keys(all_courses[code].ddict);
       }
     }
-
-    // TODO: instead of deleting trailing letters, parse UBC Course Schedule
-    /* Remove whitespace, add space before numbers, delete trailing letters,
-     * convert to uppercase, and filter out blanks and unknown codes.
-     */
-    let code_list = document.getElementById("form").elements["courses"]
-        .value.split(",").map((code) => code.replace(/\s/g, "")
-        .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
-    code_list = code_list.filter((code, i) => code.length !== 1
-        && all_courses.hasOwnProperty(code));
-    const unordered = {};
-    button_dict = {};
-    for (const code of code_list) {
-      unordered[code] = true;
-      button_dict[code] = new Button();
-    }
-
-    /* Arrange courses in order depending on their depth of prereqs
-     * First scan through courses with no preqs and set their depth to 1,
-     * then scan through all courses whose preqs all have a non-zero depth
-     * of which the maximum is 1, and set their depth to 2, etc. until done.
-     */
-    let depth = 0;
-    while (Object.keys(unordered).length !== 0) {
-      depth += 1;
-      for (const code in unordered) {
-        if (unordered.hasOwnProperty(code)) {
-          let hasreq = false;       // has a prereq in the current tree
-          let badreq = false;       // has a prereq with zero or current depth
-          for (const preq of all_courses[code].preqs) {
-            if (button_dict.hasOwnProperty(preq)) {
-              hasreq = true;
-              if (button_dict[preq].depth === 0
-                  || button_dict[preq].depth === depth) {
-                badreq = true;
-              }
-            }
-          }
-          if (!badreq || (depth === 1 && !hasreq)) {
-            button_dict[code].depth = depth;
-            delete unordered[code];
-          }
-        }
-      }
-    }
-
-    // find correct coordinates to place each button
-    let x = PADDING;
-    let y = PADDING + TITLESPACING;
-    for (let d = 0; d <= depth; d++) {
-      for (const code in button_dict) {
-        if (button_dict.hasOwnProperty(code)) {
-          if (button_dict[code].depth === d) {
-            Object.assign(button_dict[code], {x, y});
-            updateCourse(code);
-            x += BTNWIDTH + BTNMARGIN;
-            if (x + BTNWIDTH > WIDTH - PADDING) {
-              x = PADDING;
-              y += BTNHEIGHT + BTNMARGIN;
-              if (y + BTNHEIGHT > HEIGHT - PADDING) {
-                break;
-              }
-            }
-          }
-        }
-      }
-      if (x === PADDING) {
-        y += DEPTHSPACING;
-      } else {
-        y += BTNHEIGHT + BTNMARGIN + DEPTHSPACING;
-      }
-      x = PADDING;
-      if (y + BTNHEIGHT > HEIGHT - PADDING) {
-        break;
-      }
-    }
-    drawApp();
   }
 }
 
@@ -548,8 +557,10 @@ function startApp() {
 // add all event listeners when ready
 
 document.addEventListener("DOMContentLoaded", function () {
+  startApp();
   document.getElementById("form").addEventListener("submit", function (e) {
     e.preventDefault();
-    startApp();
+    parseCodes();
+    drawApp();
   });
 });
