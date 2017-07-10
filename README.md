@@ -6,9 +6,7 @@ req is a simple program that shows you trees of course prereqs and coreqs.
 
 ### Requirements
 
-- Python 3.5 with Tkinter
-
-Probably works on earlier versions too. Definitely does not work on Python 2.
+Use Python 3.5, or probably any Python 3. Does not work on Python 2.
 
 ### Installation
 
@@ -19,11 +17,30 @@ Probably works on earlier versions too. Definitely does not work on Python 2.
 
 ## Usage
 
-Click on a course to toggle it as already completed or not already completed.
-You can change the colours by editing the `COLOURS` dictionary in `req.py`.
+Hover over a course to see its information. Click to dismiss the hoverbox.
+Click again to toggle the course as already completed or not yet completed.
+You can change the colours by editing the `COLOURS` dictionary in `req.js`.
+
 Make sure you don't add a course which is a prerequisite of itself!
-That'll just get you an infinite loop. (The same applies to, for example,
-a course which is a prereq of its own coreq, and all sorts of other nonsense.)
+That'll just get you an infinite loop. The same applies to, for example,
+a course which is a prereq of its own coreq, and all sorts of other nonsense.
+
+### Regeneration
+
+    $ # regenerates huge course req JavaScript object from the given folder
+    $ python req.py folder_name         # default: data/ubc/2017
+    $
+    $ # regenerates course req lists from the current UBC Calendar
+    $ python ubcalend.py folder_name    # default: 2017
+    $
+    $ # regenerates course code lists from the given folder of req lists
+    $ python codetabs.py folder_name    # default: 2017
+    $
+    $ # regenerates excls.txt from the current UBC Credit Exclusion List
+    $ python excluded.py folder_name    # default: 2017
+    $
+    $ # regenerates terms.txt from the current UBC Course Schedule, very slow
+    $ python ubcsched.py foo bar baz    # default: 2017S 2017W
 
 ### Configuration
 
@@ -32,21 +49,23 @@ All lines without a colon `:` will be ignored, and all lines with a colon
 will be split into the part before the colon and the part after the colon.
 The part before the colon must be one of these allowed parameters:
 
-- code: the course code, but you can use its name instead if you want;
-- name: the course name, but you can use its code instead if you want;
-- cred: the number of credits granted by the course, can be a comma-separated
-list for courses that grant a variable number of credits, like `3, 6`;
-- preq: the prerequisites of the course, which must be taken beforehand;
-- creq: the corequisites of the course, which must be taken with it;
-- term: the terms in which the course is offered, in a comma-separated list;
+- code: the course code, like `CPSC 121`
+- name: the course name, like `Models of Computation`
+- desc: the course description, like `Functions, derivatives, optimization...`
+- prer: the raw course prerequisites, like `Either (a) CPSC 221 or (b) ...`
+- crer: the raw course corequisites, like `All of CPSC 213, CPSC 221.`
+- preq: the parsed course prerequisites, like `CPSC 221 or (CPSC 260 and ...`
+- creq: the parsed course corequisites, like `CPSC 213 and CPSC 221
 - excl: the courses that cannot be taken for credit after the course is taken,
-in a comma-separated list, it's probably just a weird UBC thing;
+in a comma-separated list, like `STAT 200, STAT 203, BIOL 300, COMM 291, ...`
+- term: the terms in which the course is offered, like `2017S, 2017W`
+- cred: the number of credits granted by the course, like `3`, or even
+a comma-separated list for courses with variable credits, like `3, 6`
 
-The course code is required and everything else is optional. In particular,
-name, cred, and term currently don't do anything at all, so they're useless.
+The course code is required and everything else is optional.
+In particular, only preq, creq, and excl are actually used in the logic,
+while name, desc, prer, crer, term, and cred are just shown in the hoverbox.
 Everything between two appearances of `code:` is a property of the first code.
-If the preq, creq, or excl requirements are too complicated, you can always
-write `more...` to remind people not to rely on hacky tacky Python scripts.
 
 For preq and creq, the structure of the part after the colon has to be an
 unambiguous, properly parenthesized boolean expression made from the codes of

@@ -1,4 +1,4 @@
-/* req v1.3
+/* req v2.0
  * Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
@@ -89,6 +89,21 @@ function getCursorPosition(e) {
 }
 
 
+// given a list of lists, return a flat list of all valid course codes in it
+
+function flatten(listlist) {
+  const flat_list = [];
+  for (const list of listlist) {
+    if (list instanceof Array) {
+      flat_list.push(...flatten(list));
+    } else if (all_courses.hasOwnProperty(list)) {
+      flat_list.push(list);
+    }
+  }
+  return flat_list;
+}
+
+
 // given an array of paragraphs of text and a maximum text width,
 // return an array of lines of text wrapped under that maximum width
 
@@ -133,22 +148,23 @@ function dotText(lines, index, max_width) {
 
 function writeHoverbox(code) {
   const paragraphs = [];
-  const course = allCourses[code];
+  const course = all_courses[code];
   paragraphs.push(course.code);
   if (course.name) {
     paragraphs[0] += ": " + course.name;
-  } if (course.desc.length > 0) {
+  }
+  if (course.desc) {
     paragraphs.push(course.desc);
-  } if (course.preqs.length > 0) {
-    paragraphs.push("Prereqs: " + course.preqs.join(", "));
-  } if (course.creqs.length > 0) {
-    paragraphs.push("Coreqs: " + course.creqs.join(", "));
-  } if (course.excl.length > 1) {
-    paragraphs.push("Exclusions: " + course.excl.slice(1).join(", "));
-  } if (course.dreqs.length > 0) {
-    paragraphs.push("Required by: " + course.dreqs.join(", "));
-  } if (course.cred.length > 0) {
-    paragraphs.push("Credits: " + course.cred.join(", "));
+  }
+  for (const param of [
+      ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
+      ["Exclusions: ", "excls"], ["Required by: ", "dreqs"],
+      ["Terms: ", "terms"], ["Credits: ", "cred"]]) {
+    if (course[param[2]]) {
+      paragraphs.push(param[0] + course[param[2]]);
+    } else if (course[param[1]] && course[param[1]].length > 0) {
+      paragraphs.push(param[0] + course[param[1]].join(", "));
+    }
   }
   return paragraphs;
 }
@@ -199,8 +215,6 @@ function drawHoverbox(pos, code) {
 // decide what to do when user clicks
 
 function onClick(e) {
-  console.log(hover_code);
-  console.log(closed_hoverbox);
 
   // if hoverbox is open, then close the hoverbox but keep the tree shaded
   if (hover_code && !closed_hoverbox) {
@@ -218,7 +232,7 @@ function onClick(e) {
       button_dict[hover_code].needs = "done";
     }
     updateCourse(hover_code);
-    for (const dependency of allCourses[code].dreqs) {
+    for (const dependency of all_courses[hover_code].dreqs) {
       if (button_dict.hasOwnProperty(dependency)) {
         updateCourse(dependency);
       }
@@ -317,7 +331,7 @@ function updateCourse(code) {
   // courses can be taken in onClick -> done
   const button = button_dict[code];
   if (button.needs !== "done") {
-    const course = allCourses[code];
+    const course = all_courses[code];
     // if any excluded course in the current tree is done -> excl
     if (course.excl.length > 1 && doneReqs(course.excl) === "done") {
       button.needs = "excl";
@@ -348,7 +362,11 @@ function updateCourse(code) {
 
 // draw a single course button on the canvas, with an optional border
 
-function drawButton(code, button, border_colour) {
+function drawButton(code, border_colour) {
+  if (!button_dict.hasOwnProperty(code)) {
+    return;
+  }
+  const button = button_dict[code];
   ctx.textBaseline = "middle";
   ctx.font = "14px sans-serif";
   ctx.fillStyle = COLOURS[button.needs];
@@ -376,14 +394,14 @@ function drawApp() {
   ctx.textAlign = "center";
   ctx.textBaseline = "top";
   ctx.font = "bold 18px sans-serif";
-  ctx.fillText("req v1.3", WIDTH / 2, PADDING);
+  ctx.fillText("req v2.0", WIDTH / 2, PADDING);
   ctx.textBaseline = "bottom";
   ctx.font = "8px sans-serif";
   ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
       WIDTH / 2, HEIGHT - PADDING);
   for (const code in button_dict) {
     if (button_dict.hasOwnProperty(code)) {
-      drawButton(code, button_dict[code]);
+      drawButton(code);
     }
   }
 }
@@ -396,16 +414,12 @@ function shadeApp() {
   drawApp();
   ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  const hover_course = allCourses[hover_code];
-  const related_courses = [
-    [hover_course.preqs, "preb"], [hover_course.creqs, "creb"],
-    [hover_course.excl, "excb"], [hover_course.dreqs, "dreq"],
-  ];
-  for (const code_list of related_courses) {
-    for (const code of code_list[0]) {
-      if (button_dict.hasOwnProperty(code)) {
-        drawButton(code, button_dict[code], COLOURS[code_list[1]]);
-      }
+  drawButton(hover_code, 'black');
+  const hover_course = all_courses[hover_code];
+  for (const param of [["preqs", "preb"],
+      ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
+    for (const code of hover_course[param[0]]) {
+      drawButton(code, COLOURS[param[1]]);
     }
   }
 }
@@ -430,6 +444,27 @@ function startApp() {
     c.addEventListener("click", onClick, false);
     c.addEventListener("mousemove", onMouseMove, false);
 
+    // update all courses in req.txt with preqs, creqs, and dreqs
+    for (const code in all_courses) {
+      if (all_courses.hasOwnProperty(code)) {
+        const course = all_courses[code];
+        for (const param of [
+            ["preq", "preqs"], ["creq", "creqs"], ["excl", "excls"]]) {
+          course[param[1]] = flatten(course[param[0]])
+          for (const dependency of course[param[1]]) {
+            if (all_courses.hasOwnProperty(dependency)) {
+              all_courses[dependency].ddict[code] = true;
+            }
+          }
+        }
+      }
+    }
+    for (const code in all_courses) {
+      if (all_courses.hasOwnProperty(code)) {
+        all_courses[code].dreqs = Object.keys(all_courses[code].ddict);
+      }
+    }
+
     // TODO: instead of deleting trailing letters, parse UBC Course Schedule
     /* Remove whitespace, add space before numbers, delete trailing letters,
      * convert to uppercase, and filter out blanks and unknown codes.
@@ -438,7 +473,7 @@ function startApp() {
         .value.split(",").map((code) => code.replace(/\s/g, "")
         .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
     code_list = code_list.filter((code, i) => code.length !== 1
-        && allCourses.hasOwnProperty(code));
+        && all_courses.hasOwnProperty(code));
     const unordered = {};
     button_dict = {};
     for (const code of code_list) {
@@ -458,7 +493,7 @@ function startApp() {
         if (unordered.hasOwnProperty(code)) {
           let hasreq = false;       // has a prereq in the current tree
           let badreq = false;       // has a prereq with zero or current depth
-          for (const preq of allCourses[code].preqs) {
+          for (const preq of all_courses[code].preqs) {
             if (button_dict.hasOwnProperty(preq)) {
               hasreq = true;
               if (button_dict[preq].depth === 0

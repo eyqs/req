@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-req v1.3
+req v2.0
 Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
@@ -83,6 +83,8 @@ def get_depts(url):
         department = line.decode('UTF-8', 'backslashreplace')
         if '&dept' in department or '&amp;dept' in department:
             depts.add(department.split('=')[6].split('"')[0])
+        if 'no courses offered for the current session by UBC' in department:
+            return False;
     return sorted(depts)
 
 # Get all the terms every course is offered from the UBC Course Schedule
@@ -91,7 +93,7 @@ if __name__ == '__main__':
         with open(session['year'] + OUTPATH, 'a') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' +
-                          session['id'])
+                          session['url'])
             if d:
                 for dept in d:
                     c = get_codes('https://courses.students.ubc.ca/cs/main?' +
@@ -108,3 +110,5 @@ if __name__ == '__main__':
                                 f.write('\nterm: ')
                                 for term in t:
                                     f.write(session['id'] + term + ', ')
+            else:
+                print(session['id'] + ' information could not be found.')
