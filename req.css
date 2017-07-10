@@ -34,8 +34,8 @@ canvas {
   width = 100%;
 }
 
-form {
-  margin-top: 2em;
+#code {
+  margin: 1em 0;
 }
 
 input[type="submit"], button {

@@ -15,6 +15,8 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 
+const CODEFOLDER_URL =              // URL to the folder with subject codes
+    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/"
 let c;                              // c = document.getElementById("canvas")
 let ctx;                            // ctx = c.getContext("2d")
 let pos = {x: 0, y: 0};             // current position of mouse
@@ -487,6 +489,21 @@ function updateCodes(reqlist) {
 }
 
 
+// update the input course codes with all courses of the given subject
+
+function addSubjectCodes() {
+  const dept = document.getElementById("subject").value
+      .replace(/\s/g, "").toLowerCase();
+  document.getElementById("subject").value = "";
+  fetch(CODEFOLDER_URL + dept + ".txt")
+    .then((response) => response.text())
+    .then(function (subject_codes) {
+      document.getElementById("courses").value +=
+        subject_codes.split("\n").join(" ");
+    });
+}
+
+
 // parse the input course codes and reposition the buttons on the tree
 
 function parseCodes() {
@@ -668,6 +685,10 @@ document.addEventListener("DOMContentLoaded", function () {
     () => updateCodes("excls"));
   document.getElementById("dreqs").addEventListener("click",
     () => updateCodes("dreqs"));
+  document.getElementById("dept").addEventListener("submit", function (e) {
+    e.preventDefault();
+    addSubjectCodes();
+  });
   document.getElementById("codes").addEventListener("submit", function (e) {
     e.preventDefault();
     parseCodes();
