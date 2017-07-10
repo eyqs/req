@@ -39,67 +39,66 @@ def translate(url, out):
         break
 
     # Open the output .txt file and start writing to it
-    outfile = open(out, 'w')
-    hascode = False     # The corresponding course code
-    for byte in html:
-        line = byte.decode('UTF-8', 'backslashreplace')
-        if line.strip() == '</dl>': # End of course list
-            break
+    with open(out, 'w', encoding='utf8') as outfile:
+        hascode = False     # The corresponding course code
+        for byte in html:
+            line = byte.decode('UTF-8', 'backslashreplace')
+            if line.strip() == '</dl>': # End of course list
+                break
 
-        # Example of split, rest of the code is just chopping this up
-        # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
-        #  'b>Models of Computation', '/b>', '/dt>\n']
-        if line.strip().startswith('<dt>'):
-            split = line.split('<')
-            code = ' '.join(split[3][3:].split()[:2])
-            if int(code.split()[1]) >= 500: # Skip grad courses
-                hascode = False
-                continue
-            hascode = code
+            # Example of split, rest of the code is just chopping this up
+            # ['\t', 'dt>', 'a name="121">', '/a>CPSC 121 (4)  ',
+            #  'b>Models of Computation', '/b>', '/dt>\n']
+            if line.strip().startswith('<dt>'):
+                split = line.split('<')
+                code = ' '.join(split[3][3:].split()[:2])
+                if int(code.split()[1]) >= 500: # Skip grad courses
+                    hascode = False
+                    continue
+                hascode = code
 
-            name = split[4][2:]
-            cred = split[3].split('(')[1].split(')')[0]
-            if '-' in cred:                 # Put credits into a range
-                if cred.startswith('1.5-'): # Why do these exist. Come on.
-                    cred = '1.5, ' + \
-                        ', '.join([str(x) for x in range(int(cred[4:]))])
-                else:
-                    cred = ', '.join([str(x) for x in range(
-                        *map(int, cred.split('-')))])
-            elif '/' in cred:
-                cred = ', '.join(cred.split('/'))
-            outfile.write('\n\ncode: ' + code)
-            outfile.write('\nname: ' + name)
-            outfile.write('\ncred: ' + cred)
+                name = split[4][2:]
+                cred = split[3].split('(')[1].split(')')[0]
+                if '-' in cred:                 # Put credits into a range
+                    if cred.startswith('1.5-'): # Why do these exist. Come on.
+                        cred = '1.5, ' + \
+                            ', '.join([str(x) for x in range(int(cred[4:]))])
+                    else:
+                        cred = ', '.join([str(x) for x in range(
+                            *map(int, cred.split('-')))])
+                elif '/' in cred:
+                    cred = ', '.join(cred.split('/'))
+                outfile.write('\n\ncode: ' + code)
+                outfile.write('\nname: ' + name)
+                outfile.write('\ncred: ' + cred)
 
-        # Example of split, rest of the code is just chopping this up
-        # ['\t', 'dd>Structures of computation. [3-2-1]', 'br > ',
-        #  'em>Prerequisite:', '/em> Principles of Mathematics 12',
-        #  'br> ', 'em>Corequisite:', '/em> CPSC 110.', 'br> \n']
-        elif hascode and line.strip().startswith('<dd>'):
-            split = line.split('<')
-            desc = split[1][3:]
-            if desc.strip():
-                outfile.write('\ndesc: ' + desc)
-            preq = ''
-            creq = ''
-            for i in range(len(split)):
-                if 'em>Prerequisite:' in split[i]:
-                    # Remove leading '/em> ' and trailing periods
-                    preq_raw = split[i+1][5:]
-                    outfile.write('\nprer: ' + preq_raw)
-                    preq = parse_reqs(preq_raw.strip('.'))
-                    outfile.write('\npreq: ' + preq)
-                elif 'em>Corequisite:' in split[i]:
-                    creq_raw = split[i+1][5:]
-                    outfile.write('\ncrer: ' + creq_raw)
-                    creq = parse_reqs(creq_raw.strip('.'))
-                    outfile.write('\ncreq: ' + creq)
-            if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
-                or (creq and any(x in creq for x in ['.', ':', ';']))):
-                with open(LOGFILE, 'a') as logfile:
-                    logfile.write(hascode + ', ')
-    outfile.close()
+            # Example of split, rest of the code is just chopping this up
+            # ['\t', 'dd>Structures of computation. [3-2-1]', 'br > ',
+            #  'em>Prerequisite:', '/em> Principles of Mathematics 12',
+            #  'br> ', 'em>Corequisite:', '/em> CPSC 110.', 'br> \n']
+            elif hascode and line.strip().startswith('<dd>'):
+                split = line.split('<')
+                desc = split[1][3:]
+                if desc.strip():
+                    outfile.write('\ndesc: ' + desc)
+                preq = ''
+                creq = ''
+                for i in range(len(split)):
+                    if 'em>Prerequisite:' in split[i]:
+                        # Remove leading '/em> ' and trailing periods
+                        preq_raw = split[i+1][5:]
+                        outfile.write('\nprer: ' + preq_raw)
+                        preq = parse_reqs(preq_raw.strip('.'))
+                        outfile.write('\npreq: ' + preq)
+                    elif 'em>Corequisite:' in split[i]:
+                        creq_raw = split[i+1][5:]
+                        outfile.write('\ncrer: ' + creq_raw)
+                        creq = parse_reqs(creq_raw.strip('.'))
+                        outfile.write('\ncreq: ' + creq)
+                if ((preq and any(x in preq for x in ['.', '%', ':', ';']))
+                    or (creq and any(x in creq for x in ['.', ':', ';']))):
+                    with open(LOGFILE, 'a', encoding='utf8') as logfile:
+                        logfile.write(hascode + ', ')
 
 
 # Parse all clauses, which are:
@@ -197,7 +196,7 @@ def parse_reqs(reqs):
 
 # Translate all webpages into .txt files from the UBC Academic Calendar
 if __name__ == '__main__':
-    logfile = open(LOGFILE, 'w')    # Clear logfile
+    logfile = open(LOGFILE, 'w', encoding='utf8')       # Clear logfile
     logfile.write('Please review the requisites for the following courses:\n')
     logfile.close()
     calendar = urllib.request.urlopen('http://www.calendar.ubc.ca/' +

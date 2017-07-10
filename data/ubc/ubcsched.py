@@ -90,7 +90,7 @@ def get_depts(url):
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
     for session in SESSION:
-        with open(session['year'] + OUTPATH, 'a') as f:
+        with open(session['year'] + OUTPATH, 'a', encoding='utf8') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' +
                           session['url'])

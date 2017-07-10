@@ -145,7 +145,7 @@ if __name__ == '__main__':
     courses = {}
     for name in os.listdir(COURSES):
         if name.endswith('.txt'):
-            with open(COURSES + '/' + name) as f:
+            with open(COURSES + '/' + name, encoding='utf8') as f:
                 for line in f:
                     split = line.split(':')
                     if len(split) > 1:
@@ -161,7 +161,7 @@ if __name__ == '__main__':
                             course.set_params(param, value)
 
     # Dump courses into file for JavaScript frontend
-    with open(DUMP, 'w') as f:
+    with open(DUMP, 'w', encoding='utf8') as f:
         f.write(DUMPHEADER);
         for code, course in courses.items():
             params = courses[code].get_params()
