@@ -414,9 +414,6 @@ function updateCourse(code) {
 // draw a single course button on the canvas, with an optional border
 
 function drawButton(code, border_colour) {
-  if (!button_dict.hasOwnProperty(code)) {
-    return;
-  }
   const button = button_dict[code];
   ctx.textBaseline = "middle";
   ctx.font = "14px sans-serif";
@@ -484,7 +481,7 @@ function updateCodes(reqlist) {
   document.getElementById("course").value = "";
   if (all_courses.hasOwnProperty(code)) {
     document.getElementById("courses").value +=
-      all_courses[code][reqlist].join(", ");
+      ", " + all_courses[code][reqlist].join(", ");
   }
 }
 
@@ -499,7 +496,7 @@ function addSubjectCodes() {
     .then((response) => response.text())
     .then(function (subject_codes) {
       document.getElementById("courses").value +=
-        subject_codes.split("\n").join(" ");
+        ", " + subject_codes.split("\n").join(" ");
     });
 }
 
@@ -645,7 +642,8 @@ function startApp() {
     // set global variables and add canvas event listeners
     WIDTH = document.getElementById("canvas-wrapper").offsetWidth;
     let btncols = Math.floor((WIDTH - 2 * PADDING) / (ABTNWIDTH + BTNMARGIN));
-    BTNWIDTH = (WIDTH - 2 * PADDING - (btncols - 1) * BTNMARGIN) / btncols;
+    BTNWIDTH = Math.floor(
+        (WIDTH - 2 * PADDING - (btncols - 1) * BTNMARGIN) / btncols);
     c.width = WIDTH;
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
@@ -657,12 +655,14 @@ function startApp() {
     for (const code in all_courses) {
       if (all_courses.hasOwnProperty(code)) {
         const course = all_courses[code];
-        for (const param of [
-            ["preq", "preqs"], ["creq", "creqs"], ["excl", "excls"]]) {
+        for (const param of [["excl", "excls", false],
+            ["preq", "preqs", true], ["creq", "creqs", true]]) {
           course[param[1]] = flatten(course[param[0]])
-          for (const dependency of course[param[1]]) {
-            if (all_courses.hasOwnProperty(dependency)) {
-              all_courses[dependency].ddict[code] = true;
+          if (param[2]) {
+            for (const dependency of course[param[1]]) {
+              if (all_courses.hasOwnProperty(dependency)) {
+                all_courses[dependency].ddict[code] = true;
+              }
             }
           }
         }

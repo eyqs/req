@@ -36,7 +36,7 @@ if __name__ == '__main__':
     else:
         soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
-    with open(OUTFILE, 'w') as f:
+    with open(OUTFILE, 'w', encoding='utf8') as f:
         for excls in soup.select('ol li'):
             courses = set()
             subject = ''

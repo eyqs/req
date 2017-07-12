@@ -32,7 +32,7 @@ if __name__ == '__main__':
     codes = set()
     outfile = None
     current_dept = None
-    with open(INFILE, 'r') as infile:
+    with open(INFILE, 'r', encoding='utf8') as infile:
         for line in infile:
             if line.strip().startswith('code'):
                 dept, course = line.split(':')[1].strip().split(' ')
@@ -42,5 +42,6 @@ if __name__ == '__main__':
                     current_dept = dept
                     if outfile:
                         outfile.close()
-                    outfile =  open(OUTFOLDER + dept.lower() + '.txt', 'w')
+                    outfile = open(OUTFOLDER + dept.lower() + '.txt',
+                                   'w', encoding='utf8')
                 outfile.write(dept + ' ' + course + ',\n')
