@@ -56,11 +56,11 @@ const BUTTON_COLOURS = {            // button background colours
       + " credit excluded course that you've already taken."],
 };
 const BORDER_COLOURS = {            // button border colours
-  "high": ["black", " is the highlighted course"],
-  "preq": ["deeppink", " is a prerequisite of the highlighted course."],
-  "creq": ["darkorange", " is a corequisite of the highlighted course."],
-  "excl": ["indigo", " is credit excluded with the highlighted course."],
-  "dreq": ["olive", " has the highlighted course as a requisite."],
+  "highs": ["black", " is the highlighted course."],
+  "preqs": ["deeppink", " is a prerequisite of the highlighted course."],
+  "creqs": ["darkorange", " is a corequisite of the highlighted course."],
+  "excls": ["indigo", " is credit excluded with the highlighted course."],
+  "dreqs": ["olive", " has the highlighted course as a requisite."],
 };
 
 
@@ -436,6 +436,7 @@ function drawButton(code, border_colour) {
 // draw the entire application on the canvas
 
 function drawApp() {
+  document.getElementById("canvas").focus();
   ctx.lineWidth = BLACKLINE;
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
@@ -462,12 +463,13 @@ function shadeApp(code) {
   drawApp();
   ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(code, BORDER_COLOURS["high"][0]);
+  drawButton(code, BORDER_COLOURS["highs"][0]);
   const hover_course = all_courses[code];
-  for (const param of [["preqs", "preb"],
-      ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
-    for (const code of hover_course[param[0]]) {
-      drawButton(code, BORDER_COLOURS[param[1]][0]);
+  for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
+    for (const code of hover_course[param]) {
+      if (button_dict.hasOwnProperty(code)) {
+        drawButton(code, BORDER_COLOURS[param][0]);
+      }
     }
   }
 }
@@ -481,7 +483,7 @@ function updateCodes(reqlist) {
   document.getElementById("course").value = "";
   if (all_courses.hasOwnProperty(code)) {
     document.getElementById("courses").value +=
-      ", " + all_courses[code][reqlist].join(", ");
+      ", " + code + ", " + all_courses[code][reqlist].join(", ");
   }
 }
 
