@@ -16,7 +16,7 @@
  */
 
 const CODEFOLDER_URL =              // URL to the folder with subject codes
-    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/"
+    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/";
 let c;                              // c = document.getElementById("canvas")
 let ctx;                            // ctx = c.getContext("2d")
 let pos = {x: 0, y: 0};             // current position of mouse
@@ -80,19 +80,13 @@ class Button {
 // update mouse position relative to the canvas in the global variable pos
 
 function updateMousePosition(e) {
-  let x, y;
-  if (e.pageX !== undefined && e.pageY !== undefined) {
-    x = e.pageX;
-    y = e.pageY;
-  } else {
-    x = e.clientX + document.body.scrollLeft +
-      document.documentElement.scrollLeft;
-    y = e.clientY + document.body.scrollTop +
-      document.documentElement.scrollTop;
-  }
-  x -= c.offsetLeft;
-  y -= c.offsetTop;
-  pos = {x, y};
+  const rect = c.getBoundingClientRect();
+  const scaleX = c.width / rect.width;
+  const scaleY = c.height / rect.height;
+  return {
+    x: (e.clientX - rect.left) * scaleX,
+    y: (e.clientY - rect.top) * scaleY,
+  };
 }
 
 
@@ -216,7 +210,6 @@ function drawHoverbox(code) {
     }
     y += 6;
   }
-}
 
 
 // decide what to do when user clicks
