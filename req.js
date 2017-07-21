@@ -562,20 +562,49 @@ function parseCodes() {
     depth += 1;
     for (const code in unordered) {
       if (unordered.hasOwnProperty(code)) {
-        let hasreq = false;       // has a prereq in the current tree
-        let badreq = false;       // has a prereq with zero or current depth
+        let haspreq = false;      // has a prereq in the current tree
+        let badpreq = false;      // has a prereq with zero or current depth
+        let hascreq = false;      // has a coreq in the current tree
+        let badcreq = false;      // has a coreq with zero or current depth
         for (const preq of all_courses[code].preqs) {
           if (button_dict.hasOwnProperty(preq)) {
-            hasreq = true;
+            haspreq = true;
             if (button_dict[preq].depth === 0
                 || button_dict[preq].depth === depth) {
-              badreq = true;
+              badpreq = true;
             }
           }
         }
-        if (!badreq || (depth === 1 && !hasreq)) {
+        for (const creq of all_courses[code].creqs) {
+          if (button_dict.hasOwnProperty(creq)) {
+            hascreq = true;
+            if (button_dict[creq].depth === 0
+                || button_dict[creq].depth === depth + 0.5) {
+              badcreq = true;
+            }
+          }
+        }
+        if ((depth === 1 && !haspreq && !hascreq)
+            || (!badpreq && !badcreq)) {
           button_dict[code].depth = depth;
           delete unordered[code];
+        } else if (!badpreq) {
+          button_dict[code].depth = depth + 0.5;
+        }
+      }
+    }
+    for (const code in unordered) {
+      let badcreq = false;        // has a coreq with zero depth
+      if (unordered.hasOwnProperty(code)
+          && button_dict[code].depth === depth + 0.5) {
+        for (const creq of all_courses[code].creqs) {
+          if (button_dict.hasOwnProperty(creq)
+              && button_dict[creq].depth === 0) {
+            badcreq = true;
+          }
+        }
+        if (!badcreq) {
+          button_dict[code].depth = depth;
         }
       }
     }
