@@ -83,7 +83,7 @@ function updateMousePosition(e) {
   const rect = c.getBoundingClientRect();
   const scaleX = c.width / rect.width;
   const scaleY = c.height / rect.height;
-  return {
+  pos = {
     x: (e.clientX - rect.left) * scaleX,
     y: (e.clientY - rect.top) * scaleY,
   };
@@ -210,6 +210,7 @@ function drawHoverbox(code) {
     }
     y += 6;
   }
+}
 
 
 // decide what to do when user clicks
@@ -501,11 +502,14 @@ function parseCodes() {
   /* Remove whitespace, add space before numbers, delete trailing letters,
    * convert to uppercase, and filter out blanks and unknown codes.
    */
-  const code_list = document.getElementById("courses")
-      .value.split(",").map((code) => code.replace(/\s/g, "")
-      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
+  const code_list = document.getElementById("courses").value.split(";").map(
+      (list) => list.split(",").map(
+      (code) => code.replace(/\s/g, "")
+          .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase()));
+  const new_list = code_list[0];
+  const done_list = code_list[1];
   const code_dict = {};
-  for (const code of code_list) {
+  for (const code of new_list) {
     if (code.length > 1 && all_courses.hasOwnProperty(code)) {
       code_dict[code] = true;
     }
@@ -539,6 +543,15 @@ function parseCodes() {
     new_button_dict[code] = new Button();
     if (button_dict[code] && button_dict[code].needs === "done") {
       new_button_dict[code].needs = "done";
+    }
+  }
+  if (done_list) {
+    for (const code of done_list) {
+      if (all_courses.hasOwnProperty(code)) {
+        unordered[code] = true;
+        new_button_dict[code] = new Button();
+        new_button_dict[code].needs = "done";
+      }
     }
   }
   button_dict = new_button_dict;
