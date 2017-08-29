@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 req v2.0
 Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
