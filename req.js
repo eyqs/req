@@ -25,7 +25,10 @@ let hover_code = "";                // course code that mouse is hovering over
                                     //   "" if mouse is not hovering over any
 let mobile_code = "";               // code that mobile user last clicked
                                     //   "" if last click was not on a button
+let last_code = "";                 // last value of hover_code or mobile_code
 let closed_mobile_hoverbox = false; // true if mobile user closes hoverbox
+let shade_alpha = 0;                // current alpha of shaded background
+let unshade_delay = 0;              // current ticks waited for unshading
 
 let WIDTH;                          // canvas width, set by its width in CSS
 const HEIGHT = 1920;                // canvas height
@@ -42,6 +45,9 @@ const HOVERPADDING = 5;             // hoverbox padding
 const DEPTHSPACING = 20;            // spacing between different depths
 const TITLESPACING = 40;            // spacing from top to title
 
+const SHADE_DELTA = 0.001;          // amount to change shade_alpha per tick
+const UNSHADE_DELAY = 100;          // ticks to wait before unshading
+const MAX_SHADE = 0.5;              // maximum value of shade_alpha
 const HOVERBOX_COLOUR = "honeydew"; // hoverbox background colour
 const BUTTON_COLOURS = {            // button background colours
   "done": ["greenyellow", " is already taken."],
@@ -222,11 +228,9 @@ function onClick(e) {
   // if mouse is hovering over a course, then toggle it
   if (hover_code) {
     toggleDone(hover_code);
+    drawApp();
     if (e.shiftKey) {
-      drawApp();
       drawHoverbox(hover_code);
-    } else {
-      shadeApp(hover_code);
     }
   }
 
@@ -235,22 +239,25 @@ function onClick(e) {
     if (code == mobile_code) {
       if (closed_mobile_hoverbox) {
         toggleDone(hover_code);
-        shadeApp(hover_code);
       } else {
         closed_mobile_hoverbox = true;
-        shadeApp(mobile_code);
       }
+      drawApp();
     } else {
       mobile_code = code;
       closed_mobile_hoverbox = false;
-      shadeApp(mobile_code);
       drawHoverbox(mobile_code);
+      drawApp();
     }
   }
 
   // if mouse is neither hovering nor clicking on a course, do not shade tree
   else {
+    if (mobile_code !== "") {
+      last_code = mobile_code;
+    }
     mobile_code = "";
+    shade_alpha = 0;
     drawApp();
   }
 }
@@ -263,11 +270,14 @@ function onMouseMove(e) {
   const code = getHoverCode(pos);
   if (code) {
     hover_code = code;
-    shadeApp(hover_code);
+    drawApp();
     if (e.shiftKey) {
       drawHoverbox(hover_code);
     }
   } else {
+    if (hover_code !== "") {
+      last_code = hover_code;
+    }
     hover_code = "";
     drawApp();
   }
@@ -284,7 +294,7 @@ function onKeyDown(e) {
 
 function onKeyUp(e) {
   if (hover_code) {
-    shadeApp(hover_code);
+    drawApp();
   }
 }
 
@@ -428,6 +438,8 @@ function drawButton(code, border_colour) {
 
 
 // draw the entire application on the canvas
+// if hover_code or mobile_code are not blank, then shade it
+//   and highlight the courses related to that code too
 
 function drawApp() {
   ctx.lineWidth = BLACKLINE;
@@ -446,18 +458,33 @@ function drawApp() {
       drawButton(code);
     }
   }
-}
-
-
-// draw the entire application on the canvas, shade it,
-// and highlight the courses related to the given course
-
-function shadeApp(code) {
-  drawApp();
-  ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+  let shade_code;
+  if (hover_code === "" && mobile_code === "") {
+    shade_code = last_code;
+    if (shade_code === "") {
+      return;
+    }
+    if (unshade_delay > UNSHADE_DELAY) {
+      shade_alpha = Math.max(0, shade_alpha - SHADE_DELTA);
+    } else {
+      unshade_delay++;
+    }
+    if (shade_alpha > 0) {
+      window.requestAnimationFrame(() => drawApp());
+    }
+  } else {
+    shade_code = (mobile_code === "") ? hover_code : mobile_code;
+    shade_alpha = Math.min(MAX_SHADE, shade_alpha + SHADE_DELTA);
+    if (shade_alpha < MAX_SHADE) {
+      window.requestAnimationFrame(() => drawApp());
+    } else {
+      unshade_delay = 0;
+    }
+  }
+  ctx.fillStyle = `rgba(0, 0, 0, ${shade_alpha})`;
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(code, BORDER_COLOURS["high"][0]);
-  const hover_course = all_courses[code];
+  drawButton(shade_code, BORDER_COLOURS["high"][0]);
+  const hover_course = all_courses[shade_code];
   for (const param of [["preqs", "preb"],
       ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
     for (const code of hover_course[param[0]]) {
