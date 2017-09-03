@@ -35,7 +35,7 @@ const PADDING = 50;                 // canvas padding
 const TOPBARHEIGHT = 440;           // topbar height
 const ABTNWIDTH = 120;              // approximate button width
 let BTNWIDTH;                       // automatically calculated button width
-const BTNHEIGHT = 40                // button height
+const BTNHEIGHT = 40;               // button height
 const BTNMARGIN = 10;               // margin between buttons
 const BLACKLINE = 1;                // normal button border width
 const HOVERLINE = 5;                // highlighted button border width
@@ -60,11 +60,11 @@ const BUTTON_COLOURS = {            // button background colours
       + " credit excluded course that you've already taken."],
 };
 const BORDER_COLOURS = {            // button border colours
-  "high": ["black", " is the highlighted course"],
-  "preq": ["deeppink", " is a prerequisite of the highlighted course."],
-  "creq": ["darkorange", " is a corequisite of the highlighted course."],
-  "excl": ["indigo", " is credit excluded with the highlighted course."],
-  "dreq": ["olive", " has the highlighted course as a requisite."],
+  "highs": ["black", " is the highlighted course."],
+  "preqs": ["deeppink", " is a prerequisite of the highlighted course."],
+  "creqs": ["darkorange", " is a corequisite of the highlighted course."],
+  "excls": ["indigo", " is credit excluded with the highlighted course."],
+  "dreqs": ["olive", " has the highlighted course as a requisite."],
 };
 
 
@@ -421,6 +421,7 @@ function drawButton(code, border_colour) {
 //   and highlight the courses related to that code too
 
 function drawApp() {
+  document.getElementById("canvas").focus();
   ctx.lineWidth = BLACKLINE;
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
@@ -463,12 +464,11 @@ function drawApp() {
   }
   ctx.fillStyle = `rgba(0, 0, 0, ${shade_alpha})`;
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(shade_code, BORDER_COLOURS["high"][0]);
+  drawButton(shade_code, BORDER_COLOURS["highs"][0]);
   const hover_course = all_courses[shade_code];
-  for (const param of [["preqs", "preb"],
-      ["creqs", "creb"], ["excls", "excb"], ["dreqs", "dreq"]]) {
-    for (const code of hover_course[param[0]]) {
-      drawButton(code, BORDER_COLOURS[param[1]][0]);
+  for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
+    for (const code of hover_course[param]) {
+      drawButton(code, BORDER_COLOURS[param][0]);
     }
   }
   drawTopbar();
@@ -483,7 +483,7 @@ function updateCodes(reqlist) {
   document.getElementById("course").value = "";
   if (all_courses.hasOwnProperty(code)) {
     document.getElementById("courses").value +=
-      ", " + all_courses[code][reqlist].join(", ");
+      ", " + code + ", " + all_courses[code][reqlist].join(", ");
   }
 }
 
@@ -574,20 +574,49 @@ function parseCodes() {
     depth += 1;
     for (const code in unordered) {
       if (unordered.hasOwnProperty(code)) {
-        let hasreq = false;       // has a prereq in the current tree
-        let badreq = false;       // has a prereq with zero or current depth
+        let haspreq = false;      // has a prereq in the current tree
+        let badpreq = false;      // has a prereq with zero or current depth
+        let hascreq = false;      // has a coreq in the current tree
+        let badcreq = false;      // has a coreq with zero or current depth
         for (const preq of all_courses[code].preqs) {
           if (button_dict.hasOwnProperty(preq)) {
-            hasreq = true;
+            haspreq = true;
             if (button_dict[preq].depth === 0
                 || button_dict[preq].depth === depth) {
-              badreq = true;
+              badpreq = true;
             }
           }
         }
-        if (!badreq || (depth === 1 && !hasreq)) {
+        for (const creq of all_courses[code].creqs) {
+          if (button_dict.hasOwnProperty(creq)) {
+            hascreq = true;
+            if (button_dict[creq].depth === 0
+                || button_dict[creq].depth === depth + 0.5) {
+              badcreq = true;
+            }
+          }
+        }
+        if ((depth === 1 && !haspreq && !hascreq)
+            || (!badpreq && !badcreq)) {
           button_dict[code].depth = depth;
           delete unordered[code];
+        } else if (!badpreq) {
+          button_dict[code].depth = depth + 0.5;
+        }
+      }
+    }
+    for (const code in unordered) {
+      let badcreq = false;        // has a coreq with zero depth
+      if (unordered.hasOwnProperty(code)
+          && button_dict[code].depth === depth + 0.5) {
+        for (const creq of all_courses[code].creqs) {
+          if (button_dict.hasOwnProperty(creq)
+              && button_dict[creq].depth === 0) {
+            badcreq = true;
+          }
+        }
+        if (!badcreq) {
+          button_dict[code].depth = depth;
         }
       }
     }
