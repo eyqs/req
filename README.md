@@ -1,6 +1,7 @@
 # req
 
 req is a simple program that shows you trees of course prereqs and coreqs.
+Check it out live at <https://eyqs.ca/tools/req/>, or install it locally.
 
 ## Basics
 
@@ -12,7 +13,7 @@ Use Python 3.5, or probably any Python 3. Does not work on Python 2.
 
     $ git clone https://github.com/eyqs/req.git/
     $ cd req/
-    $ python req.py
+    $ python3 req.py
     $ xdg-open req.html
 
 ## Usage
@@ -28,19 +29,19 @@ a course which is a prereq of its own coreq, and all sorts of other nonsense.
 ### Regeneration
 
     $ # regenerates huge course req JavaScript object from the given folder
-    $ python req.py folder_name         # default: data/ubc/2017
+    $ python3 req.py folder_name        # default: data/ubc/2017
     $
     $ # regenerates course req lists from the current UBC Calendar
-    $ python ubcalend.py folder_name    # default: 2017
+    $ python3 ubcalend.py folder_name   # default: 2017
     $
     $ # regenerates course code lists from the given folder of req lists
-    $ python codetabs.py folder_name    # default: 2017
+    $ python3 codetabs.py folder_name   # default: 2017
     $
     $ # regenerates excls.txt from the current UBC Credit Exclusion List
-    $ python excluded.py folder_name    # default: 2017
+    $ python3 excluded.py folder_name   # default: 2017
     $
     $ # regenerates terms.txt from the current UBC Course Schedule, very slow
-    $ python ubcsched.py foo bar baz    # default: 2017S 2017W
+    $ python3 ubcsched.py foo bar baz   # default: 2017S 2017W
 
 ### Configuration
 

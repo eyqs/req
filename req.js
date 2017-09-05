@@ -1,4 +1,4 @@
-/* req v2.0
+/* req v2.1
  * Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
@@ -16,7 +16,7 @@
  */
 
 const CODEFOLDER_URL =              // URL to the folder with subject codes
-    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/"
+    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/";
 let c;                              // c = document.getElementById("canvas")
 let ctx;                            // ctx = c.getContext("2d")
 let pos = {x: 0, y: 0};             // current position of mouse
@@ -25,24 +25,28 @@ let hover_code = "";                // course code that mouse is hovering over
                                     //   "" if mouse is not hovering over any
 let mobile_code = "";               // code that mobile user last clicked
                                     //   "" if last click was not on a button
-let closed_mobile_hoverbox = false; // true if mobile user closes hoverbox
+let last_code = "";                 // last value of hover_code or mobile_code
+let shade_alpha = 0;                // current alpha of shaded background
+let unshade_delay = 0;              // current ticks waited for unshading
 
 let WIDTH;                          // canvas width, set by its width in CSS
 const HEIGHT = 1920;                // canvas height
 const PADDING = 50;                 // canvas padding
-const ABTNWIDTH = 100;              // approximate button width
+const TOPBARHEIGHT = 440;           // topbar height
+const ABTNWIDTH = 120;              // approximate button width
 let BTNWIDTH;                       // automatically calculated button width
-const BTNHEIGHT = 30                // button height
+const BTNHEIGHT = 40;               // button height
 const BTNMARGIN = 10;               // margin between buttons
 const BLACKLINE = 1;                // normal button border width
 const HOVERLINE = 5;                // highlighted button border width
-const HOVERWIDTH = 400;             // hoverbox width
-const HOVERHEIGHT = 500;            // maximum hoverbox height
-const HOVERPADDING = 5;             // hoverbox padding
+const TOPBARPADDING = 60;           // padding between whole canvas and topbar
 const DEPTHSPACING = 20;            // spacing between different depths
 const TITLESPACING = 40;            // spacing from top to title
 
-const HOVERBOX_COLOUR = "honeydew"; // hoverbox background colour
+const SHADE_DELTA = 0.001;          // amount to change shade_alpha per tick
+const UNSHADE_DELAY = 100;          // ticks to wait before unshading
+const MAX_SHADE = 0.5;              // maximum value of shade_alpha
+const TOPBAR_COLOUR = "honeydew";   // topbar background colour
 const BUTTON_COLOURS = {            // button background colours
   "done": ["greenyellow", " is already taken."],
   "none": ["whitesmoke", " can be taken."],
@@ -80,19 +84,13 @@ class Button {
 // update mouse position relative to the canvas in the global variable pos
 
 function updateMousePosition(e) {
-  let x, y;
-  if (e.pageX !== undefined && e.pageY !== undefined) {
-    x = e.pageX;
-    y = e.pageY;
-  } else {
-    x = e.clientX + document.body.scrollLeft +
-      document.documentElement.scrollLeft;
-    y = e.clientY + document.body.scrollTop +
-      document.documentElement.scrollTop;
-  }
-  x -= c.offsetLeft;
-  y -= c.offsetTop;
-  pos = {x, y};
+  const rect = c.getBoundingClientRect();
+  const scaleX = c.width / rect.width;
+  const scaleY = c.height / rect.height;
+  pos = {
+    x: (e.clientX - rect.left) * scaleX,
+    y: (e.clientY - rect.top) * scaleY,
+  };
 }
 
 
@@ -151,9 +149,9 @@ function dotText(lines, index, max_width) {
 }
 
 
-// given a course code, return an array of paragraphs of text for its hoverbox
+// given a course code, return an array of paragraphs of text for its topbar
 
-function writeHoverbox(code) {
+function writeTopbar(code) {
   const paragraphs = [];
   const course = all_courses[code];
   paragraphs.push(course.code);
@@ -177,44 +175,52 @@ function writeHoverbox(code) {
 }
 
 
-// given a course code, draw its hoverbox at the current mouse position
+// draw the topbar and fill it with information about the current course
 
-function drawHoverbox(code) {
-  const padded_width = HOVERWIDTH - 2 * HOVERPADDING;
+function drawTopbar() {
+  const code = (mobile_code === "") ? hover_code : mobile_code;
+  const padded_width = WIDTH - 2 * TOPBARPADDING;
   ctx.textAlign = "start";
   ctx.textBaseline = "top";
-  ctx.font = "12px sans-serif";
+  ctx.font = "20px sans-serif";
+  let lines;
+  if (code === "") {
+    lines = ["Welcome to req v2.1.",
+        "Please hover over a code to see its course information."];
+  } else {
+    lines = wrapText(writeTopbar(code), padded_width);
+  }
 
-  // calculate actual height of hoverbox and cut text over the maximum height
-  let lines = wrapText(writeHoverbox(code), padded_width);
-  let padded_height = 2 * HOVERPADDING;
+  // calculate actual height of topbar and cut text over the maximum height
+  let padded_height = PADDING;
   for (let i = 0; i < lines.length; i++) {
     if (lines[i]) {
       padded_height += 6;
     }
     padded_height += 6;
-    if (padded_height > HOVERHEIGHT) {
+    if (padded_height > TOPBARHEIGHT) {
       lines = dotText(lines, i, padded_width);
       break;
     }
   }
 
-  // calculate direction to draw hoverbox, then draw its box
-  const x = pos.x - HOVERWIDTH < PADDING ? pos.x : pos.x - HOVERWIDTH;
+  // draw the topbar box
   ctx.lineWidth = BLACKLINE;
-  ctx.fillStyle = HOVERBOX_COLOUR;
-  ctx.fillRect(x, pos.y, HOVERWIDTH, padded_height);
+  ctx.fillStyle = TOPBAR_COLOUR;
+  ctx.fillRect(PADDING, PADDING + TITLESPACING,
+      WIDTH - 2 * PADDING, TOPBARHEIGHT);
   ctx.fillStyle = "black";
-  ctx.strokeRect(x, pos.y, HOVERWIDTH, padded_height);
+  ctx.strokeRect(PADDING, PADDING + TITLESPACING,
+      WIDTH - 2 * PADDING, TOPBARHEIGHT);
 
-  // draw the hoverbox text
-  let y = pos.y;
+  // draw the topbar text
+  let y = 0;
   for (const line of lines) {
     if (line) {
-      ctx.fillText(line, x + HOVERPADDING, y + HOVERPADDING);
-      y += 6;
+      ctx.fillText(line, TOPBARPADDING, y + TOPBARPADDING + TITLESPACING);
+      y += 10;
     }
-    y += 6;
+    y += 10;
   }
 }
 
@@ -228,35 +234,27 @@ function onClick(e) {
   // if mouse is hovering over a course, then toggle it
   if (hover_code) {
     toggleDone(hover_code);
-    if (e.shiftKey) {
-      drawApp();
-      drawHoverbox(hover_code);
-    } else {
-      shadeApp(hover_code);
-    }
+    drawApp();
   }
 
   // if not, yet mouse is clicking on a course, then user must be on mobile
   else if (code) {
-    if (code == mobile_code) {
-      if (closed_mobile_hoverbox) {
-        toggleDone(hover_code);
-        shadeApp(hover_code);
-      } else {
-        closed_mobile_hoverbox = true;
-        shadeApp(mobile_code);
-      }
+    if (code == mobile_chde) {
+      toggleDone(hover_code);
+      drawApp();
     } else {
       mobile_code = code;
-      closed_mobile_hoverbox = false;
-      shadeApp(mobile_code);
-      drawHoverbox(mobile_code);
+      drawApp();
     }
   }
 
   // if mouse is neither hovering nor clicking on a course, do not shade tree
   else {
+    if (mobile_code !== "") {
+      last_code = mobile_code;
+    }
     mobile_code = "";
+    shade_alpha = 0;
     drawApp();
   }
 }
@@ -269,28 +267,13 @@ function onMouseMove(e) {
   const code = getHoverCode(pos);
   if (code) {
     hover_code = code;
-    shadeApp(hover_code);
-    if (e.shiftKey) {
-      drawHoverbox(hover_code);
-    }
+    drawApp();
   } else {
+    if (hover_code !== "") {
+      last_code = hover_code;
+    }
     hover_code = "";
     drawApp();
-  }
-}
-
-
-// toggle hoverbox when user presses shift
-
-function onKeyDown(e) {
-  if (e.shiftKey && hover_code) {
-    drawHoverbox(hover_code);
-  }
-}
-
-function onKeyUp(e) {
-  if (hover_code) {
-    shadeApp(hover_code);
   }
 }
 
@@ -416,7 +399,7 @@ function updateCourse(code) {
 function drawButton(code, border_colour) {
   const button = button_dict[code];
   ctx.textBaseline = "middle";
-  ctx.font = "14px sans-serif";
+  ctx.font = "20px sans-serif";
   ctx.fillStyle = BUTTON_COLOURS[button.needs][0];
   ctx.fillRect(button.x, button.y, BTNWIDTH, BTNHEIGHT);
   if (border_colour) {
@@ -434,6 +417,8 @@ function drawButton(code, border_colour) {
 
 
 // draw the entire application on the canvas
+// if hover_code or mobile_code are not blank, then shade it
+//   and highlight the courses related to that code too
 
 function drawApp() {
   document.getElementById("canvas").focus();
@@ -442,10 +427,10 @@ function drawApp() {
   ctx.strokeRect(0, 0, WIDTH, HEIGHT);
   ctx.textAlign = "center";
   ctx.textBaseline = "top";
-  ctx.font = "bold 18px sans-serif";
-  ctx.fillText("req v2.0", WIDTH / 2, PADDING);
+  ctx.font = "bold 24px sans-serif";
+  ctx.fillText("req v2.1", WIDTH / 2, PADDING);
   ctx.textBaseline = "bottom";
-  ctx.font = "8px sans-serif";
+  ctx.font = "12px sans-serif";
   ctx.fillText("Copyright \u00a9 2016, 2017 Eugene Y. Q. Shen.",
       WIDTH / 2, HEIGHT - PADDING);
   for (const code in button_dict) {
@@ -453,25 +438,40 @@ function drawApp() {
       drawButton(code);
     }
   }
-}
-
-
-// draw the entire application on the canvas, shade it,
-// and highlight the courses related to the given course
-
-function shadeApp(code) {
-  drawApp();
-  ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
-  ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  drawButton(code, BORDER_COLOURS["highs"][0]);
-  const hover_course = all_courses[code];
-  for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
-    for (const code of hover_course[param]) {
-      if (button_dict.hasOwnProperty(code)) {
-        drawButton(code, BORDER_COLOURS[param][0]);
-      }
+  let shade_code;
+  if (hover_code === "" && mobile_code === "") {
+    shade_code = last_code;
+    if (shade_code === "") {
+      drawTopbar();
+      return;
+    }
+    if (unshade_delay > UNSHADE_DELAY) {
+      shade_alpha = Math.max(0, shade_alpha - SHADE_DELTA);
+    } else {
+      unshade_delay++;
+    }
+    if (shade_alpha > 0) {
+      window.requestAnimationFrame(() => drawApp());
+    }
+  } else {
+    shade_code = (mobile_code === "") ? hover_code : mobile_code;
+    shade_alpha = Math.min(MAX_SHADE, shade_alpha + SHADE_DELTA);
+    if (shade_alpha < MAX_SHADE) {
+      window.requestAnimationFrame(() => drawApp());
+    } else {
+      unshade_delay = 0;
     }
   }
+  ctx.fillStyle = `rgba(0, 0, 0, ${shade_alpha})`;
+  ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  drawButton(shade_code, BORDER_COLOURS["highs"][0]);
+  const hover_course = all_courses[shade_code];
+  for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
+    for (const code of hover_course[param]) {
+      drawButton(code, BORDER_COLOURS[param][0]);
+    }
+  }
+  drawTopbar();
 }
 
 
@@ -510,11 +510,14 @@ function parseCodes() {
   /* Remove whitespace, add space before numbers, delete trailing letters,
    * convert to uppercase, and filter out blanks and unknown codes.
    */
-  const code_list = document.getElementById("courses")
-      .value.split(",").map((code) => code.replace(/\s/g, "")
-      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase());
+  const code_list = document.getElementById("courses").value.split(";").map(
+      (list) => list.split(",").map(
+      (code) => code.replace(/\s/g, "")
+          .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase()));
+  const new_list = code_list[0];
+  const done_list = code_list[1];
   const code_dict = {};
-  for (const code of code_list) {
+  for (const code of new_list) {
     if (code.length > 1 && all_courses.hasOwnProperty(code)) {
       code_dict[code] = true;
     }
@@ -548,6 +551,15 @@ function parseCodes() {
     new_button_dict[code] = new Button();
     if (button_dict[code] && button_dict[code].needs === "done") {
       new_button_dict[code].needs = "done";
+    }
+  }
+  if (done_list) {
+    for (const code of done_list) {
+      if (all_courses.hasOwnProperty(code)) {
+        unordered[code] = true;
+        new_button_dict[code] = new Button();
+        new_button_dict[code].needs = "done";
+      }
     }
   }
   button_dict = new_button_dict;
@@ -612,7 +624,7 @@ function parseCodes() {
 
   // find correct coordinates to place each button
   let x = PADDING;
-  let y = PADDING + TITLESPACING;
+  let y = PADDING + DEPTHSPACING + TITLESPACING + TOPBARHEIGHT;
   for (let d = 0; d <= depth; d++) {
     for (const code in button_dict) {
       if (button_dict.hasOwnProperty(code)) {
@@ -679,8 +691,6 @@ function startApp() {
     c.height = HEIGHT;
     c.addEventListener("click", onClick, false);
     c.addEventListener("mousemove", onMouseMove, false);
-    c.addEventListener("keydown", onKeyDown, false);
-    c.addEventListener("keyup", onKeyUp, false);
 
     // update all courses in req.txt with preqs, creqs, and dreqs
     for (const code in all_courses) {
