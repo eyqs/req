@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>req</title>
   <link href="req.css" rel="stylesheet">
-  <script src="req.txt"></script>
-  <script src="req.js"></script>
 </head>
 <body>
 <div id="wrapper">
@@ -36,14 +34,11 @@
   </div>
   <form id="codes">
     <label for="courses">Enter multiple course codes to display, separated by commas. Enter already-taken course codes, separated by commas, after a semicolon.</label>
-    <textarea id="courses" rows="10" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"</textarea>
+    <textarea id="courses" rows="10" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
     <input type="submit" value="Launch">
   </form>
-  <p id="nocanvas">
-  </p>
 </div>
-<div id="canvas-wrapper">
-  <canvas id="canvas" tabindex="1"></canvas>
-</div>
+<div id="app"></div>
 </body>
+<script src="./dist/req.js"></script>
 </html>

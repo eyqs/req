@@ -19,7 +19,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import os
 import sys
 YEAR    = '2017'
-DUMP    = 'req.txt'
+DUMP    = 'src/data.js'
 UBCPATH = 'data/ubc/'
 INPATH  = '/courses/'
 if len(sys.argv) == 1:
