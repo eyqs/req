@@ -398,6 +398,8 @@ function updateCourse(code) {
 
 function drawButton(code, border_colour) {
   const button = button_dict[code];
+  if (!button)
+    return;
   ctx.textBaseline = "middle";
   ctx.font = "20px sans-serif";
   ctx.fillStyle = BUTTON_COLOURS[button.needs][0];
