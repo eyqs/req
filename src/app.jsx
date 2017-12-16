@@ -2,19 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
 import Course from "./course.jsx";
-let button_dict = {};               // button_dict["CPSC 110"] = Button()
+let button_dict = {};               // button_dict["CPSC 110"] = new Course()
 // all_courses is a global variable in "../req.txt", included in req.html
-// structure for courses is in req.txt
-
-
-// structure for course buttons
-
-class Button {
-  constructor() {
-    this.depth = 0;                 // depth down the tree
-    this.needs = "none";            // corresponds to button colours
-  }
-}
 
 
 // given a list of lists, return a flat list of all valid course codes in it
@@ -39,8 +28,11 @@ function updateCodes(reqlist) {
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
   document.getElementById("course").value = "";
   if (all_courses.hasOwnProperty(code)) {
+    const value = document.getElementById("courses").value.trim();
+    if (value.length > 0 && value[value.length - 1] != ",")
+      document.getElementById("courses").value += ", ";
     document.getElementById("courses").value +=
-      ", " + code + ", " + all_courses[code][reqlist].join(", ");
+        code + ", " + all_courses[code][reqlist].join(", ") + ", ";
   }
 }
 
@@ -54,8 +46,11 @@ function addSubjectCodes() {
   fetch(constants.codefolder_url + dept + ".txt")
     .then((response) => response.text())
     .then(function (subject_codes) {
+      const value = document.getElementById("courses").value.trim();
+      if (value.length > 0 && value[value.length - 1] != ",")
+        document.getElementById("courses").value += ", ";
       document.getElementById("courses").value +=
-        ", " + subject_codes.split("\n").join(" ");
+          subject_codes.split("\n").join(" ").trim() + " ";
     });
 }
 
@@ -105,7 +100,7 @@ function parseCodes() {
   const new_button_dict = {};
   for (const code in code_dict) {
     unordered[code] = true;
-    new_button_dict[code] = new Button();
+    new_button_dict[code] = new Course();
     if (button_dict[code] && button_dict[code].needs === "done") {
       new_button_dict[code].needs = "done";
     }
@@ -114,7 +109,7 @@ function parseCodes() {
     for (const code of done_list) {
       if (all_courses.hasOwnProperty(code)) {
         unordered[code] = true;
-        new_button_dict[code] = new Button();
+        new_button_dict[code] = new Course();
         new_button_dict[code].needs = "done";
       }
     }

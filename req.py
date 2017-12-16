@@ -19,7 +19,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import os
 import sys
 YEAR    = '2017'
-DUMP    = 'src/data.js'
+DUMP    = 'req.txt'
 UBCPATH = 'data/ubc/'
 INPATH  = '/courses/'
 if len(sys.argv) == 1:
@@ -124,20 +124,15 @@ def get_reqs(value):
 
 
 DUMPHEADER = '\n'.join([
-'/* Structure for courses */',
-'class Course {',
-'  constructor(code, name, desc, prer, crer, preq, creq, excl, term, cred) {',
-'    Object.assign(this, {code, name, desc, prer, crer,',
-'        preq, creq, excl, term, cred});',
-'    this.preqs = [];',
-'    this.creqs = [];',
-'    this.excls = [];',
-'    this.dreqs = [];',
-'    this.ddict = {};',
-'  }',
-'}',
+'function make_course(',
+'    code, name, desc, prer, crer, preq, creq, excl, term, cred) {',
+'  const course = {preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}};',
+'  Object.assign(course, {code, name, desc, prer, crer,',
+'      preq, creq, excl, term, cred});',
+'  return course;',
+'};',
 '',
-'var all_courses = {',
+'const all_courses = {',
 ''])
 
 if __name__ == '__main__':
@@ -168,7 +163,7 @@ if __name__ == '__main__':
             # Ignore courses with no name
             if not params['name']:
                 continue
-            f.write(repr(params['code']) + ': new Course(')
+            f.write(repr(params['code']) + ': make_course(')
             f.write(', '.join([repr(params['code']), repr(params['name']),
                                repr(params['desc']), repr(params['prer']),
                                repr(params['crer']), repr(params['preq']),

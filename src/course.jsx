@@ -7,7 +7,11 @@ export default class Course extends React.Component {
     this.handleClick = this.handleClick.bind(this);
     this.handleMouseOver = this.handleMouseOver.bind(this);
     this.handleMouseOut = this.handleMouseOut.bind(this);
-    this.state = {selected: false, needs: "none"};
+    this.state = {
+      selected: false,              // whether the user is hovering over it
+      needs: "none",                // course status and button colour
+      depth: 0,                     // depth down the tree
+    };
   };
 
   handleClick() {
