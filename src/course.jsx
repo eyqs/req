@@ -10,7 +10,6 @@ export default class Course extends React.Component {
     this.state = {
       selected: false,              // whether the user is hovering over it
       needs: "none",                // course status and button colour
-      depth: 0,                     // depth down the tree
     };
   };
 
