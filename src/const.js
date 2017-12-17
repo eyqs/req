@@ -1,6 +1,28 @@
 export const codefolder_url =
     "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/";
 
+export const app_style = {
+  paddingTop: "2rem",
+  margin: "0 auto",
+  width: "70vw",
+};
+
+export const course_style = {
+  textAlign: "center",
+  width: "100%",
+  height: "2rem",
+  lineHeight: "2rem",
+  border: "1px solid black",
+  cursor: "default",
+};
+
+export const course_row_style = {
+  display: "grid",
+  gridTemplateColumns: "repeat(auto-fill, 6rem)",
+  gridGap: "0.7rem",
+  paddingTop: "1.5rem",
+};
+
 export const button_colours = {
   "done": "greenyellow",
   "none": "whitesmoke",

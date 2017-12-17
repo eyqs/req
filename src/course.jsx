@@ -33,6 +33,7 @@ export default class Course extends React.Component {
     const button_style = {
       backgroundColor: constants.button_colours[this.state.needs]
     };
+    Object.assign(button_style, constants.course_style);
     return (
       <div style={button_style}
            onClick={this.handleClick}

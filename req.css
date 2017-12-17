@@ -17,20 +17,7 @@ h1, h2 {
   right: 0;
 }
 
-#nocanvas {
-  color: red;
-}
-
 textarea {
-  width: 100%;
-}
-
-#canvas-wrapper {
-  margin: 0 auto;
-  width: 70vw;
-}
-
-canvas {
   width: 100%;
 }
 

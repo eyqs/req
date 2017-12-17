@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
 import Course from "./course.jsx";
+import CourseRow from "./course_row.jsx";
 let parseCodes;                     // TODO: hacky way to keep forms dumb
 // all_courses is a global variable in "../req.txt", included in req.html
 
@@ -250,11 +251,22 @@ class App extends React.Component {
 
 
   render() {
+    const button_lists = {};
+    for (const code in this.state.button_dict) {
+      if (this.state.button_dict.hasOwnProperty(code)) {
+        const depth = this.state.button_dict[code].depth;
+        if (!button_lists[depth])
+          button_lists[depth] = [];
+        button_lists[depth].push({
+          code: code,
+          needs: this.state.button_dict[code].needs,
+        });
+      }
+    }
     return (
-      <div>
-        {Object.entries(this.state.button_dict).map(([code, course]) => {
-          return <Course key={code} code={code}
-                         depth={course.depth} needs={course.needs} />
+      <div style={constants.app_style}>
+        {Object.entries(button_lists).map(([depth, button_list]) => {
+          return <CourseRow key={depth} button_list={button_list} />
         })}
       </div>
     );
