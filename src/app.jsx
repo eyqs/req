@@ -1,10 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
-import Course from "./course.jsx";
-import CourseRow from "./course_row.jsx";
+import ButtonRow from "./button_row.jsx";
+import course_data from '../req.json';      // course data constants
 let parseCodes;                     // TODO: hacky way to keep forms dumb
-// all_courses is a global variable in "../req.txt", included in req.html
+
+
+// return a new course object using input data from course_data
+
+function makeCourse(data) {
+  return Object.assign({needs: "none", depth: 0,
+      preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}}, data);
+};
 
 
 // given a list of lists, return a flat list of all valid course codes in it
@@ -14,7 +21,7 @@ function flatten(listlist) {
   for (const list of listlist) {
     if (list instanceof Array) {
       flat_list.push(...flatten(list));
-    } else if (all_courses.hasOwnProperty(list)) {
+    } else if (course_data.hasOwnProperty(list)) {
       flat_list.push(list);
     }
   }
@@ -28,12 +35,13 @@ function updateCodes(reqlist) {
   const code = document.getElementById("course").value.replace(/\s/g, "")
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
   document.getElementById("course").value = "";
-  if (all_courses.hasOwnProperty(code)) {
+  if (course_data.hasOwnProperty(code)) {
     const value = document.getElementById("courses").value.trim();
-    if (value.length > 0 && value[value.length - 1] != ",")
+    if (value.length > 0 && value[value.length - 1] != ",") {
       document.getElementById("courses").value += ", ";
+    }
     document.getElementById("courses").value +=
-        code + ", " + all_courses[code][reqlist].join(", ") + ", ";
+        code + ", " + course_data[code][reqlist].join(", ") + ", ";
   }
 }
 
@@ -48,8 +56,9 @@ function addSubjectCodes() {
     .then((response) => response.text())
     .then(function (subject_codes) {
       const value = document.getElementById("courses").value.trim();
-      if (value.length > 0 && value[value.length - 1] != ",")
+      if (value.length > 0 && value[value.length - 1] != ",") {
         document.getElementById("courses").value += ", ";
+      }
       document.getElementById("courses").value +=
           subject_codes.split("\n").join(" ").trim() + " ";
     });
@@ -63,7 +72,7 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {button_dict: {}}; // button_dict["CPSC 110"] = new Course()
+    this.state = {course_dict: {}};
     parseCodes = this.parseCodes.bind(this);
 
     // add event listeners on the input forms
@@ -102,26 +111,32 @@ class App extends React.Component {
     }
     document.getElementById("colours").innerHTML = legend.join("\n");
 
-    // update all courses in req.txt with preqs, creqs, and dreqs
-    for (const code in all_courses) {
-      if (all_courses.hasOwnProperty(code)) {
-        const course = all_courses[code];
+    // make all course data into course objects
+    for (const code in course_data) {
+      if (course_data.hasOwnProperty(code)) {
+        course_data[code] = makeCourse(course_data[code]);
+      }
+    }
+
+    // update course_data with preqs, creqs, and dreqs
+    for (const code in course_data) {
+      if (course_data.hasOwnProperty(code)) {
         for (const param of [["excl", "excls", false],
             ["preq", "preqs", true], ["creq", "creqs", true]]) {
-          course[param[1]] = flatten(course[param[0]])
+          course_data[code][param[1]] = flatten(course_data[code][param[0]])
           if (param[2]) {
-            for (const dependency of course[param[1]]) {
-              if (all_courses.hasOwnProperty(dependency)) {
-                all_courses[dependency].ddict[code] = true;
+            for (const dependency of course_data[code][param[1]]) {
+              if (course_data.hasOwnProperty(dependency)) {
+                course_data[dependency].ddict[code] = true;
               }
             }
           }
         }
       }
     }
-    for (const code in all_courses) {
-      if (all_courses.hasOwnProperty(code)) {
-        all_courses[code].dreqs = Object.keys(all_courses[code].ddict);
+    for (const code in course_data) {
+      if (course_data.hasOwnProperty(code)) {
+        course_data[code].dreqs = Object.keys(course_data[code].ddict);
       }
     }
   };
@@ -142,7 +157,7 @@ class App extends React.Component {
     const done_list = code_list[1];
     const code_dict = {};
     for (const code of new_list) {
-      if (code.length > 1 && all_courses.hasOwnProperty(code)) {
+      if (code.length > 1 && course_data.hasOwnProperty(code)) {
         code_dict[code] = true;
       }
     }
@@ -156,8 +171,8 @@ class App extends React.Component {
           if (!checked_dict[code]) {
             checked_dict[code] = true;
             for (const reqlist of reqlists) {
-              for (const req of all_courses[code][reqlist]) {
-                if (all_courses.hasOwnProperty(req)) {
+              for (const req of course_data[code][reqlist]) {
+                if (course_data.hasOwnProperty(req)) {
                   code_dict[req] = true;
                 }
               }
@@ -167,23 +182,23 @@ class App extends React.Component {
       }
     }
 
-    // create new buttons for each course and mark some as done
+    // create new courses for each course and mark some as done
     const unordered = {};
-    const button_dict = {};
+    const course_dict = {};
     for (const code in code_dict) {
       unordered[code] = true;
-      button_dict[code] = new Course();
-      if (this.state.button_dict[code]
-          && this.state.button_dict[code].needs === "done") {
-        button_dict[code].needs = "done";
+      course_dict[code] = makeCourse(course_data[code]);
+      if (this.state.course_dict[code]
+          && this.state.course_dict[code].needs === "done") {
+        course_dict[code].needs = "done";
       }
     }
     if (done_list) {
       for (const code of done_list) {
-        if (all_courses.hasOwnProperty(code)) {
+        if (course_data.hasOwnProperty(code)) {
           unordered[code] = true;
-          button_dict[code] = new Course();
-          button_dict[code].needs = "done";
+          course_dict[code] = makeCourse(course_data[code]);
+          course_dict[code].needs = "done";
         }
       }
     }
@@ -202,71 +217,72 @@ class App extends React.Component {
           let badpreq = false;      // has a prereq with zero or current depth
           let hascreq = false;      // has a coreq in the current tree
           let badcreq = false;      // has a coreq with zero or current depth
-          for (const preq of all_courses[code].preqs) {
-            if (button_dict.hasOwnProperty(preq)) {
+          for (const preq of course_dict[code].preqs) {
+            if (course_dict.hasOwnProperty(preq)) {
               haspreq = true;
-              if (button_dict[preq].depth === 0
-                  || button_dict[preq].depth === depth) {
+              if (course_dict[preq].depth === 0
+                  || course_dict[preq].depth === depth) {
                 badpreq = true;
               }
             }
           }
-          for (const creq of all_courses[code].creqs) {
-            if (button_dict.hasOwnProperty(creq)) {
+          for (const creq of course_dict[code].creqs) {
+            if (course_dict.hasOwnProperty(creq)) {
               hascreq = true;
-              if (button_dict[creq].depth === 0
-                  || button_dict[creq].depth === depth + 0.5) {
+              if (course_dict[creq].depth === 0
+                  || course_dict[creq].depth === depth + 0.5) {
                 badcreq = true;
               }
             }
           }
           if ((depth === 1 && !haspreq && !hascreq)
               || (!badpreq && !badcreq)) {
-            button_dict[code].depth = depth;
+            course_dict[code].depth = depth;
             delete unordered[code];
           } else if (!badpreq) {
-            button_dict[code].depth = depth + 0.5;
+            course_dict[code].depth = depth + 0.5;
           }
         }
       }
       for (const code in unordered) {
         let badcreq = false;        // has a coreq with zero depth
         if (unordered.hasOwnProperty(code)
-            && button_dict[code].depth === depth + 0.5) {
-          for (const creq of all_courses[code].creqs) {
-            if (button_dict.hasOwnProperty(creq)
-                && button_dict[creq].depth === 0) {
+            && course_dict[code].depth === depth + 0.5) {
+          for (const creq of course_dict[code].creqs) {
+            if (course_dict.hasOwnProperty(creq)
+                && course_dict[creq].depth === 0) {
               badcreq = true;
             }
           }
           if (!badcreq) {
-            button_dict[code].depth = depth;
+            course_dict[code].depth = depth;
           }
         }
       }
     }
 
-    this.setState({button_dict});
+    this.setState({course_dict});
   }
 
 
   render() {
     const button_lists = {};
-    for (const code in this.state.button_dict) {
-      if (this.state.button_dict.hasOwnProperty(code)) {
-        const depth = this.state.button_dict[code].depth;
-        if (!button_lists[depth])
+    for (const code in this.state.course_dict) {
+      if (this.state.course_dict.hasOwnProperty(code)) {
+        const depth = this.state.course_dict[code].depth;
+        if (!button_lists[depth]) {
           button_lists[depth] = [];
+        }
         button_lists[depth].push({
           code: code,
-          needs: this.state.button_dict[code].needs,
+          needs: this.state.course_dict[code].needs,
         });
       }
     }
     return (
       <div style={constants.app_style}>
         {Object.entries(button_lists).map(([depth, button_list]) => {
-          return <CourseRow key={depth} button_list={button_list} />
+          return <ButtonRow key={depth} button_list={button_list} />
         })}
       </div>
     );

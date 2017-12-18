@@ -7,7 +7,7 @@ export const app_style = {
   width: "70vw",
 };
 
-export const course_style = {
+export const button_style = {
   textAlign: "center",
   width: "100%",
   height: "2rem",
@@ -16,7 +16,7 @@ export const course_style = {
   cursor: "default",
 };
 
-export const course_row_style = {
+export const button_row_style = {
   display: "grid",
   gridTemplateColumns: "repeat(auto-fill, 6rem)",
   gridGap: "0.7rem",

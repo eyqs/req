@@ -18,8 +18,9 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
 import sys
+from json import dumps
 YEAR    = '2017'
-DUMP    = 'req.txt'
+DUMP    = 'req.json'
 UBCPATH = 'data/ubc/'
 INPATH  = '/courses/'
 if len(sys.argv) == 1:
@@ -123,18 +124,6 @@ def get_reqs(value):
     return reqs
 
 
-DUMPHEADER = '\n'.join([
-'function make_course(',
-'    code, name, desc, prer, crer, preq, creq, excl, term, cred) {',
-'  const course = {preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}};',
-'  Object.assign(course, {code, name, desc, prer, crer,',
-'      preq, creq, excl, term, cred});',
-'  return course;',
-'};',
-'',
-'const all_courses = {',
-''])
-
 if __name__ == '__main__':
     # Parse all files in COURSES as Courses
     courses = {}
@@ -155,19 +144,13 @@ if __name__ == '__main__':
                         else:
                             course.set_params(param, value)
 
-    # Dump courses into file for JavaScript frontend
+    # Dump courses into JSON file for JavaScript frontend
+    json = {}
+    for code, course in courses.items():
+        params = courses[code].get_params()
+        # Ignore courses with no name
+        if not params['name']:
+            continue
+        json[code] = params
     with open(DUMP, 'w', encoding='utf8') as f:
-        f.write(DUMPHEADER);
-        for code, course in courses.items():
-            params = courses[code].get_params()
-            # Ignore courses with no name
-            if not params['name']:
-                continue
-            f.write(repr(params['code']) + ': make_course(')
-            f.write(', '.join([repr(params['code']), repr(params['name']),
-                               repr(params['desc']), repr(params['prer']),
-                               repr(params['crer']), repr(params['preq']),
-                               repr(params['creq']), repr(params['excl']),
-                               repr(params['term']), repr(params['creq'])]))
-            f.write('),\n')
-        f.write('};')
+        f.write(dumps(json))

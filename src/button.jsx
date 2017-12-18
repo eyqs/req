@@ -1,7 +1,7 @@
 import React from "react";
 import * as constants from "./const.js";
 
-export default class Course extends React.Component {
+export default class Button extends React.Component {
   constructor(props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
@@ -33,7 +33,7 @@ export default class Course extends React.Component {
     const button_style = {
       backgroundColor: constants.button_colours[this.state.needs]
     };
-    Object.assign(button_style, constants.course_style);
+    Object.assign(button_style, constants.button_style);
     return (
       <div style={button_style}
            onClick={this.handleClick}
