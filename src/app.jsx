@@ -9,8 +9,8 @@ let parseCodes;                     // TODO: hacky way to keep forms dumb
 // return a new course object using input data from course_data
 
 function makeCourse(data) {
-  return Object.assign({needs: "none", depth: 0,
-      preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}}, data);
+  return {needs: "none", depth: 0,
+      preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}, ...data};
 };
 
 
@@ -72,7 +72,10 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {course_dict: {}};
+    this.state = {
+      course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
+      hover_code: "",       // course that the user is currently hovering over
+    };
     parseCodes = this.parseCodes.bind(this);
 
     // add event listeners on the input forms
@@ -262,8 +265,32 @@ class App extends React.Component {
     }
 
     this.setState({course_dict});
-  }
+  };
 
+
+  // callback to update hover_code if the user hovers over a child button
+  // child should call updateHover(this.props.code) if the user hovers in
+  //   and updateHover("") if the user hovers out, to reset it
+
+  updateHover(hover_code) {
+    this.setState({hover_code});
+  };
+
+
+  // callback to toggle the done status of a course
+
+  updateNeeds(code) {
+    const course_dict = {...this.state.course_dict};
+    if (course_dict[code].needs === "done") {
+      course_dict[code].needs = "none";
+    } else {
+      course_dict[code].needs = "done";
+    }
+    this.setState({course_dict});
+  };
+
+
+  // draw the entire app
 
   render() {
     const button_lists = {};
@@ -276,13 +303,23 @@ class App extends React.Component {
         button_lists[depth].push({
           code: code,
           needs: this.state.course_dict[code].needs,
+          shaded: this.state.hover_code,
+          highlighted: false,
         });
       }
     }
+
     return (
-      <div style={constants.app_style}>
+      <div style={{
+        ...constants.app_style,
+        backgroundColor: this.state.hover_code ?
+            constants.app_shaded_background : constants.app_plain_background,
+      }}>
         {Object.entries(button_lists).map(([depth, button_list]) => {
-          return <ButtonRow key={depth} button_list={button_list} />
+          return <ButtonRow key={depth}
+                            button_list={button_list}
+                            updateNeeds={this.updateNeeds.bind(this)}
+                            updateHover={this.updateHover.bind(this)} />
         })}
       </div>
     );

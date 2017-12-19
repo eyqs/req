@@ -8,6 +8,7 @@ h1, h2 {
 
 #wrapper {
   margin: 0 auto;
+  padding-bottom: 2rem;
   max-width: 36em;
 }
 

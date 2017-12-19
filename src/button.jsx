@@ -1,44 +1,34 @@
 import React from "react";
 import * as constants from "./const.js";
 
+function getBackground(needs, shaded) {
+  return constants.rgba
+      + constants.colours_to_rgba[constants.button_colours[needs]]
+      + (shaded ? constants.button_shaded_alpha : constants.plain_alpha);
+}
+
 export default class Button extends React.Component {
   constructor(props) {
+    // this.props.code: the course code
+    // this.props.needs: the course status and button colour
+    // this.props.shaded: true if the button should be shaded
+    // this.props.highlighted: true if the button should be highlighted
+    // this.props.updateNeeds: callback for when user clicks the button
+    // this.props.updateHover: callback for when user starts/stops hovering
     super(props);
-    this.handleClick = this.handleClick.bind(this);
-    this.handleMouseOver = this.handleMouseOver.bind(this);
-    this.handleMouseOut = this.handleMouseOut.bind(this);
-    this.state = {
-      selected: false,              // whether the user is hovering over it
-      needs: "none",                // course status and button colour
-    };
-  };
-
-  handleClick() {
-    if (this.state.needs === "done") {
-      this.setState({needs: "none"});
-    } else {
-      this.setState({needs: "done"});
-    }
-  };
-
-  handleMouseOver() {
-    this.setState({selected: true});
-  };
-
-  handleMouseOut() {
-    this.setState({selected: false});
   };
 
   render() {
-    const button_style = {
-      backgroundColor: constants.button_colours[this.state.needs]
-    };
-    Object.assign(button_style, constants.button_style);
     return (
-      <div style={button_style}
-           onClick={this.handleClick}
-           onMouseOver={this.handleMouseOver}
-           onMouseOut={this.handleMouseOut}>
+      <div style={{
+        ...constants.button_style,
+        backgroundColor: getBackground(this.props.needs, this.props.shaded),
+        border: this.props.highlighted ?
+            constants.button_highlight_border : constants.button_plain_border,
+      }}
+           onClick={() => this.props.updateNeeds(this.props.code)}
+           onMouseOver={() => this.props.updateHover(this.props.code)}
+           onMouseOut={() => this.props.updateHover("")}>
         {this.props.code}
       </div>
     );
