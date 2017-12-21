@@ -268,6 +268,89 @@ class App extends React.Component {
   };
 
 
+  // recursively check whether the given requirements are satisfied
+
+  doneReqs(reqs) {
+    if (reqs.length === 0) {
+      return "done";
+    }
+
+    // recursively push status of each clause into status array
+    const statuses = [];
+    const operator = reqs[0];
+    for (let i = 1; i < reqs.length; i++) {
+      if (reqs[i] instanceof Array) {
+        statuses.push(this.doneReqs(reqs[i]));
+      }
+      // push status of each course in the current tree
+      else if (this.state.course_dict.hasOwnProperty(reqs[i])) {
+        if (this.state.course_dict[reqs[i]].needs === "done") {
+          statuses.push("done");
+        } else {
+          statuses.push("none");
+        }
+      }
+      // courses outside the current tree are unknown
+      else {
+        statuses.push("outs");
+      }
+    }
+
+    if (operator === "and") {
+      if (statuses.indexOf("none") !== -1) {
+        return "none";                // any course is none -> none
+      } else if (statuses.indexOf("outs") !== -1) {
+        return "outs";                // any course is outs -> outs
+      } else {
+        return "done";                // all courses are done -> done
+      }
+    } else if (operator === "or") {
+      if (statuses.indexOf("done") !== -1) {
+        return "done";                // any course is done -> done
+      } else if (statuses.indexOf("outs") !== -1) {
+        return "outs";                // any course is outs -> outs
+      } else {
+        return "none";                // all courses are none -> none
+      }
+    }
+  }
+
+
+  // update the status of the course with the given code
+
+  updateCourse(code) {
+    // courses can be taken in onClick -> done
+    const button = this.state.course_dict[code];
+    if (button.needs !== "done") {
+      const course = course_data[code];
+      // if any excluded course in the current tree is done -> excl
+      if (course.excl.length > 1 && this.doneReqs(course.excl) === "done") {
+        button.needs = "excl";
+      // if any prerequisite in the current tree is not done -> preq
+      } else if (this.doneReqs(course.preq) === "none") {
+        button.needs = "preq";
+      // if any corequisite in the current tree is not done -> creq
+      } else if (this.doneReqs(course.creq) === "none") {
+        button.needs = "creq";
+      // if all prerequisites are in the current tree and done, and
+      //    all corequisites are in the current tree and done, then check...
+      } else if (this.doneReqs(course.preq) === "done"
+          && this.doneReqs(course.creq) === "done") {
+        // if all excluded courses are in the current tree and not done -> none
+        if (course.excl.length <= 1 || this.doneReqs(course.excl) === "none") {
+          button.needs = "none";
+        // otherwise, some excluded course is not in the current tree -> xout
+        } else {
+          button.needs = "xout";
+        }
+      // otherwise, some requisite course is not in the current tree -> outs
+      } else {
+        button.needs = "outs";
+      }
+    }
+  }
+
+
   // callback to update hover_code if the user hovers over a child button
   // child should call updateHover(this.props.code) if the user hovers in
   //   and updateHover("") if the user hovers out, to reset it
@@ -296,6 +379,7 @@ class App extends React.Component {
     const button_lists = {};
     for (const code in this.state.course_dict) {
       if (this.state.course_dict.hasOwnProperty(code)) {
+        this.updateCourse(code);
         const depth = this.state.course_dict[code].depth;
         if (!button_lists[depth]) {
           button_lists[depth] = [];

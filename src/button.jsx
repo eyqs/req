@@ -4,7 +4,8 @@ import * as constants from "./const.js";
 function getBackground(needs, shaded) {
   return constants.rgba
       + constants.colours_to_rgba[constants.button_colours[needs]]
-      + (shaded ? constants.button_shaded_alpha : constants.plain_alpha);
+      + (shaded ? constants.button_shaded_alpha
+      : constants.button_plain_alpha);
 }
 
 export default class Button extends React.Component {
