@@ -6,17 +6,29 @@ export const button_plain_alpha = ", 1)";
 export const button_shaded_alpha = ", 0.1)";
 
 export const button_plain_border = "inset 0px 0px 0px 1px ";
-export const button_highlight_border = "inset 0px 0px 0px 2px ";
+export const button_highlight_border = "inset 0px 0px 0px 3px ";
 
 export const app_plain_background = "white";
 export const app_shaded_background = "rgba(0, 0, 0, 0.7)";
 
-export const app_style = {
+export const wrapper_style = {
+  display: "flex",
   padding: "1rem",
   margin: "0 auto",
-  width: "70vw",
+  width: "80vw",
   transition: "background-color 1s",
 };
+
+export const app_style = {
+  flex: "1",
+}
+
+export const sidebar_style = {
+  width: "25rem",
+  margin: "0 0 0 0.5rem",
+  padding: "1rem",
+  backgroundColor: "honeydew",
+}
 
 export const button_style = {
   textAlign: "center",
@@ -32,7 +44,7 @@ export const button_row_style = {
   justifyContent: "center",
   gridTemplateColumns: "repeat(auto-fill, 6rem)",
   gridGap: "0.7rem",
-  paddingTop: "1.5rem",
+  padding: "1rem 0",
 };
 
 export const button_colours = {

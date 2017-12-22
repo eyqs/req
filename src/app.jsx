@@ -29,6 +29,40 @@ function flatten(listlist) {
 }
 
 
+// given a course object, return the raw HTML for its sidebar
+
+function getDescription(course) {
+  const paragraphs = [];
+  paragraphs.push(course.code);
+  if (course.name) {
+    paragraphs[0] += ": " + course.name;
+  }
+  if (course.desc) {
+    paragraphs.push(course.desc);
+  }
+  for (const param of [
+      ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
+      ["Exclusions: ", "excls"], ["Required by: ", "dreqs"],
+      ["Terms: ", "terms"], ["Credits: ", "cred"]]) {
+    if (course[param[2]]) {
+      paragraphs.push(param[0] + course[param[2]]);
+    } else if (course[param[1]] && course[param[1]].length > 0) {
+      paragraphs.push(param[0] + course[param[1]].join(", "));
+    }
+  }
+  return (
+      <div style={{
+        paddingTop: Math.max(0, window.pageYOffset
+            - document.getElementById("sidebar").offsetTop),
+      }}>
+        {paragraphs.map((paragraph, index) => {
+          return <p key={index}>{paragraph}</p>
+        })}
+      </div>
+  );
+}
+
+
 // update the course code input box with all excluded or dependent courses
 
 function updateCodes(reqlist) {
@@ -411,16 +445,22 @@ class App extends React.Component {
 
     return (
       <div style={{
-        ...constants.app_style,
+        ...constants.wrapper_style,
         backgroundColor: this.state.hover_code ?
             constants.app_shaded_background : constants.app_plain_background,
       }}>
-        {Object.entries(button_lists).map(([depth, button_list]) => {
-          return <ButtonRow key={depth}
-                            button_list={button_list}
-                            updateNeeds={this.updateNeeds.bind(this)}
-                            updateHover={this.updateHover.bind(this)} />
-        })}
+        <div style={constants.app_style}>
+          {Object.entries(button_lists).map(([depth, button_list]) => {
+            return <ButtonRow key={depth}
+                              button_list={button_list}
+                              updateNeeds={this.updateNeeds.bind(this)}
+                              updateHover={this.updateHover.bind(this)} />
+          })}
+        </div>
+        <div id="sidebar" style={constants.sidebar_style}>
+          {this.state.hover_code ?
+              getDescription(this.state.course_dict[this.state.hover_code]) : ""}
+        </div>
       </div>
     );
   };
