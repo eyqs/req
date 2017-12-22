@@ -1,1 +1,3 @@
-req.txt
+node_modules/
+dist/req.js
+req.json

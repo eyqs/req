@@ -8,6 +8,7 @@ h1, h2 {
 
 #wrapper {
   margin: 0 auto;
+  padding-bottom: 2rem;
   max-width: 36em;
 }
 
@@ -17,20 +18,7 @@ h1, h2 {
   right: 0;
 }
 
-#nocanvas {
-  color: red;
-}
-
 textarea {
-  width: 100%;
-}
-
-#canvas-wrapper {
-  margin: 0 auto;
-  width: 70vw;
-}
-
-canvas {
   width: 100%;
 }
 
