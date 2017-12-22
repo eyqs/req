@@ -384,11 +384,27 @@ class App extends React.Component {
         if (!button_lists[depth]) {
           button_lists[depth] = [];
         }
-        button_lists[depth].push({
-          code: code,
+        let highlighted = false;
+        let shaded = false;
+        let reqs = "highs";
+        if (this.state.hover_code) {
+          shaded = true;
+          if (code == this.state.hover_code) {
+            shaded = false;
+            highlighted = true;
+          } else {
+            for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
+              if (this.state.course_dict[this.state.hover_code]
+                  [param].includes(code)) {
+                shaded = false;
+                highlighted = true;
+                reqs = param;
+              }
+            }
+          }
+        }
+        button_lists[depth].push({code, reqs, shaded, highlighted,
           needs: this.state.course_dict[code].needs,
-          shaded: this.state.hover_code,
-          highlighted: false,
         });
       }
     }

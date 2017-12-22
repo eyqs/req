@@ -8,9 +8,16 @@ function getBackground(needs, shaded) {
       : constants.button_plain_alpha);
 }
 
+function getBorder(reqs, highlighted) {
+  return (highlighted ? constants.button_highlight_border
+      : constants.button_plain_border)
+      + constants.border_colours[reqs];
+}
+
 export default class Button extends React.Component {
   constructor(props) {
     // this.props.code: the course code
+    // this.props.reqs: the relationship to the hover_code course
     // this.props.needs: the course status and button colour
     // this.props.shaded: true if the button should be shaded
     // this.props.highlighted: true if the button should be highlighted
@@ -24,8 +31,7 @@ export default class Button extends React.Component {
       <div style={{
         ...constants.button_style,
         backgroundColor: getBackground(this.props.needs, this.props.shaded),
-        border: this.props.highlighted ?
-            constants.button_highlight_border : constants.button_plain_border,
+        boxShadow: getBorder(this.props.reqs, this.props.highlighted),
       }}
            onClick={() => this.props.updateNeeds(this.props.code)}
            onMouseOver={() => this.props.updateHover(this.props.code)}

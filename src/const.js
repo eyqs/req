@@ -3,10 +3,10 @@ export const codefolder_url =
 
 export const rgba = "rgba(";
 export const button_plain_alpha = ", 1)";
-export const button_shaded_alpha = ", 0.4)";
+export const button_shaded_alpha = ", 0.1)";
 
-export const button_plain_border = "1px solid black";
-export const button_highlight_border = "5px solid black";
+export const button_plain_border = "inset 0px 0px 0px 1px ";
+export const button_highlight_border = "inset 0px 0px 0px 2px ";
 
 export const app_plain_background = "white";
 export const app_shaded_background = "rgba(0, 0, 0, 0.7)";
@@ -15,7 +15,7 @@ export const app_style = {
   padding: "1rem",
   margin: "0 auto",
   width: "70vw",
-  transition: "background-color 3s",
+  transition: "background-color 1s",
 };
 
 export const button_style = {
@@ -24,7 +24,7 @@ export const button_style = {
   height: "2rem",
   lineHeight: "2rem",
   cursor: "default",
-  transition: "background-color 3s",
+  transition: "background-color 1s",
 };
 
 export const button_row_style = {
