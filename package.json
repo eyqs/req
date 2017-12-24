@@ -1,0 +1,35 @@
+{
+  "name": "req",
+  "version": "3.0.0",
+  "description": "ubc prereq tree",
+  "main": "dist/req.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "server": "webpack-dev-server --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyqs/req.git"
+  },
+  "author": "Eugene Y. Q. Shen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eyqs/req/issues/"
+  },
+  "homepage": "https://github.com/eyqs/req/releases/",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "http-server": "^0.9.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  }
+}
