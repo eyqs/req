@@ -8,8 +8,12 @@ h1, h2 {
 
 #wrapper {
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   max-width: 36em;
+}
+
+footer {
+  text-align: center;
 }
 
 #github {
