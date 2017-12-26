@@ -30,6 +30,15 @@ function makeCourse(data) {
 };
 
 
+// convert a size in rem to a size in pixels
+
+
+function remToPixels(rem_string) {
+  return parseInt(rem_string.substring(0, rem_string.length - 3))
+      * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
+
 // given a list of lists, return a flat list of all valid course codes in it
 
 function flatten(listlist) {
@@ -123,6 +132,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      render_toggle: false, // toggle this every time you don't want to render
+      min_height: 0,        // minimum height of the app
       course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
       hover_code: "",       // course that the user is currently hovering over
     };
@@ -314,7 +325,7 @@ class App extends React.Component {
       }
     }
 
-    this.setState({course_dict});
+    this.setState({course_dict, min_height: 0});
   };
 
 
@@ -423,6 +434,27 @@ class App extends React.Component {
   };
 
 
+  // update the maximum height after rendering
+
+  componentDidUpdate() {
+    const min_height = Math.max(this.state.min_height,
+        document.getElementById("app").clientHeight)
+        - 2 * remToPixels(constants.sidebar_padding);
+    const render_toggle = !this.state.render_toggle;
+    this.setState({min_height, render_toggle});
+  }
+
+
+  // do not re-render if render_toggle has been toggled
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state.render_toggle != nextState.render_toggle) {
+      return false;
+    }
+    return true;
+  }
+
+
   // draw the entire app
 
   render() {
@@ -459,9 +491,15 @@ class App extends React.Component {
       }
     }
 
+    // return nothing, to hide the sidebar when app is empty
+    if (Object.keys(button_lists).length === 0) {
+      return null;
+    }
+
     return (
       <div style={{
         ...constants.wrapper_style,
+        minHeight: this.state.min_height,
         backgroundColor: this.state.hover_code ?
             constants.app_shaded_background : constants.app_plain_background,
       }}>
