@@ -93,7 +93,6 @@ function getDescription(course) {
 function updateCodes(reqlist) {
   const code = document.getElementById("course").value.replace(/\s/g, "")
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
-  document.getElementById("course").value = "";
   if (course_data.hasOwnProperty(code)) {
     const value = document.getElementById("courses").value.trim();
     if (value.length > 0 && value[value.length - 1] != ",") {
@@ -101,6 +100,9 @@ function updateCodes(reqlist) {
     }
     document.getElementById("courses").value +=
         code + ", " + course_data[code][reqlist].join(", ") + ", ";
+    document.getElementById("course").value = "";
+  } else {
+    document.getElementById("course").value = "Error: Not Found";
   }
 }
 
@@ -110,16 +112,22 @@ function updateCodes(reqlist) {
 function addSubjectCodes() {
   const dept = document.getElementById("subject").value
       .replace(/\s/g, "").toLowerCase();
-  document.getElementById("subject").value = "";
   fetch(constants.codefolder_url + dept + ".txt")
-    .then((response) => response.text())
-    .then(function (subject_codes) {
+    .then(function (response) {
+      if (!response.ok) {
+        throw Error(response.statusText);
+      }
+      return response.text();
+    }).then(function (subject_codes) {
       const value = document.getElementById("courses").value.trim();
       if (value.length > 0 && value[value.length - 1] != ",") {
         document.getElementById("courses").value += ", ";
       }
       document.getElementById("courses").value +=
           subject_codes.split("\n").join(" ").trim() + " ";
+      document.getElementById("subject").value = "";
+    }).catch(function (error) {
+      document.getElementById("subject").value = error;
     });
 }
 
