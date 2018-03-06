@@ -27,6 +27,8 @@ export const button_highlight_border = "inset 0px 0px 0px 3px ";
 export const app_plain_background = "white";
 export const app_shaded_background = "rgba(0, 0, 0, 0.7)";
 
+export const sidebar_padding = "1rem";
+
 export const wrapper_style = {
   display: "flex",
   padding: "1rem",
@@ -42,7 +44,7 @@ export const app_style = {
 export const sidebar_style = {
   width: "25rem",
   margin: "0 0 0 0.5rem",
-  padding: "1rem",
+  padding: sidebar_padding,
   backgroundColor: "honeydew",
 }
 

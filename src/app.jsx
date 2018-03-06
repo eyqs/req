@@ -30,6 +30,15 @@ function makeCourse(data) {
 };
 
 
+// convert a size in rem to a size in pixels
+
+
+function remToPixels(rem_string) {
+  return parseInt(rem_string.substring(0, rem_string.length - 3))
+      * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
+
 // given a list of lists, return a flat list of all valid course codes in it
 
 function flatten(listlist) {
@@ -84,7 +93,6 @@ function getDescription(course) {
 function updateCodes(reqlist) {
   const code = document.getElementById("course").value.replace(/\s/g, "")
       .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
-  document.getElementById("course").value = "";
   if (course_data.hasOwnProperty(code)) {
     const value = document.getElementById("courses").value.trim();
     if (value.length > 0 && value[value.length - 1] != ",") {
@@ -92,6 +100,9 @@ function updateCodes(reqlist) {
     }
     document.getElementById("courses").value +=
         code + ", " + course_data[code][reqlist].join(", ") + ", ";
+    document.getElementById("course").value = "";
+  } else {
+    document.getElementById("course").value = "Error: Not Found";
   }
 }
 
@@ -101,16 +112,22 @@ function updateCodes(reqlist) {
 function addSubjectCodes() {
   const dept = document.getElementById("subject").value
       .replace(/\s/g, "").toLowerCase();
-  document.getElementById("subject").value = "";
   fetch(constants.codefolder_url + dept + ".txt")
-    .then((response) => response.text())
-    .then(function (subject_codes) {
+    .then(function (response) {
+      if (!response.ok) {
+        throw Error(response.statusText);
+      }
+      return response.text();
+    }).then(function (subject_codes) {
       const value = document.getElementById("courses").value.trim();
       if (value.length > 0 && value[value.length - 1] != ",") {
         document.getElementById("courses").value += ", ";
       }
       document.getElementById("courses").value +=
           subject_codes.split("\n").join(" ").trim() + " ";
+      document.getElementById("subject").value = "";
+    }).catch(function (error) {
+      document.getElementById("subject").value = error;
     });
 }
 
@@ -123,6 +140,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      render_toggle: false, // toggle this every time you don't want to render
+      min_height: 0,        // minimum height of the app
       course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
       hover_code: "",       // course that the user is currently hovering over
     };
@@ -314,7 +333,7 @@ class App extends React.Component {
       }
     }
 
-    this.setState({course_dict});
+    this.setState({course_dict, min_height: 0});
   };
 
 
@@ -423,6 +442,27 @@ class App extends React.Component {
   };
 
 
+  // update the maximum height after rendering
+
+  componentDidUpdate() {
+    const min_height = Math.max(this.state.min_height,
+        document.getElementById("app").clientHeight)
+        - 2 * remToPixels(constants.sidebar_padding);
+    const render_toggle = !this.state.render_toggle;
+    this.setState({min_height, render_toggle});
+  }
+
+
+  // do not re-render if render_toggle has been toggled
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state.render_toggle != nextState.render_toggle) {
+      return false;
+    }
+    return true;
+  }
+
+
   // draw the entire app
 
   render() {
@@ -459,9 +499,15 @@ class App extends React.Component {
       }
     }
 
+    // return nothing, to hide the sidebar when app is empty
+    if (Object.keys(button_lists).length === 0) {
+      return null;
+    }
+
     return (
       <div style={{
         ...constants.wrapper_style,
+        minHeight: this.state.min_height,
         backgroundColor: this.state.hover_code ?
             constants.app_shaded_background : constants.app_plain_background,
       }}>
