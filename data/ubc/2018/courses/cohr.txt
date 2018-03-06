@@ -1,0 +1,159 @@
+
+
+code: COHR 301
+name: Business and Management Values
+cred: 1.5
+desc: Balancing organizational, personal, and community interests in a global economy. In addition to standard management textbooks and readings, the class will draw from the work of poets, fiction writers, essayists, and social critics. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 302
+name: Critical Evaluation of Information, Evidence, and Arguments
+cred: 1.5
+desc: Strategies to critically evaluate information relevant to Human Resource Managers. This course will examine common errors in logic, decision biases, and cause and effect relationships. 
+prer: All of COMM 291, COMM 292 and one of COMM 203, COMM 392.
+preq: (COMM 291 and COMM 292) and (COMM 203 or COMM 392)
+
+code: COHR 303
+name: Strategic Staffing
+cred: 3
+desc: Processes of workforce recruitment, selection, retention, and renewal. Includes human resources planning, development of an effective staffing strategy and employer brand, job analysis and descriptions, cost-benefit analysis of various recruiting methods, analysis and evaluation of selection methods. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 304
+name: Training, Development, and Performance Management
+cred: 3
+desc: Employee training, development and performance management in a variety of employment settings. Application of various training methods to performance enhancement, performance appraisal, feedback, and empirical evaluation of training investments. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 305
+name: Strategic Compensation
+cred: 3
+desc: Employee compensation, including pay systems, benefits systems, and rewards and recognition programs. Examination of the motivational underpinnings of compensation administration and the application of compensation principles to the achievement of employer strategic objectives. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 307
+name: Introduction to Organizational Consulting
+cred: 1.5
+desc: Frameworks from the social sciences useful for understanding organizational processes and how to apply these frameworks to particular organizational consulting challenges. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 308
+name: Labour Relations
+cred: 3
+desc: Integrated coverage of union-management relations including labour law, collective bargaining, and collective agreement administration. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 310
+name: Industrial Relations in an Era of Globalization
+cred: 1.5
+desc: Comprehensive examination of the Canadian industrial relations system, and its legal foundations, in the context of a global economy. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 311
+name: Organizational Analysis
+cred: 1.5
+desc: An analysis of organizational structures and intraorganizational processes; effects of organizational factors on individual behaviour. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 401
+name: Organizational Change
+cred: 1.5
+desc: The tactics and strategies for implementing constructive modifications in organizations. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 402
+name: Leadership
+cred: 1.5
+desc: Explores the characteristics of effective leadership and examines how to be a better leader. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 403
+name: Managing Diversity
+cred: 1.5
+desc: Explores the business and legal cases for diversity in the workplace. Examines how to effectively manage a diverse work force. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 404
+name: Power and Politics
+cred: 1.5
+desc: Examines the sources and consequences of power in the context of different corporate and national cultures. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 405
+name: Managing the Family Business
+cred: 3
+desc: Managing and working in a family business presents unique challenges: family issues can conflict with business issues. This course examines governance structures and tools to manage the interface between the family and the business. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 406
+name: International Human Resource Management
+cred: 1.5
+desc: Application of human resource management practices to multinational enterprises. Comparative analysis of national human resource management systems. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 407
+name: Advanced Organizational Consulting
+cred: 1.5
+desc: Methods and techniques to diagnose and solve a broad range of organizational problems from the perspective of an organizational consultant. 
+prer: All of COMM 292, COHR 307 and one of COMM 203, COMM 392.
+preq: (COMM 292 and COHR 307) and (COMM 203 or COMM 392)
+
+code: COHR 408
+name: Organizational Design
+cred: 1.5
+desc: Techniques and approaches for evaluating and adjusting the structures of organization. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 409
+name: Creativity and Innovation
+cred: 1.5
+desc: Techniques and approaches to managing creativity and innovation in organizations. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 410
+name: Knowledge Management
+cred: 1.5
+desc: Techniques and approaches to managing knowledge and learning in organizations. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 411
+name: Managing and Building Teams
+cred: 1.5
+desc: Techniques and approaches for building effective teams, handling decision-making in teams, creating reward structures, and developing appropriate leadership models. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 412
+name: Advanced Topics in Organizational Behaviour
+cred: 1.5
+desc: Understanding, critiquing, and analyzing behaviour and social processes in organizations. This course focuses on provocative and current topics that could not be covered in depth in the introductory course. 
+prer: COMM 292 and one of COMM 203, COMM 392.
+preq: COMM 292 and (COMM 203 or COMM 392)
+
+code: COHR 433
+name: Employment Law
+cred: 3
+desc: Introduction to legislation and application of legal principles that govern the employment relationship. 
+prer: All of COMM 292, COMM 393 and one of COMM 203, COMM 392.
+preq: (COMM 292 and COMM 393) and (COMM 203 or COMM 392)
+
+code: COHR 486
+name: Special Topics in Organizational Behaviour and Human Resources
+cred: 1.5, 0, 1, 2, 3, 4, 5

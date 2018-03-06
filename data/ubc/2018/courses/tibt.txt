@@ -1,0 +1,13 @@
+
+
+code: TIBT 100
+name: Introduction to Tibetan I
+cred: 3
+desc: Concepts, grammar, syntax of spoken and written Tibetan for beginners. Also covers aspects of Tibetan worldview. 
+
+code: TIBT 101
+name: Introduction to Tibetan II
+cred: 3
+desc: Focus on grammar, syntax, and structures to improve comprehension and communication skills. Also covers aspects of Tibetan worldview. 
+prer: TIBT 100.
+preq: TIBT 100

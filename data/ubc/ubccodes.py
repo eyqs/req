@@ -18,7 +18,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 """
 import os
 import sys
-YEAR = '2017'
+YEAR = '2018'
 INPATH = '/courses/terms.txt'
 OUTPATH = '/codes/'
 if len(sys.argv) == 1:
@@ -43,5 +43,5 @@ if __name__ == '__main__':
                     if outfile:
                         outfile.close()
                     outfile = open(OUTFOLDER + dept.lower() + '.txt',
-                                   'w', encoding='utf8')
+                                   'a', encoding='utf8')
                 outfile.write(dept + ' ' + course + ',\n')

@@ -1,0 +1,16 @@
+
+
+code: MGMT 100
+name: Introduction to Business
+cred: 3
+desc: Introduction to the Faculty of Management and traditional areas of business including accounting, economics, finance, marketing, organizational behaviour, operations, business policy, information systems and entrepreneurship. Identifies the steps needed to build and manage successful local, national, and international competitive businesses and organizations. Introduces ethical and policy decisions faced by businesses, organizations and governments. 
+
+code: MGMT 110
+name: Introduction to Management Thought and Social Responsibility
+cred: 3
+desc: Introduces management thought in business and organizations. Utilizes critical thinking in socially and ethically responsible decisions at a corporate and personal level. Includes managing responsibly through people, mass production, ethical and socially-responsible practices. Covers start-ups, entrepreneurs, family business, non-profit/for-profit organizations and governments in global regions. Credit will be granted for only one of MGMT 110 or MGMT 200. 
+
+code: MGMT 200
+name: Introduction to Management Thought and Social Responsibility
+cred: 3
+desc: Introduces management thought in business and organizations. Utilizes critical thinking in socially and ethically responsible decisions at a corporate and personal level. Includes managing responsibly through people, mass production, ethical and socially-responsible practices. Covers start-ups, entrepreneurs, family business, non-profit/for-profit organizations and governments in global regions. Credit will be granted for only one of MGMT 200 or MGMT 110. 

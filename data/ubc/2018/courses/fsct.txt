@@ -1,0 +1,116 @@
+
+
+code: FSCT 201
+name: Introduction to Forensic Science
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 7320. 
+
+code: FSCT 202
+name: Applied Ethics
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science. Same as BCIT LIBS 7002. 
+
+code: FSCT 203
+name: Report Writing and Communication for Forensic Investigation
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT COMM 7200. 
+
+code: FSCT 280
+name: Introductory Forensic Science I
+cred: 0
+desc: Block registration for the introduction to forensic science course taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 
+
+code: FSCT 290
+name: Introductory Forensic Science II
+cred: 0
+desc: Block registration for the applied ethics and report writing and communication for forensic investigation courses taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 
+
+code: FSCT 301
+name: Forensic Biology; DNA Typing Theory
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8150. 
+
+code: FSCT 302
+name: Quality Assurance for Forensic Science
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8370. 
+
+code: FSCT 303
+name: Business Management for Forensic Science
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8371. 
+
+code: FSCT 310
+name: Research Methodology and Measurement Models
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 7910. 
+
+code: FSCT 311
+name: Forensic Biology: Evidence Recovery
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8155. 
+
+code: FSCT 312
+name: Medico-Legal Aspects of Alcohol
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8230. 
+
+code: FSCT 313
+name: Crime Scene Investigation
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 7310. 
+
+code: FSCT 314
+name: The Science of Fingerprints - Theory
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8320. 
+
+code: FSCT 315
+name: Forensic Toxicology I
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8240. 
+
+code: FSCT 380
+name: Intermediate Forensic Science I
+cred: 0
+desc: Block registration for the forensic biology: DNA typing theory, quality assurance, and business management for forensic science courses taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 
+
+code: FSCT 390
+name: Intermediate Forensic Science II
+cred: 0
+desc: Block registration for the forensic biology: evidence recovery, research methodology, and elective courses taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 
+
+code: FSCT 401
+name: Forensic Biology: DNA Typing Applications
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8160. 
+
+code: FSCT 409
+name: Law for Forensic Science
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 7009. 
+
+code: FSCT 410
+name: The Expert Witness - Prepared for Court
+cred: 2
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 7010. [2-0-0]
+
+code: FSCT 411
+name: Population Genetics
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8305. 
+
+code: FSCT 412
+name: Forensic Chemistry and Toxicology
+cred: 3
+desc: Credit limited to students in the Joint Degree Program in Biochemistry and Forensic Science.  Same as BCIT FSCT 8156. 
+
+code: FSCT 480
+name: Advanced Forensic Science I
+cred: 0
+desc: Block registration for the forensic biology: DNA typing applications, law and forensic science courses taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 
+
+code: FSCT 490
+name: Advanced Forensic Science II
+cred: 0
+desc: Block registration for the expert witness testimony, population genetics, and forensic chemistry and toxicology courses taken in the Joint BCIT/UBC Degree in Biochemistry and Forensic Science.  Registration is limited to students in the Joint Degree Program. 

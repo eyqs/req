@@ -1,0 +1,4198 @@
+
+
+code: AANB 530A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: AANB 549A
+term: 2018S1-2,
+
+code: AANB 549B
+term: 2018S1, 2018S1-2,
+
+code: AANB 649
+term: 2018S1, 2018S1-2,
+
+code: ADHE 327
+term: 2018S1,
+
+code: ADHE 328
+term: 2018S1,
+
+code: ADHE 329
+term: 2018S1,
+
+code: ADHE 330
+term: 2018S1, 2018S2,
+
+code: ADHE 412
+term: 2018S1,
+
+code: AGEC 530B
+term: 2018S1-2,
+
+code: AGEC 530D
+term: 2018S1-2,
+
+code: AGEC 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ANAT 448J
+term: 2018S2,
+
+code: ANAT 448L
+term: 2018S1-2,
+
+code: ANAT 448N
+term: 2018S1-2,
+
+code: ANAT 548B
+term: 2018S2,
+
+code: ANAT 548D
+term: 2018S1-2,
+
+code: ANAT 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ANAT 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ANSC 549A
+term: 2018S1-2,
+
+code: ANSC 549B
+term: 2018S1, 2018S1-2,
+
+code: ANSC 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ANTH 100
+term: 2018S1,
+
+code: ANTH 227
+term: 2018S1,
+
+code: ANTH 308
+term: 2018S1,
+
+code: ANTH 378
+term: 2018S2,
+
+code: ANTH 433A
+term: 2018S1, 2018S2,
+
+code: ANTH 433C
+term: 2018S1, 2018S2,
+
+code: ANTH 480A
+term: 2018S1,
+
+code: ANTH 480B
+term: 2018S1,
+
+code: ANTH 518A
+term: 2018S1,
+
+code: ANTH 545A
+term: 2018S1,
+
+code: ANTH 545B
+term: 2018S2,
+
+code: ANTH 545C
+term: 2018S1-2,
+
+code: ANTH 549A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ANTH 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: APBI 200
+term: 2018SA,
+
+code: APBI 314
+term: 2018S1,
+
+code: APBI 365
+term: 2018S1-2,
+
+code: APBI 428
+term: 2018SA,
+
+code: APBI 490
+term: 2018S2,
+
+code: APBI 496A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: APBI 496B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: APBI 497A
+term: 2018S1-2,
+
+code: APBI 497B
+term: 2018S1-2, 2018S2,
+
+code: APBI 497C
+term: 2018S1-2,
+
+code: APBI 497E
+term: 2018S1-2,
+
+code: APBI 498
+term: 2018S1-2,
+
+code: APBI 499
+term: 2018S1-2,
+
+code: APPP 503
+term: 2018S1,
+
+code: APPP 504
+term: 2018S2,
+
+code: APPP 506
+term: 2018S1-2,
+
+code: APSC 110
+term: 2018S1-2,
+
+code: APSC 160
+term: 2018S1,
+
+code: APSC 176
+term: 2018S1-2,
+
+code: APSC 179
+term: 2018S1, 2018S1-2,
+
+code: APSC 180
+term: 2018S1, 2018S1-2,
+
+code: APSC 201
+term: 2018S1,
+
+code: APSC 210
+term: 2018S1-2,
+
+code: APSC 310
+term: 2018S1-2,
+
+code: APSC 410
+term: 2018S1-2,
+
+code: APSC 411
+term: 2018S1-2,
+
+code: APSC 412
+term: 2018S1-2,
+
+code: APSC 461
+term: 2018S1,
+
+code: APSC 462
+term: 2018S2,
+
+code: ARCH 538L
+term: 2018S1,
+
+code: ARCH 544H
+term: 2018S1-2,
+
+code: ARCH 544Y
+term: 2018S1,
+
+code: ARCH 545A
+term: 2018S1-2,
+
+code: ARCH 545B
+term: 2018S1-2,
+
+code: ARCH 548
+term: 2018S1-2,
+
+code: ARCH 549
+term: 2018S1, 2018S1-2,
+
+code: ARCH 551
+term: 2018S1,
+
+code: ARCH 555
+term: 2018S1-2,
+
+code: ARCH 556
+term: 2018S1-2,
+
+code: ARCH 577B
+term: 2018S1-2,
+
+code: ARCH 598
+term: 2018S1, 2018S1-2,
+
+code: ARCL 140
+term: 2018S1,
+
+code: ARCL 228
+term: 2018S2,
+
+code: ARCL 306
+term: 2018S1,
+
+code: ARCL 406A
+term: 2018S2,
+
+code: ARST 517
+term: 2018S2,
+
+code: ARST 556M
+term: 2018S1,
+
+code: ARST 592A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ARST 592B
+term: 2018S1,
+
+code: ARST 594A
+term: 2018SA, 2018S1, 2018S2,
+
+code: ARST 595
+term: 2018S1-2,
+
+code: ARST 596
+term: 2018S1-2,
+
+code: ARST 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ARST 599B
+term: 2018S1-2,
+
+code: ARTH 577A
+term: 2018S1,
+
+code: ARTH 577C
+term: 2018S1-2,
+
+code: ARTH 599
+term: 2018S1, 2018S1-2,
+
+code: ARTH 649
+term: 2018S1, 2018S1-2,
+
+code: ASIA 211
+term: 2018S2,
+
+code: ASIA 250
+term: 2018S1,
+
+code: ASIA 258
+term: 2018S2,
+
+code: ASIA 304
+term: 2018S1,
+
+code: ASIA 320
+term: 2018S2,
+
+code: ASIA 327
+term: 2018S1,
+
+code: ASIA 329
+term: 2018S1,
+
+code: ASIA 343
+term: 2018S1,
+
+code: ASIA 346A
+term: 2018S2,
+
+code: ASIA 354
+term: 2018S1,
+
+code: ASIA 355
+term: 2018S1, 2018S2,
+
+code: ASIA 356
+term: 2018S1, 2018S2,
+
+code: ASIA 360A
+term: 2018S1,
+
+code: ASIA 367
+term: 2018S1,
+
+code: ASIA 371
+term: 2018S2,
+
+code: ASIA 451
+term: 2018S1,
+
+code: ASIA 456
+term: 2018S2,
+
+code: ASIA 532D
+term: 2018S1-2,
+
+code: ASIA 580B
+term: 2018S2,
+
+code: ASIA 599B
+term: 2018S1, 2018S1-2,
+
+code: ASIA 699
+term: 2018S1, 2018S1-2,
+
+code: ASTR 311
+term: 2018SA,
+
+code: ASTR 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ASTR 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ASTU 160
+term: 2018S1,
+
+code: ASTU 204E
+term: 2018S1,
+
+code: ASTU 204F
+term: 2018S1,
+
+code: ASTU 204I
+term: 2018S1,
+
+code: ASTU 204J
+term: 2018S1,
+
+code: ASTU 260
+term: 2018S2,
+
+code: ASTU 310
+term: 2018S1-2,
+
+code: ASTU 311
+term: 2018S1-2,
+
+code: ASTU 360
+term: 2018S1,
+
+code: ASTU 401A
+term: 2018S2,
+
+code: ASTU 410
+term: 2018S1-2,
+
+code: ASTU 411
+term: 2018S1-2,
+
+code: ASTU 412
+term: 2018S1-2,
+
+code: ASTU 501
+term: 2018S1-2,
+
+code: ASTU 502
+term: 2018S1-2,
+
+code: ASTU 503
+term: 2018S1-2,
+
+code: ASTU 610
+term: 2018S1-2,
+
+code: ASTU 611
+term: 2018S1-2,
+
+code: ASTU 612
+term: 2018S1-2,
+
+code: ASTU 613
+term: 2018S1-2,
+
+code: ATSC 113
+term: 2018SA, 2018S1-2,
+
+code: ATSC 398
+term: 2018S1-2,
+
+code: ATSC 399
+term: 2018S1-2,
+
+code: ATSC 498
+term: 2018S1-2,
+
+code: ATSC 499
+term: 2018S1-2,
+
+code: ATSC 548A
+term: 2018S1-2,
+
+code: ATSC 548B
+term: 2018S1-2,
+
+code: ATSC 595D
+term: 2018S1-2,
+
+code: ATSC 597
+term: 2018S1-2,
+
+code: ATSC 598
+term: 2018S1-2,
+
+code: ATSC 599A
+term: 2018S1-2, 2018S2,
+
+code: ATSC 699
+term: 2018S1-2,
+
+code: AUDI 402
+term: 2018SA, 2018S1-2,
+
+code: AUDI 546A
+term: 2018S1,
+
+code: AUDI 547A
+term: 2018S1,
+
+code: AUDI 547C
+term: 2018S1-2,
+
+code: AUDI 547D
+term: 2018S1-2,
+
+code: AUDI 548
+term: 2018S1-2, 2018S2,
+
+code: AUDI 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: AUDI 550A
+term: 2018S1,
+
+code: AUDI 559
+term: 2018S1-2,
+
+code: AUDI 565C
+term: 2018S1,
+
+code: AUDI 566C
+term: 2018S1-2,
+
+code: AUDI 567C
+term: 2018S1-2,
+
+code: AUDI 576
+term: 2018S1,
+
+code: AUDI 579
+term: 2018S1-2,
+
+code: AUDI 590C
+term: 2018S1,
+
+code: AUDI 591C
+term: 2018S1-2,
+
+code: AUDI 593C
+term: 2018S1-2,
+
+code: AUDI 594C
+term: 2018S1,
+
+code: AUDI 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: AUDI 660B
+term: 2018S1-2,
+
+code: AUDI 690B
+term: 2018S1-2,
+
+code: BA 509
+term: 2018S1-2,
+
+code: BA 511
+term: 2018S1,
+
+code: BA 512
+term: 2018S1-2,
+
+code: BA 520
+term: 2018S1-2,
+
+code: BA 551
+term: 2018S1,
+
+code: BAAC 510
+term: 2018S1,
+
+code: BAAC 550
+term: 2018S1,
+
+code: BAAC 551
+term: 2018S2,
+
+code: BABS 550
+term: 2018S1-2, 2018S2,
+
+code: BAFI 500
+term: 2018S1-2,
+
+code: BAFI 502
+term: 2018S1,
+
+code: BAHR 505
+term: 2018S1-2,
+
+code: BAHR 508
+term: 2018S1,
+
+code: BAHR 516
+term: 2018S2,
+
+code: BAIT 510
+term: 2018S1-2,
+
+code: BAMA 508
+term: 2018S2,
+
+code: BAMA 514
+term: 2018S2,
+
+code: BAMA 550
+term: 2018S2,
+
+code: BAPA 550
+term: 2018S1, 2018S1-2,
+
+code: BASC 523
+term: 2018S2,
+
+code: BASC 550
+term: 2018S1-2, 2018S2,
+
+code: BASM 501
+term: 2018S1,
+
+code: BASM 502
+term: 2018S1,
+
+code: BASM 550
+term: 2018S2,
+
+code: BASM 590A
+term: 2018S1-2,
+
+code: BIOC 202
+term: 2018S1,
+
+code: BIOC 302
+term: 2018S2,
+
+code: BIOC 398
+term: 2018S1-2,
+
+code: BIOC 399
+term: 2018S1-2,
+
+code: BIOC 498
+term: 2018S1-2,
+
+code: BIOC 499
+term: 2018S1-2,
+
+code: BIOC 548A
+term: 2018S1-2,
+
+code: BIOC 548D
+term: 2018S1-2,
+
+code: BIOC 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BIOF 548A
+term: 2018S1-2,
+
+code: BIOF 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BIOF 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BIOL 111
+term: 2018S1,
+
+code: BIOL 112
+term: 2018S1,
+
+code: BIOL 121
+term: 2018S1,
+
+code: BIOL 140
+term: 2018S2,
+
+code: BIOL 155
+term: 2018S1,
+
+code: BIOL 200
+term: 2018S1,
+
+code: BIOL 204
+term: 2018S2,
+
+code: BIOL 230
+term: 2018S1,
+
+code: BIOL 234
+term: 2018S1,
+
+code: BIOL 260
+term: 2018S1,
+
+code: BIOL 300
+term: 2018S1,
+
+code: BIOL 324
+term: 2018S2,
+
+code: BIOL 335
+term: 2018S2,
+
+code: BIOL 336
+term: 2018S2,
+
+code: BIOL 341
+term: 2018S1,
+
+code: BIOL 342
+term: 2018S1,
+
+code: BIOL 361
+term: 2018S1,
+
+code: BIOL 398
+term: 2018S1-2,
+
+code: BIOL 399
+term: 2018S1-2,
+
+code: BIOL 409
+term: 2018S1,
+
+code: BIOL 448A
+term: 2018S1, 2018S2,
+
+code: BIOL 448D
+term: 2018S1-2,
+
+code: BIOL 498
+term: 2018S1-2,
+
+code: BIOL 499
+term: 2018S1-2,
+
+code: BIOL 525D
+term: 2018S2,
+
+code: BMEG 597
+term: 2018S1, 2018S1-2,
+
+code: BMEG 599
+term: 2018S1, 2018S1-2,
+
+code: BMEG 699
+term: 2018S1, 2018S1-2,
+
+code: BOTA 502
+term: 2018S1,
+
+code: BOTA 546A
+term: 2018S1-2,
+
+code: BOTA 546B
+term: 2018S1-2, 2018S2,
+
+code: BOTA 546F
+term: 2018S1-2,
+
+code: BOTA 548
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BOTA 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BOTA 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: BRDG 590
+term: 2018S1-2,
+
+code: BRDG 690
+term: 2018S1-2,
+
+code: BUSI 100
+term: 2018S1-2,
+
+code: BUSI 101
+term: 2018S1-2,
+
+code: BUSI 111
+term: 2018S1-2,
+
+code: BUSI 112
+term: 2018S1-2,
+
+code: BUSI 121
+term: 2018S1,
+
+code: BUSI 300
+term: 2018S1,
+
+code: BUSI 330
+term: 2018S1-2,
+
+code: BUSI 331
+term: 2018S1-2,
+
+code: BUSI 344
+term: 2018S1-2,
+
+code: BUSI 352
+term: 2018S2,
+
+code: BUSI 398
+term: 2018S1-2,
+
+code: BUSI 400
+term: 2018S1-2,
+
+code: BUSI 401
+term: 2018S1-2,
+
+code: BUSI 420
+term: 2018S1-2,
+
+code: BUSI 433
+term: 2018S2,
+
+code: BUSI 442
+term: 2018S1-2,
+
+code: BUSI 443
+term: 2018S1-2,
+
+code: BUSI 444
+term: 2018S1-2,
+
+code: BUSI 452
+term: 2018S1-2,
+
+code: BUSI 497
+term: 2018S1-2,
+
+code: BUSI 499
+term: 2018S1-2,
+
+code: CAPS 391
+term: 2018S1,
+
+code: CAPS 398
+term: 2018S1-2,
+
+code: CAPS 399
+term: 2018S1-2,
+
+code: CAPS 448A
+term: 2018S1,
+
+code: CAPS 448B
+term: 2018S2,
+
+code: CAPS 448C
+term: 2018S1-2,
+
+code: CAPS 498
+term: 2018S1-2,
+
+code: CAPS 499
+term: 2018S1-2,
+
+code: CCFI 508A
+term: 2018S1,
+
+code: CCFI 565C
+term: 2018S2,
+
+code: CCFI 580A
+term: 2018S1-2,
+
+code: CCFI 590
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CCFI 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CCFI 599D
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CCFI 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CCST 503
+term: 2018S1-2,
+
+code: CEEN 503
+term: 2018S1,
+
+code: CEEN 504
+term: 2018S1,
+
+code: CEEN 596
+term: 2018S1-2,
+
+code: CELL 549
+term: 2018S1,
+
+code: CELL 649
+term: 2018S1-2,
+
+code: CHBE 549
+term: 2018S1-2,
+
+code: CHBE 596
+term: 2018S1-2, 2018S2,
+
+code: CHBE 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CHBE 699
+term: 2018S1-2, 2018S2,
+
+code: CHEM 121
+term: 2018S1,
+
+code: CHEM 123
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CHEM 233
+term: 2018S1,
+
+code: CHEM 235
+term: 2018S1,
+
+code: CHEM 398
+term: 2018S1-2,
+
+code: CHEM 399
+term: 2018S1-2,
+
+code: CHEM 448A
+term: 2018S1,
+
+code: CHEM 448B
+term: 2018S2,
+
+code: CHEM 448C
+term: 2018S1-2,
+
+code: CHEM 498
+term: 2018S1-2,
+
+code: CHEM 499
+term: 2018S1-2,
+
+code: CHEM 549
+term: 2018S1-2,
+
+code: CHEM 649
+term: 2018S1-2,
+
+code: CHIL 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CHIN 134
+term: 2018S1,
+
+code: CHIN 234
+term: 2018S2,
+
+code: CHIN 334
+term: 2018S1,
+
+code: CHIN 338
+term: 2018S2,
+
+code: CHIN 464
+term: 2018S1,
+
+code: CHIN 474
+term: 2018S2,
+
+code: CHIN 482A
+term: 2018S1,
+
+code: CHIN 484
+term: 2018S1, 2018S2,
+
+code: CHIN 494
+term: 2018S1,
+
+code: CIVL 200
+term: 2018SA, 2018S1-2,
+
+code: CIVL 235
+term: 2018S1,
+
+code: CIVL 541
+term: 2018S1,
+
+code: CIVL 592O
+term: 2018S1-2,
+
+code: CIVL 598G
+term: 2018S1,
+
+code: CIVL 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CIVL 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CNPS 362
+term: 2018S1, 2018S2,
+
+code: CNPS 363
+term: 2018S1,
+
+code: CNPS 364
+term: 2018S1,
+
+code: CNPS 365
+term: 2018S1, 2018S2,
+
+code: CNPS 427
+term: 2018S1,
+
+code: CNPS 433
+term: 2018S1-2,
+
+code: CNPS 532C
+term: 2018S2,
+
+code: CNPS 545
+term: 2018S1,
+
+code: CNPS 574
+term: 2018S2,
+
+code: CNPS 580A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CNPS 580C
+term: 2018S1, 2018S2,
+
+code: CNPS 584
+term: 2018S1,
+
+code: CNPS 594
+term: 2018S2,
+
+code: CNPS 598C
+term: 2018S1, 2018S1-2,
+
+code: CNPS 598H
+term: 2018S1, 2018S1-2,
+
+code: CNPS 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CNPS 677
+term: 2018S1,
+
+code: CNPS 698
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CNPS 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: CNRS 335A
+term: 2018S1,
+
+code: CNRS 535
+term: 2018S1-2,
+
+code: CNRS 549
+term: 2018S1, 2018S1-2,
+
+code: CNTO 311
+term: 2018S1,
+
+code: CNTO 401
+term: 2018S1,
+
+code: CNTO 451
+term: 2018S2,
+
+code: COGS 402
+term: 2018S1-2,
+
+code: COMM 203
+term: 2018S1,
+
+code: COMM 204
+term: 2018S1, 2018S2,
+
+code: COMM 205
+term: 2018S1,
+
+code: COMM 280
+term: 2018S1, 2018S2,
+
+code: COMM 290
+term: 2018S1,
+
+code: COMM 293
+term: 2018S1,
+
+code: COMM 294
+term: 2018S1, 2018S2,
+
+code: COMM 295
+term: 2018S1,
+
+code: COMM 329
+term: 2018S1,
+
+code: COMM 335
+term: 2018S1,
+
+code: COMM 380
+term: 2018S1-2,
+
+code: COMM 381
+term: 2018S1-2,
+
+code: COMM 382
+term: 2018S1,
+
+code: COMM 390
+term: 2018S1, 2018S2,
+
+code: COMM 393
+term: 2018S1, 2018S2,
+
+code: COMM 394
+term: 2018S1,
+
+code: COMM 395
+term: 2018S1, 2018S2,
+
+code: COMM 398
+term: 2018S1,
+
+code: COMM 457
+term: 2018S1,
+
+code: COMM 465
+term: 2018S2,
+
+code: COMM 473
+term: 2018S1,
+
+code: COMM 480
+term: 2018S1-2,
+
+code: COMM 481
+term: 2018S1-2,
+
+code: COMM 490D
+term: 2018S2,
+
+code: COMM 491
+term: 2018S1, 2018S2,
+
+code: COMM 493
+term: 2018S2,
+
+code: COMM 498
+term: 2018S1,
+
+code: COMM 547A
+term: 2018S1-2,
+
+code: COMM 547B
+term: 2018S1-2,
+
+code: COMM 548
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: COMM 549A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: COMM 549B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: COMM 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: COMR 382
+term: 2018S1,
+
+code: CONS 340
+term: 2018S1,
+
+code: CONS 449C
+term: 2018S1,
+
+code: CONS 449F
+term: 2018S1-2,
+
+code: CONS 453
+term: 2018S1,
+
+code: CPEN 291
+term: 2018S1,
+
+code: CPEN 400V
+term: 2018S1-2,
+
+code: CPEN 481
+term: 2018S1,
+
+code: CPEN 499A
+term: 2018S1,
+
+code: CPSC 103
+term: 2018S1-2,
+
+code: CPSC 110
+term: 2018S1,
+
+code: CPSC 121
+term: 2018S1, 2018S1-2,
+
+code: CPSC 210
+term: 2018S2,
+
+code: CPSC 213
+term: 2018S1,
+
+code: CPSC 221
+term: 2018S1,
+
+code: CPSC 298
+term: 2018S1-2,
+
+code: CPSC 299
+term: 2018S1-2,
+
+code: CPSC 304
+term: 2018S1,
+
+code: CPSC 313
+term: 2018S2,
+
+code: CPSC 320
+term: 2018S2,
+
+code: CPSC 322
+term: 2018S1,
+
+code: CPSC 340
+term: 2018S1,
+
+code: CPSC 398
+term: 2018S1-2, 2018S2,
+
+code: CPSC 399
+term: 2018S1-2,
+
+code: CPSC 448A
+term: 2018S1-2,
+
+code: CPSC 448B
+term: 2018S1, 2018S2,
+
+code: CPSC 448C
+term: 2018S1-2,
+
+code: CPSC 449
+term: 2018S1-2,
+
+code: CPSC 499
+term: 2018S1-2,
+
+code: CPSC 549A
+term: 2018S1-2,
+
+code: CPSC 549B
+term: 2018S1-2,
+
+code: CPSC 589
+term: 2018S1-2,
+
+code: CPSC 649
+term: 2018S1-2,
+
+code: CRWR 200
+term: 2018S1,
+
+code: CRWR 213
+term: 2018S1,
+
+code: CRWR 501N
+term: 2018S1-2,
+
+code: CRWR 503M
+term: 2018S2,
+
+code: CRWR 505M
+term: 2018S2,
+
+code: CRWR 506M
+term: 2018S2,
+
+code: CRWR 509M
+term: 2018S2,
+
+code: CRWR 570A
+term: 2018S1,
+
+code: CRWR 599
+term: 2018S1-2,
+
+code: CSIS 490A
+term: 2018S1,
+
+code: CSIS 490C
+term: 2018S1-2,
+
+code: DENT 410
+term: 2018S?, 2018S1,
+
+code: DENT 420
+term: 2018S1, 2018S2,
+
+code: DENT 509
+term: 2018S1-2,
+
+code: DENT 561B
+term: 2018S1-2,
+
+code: DENT 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: DENT 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: DENT 769
+term: 2018S2,
+
+code: DMED 540
+term: 2018S1-2,
+
+code: ECED 407
+term: 2018S1-2,
+
+code: ECED 416
+term: 2018S2,
+
+code: ECED 417
+term: 2018S1-2,
+
+code: ECED 420
+term: 2018S1-2,
+
+code: ECED 438
+term: 2018S1-2,
+
+code: ECED 480A
+term: 2018S2,
+
+code: ECED 530B
+term: 2018S1-2,
+
+code: ECED 565A
+term: 2018S2,
+
+code: ECED 580A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ECED 580C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ECED 590A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ECED 590E
+term: 2018S1-2,
+
+code: ECED 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ECON 101
+term: 2018S1, 2018S2,
+
+code: ECON 102
+term: 2018S1, 2018S2,
+
+code: ECON 301
+term: 2018S1,
+
+code: ECON 302
+term: 2018S2,
+
+code: ECON 325
+term: 2018S1,
+
+code: ECON 326
+term: 2018S2,
+
+code: ECON 345
+term: 2018S1,
+
+code: ECON 355
+term: 2018S1,
+
+code: ECON 356
+term: 2018S2,
+
+code: ECON 456
+term: 2018S2,
+
+code: ECON 471
+term: 2018S1,
+
+code: ECON 492A
+term: 2018S1,
+
+code: ECON 594
+term: 2018S1-2,
+
+code: ECON 595
+term: 2018S1-2,
+
+code: ECON 699
+term: 2018S1-2,
+
+code: ECPS 490A
+term: 2018S1,
+
+code: ECPS 490B
+term: 2018S2,
+
+code: ECPS 490D
+term: 2018S1-2,
+
+code: EDCP 325
+term: 2018S2,
+
+code: EDCP 327A
+term: 2018S2,
+
+code: EDCP 328
+term: 2018S2,
+
+code: EDCP 329
+term: 2018S2,
+
+code: EDCP 403
+term: 2018S2,
+
+code: EDCP 413
+term: 2018S2,
+
+code: EDCP 423
+term: 2018S2,
+
+code: EDCP 441B
+term: 2018S2,
+
+code: EDCP 453
+term: 2018S2,
+
+code: EDCP 455
+term: 2018S2,
+
+code: EDCP 456
+term: 2018S2,
+
+code: EDCP 467A
+term: 2018S2,
+
+code: EDCP 467B
+term: 2018S2,
+
+code: EDCP 467C
+term: 2018S2,
+
+code: EDCP 467D
+term: 2018S2,
+
+code: EDCP 467E
+term: 2018S2,
+
+code: EDCP 467F
+term: 2018S2,
+
+code: EDCP 468D
+term: 2018S2,
+
+code: EDCP 481
+term: 2018S2,
+
+code: EDCP 493
+term: 2018S1-2,
+
+code: EDCP 494
+term: 2018S1-2,
+
+code: EDCP 496
+term: 2018S2,
+
+code: EDCP 508A
+term: 2018S2,
+
+code: EDCP 508B
+term: 2018S1,
+
+code: EDCP 508D
+term: 2018S2,
+
+code: EDCP 512
+term: 2018S1,
+
+code: EDCP 523A
+term: 2018S1,
+
+code: EDCP 531
+term: 2018S2,
+
+code: EDCP 532
+term: 2018S2,
+
+code: EDCP 534
+term: 2018S2,
+
+code: EDCP 536
+term: 2018S1-2,
+
+code: EDCP 538
+term: 2018S1,
+
+code: EDCP 562
+term: 2018S2,
+
+code: EDCP 580A
+term: 2018S1,
+
+code: EDCP 580B
+term: 2018S2,
+
+code: EDCP 585B
+term: 2018S1, 2018S2,
+
+code: EDCP 585D
+term: 2018S2,
+
+code: EDCP 585E
+term: 2018S2,
+
+code: EDCP 590
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDCP 598C
+term: 2018S1, 2018S1-2,
+
+code: EDCP 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDCP 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDST 403
+term: 2018S1, 2018S1-2,
+
+code: EDST 404
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDST 428
+term: 2018S2,
+
+code: EDST 493
+term: 2018S1,
+
+code: EDST 508A
+term: 2018S1, 2018S2,
+
+code: EDST 508B
+term: 2018S2,
+
+code: EDST 514
+term: 2018S1,
+
+code: EDST 516
+term: 2018S2,
+
+code: EDST 518
+term: 2018S1,
+
+code: EDST 528
+term: 2018S1,
+
+code: EDST 532
+term: 2018S1,
+
+code: EDST 536
+term: 2018S1,
+
+code: EDST 542
+term: 2018S1,
+
+code: EDST 552
+term: 2018S2,
+
+code: EDST 557
+term: 2018S2,
+
+code: EDST 561A
+term: 2018S1,
+
+code: EDST 561B
+term: 2018S2,
+
+code: EDST 561C
+term: 2018S2,
+
+code: EDST 565A
+term: 2018S2,
+
+code: EDST 565B
+term: 2018S2,
+
+code: EDST 565D
+term: 2018S2,
+
+code: EDST 565F
+term: 2018S2,
+
+code: EDST 572
+term: 2018S2,
+
+code: EDST 580A
+term: 2018S1,
+
+code: EDST 580B
+term: 2018S2,
+
+code: EDST 580C
+term: 2018S1-2,
+
+code: EDST 582
+term: 2018S1,
+
+code: EDST 588
+term: 2018S1, 2018S2,
+
+code: EDST 590
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDST 593A
+term: 2018S2,
+
+code: EDST 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDST 599E
+term: 2018S1-2,
+
+code: EDST 601A
+term: 2018S2,
+
+code: EDST 690
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDST 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDUC 319
+term: 2018S1,
+
+code: EDUC 321
+term: 2018S1,
+
+code: EDUC 399
+term: 2018S1,
+
+code: EDUC 430
+term: 2018S1,
+
+code: EDUC 432A
+term: 2018S2,
+
+code: EDUC 440
+term: 2018S2,
+
+code: EDUC 442A
+term: 2018S2,
+
+code: EDUC 449A
+term: 2018S1, 2018S2,
+
+code: EDUC 449B
+term: 2018S2,
+
+code: EDUC 449C
+term: 2018S1, 2018S2,
+
+code: EDUC 452A
+term: 2018S1-2, 2018S2,
+
+code: EDUC 452B
+term: 2018S1, 2018S1-2,
+
+code: EDUC 480A
+term: 2018S2,
+
+code: EDUC 490Q
+term: 2018S1-2,
+
+code: EDUC 490S
+term: 2018S2,
+
+code: EDUC 490T
+term: 2018S2,
+
+code: EDUC 490V
+term: 2018S2,
+
+code: EDUC 495F
+term: 2018S1,
+
+code: EDUC 496B
+term: 2018S1,
+
+code: EDUC 496I
+term: 2018S1,
+
+code: EDUC 500
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EDUC 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EECE 571M
+term: 2018S1-2,
+
+code: EECE 571P
+term: 2018S1,
+
+code: EECE 584
+term: 2018S1-2,
+
+code: EECE 593
+term: 2018S1,
+
+code: EECE 597
+term: 2018S1, 2018S1-2,
+
+code: EECE 599
+term: 2018S1, 2018S1-2,
+
+code: EECE 699
+term: 2018S1, 2018S1-2,
+
+code: ELEC 291
+term: 2018S1,
+
+code: ELEC 292
+term: 2018S1,
+
+code: ELEC 341
+term: 2018S1,
+
+code: ELEC 391
+term: 2018S1, 2018S2,
+
+code: ELEC 452
+term: 2018S1,
+
+code: ELEC 481
+term: 2018S1,
+
+code: ENDS 482E
+term: 2018S1-2,
+
+code: ENDS 482G
+term: 2018S1,
+
+code: ENDS 482H
+term: 2018S1-2,
+
+code: ENDS 482N
+term: 2018S1,
+
+code: ENDS 482O
+term: 2018S1-2,
+
+code: ENGL 110
+term: 2018S1, 2018S2,
+
+code: ENGL 112
+term: 2018SA, 2018S1, 2018S1-2, 2018S2,
+
+code: ENGL 220
+term: 2018S1, 2018S2,
+
+code: ENGL 224
+term: 2018S1,
+
+code: ENGL 225
+term: 2018S2,
+
+code: ENGL 301
+term: 2018SA, 2018S1-2,
+
+code: ENGL 321
+term: 2018SA, 2018S1-2,
+
+code: ENGL 348A
+term: 2018S1,
+
+code: ENGL 364A
+term: 2018SA,
+
+code: ENGL 406A
+term: 2018S2,
+
+code: ENGL 468A
+term: 2018SA,
+
+code: ENGL 470A
+term: 2018S2,
+
+code: ENGL 472A
+term: 2018S1,
+
+code: ENGL 496A
+term: 2018S1,
+
+code: ENGL 496B
+term: 2018S1,
+
+code: ENGL 496F
+term: 2018S2,
+
+code: ENGL 512A
+term: 2018S2,
+
+code: ENGL 547A
+term: 2018S1,
+
+code: ENGL 547B
+term: 2018S2,
+
+code: ENGL 547C
+term: 2018S1-2,
+
+code: ENGL 549C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ENGL 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ENPH 253
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ENPH 257
+term: 2018S1, 2018S1-2,
+
+code: ENPH 270
+term: 2018S1,
+
+code: ENVR 448C
+term: 2018S1-2,
+
+code: EOSC 114
+term: 2018SA, 2018S1,
+
+code: EOSC 116
+term: 2018SA,
+
+code: EOSC 118
+term: 2018SA,
+
+code: EOSC 310
+term: 2018SA,
+
+code: EOSC 315
+term: 2018SA,
+
+code: EOSC 326
+term: 2018SA,
+
+code: EOSC 398
+term: 2018S1-2,
+
+code: EOSC 399
+term: 2018S1-2,
+
+code: EOSC 447
+term: 2018S1-2,
+
+code: EOSC 448A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EOSC 448B
+term: 2018S1, 2018S2,
+
+code: EOSC 448C
+term: 2018S1-2,
+
+code: EOSC 449
+term: 2018S1-2,
+
+code: EOSC 498
+term: 2018S1-2,
+
+code: EOSC 499
+term: 2018S1-2,
+
+code: EOSC 546
+term: 2018S1,
+
+code: EOSC 548B
+term: 2018S1, 2018S1-2,
+
+code: EOSC 549
+term: 2018S1-2,
+
+code: EOSC 595B
+term: 2018S1, 2018S2,
+
+code: EOSC 595C
+term: 2018S1, 2018S2,
+
+code: EOSC 595D
+term: 2018S1-2,
+
+code: EOSC 595G
+term: 2018S2,
+
+code: EOSC 595S
+term: 2018S1,
+
+code: EOSC 598
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EOSC 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EOSC 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EOSC 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EPSE 303
+term: 2018S2,
+
+code: EPSE 312
+term: 2018S2,
+
+code: EPSE 316
+term: 2018S2,
+
+code: EPSE 317
+term: 2018S1, 2018S2,
+
+code: EPSE 320
+term: 2018S1, 2018S2,
+
+code: EPSE 348
+term: 2018S1-2,
+
+code: EPSE 390A
+term: 2018S2,
+
+code: EPSE 401
+term: 2018S2,
+
+code: EPSE 403
+term: 2018S1,
+
+code: EPSE 406
+term: 2018S1,
+
+code: EPSE 408
+term: 2018S2,
+
+code: EPSE 421
+term: 2018S2,
+
+code: EPSE 432
+term: 2018S2,
+
+code: EPSE 433
+term: 2018S2,
+
+code: EPSE 436
+term: 2018S2,
+
+code: EPSE 437
+term: 2018S2,
+
+code: EPSE 449
+term: 2018S1,
+
+code: EPSE 456
+term: 2018S2,
+
+code: EPSE 482
+term: 2018S2,
+
+code: EPSE 483
+term: 2018S1,
+
+code: EPSE 503
+term: 2018S2,
+
+code: EPSE 509
+term: 2018S2,
+
+code: EPSE 511
+term: 2018S1,
+
+code: EPSE 512
+term: 2018S2,
+
+code: EPSE 513
+term: 2018S2,
+
+code: EPSE 514
+term: 2018S2,
+
+code: EPSE 516
+term: 2018S1,
+
+code: EPSE 518
+term: 2018S2,
+
+code: EPSE 528
+term: 2018S1,
+
+code: EPSE 530
+term: 2018S2,
+
+code: EPSE 552A
+term: 2018S1,
+
+code: EPSE 561C
+term: 2018S1,
+
+code: EPSE 565K
+term: 2018S1,
+
+code: EPSE 578
+term: 2018S1,
+
+code: EPSE 580A
+term: 2018S1, 2018S2,
+
+code: EPSE 580B
+term: 2018S1, 2018S2,
+
+code: EPSE 586
+term: 2018S1,
+
+code: EPSE 589B
+term: 2018S1-2,
+
+code: EPSE 590
+term: 2018S1-2, 2018S2,
+
+code: EPSE 598A
+term: 2018S1,
+
+code: EPSE 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EPSE 681A
+term: 2018S1,
+
+code: EPSE 687A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EPSE 687C
+term: 2018S1-2,
+
+code: EPSE 688A
+term: 2018S1-2,
+
+code: EPSE 689B
+term: 2018S1-2,
+
+code: EPSE 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ETEC 500
+term: 2018S1-2,
+
+code: ETEC 530
+term: 2018S1-2,
+
+code: ETEC 532
+term: 2018S1-2,
+
+code: ETEC 540
+term: 2018S1-2,
+
+code: ETEC 565M
+term: 2018S1-2,
+
+code: ETEC 590
+term: 2018S1-2,
+
+code: EXCH 370
+term: 2018S1-2,
+
+code: EXCH 371
+term: 2018S1-2, 2018S2,
+
+code: EXCH 373
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EXCH 375
+term: 2018S2,
+
+code: EXCH 380
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EXCH 383
+term: 2018S1-2,
+
+code: EXCH 499
+term: 2018S1, 2018S2,
+
+code: EXCH 580
+term: 2018S1-2,
+
+code: EXCH 581
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EXCH 582
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: EXGR 560
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FIPR 399C
+term: 2018S1-2,
+
+code: FIPR 547
+term: 2018S1,
+
+code: FIPR 549A
+term: 2018S1-2,
+
+code: FIPR 549B
+term: 2018S1-2,
+
+code: FIPR 549C
+term: 2018S1-2,
+
+code: FISH 501
+term: 2018S1,
+
+code: FISH 509
+term: 2018S1,
+
+code: FISH 599
+term: 2018S1, 2018S1-2,
+
+code: FISH 699
+term: 2018S1-2,
+
+code: FIST 547A
+term: 2018S1,
+
+code: FIST 549A
+term: 2018S1, 2018S1-2,
+
+code: FMST 210
+term: 2018S1, 2018S2,
+
+code: FMST 312
+term: 2018S1, 2018S2,
+
+code: FMST 314
+term: 2018S2,
+
+code: FMST 316
+term: 2018S1,
+
+code: FNH 200
+term: 2018SA, 2018S1, 2018S1-2, 2018S2,
+
+code: FNH 250
+term: 2018SA, 2018S1, 2018S1-2,
+
+code: FNH 330
+term: 2018S1,
+
+code: FNH 355
+term: 2018S1,
+
+code: FNH 381
+term: 2018S1,
+
+code: FNH 480
+term: 2018S1,
+
+code: FNH 483
+term: 2018S1,
+
+code: FNH 497B
+term: 2018S1, 2018S2,
+
+code: FNH 497C
+term: 2018S1-2,
+
+code: FNH 497E
+term: 2018S1-2,
+
+code: FNH 499
+term: 2018S1-2,
+
+code: FOOD 530B
+term: 2018S1, 2018S2,
+
+code: FOOD 530D
+term: 2018S1-2,
+
+code: FOOD 531
+term: 2018S1-2,
+
+code: FOOD 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FOOD 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FRE 547
+term: 2018S1-2,
+
+code: FREN 101
+term: 2018S1,
+
+code: FREN 102
+term: 2018S2,
+
+code: FREN 111
+term: 2018S1,
+
+code: FREN 112
+term: 2018S2,
+
+code: FREN 220
+term: 2018S2,
+
+code: FREN 548
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FREN 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FREN 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: FRST 231
+term: 2018SA,
+
+code: FRST 248
+term: 2018S1-2,
+
+code: FRST 307
+term: 2018S1,
+
+code: FRST 346
+term: 2018S1-2,
+
+code: FRST 347
+term: 2018S1-2,
+
+code: FRST 348
+term: 2018S1-2,
+
+code: FRST 446
+term: 2018S1-2,
+
+code: FRST 447
+term: 2018S1-2,
+
+code: FRST 448
+term: 2018S1-2,
+
+code: FRST 449B
+term: 2018S1,
+
+code: FRST 449C
+term: 2018S2,
+
+code: FRST 449D
+term: 2018S1-2,
+
+code: FRST 449E
+term: 2018S1-2,
+
+code: FRST 498
+term: 2018S1, 2018S2,
+
+code: FRST 526C
+term: 2018S1, 2018S1-2,
+
+code: FRST 548A
+term: 2018S1-2,
+
+code: FRST 548B
+term: 2018S1-2,
+
+code: FRST 549A
+term: 2018S1-2,
+
+code: FRST 549B
+term: 2018S1-2,
+
+code: FRST 549C
+term: 2018S1-2,
+
+code: FRST 550B
+term: 2018S1-2,
+
+code: FRST 555
+term: 2018S2,
+
+code: FRST 649
+term: 2018S1-2,
+
+code: GBPR 502
+term: 2018S1, 2018S2,
+
+code: GEM 500
+term: 2018S2,
+
+code: GENE 549C
+term: 2018S1-2,
+
+code: GENE 649
+term: 2018S1, 2018S1-2,
+
+code: GEOB 103
+term: 2018S1,
+
+code: GEOB 507A
+term: 2018S1-2,
+
+code: GEOG 122
+term: 2018S1,
+
+code: GEOG 310
+term: 2018S1,
+
+code: GEOG 350
+term: 2018SA,
+
+code: GEOG 352
+term: 2018S1,
+
+code: GEOG 447
+term: 2018S2,
+
+code: GEOG 448
+term: 2018S2,
+
+code: GEOG 547A
+term: 2018S1-2,
+
+code: GEOG 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GEOG 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GERM 100
+term: 2018S1,
+
+code: GERM 110
+term: 2018S2,
+
+code: GERM 112
+term: 2018S1,
+
+code: GERM 200
+term: 2018S1,
+
+code: GERM 210
+term: 2018S2,
+
+code: GERM 433
+term: 2018S1,
+
+code: GERM 548
+term: 2018S1-2,
+
+code: GERM 549
+term: 2018S1, 2018S1-2,
+
+code: GERM 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GREK 549A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GREK 549B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GREK 649
+term: 2018S1-2,
+
+code: GRS 397B
+term: 2018S1-2,
+
+code: GRS 497B
+term: 2018S1-2,
+
+code: GRS 497E
+term: 2018S1-2,
+
+code: GRSJ 101
+term: 2018S1,
+
+code: GRSJ 224A
+term: 2018SA, 2018S1-2,
+
+code: GRSJ 224E
+term: 2018S1,
+
+code: GRSJ 300
+term: 2018SA, 2018S1, 2018S1-2,
+
+code: GRSJ 450A
+term: 2018S1,
+
+code: GRSJ 450B
+term: 2018S2,
+
+code: GRSJ 450C
+term: 2018S1-2,
+
+code: GRSJ 505A
+term: 2018S1,
+
+code: GRSJ 505B
+term: 2018S2,
+
+code: GRSJ 505C
+term: 2018S1-2,
+
+code: GRSJ 510
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GRSJ 520B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GRSJ 606
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GSAT 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: GSAT 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: HIST 103
+term: 2018S1-2, 2018S2,
+
+code: HIST 106
+term: 2018SA, 2018S1, 2018S2,
+
+code: HIST 311
+term: 2018S1,
+
+code: HIST 326
+term: 2018S1,
+
+code: HIST 339
+term: 2018S1,
+
+code: HIST 369
+term: 2018S2,
+
+code: HIST 378
+term: 2018S2,
+
+code: HIST 380C
+term: 2018S1-2,
+
+code: HIST 390A
+term: 2018S1,
+
+code: HIST 403K
+term: 2018S1,
+
+code: HIST 420A
+term: 2018S2,
+
+code: HIST 425
+term: 2018S1-2,
+
+code: HIST 441
+term: 2018S1,
+
+code: HIST 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: HIST 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: HPB 503
+term: 2018S1,
+
+code: HUNU 547A
+term: 2018S1-2,
+
+code: HUNU 547B
+term: 2018S1-2,
+
+code: HUNU 549
+term: 2018S1, 2018S1-2,
+
+code: HUNU 649
+term: 2018S1, 2018S1-2,
+
+code: IAR 520
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: IAR 525
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: INDS 501
+term: 2018S1,
+
+code: INDS 530A
+term: 2018S1,
+
+code: INDS 530B
+term: 2018S2,
+
+code: INDS 530C
+term: 2018S1-2,
+
+code: INDS 549A
+term: 2018S1-2, 2018S2,
+
+code: INDS 549B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: INDS 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ISCI 361
+term: 2018S1,
+
+code: ISCI 398
+term: 2018S1-2,
+
+code: ISCI 399
+term: 2018S1-2,
+
+code: ISCI 448A
+term: 2018S1-2,
+
+code: ISCI 448B
+term: 2018S1-2,
+
+code: ISCI 448D
+term: 2018S1-2,
+
+code: ISCI 498
+term: 2018S1-2,
+
+code: ISCI 499
+term: 2018S1-2,
+
+code: ITAL 101
+term: 2018S1,
+
+code: ITAL 102
+term: 2018S2,
+
+code: ITAL 104
+term: 2018S1,
+
+code: IWME 501
+term: 2018S1,
+
+code: IWME 502
+term: 2018S1,
+
+code: JAPN 100
+term: 2018SA, 2018S1, 2018S1-2, 2018S2,
+
+code: JAPN 101
+term: 2018S1, 2018S2,
+
+code: JAPN 200
+term: 2018S1, 2018S2,
+
+code: JAPN 201
+term: 2018S2,
+
+code: JAPN 320
+term: 2018S1,
+
+code: JAPN 321
+term: 2018S1,
+
+code: JAPN 322
+term: 2018S2,
+
+code: JAPN 323
+term: 2018S2,
+
+code: JRNL 527
+term: 2018S1-2,
+
+code: JRNL 539D
+term: 2018S1-2,
+
+code: JRNL 539F
+term: 2018S1,
+
+code: JRNL 539G
+term: 2018S2,
+
+code: JRNL 548
+term: 2018S1-2,
+
+code: JRNL 549A
+term: 2018S1-2,
+
+code: KIN 101
+term: 2018S1-2,
+
+code: KIN 151
+term: 2018S1,
+
+code: KIN 161
+term: 2018S1,
+
+code: KIN 190
+term: 2018S1,
+
+code: KIN 191
+term: 2018S2,
+
+code: KIN 201
+term: 2018S1-2,
+
+code: KIN 275
+term: 2018S1,
+
+code: KIN 301
+term: 2018S1-2,
+
+code: KIN 375
+term: 2018S2,
+
+code: KIN 401
+term: 2018S1-2,
+
+code: KIN 402
+term: 2018S1-2,
+
+code: KIN 499
+term: 2018S1,
+
+code: KIN 530A
+term: 2018S1-2,
+
+code: KIN 530B
+term: 2018S1-2,
+
+code: KIN 595
+term: 2018S1-2,
+
+code: KIN 598
+term: 2018S1-2,
+
+code: KIN 599
+term: 2018S1-2,
+
+code: KIN 699
+term: 2018S1-2,
+
+code: KORN 102
+term: 2018S1, 2018S2,
+
+code: LAIS 699
+term: 2018S1-2,
+
+code: LARC 510A
+term: 2018S1,
+
+code: LARC 510B
+term: 2018S1-2,
+
+code: LARC 510C
+term: 2018S1,
+
+code: LARC 570A
+term: 2018S1-2,
+
+code: LARC 570C
+term: 2018S1-2,
+
+code: LARC 580B
+term: 2018S1-2,
+
+code: LARC 581B
+term: 2018S1-2,
+
+code: LARC 598
+term: 2018S1, 2018S1-2,
+
+code: LARC 599
+term: 2018S1, 2018S1-2,
+
+code: LATN 101
+term: 2018S2,
+
+code: LATN 549A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LATN 549B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LATN 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LAW 372
+term: 2018S1-2,
+
+code: LAW 379D
+term: 2018S1-2,
+
+code: LAW 380C
+term: 2018S1-2,
+
+code: LAW 459
+term: 2018S1,
+
+code: LAW 476
+term: 2018S1,
+
+code: LAW 488
+term: 2018S1-2,
+
+code: LAW 489
+term: 2018S1-2,
+
+code: LAW 491
+term: 2018S1-2,
+
+code: LAW 505
+term: 2018S1-2,
+
+code: LAW 507
+term: 2018S1,
+
+code: LAW 508D
+term: 2018S1,
+
+code: LAW 509
+term: 2018S1-2,
+
+code: LAW 515
+term: 2018S1,
+
+code: LAW 549
+term: 2018S1, 2018S1-2,
+
+code: LAW 649
+term: 2018S1, 2018S1-2,
+
+code: LFS 302B
+term: 2018S1,
+
+code: LFS 302D
+term: 2018S2,
+
+code: LFS 398
+term: 2018S1-2,
+
+code: LFS 399
+term: 2018S1-2,
+
+code: LFS 496A
+term: 2018S1-2,
+
+code: LFS 496B
+term: 2018S1-2,
+
+code: LFS 498
+term: 2018S1-2,
+
+code: LFS 499
+term: 2018S1-2,
+
+code: LFS 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LFS 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBE 463
+term: 2018S1-2,
+
+code: LIBE 467
+term: 2018S2,
+
+code: LIBE 477B
+term: 2018S1-2,
+
+code: LIBE 580A
+term: 2018S1, 2018S2,
+
+code: LIBE 580C
+term: 2018S2,
+
+code: LIBE 590
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBE 598A
+term: 2018S1,
+
+code: LIBE 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBE 599D
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBE 599E
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 524
+term: 2018S2,
+
+code: LIBR 525
+term: 2018S1,
+
+code: LIBR 545
+term: 2018S1-2,
+
+code: LIBR 575
+term: 2018S1,
+
+code: LIBR 580
+term: 2018S2,
+
+code: LIBR 581
+term: 2018S1,
+
+code: LIBR 592
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 593D
+term: 2018S1-2, 2018S2,
+
+code: LIBR 593E
+term: 2018S1-2, 2018S2,
+
+code: LIBR 594
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 595
+term: 2018S1-2, 2018S2,
+
+code: LIBR 596
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 597
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LIBR 599B
+term: 2018S1-2,
+
+code: LING 101
+term: 2018S1,
+
+code: LING 200
+term: 2018S1,
+
+code: LING 201
+term: 2018S1,
+
+code: LING 222
+term: 2018S2,
+
+code: LING 448B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LING 448C
+term: 2018S1-2,
+
+code: LING 449
+term: 2018S1-2,
+
+code: LING 548
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LING 549C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LING 649
+term: 2018S1, 2018S1-2,
+
+code: LLED 315A
+term: 2018S1-2,
+
+code: LLED 353
+term: 2018S1-2,
+
+code: LLED 361
+term: 2018S2,
+
+code: LLED 367
+term: 2018S2,
+
+code: LLED 368
+term: 2018S2,
+
+code: LLED 387
+term: 2018S2,
+
+code: LLED 433
+term: 2018S2,
+
+code: LLED 434
+term: 2018S2,
+
+code: LLED 435A
+term: 2018S2,
+
+code: LLED 441
+term: 2018S2,
+
+code: LLED 444
+term: 2018S2,
+
+code: LLED 449
+term: 2018S2,
+
+code: LLED 478A
+term: 2018S1,
+
+code: LLED 478B
+term: 2018S2,
+
+code: LLED 478C
+term: 2018S2,
+
+code: LLED 481
+term: 2018S2,
+
+code: LLED 489A
+term: 2018S1,
+
+code: LLED 489B
+term: 2018S1,
+
+code: LLED 489C
+term: 2018S2,
+
+code: LLED 501
+term: 2018S1,
+
+code: LLED 520
+term: 2018S1,
+
+code: LLED 559
+term: 2018S1,
+
+code: LLED 565B
+term: 2018S2,
+
+code: LLED 565F
+term: 2018S2,
+
+code: LLED 565H
+term: 2018S1,
+
+code: LLED 580A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LLED 580C
+term: 2018S1-2,
+
+code: LLED 590
+term: 2018S1, 2018S1-2,
+
+code: LLED 599
+term: 2018S1-2, 2018S2,
+
+code: LLED 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: LWS 548
+term: 2018S1-2,
+
+code: MATH 002
+term: 2018S2,
+
+code: MATH 100
+term: 2018S1,
+
+code: MATH 101
+term: 2018S2,
+
+code: MATH 104
+term: 2018S1,
+
+code: MATH 105
+term: 2018S2,
+
+code: MATH 200
+term: 2018S1,
+
+code: MATH 215
+term: 2018S1,
+
+code: MATH 220
+term: 2018S1,
+
+code: MATH 221
+term: 2018S1,
+
+code: MATH 253
+term: 2018S1,
+
+code: MATH 255
+term: 2018S1,
+
+code: MATH 257
+term: 2018S1,
+
+code: MATH 307
+term: 2018S1,
+
+code: MATH 312
+term: 2018S1,
+
+code: MATH 316
+term: 2018S1,
+
+code: MATH 317
+term: 2018S2,
+
+code: MECH 224
+term: 2018S1-2,
+
+code: MECH 225
+term: 2018S1-2,
+
+code: MECH 227
+term: 2018S2,
+
+code: MECH 431
+term: 2018S1-2,
+
+code: MECH 551
+term: 2018S1-2,
+
+code: MECH 552
+term: 2018S1-2,
+
+code: MECH 597
+term: 2018S1-2,
+
+code: MECH 598
+term: 2018S1,
+
+code: MECH 599B
+term: 2018S1, 2018S1-2,
+
+code: MECH 699
+term: 2018S1, 2018S1-2,
+
+code: MEDD 431
+term: 2018S2,
+
+code: MEDG 448A
+term: 2018S1-2,
+
+code: MEDG 448C
+term: 2018S1-2,
+
+code: MEDG 448D
+term: 2018S1,
+
+code: MEDG 548B
+term: 2018S1-2,
+
+code: MEDG 548C
+term: 2018S1-2,
+
+code: MEDG 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MEDG 565
+term: 2018S1-2,
+
+code: MEDG 570
+term: 2018S1, 2018S1-2,
+
+code: MEDG 575
+term: 2018S1-2,
+
+code: MEDG 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MEDI 548A
+term: 2018S1, 2018S2,
+
+code: MEDI 548B
+term: 2018S1, 2018S2,
+
+code: MEDI 548C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MEDI 548D
+term: 2018S1-2,
+
+code: MEDI 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MEDI 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MGMT 100
+term: 2018S1, 2018S1-2,
+
+code: MGMT 200
+term: 2018S1, 2018S1-2,
+
+code: MICB 201
+term: 2018S1,
+
+code: MICB 202
+term: 2018S2,
+
+code: MICB 398
+term: 2018S1-2,
+
+code: MICB 399
+term: 2018S1-2,
+
+code: MICB 448A
+term: 2018S1-2,
+
+code: MICB 448C
+term: 2018S1-2,
+
+code: MICB 449
+term: 2018S1-2,
+
+code: MICB 498
+term: 2018S1-2,
+
+code: MICB 499
+term: 2018S1-2,
+
+code: MICB 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MICB 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MIDW 240
+term: 2018S1-2,
+
+code: MIDW 310
+term: 2018S1-2,
+
+code: MIDW 350
+term: 2018S1, 2018S2,
+
+code: MIDW 370
+term: 2018S1,
+
+code: MIDW 420
+term: 2018S1,
+
+code: MIDW 440
+term: 2018S2,
+
+code: MIDW 499A
+term: 2018S2,
+
+code: MIDW 499B
+term: 2018S2,
+
+code: MINE 501A
+term: 2018S2,
+
+code: MINE 590A
+term: 2018S1,
+
+code: MINE 592A
+term: 2018S1,
+
+code: MINE 592B
+term: 2018S1,
+
+code: MINE 592C
+term: 2018S1,
+
+code: MINE 597
+term: 2018S1-2,
+
+code: MINE 598
+term: 2018S1, 2018S1-2,
+
+code: MINE 599C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MINE 698
+term: 2018S1, 2018S1-2,
+
+code: MINE 699
+term: 2018S1, 2018S1-2,
+
+code: MRNE 400A
+term: 2018S1-2,
+
+code: MRNE 400B
+term: 2018S1-2,
+
+code: MRNE 401R
+term: 2018S1-2,
+
+code: MRNE 402K
+term: 2018S2,
+
+code: MRNE 402S
+term: 2018S1,
+
+code: MRNE 410
+term: 2018S1,
+
+code: MRNE 430
+term: 2018S2,
+
+code: MTRL 512
+term: 2018S1-2,
+
+code: MTRL 592E
+term: 2018S1-2,
+
+code: MTRL 592G
+term: 2018S2,
+
+code: MTRL 596
+term: 2018S1-2,
+
+code: MTRL 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MTRL 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MUSC 402A
+term: 2018S1,
+
+code: MUSC 402C
+term: 2018S1-2,
+
+code: MUSC 512E
+term: 2018S1-2,
+
+code: MUSC 549A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: MUSC 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: NAME 592
+term: 2018S1-2,
+
+code: NRSC 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: NRSC 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: NURS 323
+term: 2018S1-2,
+
+code: NURS 331
+term: 2018S1-2, 2018S2,
+
+code: NURS 351
+term: 2018S1-2, 2018S2,
+
+code: NURS 354
+term: 2018S1, 2018S2,
+
+code: NURS 361
+term: 2018S1-2,
+
+code: NURS 504
+term: 2018S1, 2018S1-2,
+
+code: NURS 540
+term: 2018SA,
+
+code: NURS 552
+term: 2018S1-2,
+
+code: NURS 577B
+term: 2018S1,
+
+code: NURS 586E
+term: 2018S1-2,
+
+code: NURS 590A
+term: 2018S1-2,
+
+code: NURS 590S
+term: 2018S1-2,
+
+code: NURS 595
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: NURS 596
+term: 2018S1-2,
+
+code: NURS 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: NURS 690A
+term: 2018S1-2,
+
+code: NURS 690C
+term: 2018S1-2,
+
+code: NURS 699
+term: 2018S1-2,
+
+code: OBST 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: OBST 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ONCO 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ONCO 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PATH 451
+term: 2018S1-2,
+
+code: PATH 521
+term: 2018S1,
+
+code: PATH 548C
+term: 2018S1,
+
+code: PATH 548O
+term: 2018S1-2,
+
+code: PATH 549A
+term: 2018S1-2,
+
+code: PATH 549B
+term: 2018S1, 2018S1-2,
+
+code: PATH 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PCTH 398
+term: 2018S1-2,
+
+code: PCTH 399
+term: 2018S1-2,
+
+code: PCTH 448B
+term: 2018S1-2,
+
+code: PCTH 498
+term: 2018S1-2,
+
+code: PCTH 499
+term: 2018S1-2,
+
+code: PCTH 548A
+term: 2018S1-2,
+
+code: PCTH 548B
+term: 2018S1-2,
+
+code: PCTH 549
+term: 2018S1, 2018S2,
+
+code: PCTH 649
+term: 2018S1, 2018S2,
+
+code: PHAR 405B
+term: 2018S1-2,
+
+code: PHAR 405D
+term: 2018S1-2,
+
+code: PHAR 414
+term: 2018S2,
+
+code: PHAR 420B
+term: 2018S1-2,
+
+code: PHAR 420E
+term: 2018S1-2,
+
+code: PHAR 444
+term: 2018S1-2,
+
+code: PHAR 450B
+term: 2018S1-2,
+
+code: PHAR 450C
+term: 2018S1-2,
+
+code: PHAR 450D
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHAR 453A
+term: 2018S2,
+
+code: PHAR 453C
+term: 2018S1-2,
+
+code: PHAR 453D
+term: 2018S2,
+
+code: PHAR 453E
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHAR 469
+term: 2018S1, 2018S2,
+
+code: PHAR 479
+term: 2018S1-2,
+
+code: PHAR 518
+term: 2018S1,
+
+code: PHAR 533A
+term: 2018S1-2,
+
+code: PHAR 534S
+term: 2018S1-2,
+
+code: PHAR 534T
+term: 2018S1-2,
+
+code: PHAR 535
+term: 2018S1-2,
+
+code: PHAR 548
+term: 2018S1, 2018S1-2,
+
+code: PHAR 549B
+term: 2018S1-2,
+
+code: PHAR 550A
+term: 2018S1-2,
+
+code: PHAR 550C
+term: 2018S1-2, 2018S2,
+
+code: PHAR 550E
+term: 2018S1-2,
+
+code: PHAR 648
+term: 2018S1, 2018S1-2,
+
+code: PHAR 649
+term: 2018S1-2,
+
+code: PHIL 101
+term: 2018S1,
+
+code: PHIL 102
+term: 2018S2,
+
+code: PHIL 120
+term: 2018SA, 2018S1,
+
+code: PHIL 220
+term: 2018SA, 2018S1, 2018S2,
+
+code: PHIL 230
+term: 2018S2,
+
+code: PHIL 240
+term: 2018S1,
+
+code: PHIL 250
+term: 2018S2,
+
+code: PHIL 331
+term: 2018SA,
+
+code: PHIL 333
+term: 2018SA, 2018S2,
+
+code: PHIL 335
+term: 2018S1,
+
+code: PHIL 347
+term: 2018S1,
+
+code: PHIL 375
+term: 2018S1,
+
+code: PHIL 385
+term: 2018S2,
+
+code: PHIL 530A
+term: 2018S1,
+
+code: PHIL 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHIL 699
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHRM 171
+term: 2018S1, 2018S2,
+
+code: PHRM 271
+term: 2018S1, 2018S2,
+
+code: PHRM 272
+term: 2018S1, 2018S2,
+
+code: PHRM 371
+term: 2018S1, 2018S1-2,
+
+code: PHTH 531
+term: 2018S2,
+
+code: PHTH 534
+term: 2018S1,
+
+code: PHTH 538
+term: 2018S2,
+
+code: PHTH 544
+term: 2018S2,
+
+code: PHTH 545
+term: 2018S2,
+
+code: PHTH 546
+term: 2018S2,
+
+code: PHTH 548
+term: 2018S1,
+
+code: PHTH 552
+term: 2018S2,
+
+code: PHTH 558
+term: 2018S2,
+
+code: PHTH 564
+term: 2018S1,
+
+code: PHTH 566
+term: 2018S2,
+
+code: PHTH 574
+term: 2018S1, 2018S2,
+
+code: PHTH 576
+term: 2018S1-2,
+
+code: PHTH 580
+term: 2018S1-2,
+
+code: PHTH 581
+term: 2018S1-2,
+
+code: PHYL 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYL 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYS 100
+term: 2018SA,
+
+code: PHYS 101
+term: 2018S1,
+
+code: PHYS 118
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYS 250
+term: 2018S1-2,
+
+code: PHYS 298
+term: 2018S1-2, 2018S2,
+
+code: PHYS 299
+term: 2018S1-2,
+
+code: PHYS 399
+term: 2018S1-2,
+
+code: PHYS 498
+term: 2018S1-2,
+
+code: PHYS 499
+term: 2018S1-2,
+
+code: PHYS 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYS 555A
+term: 2018S1, 2018S2,
+
+code: PHYS 555B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYS 555C
+term: 2018S1, 2018S2,
+
+code: PHYS 555D
+term: 2018S1, 2018S2,
+
+code: PHYS 555F
+term: 2018S1-2, 2018S2,
+
+code: PHYS 599A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PHYS 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PLAN 503
+term: 2018S1,
+
+code: PLAN 527A
+term: 2018S1-2,
+
+code: PLAN 527B
+term: 2018S1-2,
+
+code: PLAN 528A
+term: 2018S1-2,
+
+code: PLAN 528B
+term: 2018S1-2,
+
+code: PLAN 545C
+term: 2018S1,
+
+code: PLAN 547C
+term: 2018S1-2,
+
+code: PLAN 548E
+term: 2018S1,
+
+code: PLAN 548Z
+term: 2018S1,
+
+code: PLAN 549C
+term: 2018S1-2,
+
+code: PLAN 550A
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PLAN 550B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PLAN 583
+term: 2018S2,
+
+code: PLAN 649
+term: 2018S1-2,
+
+code: PLNT 530B
+term: 2018S1,
+
+code: PLNT 530D
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PLNT 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PLNT 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: POLI 100
+term: 2018S1,
+
+code: POLI 101
+term: 2018S2,
+
+code: POLI 110
+term: 2018S1,
+
+code: POLI 240
+term: 2018S2,
+
+code: POLI 260
+term: 2018S1,
+
+code: POLI 303
+term: 2018S1,
+
+code: POLI 305
+term: 2018S2,
+
+code: POLI 308B
+term: 2018S2,
+
+code: POLI 341B
+term: 2018S2,
+
+code: POLI 342A
+term: 2018S1,
+
+code: POLI 375A
+term: 2018S1,
+
+code: POLI 380
+term: 2018S2,
+
+code: POLI 449D
+term: 2018S1,
+
+code: POLI 464C
+term: 2018S1,
+
+code: POLI 464F
+term: 2018S1,
+
+code: POLI 549B
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: POLI 580
+term: 2018S1-2,
+
+code: POLI 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PORT 101
+term: 2018S1,
+
+code: PORT 102
+term: 2018S2,
+
+code: PSYC 101
+term: 2018SA, 2018S1,
+
+code: PSYC 102
+term: 2018SA, 2018S1,
+
+code: PSYC 217
+term: 2018S1,
+
+code: PSYC 218
+term: 2018S2,
+
+code: PSYC 300A
+term: 2018S1,
+
+code: PSYC 301
+term: 2018S2,
+
+code: PSYC 305A
+term: 2018S1,
+
+code: PSYC 311
+term: 2018S1,
+
+code: PSYC 314
+term: 2018SA, 2018S2,
+
+code: PSYC 315
+term: 2018SA,
+
+code: PSYC 340F
+term: 2018S1-2,
+
+code: PSYC 348F
+term: 2018S1-2,
+
+code: PSYC 350A
+term: 2018S1,
+
+code: PSYC 398
+term: 2018S1-2,
+
+code: PSYC 399
+term: 2018S1-2,
+
+code: PSYC 413
+term: 2018SA,
+
+code: PSYC 417B
+term: 2018S1,
+
+code: PSYC 498
+term: 2018S1-2,
+
+code: PSYC 499
+term: 2018S1-2,
+
+code: PSYC 547E
+term: 2018S1-2,
+
+code: PSYC 549
+term: 2018S1-2,
+
+code: PSYC 559
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: PSYC 567
+term: 2018S1,
+
+code: PSYC 649
+term: 2018S1-2,
+
+code: PSYT 550
+term: 2018S1-2,
+
+code: RELG 548
+term: 2018S1-2,
+
+code: RELG 649
+term: 2018S1-2,
+
+code: RES 500B
+term: 2018S1-2,
+
+code: RES 599
+term: 2018S1, 2018S1-2,
+
+code: RES 699
+term: 2018S1, 2018S1-2,
+
+code: RHSC 420
+term: 2018S2,
+
+code: RHSC 504A
+term: 2018S1-2,
+
+code: RHSC 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: RHSC 583B
+term: 2018S1,
+
+code: RHSC 583C
+term: 2018S1,
+
+code: RHSC 583D
+term: 2018S1,
+
+code: RHSC 587
+term: 2018S1-2,
+
+code: RHSC 589B
+term: 2018S1-2,
+
+code: RHSC 699
+term: 2018S1, 2018S1-2,
+
+code: RSOT 538
+term: 2018S1-2,
+
+code: RUSS 101
+term: 2018S1,
+
+code: SCAN 332B
+term: 2018S1,
+
+code: SOCI 101
+term: 2018S1,
+
+code: SOCI 102
+term: 2018S2,
+
+code: SOCI 200
+term: 2018S1,
+
+code: SOCI 201
+term: 2018S1,
+
+code: SOCI 210
+term: 2018S2,
+
+code: SOCI 217
+term: 2018S1,
+
+code: SOCI 250
+term: 2018S1,
+
+code: SOCI 328
+term: 2018S1, 2018S2,
+
+code: SOCI 342
+term: 2018S2,
+
+code: SOCI 361A
+term: 2018S2,
+
+code: SOCI 371
+term: 2018S2,
+
+code: SOCI 382
+term: 2018S1,
+
+code: SOCI 430
+term: 2018S1,
+
+code: SOCI 435B
+term: 2018S1-2,
+
+code: SOCI 470
+term: 2018S1,
+
+code: SOCI 480A
+term: 2018S1,
+
+code: SOCI 480B
+term: 2018S1,
+
+code: SOCI 598A
+term: 2018S2,
+
+code: SOCI 598B
+term: 2018S2,
+
+code: SOIL 530A
+term: 2018S1,
+
+code: SOIL 530B
+term: 2018S1-2,
+
+code: SOIL 530C
+term: 2018S1-2,
+
+code: SOIL 530D
+term: 2018S2,
+
+code: SOIL 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SOIL 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SOWK 315
+term: 2018S1-2,
+
+code: SOWK 316
+term: 2018S1-2,
+
+code: SOWK 415
+term: 2018S1-2,
+
+code: SOWK 416
+term: 2018S1-2,
+
+code: SOWK 430A
+term: 2018S2,
+
+code: SOWK 440H
+term: 2018S1,
+
+code: SOWK 440R
+term: 2018S1,
+
+code: SOWK 452
+term: 2018S1,
+
+code: SOWK 506
+term: 2018S1-2,
+
+code: SOWK 516
+term: 2018S1-2,
+
+code: SOWK 526A
+term: 2018S1,
+
+code: SOWK 553C
+term: 2018S1-2,
+
+code: SOWK 559
+term: 2018S1-2,
+
+code: SOWK 560C
+term: 2018S1-2,
+
+code: SOWK 570
+term: 2018S2,
+
+code: SOWK 699
+term: 2018S1-2,
+
+code: SPAN 101
+term: 2018S1,
+
+code: SPAN 102
+term: 2018S2,
+
+code: SPAN 201
+term: 2018S1,
+
+code: SPAN 202
+term: 2018S2,
+
+code: SPAN 548
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SPAN 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SPAN 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SPHA 532
+term: 2018S1,
+
+code: SPHA 544
+term: 2018S1,
+
+code: SPHA 561
+term: 2018S1,
+
+code: SPHA 564
+term: 2018S1,
+
+code: SPHA 590A
+term: 2018S1-2,
+
+code: SPPH 301
+term: 2018S1,
+
+code: SPPH 508
+term: 2018S1,
+
+code: SPPH 529
+term: 2018S1-2,
+
+code: SPPH 538
+term: 2018S1, 2018S2,
+
+code: SPPH 554
+term: 2018S1, 2018S2,
+
+code: SPPH 576
+term: 2018S2,
+
+code: SPPH 578
+term: 2018S2,
+
+code: SPPH 580M
+term: 2018S1-2,
+
+code: SPPH 598
+term: 2018S1-2,
+
+code: SPPH 599
+term: 2018S1-2,
+
+code: SPPH 699
+term: 2018S1-2,
+
+code: STAT 200
+term: 2018S2,
+
+code: STAT 241
+term: 2018S1,
+
+code: STAT 251
+term: 2018S1,
+
+code: STAT 302
+term: 2018S1,
+
+code: STAT 398
+term: 2018S1-2,
+
+code: STAT 399
+term: 2018S1-2,
+
+code: STAT 498
+term: 2018S1-2,
+
+code: STAT 499
+term: 2018S1-2,
+
+code: STAT 549A
+term: 2018S1-2,
+
+code: STAT 589
+term: 2018S1-2,
+
+code: STAT 598
+term: 2018S1-2,
+
+code: STAT 599
+term: 2018S1-2,
+
+code: STAT 649
+term: 2018S1-2,
+
+code: STS 599
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: SURG 548C
+term: 2018S1-2,
+
+code: SURG 549C
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: TEST 100
+term: 2018S1-2,
+
+code: TEST 500
+term: 2018S2,
+
+code: THTR 399A
+term: 2018S1,
+
+code: THTR 399B
+term: 2018S2,
+
+code: THTR 440A
+term: 2018S1,
+
+code: THTR 448A
+term: 2018S1-2,
+
+code: THTR 448B
+term: 2018S2,
+
+code: THTR 448C
+term: 2018S1-2,
+
+code: THTR 547B
+term: 2018S1, 2018S2,
+
+code: THTR 547C
+term: 2018S1, 2018S1-2,
+
+code: THTR 549A
+term: 2018S1, 2018S1-2,
+
+code: THTR 549B
+term: 2018S1-2, 2018S2,
+
+code: THTR 549C
+term: 2018S1-2,
+
+code: THTR 649
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: UDES 506
+term: 2018S1,
+
+code: URSY 530
+term: 2018S1-2,
+
+code: VANT 140A
+term: 2018SA,
+
+code: VANT 149
+term: 2018S1, 2018S1-2,
+
+code: VANT 151
+term: 2018S1, 2018S1-2,
+
+code: VGRD 500
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: VGRD 600
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: VISA 580
+term: 2018S1-2,
+
+code: VURS 499
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: WOOD 300
+term: 2018S1-2,
+
+code: WOOD 305
+term: 2018S1,
+
+code: WOOD 312
+term: 2018S1-2,
+
+code: WOOD 353
+term: 2018S1,
+
+code: WOOD 400
+term: 2018S1-2,
+
+code: WOOD 411
+term: 2018S1-2,
+
+code: WOOD 461
+term: 2018S1,
+
+code: WOOD 465
+term: 2018S1,
+
+code: WOOD 493
+term: 2018S1-2,
+
+code: WRDS 150
+term: 2018S1, 2018S2,
+
+code: WRIT 098
+term: 2018S1, 2018S2,
+
+code: WRIT 099
+term: 2018S1, 2018S2,
+
+code: ZOOL 500A
+term: 2018S1-2,
+
+code: ZOOL 500B
+term: 2018S1-2,
+
+code: ZOOL 500C
+term: 2018S1-2, 2018S2,
+
+code: ZOOL 549
+term: 2018S1, 2018S1-2, 2018S2,
+
+code: ZOOL 649
+term: 2018S1, 2018S1-2, 2018S2,

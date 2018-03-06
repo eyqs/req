@@ -1,0 +1,201 @@
+
+
+code: GEOB 102
+name: Our Changing Environment: Climate and Ecosystems
+cred: 3
+desc: Energy and water in the Earth-Atmosphere system, global climates and climate change, ecosystem properties and processes, human impacts. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-2*-0]
+
+code: GEOB 103
+name: Our Changing Environment: Water and Landscapes
+cred: 3
+desc: Physical processes acting at the Earth's surface; water cycle; landforms; human impacts. Please consult the Faculty of Science Credit Exclusion Lists: www.students.ubc.ca/calendar/index.cfm?tree=12,215,410,414. [3-2*-0]
+
+code: GEOB 200
+name: Atmospheric Environments
+cred: 3
+desc: Physical principles underlying weather and climates. Thermal, moisture and wind climates at scales from valleys to the globe. Daily weather, air pollution, global change. Credit will be granted for only one of GEOB 200, GEOB 204, GEOG 200, GEOG 204, or AGRO 244. [3-2*-0]
+prer: One of GEOG 102, GEOB 102 or first-year science.
+preq: GEOG 102 or GEOB 102 or first-year science
+
+code: GEOB 204
+name: Introduction to Biometeorology
+cred: 3
+desc: Basic principles and processes of climatology. Energy and water balance concepts. Weather systems and climate change, microclimate of soils, crops, forests, and animals. Credit will be granted for only one of GEOB 200, GEOB 204, or APBI 244. [3-2-0]
+
+code: GEOB 206
+name: Geomorphic Processes and Hazards
+cred: 3
+desc: Earth surface processes shaping the landscape; identification of hazards and hazardous areas associated with these processes; introduction to techniques for measurement and analysis at various spatial and time scales; field trips are required. [3-2*-0]
+prer: One of GEOB 103, EOSC 110, PHYS 101, PHYS 107, PHYS 153, SCIE 001.
+preq: GEOB 103 or EOSC 110 or PHYS 101 or PHYS 107 or PHYS 153 or SCIE 001
+
+code: GEOB 207
+name: Introduction to Biogeography
+cred: 3
+desc: Geographical ecology emphasizing plant distributions, abiotic-biotic interactions, effects of disturbance, succession, and human impacts across scales. Labs and field trips examine a local site. [3-2*-0]
+prer: One of GEOG 102, GEOB 102 and one of GEOG 103, GEOB 103.
+preq: (GEOG 102 or GEOB 102) and (GEOG 103 or GEOB 103)
+
+code: GEOB 270
+name: Geographic Information Science
+cred: 3
+desc: Computer-based graphical methods of data input and analysis. Emphasis on data visualization techniques such as cartographic modelling and exploratory data analysis. Preclusion: Not available to those who completed GEOG 370 before September 2005. [2-2-0]
+
+code: GEOB 300
+name: Microscale Weather and Climate
+cred: 3
+desc: Meteorology and climatology at the micro-, local, and meso-scales. Interactions between land surfaces and atmosphere. Basics of atmospheric turbulence and transfer processes. Microclimates on scales of a leaf to those of a large valley. [3-0-0]
+prer: One of GEOB 200, GEOB 204, ATSC 201.
+preq: GEOB 200 or GEOB 204 or ATSC 201
+
+code: GEOB 304
+name: Synoptic Meteorology and Climatology
+cred: 3
+desc: Analysis of meteorological fields, diagnostic analysis of synoptic weather systems, applications of synoptic meteorology. Requires participation in weekly weather map discussion. [2-2-0]
+prer: One of GEOG 200, GEOB 200, ATSC 201.
+preq: GEOG 200 or GEOB 200 or ATSC 201
+
+code: GEOB 305
+name: Introduction to Hydrology
+cred: 3
+desc: Principles of hydrology at site, watershed, and larger regional scales. Introduction to techniques of measurement and analysis. Emphasizes surface water hydrology of western North America. [3-2*-0]
+prer: One of GEOB 200, GEOB 204, APBI 244, ATSC 201.
+preq: GEOB 200 or GEOB 204 or APBI 244 or ATSC 201
+
+code: GEOB 307
+name: Biogeography and Global Change
+cred: 3
+desc: Biogeographic concepts in understanding responses in ecosystems to environmental change at global, regional, and local scales. Conservation issues such as the loss of biodiversity and endangered species. [3-2*-0]
+prer: One of BIOL 230, GEOB 207, FRST 202.
+preq: BIOL 230 or GEOB 207 or FRST 202
+
+code: GEOB 308
+name: Quaternary and Applied Geomorphology
+cred: 3
+desc: Quaternary landscape development emphasizing the history of glaciation with special reference to western North America; applications of geomorphology in resource development and land management; interpretation of quaternary materials. Weekend field trips required. [3-2*-0]
+prer: One of EOSC 320, EOSC 330, GEOB 206.
+preq: EOSC 320 or EOSC 330 or GEOB 206
+
+code: GEOB 309
+name: Geographical Sciences Field Course
+cred: 3
+desc: Field sampling, instrumentation, surveying, mapping techniques, and data analysis; mandatory multi-day field camp in April or May. Special fees and liability insurance are required. 
+prer: One of BIOL 230, GEOB 207 and one of GEOB 200, GEOB 204.
+preq: (BIOL 230 or GEOB 207) and (GEOB 200 or GEOB 204)
+crer: One of GEOB 206, EOSC 330.
+creq: GEOB 206 or EOSC 330
+
+code: GEOB 370
+name: Advanced Geographic Information Science
+cred: 3
+desc: Theoretical and practical aspects of Geographic Information Systems, including cartographic modeling, digital terrain models, management issues, and spatial interpolation. [2-2-0]
+prer: GEOB 270. Or third-year standing in ENSC or GEOB specializations, with some introductory knowledge of GIS.
+preq: GEOB 270. Or third-year standing in ENSC or GEOB specializations or with some introductory knowledge of GIS
+
+code: GEOB 372
+name: Cartography
+cred: 3
+desc: Cartographic methods: development of cartography; projections; data ordering, compilation and symbolization; cartographic design, map reproduction. [2-2-0]
+prer: 6 credits from GEOB 102, GEOB 103, GEOB 200, GEOB 204, GEOB 207.
+preq: 6 credits from GEOB 102 GEOB 103 GEOB 200 GEOB 204 GEOB 207
+
+code: GEOB 373
+name: Introductory Remote Sensing
+cred: 3
+desc: Aerial photography; measurement from aerial photographs; photo-interpretation in geographic analysis; remote sensing of the earth's surface and atmosphere. [3-2*-0]
+prer: GEOB 270. Or third-year standing in ENSC or GEOB specializations.
+preq: GEOB 270. Or third-year standing in ENSC or GEOB specializations
+
+code: GEOB 400
+name: Global Change Science
+cred: 3
+desc: Processes controlling the planetary cycles of elements like carbon, nitrogen and phosphorus, the human perturbation of these biogeochemical cycles, and the consequences for the atmosphere, terrestrial ecosystems, and aquatic ecosystems. [3-0-1]
+prer: Either (a) all of BIOL 121, CHEM 111 or (b) all of BIOL 121, CHEM 121 or (c) SCIE 001. Fourth year standing is also required.
+preq: (BIOL 121 and CHEM 111) or (BIOL 121 and CHEM 121) or SCIE 001. Fourth year standing is also required
+
+code: GEOB 401
+name: Urban Meteorology
+cred: 3
+desc: The impact of urbanization upon atmospheric processes and climates. The energy and water balances of cities. Meteorological effects (urban heat island, precipitation modification, etc.) and their significance. Models of the urban atmosphere. [3-0-0]
+prer: One of GEOG 204, GEOB 204, GEOG 300, GEOB 300, AGRO 244, APBI 244.
+preq: GEOG 204 or GEOB 204 or GEOG 300 or GEOB 300 or AGRO 244 or APBI 244
+
+code: GEOB 402
+name: Air Pollution Meteorology
+cred: 3
+desc: The nature of atmospheric pollutants. The ability of the atmosphere to disperse, transform, and remove pollutants. Air pollution dispersion models. Air quality monitoring, criteria, and standards. [3-0-0]
+prer: One of GEOB 200, GEOB 300.
+preq: GEOB 200 or GEOB 300
+
+code: GEOB 403
+name: Catchment Hydrology
+cred: 3
+desc: Hydrometeorology; runoff processes; streamwater chemistry in relation to runoff processes; effects of climate variations and land cover change on streamflow regimes; models of catchment hydrology. [3-0-0]
+prer: One of GEOB 200, GEOB 204 and one of GEOB 305, FRST 385 and one of STAT 200, FRST 231, BIOL 300.
+preq: (GEOB 200 or GEOB 204) and (GEOB 305 or FRST 385) and (STAT 200 or FRST 231 or BIOL 300)
+
+code: GEOB 405
+name: Fluvial Geomorphology
+cred: 3
+desc: Introduction to open channel flow and sediment transport. River morphology and channel types. Palaeohydrology. The development of channel networks. [2-3-0]
+prer: One of EOSC 320, EOSC 330, GEOB 206.
+preq: EOSC 320 or EOSC 330 or GEOB 206
+
+code: GEOB 406
+name: Watershed Geomorphology
+cred: 3
+desc: Hillslope and stream channel processes and their rates of operation. Analysis and modeling geomorphic processes and associated hazards at the watershed scale. Applications in geoscience and engineering. [2-2-0]
+prer: One of GEOB 206, EOSC 330.
+preq: GEOB 206 or EOSC 330
+
+code: GEOB 407
+name: Vegetation Dynamics: Disturbance, Climate and Human Impacts
+cred: 3
+desc: Investigation of vegetation dynamics integrating theory and research to address contemporary issues of global environmental change. Students will conduct fieldwork and learn to analyze data and interpret results. [2-3-0]
+prer: One of BIOL 230, GEOB 207, FRST 201.
+preq: BIOL 230 or GEOB 207 or FRST 201
+
+code: GEOB 408
+name: Snow and Ice Processes
+cred: 3
+desc: Formation of snow and ice masses and their evolution including snowpacks, glaciers, and ice sheets. Relationships between snow, ice, and climate including glacier dynamics and avalanche forecasting. Weekend field trip. [3-0-0]
+prer: One of PHYS 101, PHYS 107, PHYS 153, SCIE 001 and one of GEOB 305, GEOB 308.
+preq: (PHYS 101 or PHYS 107 or PHYS 153 or SCIE 001) and (GEOB 305 or GEOB 308)
+
+code: GEOB 409
+name: Self-Directed Field Studies in Physical Geography
+cred: 3
+desc: Advanced research design, field sampling methods, instrumentation, surveying, mapping techniques, data analysis and management; self-directed fieldwork; 1 lecture per week during term and a multi-day field camp in April or May. [2-0-0]
+prer: GEOB 309. Third-year standing in Geographical Biogeosciences Major.
+preq: GEOB 309. Third-year standing in Geographical Biogeosciences Major
+
+code: GEOB 448
+name: Directed Studies in Geographical Sciences
+cred: 3, 4
+desc: For fourth-year students in Geography to permit investigation of a topic to be agreed upon by a member of the faculty and the student. Permission of the department head and of a supervisory faculty member is required. Credit will be granted for only one of GEOB 448 or GEOG 448. 
+
+code: GEOB 449
+name: Undergraduate Thesis
+cred: 3, 6
+desc: Original research on an approved topic, developed under the guidance of a faculty member. Open to 4th year students in Geographical Biogeosciences with appropriate background courses related to the research topic, and permission of the directing faculty member. The 3-credit option is only available to students who complete GEOB 449 in tandem with GEOB 409. 
+
+code: GEOB 472
+name: Research in Cartography
+cred: 3
+desc: Use of cartography in primary research applications. Discussion of contemporary topics in cognitive, social, and technical cartography and data visualization. [3-2*-0]
+prer: One of GEOB 270, GEOB 372.
+preq: GEOB 270 or GEOB 372
+
+code: GEOB 479
+name: Research in Geographic Information Science
+cred: 3
+desc: Students use GIS in primary research applications in conservation biology, crime analysis, and health geography; theoretical and practical aspects considered in a hands-on environment. [2-2-0]
+prer: GEOB 370.
+preq: GEOB 370
+
+code: GEOB 490
+name: Student Directed Seminar in Geographical Sciences
+cred: 3
+desc: Self-directed, collaborative studies in physical geography, in a group-learning environment, initiated and coordinated by senior undergraduate students with the supervision of a faculty advisor. Course structure, enrolment, and delivery methods will comply with the "Handbook for Student Directed Seminars." This course carries science credit. Credit will be granted for only one of GEOB 490 and GEOG 442. 
+prer: Third-year standing in Geographical Sciences (GEOB).
+preq: Third-year standing in Geographical Sciences (GEOB)

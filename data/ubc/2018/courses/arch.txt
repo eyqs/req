@@ -1,0 +1,36 @@
+
+
+code: ARCH 403
+name: Themes in Architecture and Design
+cred: 3
+desc: Introduction to a broad range of themes in architecture and design. Restricted to B.En.D. students. 
+
+code: ARCH 404
+name: Topics in Architectural History I (Pre-1900)
+cred: 3, 4, 5, 6, 7, 8
+desc: History of architecture in the pre-1900 time period. Technological, political, social, and economic changes that have influenced architecture and related fields. 
+
+code: ARCH 405
+name: Topics in Architectural History II (1900-Present)
+cred: 3, 4, 5, 6, 7, 8
+desc: History of architecture in the post-1900 time period. Technological, political, social, and economic changes which have influenced architecture and related fields. 
+
+code: ARCH 407
+name: Research Methods
+cred: 3
+desc: Motivations and techniques which underpin environmental design research. 
+
+code: ARCH 410
+name: Design Methods
+cred: 3
+desc: Techniques for environmental design, including architecture. 
+
+code: ARCH 411
+name: Materials and Methods of Construction
+cred: 3
+desc: An investigation of building materials and systems considering design objectives, environmental conditions, historical context, regulatory controls, and economic constraints. The major building systems of light wood frame, steel, and concrete and the technical and expressive opportunities inherent in each. Credit will be granted for only one of ARCH 411 or DES 232. Restricted to B.En.D. students. 
+
+code: ARCH 437
+name: Geometric Modeling
+cred: 3
+desc: Advanced modeling, rendering and image processing applications; the construction of geometric models, their viewing transformations, light and material attributes; mapping and rendering are introduced. Credit will be granted for one of ARCH 437, ARCH 517 or DES 212. Restricted to B.En.D. students. 

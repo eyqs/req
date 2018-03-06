@@ -1,0 +1,11 @@
+
+
+code: SLAV 105
+name: Introduction to Russian and Slavic Culture
+cred: 6
+desc: Cultural developments from the medieval period to the present. 
+
+code: SLAV 307
+name: Literature and Film in Eastern Europe
+cred: 3, 6
+desc: Films and translated literature by Slavic writers with emphasis on the interaction between politics and literature. 

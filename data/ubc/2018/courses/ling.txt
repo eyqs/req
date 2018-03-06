@@ -1,0 +1,206 @@
+
+
+code: LING 100
+name: Introduction to Language and Linguistics
+cred: 3
+desc: Study of language as a universal and uniquely human cognitive system: What universals do all languages share and how do languages differ? An investigation of sound systems, word-building, grammatical principles, language change, dialect variation, language acquisition, neurolinguistics. Recommended but not required for an honours, major, or minor in linquistics or speech sciences. 
+
+code: LING 101
+name: Languages of the World
+cred: 3
+desc: A survey of the linguistic map of the world, examining how languages are genetically classified and how different languages evolve. Principles underlying different writing systems and the decipherment of historical documents. Issues of languages in contact, minority language endangerment, language death and the role of English as a world language. Recommended but not required for an honours, major, or minor in linquistics or speech sciences. 
+
+code: LING 140
+name: Challenging Language Myths
+cred: 3
+desc: Critical consideration of a broad range of commonly held beliefs about language and its relation to the brain and cognition, learning, society, change and evolution. Note. This is an elective course that does not fulfill writing requirements in any faculty or the literature requirement in the Faculty of Arts. 
+
+code: LING 170
+name: Introduction to How to Learn a Language
+cred: 3
+desc: Skills and strategies for second language acquisition, through the foundations of pronunciation, vocabulary, grammar, and pragmatics, connected to the practical, social, and personal challenges of language learning. 
+
+code: LING 200
+name: Linguistic Theory and Analysis I
+cred: 3
+desc: Introduction to phonetics and phonology; training in the identification and production of speech sounds; principles and methods for describing and writing the sound system of a language; phonological theory with reference to selected languages; the interface between phonology and morphology. Analytical practice and seminar discussion. 
+
+code: LING 201
+name: Linguistic Theory and Analysis II
+cred: 3
+desc: Introduction to grammatical analysis; morphology, syntax, semantics; synchronic analysis and description with illustrations from various languages. Analytical practice and seminar discussion. 
+
+code: LING 209
+name: Clinical Topics in Speech, Language, and Hearing Sciences
+cred: 3
+desc: Introduction to speech and hearing sciences, with emphasis on the clinical perspectives of audiology and speech pathology. 
+
+code: LING 222
+name: Language Acquisition
+cred: 3
+desc: Audition and speech perception, phonological organization, word learning, syntax, and pragmatics. 
+
+code: LING 270
+name: Introduction to Studies in Second Language Acquisition
+cred: 3
+desc: Linguistic systems that learners of an additional language develop as they approximate towards the target language, and key questions about what this 'interlanguage' system reveals about how we learn languages. 
+prer: One of LING 100, LING 101, LING 140, LING 170.
+preq: LING 100 or LING 101 or LING 140 or LING 170
+
+code: LING 300
+name: Studies in Grammar
+cred: 3
+desc: Introduction to syntactic analysis and theory, with emphasis on description and analysis of data from a wide variety of languages. 
+prer: LING 201.
+preq: LING 201
+
+code: LING 311
+name: Studies in Phonology
+cred: 3
+desc: Introduction to phonological analysis and theory, with a strong emphasis on description and analysis of data from a wide variety of languages. 
+prer: LING 200.
+preq: LING 200
+
+code: LING 313
+name: Introduction to Linguistic Phonetics and Speech Science
+cred: 3
+desc: The articulatory and acoustic properties of speech production and perception, including practice in phonetic transcription, instrumental recording, and the analysis of normal speech. 
+prer: LING 200. Recommended: All of LING 100,  PSYC 100 (or PSYC 101 and 102), PSYC 217 and 218, PHYS 341.
+preq: LING 200. Recommended: All of LING 100 PSYC 100 (or PSYC 101 and 102) PSYC 217 and 218 PHYS 341
+
+code: LING 314
+name: Instrumental Phonetics
+cred: 3
+desc: Physiological and/or acoustic phonetics. Focus on experimental methods and analysis techniques. Topics may include: source-filter theory; spectral and temporal acoustic analysis, inter-articulator timing and motor coordination. 
+prer: LING 313. Recommended: All of LING 100, PSYC 100 (or PSYC 101 and 102), PSYC 217 and 218, PHYS 341.
+preq: LING 313. Recommended: All of LING 100 PSYC 100 (or PSYC 101 and 102) PSYC 217 and 218 PHYS 341
+
+code: LING 319
+name: Historical Linguistics
+cred: 3
+desc: How and why languages change over time, and how languages can be grouped into families based on historical relationships. Methods of comparative and internal reconstruction of phonological, morphological, syntactic, semantic change. Social factors in language change. Not offered every year. 
+prer: LING 200 and LING 201.
+preq: LING 200 and LING 201
+
+code: LING 327
+name: Introduction to Semantics
+cred: 3
+desc: The analysis and theory of linguistic meaning with emphasis on formal techniques for semantic analysis and their application to empirical phenomena in language, including pragmatics. 
+prer: LING 201.
+preq: LING 201
+
+code: LING 333
+name: Research Methods for Linguistics
+cred: 3
+desc: Research methods used in linguistics and speech science. Emphasis on scientific reasoning, critical thinking, experimental design, and the ethics and methods of linguistic data-collection. 
+prer: All of LING 200, LING 201.
+preq: LING 200 and LING 201
+
+code: LING 345
+name: Pragmatics
+cred: 3
+desc: Selected topics in pragmatics and information structure, including variations in their cross-linguistic expression and the corresponding influence of sentence form on context. 
+prer: One of LING 201, ENGL 331, PHIL 220.
+preq: LING 201 or ENGL 331 or PHIL 220
+
+code: LING 405
+name: Morphology
+cred: 3
+desc: Analytic and theoretical consideration of the interrelation of word formation, sound patterning, and meaningful sentence structure. Not offered every year. 
+prer: All of LING 300, LING 311. Recommended: LING 327
+preq: LING 300 and LING 311. Recommended: LING 327
+
+code: LING 410
+name: Advanced Phonology
+cred: 3
+desc: Current issues in phonological theory. 
+prer: LING 311.
+preq: LING 311
+
+code: LING 420
+name: Introduction to Linguistics
+cred: 3
+desc: General background to linguistic studies; the different approaches to the analysis of languages; synchronic and diachronic linguistics; phonetics, phonology, morphology, syntax, and semantics. Not available for credit toward a Major or Honours program in Linguistics. 
+
+code: LING 421
+name: Advanced Syntax
+cred: 3
+desc: Current issues in syntactic theory. 
+prer: LING 300.
+preq: LING 300
+
+code: LING 425
+name: Advanced Semantics
+cred: 3
+desc: Current issues in semantic theory. 
+prer: LING 327 or PHIL 220. A basic introduction to syntax is recommended (e.g., LING 100, LING 201, or ENGL 331).
+preq: LING 327 or PHIL 220. A basic introduction to syntax is recommended (e.g. or LING 100 or LING 201 or ENGL 331)
+
+code: LING 430
+name: Honours Seminar in Linguistics
+cred: 3, 6
+desc: Research papers on general linguistic topics to be read and discussed. 
+
+code: LING 431
+name: Field Methods I
+cred: 3
+desc: Elicitation, transcription, organization, and analysis of linguistic data from a native speaker of a language not commonly studied. Practical experience in the use of fieldwork equipment. 
+prer: All of LING 300, LING 311.
+preq: LING 300 and LING 311
+
+code: LING 432
+name: Field Methods II
+cred: 3
+desc: Elicitation, transcription, organization, and analysis of linguistic data from a native speaker of a language not commonly studied.  Practical experience in the use of fieldwork equipment. 
+prer: LING 431.
+preq: LING 431
+
+code: LING 433
+name: Native Languages of the Americas
+cred: 3
+desc: Survey of the indigenous languages of the Americas. Study of the basis of genetic classification and areal similarities. The structure of representative languages will be presented and contrasted. The present status of American Indian languages will be considered. Note: this course is not necessarily offered every year. 
+
+code: LING 436
+name: Community-based Language Research
+cred: 3
+desc: Research methods and partnerships, ethical paradigms, the social, cultural and historical context of language research, and the relation of language research to pedagogy, policy and planning. 
+
+code: LING 445
+name: Sociolinguistics
+cred: 3
+desc: The systematic study of language as a social phenomenon. 
+prer: All of LING 200, LING 201.
+preq: LING 200 and LING 201
+
+code: LING 447
+name: Topics in Linguistics
+cred: 3, 12
+desc: A capstone course for Linguistics and Speech Sciences majors, normally taken after three years of study.  Individual sections will differ substantially; see online Course List for detailed descriptions and prerequisites. May be repeated for credit when content is different. 
+
+code: LING 448
+name: Directed Studies
+cred: 3, 6
+desc: Supervisor and topic chosen by mutual agreement between student and Linguistics faculty member. Department Advisor approval is required. 
+
+code: LING 449
+name: Honours Essay
+cred: 6
+
+code: LING 451
+name: Acquisition of Phonology
+cred: 3
+desc: Development of the phonological system in typical first language acquisition from the perspective of diverse linguistic topics. Phonetic transcription of child speech. 
+prer: All of LING 222, LING 311.
+preq: LING 222 and LING 311
+
+code: LING 452
+name: Acquisition of Syntax
+cred: 3
+desc: Central issues in the first language acquisition of syntax, including early lexical and semantic development, acquisition of morphology, and syntactic development (e.g., word order, questions). 
+prer: All of LING 222, LING 300.
+preq: LING 222 and LING 300
+
+code: LING 469
+name: Clinical Topics in Speech, Language, and Hearing Sciences
+cred: 3
+desc: Introduction to speech and hearing sciences with emphasis on the clinical perspectives of audiology and speech pathology. 

@@ -1,0 +1,340 @@
+
+
+code: FNH 200
+name: Exploring Our Food
+cred: 3
+desc: Chemical and physical properties of foods; issues pertaining to safety, nutritive value and consumer acceptability; government regulations pertaining to food safety, quality and additives; preservation techniques and transformation of agricultural commodities to food products; foods of the future. [3-0-0]
+prer: At least second year standing required.
+preq: At least second year standing required
+
+code: FNH 250
+name: Nutrition Concepts and Controversies
+cred: 3
+desc: Fundamental concepts and principles of human nutrition applied to current nutrition issues. [3-0-0]
+prer: Either (a) one of BIOL 111, BIOL 112, BIOL 153, BIOL 155 or (b) all of KIN  190, KIN  191. At least second-year standing required.
+preq: (BIOL 111 or BIOL 112 or BIOL 153 or BIOL 155) or (KIN 190 and KIN 191. At least second-year standing required)
+
+code: FNH 290
+name: Introductory Topics in Food, Nutrition, and Health
+cred: 3
+desc: Analysis and interpretation of current issues in food, nutrition, and health. Topics will vary from year to year. 
+
+code: FNH 300
+name: Principles of Food Engineering
+cred: 3
+desc: Units and dimensions, mass balance, energy balance, steady state and transient heat flow, fluid handling and measurement. [3-0-1]
+prer: One of PHYS 101, PHYS 107.
+preq: PHYS 101 or PHYS 107
+
+code: FNH 301
+name: Food Chemistry I
+cred: 3
+desc: Constituents of food and related chemical physical properties including water, carbohydrates, proteins, lipids, minerals, and vitamins. [3-0-1]
+prer: Either (a) CHEM 201 or (b) CHEM 205;  and either (a) CHEM 203 or (b) CHEM 233.
+preq: (CHEM 201 or CHEM 205;) and (CHEM 203 or CHEM 233)
+
+code: FNH 302
+name: Food Analysis
+cred: 3
+desc: Principles of and procedures for analysis of the chemical and physical properties of food; proximate analysis; introduction to instrumental analysis; reporting and analysis of data. [3-0-1]
+prer: Either (a) CHEM 201 or (b) CHEM 205;  and either (a) CHEM 203 or (b) CHEM 233.
+preq: (CHEM 201 or CHEM 205;) and (CHEM 203 or CHEM 233)
+
+code: FNH 303
+name: Food Product Development
+cred: 3
+desc: Introduction to and application of concepts involved in food product formulation and development. 
+prer: One of LFS  252, BIOL 300, EPSE 482, FRST 231, STAT 200, FNH  301.
+preq: LFS 252 or BIOL 300 or EPSE 482 or FRST 231 or STAT 200 or FNH 301
+
+code: FNH 309
+name: Food Process Science
+cred: 3
+desc: Preservation of tissue and fluid food systems by selected physical and chemical treatments with emphasis on product-process interactions. [3-0-1]
+
+code: FNH 313
+name: Food Microbiology
+cred: 3
+desc: Food microorganisms of importance in safety and spoilage of foods; factors affecting growth, survival and inactivation of microorganisms in foods; food processing plant cleaning and sanitation. 
+prer: BIOL 112.
+preq: BIOL 112
+
+code: FNH 325
+name: Food Science Laboratory I
+cred: 3
+desc: Integrated laboratory introducing techniques used in food processing and analysis. Enrolment restricted to Food Science students. [0-3-1]
+prer: All of FNH  300, FNH  301, FNH  302. These courses can be taken as corequisites.
+preq: FNH 300 and FNH 301 and FNH 302. These courses can be taken as corequisites
+
+code: FNH 326
+name: Food Science Laboratory II
+cred: 3
+desc: Integrated laboratory encompassing the processing and analysis of foods.  Enrolment restricted to Food Science students. [0-3-1]
+prer: FNH  325.
+preq: FNH 325
+
+code: FNH 330
+name: Introduction to Wine Science 1
+cred: 3
+desc: Principles of viticulture, enology, and wine microbiology and chemistry; marketing, regulation and classification of wines from selected regions of the world; social, economic and health aspects of wine consumption; wine appreciation. [2-1-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: FNH 335
+name: Introduction to Wine Science II
+cred: 3
+desc: Review of diverse styles of wine with consideration of classic wine-producing areas. Concepts in wine microbiology/chemistry; overview of steps in grape processing for diverse wine styles. Comparison of regulations for Canadian VQA systems with international systems. Wine sensory analysis. [3-1-0]
+prer: FNH  330 and third-year standing or higher.
+preq: FNH 330 and (third-year standing or higher)
+
+code: FNH 340
+name: Food Theory
+cred: 3
+desc: Principles of food preparation based on the physical and chemical properties of food. 
+prer: FNH  200 and either (a) all of CHEM 111, CHEM 113 or (b) all of CHEM 121, CHEM 123.
+preq: FNH 200 and ((CHEM 111 and CHEM 113) or (CHEM 121 and CHEM 123))
+crer: FNH  341.
+creq: FNH 341
+
+code: FNH 341
+name: Food Theory Applications
+cred: 3
+desc: Experimental and practical application of scientific principles and theories to problems of food preparation. Note: Course registrants are required to possess a Foodsafe I certificate. 
+crer: FNH  340.
+creq: FNH 340
+
+code: FNH 342
+name: Critical Perspectives on Consumer Food Practices
+cred: 3
+desc: Personal, collective, and policy factors affecting food choices, including perceptions of healthy eating, gender, identity, family structures, and economic, sociocultural, and political forces. [3-0-0]
+prer: At least third year standing required.
+preq: At least third year standing required
+
+code: FNH 350
+name: Fundamentals of Nutrition
+cred: 3
+desc: Fundamentals of energy and macronutrient metabolism. [3-0-0]
+prer: FNH  250 and one of BIOL 201, BIOC 202.
+preq: FNH 250 and (BIOL 201 or BIOC 202)
+
+code: FNH 351
+name: Vitamins, Minerals, and Health
+cred: 3
+desc: Vitamin and mineral nutrition and their role in maintaining and promoting health. [3-0-0]
+prer: FNH  250 and one of BIOL 201, BIOC 202.
+preq: FNH 250 and (BIOL 201 or BIOC 202)
+
+code: FNH 355
+name: International Nutrition
+cred: 3
+desc: Conceptualization and scientific analyses of global problems in food and nutrition; complexities of food habits and malnutrition in various cultures around the world. [3-0-0]
+
+code: FNH 370
+name: Nutrition Assessment
+cred: 3
+desc: The use of dietary, anthropometric, biochemical, and related information for the assessment of nutritional status of individuals and populations. [3-0-0]
+prer: FNH  250.
+preq: FNH 250
+
+code: FNH 371
+name: Human Nutrition Over The Life Span
+cred: 3
+desc: Nutritional requirements and dietary patterns of healthy individuals throughout the life span. 3-0-0
+prer: FNH  250.
+preq: FNH 250
+
+code: FNH 380
+name: Professional Dietetic Practice I
+cred: 3
+desc: Introduction to the profession of dietetics in Canada. Restricted to students in the Dietetics Major. 
+
+code: FNH 381
+name: Professional Dietetic Practice II
+cred: 3
+desc: Themes include: nutrition communications, professional practice, and dietetic practice environments. Restricted to students in the Dietetics Major. 
+prer: FNH  380.
+preq: FNH 380
+
+code: FNH 398
+name: Research Methods in Human Nutrition
+cred: 3
+desc: Process of research; principles and processes in utilizing research. Restricted to students in majors in the FNH program. [3-0-0]
+prer: FNH  250 and either (a) LFS  252 or (b) BIOL 300 or (c) EPSE 482 or (d) FRST 231 or (e) STAT 200.
+preq: FNH 250 and (LFS 252 or BIOL 300 or EPSE 482 or FRST 231 or STAT 200)
+
+code: FNH 402
+name: Functional Foods and Nutraceuticals
+cred: 3
+desc: Functional food and nutraceutical concepts related to ingredient safety and quality; examples of nutrient-disease relationships, requirements for standards of efficacy for health claims; market determinants of functional food and nutraceutical industries. [3-0-0]
+prer: third-year standing
+preq: third-year standing
+
+code: FNH 403
+name: Food Laws, Regulations and Quality Assurance
+cred: 3
+desc: Canadian and international laws governing food composition, grading, quality and safety; hazard analysis critical control points; statistical quality assurance. 
+prer: One of LFS  252, STAT 200, FRST 231, BIOL 300 or equivalent background in statistics.
+preq: LFS 252 or STAT 200 or FRST 231 or BIOL 300 or equivalent background in statistics
+
+code: FNH 405
+name: Microbiology of Food and Beverage Fermentation
+cred: 3
+desc: Fermentation methods, mechanism and microbiology of nonalcoholic fermented foods and alcoholic fermented beverages (beer, cider, sake). 
+prer: One of MICB 201, MICB 202, BIOL 201, BIOL 203, BIOC 203. Third-year standing.
+preq: MICB 201 or MICB 202 or BIOL 201 or BIOL 203 or BIOC 203. Third-year standing
+
+code: FNH 413
+name: Food Safety
+cred: 3
+desc: Microbial and chemical factors that underlie public health challenges in the food supply chain; prevalence and nature of organisms which cause foodborne diseases; approaches and technologies for improvement of food safety. 
+prer: All of MICB 202, CHEM 233.
+preq: MICB 202 and CHEM 233
+
+code: FNH 415
+name: Business Concepts in Food, Nutrition, and Health
+cred: 3
+desc: Introduction to and application of business activities in food, nutrition, and health settings. Credit will only be granted for only one of FNH 415, FOOD 515, or FRE 515. 
+prer: At least third-year standing in the Faculty of Land and Food Systems.
+preq: At least third-year standing in the Faculty of Land and Food Systems
+
+code: FNH 425
+name: Food Science Laboratory III
+cred: 6
+desc: Integrated course designed to illustrate principles of research and product development in the food industry. [0-3-1]
+prer: All of FNH  325, FNH  326.
+preq: FNH 325 and FNH 326
+
+code: FNH 430
+name: Enology and Wine Biotechnology
+cred: 3
+desc: Yeasts and bacteria involved in wine making, metabolic pathways leading to the production of flavour and spoilage compounds, genetic improvement of wine yeasts, and red and white wine fermentations. Approaches and technologies for the improvement of wine safety. Sensory evaluation of wines. 
+prer: One of BIOL 335, MICB 325.
+preq: BIOL 335 or MICB 325
+
+code: FNH 436
+name: Integrated Functional Genomics
+cred: 3
+desc: Global transcript, protein and metabolite profiling technologies, their integration, application, and furtherance of our understanding of how higher organisms function in general. 
+prer: BIOL 335.
+preq: BIOL 335
+
+code: FNH 440
+name: Food Service Systems Management
+cred: 3
+desc: Management responsibilities in quantity food production with emphasis on menu planning, purchasing and service. Includes planning and equipping food services. Restricted to students in the Dietetics major. Note: Course registrants are required to possess a Foodsafe II certificate. 
+prer: FNH  340.
+preq: FNH 340
+
+code: FNH 451
+name: Nutrient Metabolism and Implications for Health
+cred: 3
+desc: Integration of nutrient and energy metabolism on a whole-body and individual tissue basis and the implication for health. Emphasis will be on regulation of nutrient metabolism. [3]
+prer: All of FNH  350, CAPS 301, BIOC 302.
+preq: FNH 350 and CAPS 301 and BIOC 302
+
+code: FNH 454
+name: Fish Nutrition
+cred: 3
+desc: Physiology of digestion and excretion, nutrient requirements, sources of nutrients, diet formulation, feeding management. [3-0-0]
+prer: FNH  350.
+preq: FNH 350
+
+code: FNH 455
+name: Applied International Nutrition
+cred: 3
+desc: Applying nutrition concepts and principles in addressing problems of malnutrition and food insecurity in international settings.  Basics of developing culturally acceptable, sustainable nutrition intervention programs. 
+prer: FNH  355.
+preq: FNH 355
+
+code: FNH 460
+name: International Nutrition Field Studies
+cred: 6
+desc: Theoretical and practical application of international nutrition and food security knowledge and skills.  International field placement for a minimum of 12 weeks with pre-departure sessions.  Restricted to students in International Nutrition Major or by permission of instructor. 
+
+code: FNH 470
+name: Foundations of Nutrition Care I
+cred: 3
+desc: Etiology and pathophysiology of and nutrition therapy for selected diseases and conditions, and skill development related to the Nutrition Care Process. Restricted to students in year 4 of the Dietetics Major. 
+prer: All of FNH  350, FNH  370.
+preq: FNH 350 and FNH 370
+
+code: FNH 472
+name: Maternal and Fetal Nutrition
+cred: 3
+desc: Metabolic adaptations, nutrient metabolism, and special issues during pregnancy that may influence the maternal-fetal nutritional supply. [3-0-0]
+prer: FNH  350. Third-year standing.
+preq: FNH 350. Third-year standing
+
+code: FNH 473
+name: Applied Public Health Nutrition
+cred: 3
+desc: Theory and methods in public health nutrition and health promotion program planning to assess, plan, implement, and evaluate nutrition-related programs for communities and populations. Considers factors affecting behavior and the social determinants of health. [3-0-0]
+prer: FNH  250 and fourth-year standing.
+preq: FNH 250 and fourth-year standing
+
+code: FNH 474
+name: Sport Nutrition
+cred: 3
+desc: Nutritional needs of athletes, including energy, carbohydrate and protein; hydration; pre-and post-event nutrition, weight management and body composition issues; ergogenic aids; sports-specific guidelines; and special athlete populations. 
+prer: All of FNH  350, FNH  351.
+preq: FNH 350 and FNH 351
+
+code: FNH 475
+name: Foundations of Nutrition Care II
+cred: 3
+desc: Etiology and pathophysiology of and nutrition therapy for additional diseases and conditions, and further skill development related to the Nutrition Care Process. Restricted to students in year 4 of the Dietetics Major. 
+prer: FNH  470.
+preq: FNH 470
+
+code: FNH 477
+name: Nutrition and Disease Prevention
+cred: 3
+desc: Evidence-based examination of the role of nutrition in the prevention of chronic disease. [3-0-0]
+prer: FNH  398.
+preq: FNH 398
+
+code: FNH 480
+name: Professional Dietetic Practice III
+cred: 3
+desc: Themes include practice-based research, clinical practice readiness, and orientation to internship. 
+prer: Fourth-year standing in the Dietetics Major.
+preq: Fourth-year standing in the Dietetics Major
+
+code: FNH 481
+name: Dietetic Internship I
+cred: 9
+desc: Full-time internship placements within British Columbia health authorities. Pass/Fail. 
+prer: Fifth-year standing in the Dietetics Major.
+preq: Fifth-year standing in the Dietetics Major
+
+code: FNH 482
+name: Dietetic Internship II
+cred: 9
+desc: Full-time internship placements within British Columbia health authorities. Pass/Fail. 
+prer: FNH  481.
+preq: FNH 481
+
+code: FNH 483
+name: Dietetic Internship III
+cred: 6
+desc: Full-time internship placements within British Columbia health authorities. Pass/Fail. 
+prer: FNH  482.
+preq: FNH 482
+
+code: FNH 490
+name: Advanced Topics in Food, Nutrition, and Health
+cred: 3
+desc: Analysis and interpretation of current issues in food, nutrition and health. 
+prer: 3rd year standing or higher.
+preq: 3rd year standing or higher
+
+code: FNH 497
+name: Directed Studies in Food, Nutrition and Health
+cred: 2, 3, 4, 5
+
+code: FNH 499
+name: Undergraduate Thesis
+cred: 6
+desc: Design and execution of an experimental/analytical research project leading to preparation of a thesis. 
+prer: Approval of a program advisor; consult before the end of classes in third year.
+preq: Approval of a program advisor; consult before the end of classes in third year

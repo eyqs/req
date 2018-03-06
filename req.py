@@ -42,8 +42,8 @@ class Course():
         self.preq = []              # prereq tree, x. ['or', 'CPSC 221', ...]
         self.creq = []              # coreq tree, x. ['and', 'CPSC 213', ...]
         self.excl = ['or']          # exclusions, x. ['or', 'STAT 200', ...]
-        self.term = []              # terms offered, x. ['2017S', '2017W']
-        self.cred = []              # possible credits, x. [3.0, 6.0]
+        self.term = set()           # terms offered, x. {'2017S', '2017W'}
+        self.cred = set()           # possible credits, x. {3.0, 6.0}
 
     # Set course parameters
     def set_params(self, param, value):
@@ -62,18 +62,18 @@ class Course():
         elif param == 'excl':
             self.excl.extend([e.strip() for e in value.split(',')])
         elif param == 'term':
-            self.term.extend([t.strip() for t in value[-1].split(',')])
+            self.term.update({t.strip() for t in value[:-1].split(',')})
         elif param == 'cred':
-            self.cred.extend([float(c.strip()) for c in value.split(',')])
+            self.cred.update({float(c.strip()) for c in value.split(',')})
         else:
             print('Error: parameter not recognized.')
 
     # Get course parameters
     def get_params(self, param=''):
-        params = {'code':self.code, 'name':self.name, 'desc':self.desc,
-                  'prer':self.prer, 'crer':self.crer,
-                  'preq':self.preq, 'creq':self.creq, 'excl':self.excl,
-                  'term':self.term, 'cred':self.cred}
+        params = {'code': self.code, 'name': self.name, 'desc': self.desc,
+                  'prer': self.prer, 'crer': self.crer,
+                  'preq': self.preq, 'creq': self.creq, 'excl': self.excl,
+                  'term': list(self.term), 'cred': list(self.cred)}
         if param in params.keys():
             return params[param]
         else:

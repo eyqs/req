@@ -19,7 +19,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import sys
 import bs4
 import requests
-YEAR = '2017'
+YEAR = '2018'
 OUTPATH = '/courses/excls.txt'
 if len(sys.argv) == 1:
     OUTFILE = YEAR + OUTPATH

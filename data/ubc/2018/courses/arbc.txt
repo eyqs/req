@@ -1,0 +1,32 @@
+
+
+code: ARBC 101
+name: Introduction to the Grammar and Vocabulary of Classic Arabic
+cred: 3
+
+code: ARBC 102
+name: Introduction to the Grammar and Vocabulary of Classic Arabic II
+cred: 3
+prer: ARBC 101.
+preq: ARBC 101
+
+code: ARBC 201
+name: Classical Arabic (Intermediate) I
+cred: 3
+desc: Increased reading ability as well as learning the further essentials of grammar. 
+prer: ARBC 102.
+preq: ARBC 102
+
+code: ARBC 202
+name: Classical Arabic (Intermediate) II
+cred: 3
+desc: Increased reading ability as well as learning the further essentials of grammar. Continuation of ARBC 201. 
+prer: ARBC 201.
+preq: ARBC 201
+
+code: ARBC 420
+name: Supervised Study in Classical Arabic
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Religious and literary Arabic texts pertaining to the early and medieval Islamic world. 
+prer: ARBC 400.
+preq: ARBC 400
