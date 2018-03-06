@@ -6,6 +6,10 @@ h1, h2 {
   text-align: center;
 }
 
+#javascript {
+  display: none;
+}
+
 #wrapper {
   margin: 0 auto;
   padding-bottom: 1rem;

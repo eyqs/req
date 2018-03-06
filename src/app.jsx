@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
+import "babel-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
@@ -211,6 +212,8 @@ class App extends React.Component {
         course_data[code].dreqs = Object.keys(course_data[code].ddict);
       }
     }
+    document.getElementById("noscript").style.display = "none";
+    document.getElementById("javascript").style.display = "block";
   };
 
 
