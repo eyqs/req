@@ -1,0 +1,15 @@
+
+
+code: ASIC 200
+name: Global Issues in the Arts and Sciences
+cred: 3
+desc: Selected global issues explored through the methodologies and perspectives of both the physical and life sciences and the humanities and social sciences. [3-0-0]
+prer: Second year standing in the Faculty of Arts or Faculty of Science.
+preq: Second year standing in the Faculty of Arts or Faculty of Science
+
+code: ASIC 220
+name: Introduction to Sustainability
+cred: 3
+desc: Sustainability examined from scientific, economic, and societal perspectives. [3-0-0]
+prer: Second-year standing.
+preq: Second-year standing

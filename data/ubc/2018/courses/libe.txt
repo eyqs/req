@@ -1,0 +1,30 @@
+
+
+code: LIBE 461
+name: Administration of the School Library Resource Centre
+cred: 3
+desc: The role, philosophy, and management of school library resource centres in elementary and secondary schools. [3-0-0]
+
+code: LIBE 463
+name: Selection of Learning Resources I
+cred: 3
+desc:  [3-0-0]
+
+code: LIBE 465
+name: Organization of Learning Resources
+cred: 3
+desc:  [3-0-0]
+
+code: LIBE 467
+name: Information Services I
+cred: 3
+desc:  [3-0-0]
+
+code: LIBE 477
+name: Special Topics in Teacher Librarianship
+cred: 3, 6
+desc: In-depth study of selected topics in library education. [3-0-0]
+
+code: LIBE 494
+name: Supervised Study in Teacher Librarianship
+cred: 3, 6

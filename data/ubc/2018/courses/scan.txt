@@ -1,0 +1,56 @@
+
+
+code: SCAN 332
+name: Topics in Scandinavian Studies (in English)
+cred: 3, 6
+desc: Selected issues and topics in Scandinavian cultural studies. 
+
+code: SCAN 333
+name: Major Works of Scandinavian Literature (in English)
+cred: 3
+desc: Selected Danish, Swedish, Norwegian, and Icelandic texts ranging from Old Norse sagas to contemporary literary works against the background of literary, social, and political developments in Scandinavia. 
+
+code: SCAN 334
+name: Contemporary Scandinavian Fiction (in English)
+cred: 3
+desc: Study of texts, topics, or genres against the background of current Scandinavian literary, social, and political developments. 
+
+code: SCAN 335
+name: Vikings and Norse Mythology (in English)
+cred: 3
+desc: History, literature, and mythology of early Scandinavian societies. 
+
+code: SCAN 336
+name: Scandinavian Crime Fiction (in English)
+cred: 3
+desc: Crime fictions and films as a mirror of Scandinavian society. 
+
+code: SCAN 337
+name: Scandinavian Cinema (in English)
+cred: 3
+desc: An introduction to the cinemas of the Scandinavian region. 
+
+code: SCAN 411
+name: Scandinavian Drama and Film in Translation
+cred: 3, 6
+desc: Traces the explosive development of a provincial theatre into one of the seminal forces of twentieth-century drama and film. Emphasis on Ibsen, Strindberg, and Bergman. 
+
+code: SCAN 412
+name: The Northern European Epic in Translation
+cred: 3
+desc: Major prose works of the Scandinavian literatures with emphasis on the stylistic qualities of the Old Icelandic sagas and their transformation in the novels of modern Icelandic, Danish, Swedish, and Norwegian writers. Possible authors: Laxness, Blixen, Hamsun, Lindgren. 
+
+code: SCAN 413
+name: The Literatures of the Baltic in English Translation
+cred: 3, 6
+desc: An examination through literature of the historical, cultural, and ethnic elements that have made the Baltic area the crossroads of northeastern Europe. The emphasis is on literature from the Germanic  and Finno-Ugric languages. Authors to be studied include Strindberg, Tikkanen, Transtromer, Kaplinski, Grass, Bobrowski, Lenz. 
+
+code: SCAN 414
+name: Topics in Danish and Northern European Cultural Studies (in English)
+cred: 3
+desc: Selected topics, such as ethnicity, migration, identity, women's issues, Danish and Northern European film. 
+
+code: SCAN 415
+name: The World of the Sagas (in English)
+cred: 3
+desc: Scandinavian contributions to medieval and early modern world literature, culture and history. 

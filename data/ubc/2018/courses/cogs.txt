@@ -1,0 +1,36 @@
+
+
+code: COGS 200
+name: Introduction to Cognitive Systems
+cred: 3
+desc: Interdisciplinary examination of human mental processes and how these are mediated by the brain. Will draw on cognitive psychology, linguistics, cognitive neuroscience, philosophy, artificial intelligence. [3-0-0]
+prer: second-year standing in the Faculty of Arts or Science.
+preq: second-year standing in the Faculty of Arts or Science
+
+code: COGS 300
+name: Understanding and Designing Cognitive Systems
+cred: 3
+desc: Theory and methods for integrating diverse disciplinary content in cognitive systems. [2-3-0]
+prer: COGS 200.
+preq: COGS 200
+
+code: COGS 303
+name: Research Methods in Cognitive Systems
+cred: 3
+desc: Examination and comparison of the research methodologies of different disciplines relevant to cognitive systems. [3-0-0]
+prer: COGS 200.
+preq: COGS 200
+
+code: COGS 401
+name: Seminar in Cognitive Systems
+cred: 3
+desc: Interdisciplinary seminar integrating theory, methods, and current research topics. [1-0-4]
+prer: COGS 300.
+preq: COGS 300
+
+code: COGS 402
+name: Research in Cognitive Systems
+cred: 3
+desc: Supervised research project in a Cognitive Systems-related laboratory. [0-9-0]
+prer: COGS 300. COGS 401 is recommended.
+preq: COGS 300. COGS 401 is recommended

@@ -1,0 +1,337 @@
+
+
+code: VISA 101
+name: BFA Studio Practice
+cred: 3
+desc: Introduction to a broad range of contemporary studio practice. Intended for first year Bachelor of Fine Arts VISA students. 
+
+code: VISA 110
+name: Foundation Studio: Digital Media
+cred: 3
+desc: Foundation instruction in techniques and approaches to digital practice. The nature of digital technologies and their role in contemporary culture will be examined. (This course is open to all UBC students, regardless of prior experience.) 
+
+code: VISA 180
+name: Foundation Studio: Approaches to Media
+cred: 3
+desc: Drawing, painting, and related media in an introduction to studio practice. (This course is open to all UBC students, regardless of prior experience.) 
+
+code: VISA 183
+name: Foundation Studio: Ideas as Practice I
+cred: 3
+desc: Contemporary art practices, emphasizing the relationship between meanings and materials, art historical contexts and concepts, and non-traditional materials. (This course is open to all UBC students, regardless of prior experience.) 
+
+code: VISA 210
+name: Digital Arts
+cred: 3
+desc: Examination of current art practices and issues related to digital technologies and contemporary culture, with an emphasis on the theoretical conceptualization of digital artistic media. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 220
+name: Drawing
+cred: 3
+desc: Development of skills in drawing including life drawing. Introduction to the development of personal style and concepts. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 230
+name: Painting
+cred: 3
+desc: Development of a variety of techniques and approaches to painting. Emphasis on developing a strong paint vocabulary as well as acquiring knowledge of historical and contemporary issues in painting. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 240
+name: Photography
+cred: 3
+desc: Introduction to photography techniques and image-making. Emphasis on camera techniques and film and darkroom production. Only one of VISA 240 or VISA 241 may be used toward requirements for Major, Minor, or Honours programs in Visual Art. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 241
+name: Digital Photography
+cred: 3
+desc: Introduction to digital photography image creation in relation to contemporary art. Emphasis on digital camera use, file management, and digital print production.  Only one of VISA 240 or VISA 241 may be used toward requirements for Major, Minor, or Honours programs in Visual Art. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 250
+name: Print Media
+cred: 3
+desc: Visual print culture, and contemporary and historical technical print practices. Emphasis on hand-drawn intaglio, relief, screen and/or stencil printing, and graphic digital applications. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 260
+name: Sculpture
+cred: 3
+desc: Contemporary sculpture practice and theory. Various sculpture materials and technologies including machinery use. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 270
+name: Special Studies
+cred: 3
+desc: Introduction to various aspects of contemporary studio practice. Not offered every year. 
+prer: A score of 72% or higher in one of VISA 110, VISA 180, VISA 183.
+preq: A score of 72% or higher in one of VISA 110 or VISA 180 or VISA 183
+
+code: VISA 280
+name: Contemporary Art: Ideas as Practice II
+cred: 3
+desc: Development and history of contemporary art practice, with a focus on how artists realize and exchange ideas. Intended for second year BFA VISA students. 
+prer: A score of 72% or higher in VISA 183.
+preq: A score of 72% or higher in VISA 183
+
+code: VISA 310
+name: Intermediate Digital Arts I
+cred: 3
+desc: Exploring issues and topics in interactive digital media and culture through the creation of critical contemporary art. Includes technical instruction with a focus on the development of individual and group projects. 
+prer: One of VISA 210, VISA 287, FINA 287.
+preq: VISA 210 or VISA 287 or FINA 287
+
+code: VISA 311
+name: Intermediate Digital Arts II
+cred: 3
+desc: Investigation of issues and topics in digital media and visual culture through the production of contemporary video art. Technical instruction in video manipulation software. Individual and/or group projects. 
+prer: One of VISA 210, VISA 287, FINA 287.
+preq: VISA 210 or VISA 287 or FINA 287
+
+code: VISA 320
+name: Intermediate Drawing I
+cred: 3
+desc: Investigation of drawing as a discipline in the context of contemporary art. Emphasis on expanding definitions of the drawing practice while focusing on technical and conceptual development. 
+prer: One of VISA 220, VISA 281, FINA 281.
+preq: VISA 220 or VISA 281 or FINA 281
+
+code: VISA 321
+name: Intermediate Drawing II
+cred: 3
+desc: Investigation of drawing as a discipline in the context of contemporary art and theory. Emphasis on self-directed projects in consultation with the instructor. 
+prer: One of VISA 220, VISA 281, FINA 281.
+preq: VISA 220 or VISA 281 or FINA 281
+
+code: VISA 330
+name: Intermediate Painting I
+cred: 3
+desc: Development of techniques and personal style in relation to ideas. History and contemporary issues in painting will be introduced  to assist students in conceptualizing their painting practice. 
+prer: One of VISA 230, VISA 282, FINA 282.
+preq: VISA 230 or VISA 282 or FINA 282
+
+code: VISA 331
+name: Intermediate Painting II
+cred: 3
+desc: Further investigation of painting in the context of contemporary art.  Emphasis on self directed projects in consultation with the instructor. 
+prer: One of VISA 230, VISA 282, FINA 282.
+preq: VISA 230 or VISA 282 or FINA 282
+
+code: VISA 340
+name: Intermediate Photography I
+cred: 3
+desc: An investigation of approaches to photography and its meaning in the context of contemporary art. The term theme will be determined by the instructor. B & W, colour and digital production. 
+prer: One of VISA 240, VISA 241.
+preq: VISA 240 or VISA 241
+
+code: VISA 341
+name: Intermediate Photography II
+cred: 3
+desc: An investigation of contemporary photography production and approaches to the constructed image with emphasis on medium and large format camera use and studio lighting techniques. 
+prer: One of VISA 240, VISA 241.
+preq: VISA 240 or VISA 241
+
+code: VISA 350
+name: Intermediate Print Media I: Interdisciplinary Approaches to Image Production
+cred: 3
+desc: Intaglio and relief print applications (i.e., etching, wood and/or lino cut, and collagraph) in combination with digital and photographic technologies, and drawing; discussion of contemporary and historical visual print culture. 
+prer: Either (a) VISA 250 or (b) one of VISA 290, VISA 283, VISA 284, FINA 290, FINA 283, FINA 284.
+preq: VISA 250 or (VISA 290 or VISA 283 or VISA 284 or FINA 290 or FINA 283 or FINA 284)
+
+code: VISA 351
+name: Intermediate Print Media II: Interdisciplinary Approaches to Image Production
+cred: 3
+desc: Screen printing and other print applications in combination with digital and photographic technologies, and drawing, explored within the context of contemporary art. 
+prer: Either (a) VISA 250 or (b) one of VISA 283, VISA 284, VISA 290, FINA 283, FINA 284, FINA 290.
+preq: VISA 250 or (VISA 283 or VISA 284 or VISA 290 or FINA 283 or FINA 284 or FINA 290)
+
+code: VISA 352
+name: Intermediate Print Media III: Interdisciplinary Approaches to Image Production
+cred: 3
+desc: Lithographic printing; suitable for students interested in drawing and print media interface in context of contemporary art; related digital and photographic technologies employed. 
+prer: Either (a) one of VISA 220, VISA 250 or (b) one of VISA 281, FINA 281, VISA 283, VISA 284, VISA 290, FINA 283, FINA 284, FINA 290.
+preq: (VISA 220 or VISA 250) or (VISA 281 or FINA 281 or VISA 283 or VISA 284 or VISA 290 or FINA 283 or FINA 284 or FINA 290)
+
+code: VISA 360
+name: Intermediate Sculpture I
+cred: 3
+desc: Investigation of contemporary practices in sculpture and the use of scale. Emphasis on public sculpture. 
+prer: One of VISA 260, VISA 285, VISA 286, FINA 285, FINA 286.
+preq: VISA 260 or VISA 285 or VISA 286 or FINA 285 or FINA 286
+
+code: VISA 361
+name: Intermediate Sculpture II
+cred: 3
+desc: Development of personal concerns in three-dimensional work. Emphasis on the integration of diverse materials and techniques. 
+prer: One of VISA 260, VISA 285, VISA 286, FINA 285, FINA 286.
+preq: VISA 260 or VISA 285 or VISA 286 or FINA 285 or FINA 286
+
+code: VISA 370
+name: Special Studies I
+cred: 3, 6
+desc: Intermediate tutorial. Not offered every year. 
+prer: 6 credits of 200-level VISA.
+preq: 6 credits of 200-level VISA
+
+code: VISA 371
+name: Special Studies II
+cred: 3, 6
+desc: Intermediate tutorial. Not offered every year. 
+prer: 6 credits of 200 level VISA
+preq: 6 credits of 200 level VISA
+
+code: VISA 375
+name: Artists in Society
+cred: 3
+desc: Exploring artistic practice through community-engaged partnerships and critical study. 
+prer: Restricted to 3rd and 4th year students majoring in Visual Arts or Art History.
+preq: Restricted to 3rd and (4th year students majoring in Visual Arts or Art History)
+
+code: VISA 380
+name: Studio Theory
+cred: 3
+desc: A seminar in problems in contemporary art practice and related theory. Preference given to Visual Art students. 
+
+code: VISA 381
+name: Studio Seminar
+cred: 3
+desc: A seminar in problems in contemporary art practice and related theory. Preference given to Visual Art students. 
+prer: VISA 380.
+preq: VISA 380
+
+code: VISA 390
+name: Performance Art
+cred: 3
+desc: Seminar-based studio focusing on performance and actions in the field of contemporary art. 
+prer: 6 credits of 200-level VISA with an average of at least 72%.
+preq: 6 credits of 200-level VISA with an average of at least 72%
+
+code: VISA 401
+name: Advanced Open Studio
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+desc: Research-based studio with thematic or disciplinary focus.  Intended for senior Visual Art undergraduate students. 
+prer: Three of VISA 310, VISA 311, VISA 320, VISA 321, VISA 330, VISA 331, VISA 340, VISA 341, VISA 350, VISA 351, VISA 360, VISA 361, VISA 370, VISA 390.
+preq: Three of VISA 310 VISA 311 VISA 320 VISA 321 VISA 330 VISA 331 VISA 340 VISA 341 VISA 350 VISA 351 VISA 360 VISA 361 VISA 370 VISA 390
+
+code: VISA 410
+name: Advanced Digital Arts I
+cred: 3
+desc: Development of contemporary art works utilizing digital technologies including 3-dimensional applications, spatial, interactive and time-based installations. Focus on student-generated projects, either individual or group. 
+prer: One of VISA 310, VISA 311. Plus an additional 3 credits of 300-level VISA.
+preq: VISA 310 or VISA 311. Plus an additional 3 credits of 300-level VISA
+
+code: VISA 411
+name: Advanced Digital Arts II: Video
+cred: 3
+desc: Contemporary practices in video media examined through individual projects and directed study. 
+prer: One of VISA 310, VISA 311. Plus an additional 3 credits of 300-level VISA.
+preq: VISA 310 or VISA 311. Plus an additional 3 credits of 300-level VISA
+
+code: VISA 430
+name: Advanced Drawing and Painting I
+cred: 3
+desc: Interdisciplinary studio practice with emphasis on drawing, painting, and related media. 
+prer: Two of VISA 320, VISA 321, VISA 330, VISA 331.
+preq: Two of VISA 320 VISA 321 VISA 330 VISA 331
+
+code: VISA 431
+name: Advanced Drawing and Painting II
+cred: 3
+desc: Interdisciplinary studio practice with emphasis on drawing, painting, and related media. 
+prer: Two of VISA 320, VISA 321, VISA 330, VISA 331.
+preq: Two of VISA 320 VISA 321 VISA 330 VISA 331
+
+code: VISA 440
+name: Advanced Photography I
+cred: 3
+desc: Photography practice in the context of contemporary art. Interdisciplinary connections to other media will be encouraged. 
+prer: Two of VISA 340, VISA 341, VISA 310.
+preq: Two of VISA 340 VISA 341 VISA 310
+
+code: VISA 441
+name: Advanced Photography II
+cred: 3
+desc: The production of self-directed projects investigating photography as art. Focus on integrative approaches including conventional, digital and multi-media. 
+prer: Two of VISA 340, VISA 341, VISA 440.
+preq: Two of VISA 340 VISA 341 VISA 440
+
+code: VISA 450
+name: Advanced Print Media and Sculpture I
+cred: 3
+desc: Studies in contemporary trends in studio practice and theory. Emphasis on advanced two and three-dimensional work developed out of experimental approaches to sculpture, installation art and print-based media. 
+prer: One of VISA 350, VISA 351, VISA 360, VISA 361. Plus an additional 3 credits of 300-level VISA.
+preq: VISA 350 or VISA 351 or VISA 360 or VISA 361. Plus an additional 3 credits of 300-level VISA
+
+code: VISA 451
+name: Advanced Print Media and Sculpture II
+cred: 3
+desc: Further studies in advanced two and three-dimensional work developed out of experimental approaches to sculpture, installation art and print-based media. 
+prer: One of VISA 350, VISA 351, VISA 360, VISA 361. Plus an additional 3 credits of 300-level VISA.
+preq: VISA 350 or VISA 351 or VISA 360 or VISA 361. Plus an additional 3 credits of 300-level VISA
+
+code: VISA 469
+name: Interdisciplinary Projects
+cred: 3, 6
+desc: Group projects and workshops with students majoring in other creative arts. 
+prer: Permission of instructor.
+preq: Permission of instructor
+
+code: VISA 470
+name: Advanced Special Studies I
+cred: 3, 6
+desc: Advanced work in contemporary and historical aspects of studio practice. Not offered every year. 
+prer: 6 credits of 300-level VISA
+preq: 6 credits of 300-level VISA
+
+code: VISA 471
+name: Advanced Special Studies II
+cred: 3, 6
+desc: Advanced work in contemporary and historical aspects of studio practice. Not offered every year. 
+prer: 300-level VISA
+preq: 300-level VISA
+
+code: VISA 475
+name: Exhibition Theory and Practice
+cred: 3
+desc: Exhibition course focusing on current curatorial practices and theories with an emphasis on contemporary visual art with the aim of preparing students to engage in the active organization of a large exhibition. Restricted to 4th year Majors in either VISA or ARTH, or permission of the instructor. 
+
+code: VISA 479
+name: Performance Actions and Approaches
+cred: 3
+desc: Advanced performance art practices and research methodologies. 
+
+code: VISA 480
+name: Advanced Seminar I
+cred: 3
+desc: Readings in art theory and criticism. 
+prer: VISA 380.
+preq: VISA 380
+
+code: VISA 481
+name: Advanced Seminar II
+cred: 3
+desc: Readings in art theory and criticism. 
+prer: VISA 480.
+preq: VISA 480
+
+code: VISA 490
+name: Advanced Tutorial in Studio I
+cred: 3
+desc: Advanced work in contemporary and historical aspects of studio practice. Permission of instructor required. Not offered every year. 
+prer: 6 credits of 300-level VISA and 3 credits of 400-level VISA.
+preq: 6 credits of 300-level VISA and 3 credits of 400-level VISA
+
+code: VISA 491
+name: Advanced Tutorial in Studio II
+cred: 3
+desc: Advanced work in contemporary and historical aspects of studio practice. Permission of instructor required. 
+prer: 6 credits of 300-level VISA and 3 credits of 400-level VISA.
+preq: 6 credits of 300-level VISA and 3 credits of 400-level VISA

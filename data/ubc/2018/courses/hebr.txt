@@ -1,0 +1,33 @@
+
+
+code: HEBR 101
+name: Elementary Biblical Hebrew Part I
+cred: 3
+desc: Introduction to Biblical Hebrew grammar. Includes translation of prose and poetry from the Hebrew Bible. 
+
+code: HEBR 102
+name: Elementary Biblical Hebrew Part II
+cred: 3
+desc: A continuation of HEBR 101: Introduction to Biblical Hebrew grammar. Includes translation of prose and poetry from the Hebrew Bible. 
+prer: HEBR 101.
+preq: HEBR 101
+
+code: HEBR 201
+name: Intermediate Biblical Hebrew I
+cred: 3
+desc: The second year of Biblical Hebrew with emphasis on rapid reading of poetry and prose along with grammar. 
+prer: HEBR 102.
+preq: HEBR 102
+
+code: HEBR 202
+name: Intermediate Biblical Hebrew II
+cred: 3
+desc: The second year of Biblical Hebrew with emphasis on rapid reading of poetry and prose along with grammar. 
+prer: HEBR 201.
+preq: HEBR 201
+
+code: HEBR 479
+name: Supervised Study in Classical Hebrew
+cred: 3, 12
+prer: HEBR 405.
+preq: HEBR 405

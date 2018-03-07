@@ -1,0 +1,153 @@
+
+
+code: ARCL 103
+name: Introduction to Archaeology
+cred: 3
+desc: Survey of world archaeology, from the emergence of humankind to the beginning of state societies. 
+
+code: ARCL 140
+name: Bones: The Origins of Humanity
+cred: 3
+desc: The origin and evolution of the human lineage and the emergence of human biological and cultural traits with emphasis on the fossil record before the Pleistocene. Credit will be granted for only one of ARCL 140 or ANTH 225. 
+
+code: ARCL 203
+name: Archaeological Methods
+cred: 3
+desc: Introduces the methods and principles applied in anthropological archaeology and cultural-historical research. 
+
+code: ARCL 204
+name: Great Archaeological Discoveries
+cred: 3
+desc: An examination of some momentous discoveries in archaeology that have shaped our knowledge of the ancient world and the history of humanity. 
+
+code: ARCL 228
+name: Forensic Anthropology
+cred: 3
+desc: The application of methods from biological anthropology and archaeology to the identification, recovery, and analysis of skeletal remains from crime scenes, mass disasters, and unexplained deaths. 
+
+code: ARCL 231
+name: Ancient North America
+cred: 3
+desc: Introductory survey of North American archaeology comparing the ancient cultures from all major regions of Canada and the US. 
+
+code: ARCL 232
+name: Ancient Latin America
+cred: 3
+desc: The archaeology of ancient Mexico, Central and South America, highlighting recent discoveries about the emergence and growth of civilizations such as the Aztecs, Maya, Zapotec, Inca, Chimor and their ancestors. 
+
+code: ARCL 305
+name: Archaeological Interpretation
+cred: 3
+desc: Current theoretical developments explored through the practice of archaeology. Examples drawn from a range of times and places focusing on emerging technologies, food production, colonial encounters and culture contact, materiality and symbolic systems, social inequality and complexity, and human-environmental interactions. 
+prer: ARCL 203.
+preq: ARCL 203
+
+code: ARCL 306
+name: Summer Field Training in Archaeology
+cred: 6
+desc: Intensive training in excavation techniques and interpretation, including mapping procedures, recording, preliminary analysis, and reporting. Students will participate in an excavation for the Summer Session and will use this excavation as a basis for lectures, discussions and reports. Additional Field Trip Fees are charged for this course. 
+prer: ARCL 305.
+preq: ARCL 305
+
+code: ARCL 309
+name: The Archaeology of Collapse and Sustainability
+cred: 3
+desc: An evaluation of the issues of sustainability and collapse of ecological and social systems through the archaeological study of the past. 
+
+code: ARCL 318
+name: Archaeology of Hunter-Gatherer-Forager-Societies
+cred: 3
+desc: Early hunter-gatherer-forager societies, spanning the period from the emergence of the first tool-using hominins to the origins of agriculture. 
+
+code: ARCL 319
+name: The Emergence of Complex Societies in Eurasia and Africa
+cred: 3
+desc: Archaeological evidence and theories for the origins and spread of settled village life, food production systems, and complex social and political organization: Early Neolithic period through to the appearance of the old world civilizations. 
+
+code: ARCL 322
+name: Archaeological Foundations of East and Southeast Asia
+cred: 3
+desc: Survey of the archaeology of East and Southeast Asia, with an emphasis on the beginnings of the economic, social, political, and artistic traditions and systems of the great civilizations, and the conditions in which they arose. Theories of cultural development emphasizing Neolithic and state-level societies will be discussed. 
+
+code: ARCL 323
+name: Archaeological Foundations of Mesoamerica
+cred: 3
+desc: The archaeology of Mexico and Central America with an emphasis on the emergence of economic, social, political, and religious organization. Seminar format discussing recent research and current discoveries. 
+
+code: ARCL 324
+name: Archaeological Foundations of South America
+cred: 3
+desc: The archaeology of South America with an emphasis on the emergence of economic, social, political, and religious organization, and a primary focus on the Andean region.  Seminar format with lectures discussing recent research and current discoveries. 
+prer: ARCL 232.
+preq: ARCL 232
+
+code: ARCL 325
+name: Paleoanthropology
+cred: 3, 6
+desc: Origin and development of the hominins; the hominin fossil record, and theories relating to hominin evolution. 
+prer: ARCL 140.
+preq: ARCL 140
+
+code: ARCL 326
+name: Primatology
+cred: 3
+desc: A comprehensive survey of primates, with emphasis on evolution, ecology, social organization,  social behaviour, and field studies. 
+prer: ARCL 140.
+preq: ARCL 140
+
+code: ARCL 405
+name: Archaeological and Anthropological Mapping
+cred: 3
+desc: Current methods in mapping spatial information in archaeology and related subfields of anthropology. 
+
+code: ARCL 406
+name: Analytical Techniques in Archaeology
+cred: 3, 6
+desc: A survey of methods and techniques in the interpretation of archaeological data; practical experience in processing and analyzing archaeological materials by means of a research project. Students will prepare manuscripts, drawings and photographs for publication and will learn the basics of lithic and faunal analyses. 
+prer: ARCL 305.
+preq: ARCL 305
+
+code: ARCL 410
+name: Archaeology of a Special Area in Africa, Eurasia, or Oceania
+cred: 3, 6
+desc: Analysis of the archaeology of one of the listed areas, including a summary of the literature and examination of specific sites and analytical issues.  The area covered will vary according to the instructor's expertise. 
+prer: One of ARCL 305, ARCL 318, ARCL 319, ARCL 322.
+preq: ARCL 305 or ARCL 318 or ARCL 319 or ARCL 322
+
+code: ARCL 411
+name: Prehistory of a Special Area in the New World
+cred: 3, 6
+desc: Analysis of the prehistory of a selected New World area, including a summary of the literature and discussion of relevant problems. The course will provide background for students in North, Central, and South American area studies. Typical offerings include the prehistory of Mesoamerica, the Southwest, North America and the Mayan areas. 
+prer: One of ARCL 305, ARCL 321.
+preq: ARCL 305 or ARCL 321
+
+code: ARCL 419
+name: The Archaeology of Death
+cred: 3
+desc: A survey of methods, theory, and case-studies in mortuary archaeology. 
+prer: ARCL 203.
+preq: ARCL 203
+
+code: ARCL 420
+name: First Nations Archaeology of British Columbia
+cred: 3, 6
+desc: An advanced study of the prehistoric archaeology of coastal and interior Native Peoples. A critical analysis of the archaeological evidence and interpretations of prehistoric cultural developments from the earliest migrations up to historical contact. 
+
+code: ARCL 424
+name: Practicing Archaeology and the Management of Cultural Resources
+cred: 3, 6
+desc: Survey of the use of archaeology in the public context and interest, particularly the identification, evaluation, conservation, and management of archaeological resources.  Laws and policies, principles, methods, and ethical concerns guiding current practices, public involvement, relationships with indigenous communities, and contemporary issues in cultural resources management. 
+prer: ARCL 203.
+preq: ARCL 203
+
+code: ARCL 425
+name: Paleodiet
+cred: 3
+desc: The archaeological evidence for the change of human diets over time and the methods used to reconstruct past diets. 
+
+code: ARCL 430
+name: Archaeological Survey Methods
+cred: 3
+desc: Analytical and practical skills in locating archaeological sites and data leading to spatial patterns and historical interpretation. 
+prer: ARCL 203.
+preq: ARCL 203

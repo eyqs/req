@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 req v3.0
-Copyright (c) 2016, 2017 Eugene Y. Q. Shen.
+Copyright (c) 2016, 2017, 2018 Eugene Y. Q. Shen.
 
 req is free software: you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -19,7 +19,7 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 import sys
 import bs4
 import requests
-YEAR = '2017'
+YEAR = '2018'
 OUTPATH = '/courses/excls.txt'
 if len(sys.argv) == 1:
     OUTFILE = YEAR + OUTPATH

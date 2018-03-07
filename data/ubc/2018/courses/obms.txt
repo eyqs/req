@@ -1,0 +1,65 @@
+
+
+code: OBMS 430
+name: Understanding and Evaluating Dental Research
+cred: 2
+desc:  [1-0-0]
+
+code: OBMS 431
+name: Endodontics
+cred: 2
+desc: Application of the basic principles of endodontics. [0-1.5-0; 1-1.5-0]
+
+code: OBMS 434
+name: Introduction to Oral and Maxillofacial Surgery
+cred: 4
+desc:  [3-1.5; 0-1.5]
+
+code: OBMS 436
+name: Oral Radiology
+cred: 1
+desc: Radiographic techniques and radiological interpretation with emphasis on extraoral techniques. [0.5-1.5]
+
+code: OBMS 437
+name: Pain and Anxiety Control
+cred: 2
+desc:  [1-0-2]
+
+code: OBMS 439
+name: Oral Medicine and Oral Diagnosis
+cred: 3
+desc: Oral diagnosis, including orofacial pain and temporomandibular disorders. [1-3-0; 1-3-0]
+
+code: OBMS 440
+name: Advanced Topics in Oral Biology
+cred: 1
+desc:  [1-0-0]
+
+code: OBMS 441
+name: Advanced Endodontics
+cred: 2
+desc:  [1-3-0; 0-1.5-0]
+
+code: OBMS 443
+name: Oral Medicine, Oral Diagnosis and Therapeutics
+cred: 1
+desc: Assessment and treatment of advanced periodontal diseases. [1-2-2]
+
+code: OBMS 444
+name: Advanced Oral and Maxillofacial Surgery
+cred: 2
+desc:  [2-1.5]
+
+code: OBMS 446
+name: Advanced Oral Radiology and Oral Radiography
+cred: 1
+
+code: OBMS 448
+name: Directed Research in Oral Biology
+cred: 2, 3, 4, 5
+desc: An elective laboratory project taken with the permission of the appropriate supervisor and the department head. 
+
+code: OBMS 449
+name: Advanced Periodontics
+cred: 4
+desc: Assessment and treatment of advanced periodontal diseases. [1-3-0]

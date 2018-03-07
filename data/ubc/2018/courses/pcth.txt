@@ -1,0 +1,114 @@
+
+
+code: PCTH 201
+name: Drugs and Society
+cred: 3
+desc: Introductory principles of drug action. Historical and present day medical and non-medical use of drugs. [3-0]
+prer: One of Biology 12, BIOL 111, BIOL 112, BIOL 153, BIOL 155, or SCIE 001.  Second-year standing is required.
+preq: Biology 12 or BIOL 111 or BIOL 112 or BIOL 153 or BIOL 155 or SCIE 001. Second-year standing is required
+
+code: PCTH 300
+name: Introduction to Pharmacology
+cred: 6
+desc: The concepts, language and techniques of scientific pharmacology. Intended primarily for Honours and Major students in Pharmacology. [3-3-0]
+prer: Either (a) all of BIOL 200, BIOL 201, CHEM 233, CHEM 235 or (b) all of BIOL 200, BIOL 201, CHEM 203, CHEM 204;  and CHEM 211 and one of CHEM 205, CHEM 201. Permission of the undergraduate adviser is required.
+preq: ((BIOL 200 and BIOL 201 and CHEM 233 and CHEM 235) or (BIOL 200 and BIOL 201 and CHEM 203 and CHEM 204;)) and CHEM 211 and (CHEM 205 or CHEM 201. Permission of the undergraduate adviser is required)
+
+code: PCTH 302
+name: Introductory Pharmacology Laboratory
+cred: 3
+desc: A series of experimental demonstrations and individual laboratory experiments illustrating the basic principles of pharmacology. [1-3*]
+crer: PCTH 300.
+creq: PCTH 300
+
+code: PCTH 305
+name: Basic Human Pharmacology
+cred: 6
+desc: Lectures and assigned reading on the effects, mechanisms of action, absorption, distribution, fate and excretion of major classes of therapeutic agents. Indications for the use of particular drugs will be discussed in terms of risk versus benefit for the individual and for society. [3-0-0; 3-0-0]
+prer: One of BIOL 201, BIOC 202, BIOC 203.
+preq: BIOL 201 or BIOC 202 or BIOC 203
+crer: CAPS 301.
+creq: CAPS 301
+
+code: PCTH 325
+name: Rational Basis of Drug Therapy
+cred: 3
+desc: The principles and applications underlying the action and disposition of therapeutic agents (including alternative medicines) in the body.  Use of drugs as tools in experimental research. [3-0]
+prer: One of BIOL 201, BIOC 202, BIOC 203, BIOC 300.
+preq: BIOL 201 or BIOC 202 or BIOC 203 or BIOC 300
+
+code: PCTH 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Technical report required. Restricted to students admitted to the Co-operative Education Program in Pharmacology. 
+prer: PCTH 300.
+preq: PCTH 300
+
+code: PCTH 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Technical report required. Restricted to students admitted to the Co-operative Education Program in Pharmacology. 
+prer: PCTH 398.
+preq: PCTH 398
+
+code: PCTH 400
+name: Systematic Pharmacology
+cred: 6
+desc: Lectures and discussions in scientific pharmacology. All aspects of the study of drugs will be covered, but the course will concentrate on the scientific aspects of the pharmacology of neurohumoral transmission, mathematics of pharmacology, cardiovascular and clinical pharmacology, and to a lesser extent on the pharmacology of various organs and tissues. [3-0-1*]
+prer: PCTH 300.
+preq: PCTH 300
+
+code: PCTH 402
+name: Systematic Pharmacology Laboratory
+cred: 6
+desc: A series of demonstrated, group, and individual laboratory experiments designed to illustrate the concepts and hypotheses of pharmacology. The course is restricted to Honours students in Pharmacology, but may be taken by others with permission of the department head. [0-9; 0-9]
+prer: PCTH 300.
+preq: PCTH 300
+
+code: PCTH 404
+name: Drug Assay and Pharmacometrics
+cred: 3
+desc: The techniques, including methods of statistical analysis, used to detect and measure the actions of endogenous or exogenous chemicals, using chemical assays and bioassays as appropriate. Enrolment limited to students in Pharmacology and others with permission of the department head. [1-0; 2-0]
+prer: All of PCTH 300, BIOL 300.
+preq: PCTH 300 and BIOL 300
+
+code: PCTH 425
+name: Medical Pharmacology
+cred: 8
+desc: A lecture and laboratory course covering the fundamental pharmacological action of drugs.  Both terms. 
+
+code: PCTH 448
+name: Directed Studies in Pharmacology
+cred: 2, 3, 4, 5
+desc: Advanced investigation of a specific topic in Pharmacology. 
+
+code: PCTH 449
+name: Honours Thesis
+cred: 3, 6
+desc: A research problem directed by a faculty member. Restricted to Honours Pharmacology students. 
+
+code: PCTH 451
+name: Review of Clinical Pharmacology
+cred: 3
+desc: This course has been designed as a basic science elective for third-year medical students. 
+prer: Departmental approval required.
+preq: Departmental approval required
+
+code: PCTH 453
+name: Advanced Therapeutics
+cred: 2
+desc: A lecture, assigned problems, and discussion course dealing with practical aspects of therapeutics. This course is designed to give fourth-year medical students some practical experience in the science of drug prescribing. 
+
+code: PCTH 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Technical report required. Restricted to students admitted to the Co-operative Education Program in Pharmacology. 
+prer: PCTH 399.
+preq: PCTH 399
+
+code: PCTH 499
+name: Co-operative Work Placement IV
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Normally taken during the summer after fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Pharmacology. 
+prer: PCTH 498.
+preq: PCTH 498
