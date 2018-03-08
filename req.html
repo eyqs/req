@@ -14,40 +14,40 @@
     <img id="github" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
   </a>
   <p id="contact">
-    Email <a href="mailto:req@eyqs.ca">req@eyqs.ca</a> for feedback and suggestions, such as adding mobile functionality, adding more courses, or adding more universities.
+    Email <a href="mailto:req@eyqs.ca">req@eyqs.ca</a> for feedback and suggestions, such as restoring mobile functionality, adding more courses, or adding more universities.
   </p>
-  <div id="noscript">
-    Please upgrade to a modern web browser and enable JavaScript to use req.
+  <div id="mobile">
+    Please use a device with a larger screen to see enough courses to use req.
   </div>
-  <div id="javascript">
-    <p id="desktop">
-      On desktop: click on a course button to toggle it between taken and untaken. Hover over a course button to show all the courses that need it or it needs.
-    </p>
-    <p id="mobile">
-      On mobile: functionality currently under construction.
-    </p>
-    <ul id="colours">
-    </ul>
-    <form id="dept">
-      <label for="subject">Enter one subject code:</label>
-      <input type="text" id="subject" placeholder="COMM">
-      <input type="submit" value="Add all courses of this subject">
-    </form>
-    <div id="code">
-      <label for="course">Enter one course code:</label>
-      <input type="text" id="course" placeholder="STAT 200">
-      <button id="excls">Add all excluded courses</button>
-      <button id="dreqs">Add all dependent courses</button>
+  <div id="desktop">
+    <div id="noscript">
+      Please upgrade to a modern web browser and enable JavaScript to use req.
     </div>
-    <form id="codes">
-      <label for="courses">
-        Enter multiple course codes to display, separated by commas.
-        <br \>
-        Enter already-taken course codes, separated by commas, after a semicolon:
-      </label>
-      <textarea id="courses" rows="10" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
-      <input type="submit" value="Launch">
-    </form>
+    <div id="javascript">
+      Click on a course button to toggle whether you've taken that course or not. Hover over a course button to show all the courses that need it or it needs.
+      <ul id="colours">
+      </ul>
+      <form id="dept">
+        <label for="subject">Enter one subject code:</label>
+        <input type="text" id="subject" placeholder="COMM">
+        <input type="submit" value="Add all courses of this subject">
+      </form>
+      <div id="code">
+        <label for="course">Enter one course code:</label>
+        <input type="text" id="course" placeholder="STAT 200">
+        <button id="excls">Add all excluded courses</button>
+        <button id="dreqs">Add all dependent courses</button>
+      </div>
+      <form id="codes">
+        <label for="courses">
+          Enter multiple course codes to display, separated by commas.
+          <br \>
+          Enter already-taken course codes, separated by commas, after a semicolon:
+        </label>
+        <textarea id="courses" rows="10" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
+        <input type="submit" value="Launch">
+      </form>
+    </div>
   </div>
 </div>
 <div id="app">

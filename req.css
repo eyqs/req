@@ -6,10 +6,6 @@ h1, h2 {
   text-align: center;
 }
 
-#javascript {
-  display: none;
-}
-
 #wrapper {
   margin: 0 auto;
   padding-bottom: 1rem;
@@ -46,4 +42,22 @@ input[type="submit"], button {
 input[type="submit"]:hover, input[type="submit"]:focus,
 input[type="submit"]:active, button:hover, button:focus, button:active {
   background-color: gray;
+}
+
+#mobile {
+  display: none;
+}
+
+#javascript {
+  display: none;
+}
+
+@media (max-width: 760px), (max-height: 760px) {
+  #mobile {
+    display: block;
+  }
+
+  #desktop {
+    display: none;
+  }
 }
