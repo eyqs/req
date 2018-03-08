@@ -1,6 +1,6 @@
 {
   "name": "req",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ubc prereq tree",
   "main": "dist/req.js",
   "scripts": {
