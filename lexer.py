@@ -33,6 +33,7 @@ class Lexer(object):
             self._check_token("One of ", TokenTypes.ONEOF)
             self._check_token("Either (a) ", TokenTypes.EITHERA)
             self._check_token("or (b) ", TokenTypes.EITHERB)
+            self._check_token("or ", TokenTypes.EITHERB)
             match = coursename_pattern.match(self.text)
             if match:
                 self.tokens.append(Token(TokenTypes.COURSENAME, match.group(0)))
