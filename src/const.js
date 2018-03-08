@@ -118,3 +118,11 @@ export const colours_to_rgba = {
   indigo: "75, 0, 130",
   olive: "128, 128, 0",
 }
+
+export function code_compare(a, b) {
+  if (a.code < b.code)
+    return -1;
+  if (a.code > b.code)
+    return 1;
+  return 0;
+}
