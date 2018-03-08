@@ -16,6 +16,7 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+import re
 import sys
 import bs4
 import requests
@@ -25,6 +26,16 @@ if len(sys.argv) == 1:
     OUTFILE = YEAR + OUTPATH
 else:
     OUTFILE = sys.argv[1] + OUTPATH
+
+def parse(words):
+    courses = set()
+    subject = ''
+    for word in re.split('(?:,|or)', words):
+        split = word.split()
+        if len(split) > 1:
+            subject = split[0].strip()
+        courses.add(' '.join([subject] + split[-1:]))
+    return courses
 
 if __name__ == '__main__':
     res = requests.get('http://www.calendar.ubc.ca/' +
@@ -38,15 +49,16 @@ if __name__ == '__main__':
 
     with open(OUTFILE, 'w', encoding='utf8') as f:
         for excls in soup.select('ol li'):
-            courses = set()
-            subject = ''
-            for word in excls.contents[0].split(','):
-                split = word.split()
-                if len(split) > 1:
-                    subject = split[0].strip()
-                courses.add(' '.join([subject] + split[-1:]))
-            for code in courses:
-                f.write('\n\ncode: ' + code)
-                courses.remove(code)
-                f.write('\nexcl: ' + ', '.join(courses))
-                courses.add(code)
+            if "following" in excls.contents[0]:
+                excluded = parse(excls.contents[0].split('following')[0])
+                excluder = parse(excls.contents[0].split('following')[1])
+                for code in excluded:
+                    f.write('\n\ncode: ' + code)
+                    f.write('\nexcl: ' + ', '.join(excluder))
+            else:
+                courses = parse(excls.contents[0])
+                for code in courses:
+                    f.write('\n\ncode: ' + code)
+                    courses.remove(code)
+                    f.write('\nexcl: ' + ', '.join(courses))
+                    courses.add(code)

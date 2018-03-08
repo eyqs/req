@@ -1092,14 +1092,11 @@ excl: PCTH 305
 code: PCTH 305
 excl: PCTH 300
 
-code: PCTH 300
-excl: 
+code: PCTH 325
+excl: PCTH 305, PCTH 300
 
-code: PCTH 300
-excl: 305 325
-
-code: 305 325
-excl: PCTH 300
+code: PCTH 201
+excl: PCTH 300, PCTH 325, PCTH 305
 
 code: PHYS 101
 excl: SCIE 001
