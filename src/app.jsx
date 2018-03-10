@@ -40,6 +40,29 @@ function remToPixels(rem_string) {
 }
 
 
+// strip all whitespace characters from a string
+
+function stripWhitespace(string) {
+  return string.replace(/\s/g, "");
+}
+
+
+// compile a regular expression from a string
+
+function compileRegExp(string) {
+  if (string.length == 0) {
+    return new RegExp("^$", "i");
+  }
+  if (string[0] != "^") {
+    string = "^" + string;
+  }
+  if (string[string.length - 1] != "$") {
+    string = string + "$";
+  }
+  return new RegExp(string, "i");
+}
+
+
 // given a list of lists, return a flat list of all valid course codes in it
 
 function flatten(listlist) {
@@ -92,18 +115,33 @@ function getDescription(course) {
 // update the course code input box with all excluded or dependent courses
 
 function updateCodes(reqlist) {
-  const code = document.getElementById("course").value.replace(/\s/g, "")
-      .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase();
-  if (course_data.hasOwnProperty(code)) {
-    const value = document.getElementById("courses").value.trim();
-    if (value.length > 0 && value[value.length - 1] != ",") {
-      document.getElementById("courses").value += ", ";
+  try {
+    const re = compileRegExp(stripWhitespace(
+        document.getElementById("course").value));
+    const codes = [];
+    for (const code in course_data) {
+      if (course_data.hasOwnProperty(code)) {
+        const match = re.exec(code);
+        if (match !== null) {
+          Array.prototype.push.apply(codes, course_data[code][reqlist]);
+        }
+      }
     }
-    document.getElementById("courses").value +=
-        code + ", " + course_data[code][reqlist].join(", ") + ", ";
-    document.getElementById("course").value = "";
-  } else {
-    document.getElementById("course").value = "Error: Not Found";
+    if (codes.length > 0) {
+      const value = document.getElementById("courses").value.trim();
+      if (value.length > 0 && value[value.length - 1] != ",") {
+        document.getElementById("courses").value += ", ";
+      }
+      for (const code of codes) {
+        document.getElementById("courses").value +=
+            code + ", " + course_data[code][reqlist].join(", ") + ", ";
+      }
+      document.getElementById("course").value = "";
+    } else {
+      document.getElementById("course").value = "Error: Not Found";
+    }
+  } catch (ignore) {
+    document.getElementById("course").value = "Error: Invalid Input";
   }
 }
 
@@ -111,8 +149,8 @@ function updateCodes(reqlist) {
 // update the course code input box with all courses of the given subject
 
 function addSubjectCodes() {
-  const dept = document.getElementById("subject").value
-      .replace(/\s/g, "").toLowerCase();
+  const dept = stripWhitespace(document.getElementById("subject").value)
+      .toLowerCase();
   fetch(constants.codefolder_url + dept + ".txt")
     .then(function (response) {
       if (!response.ok) {
@@ -220,16 +258,33 @@ class App extends React.Component {
   // parse the course code input box and reorder the buttons on the tree
 
   parseCodes() {
-    // TODO: instead of deleting trailing letters, parse UBC Course Schedule
-    /* Remove whitespace, add space before numbers, delete trailing letters,
-     * convert to uppercase, and filter out blanks and unknown codes.
-     */
-    const code_list = document.getElementById("courses").value.split(";").map(
+    const re_lists = document.getElementById("courses").value.split(";").map(
         (list) => list.split(",").map(
-        (code) => code.replace(/\s/g, "")
-            .replace(/(^[^\d]*)(\d*)(.*$)/i, "$1 $2").toUpperCase()));
-    const new_list = code_list[0];
-    const done_list = code_list[1];
+        (code) => compileRegExp(stripWhitespace(code))));
+    const new_list = [];
+    const done_list = [];
+    for (const re of re_lists[0]) {
+      for (const code in course_data) {
+        if (course_data.hasOwnProperty(code)) {
+          const match = re.exec(code);
+          if (match !== null) {
+              new_list.push(code);
+          }
+        }
+      }
+    }
+    if (re_lists.length > 1) {
+      for (const re of re_lists[1]) {
+        for (const code in course_data) {
+          if (course_data.hasOwnProperty(code)) {
+            const match = re.exec(code);
+            if (match !== null) {
+                done_list.push(code);
+            }
+          }
+        }
+      }
+    }
     const code_dict = {};
     for (const code of new_list) {
       if (code.length > 1 && course_data.hasOwnProperty(code)) {

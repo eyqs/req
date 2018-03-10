@@ -99,7 +99,7 @@ def get_reqs(value):
             elif term == 'and' or term == 'or':
                 operator = term
                 if course:
-                    reqs.append(' '.join(course))
+                    reqs.append(''.join(course))
                     course = []
             else:
                 course.append(term)
@@ -119,7 +119,7 @@ def get_reqs(value):
 
     # Add final course after last operator
     if course:
-        reqs.append(' '.join(course))
+        reqs.append(''.join(course))
     reqs.insert(0, operator)
     return reqs
 
@@ -136,11 +136,12 @@ if __name__ == '__main__':
                         param = split[0].strip()
                         value = ':'.join(split[1:]).strip()
                         if param == 'code':
-                            if value in courses.keys():
-                                course = courses[value]
+                            code = ''.join(value.split())
+                            if code in courses.keys():
+                                course = courses[code]
                             else:
-                                course = Course(value)
-                                courses[value] = course
+                                course = Course(code)
+                                courses[code] = course
                         else:
                             course.set_params(param, value)
 
