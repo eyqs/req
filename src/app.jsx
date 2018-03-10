@@ -258,15 +258,33 @@ class App extends React.Component {
   // parse the course code input box and reorder the buttons on the tree
 
   parseCodes() {
-    // TODO: instead of deleting trailing letters, parse UBC Course Schedule
-    /* Remove whitespace, add space before numbers, delete trailing letters,
-     * convert to uppercase, and filter out blanks and unknown codes.
-     */
-    const code_list = document.getElementById("courses").value.split(";").map(
+    const re_lists = document.getElementById("courses").value.split(";").map(
         (list) => list.split(",").map(
-        (code) => stripWhitespace(code)));
-    const new_list = code_list[0];
-    const done_list = code_list[1];
+        (code) => compileRegExp(stripWhitespace(code))));
+    const new_list = [];
+    const done_list = [];
+    for (const re of re_lists[0]) {
+      for (const code in course_data) {
+        if (course_data.hasOwnProperty(code)) {
+          const match = re.exec(code);
+          if (match !== null) {
+              new_list.push(code);
+          }
+        }
+      }
+    }
+    if (re_lists.length > 1) {
+      for (const re of re_lists[1]) {
+        for (const code in course_data) {
+          if (course_data.hasOwnProperty(code)) {
+            const match = re.exec(code);
+            if (match !== null) {
+                done_list.push(code);
+            }
+          }
+        }
+      }
+    }
     const code_dict = {};
     for (const code of new_list) {
       if (code.length > 1 && course_data.hasOwnProperty(code)) {
