@@ -16,17 +16,11 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
-import os
-import sys
-YEAR = '2018'
-INPATH = '/courses/terms.txt'
-OUTPATH = '/codes/'
-if len(sys.argv) == 1:
-    INFILE = YEAR + INPATH
-    OUTFOLDER = YEAR + OUTPATH
-else:
-    INFILE = sys.argv[1] + INPATH
-    OUTFOLDER = sys.argv[1] + OUTPATH
+import req
+CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubccodes.py']
+YEAR = req.get_year(CONFIG['year'])
+INFILE = req.get_year_path(CONFIG['infile'], YEAR)
+OUTFOLDER = req.get_year_path(CONFIG['outfolder'], YEAR)
 
 if __name__ == '__main__':
     codes = set()

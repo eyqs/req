@@ -16,23 +16,29 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+import req
 import sys
 import urllib.request
-YEAR = '2018'
-OUTPATH = '/courses/terms.txt'
-SESSION = [
-    {'url': '&sessyr=' + YEAR + '&sesscd=S', 'id': YEAR + 'S', 'year': YEAR},
-    {'url': '&sessyr=' + YEAR + '&sesscd=W', 'id': YEAR + 'W', 'year': YEAR},
-]
+CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubcsched.py']
+YEAR = CONFIG['year']
+SESSION = [{
+    'url': f'&sessyr={YEAR}&sesscd=S',
+    'id': f'{YEAR}S',
+    'year': str(YEAR)
+}, {
+    'url': f'&sessyr={YEAR}&sesscd=W',
+    'id': f'{YEAR}W',
+    'year': str(YEAR)
+}]
 if len(sys.argv) > 1:
     SESSION = []
     for arg in sys.argv[1:]:
         year = arg[:-1]
         season = arg[-1]
         SESSION.append({
-            'url': '&sessyr=' + year + '&sesscd=' + season,
+            'url': f'&sessyr={year}&sesscd={season}',
             'id': arg,
-            'year': year,
+            'year': year
         })
 
 # List of all activity types, taken from search page
@@ -90,7 +96,9 @@ def get_depts(url):
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':
     for session in SESSION:
-        with open(session['year'] + OUTPATH, 'a', encoding='utf8') as f:
+        print('Preparing to scrape information from ' + session['id'] + '...')
+        with open(req.get_year_path(CONFIG['outfile'], session['year']),
+                'a', encoding='utf8') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' +
                           session['url'])

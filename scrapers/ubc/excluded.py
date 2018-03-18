@@ -16,16 +16,13 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+import req
 import re
-import sys
 import bs4
 import requests
-YEAR = '2018'
-OUTPATH = '/courses/excls.txt'
-if len(sys.argv) == 1:
-    OUTFILE = YEAR + OUTPATH
-else:
-    OUTFILE = sys.argv[1] + OUTPATH
+CONFIG = req.get_config()["scrapers"]["ubc"]["scripts"]["excluded.py"]
+YEAR = req.get_year(CONFIG['year'])
+OUTFILE = req.get_year_path(CONFIG["outfile"], YEAR)
 
 def parse(words):
     courses = set()
