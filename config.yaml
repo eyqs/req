@@ -28,12 +28,12 @@ parsers:
       path: parsers/ubc/
     scripts:
       graph.py:
-        <<: &ubc_parsers
+        <<: *ubc_parsers
       lexer.py:
-        <<: &ubc_parsers
+        <<: *ubc_parsers
       parser.py:
-        <<: &ubc_parsers
+        <<: *ubc_parsers
       main.py:
-        <<: &ubc_parsers
+        <<: *ubc_parsers
       req.py:
-        <<: &ubc_parsers
+        <<: *ubc_parsers
