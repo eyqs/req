@@ -16,9 +16,11 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+
 import req
 import sys
 import urllib.request
+
 CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubcsched.py']
 YEAR = CONFIG['year']
 SESSION = [{
@@ -30,16 +32,6 @@ SESSION = [{
     'id': f'{YEAR}W',
     'year': str(YEAR)
 }]
-if len(sys.argv) > 1:
-    SESSION = []
-    for arg in sys.argv[1:]:
-        year = arg[:-1]
-        season = arg[-1]
-        SESSION.append({
-            'url': f'&sessyr={year}&sesscd={season}',
-            'id': arg,
-            'year': year
-        })
 
 # List of all activity types, taken from search page
 ACTIVITY = ['<td>' + activity + '</td>' for activity in
@@ -50,6 +42,21 @@ ACTIVITY = ['<td>' + activity + '</td>' for activity in
     'Lecture-Seminar', 'Lab-Seminar', 'Flexible Learning', 'Reserved Section',
     'Optional Section', 'Research', 'Field Trip', 'Lecture-Discussion',
     'Distance Education']]
+
+
+if len(sys.argv) > 1:
+    SESSION = []
+    for arg in sys.argv[1:]:
+        year = arg[:-1]
+        season = arg[-1]
+        SESSION.append({
+            'url': f'&sessyr={year}&sesscd={season}',
+            'id': arg,
+            'year': year
+        })
+for session in SESSION:
+    req.make_dirs(req.get_year_path(CONFIG['outfile'], session['year']))
+
 
 # Get the terms a course is offered
 def get_terms(url):
@@ -67,6 +74,7 @@ def get_terms(url):
             flag = True
     return terms
 
+
 # Get all the course codes in a department
 def get_codes(url):
     html = urllib.request.urlopen(url)
@@ -78,6 +86,7 @@ def get_codes(url):
         if '&course' in course or '&amp;course' in course:
             codes.add(course.split('=')[7].split('"')[0])
     return sorted(codes)
+
 
 # Get all the departments in UBC
 def get_depts(url):
@@ -92,6 +101,7 @@ def get_depts(url):
         if 'no courses offered for the current session by UBC' in department:
             return False;
     return sorted(depts)
+
 
 # Get all the terms every course is offered from the UBC Course Schedule
 if __name__ == '__main__':

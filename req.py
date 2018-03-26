@@ -16,6 +16,7 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+
 import os
 import sys
 import git
@@ -24,12 +25,14 @@ import yaml
 CONFIG = None
 ROOT_PATH = None
 
+
 def get_config():
     global CONFIG
     if not CONFIG:
         with open(os.path.join(get_root_path(), "config.yaml")) as CONFIGFILE:
             CONFIG = yaml.safe_load(CONFIGFILE)
     return CONFIG
+
 
 def get_root_path():
     global ROOT_PATH
@@ -39,11 +42,17 @@ def get_root_path():
         ROOT_PATH = repo.git.rev_parse("--show-toplevel")
     return ROOT_PATH
 
+
 def get_year(default):
     if len(sys.argv) > 1:
         return sys.argv[1]
     else:
         return default
 
+
 def get_year_path(path, year):
     return os.path.join(get_root_path(), path.replace("$YEAR", str(year)))
+
+
+def make_dirs(path):
+    os.makedirs(os.path.dirname(path), exist_ok=True)

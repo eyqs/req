@@ -16,11 +16,16 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+
 import req
+
 CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubccodes.py']
 YEAR = req.get_year(CONFIG['year'])
 INFILE = req.get_year_path(CONFIG['infile'], YEAR)
 OUTFOLDER = req.get_year_path(CONFIG['outfolder'], YEAR)
+
+req.make_dirs(OUTFOLDER)
+
 
 if __name__ == '__main__':
     codes = set()

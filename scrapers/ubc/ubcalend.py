@@ -16,12 +16,18 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+
 import req
 import urllib.request
+
 CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubcalend.py']
 YEAR = req.get_year(CONFIG['year'])
 LOGFILE = req.get_year_path(CONFIG['logfile'], YEAR)
 OUTFOLDER = req.get_year_path(CONFIG['outfolder'], YEAR)
+
+req.make_dirs(LOGFILE)
+req.make_dirs(OUTFOLDER)
+
 
 # Translate a file into a format that req can parse
 def translate(url, out):

@@ -16,13 +16,18 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see http://www.gnu.org/licenses/.
 """
+
 import req
 import re
 import bs4
 import requests
+
 CONFIG = req.get_config()["scrapers"]["ubc"]["scripts"]["excluded.py"]
 YEAR = req.get_year(CONFIG['year'])
 OUTFILE = req.get_year_path(CONFIG["outfile"], YEAR)
+
+req.make_dirs(OUTFILE)
+
 
 def parse(words):
     courses = set()
@@ -33,6 +38,7 @@ def parse(words):
             subject = split[0].strip()
         courses.add(' '.join([subject] + split[-1:]))
     return courses
+
 
 if __name__ == '__main__':
     res = requests.get('http://www.calendar.ubc.ca/' +
