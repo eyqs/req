@@ -50,8 +50,16 @@ def get_year(default):
         return default
 
 
-def get_year_path(path, year):
-    return os.path.join(get_root_path(), path.replace("$YEAR", str(year)))
+def get_path(raw_path):
+    path = os.path.join(get_root_path(), raw_path)
+    make_dirs(path)
+    return path
+
+
+def get_year_path(raw_path, year):
+    path = os.path.join(get_root_path(), raw_path.replace("$YEAR", str(year)))
+    make_dirs(path)
+    return path
 
 
 def make_dirs(path):

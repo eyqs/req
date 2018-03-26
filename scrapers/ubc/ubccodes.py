@@ -24,8 +24,6 @@ YEAR = req.get_year(CONFIG['year'])
 INFILE = req.get_year_path(CONFIG['infile'], YEAR)
 OUTFOLDER = req.get_year_path(CONFIG['outfolder'], YEAR)
 
-req.make_dirs(OUTFOLDER)
-
 
 if __name__ == '__main__':
     codes = set()

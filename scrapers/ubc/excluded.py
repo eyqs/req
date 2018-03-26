@@ -18,50 +18,28 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 """
 
 import req
-import re
 import bs4
 import requests
 
-CONFIG = req.get_config()["scrapers"]["ubc"]["scripts"]["excluded.py"]
+CONFIG = req.get_config()['scrapers']['ubc']['scripts']['excluded.py']
 YEAR = req.get_year(CONFIG['year'])
-OUTFILE = req.get_year_path(CONFIG["outfile"], YEAR)
-
-req.make_dirs(OUTFILE)
-
-
-def parse(words):
-    courses = set()
-    subject = ''
-    for word in re.split('(?:,|or)', words):
-        split = word.split()
-        if len(split) > 1:
-            subject = split[0].strip()
-        courses.add(' '.join([subject] + split[-1:]))
-    return courses
+OUTFILE = req.get_year_path(CONFIG['outfile'], YEAR)
 
 
 if __name__ == '__main__':
-    res = requests.get('http://www.calendar.ubc.ca/' +
-                       'vancouver/?tree=12,215,410,414')
+    print('Scraping...', end='\r')
+    source = requests.get(CONFIG['url'])
     try:
-        res.raise_for_status()
+        source.raise_for_status()
     except Exception as exc:
-        print('There was a problem:', exc)
-    else:
-        soup = bs4.BeautifulSoup(res.text, 'html.parser')
+        print(exc)
+        print('Scrape aborted.')
+        exit(1)
 
+    soup = bs4.BeautifulSoup(source.text, 'html.parser')
     with open(OUTFILE, 'w', encoding='utf8') as f:
-        for excls in soup.select('ol li'):
-            if "following" in excls.contents[0]:
-                excluded = parse(excls.contents[0].split('following')[0])
-                excluder = parse(excls.contents[0].split('following')[1])
-                for code in excluded:
-                    f.write('\n\ncode: ' + code)
-                    f.write('\nexcl: ' + ', '.join(excluder))
-            else:
-                courses = parse(excls.contents[0])
-                for code in courses:
-                    f.write('\n\ncode: ' + code)
-                    courses.remove(code)
-                    f.write('\nexcl: ' + ', '.join(courses))
-                    courses.add(code)
+        for ol in soup('ol'):
+            for excls in ol('li'):
+                # first child is valid, rest is garbage from unclosed tags
+                f.write(' '.join(excls.contents[0].split()) + '\n')
+    print('Scrape completed.')

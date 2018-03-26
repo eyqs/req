@@ -25,9 +25,6 @@ YEAR = req.get_year(CONFIG['year'])
 LOGFILE = req.get_year_path(CONFIG['logfile'], YEAR)
 OUTFOLDER = req.get_year_path(CONFIG['outfolder'], YEAR)
 
-req.make_dirs(LOGFILE)
-req.make_dirs(OUTFOLDER)
-
 
 # Translate a file into a format that req can parse
 def translate(url, out):

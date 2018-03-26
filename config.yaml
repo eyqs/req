@@ -7,7 +7,8 @@ scrapers:
     scripts:
       excluded.py:
         <<: *ubc_scrapers
-        outfile: data/ubc/$YEAR/courses/excls.txt
+        url: http://www.calendar.ubc.ca/vancouver/?tree=12,215,410,414
+        outfile: data/ubc/$YEAR/excls.txt
       ubcalend.py:
         <<: *ubc_scrapers
         outfolder: data/ubc/$YEAR/courses/
