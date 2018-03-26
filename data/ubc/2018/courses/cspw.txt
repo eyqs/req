@@ -1,8 +1,0 @@
-
-
-code: CSPW 100
-name: Coordinated Science Program Workshop
-cred: 1
-desc: Students participate in activities related to their CSP courses, including hands-on work, discussion and analysis of scientific topics. Graded Pass/Fail. 
-prer: Registration in Coordinated Science Program
-preq: Registration in Coordinated Science Program

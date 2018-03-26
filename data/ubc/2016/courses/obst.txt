@@ -1,7 +1,0 @@
-
-
-code: OBST 430
-name: Obstetrics and Gynaecology Clinical Clerkship
-cred: 6
-desc: Common problems in ambulatory care and surgical gynaecology. Clinical experience in the delivery of antenatal care including high-risk conditions, as well as intrapartum and post-partum care. 
-preq: (Medicine I) and Medicine II

@@ -1,9 +1,0 @@
-
-
-code: WRIT 098
-name: Preparation for University Writing and the LPI
-cred: 0
-
-code: WRIT 099
-name: Advanced Composition
-cred: 0

@@ -1,6 +1,0 @@
-
-
-code: SURG 430
-name: Surgery
-cred: 8
-desc: Post-operative care of patients, evaluation of pre-operative patients, mastery of technical skills for common ward procedures, assessing ambulatory patients and assisting in the operating room. 

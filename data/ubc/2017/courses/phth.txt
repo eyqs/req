@@ -1,6 +1,0 @@
-
-
-code: PHTH 301
-name: Physical Therapy Foundations
-cred: 3
-desc: Builds on prerequisite concepts in anatomy, physiology, and physics taken at undergraduate and high school level to apply basic theories and principles of anatomy, human physiology, pathophysiology, biomechanics, and physics to essential rehabilitation concepts. 

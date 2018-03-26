@@ -1,5 +1,0 @@
-
-
-code: VURS 499
-name: Visiting Undergraduate Students
-cred: 0

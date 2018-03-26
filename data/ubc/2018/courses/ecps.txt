@@ -1,6 +1,0 @@
-
-
-code: ECPS 490
-name: Directed Study in Educational & Counselling Psychology, and Special Education
-cred: 3, 6
-desc: Directed investigation of a problem or issue, requiring a written report or alternate mode of reporting or disseminating results of the investigation 

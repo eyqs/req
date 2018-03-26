@@ -1,7 +1,0 @@
-
-
-code: DERM 430
-name: Clinical Dermatology
-cred: 1
-desc: Exposure to a number of aspects pertaining to the clinical practice of dermatology. 
-preq: Completion of first- and second-year medicine program

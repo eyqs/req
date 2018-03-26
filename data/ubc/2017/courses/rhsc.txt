@@ -1,6 +1,0 @@
-
-
-code: RHSC 420
-name: Elements of Neuroanatomy and Neurophysiology
-cred: 4
-desc: An introduction to the structure and function of the human nervous system. [2-3-0]

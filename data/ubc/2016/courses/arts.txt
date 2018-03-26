@@ -1,5 +1,0 @@
-
-
-code: ARTS 001
-name: Arts One
-cred: 18
