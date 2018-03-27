@@ -36,5 +36,9 @@ parsers:
         <<: *ubc_parsers
       main.py:
         <<: *ubc_parsers
-      req.py:
+      ubcparse.py:
         <<: *ubc_parsers
+        infolder: data/ubc/$YEAR/courses/
+        exclfile: data/ubc/$YEAR/excls.txt
+        outfile: req.json
+        exclstr: "This course cannot be taken for credit after having taken any of the following courses: "
