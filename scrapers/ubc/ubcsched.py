@@ -54,8 +54,6 @@ if len(sys.argv) > 1:
             'id': arg,
             'year': year
         })
-for session in SESSION:
-    req.make_dirs(req.get_year_path(CONFIG['outfile'], session['year']))
 
 
 # Get the terms a course is offered
@@ -108,7 +106,7 @@ if __name__ == '__main__':
     for session in SESSION:
         print('Preparing to scrape information from ' + session['id'] + '...')
         with open(req.get_year_path(CONFIG['outfile'], session['year']),
-                'a', encoding='utf8') as f:
+                'a+', encoding='utf8') as f:
             d = get_depts('https://courses.students.ubc.ca/cs/main?' +
                           'pname=subjarea&tname=subjareas&req=0' +
                           session['url'])
