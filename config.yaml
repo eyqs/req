@@ -11,6 +11,8 @@ scrapers:
         outfile: data/ubc/$YEAR/excls.txt
       ubcalend.py:
         <<: *ubc_scrapers
+        baseurl: http://www.calendar.ubc.ca/vancouver/
+        starturl: http://www.calendar.ubc.ca/vancouver/courses.cfm?page=code
         outfolder: data/ubc/$YEAR/courses/
         logfile: data/ubc/$YEAR/calendar.log
       ubccodes.py:
