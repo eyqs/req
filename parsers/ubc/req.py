@@ -60,7 +60,8 @@ class Course():
         elif param == 'creq':
             self.creq = get_reqs(value.split())
         elif param == 'excl':
-            self.excl.extend([e.strip() for e in value.split(',')])
+            self.excl.extend(
+                    [''.join(e.strip().split()) for e in value.split(',')])
         elif param == 'term':
             self.term.update({t.strip() for t in value[:-1].split(',')})
         elif param == 'cred':
