@@ -91,7 +91,7 @@ function getDescription(course) {
   }
   for (const param of [
       ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
-      ["Exclusions: ", "excls"], ["Required by: ", "dreqs"],
+      ["Excluded by: ", "excls"], ["Required by: ", "dreqs"],
       ["Terms: ", "terms"], ["Credits: ", "cred"]]) {
     if (course[param[2]]) {
       paragraphs.push(param[0] + course[param[2]]);
