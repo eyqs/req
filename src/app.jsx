@@ -183,6 +183,8 @@ class App extends React.Component {
       min_height: 0,        // minimum height of the app
       course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
       hover_code: "",       // course that the user is currently hovering over
+      unshade_all: true,    // triggered some time after hover_code becomes ""
+      unshade_timeout: null,// callback for unshade_all, store it to cancel
     };
     parseCodes = this.parseCodes.bind(this);
 
@@ -483,7 +485,16 @@ class App extends React.Component {
   //   and updateHover("") if the user hovers out, to reset it
 
   updateHover(hover_code) {
-    this.setState({hover_code});
+    if (hover_code === "") {
+      this.setState({hover_code, unshade_timeout:
+          setTimeout(() => this.setState({unshade_all: true}),
+              constants.unshade_delay_ms)});
+    } else {
+      if (this.state.unshade_timeout) {
+        clearTimeout(this.state.unshade_timeout);
+      }
+      this.setState({hover_code, unshade_all: false, unshade_timeout: null});
+    }
   };
 
 
@@ -533,10 +544,9 @@ class App extends React.Component {
           button_lists[depth] = [];
         }
         let highlighted = false;
-        let shaded = false;
+        let shaded = !this.state.unshade_all;
         let reqs = "highs";
         if (this.state.hover_code) {
-          shaded = true;
           if (code == this.state.hover_code) {
             shaded = false;
             highlighted = true;
@@ -566,8 +576,6 @@ class App extends React.Component {
       <div style={{
         ...constants.wrapper_style,
         minHeight: this.state.min_height,
-        backgroundColor: this.state.hover_code ?
-            constants.app_shaded_background : constants.app_plain_background,
       }}>
         <div style={constants.app_style}>
           {Object.entries(button_lists).map(([depth, button_list]) => {
