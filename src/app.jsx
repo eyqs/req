@@ -253,7 +253,6 @@ class App extends React.Component {
       }
     }
     document.getElementById("noscript").style.display = "none";
-    document.getElementById("javascript").style.display = "block";
   };
 
 
@@ -573,21 +572,23 @@ class App extends React.Component {
     }
 
     return (
-      <div style={{
-        ...constants.wrapper_style,
-        minHeight: this.state.min_height,
-      }}>
-        <div style={constants.app_style}>
-          {Object.entries(button_lists).map(([depth, button_list]) => {
-            return <ButtonRow key={depth}
-                              button_list={button_list}
-                              updateNeeds={this.updateNeeds.bind(this)}
-                              updateHover={this.updateHover.bind(this)} />
-          })}
-        </div>
-        <div id="sidebar" style={constants.sidebar_style}>
-          {this.state.hover_code ?
-              getDescription(this.state.course_dict[this.state.hover_code]) : ""}
+      <div id="app">
+        <div style={{
+          ...constants.wrapper_style,
+          minHeight: this.state.min_height,
+        }}>
+          <div style={constants.app_style}>
+            {Object.entries(button_lists).map(([depth, button_list]) => {
+              return <ButtonRow key={depth}
+                                button_list={button_list}
+                                updateNeeds={this.updateNeeds.bind(this)}
+                                updateHover={this.updateHover.bind(this)} />
+            })}
+          </div>
+          <div id="sidebar" style={constants.sidebar_style}>
+            {this.state.hover_code ?
+                getDescription(this.state.course_dict[this.state.hover_code]) : ""}
+          </div>
         </div>
       </div>
     );
