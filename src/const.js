@@ -14,9 +14,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
-export const codefolder_url =
-    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/";
-
 export const rgba = "rgba(";
 export const button_plain_alpha = ", 1)";
 export const button_shaded_alpha = ", 0.3)";
@@ -37,14 +34,14 @@ export const wrapper_style = {
 
 export const app_style = {
   flex: "1",
-}
+};
 
 export const sidebar_style = {
   width: "25rem",
   margin: "0 0 0 0.5rem",
   padding: sidebar_padding,
   backgroundColor: "honeydew",
-}
+};
 
 export const button_style = {
   textAlign: "center",
@@ -115,7 +112,7 @@ export const colours_to_rgba = {
   darkorange: "255, 140, 0",
   indigo: "75, 0, 130",
   olive: "128, 128, 0",
-}
+};
 
 export function code_compare(a, b) {
   if (a.code < b.code)
@@ -123,4 +120,4 @@ export function code_compare(a, b) {
   if (a.code > b.code)
     return 1;
   return 0;
-}
+};

@@ -37,14 +37,14 @@ function makeCourse(data) {
 function remToPixels(rem_string) {
   return parseInt(rem_string.substring(0, rem_string.length - 3))
       * parseFloat(getComputedStyle(document.documentElement).fontSize);
-}
+};
 
 
 // strip all whitespace characters from a string
 
 function stripWhitespace(string) {
   return string.replace(/\s/g, "");
-}
+};
 
 
 // compile a regular expression from a string
@@ -60,7 +60,7 @@ function compileRegExp(string) {
     string = string + "$";
   }
   return new RegExp(string, "i");
-}
+};
 
 
 // given a list of lists, return a flat list of all valid course codes in it
@@ -75,7 +75,7 @@ function flatten(listlist) {
     }
   }
   return flat_list;
-}
+};
 
 
 // given a course object, return the raw HTML for its sidebar
@@ -109,7 +109,7 @@ function getDescription(course) {
         })}
       </div>
   );
-}
+};
 
 
 // update the course code input box with all excluded or dependent courses
@@ -123,7 +123,11 @@ function updateCodes(reqlist) {
       if (course_data.hasOwnProperty(code)) {
         const match = re.exec(code);
         if (match !== null) {
-          Array.prototype.push.apply(codes, course_data[code][reqlist]);
+          if (reqlist) {
+            Array.prototype.push.apply(codes, course_data[code][reqlist]);
+          } else {
+            codes.push(code);
+          }
         }
       }
     }
@@ -132,9 +136,18 @@ function updateCodes(reqlist) {
       if (value.length > 0 && value[value.length - 1] != ",") {
         document.getElementById("courses").value += ", ";
       }
-      for (const code of codes) {
-        document.getElementById("courses").value +=
-            code + ", " + course_data[code][reqlist].join(", ") + ", ";
+      if (reqlist) {
+        for (const code of codes) {
+          if (course_data[code][reqlist].length > 0) {
+            document.getElementById("courses").value +=
+                course_data[code][reqlist].join(", ") + ", ";
+          }
+        }
+      } else {
+        for (const code of codes) {
+          document.getElementById("courses").value +=
+              code + ", ";
+        }
       }
       document.getElementById("course").value = "";
     } else {
@@ -143,32 +156,7 @@ function updateCodes(reqlist) {
   } catch (ignore) {
     document.getElementById("course").value = "Error: Invalid Input";
   }
-}
-
-
-// update the course code input box with all courses of the given subject
-
-function addSubjectCodes() {
-  const dept = stripWhitespace(document.getElementById("subject").value)
-      .toLowerCase();
-  fetch(constants.codefolder_url + dept + ".txt")
-    .then(function (response) {
-      if (!response.ok) {
-        throw Error(response.statusText);
-      }
-      return response.text();
-    }).then(function (subject_codes) {
-      const value = document.getElementById("courses").value.trim();
-      if (value.length > 0 && value[value.length - 1] != ",") {
-        document.getElementById("courses").value += ", ";
-      }
-      document.getElementById("courses").value +=
-          subject_codes.split("\n").join(" ").trim() + " ";
-      document.getElementById("subject").value = "";
-    }).catch(function (error) {
-      document.getElementById("subject").value = error;
-    });
-}
+};
 
 
 
@@ -193,10 +181,8 @@ class App extends React.Component {
       () => updateCodes("excls"));
     document.getElementById("dreqs").addEventListener("click",
       () => updateCodes("dreqs"));
-    document.getElementById("dept").addEventListener("submit", function (e) {
-      e.preventDefault();
-      addSubjectCodes();
-    });
+    document.getElementById("none").addEventListener("click",
+      () => updateCodes());
     document.getElementById("codes").addEventListener("submit", function (e) {
       e.preventDefault();
       parseCodes();
@@ -441,7 +427,7 @@ class App extends React.Component {
         return "none";                // all courses are none -> none
       }
     }
-  }
+  };
 
 
   // update the status of the course with the given code
@@ -476,7 +462,7 @@ class App extends React.Component {
         button.needs = "outs";
       }
     }
-  }
+  };
 
 
   // callback to update hover_code if the user hovers over a child button
@@ -518,7 +504,7 @@ class App extends React.Component {
         - 2 * remToPixels(constants.sidebar_padding);
     const render_toggle = !this.state.render_toggle;
     this.setState({min_height, render_toggle});
-  }
+  };
 
 
   // do not re-render if render_toggle has been toggled
@@ -528,7 +514,7 @@ class App extends React.Component {
       return false;
     }
     return true;
-  }
+  };
 
 
   // draw the entire app
