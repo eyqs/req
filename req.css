@@ -52,7 +52,7 @@ input[type="submit"]:active, button:hover, button:focus, button:active {
   display: none;
 }
 
-@media (max-width: 760px), (max-height: 760px) {
+@media (max-width: 505px) {
   #mobile {
     display: block;
   }

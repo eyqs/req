@@ -1,0 +1,39 @@
+scrapers:
+  ubc:
+    default: &ubc_scrapers
+      year: 2018
+      years: [2015, 2016, 2017, 2018]
+      path: scrapers/ubc/
+    scripts:
+      excluded.py:
+        <<: *ubc_scrapers
+        outfile: data/ubc/$YEAR/courses/excls.txt
+      ubcalend.py:
+        <<: *ubc_scrapers
+        outfolder: data/ubc/$YEAR/courses/
+        logfile: data/ubc/$YEAR/calendar.log
+      ubccodes.py:
+        <<: *ubc_scrapers
+        infile: data/ubc/$YEAR/courses/terms.txt
+        outfolder: data/ubc/$YEAR/codes/
+      ubcsched.py:
+        <<: *ubc_scrapers
+        outfile: data/ubc/$YEAR/courses/terms.txt
+
+parsers:
+  ubc:
+    default: &ubc_parsers
+      year: 2018
+      years: [2015, 2016, 2017, 2018]
+      path: parsers/ubc/
+    scripts:
+      graph.py:
+        <<: *ubc_parsers
+      lexer.py:
+        <<: *ubc_parsers
+      parser.py:
+        <<: *ubc_parsers
+      main.py:
+        <<: *ubc_parsers
+      req.py:
+        <<: *ubc_parsers

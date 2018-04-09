@@ -1,6 +1,6 @@
 {
   "name": "req",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "ubc prereq tree",
   "main": "dist/req.js",
   "scripts": {
@@ -26,11 +26,9 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-3": "^6.24.1",
     "http-server": "^0.11.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.2"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
   }
 }

@@ -19,13 +19,11 @@ export const codefolder_url =
 
 export const rgba = "rgba(";
 export const button_plain_alpha = ", 1)";
-export const button_shaded_alpha = ", 0.1)";
+export const button_shaded_alpha = ", 0.3)";
+export const unshade_delay_ms = 1000;
 
 export const button_plain_border = "inset 0px 0px 0px 1px ";
 export const button_highlight_border = "inset 0px 0px 0px 3px ";
-
-export const app_plain_background = "white";
-export const app_shaded_background = "rgba(0, 0, 0, 0.7)";
 
 export const sidebar_padding = "1rem";
 
@@ -34,7 +32,7 @@ export const wrapper_style = {
   padding: "1rem",
   margin: "0 auto",
   width: "80vw",
-  transition: "background-color 1s",
+  backgroundColor: "rgba(0, 0, 0, 0.5)",
 };
 
 export const app_style = {
@@ -54,7 +52,7 @@ export const button_style = {
   height: "2rem",
   lineHeight: "2rem",
   cursor: "default",
-  transition: "background-color 1s",
+  transition: "background-color 0.5s, box-shadow 0.5s",
 };
 
 export const button_row_style = {

@@ -7,14 +7,21 @@ Check it out live at <https://eyqs.ca/tools/req/>, or install it locally.
 
 ### Requirements
 
-Use Python 3.5, or probably any Python 3. Does not work on Python 2.
+- Python 3.6 (does not work with Python 3.5 or lower)
+- pip3 (included with Python 3)
+- virtualenvwrapper (`pip install virtualenvwrapper`)
+- Node.js
+- npm (included with Node.js)
 
 ### Installation
 
     $ git clone https://github.com/eyqs/req.git/
     $ cd req/
-    $ python3 req.py
-    $ xdg-open req.html
+    $ mkvirtualenv req
+    $ workon req
+    $ pip3 install -r requirements.txt
+    $ add2virtualenv .
+    $ npm install
 
 ## Usage
 
