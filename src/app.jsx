@@ -18,8 +18,9 @@ import "babel-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
+import Forms from "./forms.jsx";
 import ButtonRow from "./button_row.jsx";
-import course_data from '../req.json';      // course data constants
+import course_data from '../req.json';
 let parseCodes;                     // TODO: hacky way to keep forms dumb
 
 
@@ -112,53 +113,6 @@ function getDescription(course) {
 };
 
 
-// update the course code input box with all excluded or dependent courses
-
-function updateCodes(reqlist) {
-  try {
-    const re = compileRegExp(stripWhitespace(
-        document.getElementById("course").value));
-    const codes = [];
-    for (const code in course_data) {
-      if (course_data.hasOwnProperty(code)) {
-        const match = re.exec(code);
-        if (match !== null) {
-          if (reqlist) {
-            Array.prototype.push.apply(codes, course_data[code][reqlist]);
-          } else {
-            codes.push(code);
-          }
-        }
-      }
-    }
-    if (codes.length > 0) {
-      const value = document.getElementById("courses").value.trim();
-      if (value.length > 0 && value[value.length - 1] != ",") {
-        document.getElementById("courses").value += ", ";
-      }
-      if (reqlist) {
-        for (const code of codes) {
-          if (course_data[code][reqlist].length > 0) {
-            document.getElementById("courses").value +=
-                course_data[code][reqlist].join(", ") + ", ";
-          }
-        }
-      } else {
-        for (const code of codes) {
-          document.getElementById("courses").value +=
-              code + ", ";
-        }
-      }
-      document.getElementById("course").value = "";
-    } else {
-      document.getElementById("course").value = "Error: Not Found";
-    }
-  } catch (ignore) {
-    document.getElementById("course").value = "Error: Invalid Input";
-  }
-};
-
-
 
 class App extends React.Component {
 
@@ -177,12 +131,6 @@ class App extends React.Component {
     parseCodes = this.parseCodes.bind(this);
 
     // add event listeners on the input forms
-    document.getElementById("excls").addEventListener("click",
-      () => updateCodes("excls"));
-    document.getElementById("dreqs").addEventListener("click",
-      () => updateCodes("dreqs"));
-    document.getElementById("none").addEventListener("click",
-      () => updateCodes());
     document.getElementById("codes").addEventListener("submit", function (e) {
       e.preventDefault();
       parseCodes();
@@ -500,7 +448,7 @@ class App extends React.Component {
 
   componentDidUpdate() {
     const min_height = Math.max(this.state.min_height,
-        document.getElementById("app").clientHeight)
+        document.getElementById("main").clientHeight)
         - 2 * remToPixels(constants.sidebar_padding);
     const render_toggle = !this.state.render_toggle;
     this.setState({min_height, render_toggle});
@@ -559,7 +507,8 @@ class App extends React.Component {
 
     return (
       <div id="app">
-        <div style={{
+        <Forms />
+        <div id="main" style={{
           ...constants.wrapper_style,
           minHeight: this.state.min_height,
         }}>
