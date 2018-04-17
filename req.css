@@ -22,15 +22,7 @@ footer {
   right: 0;
 }
 
-textarea {
-  width: 100%;
-}
-
-#code {
-  margin: 1em 0;
-}
-
-input[type="submit"], button {
+button {
   display: block;
   color: white;
   background-color: dimgray;
@@ -39,8 +31,7 @@ input[type="submit"], button {
   border-radius: 1em;
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus,
-input[type="submit"]:active, button:hover, button:focus, button:active {
+button:hover, button:focus, button:active {
   background-color: gray;
 }
 

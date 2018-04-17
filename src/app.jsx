@@ -21,7 +21,6 @@ import * as constants from "./const.js";
 import Forms from "./forms.jsx";
 import ButtonRow from "./button_row.jsx";
 import course_data from '../req.json';
-let parseCodes;                     // TODO: hacky way to keep forms dumb
 
 
 // return a new course object using input data from course_data
@@ -128,13 +127,6 @@ class App extends React.Component {
       unshade_all: true,    // triggered some time after hover_code becomes ""
       unshade_timeout: null,// callback for unshade_all, store it to cancel
     };
-    parseCodes = this.parseCodes.bind(this);
-
-    // add event listeners on the input forms
-    document.getElementById("codes").addEventListener("submit", function (e) {
-      e.preventDefault();
-      parseCodes();
-    });
 
     // print legend for button and border colours
     const legend = [];
@@ -465,7 +457,7 @@ class App extends React.Component {
   };
 
 
-  // draw the entire app
+  // draw the entire app only if user selects some courses
 
   render() {
     const button_lists = {};
@@ -500,16 +492,19 @@ class App extends React.Component {
       }
     }
 
-    // return nothing, to hide the sidebar when app is empty
     if (Object.keys(button_lists).length === 0) {
-      return null;
+      return (
+        <div id="app" style={constants.wrapper_style}>
+          <Forms parseCodes={this.parseCodes.bind(this)} />
+        </div>
+      );
     }
 
     return (
-      <div id="app">
-        <Forms />
+      <div id="app" style={constants.wrapper_style}>
+        <Forms parseCodes={this.parseCodes.bind(this)} />
         <div id="main" style={{
-          ...constants.wrapper_style,
+          ...constants.main_style,
           minHeight: this.state.min_height,
         }}>
           <div style={constants.app_style}>

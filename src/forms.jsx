@@ -36,6 +36,7 @@ function compileRegExp(string) {
 
 export default class Form extends React.Component {
   constructor(props) {
+    // this.props.parseCodes: callback for when user updates the course list
     super(props);
     this.state = {code: ""}
   };
@@ -91,19 +92,32 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <div className="wrapper">
-        <label htmlFor="code">Code:</label>
-        <input type="text" id="code" value={this.state.code}
-          onChange={(e) => this.setState({[e.target.id]: e.target.value})} />
-        <button onClick={() => this.updateCodes()}>
-          Add all such courses
-        </button>
-        <button onClick={() => this.updateCodes("excls")}>
-          Add all excluded courses
-        </button>
-        <button onClick={() => this.updateCodes("dreqs")}>
-          Add all dependent courses
-        </button>
+      <div style={constants.forms_style}>
+        <div style={{flex: "1"}}>
+          <label htmlFor="code">Code:</label>
+          <input style={{margin: "0.5em"}}
+            type="text" id="code"
+            value={this.state.code}
+            onChange={(e) => this.setState({[e.target.id]: e.target.value})} />
+          <button onClick={() => this.updateCodes()}>
+            Add all such courses
+          </button>
+          <button onClick={() => this.updateCodes("excls")}>
+            Add all excluded courses
+          </button>
+          <button onClick={() => this.updateCodes("dreqs")}>
+            Add all dependent courses
+          </button>
+        </div>
+        <div style={{flex: "2"}}>
+          <label htmlFor="courses">
+            Enter multiple course codes to display, separated by commas.
+            <br />
+            Enter already-taken course codes, separated by commas, after a semicolon:
+          </label>
+          <textarea style={{width: "100%"}} id="courses" rows="8" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
+          <button onClick={() => this.props.parseCodes()}>Launch</button>
+        </div>
       </div>
     );
   };

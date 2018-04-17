@@ -25,10 +25,20 @@ export const button_highlight_border = "inset 0px 0px 0px 3px ";
 export const sidebar_padding = "1rem";
 
 export const wrapper_style = {
-  display: "flex",
-  padding: "1rem",
   margin: "0 auto",
   width: "80vw",
+  border: "1px solid black",
+};
+
+export const forms_style = {
+  padding: "3rem",
+  display: "flex",
+  flexDirection: "row",
+};
+
+export const main_style = {
+  padding: "1rem",
+  display: "flex",
   backgroundColor: "rgba(0, 0, 0, 0.5)",
 };
 
