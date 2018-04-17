@@ -18,8 +18,7 @@ import "babel-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
-import Forms from "./forms.jsx";
-import ButtonRow from "./button_row.jsx";
+import Browser from "./browser.jsx";
 import course_data from '../req.json';
 
 
@@ -28,15 +27,6 @@ import course_data from '../req.json';
 function makeCourse(data) {
   return {needs: "none", depth: 0,
       preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}, ...data};
-};
-
-
-// convert a size in rem to a size in pixels
-
-
-function remToPixels(rem_string) {
-  return parseInt(rem_string.substring(0, rem_string.length - 3))
-      * parseFloat(getComputedStyle(document.documentElement).fontSize);
 };
 
 
@@ -78,40 +68,6 @@ function flatten(listlist) {
 };
 
 
-// given a course object, return the raw HTML for its sidebar
-
-function getDescription(course) {
-  const paragraphs = [];
-  paragraphs.push(course.code);
-  if (course.name) {
-    paragraphs[0] += ": " + course.name;
-  }
-  if (course.desc) {
-    paragraphs.push(course.desc);
-  }
-  for (const param of [
-      ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
-      ["Excluded by: ", "excls"], ["Required by: ", "dreqs"],
-      ["Terms: ", "terms"], ["Credits: ", "cred"]]) {
-    if (course[param[2]]) {
-      paragraphs.push(param[0] + course[param[2]]);
-    } else if (course[param[1]] && course[param[1]].length > 0) {
-      paragraphs.push(param[0] + course[param[1]].join(", "));
-    }
-  }
-  return (
-      <div style={{
-        paddingTop: Math.max(0, window.pageYOffset
-            - document.getElementById("sidebar").offsetTop),
-      }}>
-        {paragraphs.map((paragraph, index) => {
-          return <p key={index}>{paragraph}</p>
-        })}
-      </div>
-  );
-};
-
-
 
 class App extends React.Component {
 
@@ -120,12 +76,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      render_toggle: false, // toggle this every time you don't want to render
-      min_height: 0,        // minimum height of the app
       course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
-      hover_code: "",       // course that the user is currently hovering over
-      unshade_all: true,    // triggered some time after hover_code becomes ""
-      unshade_timeout: null,// callback for unshade_all, store it to cancel
     };
 
     // print legend for button and border colours
@@ -405,24 +356,6 @@ class App extends React.Component {
   };
 
 
-  // callback to update hover_code if the user hovers over a child button
-  // child should call updateHover(this.props.code) if the user hovers in
-  //   and updateHover("") if the user hovers out, to reset it
-
-  updateHover(hover_code) {
-    if (hover_code === "") {
-      this.setState({hover_code, unshade_timeout:
-          setTimeout(() => this.setState({unshade_all: true}),
-              constants.unshade_delay_ms)});
-    } else {
-      if (this.state.unshade_timeout) {
-        clearTimeout(this.state.unshade_timeout);
-      }
-      this.setState({hover_code, unshade_all: false, unshade_timeout: null});
-    }
-  };
-
-
   // callback to toggle the done status of a course
 
   updateNeeds(code) {
@@ -436,90 +369,15 @@ class App extends React.Component {
   };
 
 
-  // update the maximum height after rendering
-
-  componentDidUpdate() {
-    const min_height = Math.max(this.state.min_height,
-        document.getElementById("main").clientHeight)
-        - 2 * remToPixels(constants.sidebar_padding);
-    const render_toggle = !this.state.render_toggle;
-    this.setState({min_height, render_toggle});
-  };
-
-
-  // do not re-render if render_toggle has been toggled
-
-  shouldComponentUpdate(nextProps, nextState) {
-    if (this.state.render_toggle != nextState.render_toggle) {
-      return false;
-    }
-    return true;
-  };
-
-
-  // draw the entire app only if user selects some courses
+  // draw the entire app
 
   render() {
-    const button_lists = {};
-    for (const code in this.state.course_dict) {
-      if (this.state.course_dict.hasOwnProperty(code)) {
-        this.updateCourse(code);
-        const depth = this.state.course_dict[code].depth;
-        if (!button_lists[depth]) {
-          button_lists[depth] = [];
-        }
-        let highlighted = false;
-        let shaded = !this.state.unshade_all;
-        let reqs = "highs";
-        if (this.state.hover_code) {
-          if (code == this.state.hover_code) {
-            shaded = false;
-            highlighted = true;
-          } else {
-            for (const param of ["preqs", "creqs", "excls", "dreqs"]) {
-              if (this.state.course_dict[this.state.hover_code]
-                  [param].includes(code)) {
-                shaded = false;
-                highlighted = true;
-                reqs = param;
-              }
-            }
-          }
-        }
-        button_lists[depth].push({code, reqs, shaded, highlighted,
-          needs: this.state.course_dict[code].needs,
-        });
-      }
-    }
-
-    if (Object.keys(button_lists).length === 0) {
-      return (
-        <div id="app" style={constants.wrapper_style}>
-          <Forms parseCodes={this.parseCodes.bind(this)} />
-        </div>
-      );
-    }
-
     return (
       <div id="app" style={constants.wrapper_style}>
-        <Forms parseCodes={this.parseCodes.bind(this)} />
-        <div id="main" style={{
-          ...constants.main_style,
-          minHeight: this.state.min_height,
-        }}>
-          <div style={constants.app_style}>
-            {Object.entries(button_lists).map(([depth, button_list]) => {
-              return <ButtonRow key={depth}
-                                button_list={button_list}
-                                updateNeeds={this.updateNeeds.bind(this)}
-                                updateHover={this.updateHover.bind(this)} />
-            })}
-          </div>
-          <div id="sidebar" style={constants.sidebar_style}>
-            {this.state.hover_code ?
-                getDescription(this.state.course_dict[this.state.hover_code]) : ""}
-          </div>
-        </div>
+        <Browser course_dict={this.state.course_dict}
+                 parseCodes={this.parseCodes.bind(this)}
+                 updateNeeds={this.updateNeeds.bind(this)}
+                 updateCourse={this.updateCourse.bind(this)} />
       </div>
     );
   };
