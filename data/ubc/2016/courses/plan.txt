@@ -1,7 +1,0 @@
-
-
-code: PLAN 425
-name: Urban Planning Issues and Concepts
-cred: 3
-desc: Evolution, practice and future of urban planning and development, with emphasis on institutional arrangements, housing, transportation, urban design and development control. For third- and fourth-year undergraduate students interested in urban planning. 
-preq: URST 200 or COMM 306 or GEOG 350 or permission of the instructor

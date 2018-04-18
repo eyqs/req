@@ -6,10 +6,14 @@ h1, h2 {
   text-align: center;
 }
 
-#wrapper {
+.wrapper {
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   max-width: 36em;
+}
+
+footer {
+  text-align: center;
 }
 
 #github {
@@ -18,15 +22,7 @@ h1, h2 {
   right: 0;
 }
 
-textarea {
-  width: 100%;
-}
-
-#code {
-  margin: 1em 0;
-}
-
-input[type="submit"], button {
+button {
   display: block;
   color: white;
   background-color: dimgray;
@@ -35,7 +31,20 @@ input[type="submit"], button {
   border-radius: 1em;
 }
 
-input[type="submit"]:hover, input[type="submit"]:focus,
-input[type="submit"]:active, button:hover, button:focus, button:active {
+button:hover, button:focus, button:active {
   background-color: gray;
+}
+
+#mobile {
+  display: none;
+}
+
+@media (max-width: 505px) {
+  #mobile {
+    display: block;
+  }
+
+  #app {
+    display: none;
+  }
 }
