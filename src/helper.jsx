@@ -41,7 +41,7 @@ export default class Helper extends React.Component {
         <ul>
           {Object.entries(constants.button_colours).map(([needs, colour]) => {
             return (
-              <li>
+              <li key={colour + " button"}>
                 A course with a{" "}
                 <span style={{backgroundColor: colour}}>
                   {colour} button
@@ -54,7 +54,7 @@ export default class Helper extends React.Component {
         <ul>
           {Object.entries(constants.border_colours).map(([needs, colour]) => {
             return (
-              <li>
+              <li key={colour + " border"}>
                 A course with a{" "}
                 <span style={{color: colour}}>
                   {colour} border

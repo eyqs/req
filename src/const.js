@@ -24,9 +24,33 @@ export const button_highlight_border = "inset 0px 0px 0px 3px ";
 
 export const sidebar_padding = "1rem";
 
+export const tab_list = ["helper", "browser"];
+export const tabbar_style = {
+  display: "flex",
+  flexDirection: "row",
+};
+export const tab_style = {
+  backgroundColor: "whitesmoke",
+  padding: "0.3rem 1.2rem",
+  border: "1px solid black",
+  borderRadius: "10px 10px 0 0",
+  borderBottom: "0",
+};
+export const focus_tab_style = {
+  ...tab_style,
+  backgroundColor: "white",
+  position: "relative",
+  zIndex: "2",
+  bottom: "-1px",
+  fontWeight: "bold",
+};
+
 export const wrapper_style = {
   margin: "0 auto",
   width: "80vw",
+};
+
+export const main_style = {
   border: "1px solid black",
 };
 
