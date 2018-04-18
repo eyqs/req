@@ -19,6 +19,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as constants from "./const.js";
 import Browser from "./browser.jsx";
+import Helper from "./helper.jsx";
 import course_data from '../req.json';
 
 
@@ -78,28 +79,6 @@ class App extends React.Component {
     this.state = {
       course_dict: {},      // course_dict["CPSC 110"] = makeCourse()
     };
-
-    // print legend for button and border colours
-    const legend = [];
-    for (const needs in constants.button_colours) {
-      if (constants.button_colours.hasOwnProperty(needs)) {
-        legend.push('<li> A course with a <span style="background-color:'
-          + constants.button_colours[needs] + '">'
-          + constants.button_colours[needs] + ' button</span>'
-          + constants.button_descriptions[needs] + '</li>'
-        );
-      }
-    }
-    for (const needs in constants.border_colours) {
-      if (constants.border_colours.hasOwnProperty(needs)) {
-        legend.push('<li> A course with a <span style="color:'
-          + constants.border_colours[needs] + '">'
-          + constants.border_colours[needs] + ' border</span>'
-          + constants.border_descriptions[needs] + '</li>'
-        );
-      }
-    }
-    document.getElementById("colours").innerHTML = legend.join("\n");
 
     // make all course data into course objects
     for (const code in course_data) {
@@ -372,6 +351,11 @@ class App extends React.Component {
   // draw the entire app
 
   render() {
+    return (
+      <div id="app" style={constants.wrapper_style}>
+        <Helper />
+      </div>
+    );
     return (
       <div id="app" style={constants.wrapper_style}>
         <Browser course_dict={this.state.course_dict}

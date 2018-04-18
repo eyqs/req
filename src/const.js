@@ -30,19 +30,23 @@ export const wrapper_style = {
   border: "1px solid black",
 };
 
+export const helper_style = {
+  padding: "2rem"
+};
+
 export const forms_style = {
   padding: "3rem",
   display: "flex",
   flexDirection: "row",
 };
 
-export const main_style = {
+export const browser_style = {
   padding: "1rem",
   display: "flex",
   backgroundColor: "rgba(0, 0, 0, 0.5)",
 };
 
-export const app_style = {
+export const button_lists_style = {
   flex: "1",
 };
 

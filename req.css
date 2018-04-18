@@ -44,7 +44,7 @@ button:hover, button:focus, button:active {
     display: block;
   }
 
-  .content {
+  #app {
     display: none;
   }
 }

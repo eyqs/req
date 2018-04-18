@@ -18,7 +18,6 @@ import React from "react";
 import * as constants from "./const.js";
 import Forms from "./forms.jsx";
 import ButtonRow from "./button_row.jsx";
-import course_data from '../req.json';
 
 
 // convert a size in rem to a size in pixels
@@ -103,7 +102,7 @@ export default class Browser extends React.Component {
 
   componentDidUpdate() {
     const min_height = Math.max(this.state.min_height,
-        document.getElementById("main").clientHeight)
+        document.getElementById("browser").clientHeight)
         - 2 * remToPixels(constants.sidebar_padding);
     const render_toggle = !this.state.render_toggle;
     this.setState({min_height, render_toggle});
@@ -157,20 +156,20 @@ export default class Browser extends React.Component {
 
     if (Object.keys(button_lists).length === 0) {
       return (
-        <div id="app" style={constants.wrapper_style}>
+        <div>
           <Forms parseCodes={this.props.parseCodes} />
         </div>
       );
     }
 
     return (
-      <div id="app" style={constants.wrapper_style}>
+      <div>
         <Forms parseCodes={this.props.parseCodes} />
-        <div id="main" style={{
-          ...constants.main_style,
+        <div id="browser" style={{
+          ...constants.browser_style,
           minHeight: this.state.min_height,
         }}>
-          <div style={constants.app_style}>
+          <div style={constants.button_lists_style}>
             {Object.entries(button_lists).map(([depth, button_list]) => {
               return <ButtonRow key={depth}
                                 button_list={button_list}
