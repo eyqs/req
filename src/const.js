@@ -1,4 +1,4 @@
-/* req v3.0
+/* req v3.1
  * Copyright (c) 2016, 2017, 2018 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
@@ -14,9 +14,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
-export const codefolder_url =
-    "https://raw.githubusercontent.com/eyqs/req/master/data/ubc/2017/codes/";
-
 export const rgba = "rgba(";
 export const button_plain_alpha = ", 1)";
 export const button_shaded_alpha = ", 0.3)";
@@ -27,24 +24,62 @@ export const button_highlight_border = "inset 0px 0px 0px 3px ";
 
 export const sidebar_padding = "1rem";
 
-export const wrapper_style = {
+export const tab_list = ["helper", "browser"];
+export const tabbar_style = {
   display: "flex",
-  padding: "1rem",
+  flexDirection: "row",
+};
+export const tab_style = {
+  backgroundColor: "whitesmoke",
+  padding: "0.3rem 1.2rem",
+  border: "1px solid black",
+  borderRadius: "10px 10px 0 0",
+  borderBottom: "0",
+};
+export const focus_tab_style = {
+  ...tab_style,
+  backgroundColor: "white",
+  position: "relative",
+  zIndex: "2",
+  bottom: "-1px",
+  fontWeight: "bold",
+};
+
+export const wrapper_style = {
   margin: "0 auto",
   width: "80vw",
+};
+
+export const main_style = {
+  border: "1px solid black",
+};
+
+export const helper_style = {
+  padding: "2rem"
+};
+
+export const forms_style = {
+  padding: "3rem",
+  display: "flex",
+  flexDirection: "row",
+};
+
+export const browser_style = {
+  padding: "1rem",
+  display: "flex",
   backgroundColor: "rgba(0, 0, 0, 0.5)",
 };
 
-export const app_style = {
+export const button_lists_style = {
   flex: "1",
-}
+};
 
 export const sidebar_style = {
   width: "25rem",
   margin: "0 0 0 0.5rem",
   padding: sidebar_padding,
   backgroundColor: "honeydew",
-}
+};
 
 export const button_style = {
   textAlign: "center",
@@ -115,7 +150,7 @@ export const colours_to_rgba = {
   darkorange: "255, 140, 0",
   indigo: "75, 0, 130",
   olive: "128, 128, 0",
-}
+};
 
 export function code_compare(a, b) {
   if (a.code < b.code)
@@ -123,4 +158,4 @@ export function code_compare(a, b) {
   if (a.code > b.code)
     return 1;
   return 0;
-}
+};

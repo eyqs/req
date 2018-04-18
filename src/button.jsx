@@ -1,4 +1,4 @@
-/* req v3.0
+/* req v3.1
  * Copyright (c) 2016, 2017, 2018 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
@@ -22,13 +22,13 @@ function getBackground(needs, shaded) {
       + constants.colours_to_rgba[constants.button_colours[needs]]
       + (shaded ? constants.button_shaded_alpha
       : constants.button_plain_alpha);
-}
+};
 
 function getBorder(reqs, highlighted) {
   return (highlighted ? constants.button_highlight_border
       : constants.button_plain_border)
       + constants.border_colours[reqs];
-}
+};
 
 export default class Button extends React.Component {
   constructor(props) {

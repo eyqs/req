@@ -1,4 +1,4 @@
-/* req v3.0
+/* req v3.1
  * Copyright (c) 2016, 2017, 2018 Eugene Y. Q. Shen.
  *
  * req is free software: you can redistribute it and/or
