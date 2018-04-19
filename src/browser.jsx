@@ -52,11 +52,11 @@ function getDescription(course) {
   return (
       <div style={{
         paddingTop: Math.max(0, window.pageYOffset
-            - document.getElementById("sidebar").offsetTop),
+            - document.getElementById("browser_sidebar").offsetTop),
       }}>
-        {paragraphs.map((paragraph, index) => {
-          return <p key={index}>{paragraph}</p>
-        })}
+        {paragraphs.map((paragraph, index) =>
+          <p key={index}>{paragraph}</p>
+        )}
       </div>
   );
 };
@@ -170,15 +170,15 @@ export default class Browser extends React.Component {
           minHeight: this.state.min_height,
         }}>
           <div style={constants.button_lists_style}>
-            {Object.entries(button_lists).map(([depth, button_list]) => {
-              return <ButtonRow key={depth}
-                                button_list={button_list}
-                                parseCodes={this.props.parseCodes}
-                                updateNeeds={this.props.updateNeeds}
-                                updateHover={this.updateHover.bind(this)} />
-            })}
+            {Object.entries(button_lists).map(([depth, button_list]) =>
+              <ButtonRow key={depth}
+                         button_list={button_list}
+                         parseCodes={this.props.parseCodes}
+                         updateNeeds={this.props.updateNeeds}
+                         updateHover={this.updateHover.bind(this)} />
+            )}
           </div>
-          <div id="sidebar" style={constants.sidebar_style}>
+          <div id="browser_sidebar" style={constants.sidebar_style}>
             {this.state.hover_code ?
                 getDescription(this.props.course_dict[this.state.hover_code]) : ""}
           </div>

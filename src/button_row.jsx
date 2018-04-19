@@ -30,16 +30,12 @@ export default class ButtonRow extends React.Component {
     return (
       <div style={constants.button_row_style}>
         {this.props.button_list.sort(constants.code_compare).map(
-            ({code, reqs, needs, shaded, highlighted}) => {
-              return <Button key={code}
-                             code={code}
-                             reqs={reqs}
-                             needs={needs}
-                             shaded={shaded}
-                             highlighted={highlighted}
-                             updateNeeds={this.props.updateNeeds}
-                             updateHover={this.props.updateHover} />
-        })}
+            ({code, reqs, needs, shaded, highlighted}) =>
+              <Button key={code} code={code} reqs={reqs} needs={needs}
+                      shaded={shaded} highlighted={highlighted}
+                      updateNeeds={this.props.updateNeeds}
+                      updateHover={this.props.updateHover} />
+        )}
       </div>
     );
   };
