@@ -17,8 +17,8 @@
 import "babel-polyfill";
 import React from "react";
 import * as constants from "./const.js";
-import Helper from "./helper.jsx";
-import Browser from "./browser.jsx";
+import Helper from "./helper/helper.jsx";
+import Browser from "./browser/browser.jsx";
 import course_data from '../req.json';
 
 
