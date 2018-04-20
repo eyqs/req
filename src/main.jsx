@@ -19,6 +19,7 @@ import React from "react";
 import * as constants from "./const.js";
 import Helper from "./helper/helper.jsx";
 import Browser from "./browser/browser.jsx";
+import Scheduler from "./scheduler/scheduler.jsx";
 import course_data from '../req.json';
 
 
@@ -365,6 +366,12 @@ export default class Main extends React.Component {
                    parseCodes={this.parseCodes.bind(this)}
                    updateNeeds={this.updateNeeds.bind(this)}
                    updateCourse={this.updateCourse.bind(this)} />
+        </div>
+      );
+    case "scheduler":
+      return (
+        <div style={constants.main_style}>
+          <Scheduler course_dict={this.state.course_dict} />
         </div>
       );
     }

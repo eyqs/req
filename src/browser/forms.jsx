@@ -92,10 +92,13 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <div style={constants.forms_style}>
+      <div style={{
+        ...constants.forms_style,
+        ...constants.browser_forms_style,
+      }}>
         <div style={{flex: "1"}}>
           <label htmlFor="code">Code:</label>
-          <input style={{margin: "0.5em"}}
+          <input style={constants.label_style}
             type="text" id="code"
             value={this.state.code}
             onChange={(e) => this.setState({[e.target.id]: e.target.value})} />

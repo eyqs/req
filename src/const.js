@@ -24,11 +24,14 @@ export const button_highlight_border = "inset 0px 0px 0px 3px ";
 
 export const sidebar_padding = "1rem";
 
-export const tab_list = ["helper", "browser"];
+
+export const tab_list = ["helper", "browser", "scheduler"];
+
 export const tabbar_style = {
   display: "flex",
   flexDirection: "row",
 };
+
 export const tab_style = {
   backgroundColor: "whitesmoke",
   padding: "0.3rem 1.2rem",
@@ -36,6 +39,7 @@ export const tab_style = {
   borderRadius: "10px 10px 0 0",
   borderBottom: "0",
 };
+
 export const focus_tab_style = {
   ...tab_style,
   backgroundColor: "white",
@@ -44,6 +48,7 @@ export const focus_tab_style = {
   bottom: "-1px",
   fontWeight: "bold",
 };
+
 
 export const wrapper_style = {
   margin: "0 auto",
@@ -54,12 +59,28 @@ export const main_style = {
   border: "1px solid black",
 };
 
-export const helper_style = {
-  padding: "2rem"
+export const label_style = {
+  margin: "0.5em",
 };
 
 export const forms_style = {
   padding: "3rem",
+};
+
+export const sidebar_style = {
+  width: "25rem",
+  margin: "0 0 0 0.5rem",
+  padding: sidebar_padding,
+  backgroundColor: "honeydew",
+};
+
+
+export const helper_style = {
+  padding: "2rem"
+};
+
+
+export const browser_forms_style = {
   display: "flex",
   flexDirection: "row",
 };
@@ -72,13 +93,6 @@ export const browser_style = {
 
 export const button_lists_style = {
   flex: "1",
-};
-
-export const sidebar_style = {
-  width: "25rem",
-  margin: "0 0 0 0.5rem",
-  padding: sidebar_padding,
-  backgroundColor: "honeydew",
 };
 
 export const button_style = {
@@ -97,6 +111,7 @@ export const button_row_style = {
   gridGap: "0.7rem",
   padding: "1rem 0",
 };
+
 
 export const button_colours = {
   done: "greenyellow",
