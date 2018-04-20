@@ -16,6 +16,7 @@
  */
 import React from "react";
 import * as constants from "../const.js";
+import * as utilities from "../util.jsx";
 
 
 export default class Scheduler extends React.Component {
@@ -25,7 +26,30 @@ export default class Scheduler extends React.Component {
     this.state = {
       start_year: 2015,     // first year to schedule
       num_years: 4,         // number of years to schedule
+      render_toggle: false, // toggle this every time you don't want to render
+      min_height: 0,        // minimum height of the app
     };
+  };
+
+
+  // update the maximum height after rendering
+
+  componentDidUpdate() {
+    const min_height = Math.max(this.state.min_height,
+        document.getElementById("scheduler").clientHeight)
+        - 2 * utilities.remToPixels(constants.scheduler_padding);
+    const render_toggle = !this.state.render_toggle;
+    this.setState({min_height, render_toggle});
+  };
+
+
+  // do not re-render if render_toggle has been toggled
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.state.render_toggle != nextState.render_toggle) {
+      return false;
+    }
+    return true;
   };
 
 
@@ -54,6 +78,17 @@ export default class Scheduler extends React.Component {
                  value={this.state.num_years}
                  onChange={(e) =>
                    this.setState({[e.target.id]: Number(e.target.value)})} />
+        </div>
+        <div id="scheduler" style={{
+          ...constants.scheduler_style,
+          minHeight: this.state.min_height,
+        }}>
+          <div style={{flex: "1"}}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <div id="scheduler_sidebar" style={constants.sidebar_style}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
         </div>
       </div>
     );

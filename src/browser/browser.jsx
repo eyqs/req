@@ -16,56 +16,14 @@
  */
 import React from "react";
 import * as constants from "../const.js";
+import * as utilities from "../util.jsx";
 import Forms from "./forms.jsx";
 import ButtonRow from "../button_row.jsx";
 
 
-// convert a size in rem to a size in pixels
-
-function remToPixels(rem_string) {
-  return parseInt(rem_string.substring(0, rem_string.length - 3))
-      * parseFloat(getComputedStyle(document.documentElement).fontSize);
-};
-
-
-// given a course object, return the raw HTML for its sidebar
-
-function getDescription(course) {
-  const paragraphs = [];
-  paragraphs.push(course.code);
-  if (course.name) {
-    paragraphs[0] += ": " + course.name;
-  }
-  if (course.desc) {
-    paragraphs.push(course.desc);
-  }
-  for (const param of [
-      ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
-      ["Excluded by: ", "excls"], ["Required by: ", "dreqs"],
-      ["Terms: ", "terms"], ["Credits: ", "cred"]]) {
-    if (course[param[2]]) {
-      paragraphs.push(param[0] + course[param[2]]);
-    } else if (course[param[1]] && course[param[1]].length > 0) {
-      paragraphs.push(param[0] + course[param[1]].join(", "));
-    }
-  }
-  return (
-      <div style={{
-        paddingTop: Math.max(0, window.pageYOffset
-            - document.getElementById("browser_sidebar").offsetTop),
-      }}>
-        {paragraphs.map((paragraph, index) =>
-          <p key={index}>{paragraph}</p>
-        )}
-      </div>
-  );
-};
-
-
-
 export default class Browser extends React.Component {
   constructor(props) {
-    // this.props.course_list: the list of course objects
+    // this.props.course_dict: the list of course objects
     // this.props.parseCodes: callback for when user updates the course list
     // this.props.updateNeeds: callback for when user clicks the course
     // this.props.updateCourse: callback for when user updates the course
@@ -73,7 +31,7 @@ export default class Browser extends React.Component {
     this.state = {
       render_toggle: false, // toggle this every time you don't want to render
       min_height: 0,        // minimum height of the app
-      hover_code: "",       // course that the user is currently hovering over
+      hover_code: "",       // code that the user is currently hovering over
       unshade_all: true,    // triggered some time after hover_code becomes ""
       unshade_timeout: null,// callback for unshade_all, store it to cancel
     };
@@ -103,7 +61,7 @@ export default class Browser extends React.Component {
   componentDidUpdate() {
     const min_height = Math.max(this.state.min_height,
         document.getElementById("browser").clientHeight)
-        - 2 * remToPixels(constants.sidebar_padding);
+        - 2 * utilities.remToPixels(constants.sidebar_padding);
     const render_toggle = !this.state.render_toggle;
     this.setState({min_height, render_toggle});
   };
@@ -178,9 +136,13 @@ export default class Browser extends React.Component {
                          updateHover={this.updateHover.bind(this)} />
             )}
           </div>
-          <div id="browser_sidebar" style={constants.sidebar_style}>
-            {this.state.hover_code ?
-                getDescription(this.props.course_dict[this.state.hover_code]) : ""}
+          <div id="browser_sidebar" style={{
+            ...constants.sidebar_style,
+            ...constants.browser_sidebar_style,
+          }}>
+            {this.state.hover_code ? utilities.getDescription(
+              this.props.course_dict[this.state.hover_code],
+              document.getElementById("browser_sidebar").offsetTop) : ""}
           </div>
         </div>
       </div>

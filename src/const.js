@@ -23,6 +23,7 @@ export const button_plain_border = "inset 0px 0px 0px 1px ";
 export const button_highlight_border = "inset 0px 0px 0px 3px ";
 
 export const sidebar_padding = "1rem";
+export const scheduler_padding = "3rem";
 
 
 export const tab_list = ["helper", "browser", "scheduler"];
@@ -70,8 +71,6 @@ export const forms_style = {
 export const sidebar_style = {
   width: "25rem",
   margin: "0 0 0 0.5rem",
-  padding: sidebar_padding,
-  backgroundColor: "honeydew",
 };
 
 
@@ -83,6 +82,11 @@ export const helper_style = {
 export const browser_forms_style = {
   display: "flex",
   flexDirection: "row",
+};
+
+export const browser_sidebar_style = {
+  padding: sidebar_padding,
+  backgroundColor: "honeydew",
 };
 
 export const browser_style = {
@@ -110,6 +114,12 @@ export const button_row_style = {
   gridTemplateColumns: "repeat(auto-fill, 6rem)",
   gridGap: "0.7rem",
   padding: "1rem 0",
+};
+
+
+export const scheduler_style = {
+  padding: scheduler_padding,
+  display: "flex",
 };
 
 
