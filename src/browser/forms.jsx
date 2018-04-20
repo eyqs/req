@@ -119,7 +119,9 @@ export default class Form extends React.Component {
             Enter already-taken course codes, separated by commas, after a semicolon:
           </label>
           <textarea style={{width: "100%"}} id="courses" rows="8" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
-          <button onClick={() => this.props.parseCodes()}>Launch</button>
+          <button onClick={() => this.props.parseCodes()}>
+            Launch
+          </button>
         </div>
       </div>
     );

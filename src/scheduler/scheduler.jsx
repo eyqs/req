@@ -17,6 +17,7 @@
 import React from "react";
 import * as constants from "../const.js";
 import * as utilities from "../util.jsx";
+import Forms from "./forms.jsx";
 
 
 export default class Scheduler extends React.Component {
@@ -58,27 +59,10 @@ export default class Scheduler extends React.Component {
   render() {
     return (
       <div>
-        <div style={constants.forms_style}>
-          <label htmlFor="num_years">
-            Starting year:
-          </label>
-          <input id="start_year"
-                 style={constants.label_style}
-                 type="number"
-                 value={this.state.start_year}
-                 onChange={(e) =>
-                   this.setState({[e.target.id]: Number(e.target.value)})} />
-          <br />
-          <label htmlFor="num_years">
-            Number of years:
-          </label>
-          <input id="num_years"
-                 style={constants.label_style}
-                 type="number"
-                 value={this.state.num_years}
-                 onChange={(e) =>
-                   this.setState({[e.target.id]: Number(e.target.value)})} />
-        </div>
+        <Forms start_year={this.state.start_year}
+               num_years={this.state.num_years}
+               updateNumber={(e) =>
+                 this.setState({[e.target.id]: Number(e.target.value)})} />
         <div id="scheduler" style={{
           ...constants.scheduler_style,
           minHeight: this.state.min_height,
