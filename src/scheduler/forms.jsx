@@ -21,9 +21,11 @@ import course_data from '../../req.json';
 
 export default class Form extends React.Component {
   constructor(props) {
+    // this.props.done_list: list of taken course codes
     // this.props.start_year: first year to schedule
     // this.props.num_years: number of years to schedule
     // this.props.updateNumber: callback for when user updates a number input
+    // this.props.parseCodes: callback for when user updates the course list
     super(props);
   };
 
@@ -52,6 +54,17 @@ export default class Form extends React.Component {
                  type="number"
                  value={this.props.num_years}
                  onChange={this.props.updateNumber} />
+        </div>
+        <div>
+          <label htmlFor="courses">
+            Enter already-taken course codes, separated by commas:
+          </label>
+          <textarea style={{width: "100%"}} id="courses" rows="8"
+                    defaultValue={this.props.done_list.join(", ")}>
+          </textarea>
+          <button onClick={() => this.props.parseCodes(true)}>
+            Launch
+          </button>
         </div>
       </div>
     );

@@ -23,6 +23,7 @@ import Forms from "./forms.jsx";
 export default class Scheduler extends React.Component {
   constructor(props) {
     // this.props.course_dict: the dict of course objects
+    // this.props.parseCodes: callback for when user updates the course list
     super(props);
     this.state = {
       start_year: 2015,     // first year to schedule
@@ -57,12 +58,23 @@ export default class Scheduler extends React.Component {
   // draw the scheduler for all years
 
   render() {
+    const done_list = [];
+    for (const code in this.props.course_dict) {
+      if (this.props.course_dict.hasOwnProperty(code)
+          && this.props.course_dict[code].needs === "done") {
+        done_list.push(code);
+      }
+    }
+    done_list.sort(constants.code_compare);
+
     return (
       <div>
-        <Forms start_year={this.state.start_year}
+        <Forms done_list={done_list}
+               start_year={this.state.start_year}
                num_years={this.state.num_years}
                updateNumber={(e) =>
-                 this.setState({[e.target.id]: Number(e.target.value)})} />
+                 this.setState({[e.target.id]: Number(e.target.value)})}
+               parseCodes={this.props.parseCodes} />
         <div id="scheduler" style={{
           ...constants.scheduler_style,
           minHeight: this.state.min_height,
