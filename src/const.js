@@ -28,6 +28,7 @@ export const tab_list = ["helper", "browser"];
 export const tabbar_style = {
   display: "flex",
   flexDirection: "row",
+  cursor: "default",
 };
 export const tab_style = {
   backgroundColor: "whitesmoke",
