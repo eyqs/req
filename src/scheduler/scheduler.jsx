@@ -18,6 +18,7 @@ import React from "react";
 import * as constants from "../const.js";
 import * as utilities from "../util.jsx";
 import Forms from "./forms.jsx";
+import ButtonRow from "../button_row.jsx";
 
 
 export default class Scheduler extends React.Component {
@@ -30,6 +31,7 @@ export default class Scheduler extends React.Component {
       num_years: 4,         // number of years to schedule
       render_toggle: false, // toggle this every time you don't want to render
       min_height: 0,        // minimum height of the app
+      hover_code: "",       // code that the user is currently hovering over
     };
   };
 
@@ -59,13 +61,17 @@ export default class Scheduler extends React.Component {
 
   render() {
     const done_list = [];
+    const button_list = [];
     for (const code in this.props.course_dict) {
       if (this.props.course_dict.hasOwnProperty(code)
           && this.props.course_dict[code].needs === "done") {
         done_list.push(code);
+        button_list.push({code, reqs: "highs", needs: "done",
+          shaded: false, highlighted: true});
       }
     }
     done_list.sort(constants.code_compare);
+    button_list.sort(constants.code_compare);
 
     return (
       <div>
@@ -75,6 +81,11 @@ export default class Scheduler extends React.Component {
                updateNumber={(e) =>
                  this.setState({[e.target.id]: Number(e.target.value)})}
                parseCodes={this.props.parseCodes} />
+        <div style={constants.scheduler_button_row_padding}>
+          <ButtonRow button_list={button_list}
+                     updateHover={(hover_code) => this.setState({hover_code})}
+                     updateNeeds={() => false} />
+        </div>
         <div id="scheduler" style={{
           ...constants.scheduler_style,
           minHeight: this.state.min_height,
@@ -83,7 +94,9 @@ export default class Scheduler extends React.Component {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
           <div id="scheduler_sidebar" style={constants.sidebar_style}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {this.state.hover_code ? utilities.getDescription(
+              this.props.course_dict[this.state.hover_code],
+              document.getElementById("scheduler_sidebar").offsetTop) : ""}
           </div>
         </div>
       </div>

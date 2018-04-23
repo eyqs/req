@@ -129,11 +129,12 @@ export default class Browser extends React.Component {
         }}>
           <div style={constants.button_lists_style}>
             {Object.entries(button_lists).map(([depth, button_list]) =>
-              <ButtonRow key={depth}
-                         button_list={button_list}
-                         parseCodes={this.props.parseCodes}
-                         updateNeeds={this.props.updateNeeds}
-                         updateHover={this.updateHover.bind(this)} />
+              <div key={depth} style={constants.browser_button_row_padding}>
+                <ButtonRow key={depth}
+                           button_list={button_list}
+                           updateNeeds={this.props.updateNeeds}
+                           updateHover={this.updateHover.bind(this)} />
+              </div>
             )}
           </div>
           <div id="browser_sidebar" style={{

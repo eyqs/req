@@ -73,26 +73,11 @@ export const sidebar_style = {
   margin: "0 0 0 0.5rem",
 };
 
-
-export const helper_style = {
-  padding: "2rem"
-};
-
-
-export const browser_forms_style = {
-  display: "flex",
-  flexDirection: "row",
-};
-
-export const browser_sidebar_style = {
-  padding: sidebar_padding,
-  backgroundColor: "honeydew",
-};
-
-export const browser_style = {
-  padding: "1rem",
-  display: "flex",
-  backgroundColor: "rgba(0, 0, 0, 0.5)",
+export const button_row_style = {
+  display: "grid",
+  justifyContent: "center",
+  gridTemplateColumns: "repeat(auto-fill, 6rem)",
+  gridGap: "0.7rem",
 };
 
 export const button_lists_style = {
@@ -108,11 +93,30 @@ export const button_style = {
   transition: "background-color 0.5s, box-shadow 0.5s",
 };
 
-export const button_row_style = {
-  display: "grid",
-  justifyContent: "center",
-  gridTemplateColumns: "repeat(auto-fill, 6rem)",
-  gridGap: "0.7rem",
+
+
+export const helper_style = {
+  padding: "2rem"
+};
+
+
+export const browser_style = {
+  padding: "1rem",
+  display: "flex",
+  backgroundColor: "rgba(0, 0, 0, 0.5)",
+};
+
+export const browser_forms_style = {
+  display: "flex",
+  flexDirection: "row",
+};
+
+export const browser_sidebar_style = {
+  padding: sidebar_padding,
+  backgroundColor: "honeydew",
+};
+
+export const browser_button_row_padding = {
   padding: "1rem 0",
 };
 
@@ -120,6 +124,10 @@ export const button_row_style = {
 export const scheduler_style = {
   padding: scheduler_padding,
   display: "flex",
+};
+
+export const scheduler_button_row_padding = {
+  padding: "0 3rem",
 };
 
 
