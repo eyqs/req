@@ -19,6 +19,7 @@ import * as constants from "../const.js";
 import * as utilities from "../util.jsx";
 import Forms from "./forms.jsx";
 import ButtonRow from "../button_row.jsx";
+import degree_data from '../../deq.json';
 
 
 export default class Scheduler extends React.Component {
