@@ -18,6 +18,7 @@ import React from "react";
 import * as constants from "../const.js";
 import * as utilities from "../util.jsx";
 import Forms from "./forms.jsx";
+import Year from "./year.jsx";
 import ButtonRow from "../button_row.jsx";
 import degree_data from '../../deq.json';
 
@@ -62,14 +63,35 @@ export default class Scheduler extends React.Component {
   // draw the scheduler for all years
 
   render() {
+    const year_lists = [];
     const done_list = [];
     const button_list = [];
+    for (let year = 0; year < this.state.num_years; year++) {
+      year_lists.push({
+        year: this.state.start_year + year,
+        req_list: [],
+        done_list: [],
+      });
+    }
+    const course_list = degree_data.program_data[this.state.program].courses;
+    for (const course of course_list) {
+      if (year_lists.length >= course.year) {
+        year_lists[course.year - 1].req_list.push(course);
+      }
+    }
+
+
     for (const code in this.props.course_dict) {
       if (this.props.course_dict.hasOwnProperty(code)
           && this.props.course_dict[code].needs === "done") {
+        const course = this.props.course_dict[code];
         done_list.push(code);
-        button_list.push({code, reqs: "highs", needs: "done",
-          shaded: false, highlighted: true});
+        if (course.year === 0) {
+          button_list.push({code, reqs: "highs", needs: "done",
+              shaded: false, highlighted: true});
+        } else if (year_lists.length >= course.year) {
+          year_lists[course.year - 1].done_list.push(course);
+        }
       }
     }
     done_list.sort(constants.code_compare);
@@ -96,7 +118,12 @@ export default class Scheduler extends React.Component {
           minHeight: this.state.min_height,
         }}>
           <div style={{flex: "1"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {year_lists.map((year_list) =>
+              <Year key={year_list.year}
+                    year={year_list.year}
+                    req_list={year_list.req_list}
+                    done_list={year_list.done_list} />
+            )}
           </div>
           <div id="scheduler_sidebar" style={constants.sidebar_style}>
             {this.state.hover_code ? utilities.getDescription(

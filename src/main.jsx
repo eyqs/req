@@ -26,7 +26,7 @@ import course_data from '../req.json';
 // return a new course object using input data from course_data
 
 function makeCourse(data) {
-  return {needs: "none", depth: 0,
+  return {needs: "none", depth: 0, year: 0, term: "W1",
       preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}, ...data};
 };
 
