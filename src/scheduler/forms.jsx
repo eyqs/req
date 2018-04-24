@@ -17,6 +17,7 @@
 import React from "react";
 import * as constants from "../const.js";
 import course_data from '../../req.json';
+import degree_data from '../../deq.json';
 
 
 export default class Form extends React.Component {
@@ -24,6 +25,7 @@ export default class Form extends React.Component {
     // this.props.done_list: list of taken course codes
     // this.props.start_year: first year to schedule
     // this.props.num_years: number of years to schedule
+    // this.props.program: program to consider degree requirements of
     // this.props.updateNumber: callback for when user updates a number input
     // this.props.parseCodes: callback for when user updates the course list
     super(props);
@@ -54,6 +56,21 @@ export default class Form extends React.Component {
                  type="number"
                  value={this.props.num_years}
                  onChange={this.props.updateNumber} />
+        </div>
+        <div>
+          <label htmlFor="program">
+            Degree program:
+          </label>
+          <select id="program"
+                  style={constants.label_style}
+                  value={this.props.program}
+                  onChange={this.props.updateInput}>
+            {Object.entries(degree_data.program_data).map(([code, program]) =>
+              <option key={code} value={code}>
+                {program.degree}, {program.subject}
+              </option>
+            )}
+          </select>
         </div>
         <div>
           <label htmlFor="courses">

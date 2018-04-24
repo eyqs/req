@@ -30,6 +30,7 @@ export default class Scheduler extends React.Component {
     this.state = {
       start_year: 2015,     // first year to schedule
       num_years: 4,         // number of years to schedule
+      program: "BASC BMEG", // program to consider degree requirements of
       render_toggle: false, // toggle this every time you don't want to render
       min_height: 0,        // minimum height of the app
       hover_code: "",       // code that the user is currently hovering over
@@ -79,8 +80,11 @@ export default class Scheduler extends React.Component {
         <Forms done_list={done_list}
                start_year={this.state.start_year}
                num_years={this.state.num_years}
+               program={this.state.program}
                updateNumber={(e) =>
                  this.setState({[e.target.id]: Number(e.target.value)})}
+               updateInput={(e) =>
+                 this.setState({[e.target.id]: e.target.value})}
                parseCodes={this.props.parseCodes} />
         <div style={constants.scheduler_button_row_padding}>
           <ButtonRow button_list={button_list}
