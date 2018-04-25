@@ -15,32 +15,47 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 import React from "react";
+import {DragSource} from "react-dnd";
 import * as constants from "./const.js";
 import * as utilities from "./util.jsx";
 
+const button_drag_source = {
+  beginDrag(props) {
+    return {code: props.code};
+  },
+};
 
-export default class Button extends React.Component {
+function drag_collect(connect, monitor) {
+  return {
+    connect_drag_source: connect.dragSource(),
+    is_dragging: monitor.isDragging(),
+  };
+};
+
+
+class DragButton extends React.Component {
   constructor(props) {
     // this.props.code: the course code
     // this.props.reqs: the relationship to the hover_code course
     // this.props.needs: the course status and button colour
     // this.props.shaded: true if the button should be shaded
     // this.props.highlighted: true if the button should be highlighted
-    // this.props.updateNeeds: callback for when user clicks the button
     // this.props.updateHover: callback for when user starts/stops hovering
     super(props);
   };
 
   render() {
-    return (
+    return this.props.connect_drag_source(
       <div style={{
         ...constants.button_style,
+        ...constants.drag_button_style,
+        cursor: "move",
+        opacity: this.props.is_dragging ? 0.5 : 1,
         backgroundColor: utilities.getBackground(
             this.props.needs, this.props.shaded),
         boxShadow: utilities.getBorder(
             this.props.reqs, this.props.highlighted),
       }}
-           onClick={() => this.props.updateNeeds(this.props.code)}
            onMouseOver={() => this.props.updateHover(this.props.code)}
            onMouseOut={() => this.props.updateHover("")}>
         {this.props.code}
@@ -48,3 +63,7 @@ export default class Button extends React.Component {
     );
   };
 };
+
+
+export default DragSource(
+    "button", button_drag_source, drag_collect)(DragButton);

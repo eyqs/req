@@ -17,26 +17,41 @@
 import React from "react";
 import * as constants from "./const.js";
 import Button from "./button.jsx";
+import DragButton from "./drag_button.jsx";
 
 export default class ButtonRow extends React.Component {
   constructor(props) {
     // this.props.button_list: the list of course button objects
+    // this.props.draggable: true iff the buttons can be dragged and dropped
     // this.props.updateNeeds: callback for when user clicks the course
     // this.props.updateHover: callback for when user starts/stops hovering
     super(props);
   };
 
   render() {
-    return (
-      <div style={constants.button_row_style}>
-        {this.props.button_list.sort(constants.code_compare).map(
-            ({code, reqs, needs, shaded, highlighted}) =>
-              <Button key={code} code={code} reqs={reqs} needs={needs}
-                      shaded={shaded} highlighted={highlighted}
-                      updateNeeds={this.props.updateNeeds}
-                      updateHover={this.props.updateHover} />
-        )}
-      </div>
-    );
+    if (this.props.draggable) {
+      return (
+        <div style={constants.button_row_style}>
+          {this.props.button_list.sort(constants.code_compare).map(
+              ({code, reqs, needs, shaded, highlighted}) =>
+                <DragButton key={code} code={code} reqs={reqs} needs={needs}
+                            shaded={shaded} highlighted={highlighted}
+                            updateHover={this.props.updateHover} />
+          )}
+        </div>
+      );
+    } else {
+      return (
+        <div style={constants.button_row_style}>
+          {this.props.button_list.sort(constants.code_compare).map(
+              ({code, reqs, needs, shaded, highlighted}) =>
+                <Button key={code} code={code} reqs={reqs} needs={needs}
+                        shaded={shaded} highlighted={highlighted}
+                        updateNeeds={this.props.updateNeeds}
+                        updateHover={this.props.updateHover} />
+          )}
+        </div>
+      );
+    }
   };
 };

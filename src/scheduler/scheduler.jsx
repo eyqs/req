@@ -15,6 +15,8 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 import React from "react";
+import {DragDropContext} from "react-dnd";
+import ReactDnDHTML5Backend from "react-dnd-html5-backend";
 import * as constants from "../const.js";
 import * as utilities from "../util.jsx";
 import Forms from "./forms.jsx";
@@ -23,7 +25,7 @@ import ButtonRow from "../button_row.jsx";
 import degree_data from '../../deq.json';
 
 
-export default class Scheduler extends React.Component {
+class Scheduler extends React.Component {
   constructor(props) {
     // this.props.course_dict: the dict of course objects
     // this.props.parseCodes: callback for when user updates the course list
@@ -66,9 +68,9 @@ export default class Scheduler extends React.Component {
     const year_lists = [];
     const done_list = [];
     const button_list = [];
-    for (let year = 0; year < this.state.num_years; year++) {
+    for (let year = 1; year <= this.state.num_years; year++) {
       year_lists.push({
-        year: this.state.start_year + year,
+        year: year,
         req_list: [],
         done_list: [],
       });
@@ -110,6 +112,7 @@ export default class Scheduler extends React.Component {
                parseCodes={this.props.parseCodes} />
         <div style={constants.scheduler_button_row_padding}>
           <ButtonRow button_list={button_list}
+                     draggable={true}
                      updateHover={(hover_code) => this.setState({hover_code})}
                      updateNeeds={() => false} />
         </div>
@@ -121,6 +124,7 @@ export default class Scheduler extends React.Component {
             {year_lists.map((year_list) =>
               <Year key={year_list.year}
                     year={year_list.year}
+                    start_year={this.state.start_year}
                     req_list={year_list.req_list}
                     done_list={year_list.done_list} />
             )}
@@ -135,3 +139,6 @@ export default class Scheduler extends React.Component {
     );
   };
 };
+
+
+export default DragDropContext(ReactDnDHTML5Backend)(Scheduler);

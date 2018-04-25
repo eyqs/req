@@ -15,6 +15,7 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 import React from "react";
+import * as constants from "./const.js";
 
 
 // convert a size in rem to a size in pixels
@@ -56,3 +57,20 @@ export function getDescription(course, offset_top) {
 };
 
 
+// get the correct background colour for a button
+
+export function getBackground(needs, shaded) {
+  return constants.rgba
+      + constants.colours_to_rgba[constants.button_colours[needs]]
+      + (shaded ? constants.button_shaded_alpha
+      : constants.button_plain_alpha);
+};
+
+
+// get the correct border colour for a button
+
+export function getBorder(reqs, highlighted) {
+  return (highlighted ? constants.button_highlight_border
+      : constants.button_plain_border)
+      + constants.border_colours[reqs];
+};

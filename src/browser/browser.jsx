@@ -132,6 +132,7 @@ export default class Browser extends React.Component {
               <div key={depth} style={constants.browser_button_row_padding}>
                 <ButtonRow key={depth}
                            button_list={button_list}
+                           draggable={false}
                            updateNeeds={this.props.updateNeeds}
                            updateHover={this.updateHover.bind(this)} />
               </div>
