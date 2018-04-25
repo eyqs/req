@@ -17,6 +17,7 @@
 import React from "react";
 import {DropTarget} from "react-dnd";
 import * as constants from "../const.js";
+import ButtonRow from "../button_row.jsx";
 
 const year_drop_target = {
   drop(props, monitor) {
@@ -36,27 +37,31 @@ class Year extends React.Component {
     // this.props.req_list: the list of required courses and packages
     // this.props.done_list: the list of courses completed this year
     // this.props.updateTerm: callback for when user updates the course term
+    // this.props.updateHover: callback for when user starts/stops hovering
     super(props);
   };
 
 
   render() {
     return this.props.connect_drop_target(
-      <div>
-        Term: {this.props.start_year + this.props.year - 1}
-        <br />
-        Completed Courses:
-        <ul>
-          {this.props.done_list.map(
-            ({code}) => <li key={code}>{code}</li>)}
-        </ul>
-        <br />
-        Required Courses:
-        <ul>
-          {this.props.req_list.map(
-            ({code}) => <li key={code}>{code}</li>)}
-        </ul>
-        <br />
+      <div style={constants.scheduler_year_style}>
+        <p>
+          <strong>
+            Term: {this.props.start_year + this.props.year - 1}.{" "}
+          </strong>
+          Completed Courses:
+        </p>
+        <ButtonRow button_list={this.props.done_list}
+                   draggable={true}
+                   updateHover={this.props.updateHover}
+                   updateNeeds={() => false} />
+        <p>
+          Required Courses:
+        </p>
+        <ButtonRow button_list={this.props.req_list}
+                   draggable={false}
+                   updateNeeds={() => false}
+                   updateHover={() => false} />
       </div>
     );
   };

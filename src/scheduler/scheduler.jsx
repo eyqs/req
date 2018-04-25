@@ -79,7 +79,8 @@ class Scheduler extends React.Component {
     const course_list = degree_data.program_data[this.state.program].courses;
     for (const course of course_list) {
       if (year_lists.length >= course.year) {
-        year_lists[course.year - 1].req_list.push(course);
+        year_lists[course.year - 1].req_list.push({code: course.code,
+          reqs: "highs", needs: "preq", shaded: false, highlighted: true});
       }
     }
 
@@ -93,7 +94,8 @@ class Scheduler extends React.Component {
           button_list.push({code, reqs: "highs", needs: "done",
               shaded: false, highlighted: true});
         } else if (year_lists.length >= course.year) {
-          year_lists[course.year - 1].done_list.push(course);
+          year_lists[course.year - 1].done_list.push({code: course.code,
+            reqs: "highs", needs: "done", shaded: false, highlighted: true});
         }
       }
     }
@@ -128,6 +130,7 @@ class Scheduler extends React.Component {
                     start_year={this.state.start_year}
                     req_list={year_list.req_list}
                     done_list={year_list.done_list}
+                    updateHover={(hover_code) => this.setState({hover_code})}
                     updateTerm={this.props.updateTerm} />
             )}
           </div>

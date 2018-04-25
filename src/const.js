@@ -130,6 +130,10 @@ export const scheduler_button_row_padding = {
   padding: "0 3rem",
 };
 
+export const scheduler_year_style = {
+  paddingTop: "1rem",
+};
+
 
 export const button_colours = {
   done: "greenyellow",
