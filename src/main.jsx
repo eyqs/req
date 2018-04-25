@@ -370,6 +370,16 @@ export default class Main extends React.Component {
   };
 
 
+  // callback to update the year and term of a course
+
+  updateTerm(code, year, term) {
+    const course_dict = {...this.state.course_dict};
+    course_dict[code].year = year;
+    course_dict[code].term = term;
+    this.setState({course_dict});
+  };
+
+
   // draw the main app
 
   render() {
@@ -393,7 +403,8 @@ export default class Main extends React.Component {
       return (
         <div style={constants.main_style}>
           <Scheduler course_dict={this.state.course_dict}
-                     parseCodes={this.parseCodes.bind(this)} />
+                     parseCodes={this.parseCodes.bind(this)}
+                     updateTerm={this.updateTerm.bind(this)} />
         </div>
       );
     }

@@ -29,6 +29,7 @@ class Scheduler extends React.Component {
   constructor(props) {
     // this.props.course_dict: the dict of course objects
     // this.props.parseCodes: callback for when user updates the course list
+    // this.props.updateTerm: callback for when user updates the course term
     super(props);
     this.state = {
       start_year: 2015,     // first year to schedule
@@ -126,7 +127,8 @@ class Scheduler extends React.Component {
                     year={year_list.year}
                     start_year={this.state.start_year}
                     req_list={year_list.req_list}
-                    done_list={year_list.done_list} />
+                    done_list={year_list.done_list}
+                    updateTerm={this.props.updateTerm} />
             )}
           </div>
           <div id="scheduler_sidebar" style={constants.sidebar_style}>
