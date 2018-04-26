@@ -19,13 +19,14 @@ import React from "react";
 import * as constants from "./const.js";
 import Helper from "./helper/helper.jsx";
 import Browser from "./browser/browser.jsx";
+import Scheduler from "./scheduler/scheduler.jsx";
 import course_data from '../req.json';
 
 
 // return a new course object using input data from course_data
 
 function makeCourse(data) {
-  return {needs: "none", depth: 0,
+  return {needs: "none", depth: 0, year: 0, term: "W1",
       preqs: [], creqs: [], excls: [], dreqs: [], ddict: {}, ...data};
 };
 
@@ -114,29 +115,45 @@ export default class Main extends React.Component {
 
   // parse the course code input box and reorder the buttons on the tree
 
-  parseCodes() {
+  parseCodes(done) {
     const re_lists = document.getElementById("courses").value.split(";").map(
         (list) => list.split(",").map(
         (code) => compileRegExp(stripWhitespace(code))));
     const new_list = [];
     const done_list = [];
-    for (const re of re_lists[0]) {
-      for (const code in course_data) {
-        if (course_data.hasOwnProperty(code)) {
-          const match = re.exec(code);
-          if (match !== null) {
-              new_list.push(code);
+
+    if (done) {
+      for (const list of re_lists) {
+        for (const re of list) {
+          for (const code in course_data) {
+            if (course_data.hasOwnProperty(code)) {
+              const match = re.exec(code);
+              if (match !== null) {
+                done_list.push(code);
+              }
+            }
           }
         }
       }
-    }
-    if (re_lists.length > 1) {
-      for (const re of re_lists[1]) {
+    } else {
+      for (const re of re_lists[0]) {
         for (const code in course_data) {
           if (course_data.hasOwnProperty(code)) {
             const match = re.exec(code);
             if (match !== null) {
-                done_list.push(code);
+                new_list.push(code);
+            }
+          }
+        }
+      }
+      if (re_lists.length > 1) {
+        for (const re of re_lists[1]) {
+          for (const code in course_data) {
+            if (course_data.hasOwnProperty(code)) {
+              const match = re.exec(code);
+              if (match !== null) {
+                  done_list.push(code);
+              }
             }
           }
         }
@@ -144,6 +161,11 @@ export default class Main extends React.Component {
     }
     const code_dict = {};
     for (const code of new_list) {
+      if (code.length > 1 && course_data.hasOwnProperty(code)) {
+        code_dict[code] = true;
+      }
+    }
+    for (const code of done_list) {
       if (code.length > 1 && course_data.hasOwnProperty(code)) {
         code_dict[code] = true;
       }
@@ -348,6 +370,16 @@ export default class Main extends React.Component {
   };
 
 
+  // callback to update the year and term of a course
+
+  updateTerm(code, year, term) {
+    const course_dict = {...this.state.course_dict};
+    course_dict[code].year = year;
+    course_dict[code].term = term;
+    this.setState({course_dict});
+  };
+
+
   // draw the main app
 
   render() {
@@ -365,6 +397,14 @@ export default class Main extends React.Component {
                    parseCodes={this.parseCodes.bind(this)}
                    updateNeeds={this.updateNeeds.bind(this)}
                    updateCourse={this.updateCourse.bind(this)} />
+        </div>
+      );
+    case "scheduler":
+      return (
+        <div style={constants.main_style}>
+          <Scheduler course_dict={this.state.course_dict}
+                     parseCodes={this.parseCodes.bind(this)}
+                     updateTerm={this.updateTerm.bind(this)} />
         </div>
       );
     }
