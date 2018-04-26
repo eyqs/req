@@ -31314,7 +31314,8 @@ var Browser = function (_React$Component) {
         return _react2.default.createElement(
           "div",
           null,
-          _react2.default.createElement(_forms2.default, { parseCodes: this.props.parseCodes })
+          _react2.default.createElement(_forms2.default, { parseCodes: this.props.parseCodes }),
+          _react2.default.createElement("div", { id: "browser" })
         );
       }
 
