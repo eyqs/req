@@ -15,8 +15,8 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 import React from "react";
-import * as constants from "./const.js";
-import course_data from '../req.json';
+import * as constants from "../const.js";
+import course_data from '../../req.json';
 
 
 // strip all whitespace characters from a string
@@ -92,10 +92,13 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <div style={constants.forms_style}>
+      <div style={{
+        ...constants.forms_style,
+        ...constants.browser_forms_style,
+      }}>
         <div style={{flex: "1"}}>
           <label htmlFor="code">Code:</label>
-          <input style={{margin: "0.5em"}}
+          <input style={constants.label_style}
             type="text" id="code"
             value={this.state.code}
             onChange={(e) => this.setState({[e.target.id]: e.target.value})} />
@@ -116,7 +119,9 @@ export default class Form extends React.Component {
             Enter already-taken course codes, separated by commas, after a semicolon:
           </label>
           <textarea style={{width: "100%"}} id="courses" rows="8" placeholder="CPSC 416, Asia 396, BIOL464,  mA  T h4   2  3  ,, TEST 200, CPSC 416;  math1 00,PHYS10  2,  ,e   Ngl1  12"></textarea>
-          <button onClick={() => this.props.parseCodes()}>Launch</button>
+          <button onClick={() => this.props.parseCodes()}>
+            Launch
+          </button>
         </div>
       </div>
     );

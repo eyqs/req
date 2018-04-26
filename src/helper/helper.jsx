@@ -15,7 +15,7 @@
  * along with this program. If not, see http://www.gnu.org/licenses/.
  */
 import React from "react";
-import * as constants from "./const.js";
+import * as constants from "../const.js";
 
 
 export default class Helper extends React.Component {
@@ -39,30 +39,26 @@ export default class Helper extends React.Component {
           Advanced users can use a Javascript-style regex in place of a course code when searching for courses to add. All course codes have no whitespace in them, and the regex is automatically enclosed with ^ and $.
         </p>
         <ul>
-          {Object.entries(constants.button_colours).map(([needs, colour]) => {
-            return (
-              <li key={colour + " button"}>
-                A course with a{" "}
-                <span style={{backgroundColor: colour}}>
-                  {colour} button
-                </span>
-                {constants.button_descriptions[needs]}
-              </li>
-            );
-          })}
+          {Object.entries(constants.button_colours).map(([needs, colour]) =>
+            <li key={colour + " button"}>
+              A course with a{" "}
+              <span style={{backgroundColor: colour}}>
+                {colour} button
+              </span>
+              {constants.button_descriptions[needs]}
+            </li>
+          )}
         </ul>
         <ul>
-          {Object.entries(constants.border_colours).map(([needs, colour]) => {
-            return (
-              <li key={colour + " border"}>
-                A course with a{" "}
-                <span style={{color: colour}}>
-                  {colour} border
-                </span>
-                {constants.border_descriptions[needs]}
-              </li>
-            );
-          })}
+          {Object.entries(constants.border_colours).map(([needs, colour]) =>
+            <li key={colour + " border"}>
+              A course with a{" "}
+              <span style={{color: colour}}>
+                {colour} border
+              </span>
+              {constants.border_descriptions[needs]}
+            </li>
+          )}
         </ul>
       </div>
     );
