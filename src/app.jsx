@@ -49,7 +49,9 @@ class App extends React.Component {
                 <div style={constants.tab_style}
                      key={tab}
                      onClick={() => this.setState({tab})}>
-                  {tab}
+                  <div style={{cursor: "pointer"}}>
+                    {tab}
+                  </div>
                 </div>
               );
             }

@@ -685,7 +685,8 @@ var tab_list = exports.tab_list = ["helper", "browser", "scheduler"];
 
 var tabbar_style = exports.tabbar_style = {
   display: "flex",
-  flexDirection: "row"
+  flexDirection: "row",
+  cursor: "default"
 };
 
 var tab_style = exports.tab_style = {
@@ -2886,6 +2887,7 @@ function getDescription(course, offset_top) {
   if (course.desc) {
     paragraphs.push(course.desc);
   }
+  paragraphs.push("This " + constants.button_descriptions[course.needs]);
   var _arr = [["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"], ["Excluded by: ", "excls"], ["Required by: ", "dreqs"], ["Terms: ", "terms"], ["Credits: ", "cred"]];
   for (var _i = 0; _i < _arr.length; _i++) {
     var param = _arr[_i];
@@ -7632,7 +7634,11 @@ var App = function (_React$Component) {
                   onClick: function onClick() {
                     return _this2.setState({ tab: tab });
                   } },
-                tab
+                _react2.default.createElement(
+                  "div",
+                  { style: { cursor: "pointer" } },
+                  tab
+                )
               );
             }
           })
@@ -31251,6 +31257,15 @@ var Browser = function (_React$Component) {
         return false;
       }
       return true;
+    }
+  }, {
+    key: "componentWillUnmount",
+
+
+    // cancel the unshade timeout before unmounting
+
+    value: function componentWillUnmount() {
+      clearTimeout(this.state.unshade_timeout);
     }
   }, {
     key: "render",

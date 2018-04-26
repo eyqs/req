@@ -37,6 +37,7 @@ export function getDescription(course, offset_top) {
   if (course.desc) {
     paragraphs.push(course.desc);
   }
+  paragraphs.push("This " + constants.button_descriptions[course.needs]);
   for (const param of [
       ["Prereqs: ", "preqs", "prer"], ["Coreqs: ", "creqs", "crer"],
       ["Excluded by: ", "excls"], ["Required by: ", "dreqs"],

@@ -77,6 +77,13 @@ export default class Browser extends React.Component {
   };
 
 
+  // cancel the unshade timeout before unmounting
+
+  componentWillUnmount() {
+    clearTimeout(this.state.unshade_timeout);
+  };
+
+
   // draw the entire app only if user selects some courses
 
   render() {

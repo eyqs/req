@@ -31,6 +31,7 @@ export const tab_list = ["helper", "browser", "scheduler"];
 export const tabbar_style = {
   display: "flex",
   flexDirection: "row",
+  cursor: "default",
 };
 
 export const tab_style = {
