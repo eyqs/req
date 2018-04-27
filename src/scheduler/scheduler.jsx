@@ -42,6 +42,16 @@ class Scheduler extends React.Component {
   };
 
 
+  // callback to update hover_code if the user hovers over a child button
+  // hover_code does not reset if user moves mouse out
+
+  updateHover(hover_code) {
+    if (hover_code !== "") {
+      this.setState({hover_code});
+    }
+  }
+
+
   // update the maximum height after rendering
 
   componentDidUpdate() {
@@ -116,8 +126,8 @@ class Scheduler extends React.Component {
         <div style={constants.scheduler_button_row_padding}>
           <ButtonRow button_list={button_list}
                      draggable={true}
-                     updateHover={(hover_code) => this.setState({hover_code})}
-                     updateNeeds={() => false} />
+                     updateNeeds={() => false}
+                     updateHover={this.updateHover.bind(this)} />
         </div>
         <div id="scheduler" style={{
           ...constants.scheduler_style,
@@ -130,7 +140,7 @@ class Scheduler extends React.Component {
                     start_year={this.state.start_year}
                     req_list={year_list.req_list}
                     done_list={year_list.done_list}
-                    updateHover={(hover_code) => this.setState({hover_code})}
+                    updateHover={this.updateHover.bind(this)}
                     updateTerm={this.props.updateTerm} />
             )}
           </div>
