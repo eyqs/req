@@ -16,6 +16,8 @@
  */
 import React from "react";
 import * as constants from "./const.js";
+import course_data from '../req.json';
+import degree_data from '../deq.json';
 
 
 // convert a size in rem to a size in pixels
@@ -26,11 +28,30 @@ export function remToPixels(rem_string) {
 };
 
 
-// given a course object, return the raw HTML for its sidebar
+// given a hover code and the sidebar element, return its raw HTML
 
-export function getDescription(course, offset_top) {
+export function getDescription(code, sidebar_element) {
+  if (code === "") {
+    return null;
+  }
+  let offset = 0;
+  if (sidebar_element !== undefined) {
+    offset = sidebar_element.offsetTop;
+  }
+  let course = course_data[code];
+  if (course === undefined) {
+    course = degree_data.package_data[code];
+  }
+  if (course === undefined) {
+    return (
+      <div style={{paddingTop: Math.max(0, window.pageYOffset - offset)}}>
+        {code}: [no information found]
+      </div>
+    );
+  }
+
   const paragraphs = [];
-  paragraphs.push(course.code);
+  paragraphs.push(code);
   if (course.name) {
     paragraphs[0] += ": " + course.name;
   }
@@ -48,7 +69,7 @@ export function getDescription(course, offset_top) {
     }
   }
   return (
-      <div style={{paddingTop: Math.max(0, window.pageYOffset - offset_top)}}>
+      <div style={{paddingTop: Math.max(0, window.pageYOffset - offset)}}>
         {paragraphs.map((paragraph, index) =>
           <p key={index}>{paragraph}</p>
         )}

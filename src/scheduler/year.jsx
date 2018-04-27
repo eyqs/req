@@ -53,15 +53,15 @@ class Year extends React.Component {
         </p>
         <ButtonRow button_list={this.props.done_list}
                    draggable={true}
-                   updateHover={this.props.updateHover}
-                   updateNeeds={() => false} />
+                   updateNeeds={() => false}
+                   updateHover={this.props.updateHover} />
         <p>
           Required Courses:
         </p>
         <ButtonRow button_list={this.props.req_list}
                    draggable={false}
                    updateNeeds={() => false}
-                   updateHover={() => false} />
+                   updateHover={this.props.updateHover} />
       </div>
     );
   };

@@ -142,9 +142,8 @@ export default class Browser extends React.Component {
             ...constants.sidebar_style,
             ...constants.browser_sidebar_style,
           }}>
-            {this.state.hover_code ? utilities.getDescription(
-              this.props.course_dict[this.state.hover_code],
-              document.getElementById("browser_sidebar").offsetTop) : ""}
+            {utilities.getDescription(this.state.hover_code,
+              document.getElementById("browser_sidebar"))}
           </div>
         </div>
       </div>

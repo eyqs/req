@@ -135,9 +135,8 @@ class Scheduler extends React.Component {
             )}
           </div>
           <div id="scheduler_sidebar" style={constants.sidebar_style}>
-            {this.state.hover_code ? utilities.getDescription(
-              this.props.course_dict[this.state.hover_code],
-              document.getElementById("scheduler_sidebar").offsetTop) : ""}
+            {utilities.getDescription(this.state.hover_code,
+              document.getElementById("scheduler_sidebar"))}
           </div>
         </div>
       </div>
