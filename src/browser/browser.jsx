@@ -123,6 +123,8 @@ export default class Browser extends React.Component {
       return (
         <div>
           <Forms parseCodes={this.props.parseCodes} />
+          <div id="browser">
+          </div>
         </div>
       );
     }
