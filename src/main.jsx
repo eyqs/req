@@ -303,17 +303,17 @@ export default class Main extends React.Component {
     }
 
     if (operator === "and") {
-      if (statuses.indexOf("none") !== -1) {
+      if (~statuses.indexOf("none")) {
         return "none";                // any course is none -> none
-      } else if (statuses.indexOf("outs") !== -1) {
+      } else if (~statuses.indexOf("outs")) {
         return "outs";                // any course is outs -> outs
       } else {
         return "done";                // all courses are done -> done
       }
     } else if (operator === "or") {
-      if (statuses.indexOf("done") !== -1) {
+      if (~statuses.indexOf("done")) {
         return "done";                // any course is done -> done
-      } else if (statuses.indexOf("outs") !== -1) {
+      } else if (~statuses.indexOf("outs")) {
         return "outs";                // any course is outs -> outs
       } else {
         return "none";                // all courses are none -> none

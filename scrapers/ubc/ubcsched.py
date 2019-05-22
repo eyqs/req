@@ -19,29 +19,19 @@ along with this program. If not, see http://www.gnu.org/licenses/.
 
 import req
 import sys
-import urllib.request
+import requests
 
 CONFIG = req.get_config()['scrapers']['ubc']['scripts']['ubcsched.py']
 YEAR = CONFIG['year']
 SESSION = [{
-    'url': f'&sessyr={YEAR}&sesscd=S',
+    'url': f'&campuscd=UBC&sessyr={YEAR}&sesscd=S',
     'id': f'{YEAR}S',
     'year': str(YEAR)
 }, {
-    'url': f'&sessyr={YEAR}&sesscd=W',
+    'url': f'&campuscd=UBC&sessyr={YEAR}&sesscd=W',
     'id': f'{YEAR}W',
     'year': str(YEAR)
 }]
-
-# List of all activity types, taken from search page
-ACTIVITY = ['<td>' + activity + '</td>' for activity in
-    ['Lecture', 'Laboratory', 'Seminar', 'Tutorial', 'Waiting List',
-    'Discussion', 'Directed Studies', 'Thesis', 'Work Placement', 'Practicum',
-    'Lecture-Laboratory', 'Studio', 'Web-Oriented Course', 'Exchange Program',
-    'Rehearsal', 'Essay/Report', 'Project', 'Workshop', 'Problem Session',
-    'Lecture-Seminar', 'Lab-Seminar', 'Flexible Learning', 'Reserved Section',
-    'Optional Section', 'Research', 'Field Trip', 'Lecture-Discussion',
-    'Distance Education']]
 
 
 if len(sys.argv) > 1:
@@ -60,46 +50,33 @@ for session in SESSION:
 
 # Get the terms a course is offered
 def get_terms(url):
-    html = urllib.request.urlopen(url)
     terms = set()
-    flag = False
-    for line in html:
+    for row in requests.get(url).text.split('<tr class=section')[1:]:
         # Term looks like <td>1</td> or <td>1-2</td>
-        term = line.decode('UTF-8', 'backslashreplace').strip()
-        if flag:
-            terms.add(term.split('>')[1].split('<')[0])
-            flag = False
-        # Term is always preceded by one of these activities
-        if term in ACTIVITY:
-            flag = True
-    return terms
+        terms.add(row.split('</td>')[3][4:])
+    return sorted(terms)
 
 
 # Get all the course codes in a department
 def get_codes(url):
-    html = urllib.request.urlopen(url)
     codes = set()
-    for line in html:
-        # Course looks like <td><a href="/cs/main?pname=subjarea& \
-        #   tname=subjareas&req=3&dept=CPSC&course=110">CPSC 110</a></td>
-        course = line.decode('UTF-8', 'backslashreplace')
-        if '&course' in course or '&amp;course' in course:
-            codes.add(course.split('=')[7].split('"')[0])
+    for row in requests.get(url).text.split('&amp;course=')[1:]:
+        # Course looks like <a href=/cs/courseschedule?pname=subjarea \
+        #   &amp;tname=subj-course&amp;dept=CPSC&amp;course=110>CPSC 110</a>
+        codes.add(row.split('>')[0])
     return sorted(codes)
 
 
 # Get all the departments in UBC
 def get_depts(url):
-    html = urllib.request.urlopen(url)
+    html = requests.get(url).text
     depts = set()
-    for line in html:
-        # Department looks like <a href="/cs/main?pname=subjarea& \
-        #   tname=subjareas&req=1&dept=CPSC">CPSC</a>
-        department = line.decode('UTF-8', 'backslashreplace')
-        if '&dept' in department or '&amp;dept' in department:
-            depts.add(department.split('=')[6].split('"')[0])
-        if 'no courses offered for the current session by UBC' in department:
-            return False;
+    if 'No courses offered' in html or 'no longer offered' in html:
+        return False;
+    for row in html.split('&amp;dept=')[1:]:
+        # Department looks like <a href=/cs/courseschedule?pname=subjarea \
+        #   &amp;tname=subj-department&amp;dept=CPSC>CPSC</a>
+        depts.add(row.split('>')[0])
     return sorted(depts)
 
 
@@ -109,21 +86,22 @@ if __name__ == '__main__':
         print('Preparing to scrape information from ' + session['id'] + '...')
         with open(req.get_year_path(CONFIG['outfile'], session['year']),
                 'a', encoding='utf8') as f:
-            d = get_depts('https://courses.students.ubc.ca/cs/main?' +
-                          'pname=subjarea&tname=subjareas&req=0' +
-                          session['url'])
+            d = get_depts('https://courses.students.ubc.ca/'
+                    + 'cs/courseschedule?pname=subjarea'
+                    + '&tname=subj-all-departments' + session['url'])
             if d:
                 for dept in d:
                     print('Scraping ' + dept + ' courses...', end='\r')
-                    c = get_codes('https://courses.students.ubc.ca/cs/main?' +
-                                  'pname=subjarea&tname=subjareas&req=1&dept='
-                                  + dept + session['url'])
+                    c = get_codes('https://courses.students.ubc.ca/'
+                            + 'cs/courseschedule?pname=subjarea'
+                            + '&tname=subj-department&dept='
+                            + dept + session['url'])
                     if c:
                         for code in c:
-                            t = get_terms(
-                                'https://courses.students.ubc.ca/cs/main?' +
-                                'pname=subjarea&tname=subjareas&req=3&dept='
-                                + dept + session['url'] + '&course=' + code)
+                            t = get_terms('https://courses.students.ubc.ca/'
+                                    + 'cs/courseschedule?pname=subjarea'
+                                    + f'&tname=subj-course&dept={dept}'
+                                    + f'&course={code}{session["url"]}')
                             if t:
                                 f.write(' '.join(['\n\ncode:', dept, code]))
                                 f.write('\nterm: ')
