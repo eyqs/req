@@ -6,7 +6,7 @@ gitdb2==2.0.3
 GitPython==2.1.8
 graphviz==0.8.2
 idna==2.6
-PyYAML==3.12
-requests==2.18.4
+PyYAML>=3.13
+requests>=2.22
 smmap2==2.0.3
 urllib3==1.22

@@ -1,8 +1,8 @@
 scrapers:
   ubc:
     default: &ubc_scrapers
-      year: 2018
-      years: [2015, 2016, 2017, 2018]
+      year: 2019
+      years: [2015, 2016, 2017, 2018, 2019]
       path: scrapers/ubc/
     scripts:
       excluded.py:
@@ -23,8 +23,8 @@ scrapers:
 parsers:
   ubc:
     default: &ubc_parsers
-      year: 2018
-      years: [2015, 2016, 2017, 2018]
+      year: 2019
+      years: [2015, 2016, 2017, 2018, 2019]
       path: parsers/ubc/
     scripts:
       graph.py:
