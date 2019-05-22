@@ -1,0 +1,53 @@
+
+
+code: PERS 100
+name: Basic Persian I
+cred: 3
+desc: Basic vocabulary and the fundamentals of modern Persian grammar, structure, and pronunciation, as well as reading, writing, listening, and speaking. 
+
+code: PERS 101
+name: Basic Persian II
+cred: 3
+desc: Continuation of PERS 100. 
+prer: PERS 100.
+preq: PERS 100
+
+code: PERS 104
+name: Persian Reading and Writing for Persian-Speaking Students
+cred: 3
+desc: Reading and writing of standard Persian; lexical and syntactic differences between written and spoken Persian. Restricted to Persian heritage speakers with aural/oral knowledge but no reading/writing skills. 
+
+code: PERS 200
+name: Intermediate Persian I
+cred: 3
+desc: Reading of simple texts with emphasis on reading and writing, conversation skills, grammar, and syntax. 
+prer: PERS 101.
+preq: PERS 101
+
+code: PERS 201
+name: Intermediate Persian II
+cred: 3
+desc: Continuation of PERS 200. 
+prer: PERS 200.
+preq: PERS 200
+
+code: PERS 300
+name: Advanced Persian I
+cred: 3
+desc: Graded reading, writing, exposure to textual history, newspaper reading, and translation. Cultural materials presented as appropriate. 
+prer: One of PERS 104, PERS 201. Or Persian heritage speakers with basic reading/writing skills (less than Grade 8 formal education in Iran).
+preq: PERS 104 or PERS 201. Or Persian heritage speakers with basic reading/writing skills (less than Grade 8 formal education in Iran)
+
+code: PERS 301
+name: Advanced Persian II
+cred: 3
+desc: Continuation of PERS 300. 
+prer: PERS 300.
+preq: PERS 300
+
+code: PERS 400
+name: Persian Short Story for Native and Heritage Speakers
+cred: 3
+desc: Modern short stories from mid-19 century to present. 
+prer: One of PERS 104, PERS 300. Or Persian heritage speakers with strong reading/writing skills (High School).  NOT eligible to students who have studied at the post-secondary level in Iran.
+preq: PERS 104 or PERS 300. Or Persian heritage speakers with strong reading/writing skills (High School). NOT eligible to students who have studied at the post-secondary level in Iran

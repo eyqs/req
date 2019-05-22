@@ -1,0 +1,258 @@
+
+
+code: PHAR 400
+name: Pharmacy Management
+cred: 3
+desc: Application of management principles to pharmacy operations. 
+
+code: PHAR 401
+name: Pharmacy Skills III
+cred: 4
+desc: Legal, technical and professional aspects of dispensing prescriptions and providing pharmaceutical care, primarily for community pharmacy practice. 
+prer: PHAR 303.
+preq: PHAR 303
+
+code: PHAR 402
+name: Living Language: Science and Society
+cred: 3
+desc: Multidisciplinary course in which students, individually and in groups, examine, integrate and apply subject-specific knowledge through the lens of language and the framework of the language sciences, with a focus on themes of real-world importance. 
+prer: Fourth-year standing or permission of the instructor.
+preq: Fourth-year standing or permission of the instructor
+
+code: PHAR 403
+name: Clinical Skills: Administration of Injections
+cred: 1
+desc: Training for authorization to administer injections. 
+
+code: PHAR 404
+name: Peer Teaching in Pharmacy Skills II
+cred: 3
+desc: Development and delivery of patient counselling role-playing activities in PHAR 303. 
+prer: PHAR 303. Permission of instructor required.
+preq: PHAR 303. Permission of instructor required
+
+code: PHAR 405
+name: Directed Studies in Clinical Pharmacy
+cred: 2, 3, 4, 5
+desc: Individual assignments involving library and clinical investigation of specific problems relating to drug utilization and information topics. 
+prer: Permission of the instructor.
+preq: Permission of the instructor
+
+code: PHAR 406
+name: Drug Safety
+cred: 3
+desc: Pharmacist knowledge and skills in relation to current issues in drug safety. 
+
+code: PHAR 408
+name: Clinical Pharmacokinetics
+cred: 3
+desc: Lectures and discussions of topics on the application of pharmacokinetic principles and the use of therapeutic drug level monitoring in clinical pharmacy practice. 
+
+code: PHAR 409
+name: Renal Pharmacotherapeutics
+cred: 3
+desc: Case-based approach to the pathophysiology, pharmacology, clinical pharmacokinetics, and pharmacotherapy in nephrology with emphasis on the integration and application of fundamental principles to clinical situations in class and during their experiential component. 
+prer: Successful completion of all required courses in the first three years of the pharmacy curriculum.
+preq: Successful completion of all required courses in the first three years of the pharmacy curriculum
+
+code: PHAR 410
+name: Pharmaceutical Research: From Bench to Bedside and Beyond
+cred: 3
+desc: Basic, translational, clinical, and community-based research. 
+
+code: PHAR 414
+name: Directed Studies in Pharmaceutics and Biopharmaceutics
+cred: 2, 3, 4, 5
+desc: Individual assignments involving library and laboratory investigation of problems involved in the development of pharmaceutical dosage forms. 
+prer: Permission of the instructor
+preq: Permission of the instructor
+
+code: PHAR 415
+name: Topics in Pharmaceutics and Biopharmaceutics
+cred: 4
+desc: A study of selected topics in the field of pharmaceutics and biopharmaceutics. Registration restricted. Permission of instructor required. 
+
+code: PHAR 420
+name: Directed Studies in Pharmacy Education
+cred: 2, 3, 4, 5
+desc: Individual assignments involving library and scholarly inquiry related to pharmacy education. 
+prer: Permission of the instructor.
+preq: Permission of the instructor
+
+code: PHAR 430
+name: Biomolecular Pharmaceutical Chemistry I
+cred: 4
+desc: Chemical principles and their application to drugs used to regulate enzyme activity. 
+prer: PHAR 330.
+preq: PHAR 330
+
+code: PHAR 434
+name: Essential Medicinal Chemistry Concepts for Pharmacists
+cred: 3
+desc: Applying selected chemical concepts to understand drug structure and properties, using frequently encountered drugs as examples. Examining how drugs are used to inhibit enzyme activity. 
+
+code: PHAR 435
+name: Biomolecular Pharmaceutical Chemistry II
+cred: 3
+desc: Chemical principles and their application to drugs used to regulate receptor activity. 
+
+code: PHAR 440
+name: Pain Research and Therapy
+cred: 3
+desc: Basic mechanisms and the clinical management of acute and chronic pain. 
+prer: Third Year standing
+preq: Third Year standing
+
+code: PHAR 441
+name: Pharmacology III
+cred: 3
+desc: The pharmacology of selected drug classes. 
+prer: PHAR 342.
+preq: PHAR 342
+crer: All of PHAR 451, PHAR 461, PHAR 471.
+creq: PHAR 451 and PHAR 461 and PHAR 471
+
+code: PHAR 442
+name: Pharmacology IV
+cred: 3
+desc: The pharmacology of selected drug classes. 
+prer: PHAR 441.
+preq: PHAR 441
+crer: All of PHAR 452, PHAR 462, PHAR 472.
+creq: PHAR 452 and PHAR 462 and PHAR 472
+
+code: PHAR 444
+name: Directed Studies in Pharmacology
+cred: 2, 3, 4, 5
+desc: Individual assignments involving library and laboratory investigation of certain aspects of drug action. 
+prer: Permission of the instructor.
+preq: Permission of the instructor
+
+code: PHAR 448
+name: Pharmaceutical Toxicology
+cred: 3
+desc: Basic principles of toxicology; toxicity of pharmaceuticals, and precision medicine approaches to mitigate toxicity. 
+
+code: PHAR 450
+name: Selected Topics
+cred: 2, 3, 4, 5, 6, 7, 8
+
+code: PHAR 451
+name: Therapeutics III
+cred: 2
+desc: Rational drug therapy, management of patient-specific drug-related problems and therapeutic monitoring of selected disease states. 
+prer: PHAR 352.
+preq: PHAR 352
+crer: All of PHAR 441, PHAR 461, PHAR 471.
+creq: PHAR 441 and PHAR 461 and PHAR 471
+
+code: PHAR 452
+name: Therapeutics IV
+cred: 2
+desc: Rational drug therapy, management of patient-specific drug-related problems and therapeutic monitoring of selected disease states. 
+prer: PHAR 451.
+preq: PHAR 451
+crer: All of PHAR 442, PHAR 462, PHAR 472.
+creq: PHAR 442 and PHAR 462 and PHAR 472
+
+code: PHAR 453
+name: Directed Studies in Pharmacy Practice
+cred: 2, 3, 4, 5
+desc: Individual assignments involving library and field work investigations of problems associated with pharmacy practice. 
+prer: Permission of the instructor.
+preq: Permission of the instructor
+
+code: PHAR 454
+name: Pediatric and Geriatric Drug Therapy
+cred: 3
+desc: Drug therapy considerations in pediatric and geriatric patients. 
+prer: PHAR 451.
+preq: PHAR 451
+crer: PHAR 452.
+creq: PHAR 452
+
+code: PHAR 456
+name: Applied Pharmacoeconomics
+cred: 3
+desc: Principles and methods of economic assessments to determine the value of health technologies, with a focus on pharmaceuticals and services provided by pharmacists. 
+
+code: PHAR 458
+name: Pharmacotherapy in Oncology
+cred: 3
+desc: Common oncological diseases and their drug treatment. 
+
+code: PHAR 460
+name: Natural Health Products in Pharmacy Practice
+cred: 2
+desc: An evidence-based analysis of the efficacy and safety of natural health products used in pharmacy practice. 
+
+code: PHAR 461
+name: Non-Prescription Drugs and Self-Care of the Patient III
+cred: 1
+desc: The use of non-prescription drugs for selected conditions. 
+prer: PHAR 362.
+preq: PHAR 362
+crer: All of PHAR 441, PHAR 451.
+creq: PHAR 441 and PHAR 451
+
+code: PHAR 462
+name: Non-Prescription Drugs and Self-Care of the Patient IV
+cred: 1
+desc: The use of non-prescription drugs for selected conditions. 
+prer: PHAR 461.
+preq: PHAR 461
+crer: All of PHAR 442, PHAR 452.
+creq: PHAR 442 and PHAR 452
+
+code: PHAR 469
+name: Introductory Pharmacy Practice Experience II
+cred: 3
+desc: A 160-hour pharmacy clerkship focused on delivery of comprehensive patient care and disease management in community practice. 
+prer: PHAR 369 and promotion to fourth year.
+preq: PHAR 369 and promotion to fourth year
+
+code: PHAR 471
+name: Pathophysiology II
+cred: 1
+desc: Pathophysiology of selected disease states. 
+prer: PHAR 371.
+preq: PHAR 371
+crer: All of PHAR 441, PHAR 451.
+creq: PHAR 441 and PHAR 451
+
+code: PHAR 472
+name: Pathophysiology III
+cred: 1
+desc: Pathophysiology of selected disease states. 
+prer: PHAR 471.
+preq: PHAR 471
+crer: All of PHAR 442, PHAR 452.
+creq: PHAR 442 and PHAR 452
+
+code: PHAR 479
+name: Advanced Pharmacy Practice Experience - Community
+cred: 12
+desc: A 320-hour pharmacy clerkship emphasizing integration of knowledge and skills in developing and assessing therapeutic plans for patients in community practice. 
+prer: PHAR 469.
+preq: PHAR 469
+
+code: PHAR 489
+name: Advanced Pharmacy Practice Experience - Institutional
+cred: 6
+desc: A 160-hour pharmacy clerkship emphasizing integration of knowledge and skills in developing and assessing therapeutic plans for patients in institutional practice. 
+prer: PHAR 469.
+preq: PHAR 469
+
+code: PHAR 498
+name: Cases in Pharmaceutical Sciences III
+cred: 6
+desc: Case studies and other activities integrating scientific and clinical concepts. 
+prer: PHAR 399.
+preq: PHAR 399
+
+code: PHAR 499
+name: Cases in Pharmaceutical Sciences IV
+cred: 5
+desc: Case studies and other activities integrating scientific and clinical concepts. 
+prer: PHAR 498.
+preq: PHAR 498

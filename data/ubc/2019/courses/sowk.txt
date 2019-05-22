@@ -1,0 +1,144 @@
+
+
+code: SOWK 200
+name: Introduction to Social Welfare
+cred: 3
+desc: An introduction to the perspectives, concepts and theoretical foundations of social welfare, including an analysis of the institutional structures of social welfare in the modern state. 
+
+code: SOWK 201
+name: Introduction to Social Work Practice
+cred: 3
+desc: An introduction to the knowledge, skills and values of social work practice in its many forms, emphasizing different ways of understanding the context of social and personal problems. 
+prer: SOWK 200.
+preq: SOWK 200
+
+code: SOWK 305
+name: Topics in Social Work Practice I
+cred: 3, 4, 5, 6, 7, 8
+desc: Examinations of the foundation, knowledge and competencies underlying various topics in generalist social work practice. Enrolment is limited to students in the B.S.W. program 
+
+code: SOWK 310
+name: Interviewing Skills
+cred: 3, 6
+desc: Communication theory and interviewing skills and their application to the Social Work interview. 
+
+code: SOWK 315
+name: Practicum I
+cred: 6
+desc: A supervised practicum in an assigned social service, two days a week throughout the program year. Limited to students in the B.S.W. program. This course will be graded Pass/Fail. 
+prer: SOWK 310.
+preq: SOWK 310
+
+code: SOWK 316
+name: Integrative Seminar in Social Work Theory, Policy and Practice
+cred: 3
+desc: Integrates students' learning from field, practice, policy and theory courses for the purposes of professional development. 
+
+code: SOWK 320
+name: Introduction to Social Work Research
+cred: 3
+desc: Introduction to theory and conduct of social research as applied to social welfare and social work practice. The focus is on development of social work research questions and design of studies. Enrolment is limited to students in the B.S.W. program, except by permission of the school. 
+
+code: SOWK 325
+name: Indigenous Peoples and Critical Social Work Analysis
+cred: 3
+desc: Contemporary social issues facing Indigenous peoples and communities examined in the context of the history of Settler-Canadian/Indigenous relations; the impact of Settler-Canadian institutions upon Indigenous peoples; implications for social policy and social work practice. Credit will be granted for only one of SOWK 325 or 425. 
+
+code: SOWK 335
+name: Topics in Social Analysis for Social Work Practice
+cred: 3, 4, 5
+desc: Theoretical considerations of relevance to social work practice. 
+
+code: SOWK 337
+name: Culture and Race in Social Work Practice
+cred: 3
+desc: Issues and problems inherent in practising social work in diverse cultural settings. 
+
+code: SOWK 400
+name: Canadian Social Policy
+cred: 3
+desc: Analysis of race, gender, class and culture as factors in the distribution and delivery of Canadian social benefits and social services. 
+
+code: SOWK 405
+name: Social Work Practice II
+cred: 3
+desc: This course examines the principles of optimal social work process with individuals, small groups, families and larger collectivities. 
+
+code: SOWK 415
+name: Practicum II
+cred: 6
+desc: A supervised practicum in an assigned social service, two days a week throughout the program year. Enrolment is limited to students in the B.S.W. program. This course will be graded Pass/Fail. 
+
+code: SOWK 416
+name: Advanced Integrative Seminar in Social Work Theory, Policy and Practice
+cred: 3
+desc: Development of professional judgement, evaluation, and self-evaluation in practice. 
+
+code: SOWK 420
+name: Introduction to Social Work Research
+cred: 3
+desc: Theory and conduct of social research as applied to social welfare and social work practice. Development of social work research questions and design of studies. Enrolment is limited to students in the B.S.W. program, except by permission of the school. Credit will be granted for only one of SOWK 420 or 320. 
+
+code: SOWK 425
+name: First Nations Social Issues
+cred: 3
+desc: Contemporary social issues facing First Nations peoples and communities examined in the context of the history of Euro-Canadian/First Nations relations; the impact of Euro-Canadian institutions upon First Nations peoples; implications for social policy and social work practice. 
+
+code: SOWK 430
+name: Special Studies in Social Work
+cred: 3, 4, 5
+desc: Lectures, seminars and/or individual tutorials to develop knowledge and skills in relation to a defined theory, policy or practice problem or client population. Enrolment is limited to students in the B.S.W. program, except by permission of the School. 
+
+code: SOWK 440
+name: Integrative Seminars in Social Work
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: A series of seminars offered during the final term of studies which address salient issues in social policy and social work practice and draw upon combined knowledge from social work and related disciplines. 
+
+code: SOWK 441
+name: Social Context of Child Development
+cred: 3
+desc: The ways in which the familial, physical, and social environment effects the life structures, opportunities and outcomes of epigenetic developmental processes. 
+
+code: SOWK 442
+name: Policy and Practice in Child Welfare
+cred: 3
+desc: Covers the statutory bases and practices associated with the continuum of child welfare services from prevention through permanency planning. 
+prer: SOWK 441 or another course in child development.
+preq: SOWK 441 or another course in child development
+
+code: SOWK 450
+name: Social Work Practice in Community Mental Health
+cred: 3
+desc: Online course providing overview of social work services to persons with a mental illness. 
+prer: Fourth-year standing in SOWK.
+preq: Fourth-year standing in SOWK
+
+code: SOWK 451
+name: Health Care Team Development
+cred: 3
+desc: This Interprofessional Health and Human Service (IHHS) course covers the skills, knowledge, roles, and issues involved with working successfully in interprofessional health and human service teams. Intended for upper division students in any health and human service program. Offered as IHHS 400 prior to September 2015. Credit will be granted for only one of SOWK 451 or IHHS 400. 
+
+code: SOWK 452
+name: HIV Prevention and Care
+cred: 6
+desc: This Interprofessional Health and Human Service (IHHS) course prepares senior students to respond effectively to the HIV epidemic and its consequences. The knowledge and skills required for interprofessional and discipline-specific work are explored. Intended for students in health and human service programs. Offered as IHHS 402 prior to September 2015. Credit will be granted for only one of SOWK 452 or IHHS 402. 
+
+code: SOWK 453
+name: Disability and Justice
+cred: 3
+desc: This Interprofessional Health and Human Service (IHHS) course considers how health and human service professionals can effectively practice with people with disabilities from a social justice perspective. Social and personal context and practice responses are examined. Offered as IHHS 407 prior to September 2015. Credit will be granted for only one of SOWK 453 or IHHS 407. 
+
+code: SOWK 454
+name: Interdisciplinary Practice with Children and Families
+cred: 3
+desc: This Interprofessional Health and Human Service (IHHS) course covers interprofessional perspectives, challenges, and strategies. Clinical experience and some knowledge of child protection issues required. Offered as IHHS 403 prior to September 2015. Credit will be granted for only one of SOWK 454 or IHHS 403. 
+
+code: SOWK 455
+name: Palliative Care
+cred: 6
+desc: This Interprofessional Health and Human Service (IHHS) course covers attitudes, knowledge, skills, and abilities necessary for interprofessional and discipline-specific work in palliative care. For students registered in health and human service programs only. Offered as IHHS 405 prior to September 2015. Credit will be granted for only one of SOWK 455 or IHHS 405. 
+
+code: SOWK 456
+name: Special Topics in Collaborative Healthcare
+cred: 1, 2, 3, 4, 5
+desc: This Interprofessional Health and Human Service (IHHS) course prepares students to practice patient-centred interprofessional collaboration in a specific area of healthcare. Offered as IHHS 480 prior to September 2015. Credit will be granted for only one of SOWK 456 or IHHS 480. 

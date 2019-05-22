@@ -1,0 +1,194 @@
+
+
+code: CLST 105
+name: Greek and Roman Mythology
+cred: 3
+desc: Greek and Roman mythology and its interpretation. Emphasis on ancient texts read in English translation. 
+
+code: CLST 110
+name: Golden Age of Athens
+cred: 3
+desc: The history and culture, values, and achievements of fifth-century Athens. 
+
+code: CLST 111
+name: Late Republican and Early Imperial Rome
+cred: 3
+desc: The history and culture, values, and achievements of Late Republican and Early Imperial Rome. 
+
+code: CLST 204
+name: Gods, Graves, and Goods: The Archaeology of Ancient Greece and Rome
+cred: 3
+desc: A survey of the material cultures of the pre-classical and classical civilizations of Greece and Rome, illustrating the principles and techniques used to illuminate the archaeological history of these civilizations. 
+
+code: CLST 211
+name: Greek Philosophy I
+cred: 3
+desc: The Pre-Socratics; Socrates; Sophists; Plato. Recommended as preparation for CLST/PHIL 212 and PHIL 310. 
+
+code: CLST 212
+name: Greek Philosophy II
+cred: 3
+desc: Aristotle; selections from Hellenistic and Late Antique Philosophy. Recommended as preparation for PHIL 310 and PHIL 311. 
+
+code: CLST 231
+name: Ancient Greece
+cred: 3
+desc: A survey of the ancient Greek world from the Minoan and Mycenaean (about 2000-1000 BCE) to the Hellenistic Period (323-30 BCE). 
+
+code: CLST 232
+name: Ancient Rome
+cred: 3
+desc: A survey of the ancient Roman world from the foundation of the city to the death of Constantine. 
+
+code: CLST 260
+name: Gladiators, Games, and Spectacle in the Greek and Roman World
+cred: 3
+desc: History, development, and social function of various forms of spectacle in ancient Greece and Rome, from the Olympic games to the Roman arena. 
+
+code: CLST 301
+name: The Technical Terms of Medicine and Biological Science
+cred: 3
+desc: Acquaints the student with the Greek and Latin elements from which most specialized terms of modern medicine are constructed. Intended primarily for students planning to enter the medical, pharmaceutical, or biological sciences. 
+
+code: CLST 306
+name: Ancient Technology: Greece and Rome
+cred: 3
+desc: The origins, achievements, and social impacts of applied technology in the Greek and Roman world from the Bronze Age to Late Antiquity (c. 1500 BCE - 400 CE), with special attention to archaeological evidence. 
+
+code: CLST 307
+name: Greek Law
+cred: 3
+desc: The study of Greek legal theory, practice, and institutions from their origin in self-help, through the early lawgivers and their codes, to the developed system of Athens in the fifth and fourth centuries. A variety of test cases from the works of the Greek orators will be explored. 
+
+code: CLST 308
+name: Roman Law
+cred: 3
+desc: The development of Roman private law during the classical period with special attention to family law, contract and delict. 
+
+code: CLST 311
+name: Women in the Bronze Age, Classical Greek and Hellenistic Cultures
+cred: 3
+desc: The images projected in mythology, literature, and art are compared with realities of women's lives insofar as they can be reconstructed from historical, legal, and archaeological records. 
+
+code: CLST 312
+name: Women in the Roman World of Republican and Imperial Times
+cred: 3
+desc: Women  in the Roman world in the culture of the Republic and the Empire. Literary, artistic, and mythological sources are compared and contrasted to historical, legal, and archaeological records. 
+
+code: CLST 313
+name: Greek Epic
+cred: 3
+desc: Homer's 
+prer: CLST 105.
+preq: CLST 105
+
+code: CLST 314
+name: Latin Epic
+cred: 3
+desc: The development of the epic genre in Latin, with detailed study of Vergil's 
+prer: CLST 105.
+preq: CLST 105
+
+code: CLST 317
+name: Classical Tragedy
+cred: 3
+desc: The plays of the Greek and Roman tragic dramatists, in translation. 
+prer: CLST 105.
+preq: CLST 105
+
+code: CLST 318
+name: Classical Comedy
+cred: 3
+desc: The plays of the Greek and Roman comic dramatists: Aristophanes, Menander, Plautus and Terence, in translation. 
+prer: CLST 105.
+preq: CLST 105
+
+code: CLST 319
+name: The Roman Army
+cred: 3
+desc: Rome's military from the early Republic to the Imperial period. Topics range from those of a military nature such as equipment and strategy to social topics such as policing and marriage of soldiers. 
+
+code: CLST 320
+name: Slavery in the Ancient Greek and Roman World
+cred: 3
+desc: The study and history of slavery in the Greek and Roman worlds as a political, legal, economic, social, and cultural phenomenon. 
+prer: One of CLST 231, CLST 232, CLST 260.
+preq: CLST 231 or CLST 232 or CLST 260
+
+code: CLST 329
+name: Ancient Greek Warfare
+cred: 3
+desc: Ancient Greek methods and tactics of war plus underlying social, religious and philosophical concepts relating to warfare, through sources in translation. 
+
+code: CLST 331
+name: Greek Art and Architecture
+cred: 3
+desc: The visual culture of the ancient Greek world in the second and first millennia BCE, especially from c. 1000 to 30 BCE. 
+
+code: CLST 332
+name: Roman Art and Architecture
+cred: 3
+desc: The visual culture of the ancient Roman world from the 8th century BCE to the 4th century CE. 
+
+code: CLST 333
+name: Greek Religion
+cred: 3
+desc: A survey of both traditional and exoteric religious practices from the Archaic to the Hellenistic period.  Some knowledge of ancient Greece is recommended. 
+
+code: CLST 334
+name: Roman Religion
+cred: 3
+desc: Roman religions between the ninth century BC and the second century AD, including mystery religions, love magic, emperor worship, and early Christianity, with particular attention devoted to the primary sources. Some knowledge of ancient Rome is recommended. 
+
+code: CLST 352
+name: The Roman Republic
+cred: 3
+desc: Rome from the foundation to the Augustan settlement. Constitutional development; the workings and failure of the Republican political system; acquisition and growth of Empire; the political, social, and economic consequences of imperialism. 
+prer: CLST 232.
+preq: CLST 232
+
+code: CLST 353
+name: The Early Roman Empire
+cred: 3
+desc: Roman imperial history during the Julio-Claudian and Flavian periods (30 BC-96 AD). 
+prer: CLST 232.
+preq: CLST 232
+
+code: CLST 355
+name: The Athenians and their Empire
+cred: 3
+desc: The sources (literary, epigraphical and other) for Athens' emergence as one of the two leading city-states in late archaic and classical Greece and the stages by which her empire grew. 
+prer: CLST 231.
+preq: CLST 231
+
+code: CLST 356
+name: Alexander the Great and his Empire
+cred: 3
+desc: The rise of Macedon under Philip II leading to its domination of Greece and the overthrow of the Persian Empire by his son, Alexander; the subsequent spread of Greek civilization in the East. 
+prer: CLST 231.
+preq: CLST 231
+
+code: CLST 360
+name: Life and Society in Classical Antiquity
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Topics in Greek and Roman life and society. 
+
+code: CLST 401
+name: Seminar in Classical History
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Selected topics in Greek or Roman history, with an emphasis on research. Restricted to majors and honours students in CLST, CLAS, CLAH, ARGR, GRNE, CNRS. 
+
+code: CLST 402
+name: Seminar in Classical Literature
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Selected topics in Greek or Roman literature, with an emphasis on research. Restricted to majors and honours students in CLST, CLAS, CLAH, ARGR, GRNE, CNRS. 
+
+code: CLST 403
+name: Seminar in Classical Art and Archaeology
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Selected topics in Greek or Roman art and archaeology, with an emphasis on research. Restricted to majors and honours students in CLST, CLAS, CLAH, ARGR, GRNE, CNRS. 
+
+code: CLST 404
+name: Seminar in the Reception of the Classical World
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Selected topics in the reception of the classicial world in its own time and in later eras, with an emphasis on research. Prerequisite: at least one 3-credit upper-level course of content appropriate for the topic of the seminar (to be established by individual instructors). Restricted to majors and honours students in CLST, CLAS, CLAH, ARGR, GRNE, CNRS. 

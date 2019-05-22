@@ -1,0 +1,219 @@
+
+
+code: MTRL 201
+name: Technical Communication
+cred: 3
+desc: Written and oral communication in business correspondence, engineering design methods, report preparation, and oral presentations of technical material. Restricted to students in second year of the Materials Engineering Program. 
+prer: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121.
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+crer: MTRL 280.
+creq: MTRL 280
+
+code: MTRL 250
+name: Principles and Calculations in Materials Engineering
+cred: 4
+desc: Basic heat and mass balances applied to materials engineering; thermodynamic principles applied to materials processing: heat of reaction, free energy, activity, phase equilibrium. 
+
+code: MTRL 252
+name: Thermodynamics of Materials I
+cred: 4
+desc: High temperature equilibria: reactions involving gases, Ellingham diagrams, phase diagrams; thermodynamics of combustion systems relevant to materials engineering; advanced heat and mass balances applied to materials engineering. 
+
+code: MTRL 263
+name: Transport Phenomena I - Fluid Mechanics
+cred: 3
+desc: Fluid statics; fluid mechanics; laminar and turbulent flow; equations of continuity and motion; boundary layers; flow in conduits and packed and fluidized beds; flow measurements. 
+
+code: MTRL 264
+name: Transport Phenomena II - Heat Transport
+cred: 3
+desc: Conduction, forced and natural convection, and radiation.  Heat transfer with fluid flow, applications of heat exchange, and solidification of castings. 
+
+code: MTRL 280
+name: Materials in Design
+cred: 3
+desc: The process of materials selection for different design criteria; the importance of shape and processing variables; the use of computer software in the selection process. 
+
+code: MTRL 340
+name: Manufacturing in Materials Engineering
+cred: 3
+desc: Manufacturing processes from a materials perspective; metal casting, heat treating processes, forming processes, machining, and joining. Role of manufacturing in microstructure and material properties development and on component performance. 
+prer: APSC 278.
+preq: APSC 278
+
+code: MTRL 350
+name: Thermodynamics of Materials II
+cred: 4
+desc: Low temperature equilibria: solution thermochemistry, electrochemistry, chemical potential and free energy diagrams applied to materials processing and thermodynamic modelling. 
+prer: One of MMAT 250, MTRL 250.
+preq: MMAT 250 or MTRL 250
+
+code: MTRL 358
+name: Hydrometallurgy I
+cred: 3
+desc: Aqueous extraction of metals from ores and concentrates. 
+
+code: MTRL 359
+name: Hydrometallurgy I Laboratory
+cred: 1
+desc: Laboratory exercises on aqueous extraction of metals from ores and concentrates. 
+crer: One of MMAT 358, MTRL 358.
+creq: MMAT 358 or MTRL 358
+
+code: MTRL 361
+name: Modelling of Materials Processes
+cred: 4
+desc: Mathematical and physical modelling of processes employed in the production of materials. The application of models to analyse, design and improve materials production. 
+
+code: MTRL 363
+name: Transport Phenomena III - Mass Transport
+cred: 3
+desc: Diffusion and mass transfer with chemical reaction; gas-liquid, gas-solid and liquid-liquid systems; analysis of mass transfer processes in metallurgical operations; mixing in continuous and batch processes. 
+prer: All of MTRL 263, MTRL 264.
+preq: MTRL 263 and MTRL 264
+
+code: MTRL 365
+name: Mechanical Behaviour of Materials
+cred: 3
+desc: Polycrystalline and single crystal deformation; dislocation theory; strengthening mechanisms; fracture mechanics; fatigue; high temperature deformation mechanisms. 
+prer: APSC 278.
+preq: APSC 278
+
+code: MTRL 378
+name: Phase Transformations
+cred: 3
+desc: Solidification and solid state transformations; nucleation and growth processes; segregation and structure in castings; phase changes in steel; transformation diagrams; diffusion equations. 
+
+code: MTRL 381
+name: Structure and Properties Laboratory
+cred: 1
+desc: Structure and properties of ferrous and non-ferrous metals; heat treatment; hardenability; metallography; age hardening. 
+crer: All of MTRL 365, MTRL 378.
+creq: MTRL 365 and MTRL 378
+
+code: MTRL 382
+name: Ceramics
+cred: 4
+desc: Fundamentals of engineering ceramics focusing on raw materials, forming, sintering and properties, characterization, and design with ceramics. 
+
+code: MTRL 392
+name: Engineering Technical Communication
+cred: 2
+desc: Written and oral technical communication. Report preparation and oral presentation of technical information. 
+prer: One of APSC 201, MTRL 201.
+preq: APSC 201 or MTRL 201
+
+code: MTRL 394
+name: Polymer and Polymer Matrix Composites
+cred: 4
+desc: The structure and properties of polymeric materials, reinforced polymers and polymer matrix composites with emphasis on their engineering properties and applications. 
+
+code: MTRL 398
+name: Engineering Written Communication
+cred: 1
+desc: Written communication in engineering. Reporting of technical material. 
+prer: One of APSC 201, MTRL 201.
+preq: APSC 201 or MTRL 201
+
+code: MTRL 442
+name: Coatings and Surface Modification
+cred: 3
+desc: Strategies for ceramic and metallic coatings by melting-solidification, from the vapour state and from solution, and methods of surface modification. 
+prer: APSC 278.
+preq: APSC 278
+
+code: MTRL 451
+name: Microstructural Analysis Laboratory
+cred: 3
+desc: Basic principles and techniques of microstructural analysis with particular reference to engineered materials including x-ray, SEM microprobe TEM and high energy electron analysis. 
+
+code: MTRL 455
+name: Economic Aspects of Materials Engineering
+cred: 3
+desc: Time value of money, cash flows, capital and operating cost estimation, financial decision making and relevant case studies. 
+
+code: MTRL 456
+name: Environmental Degradation of Materials
+cred: 3
+desc: Fundamental aspects of environmental degradation of metals (corrosion), ceramics, adn polymers, with an empasis on aqueous environments. 
+
+code: MTRL 458
+name: Hydrometallurgy II
+cred: 3
+desc: Leaching, purification, precipitation, regeneration; thermodynamics and kinetics of separation steps; electrochemical applications. 
+prer: One of MMAT 358, MTRL 358.
+preq: MMAT 358 or MTRL 358
+
+code: MTRL 460
+name: Monitoring and Optimization of Materials Processing
+cred: 3
+desc: Measurement systems for materials processing and evaluation, methods of data collection and analysis in materials engineering, materials processing monitoring and control, design of experiments for materials processing and optimization. 
+prer: All of STAT 251, APSC 278.
+preq: STAT 251 and APSC 278
+
+code: MTRL 466
+name: Engineering Project I
+cred: 3
+desc: Design projects to illustrate the full spectrum of design encountered in Metals and Materials Engineering including the design of components, structures and processes used to manufacture materials. 
+
+code: MTRL 467
+name: Engineering Project II
+cred: 3
+desc: Design projects to illustrate the full spectrum of design encountered in Metals and Materials Engineering including the design of components, structures and processes used to manufacture materials. 
+
+code: MTRL 471
+name: Nanofibre Technology
+cred: 3
+desc: Introduction to nanomaterials in the form of fibres and composites, including processing, structure, characterization methods, properties, and modeling. Credit will only be given for one of MTRL 471 or MTRL 571. 
+
+code: MTRL 472
+name: Welding and Joining of Materials
+cred: 3
+desc: Case studies addressing temperature modelling in welding and joining, material selection for welds and joints, calculation of properties for welds and joints, mechanical analysis of joints, and design of welding and joining procedures. 
+prer: All of MTRL 365, MTRL 378.
+preq: MTRL 365 and MTRL 378
+
+code: MTRL 475
+name: Microstructure Engineering
+cred: 3
+desc: Follows the production of metallurgical products, focusing on process design models used to describe solidification, recrystallization, and precipitation. 
+prer: All of MTRL 365, MTRL 378.
+preq: MTRL 365 and MTRL 378
+
+code: MTRL 478
+name: Electronic Materials
+cred: 3
+desc: Semiconductor materials, MOSFET structure, operation and applications in digital circuits, fabrication techniques, basic mask and fabrication flow design and semiconductor fabrication process theories at an entry level. [3-0-0]
+
+code: MTRL 485
+name: Failure of Materials
+cred: 3
+desc: Failure by excess deformation, fracture, fatigue, and environmental effects. Failure theories and case studies of engineering failures. 
+prer: All of MECH 260, MTRL 365.
+preq: MECH 260 and MTRL 365
+
+code: MTRL 486
+name: Nondestructive Evaluation
+cred: 3
+desc: Principles of test methods; inspection techniques and equipment; quantitative flaw evaluation; reliability analysis. 
+
+code: MTRL 489
+name: Seminar III
+cred: 1
+desc: Training and practice in public speaking and presentation of technical papers. 
+
+code: MTRL 494
+name: Composite Materials
+cred: 3
+desc: Understanding the properties and the mechanical behaviour of composite materials with emphasis on analysis, design, and manufacturing. Credit will only be given for one of MTRL 494, 594. 
+
+code: MTRL 495
+name: Biomaterials
+cred: 3
+desc: Engineered materials in medical applications with an emphasis on material properties, functionality, design, and material response in the biological environment. 
+prer: APSC 278.
+preq: APSC 278
+
+code: MTRL 497
+name: Special Topics in Materials Engineering
+cred: 1, 2, 3, 4, 5

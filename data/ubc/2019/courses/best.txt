@@ -1,0 +1,97 @@
+
+
+code: BEST 200
+name: Foundations in Bioproducts and the Bioeconomy
+cred: 3
+desc: Introduction to the production, use, and attributes of renewable products and energy derived from biobased materials. Sustainability paradigms related to the bioeconomy; potential environmental and socio-political impacts associated with biobased technologies and transitions to sustainable economies. [3-0-0]
+prer: CHEM 121.
+preq: CHEM 121
+
+code: BEST 201
+name: Plants, Carbon, and Environment
+cred: 3
+desc: Introduction to plant biology, with special emphasis on growth and development, highlighting the biological mechanisms of radiation energy capture, and water and nutrient acquisition in the production of plant biomass. [3-0-0]
+prer: All of BIOL 111, BIOL 121.
+preq: BIOL 111 and BIOL 121
+
+code: BEST 202
+name: Alternative Energy Systems
+cred: 3
+desc: Introduction to safe, clean, and sustainable supplies of energy. Economic, social, environmental, and policy issues raised by current systems of energy use and production are examined. [3-0-0]
+
+code: BEST 203
+name: Ecology of Managed Ecosystems
+cred: 3
+desc: Provides a foundation in managed ecosystems and community ecology. Includes material on forest ecology and agricultural ecosystems as managed environments. [3-2-0]
+prer: One of BIOL 111, BIOL 121.
+preq: BIOL 111 or BIOL 121
+
+code: BEST 204
+name: Land Use Management and Planning
+cred: 3
+desc: Global overview of land use management and planning, with a focus on principles and practice. [3-0-2]
+
+code: BEST 300
+name: Biobased Polymers and Bioproducts
+cred: 3
+desc: Study of occurrence, synthesis, derivatization, physical properties, processing, and application of major bio-based polymers from biomass. Manufacturing processes and uses of biobased products are examined. [3-0-0]
+prer: One of CHEM 203, CHEM 233.
+preq: CHEM 203 or CHEM 233
+
+code: BEST 301
+name: Bioenergy
+cred: 3
+desc: Interdisciplinary approach to bioenergy. The technology of the systems involved, the social and environmental implications of biomass use for energy systems. [3-0-0]
+prer: BEST 202.
+preq: BEST 202
+
+code: BEST 302
+name: Laboratory in Bioeconomy Technology (I)
+cred: 3
+desc: Laboratory modules for bioeconomy technologies; bioenergy and bioproducts. [1-3-0]
+prer: BEST 200.
+preq: BEST 200
+crer: One of BEST 300, BEST 301.
+creq: BEST 300 or BEST 301
+
+code: BEST 303
+name: Applied Biotechnology for Bioproducts
+cred: 3
+desc: Use of microbiology and enzymology for processing and enhancing value of forest and agro-based bioproducts; saccharification of biomass, fermentation, and product upgrading with biocatalysts. [3-0-0]
+prer: BEST 300.
+preq: BEST 300
+
+code: BEST 304
+name: Laboratory in Bioeconomy Technology (II)
+cred: 3
+desc: Laboratory modules for bioeconomy technologies; plant breeding, deconstruction, fermentation, and applied biotechnology. [1-3-0]
+prer: BEST 302.
+preq: BEST 302
+crer: BEST 303.
+creq: BEST 303
+
+code: BEST 400
+name: Biomimicry and Biocomposites
+cred: 3
+desc: Introduction to principles of self-assembly, hierarchical structures, biocomposites, and unique adaptive structures. [3-0-0]
+prer: BEST 300.
+preq: BEST 300
+
+code: BEST 401
+name: Carbon and Energy Economics
+cred: 3
+desc: Understanding key issues for carbon management, protocols for carbon accounting and methodologies for emissions inventories and carbon costing. Economics and business response to climate change are examined. [3-0-0]
+prer: ECON 101.
+preq: ECON 101
+
+code: BEST 402
+name: Industrial Ecology
+cred: 3
+desc: Concepts in sustainability around technology and material use; relevance of biological ecology to industrial ecology; life cycle analysis: components and applications; and approaches to design. [3-0-2]
+prer: BEST 200.
+preq: BEST 200
+
+code: BEST 403
+name: Integrated Strategies for Bioproduct Innovation
+cred: 3
+desc: Project-based course on development of bioeconomy products; demonstration of out-of-box thinking, service learning and teamwork. Restricted to students in the Forest Bioeconomy Sciences and Technology program. [2-3-0]

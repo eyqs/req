@@ -1,0 +1,62 @@
+
+
+code: LATN 101
+name: First-Year Latin I
+cred: 3
+desc: Classical Latin for students with no previous knowledge of Latin, Part I. 
+
+code: LATN 102
+name: First-Year Latin II
+cred: 3
+desc: Classical Latin for students with no previous knowledge of Latin, Part II. 
+prer: LATN 101.
+preq: LATN 101
+
+code: LATN 201
+name: Second-Year Latin I
+cred: 3
+desc: Completion of the grammatical foundations of classical Latin, Part I. 
+prer: LATN 102.
+preq: LATN 102
+
+code: LATN 202
+name: Second-Year Latin II
+cred: 3
+desc: Completion of the grammatical foundations of classical Latin, Part II, and an introduction to the reading of unadapted passages of Latin literature. 
+prer: LATN 201.
+preq: LATN 201
+
+code: LATN 350
+name: Latin Literature of the Classical Period (Prose)
+cred: 3
+desc: Readings in Latin Prose. 
+prer: One of LATN 202, LATN 200.
+preq: LATN 202 or LATN 200
+
+code: LATN 351
+name: Latin Literature of the Classical Period (Verse)
+cred: 3
+desc: Readings in Latin Verse. 
+prer: One of LATN 200, LATN 202.
+preq: LATN 200 or LATN 202
+
+code: LATN 401
+name: Latin Prose
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Studies in history, oratory and/or philosophy. May be repeated for up to 12 credits. It is recommended that the corequisite course be completed prior to LATN 401. 
+crer: One of LATN 301, LATN 350, LATN 351.
+creq: LATN 301 or LATN 350 or LATN 351
+
+code: LATN 402
+name: Latin Verse
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Studies in narrative verse, comedy, satire, elegiac and lyric poetry. May be repeated for up to 12 credits. It is recommended that the corequisite course be completed prior to LATN 402. 
+crer: One of LATN 301, LATN 350, LATN 351.
+creq: LATN 301 or LATN 350 or LATN 351
+
+code: LATN 403
+name: Studies in Latin Prose and Verse
+cred: 3, 4, 5
+desc: Thematic studies using both Latin prose and Latin verse. May be repeated for up to 6 credits. 
+crer: One of LATN 350, LATN 351. It is recommended that the corequisite course be completed prior to LATN 403.
+creq: LATN 350 or LATN 351. It is recommended that the corequisite course be completed prior to LATN 403

@@ -1,0 +1,474 @@
+
+
+code: PHIL 100
+name: Introduction to Philosophy
+cred: 6
+desc: Basic problems and methods of Philosophy. Topics such as the existence of God, the nature and scope of human knowledge, the relationship between mind and body, personal identity, free will, issues and problems in moral philosophy. Credit will be granted for only one of PHIL 100 and either or both PHIL 101 or PHIL 102. 
+
+code: PHIL 101
+name: Introduction to Philosophy
+cred: 3
+desc: Basic problems and methods of philosophy. Topics such as the nature and scope of human knowledge, the existence of God, and the relationship between mind and body. Credit will be granted for only one of PHIL 100 or PHIL 101. 
+
+code: PHIL 102
+name: Introduction to Philosophy II
+cred: 3
+desc: Basic problems and methods of philosophy. Topics such as morality, personal identity, free will and determinism, and the meaning of life. Credit will be granted for only one of PHIL 100 or PHIL 102. 
+
+code: PHIL 120
+name: Introduction to Critical Thinking
+cred: 3
+desc: Tools for dealing with both everyday and more technical arguments and concepts. Analysis and resolution of confusions, ambiguities, and fallacies. This course is restricted to students with fewer than 90 credits. 
+
+code: PHIL 125
+name: Introduction to Scientific Reasoning
+cred: 3
+desc: Historical and logical analysis of various types of scientific hypotheses and the data that support or undermine them. This course is restricted to students with fewer than 90 credits. 
+
+code: PHIL 211
+name: Greek Philosophy I: Socrates and Plato
+cred: 3, 4
+desc: The Pre-Socratics; Socrates; Sophists; Plato.  Recommended as preparation for PHIL 310. 
+
+code: PHIL 212
+name: Greek Philosophy II: Aristotle and After
+cred: 3, 4
+desc: Aristotle; selections from Hellenistic and Late Antique Philosophy. Recommended as preparation for PHIL 310. 
+
+code: PHIL 220
+name: Symbolic Logic
+cred: 3, 4
+desc: Sentential and predicate logic. Translation from natural language; truth tables and interpretations; systems of natural deduction up to relational predicate logic with identity; alternative proof methods. Some sections may use computer-based materials and tests. 
+
+code: PHIL 230
+name: Introduction to Ethics
+cred: 3, 4
+desc: Theories of obligation and value; moral reasoning; normative ethics, descriptive ethics and meta-ethics. Readings in classic and contemporary texts. 
+
+code: PHIL 235
+name: Contemporary Moral Issues
+cred: 3, 4
+desc: Moral issues such as life and death decisions, paternalism, markets, animal welfare, technology, and global justice. 
+
+code: PHIL 240
+name: Introduction to Epistemology
+cred: 3, 4
+desc: Topics in epistemology such as skepticism, truth, justification, a priori and a posteriori knowledge. Readings from classic and contemporary texts. 
+
+code: PHIL 250
+name: Minds and Machines
+cred: 3
+desc: Philosophical and theoretical issues that pertain to how mental phenomena fit into the material world. Examine questions such as whether a sophisticated enough computer should be deemed a conscious intelligent being. Focus on philosophical literature on consciousness, intelligence, animal minds, and the mind-body relation. Credit will be granted for only one of PHIL 250 or PHIL 150. 
+
+code: PHIL 260
+name: Science and Society in the Contemporary World
+cred: 3, 4
+desc: An introduction to the historical development, conceptual foundations, and cultural significance of contemporary science. Themes will vary from year to year. 
+
+code: PHIL 310
+name: The Philosophy of Plato
+cred: 3, 4
+desc: A study of Plato's dialogues and his influence on subsequent philosophy. 
+prer: PHIL/CLST 211 and PHIL/CLST 212 are recommended.
+preq: PHIL/CLST 211 and PHIL/CLST 212 are recommended
+
+code: PHIL 311
+name: The Philosophy of Aristotle
+cred: 3, 4
+desc: A study of Aristotle's writings and his influence on subsequent philosophy. 
+prer: PHIL 310.
+preq: PHIL 310
+
+code: PHIL 313
+name: Medieval Philosophy
+cred: 3
+desc: Survey of Western European thought from Augustine to the 14th century. Possible topics and authors include: Augustine; Abelard; the influence of Islam; the rediscovery of Aristotle; Aquinas; Scotus; Ockham. 
+
+code: PHIL 314
+name: Philosophy in the 17th Century
+cred: 3, 4
+desc: Survey of 17th-century philosophy from Bacon to Leibniz, including the writings of Hobbes, Descartes, and Spinoza. The influence of science and religion on philosophy. 
+
+code: PHIL 315
+name: Philosophy in the 18th Century
+cred: 3, 4
+desc: Survey of 18th-century philosophy from Locke to Kant, including the writings of Berkeley, Rousseau, and Hume. The influence of science and religion on philosophy. 
+prer: PHIL 314.
+preq: PHIL 314
+
+code: PHIL 316
+name: Philosophy After 1800
+cred: 3, 4
+desc: Survey of 19th and 20th century philosophy. May include Hegel, Schopenhauer, Nietzsche, Mill, Meinong, Brentano, the British Idealists, Russell, and Moore. Social and political currents in 19th century philosophical thought. 
+
+code: PHIL 320
+name: Logic: Metatheory and Computability
+cred: 3, 4
+desc: Continuation of PHIL 220. A system of deduction for predicate logic is selected for further study. Completeness of this system and other metatheoretic results are proved. Other topics include computability, recursive function theory, incompleteness and decidability. 
+prer: PHIL 220.
+preq: PHIL 220
+
+code: PHIL 321
+name: Induction, Decision and Game Theory
+cred: 3, 4
+desc: Formal methods relevant to probabilistic and inductive reasoning. Decision theory, game theory, axiomatic probability theory and its interpretations, belief dynamics, simulation and modelling. 
+prer: One of PHIL 125, PHIL 220 or instructor permission.
+preq: PHIL 125 or PHIL 220 or instructor permission
+
+code: PHIL 322
+name: Modal Logic
+cred: 3, 4
+desc: Logic of the modal operators "It is necessary that" and "It is possible that." Possible-world semantics and a method of derivation for this logic. 
+prer: PHIL 220.
+preq: PHIL 220
+
+code: PHIL 323
+name: Non-Classical Logics
+cred: 3, 4
+desc: One or more of conditional logic, deontic logic, epistemic logic, many-valued logic, systems of belief dynamics. 
+prer: PHIL 220.
+preq: PHIL 220
+
+code: PHIL 324
+name: Philosophy of Logic
+cred: 3, 4
+desc: Fundamental concepts and methods of logic; the logistic method, syntax and semantics; the conditional; entailment; consequence; modal logic; problems concerning extensionality and intentionality. Frege's distinction between sense and reference; Russell's theory of definite descriptions; Tarski's definition of truth. 
+prer: PHIL 220.
+preq: PHIL 220
+
+code: PHIL 326
+name: Philosophy of Language I
+cred: 3, 4
+desc: Philosophical discussion of language, meaning, and communication. Credit will be granted for only one of PHIL 326 or PHIL 425. 
+prer: At least one of LING 201/PHIL 220, plus 6 additional credits of PHIL/LING at the 200-level or above.
+preq: At least one of LING 201/PHIL 220 or plus 6 additional credits of PHIL/LING at the 200-level or above
+
+code: PHIL 330
+name: Social and Political Philosophy
+cred: 3, 4
+desc: Theories of political and legal obligation and authority, legal reasoning, society and the state. Readings in classic and contemporary texts. 
+prer: PHIL 230 is strongly recommended.
+preq: PHIL 230 is strongly recommended
+
+code: PHIL 331
+name: Business and Professional Ethics
+cred: 3, 4
+desc: Moral problems in contemporary business and professional practice, general moral theory, the law, and policy formation. Corporate social and environmental responsibility, employee rights, preferential hiring and affirmative action programs, conflicts of interest, advertising, "whistle blowing" and self-regulation. Credit will be granted for only one of PHIL 331 or PHIL 434. 
+
+code: PHIL 332
+name: Environmental Ethics
+cred: 3, 4
+desc: Moral problems arising in the context of human relationships to nature and to non-human living things, considered in terms of both general moral theory and policy formation. Topics include moral standing, animal rights, obligations to future generations, pollution, hazardous materials, the depletion of natural resources and the treatment of non-human living things. Credit will be granted for only one of PHIL 332 or PHIL 435. 
+
+code: PHIL 333
+name: Bio-Medical Ethics
+cred: 3, 4
+desc: Moral problems arising in the health sciences, especially in medicine but also in biology, psychology, and social work. Topics include abortion, death and euthanasia, genetic engineering, behaviour modification, compulsory treatment, experimentation with human beings and animals, and the relationship between professionals and their patients, subjects or clients. No philosophical background is required. Credit will be granted for only one of PHIL 333 or PHIL 433. 
+
+code: PHIL 334
+name: Sex, Gender and Philosophy
+cred: 3, 4
+desc: Relationship between sex, gender, and philosophy. Topics may include ethics, epistemology, science, social relations, law, and personhood. 
+
+code: PHIL 335
+name: Power and Oppression
+cred: 3, 4
+desc: Philosophical approaches to historical problems of inequality and social harm, with readings drawn from historical and contemporary sources. Topics to be studied may include slavery, colonialism, labour, and the position of women in society. 
+
+code: PHIL 338
+name: Philosophy of Law
+cred: 3, 4
+desc: Concepts of law, constitution and sovereignty; law and morality; natural law theories and legal positivism; obligation, responsibility, and punishment. 
+prer: Restricted to second- or higher-year standing.
+preq: Restricted to second- or higher-year standing
+
+code: PHIL 339
+name: Philosophy of Art
+cred: 3, 4
+desc: Topics include art and perception, art and reality, imagination, expression, censorship, and the role of art in human life. 
+
+code: PHIL 340
+name: Introduction to Metaphysics
+cred: 3, 4
+desc: Topics in metaphysics such as the nature of physical reality, personal identity, the mind/body problem, free will, causation and action theory. Readings from classic and contemporary texts. 
+prer: PHIL 240 is recommended.
+preq: PHIL 240 is recommended
+
+code: PHIL 347
+name: Philosophy of Religion
+cred: 3, 4
+desc: A critical and analytical examination of arguments for and arguments against the existence of God, and other related topics. Credit will be granted for only one of PHIL 347 or PHIL 349. 
+
+code: PHIL 348
+name: Introduction to Continental Philosophy
+cred: 3
+desc: Major themes and figures in the Continental philosophy tradition; possible topics include 19th century precursors, 20th century philosophers, and comparisons between analytic and continental philosophy. 
+
+code: PHIL 351
+name: Philosophical Perspectives on Cognitive Systems Research
+cred: 3
+desc: Philosophical exploration of questions and theories arising from research into the mind, as conducted in psychology, linguistics, and computer science. 
+prer: 3 credits selected from any of PHIL 211, 212, 220, 230, 235, 240, 250, 260, or COGS 200
+preq: 3 credits selected from any of PHIL 211 or 212 or 220 or 230 or 235 or 240 or 250 or 260 or COGS 200
+
+code: PHIL 360
+name: Introduction to History and Philosophy of Science
+cred: 3, 4
+desc: An examination of historical, conceptual and methodological conditions of scientific knowledge through detailed consideration of important episodes in the history of science. 
+
+code: PHIL 362
+name: History and Philosophy of Economics from Aristotle to Adam Smith
+cred: 3, 4, 5
+desc: The development of economic thought from Aristotle to Adam Smith, focusing primarily on the conceptual foundations of economics, particularly the problems of value, distribution, and economic growth. 
+
+code: PHIL 363
+name: History and Philosophy of Economics from Ricardo to Keynes
+cred: 3, 4, 5
+desc: The development of economic thought from David Ricardo up to the present, including such figures as Mill, Jevons, and Keynes, focusing primarily on the conceptual foundations of economics, particularly the problems of value, distribution and growth. 
+
+code: PHIL 364
+name: Darwin, Evolution, and Modern History
+cred: 3
+desc: Darwin and the science of evolution in nineteenth and early twentieth century. 
+
+code: PHIL 369
+name: Philosophy of Science
+cred: 3, 4, 5
+desc: Issues common to all sciences. Philosophical questions including the character of scientific laws, theories and revolutions, the nature of scientific confirmation, causality, explanation and prediction, and the use of logic and probability. Difficulties in the interpretation of atomic physics and questions about relationships between biology and psychology. No philosophical background is assumed. Credit will be granted for only one of PHIL 369 or PHIL 460. 
+
+code: PHIL 371
+name: Foundations of Chinese Thought
+cred: 3
+desc: Chinese thought from the Han dynasty (206 BCE to 220 CE) in its historical and cultural contexts. Includes among others: Confucius; Mo Zi; the Legalists/Authoritarians; Zhuang Zi; the Lao Zi book. 
+
+code: PHIL 375
+name: Philosophy and Literature
+cred: 3, 4
+desc: Philosophical issues in works of literature or arising from theories of literary interpretation. Topics include issues relating to relativism, the nature of morality, free will, personal identity, the nature of the emotions. 
+
+code: PHIL 378
+name: Philosophical Wisdom of Early India
+cred: 3
+desc: Epistemological and ontological thought from the Vedic Period to the period of the rise of philosophical schools or systems.  Philosophy in the Mahabharata, Gita; early Buddhist and Jain views on knowledge and reality; views on language. 
+
+code: PHIL 385
+name: Existentialism
+cred: 3, 4
+desc: Meaning, identity and alienation as explored in the works for example of Kierkegaard, Dostoyevsky, Tolstoy, Sartre, and Camus. 
+
+code: PHIL 388
+name: Buddhist, Brahmanical and Jain Philosophers in Interaction
+cred: 3
+desc: Debates on issues of epistemology, language and ontology among the philosophical schools or systems of classical India Nagarjuna, Bhartrhari, Uma-svati, Sankara and others. 
+
+code: PHIL 390
+name: Honours Tutorial
+cred: 6, 12
+desc: For students in third-year Honours. 
+
+code: PHIL 400
+name: Morals, Politics and the Individual
+cred: 3, 4
+desc: Introduction to major themes in moral and political philosophy. Primarily for fourth-year and graduate students who have had no previous course in Philosophy. Credit will be granted for only one of PHIL 400, PHIL 100 or PHIL 101 and 102. 
+
+code: PHIL 401
+name: Knowledge, Explanation, and the Nature of Things
+cred: 3, 4
+desc: Introduction to major themes in epistemology and metaphysics. Primarily for fourth-year and graduate students who have had no previous course in Philosophy. Credit will be granted for only one of PHIL 401, PHIL 100 or PHIL 101 and 102. 
+
+code: PHIL 410
+name: Topics in Ancient Philosophy
+cred: 3, 4
+desc: Advanced study of the Presocratics, or of a philosopher such as Plato, or of a school such as the Sceptics or Stoics. Topics vary from year to year. 
+prer: PHIL 311.
+preq: PHIL 311
+
+code: PHIL 412
+name: Topics in Medieval Philosophy
+cred: 3, 4
+desc: Advanced study of a medieval philosopher such as Aquinas, or school. 
+prer: PHIL 313.
+preq: PHIL 313
+
+code: PHIL 414
+name: Topics in the History of Modern Philosophy
+cred: 3, 6
+desc: Intensive study of a major philosopher or school such as Descartes, Hume, Empiricism, Rationalism, or the British utilitarians. 
+prer: One of PHIL 314, PHIL 315, PHIL 316.
+preq: PHIL 314 or PHIL 315 or PHIL 316
+
+code: PHIL 415
+name: The Philosophy of Immanuel Kant
+cred: 3, 4
+desc: Study of Kant's critical philosophy. 
+prer: One of PHIL 314, PHIL 315, PHIL 340.
+preq: PHIL 314 or PHIL 315 or PHIL 340
+
+code: PHIL 416
+name: Topics in 19th-Century Philosophy
+cred: 3, 6
+desc: Study of a major 19th-century philosopher such as Hegel, Mill or Nietzsche, or school, such as German Idealism. 
+prer: One of PHIL 314, PHIL 315, PHIL 316, PHIL 340.
+preq: PHIL 314 or PHIL 315 or PHIL 316 or PHIL 340
+
+code: PHIL 418
+name: Topics in Twentieth-Century Philosophy
+cred: 3, 6
+desc: Intensive study of a major philosopher such as Wittgenstein, Russell, or Heidegger, or school, such as pragmatism or logical empiricism. 
+prer: PHIL 340.
+preq: PHIL 340
+
+code: PHIL 419
+name: Philosophy of History
+cred: 3, 4
+desc: Concepts of history and historical explanation, historical progress, purpose, necessity, law and causation. Hegel, Marx, Vico, Spengler, Pareto, Collingwood, Croce, and Toynbee, as well as contemporary figures. Students will be expected to have an adequate knowledge of ancient or modern history. 
+
+code: PHIL 420
+name: Topics in Symbolic Logic
+cred: 3, 4
+desc: Formal semantics, proof theory, incompleteness and decidability, axiomatic set theory, independence results. Consult the Department as to which topics are offered in a given year. 
+prer: PHIL 220.
+preq: PHIL 220
+
+code: PHIL 426
+name: Topics in Philosophy of Language
+cred: 3, 4
+desc: Advanced topics in the philosophy of language. 
+prer: PHIL 326. And 6 credits of PHIL/LING at the 200-level or above.
+preq: PHIL 326. and (6 credits of PHIL/LING at the 200-level or above)
+
+code: PHIL 427
+name: Philosophy of Mathematics
+cred: 3, 4
+desc: Logicism, formalism and constructivism, implications of metatheorems such as those of Gödel and Church, mathematical truth, mathematics and mental construction, mathematics and the physical world. 
+prer: Philosophy or mathematics courses totaling 9 credits at the 200-level or above.
+preq: Philosophy or mathematics courses totaling 9 credits at the 200-level or above
+
+code: PHIL 431
+name: Topics in Social and Political Philosophy
+cred: 3, 4
+desc: Central concepts and problems in political life and thought including obligation, citizenship, representation, justice; equality; civil rights and liberty; disobedience. 
+prer: 9 credits of PHIL/POLI at the 200-level or above.
+preq: 9 credits of PHIL/POLI at the 200-level or above
+
+code: PHIL 432
+name: Topics in Ethical Theory
+cred: 3, 4
+desc: Classic or contemporary works in ethical theory. 
+prer: 9 credits of PHIL at the 200-level or above; PHIL 230 is recommended.
+preq: 9 credits of PHIL at the 200-level or above; PHIL 230 is recommended
+
+code: PHIL 440
+name: Topics in Epistemology
+cred: 3, 4
+desc: Analysis of the concept of knowledge; problems of justifying ordinary and basic empirical beliefs. 
+prer: PHIL 240.
+preq: PHIL 240
+
+code: PHIL 441
+name: Philosophy of Perception
+cred: 3, 4
+desc: The contribution of the senses to knowledge of the external world; the nature of perception and its contribution to empirical knowledge. 
+prer: Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits in PHIL at the 200-level or above.
+preq: PHIL 240 or (COGS 200. If COGS 200 or accompanied by 3 credits in PHIL at the 200-level or above)
+
+code: PHIL 448
+name: Topics in Continental Philosophy
+cred: 3, 4
+desc: A study of European philosophers from amongst Husserl, Heidegger, Habermas, Foucault, Derrida, Lacan, Levinas, and others. Credit will be granted for only one of PHIL 448 or PHIL 449. 
+
+code: PHIL 450
+name: Topics in Metaphysics
+cred: 3, 4
+desc: Topics including ontology, universals and particulars, substance, determinism and indeterminism, identity over time, and theories of truth. 
+prer: 9 credits in PHIL at the 200-level or above. PHIL 340 is recommended.
+preq: 9 credits in PHIL at the 200-level or above. PHIL 340 is recommended
+
+code: PHIL 451
+name: Philosophy of Mind
+cred: 3, 4
+desc: The nature of the mental and physical; the relation between minds and bodies; the character of psychological explanation. 
+prer: Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits of PHIL at the 200-level or above.
+preq: PHIL 240 or (COGS 200. If COGS 200 or accompanied by 3 credits of PHIL at the 200-level or above)
+
+code: PHIL 452
+name: Philosophy of Action
+cred: 3, 4
+desc: Explanation of human actions; the conditions of responsibility; freedom of the will; the domains of rational and moral appraisal; the category of action and the individuation of actions. 
+prer: PHIL 340.
+preq: PHIL 340
+
+code: PHIL 455
+name: Topics in the Philosophy of Cognitive Science
+cred: 3, 6
+desc: Philosophical topics in the cognitive sciences, such as empiricism vs. nativism, consciousness, mental representation, cognitive architecture, language & thought, and situated cognition. 
+prer: Either (a) PHIL 240 or (b) COGS 200. If COGS 200, accompanied by 3 credits in PHIL at the 200-level or above.  Recommended: PHIL 441 or PHIL 451.
+preq: PHIL 240 or (COGS 200. If COGS 200 or accompanied by 3 credits in PHIL at the 200-level or above. Recommended: PHIL 441 or PHIL 451)
+
+code: PHIL 461
+name: Philosophy of Social Science
+cred: 3, 4
+desc: Topics in the philosophy of science of special concern to the social sciences: the problem of objectivity, the use of models and evidence, causation and causal reasoning, formal methods, the status of social kinds and norms, scientific explanation, laws. 
+prer: 9 credits at the 200-level or above from philosophy, anthropology, geography, economics, history, political science, psychology or sociology.
+preq: 9 credits at the 200-level or above from philosophy or anthropology or geography or economics or history or political science or psychology or sociology
+
+code: PHIL 462
+name: Space and Time
+cred: 3, 4, 5
+desc: Such topics as: Are space and time continuous? Is motion always relative to another body? Does time flow? Is time irreversible? 
+prer: PHIL 340 or 12 credits of mathematics or science.
+preq: PHIL 340 or 12 credits of mathematics or science
+
+code: PHIL 464
+name: Philosophy of Biology
+cred: 3
+desc: Methodological, historical, philosophical and social science questions about biology. 
+prer: Fourth-year standing in any degree program or 9 credits of philosophy.
+preq: Fourth-year standing in any degree program or 9 credits of philosophy
+
+code: PHIL 469
+name: Topics in Philosophy of Science
+cred: 3, 4
+desc: Topics such as probability and induction; foundations of measurement; theory construction. 
+prer: PHIL 369.
+preq: PHIL 369
+
+code: PHIL 470
+name: Comparative Conceptions of the Self
+cred: 3
+desc: Ways in which the 'self' has been portrayed in eastern and western religious traditions. Thinkers to be considered include Aristotle, Mencius, Freud, Xunzi (Hsün-tzu), Nietzche, and Zhuangzi (Chuang-tzu). 
+
+code: PHIL 485
+name: Directed Reading
+cred: 3, 4
+desc: Same as PHIL 486-9. 
+
+code: PHIL 486
+name: Directed Reading
+cred: 1, 2, 3
+
+code: PHIL 487
+name: Directed Reading
+cred: 3
+
+code: PHIL 488
+name: Directed Reading
+cred: 3
+
+code: PHIL 489
+name: Directed Reading
+cred: 3
+
+code: PHIL 490
+name: Honours Tutorial
+cred: 6, 12
+desc: For students in fourth-year Honours. 
+
+code: PHIL 491
+name: Seminar for Majors in Philosophy
+cred: 3, 4, 5
+desc: Selected problems in philosophy, with attention to methods of research. Check with the department for specific topics. Primarily for fourth-year Philosophy Major students, but also open to Philosophy Honours. 
+
+code: PHIL 499
+name: Directed Reading
+cred: 3

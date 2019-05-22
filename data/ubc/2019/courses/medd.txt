@@ -1,0 +1,88 @@
+
+
+code: MEDD 411
+name: Foundations of Medical Practice I
+cred: 17
+desc: Integrating foundational and clinical sciences and clinical practice themes. Case-based approach fostering the development of evidence-based clinical reasoning and clinical skills. Organized on the basis of clinical presentations. Pass/fail. 
+
+code: MEDD 412
+name: Foundations of Medical Practice II
+cred: 15
+desc: Increasingly complex clinical presentations through integration of foundational and clinical sciences and clinical practice themes. Developmental, case-based approach fostering the development of evidence-based clinical reasoning and clinical skills. Pass/fail. 
+
+code: MEDD 419
+name: Foundations of Scholarship and Flexible Enhanced Learning I
+cred: 8
+desc: Various medically-related learning experiences and scholarly activities. Emphasizes social accountability, introduces scholarly methods, and fosters innovation, creativity, and critical thought to prepare graduates for roles as scholars, life-long learners, and leaders. Pass/fail. 
+
+code: MEDD 421
+name: Foundations of Medical Practice III
+cred: 15
+desc: Increasingly complex clinical presentations integrating foundational sciences and clinical practice themes. Developmental, case-based approach fostering the development of evidence-based clinical reasoning and clinical skills. Pass/Fail. 
+
+code: MEDD 422
+name: Transition into Clinical Education
+cred: 15
+desc: Prepares students to transition from classroom-based to clinical learning environments. Increasingly complex clinical presentations integrating foundational sciences and clinical practice themes. Prepares students for clinical practice in Year 3 Clerkship. Pass/Fail. 
+
+code: MEDD 429
+name: Flexible Enhanced Learning II
+cred: 6
+desc: Opportunity to build on scholarly activities initiated in MEDD 419, or start new ones. Emphasizes social accountability and fosters innovation, creativity, and critical thought to prepare graduates for roles as scholars, life-long learners, and leaders. Pass/Fail. 
+
+code: MEDD 431
+name: Clerkship
+cred: 48
+desc: Core experiences across the breadth of medicine through clinical and academic learning opportunities in ambulatory, hospital-based, and rural/remote settings. Interactions with patients under supervision. Pass/Fail. 
+
+code: MEDD 439
+name: Flexible Enhanced Learning III
+cred: 4
+desc: Opportunity to build on scholarly activities initiated in MEDD 419 and 429, or start new ones. Emphasizes social accountability and fosters innovation and critical thought to prepare graduates for roles as scholars, life-long learners, and leaders. Pass/Fail. 
+
+code: MEDD 441
+name: Senior Elective
+cred: 4
+desc: A senior clinical elective for fourth-year students. Students will participate in all relevant clinical and academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 442
+name: Senior Elective
+cred: 4
+desc: A senior clinical elective for fourth-year students. Students will participate in all relevant clinical and academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 443
+name: Senior Elective
+cred: 4
+desc: A senior clinical elective for fourth-year students. Students will participate in all relevant clinical and academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 444
+name: Senior Elective
+cred: 4
+desc: A senior clinical elective for fourth-year students. Students will participate in all relevant clinical and academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 445
+name: Senior Elective
+cred: 4
+desc: A senior clinical elective for fourth-year students. Students will participate in all relevant clinical and academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 446
+name: Senior Elective
+cred: 4
+desc: A senior clinical or academic elective for fourth-year students. Students will participate in all relevant clinical and/or academic activities associated with the particular elective. Pass/Fail. 
+
+code: MEDD 448
+name: Transition into Postgraduate Education and Practice
+cred: 10
+desc: Enables students to effectively transition from medical school to residency and medical practice. Complex clinical presentations that integrate foundational sciences and practice themes. Prepares students for practice as residents and physicians. Pass/Fail. 
+
+code: MEDD 449
+name: Flexible Enhanced Learning III
+cred: 4
+desc: Opportunity to build on scholarly activities initiated in MEDD 419 and 429, or start new ones. Emphasizes social accountability and fosters innovation and critical thought to prepare graduates for roles as scholars, life-long learners, and leaders. Pass/Fail. 
+
+code: MEDD 499
+name: Clinical Electives
+cred: 4, 5, 6, 7
+desc: Summer clinical experience for UBC medical graduates who did not attain a residency position. 
+prer: Students must have a UBC MD degree and  have fully completed applications to residency positions for the first iteration of the postgraduate match in their Year 4 (submission of a Rank Order List to the Canadian Residency Matching Service, CaRMS).
+preq: Students must have a UBC MD degree and have fully completed applications to residency positions for the first iteration of the postgraduate match in their Year 4 (submission of a Rank Order List to the Canadian Residency Matching Service CaRMS)

@@ -1,0 +1,105 @@
+
+
+code: FRE 295
+name: Managerial Economics
+cred: 3
+desc: Economic foundations of managerial decision-making. Organization of the firm, demand theory, cost and production, market structure, competitive strategy, welfare-economic foundations of business regulation. Credit may be obtained for only one of ECON 301, ECON 304, COMM 295. 
+prer: All of ECON 101, ECON 102 and MATH 105.
+preq: (ECON 101 and ECON 102) and MATH 105
+
+code: FRE 302
+name: Small Business Management in Agri-food Industries
+cred: 3
+desc: Emphasizes the building of a business plan by exploring topics such as the planning process and financing, marketing and human resource concepts, as applied to an agri-food business, domestically and internationally. [3-0-1]
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 306
+name: Introduction to Global Food Markets
+cred: 3
+desc: An overview of global food markets including recent trends (e.g., vertical coordination, strategic alliances, multinationals and small firms in niche markets), marketing and trade institutions such as state-trading enterprises and WTO regulations, issues specific to developing nations, and case studies. [3-0-1]
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 326
+name: Empirical Methods for Food and Resource Economics
+cred: 3
+desc: Introduction to empirical methods with applications for problems in food and resource economics; standard linear regression and methods to address data deficiencies; interpretation of regression results for forecasting and policy analysis. 
+prer: One of LFS  252, STAT 200, BIOL 300.
+preq: LFS 252 or STAT 200 or BIOL 300
+
+code: FRE 340
+name: International Agricultural Development
+cred: 3
+desc: Characteristics, processes and sources of economic growth, role of agricultural and resource sectors in economic growth, analysis of output and input markets in those sectors, policy failures, tools for empirical analysis of rural markets, growth, and the environment. 
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 374
+name: Land and Resource Economics
+cred: 3
+desc: Willingness to pay, opportunity costs, externalities, and market failures in natural resource markets; dynamic efficiency; economic applications including mineral, marine, forest, land, water, and biodiversity. [3-0]
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 385
+name: Quantitative Methods for Business and Resource Management
+cred: 3
+desc: Spreadsheet modeling and analysis of business and resource management problems: decision analysis, forecasting, linear programming, simulation modeling, and inventory management. [2-1-0]
+prer: One of ECON 101, ECON 310 and one of LFS  252, BIOL 300, FRST 231, STAT 200.
+preq: (ECON 101 or ECON 310) and (LFS 252 or BIOL 300 or FRST 231 or STAT 200)
+
+code: FRE 394
+name: Government and Business
+cred: 3
+desc: Roles of government and business in the Canadian economy including effects of public policy on the business environment. Ethical foundations of government, business and personal decision-making. 
+prer: One of COMM 295, ECON 301.
+preq: COMM 295 or ECON 301
+
+code: FRE 402
+name: Market Research and Analysis in Agri-Food Industries
+cred: 3
+desc: Macro and micro aspects of agri-food market and industry analysis, market strategy, consumer behaviour, secondary market research, quantitative and qualitative market research. [3-0-0]
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 420
+name: The Economics of International Trade and the Environment
+cred: 3
+desc: Market failure and gains from trade in the presence of natural resource externalities; the multilateral trading system and the environment; case studies in trade-related environmental impacts. [3-0]
+prer: One of ECON 301, FRE  295, COMM 295 or 6 credits of upper-level FRE or ECON.
+preq: ECON 301 or FRE 295 or COMM 295 or 6 credits of upper-level FRE or ECON
+
+code: FRE 426
+name: Empirical Methods for Food and Resource Economics
+cred: 3
+desc: Econometric methods with policy-focused applications for problems in food and resource economics; quasi-experimental data, identification and instrumental variables, discrete choice, panel data, difference-in-difference and introduction to time series. 
+prer: One of FRE  326, STAT 306.
+preq: FRE 326 or STAT 306
+
+code: FRE 460
+name: Economics of Food Consumption
+cred: 3
+desc: Microeconomics of consumer decisions and public policy in food contexts; foodborne illness; economic causes and consequences of obesity; sin taxes and prohibitions; information campaigns and advertising; labeling; food waste and ethics. 
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 490
+name: Current Issues in Food and Resource Economics
+cred: 3
+desc:  [3-0]
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+
+code: FRE 497
+name: Directed Studies in Food and Resource Economics
+cred: 2, 3, 4, 5
+prer: Approval of program advisor.
+preq: Approval of program advisor
+
+code: FRE 499
+name: Undergraduate Thesis
+cred: 6
+desc: Design and execution of an experimental/analytical research project leading to preparation of a thesis. 
+prer: Approval of a program advisor; consult before the end of classes in third year.
+preq: Approval of a program advisor; consult before the end of classes in third year

@@ -1,0 +1,30 @@
+
+
+code: AFST 250
+name: Introduction to African Studies
+cred: 3, 6
+desc: Cultural, historical, and geographical issues of African Studies. 
+
+code: AFST 351
+name: Perspectives in African Studies: Literary and Theoretical Approaches
+cred: 3, 6
+desc: Major issues and theoretical approaches. 
+crer: AFST 250. Credit will not be given for both AFST 350 and 351
+creq: AFST 250. Credit will not be given for both AFST 350 and 351
+
+code: AFST 352
+name: Perspectives in African Studies: A Social Science Approach
+cred: 3, 6
+desc: Major issues and theoretical approaches. 
+crer: AFST 250. Credit will not be given for both AFST 350 and 352
+creq: AFST 250. Credit will not be given for both AFST 350 and 352
+
+code: AFST 380
+name: Study of Sociolinguistics of a Selected African Language
+cred: 3, 6
+desc: Selected African language with emphasis on major syntactic structures, vocabulary, conversation patterns, reading short texts, and the cultural and historical contexts of language use. 
+
+code: AFST 450
+name: African Diasporic Culture in African Canadian Communities
+cred: 3, 6
+desc: African diasporic culture in Canadian society, fostering dialogue with members of African Canadian communities on cultural values, traditions, memory, adaptation and change. 

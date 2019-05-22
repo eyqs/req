@@ -1,0 +1,176 @@
+
+
+code: STAT 200
+name: Elementary Statistics for Applications
+cred: 3
+desc: Classical, nonparametric, and robust inferences about means, variances, and analysis of variance, using computers. Emphasis on problem formulation, assumptions, and interpretation. See the Faculty of Science Credit Exclusion Lists: www.calendar.ubc.ca/vancouver/index.cfm?tree=12,215,410,414. [3-1-0]
+prer: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.
+preq: MATH 101 or MATH 103 or MATH 105 or MATH 121 or SCIE 001
+
+code: STAT 203
+name: Statistical Methods
+cred: 3
+desc: Organizing, displaying and summarizing data. Inference estimation and testing for elementary probability models. Not for credit towards a B.Sc. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-1-0]
+prer: MATH 11. Or Pre-calculus 11.
+preq: MATH 11. Or Pre-calculus 11
+
+code: STAT 241
+name: Introductory Probability and Statistics
+cred: 3
+desc: Probability models, random variables and vectors, estimation, testing, regression, analysis of variance, goodness of fit, quality control. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar). [3-1-0]
+prer: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.
+preq: MATH 101 or MATH 103 or MATH 105 or MATH 121 or SCIE 001
+
+code: STAT 251
+name: Elementary Statistics
+cred: 3
+desc: Probability, discrete and continuous random variables, joint probability distributions, estimation, hypothesis testing, regression, analysis of variance, goodness of fit. (Consult the Credit Exclusion list within the Faculty of Science section of the Calendar). [3-1-0]
+prer: One of MATH 101, MATH 103, MATH 105, MATH 121, SCIE 001.
+preq: MATH 101 or MATH 103 or MATH 105 or MATH 121 or SCIE 001
+
+code: STAT 300
+name: Intermediate Statistics for Applications
+cred: 3
+desc: Further topics in statistical inference, including parametric and non-parametric methods, goodness-of-fit methods, analysis of variance and covariance, regression analysis, categorical data analysis, experimental designs, time series, model fitting, and statistical computing. [3-1-0]
+prer: One of STAT 200, STAT 203, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, POLI 380, PSYC 218, PSYC 278, PSYC 366.
+preq: STAT 200 or STAT 203 or STAT 241 or STAT 251 or BIOL 300 or COMM 291 or ECON 325 or ECON 327 or FRST 231 or POLI 380 or PSYC 218 or PSYC 278 or PSYC 366
+
+code: STAT 302
+name: Introduction to Probability
+cred: 3
+desc: Basic notions of probability, random variables, expectation and conditional expectation, limit theorems. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar.) [3-0-0]
+prer: One of MATH 200, MATH 226, MATH 217, MATH 253, MATH 263.
+preq: MATH 200 or MATH 226 or MATH 217 or MATH 253 or MATH 263
+
+code: STAT 305
+name: Introduction to Statistical Inference
+cred: 3
+desc: Review of probability theory. Sampling distribution theory, large sample theory and methods of estimation and hypothesis testing, including maximum likelihood estimation, likelihood ratio testing and confidence interval construction. [3-0-1]
+prer: Either (a) one of STAT 200, STAT 203, BIOL 300, STAT 241, STAT 251, COMM 291, ECON 325, FRST 231, PSYC 218, PSYC 366 and one of MATH 302, STAT 302;  or (b) a score of 65% or higher in one of MATH 302, STAT 302. The Department recommends that students meet the prerequisite through option (a).
+preq: (STAT 200 or STAT 203 or BIOL 300 or STAT 241 or STAT 251 or COMM 291 or ECON 325 or FRST 231 or PSYC 218 or PSYC 366) and ((MATH 302 or STAT 302;) or )
+
+code: STAT 306
+name: Finding Relationships in Data
+cred: 3
+desc: Modeling a response (output) variable as a function of several explanatory (input) variables:  multiple regression for a continuous response, logistic regression for a binary response, and log-linear models for count data.  Finding low-dimensional structure:  principal components analysis.  Cluster analysis.  (Consult the Credit Exclusion List within the Faculty of Science section in the Calendar). [3-0-1]
+prer: One of MATH 152, MATH 221, MATH 223 and one of STAT 200, STAT 241, STAT 251, STAT 300, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366 and one of MATH 302, STAT 302.
+preq: (MATH 152 or MATH 221 or MATH 223) and (STAT 200 or STAT 241 or STAT 251 or STAT 300 or BIOL 300 or COMM 291 or ECON 325 or ECON 327 or FRST 231 or PSYC 218 or PSYC 278 or PSYC 366) and (MATH 302 or STAT 302)
+
+code: STAT 307
+name: Statistics Laboratory I
+cred: 2
+desc: Implementing theory in applications. Problem based learning. Generation and analysis of case data. Modelling, computation and reporting. [0-4-0]
+crer: STAT 306.
+creq: STAT 306
+
+code: STAT 308
+name: Statistics Laboratory II
+cred: 1
+desc: Continuation of STAT 307. [0-2-0]
+
+code: STAT 321
+name: Stochastic Signals and Systems
+cred: 4
+desc: Stochastic behaviour of signals and systems (e.g., communication systems); discrete and continuous probability; random processes; modeling and identification of linear time-invariant systems; binary hypothesis testing and decision making. [3-0-2]
+prer: One of EECE 269, ELEC 221, STAT 305. STAT 305 may be taken concurrently, with registration assistance from Statistics Student Services.
+preq: EECE 269 or ELEC 221 or STAT 305. STAT 305 may be taken concurrently or with registration assistance from Statistics Student Services
+
+code: STAT 335
+name: Statistics in Quality Assurance
+cred: 3
+desc: Philosophy of quality improvement and total quality control. Definitions of quality. Deming's principles, Ishikawa's tools, control charts, acceptance sampling, continuous improvement, quality design. Credit cannot be obtained for both STAT 335 and WOOD 335. [3-0-1]
+prer: One of STAT 200, STAT 241, STAT 251, BIOL 300.
+preq: STAT 200 or STAT 241 or STAT 251 or BIOL 300
+
+code: STAT 344
+name: Sample Surveys
+cred: 3
+desc: Planning and practice of sample surveys. Random sampling, bias and variance, unequal probability sampling, systematic, multistage and stratified sampling, ratio and regression estimators, post-stratification, establishing a frame, pretesting, pilot studies, nonresponse and additional topics. [3-0-1]
+prer: One of STAT 200, STAT 241, STAT 251, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, PSYC 218, PSYC 278, PSYC 366.
+preq: STAT 200 or STAT 241 or STAT 251 or BIOL 300 or COMM 291 or ECON 325 or ECON 327 or FRST 231 or PSYC 218 or PSYC 278 or PSYC 366
+crer: One of MATH 302, STAT 302.
+creq: MATH 302 or STAT 302
+
+code: STAT 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Work experience in an industrial research setting. Normally taken during Winter Session of third year. Restricted to students admitted to the Co-operative Education Program in Statistics. 
+prer: Registration in Statistics Honours or Major Program.
+preq: Registration in Statistics Honours or Major Program
+
+code: STAT 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Work experience in an industrial research setting. Normally taken during Summer Session following third year. Restricted to students admitted to the Co-operative Education Program in Statistics. 
+prer: STAT 398.
+preq: STAT 398
+
+code: STAT 404
+name: Design and Analysis of Experiments
+cred: 3
+desc: Theory and application of analysis of variance for standard experimental designs, including blocked, nested, factorial and split plot designs. Fixed and random effects, multiple comparisons, analysis of covariance. (Consult the Credit Exclusion list within the Faculty of Science section in the Calendar). [3-0-1]
+prer: STAT 305.
+preq: STAT 305
+crer: STAT 306.
+creq: STAT 306
+
+code: STAT 406
+name: Methods for Statistical Learning
+cred: 3
+desc: Flexible, data-adaptive methods for regression and classification models; regression smoothers; penalty methods; assessing accuracy of prediction; model selection; robustness; classification and regression trees; nearest-neighbour methods; neural networks; model averaging and ensembles; computational time and visualization for large data sets. [3-0-1]
+prer: One of STAT 306, CPSC 340.
+preq: STAT 306 or CPSC 340
+
+code: STAT 443
+name: Time Series and Forecasting
+cred: 3
+desc: Trend and seasonality, autocorrelation, stationarity, stochastic models, exponential smoothing, Holt-Winters methods, Box-Jenkins approach, frequency domain analysis. [3-0-1]
+prer: One of MATH 302, MATH 318, STAT 302 and one of STAT 200, STAT 241, STAT 251, STAT 300, BIOL 300, COMM 291, ECON 325, ECON 327, FRST 231, POLI 380, PSYC 218, PSYC 278, PSYC 366.
+preq: (MATH 302 or MATH 318 or STAT 302) and (STAT 200 or STAT 241 or STAT 251 or STAT 300 or BIOL 300 or COMM 291 or ECON 325 or ECON 327 or FRST 231 or POLI 380 or PSYC 218 or PSYC 278 or PSYC 366)
+crer: STAT 305.
+creq: STAT 305
+
+code: STAT 445
+name: Introduction to Exploratory Data Analysis
+cred: 3
+desc: Methods for exploring and presenting the structure of data: one group of numbers, several groups, bivariate data, time series data and two-way tables. Data displays, outlier identification, transformations, resistant regression, several types of data smoothing, comparisons with standard statistical methods. [3-0-1]
+prer: STAT 306.
+preq: STAT 306
+
+code: STAT 447
+name: Special Topics in Statistics
+cred: 2, 3, 4, 5
+desc: Students should consult the Statistics Department for the particular topics offered in a given year. 
+prer: STAT 305. Permission of the instructor is required.
+preq: STAT 305. Permission of the instructor is required
+
+code: STAT 450
+name: Case Studies in Statistics
+cred: 3
+desc: Readings and projects in areas of current statistical application including environmental science, industrial statistics, official statistics, actuarial statistics, and medical statistics. [3-0-1]
+prer: STAT 306.
+preq: STAT 306
+
+code: STAT 460
+name: Statistical Inference I
+cred: 3
+desc: A detailed theoretical development. Statistical models, exponential families, sufficiency, completeness, and detailed properties of point estimation. Intended for Honours students. [3-0-0]
+prer: MATH 320. STAT 305 is recommended.
+preq: MATH 320. STAT 305 is recommended
+
+code: STAT 461
+name: Statistical Inference II
+cred: 3
+desc: Detailed development of the theory of testing hypotheses and confidence regions, Bayesian models and inference, elements of decision theory and additional topics. Intended for Honours students. [3-0-0]
+prer: STAT 460.
+preq: STAT 460
+
+code: STAT 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Work experience in an industrial research setting. Normally taken during Summer Session following fourth year. Restricted to students admitted to the Co-operative Education Program in Statistics. 
+
+code: STAT 499
+name: Co-operative Work Placement IV
+cred: 3
+desc: Work experience in an industrial research setting. Normally taken during Term 1 of Winter Session of fifth year. Restricted to students admitted to the Co-operative Education Program in Statistics. 

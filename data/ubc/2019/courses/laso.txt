@@ -1,0 +1,20 @@
+
+
+code: LASO 204
+name: Introduction to Law and Society
+cred: 3
+desc: Ideas, concepts, and frameworks for thinking about the nature of law and legal processes in both Canadian and global contexts. 
+
+code: LASO 309
+name: Against the Law
+cred: 3
+desc: Competing approaches to law and legal authority shaped by conflicts over historical and contemporary inequalities, including the exercise of and challenges to coercive law enforcement and claims made for legal redress. 
+prer: LASO 204.
+preq: LASO 204
+
+code: LASO 350
+name: Topics in Law and Society
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Interdisciplinary approaches to topics such as the purpose of law, retribution and punishment, restorative justice, ethics, property ownership, human rights, gender equality, legal change, or civil disobedience. 
+prer: LASO 204.
+preq: LASO 204

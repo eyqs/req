@@ -1,0 +1,120 @@
+
+
+code: ARTC 100
+name: Arts Co-op Search Term #1
+cred: 3
+desc: Search term to obtain first work term. Completion of pre-employment workshops, group and individual coaching sessions on job search processes, and minimum number of job applications required.  Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-op Program. 
+prer: Completion of Writing Component of Arts Writing and Research Requirement strongly recommended.
+preq: Completion of Writing Component of Arts Writing and Research Requirement strongly recommended
+
+code: ARTC 110
+name: Arts Co-op Work Term #1
+cred: 3
+desc: Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 100.
+preq: ARTC 100
+
+code: ARTC 200
+name: Arts Co-op Search Term #2
+cred: 3
+desc: Search term to obtain second work term. Completion of self-assessment, individual coaching sessions, and minimum number of job applications required. Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 110.
+preq: ARTC 110
+
+code: ARTC 210
+name: Arts Co-op Work Term #2
+cred: 3
+desc: Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 210 or 211. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 200.
+preq: ARTC 200
+
+code: ARTC 211
+name: Arts Co-op Work Term #2 (Extension)
+cred: 3
+desc: Extension of co-op term with the same employer as ARTC 110 for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 210 or 211. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 110.
+preq: ARTC 110
+
+code: ARTC 300
+name: Arts Co-op Search Term #3
+cred: 3
+desc: Search term to obtain third work term. Completion of self-assessment, individual coaching sessions, and minimum number of job applications required. Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 210, ARTC 211.
+preq: ARTC 210 or ARTC 211
+
+code: ARTC 310
+name: Arts Co-op Work Term #3
+cred: 3
+desc: Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 310 and 311. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 300.
+preq: ARTC 300
+
+code: ARTC 311
+name: Arts Co-op Work Term #3 (Extension)
+cred: 3
+desc: Extension of co-op term with the same employer as ARTC 210 or 211 for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 310 and 311. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 210, ARTC 211.
+preq: ARTC 210 or ARTC 211
+
+code: ARTC 400
+name: Arts Co-op Search Term #4
+cred: 3
+desc: Search term to obtain optional fourth work term. Completion of self-assessment, individual coaching sessions. Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 310, ARTC 311.
+preq: ARTC 310 or ARTC 311
+
+code: ARTC 410
+name: Arts Co-op Work Term #4
+cred: 3
+desc: Optional fourth work term. Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 410 and 411. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 400.
+preq: ARTC 400
+
+code: ARTC 411
+name: Arts Co-op Work Term #4 (Extension)
+cred: 3
+desc: Extension of co-op term with the same employer as ARTC 310 or 311 for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 410 and 411. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 310, ARTC 311.
+preq: ARTC 310 or ARTC 311
+
+code: ARTC 445
+name: Arts Co-op Search Term #5
+cred: 3
+desc: Search term to obtain optional fifth work term. Completion of self-assessment, individual coaching sessions. Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 410, ARTC 411.
+preq: ARTC 410 or ARTC 411
+
+code: ARTC 450
+name: Arts Co-op Work Term #5
+cred: 3
+desc: Optional fifth work term. Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 450 and 451. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 445.
+preq: ARTC 445
+
+code: ARTC 451
+name: Arts Co-op Work Term #5 (Extension)
+cred: 3
+desc: Extension of co-op term with the same employer as ARTC 410 or 411 for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 450 and 451. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 410, ARTC 411.
+preq: ARTC 410 or ARTC 411
+
+code: ARTC 456
+name: Arts Co-op Search Term #6
+cred: 3
+desc: Search term to obtain optional sixth work term. Completion of self-assessment, individual coaching sessions. Students apply for jobs and go for interviews until they are hired. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 450, ARTC 451.
+preq: ARTC 450 or ARTC 451
+
+code: ARTC 460
+name: Arts Co-op Work Term #6
+cred: 3
+desc: Optional sixth work term. Approved and supervised work experience with a non-profit, public or private organization for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 460 and 461. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: ARTC 456.
+preq: ARTC 456
+
+code: ARTC 461
+name: Arts Co-op Work Term #6 (Extension)
+cred: 3
+desc: Extension of co-op term with the same employer as ARTC 450 or 451 for a minimum of 13 weeks full-time. Reflective assignments required. Credit will be granted for only one of ARTC 460 and 461. This course is not eligible for Credit/D/Fail grading. Restricted to students in the Arts Co-operative Education Program. 
+prer: One of ARTC 450, ARTC 451.
+preq: ARTC 450 or ARTC 451

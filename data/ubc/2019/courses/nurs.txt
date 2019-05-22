@@ -1,0 +1,218 @@
+
+
+code: NURS 180
+name: Stress and Strategies to Promote Well Being
+cred: 3
+desc: Introduction to foundational knowledge related to stress, stressors, resilience, social support, and strategies to foster physical, mental, emotional, and spiritual health. Open to all students interested in learning about managing and navigating the stressors of student life. 
+
+code: NURS 280
+name: Human Sexual Health
+cred: 3
+desc: Beliefs, behaviours, and expressions of human sexuality and the link to health for students from any program. How sexuality is discussed and practiced from various perspectives, and strategies to promote healthy sexual expression and sexual health. 
+
+code: NURS 290
+name: Health Impacts of Climate Change
+cred: 3
+desc: Human health impacts of the current and projected environmental crisis; study of key concepts and ideas to prepare for the future to promote wellbeing of individuals, communities and populations. 
+
+code: NURS 300
+name: Theoretical and Professional Foundations for Nursing Practice
+cred: 3
+desc: Introduction to knowledge fundamental to the discipline and practice of nursing. Students who take NURS300 may not also earn credit for NURS302. 
+
+code: NURS 301
+name: Theoretical Perspectives in Nursing: Primary Health Care
+cred: 3
+desc: Analysis and application of theories, concepts, evidence and competencies guiding professional nursing practice in the context of primary health care. Students who take NURS 342 cannot earn credit for NURS 336 or NURS 402. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 303
+name: Theoretical Perspectives in Nursing: People Living with Mental Health Challenges and Their Families
+cred: 3
+desc: Theory informing a life course perspective on nursing practice with people living with mental health challenges and their families is introduced. Students who take NURS 303 cannot earn credit for NURS 335 or NURS 424. 
+
+code: NURS 310
+name: Basic Principles of Pharmacology for Nursing Practice
+cred: 2
+desc: Basic principles of pharmacology and the basic structure and function of each body system will be explored to demonstrate how drug interactions occur within systems. 
+
+code: NURS 321
+name: Foundational Skills and Competencies for Clinical Practice I
+cred: 2
+desc: Skills and competencies for clinical practice using a variety of modalities and learning activities. 
+crer: All of NURS 300, NURS 310, NURS 330, NURS 360.
+creq: NURS 300 and NURS 310 and NURS 330 and NURS 360
+
+code: NURS 322
+name: Foundational Skills and Competencies for Clinical Practice II
+cred: 1
+desc: Clinical practice through a variety of modalities and learning activities in the laboratory environment. 
+
+code: NURS 323
+name: Foundational Skills and Competencies for Clinical Practice III
+cred: 1
+desc: Skills and competencies for clinical practice across the lifespan and health care continuum through a variety of modalities and learning activities. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 330
+name: Theoretical Perspectives in Nursing: Adults/Older Adults and their Families
+cred: 3
+desc: Fundamental theories, concepts, evidence, and competencies pertaining to nursing practice with adults/older adults and their families. 
+crer: All of NURS 300, NURS 310, NURS 321, NURS 360.
+creq: NURS 300 and NURS 310 and NURS 321 and NURS 360
+
+code: NURS 331
+name: Theoretical Perspectives in Nursing: Adults/Older Adults Experiencing Acute Health Challenges and Their Families
+cred: 3
+desc: Consolidation of fundamental theories, concepts, evidence, and competencies pertaining to acute care nursing practice with adults/older adults and their families. Students who take NURS 331 cannot earn credit for NURS 303, NURS 337 or NURS 420 
+crer: All of NURS 300, NURS 310, NURS 321, NURS 360.
+creq: NURS 300 and NURS 310 and NURS 321 and NURS 360
+
+code: NURS 341
+name: Relational Nursing Practice as Praxis
+cred: 2
+desc: Critical analysis of the enactment of relational practice toward promotion of health and wellbeing at multiple levels. 
+prer: All of NURS 302, NURS 303, NURS 304, NURS 305, NURS 306, NURS 338.
+preq: NURS 302 and NURS 303 and NURS 304 and NURS 305 and NURS 306 and NURS 338
+crer: All of NURS 342, NURS 343.
+creq: NURS 342 and NURS 343
+
+code: NURS 344
+name: Critical Inquiry and Leadership Synthesis
+cred: 2
+desc: Evidence is examined and synthesized to understand and identify theoretical insights to address a leadership challenge in professional practice. 
+prer: Seven of NURS 300, NURS 310, NURS 321, NURS 330, NURS 350, NURS 351, NURS 352, NURS 360.
+preq: Seven of NURS 300 NURS 310 NURS 321 NURS 330 NURS 350 NURS 351 NURS 352 NURS 360
+
+code: NURS 345
+name: Theoretical Perspectives in Nursing: Childbearing Individuals and their Families
+cred: 3
+desc: Analysis and application of theories, concepts, evidence and competencies guiding professional nursing practice with childbearing individuals and families during the transition to parenthood in a variety of practice settings and contexts. Students who take NURS 345 cannot earn credit for NURS 333 or NURS 422. 
+
+code: NURS 346
+name: Theoretical Perspectives in Nursing: Infants, Children, Youth and their Families
+cred: 3
+desc: Analysis and application of theories, concepts, evidence and competencies guiding professional nursing practice with infants, children, youth and their families in a variety of practice settings and contexts. Students who take NURS 346 cannot earn credit for NURS 334 or NURS 423 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 350
+name: Critical Inquiry and Research in Health Care Practice
+cred: 3
+desc: The significance of critical inquiry and research in nursing and health care, and the fundamental concepts and processes pertaining to scientific inquiry, evidence-based practice, and research utilization in nursing. Students who take NURS 350 cannot earn credit for NURS 305, NURS 339 or NURS 342. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 351
+name: Leadership, Policy, and Informatics
+cred: 3
+desc: The enactment of nursing leadership and policy within different health sectors and jurisdictions and the relevance and application of informatics competencies to the delivery of nursing care. Students who take NURS 351 cannot earn credit for NURS 306, NURS 340 or NURS 343. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 352
+name: Relational and Ethical Nursing Practice
+cred: 3
+desc: Relational theoretical underpinnings of nursing practice and healthcare ethics are critically examined. Students who take NURS 352 cannot earn credit for NURS 304, NURS 338 or NURS 341. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 353
+name: Promoting the Health of Indigenous People
+cred: 2
+desc: Foundations to contribute to supporting and providing high quality, ethical, respectful and culturally safe health care in partnership with Indigenous people in Canada and around the globe. 
+prer: NURS 300.
+preq: NURS 300
+
+code: NURS 354
+name: Theoretical Perspectives in Nursing: Complexities in Seniors Care
+cred: 3
+desc: Research and clinical practice innovations in the care of Seniors and their families (e.g., philosophies of care; age-friendly initiatives) and provide strategies for improving their health through the purposeful integration of such practices in clinical settings. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 360
+name: Nursing Practice with Adults/Older Adults and their Families
+cred: 4
+desc: Clinical practice to integrate and consolidate professional nursing knowledge, skills and competencies in the care of adults/older adults with stable or expected health care challenges and their families. Students who take NURS 360 cannot earn credit for NURS 303, NURS 337 or NURS 420 
+crer: All of NURS 300, NURS 310, NURS 321, NURS 330.
+creq: NURS 300 and NURS 310 and NURS 321 and NURS 330
+
+code: NURS 361
+name: Nursing Practice with Adults/Older Adults Experiencing Acute Health Challenges and their Families
+cred: 7
+desc: Clinical practice to integrate and consolidate professional nursing knowledge, skills and competencies in the care of adults/older adults experiencing acute health challenges and their families. Students who take NURS 361 cannot earn credit for NURS 303, NURS 337 or NURS 420. 
+crer: Four of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+creq: Four of NURS 300 NURS 310 NURS 321 NURS 330 NURS 360
+
+code: NURS 362
+name: Nursing Practice in Primary Health Care Contexts
+cred: 4
+desc: Clinical practice to integrate and consolidate professional nursing knowledge, skills and competencies in the context of primary health care. Students who take NURS 362 cannot earn credit for NURS 336 or NURS 425. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+crer: NURS 301.
+creq: NURS 301
+
+code: NURS 363
+name: Nursing Practice with People Living with Mental Health Challenges and Their Families
+cred: 4
+desc: Students will apply theory and concepts from a life course perspective in the provision of nursing care to persons living with mental health challenges and their families. Students who take NURS 363 cannot earn credit for NURS 335 or NURS 424 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+crer: NURS 303.
+creq: NURS 303
+
+code: NURS 365
+name: Nursing Practice with Childbearing Individuals and Families
+cred: 3
+desc: Clinical practice to integrate and consolidate professional nursing knowledge, skills and competencies in the care of childbearing individuals, infants, and their families. Students who take NURS 365 cannot earn credit for NURS 333 or NURS 422. 
+crer: All of NURS 300, NURS 310, NURS 321, NURS 330, NURS 360.
+creq: NURS 300 and NURS 310 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 366
+name: Nursing Practice with Infants, Children, Youth and their Families: Practicum
+cred: 3
+desc: Clinical practice to integrate and consolidate professional nursing knowledge, skills and competencies in the care of infants, children, youth and their families. Students who take NURS 366 cannot earn credit for NURS 334 or NURS 423. 
+prer: All of NURS 300, NURS 310, NURS 321, NURS 330.
+preq: NURS 300 and NURS 310 and NURS 321 and NURS 330
+crer: NURS 346.
+creq: NURS 346
+
+code: NURS 401
+name: Foundational Skills and Competencies for Clinical Practice IV
+cred: 1
+desc: Students are prepared with the skills and competencies for clinical practice in simulated acute and community settings through a variety of modalities and learning activities. 
+prer: All of NURS 300, NURS 321, NURS 330, NURS 360.
+preq: NURS 300 and NURS 321 and NURS 330 and NURS 360
+
+code: NURS 402
+name: Foundational Skills and Competencies for Clinical Practice V
+cred: 1
+desc: Students are guided to consolidate skills and competencies for clinical practice through a variety of modalities and learning activities. 
+prer: All of NURS 300, NURS 321, NURS 322, NURS 323, NURS 353, NURS 360, NURS 361, NURS 362, NURS 363, NURS 365, NURS 366, NURS 401.
+preq: NURS 300 and NURS 321 and NURS 322 and NURS 323 and NURS 353 and NURS 360 and NURS 361 and NURS 362 and NURS 363 and NURS 365 and NURS 366 and NURS 401
+crer: NURS 430.
+creq: NURS 430
+
+code: NURS 410
+name: Supplemental Guided Study
+cred: 3, 4, 5
+desc: Supplemental guided study to integrate and consolidate professional nursing knowledge, skills and competencies. For Bachelor of Science Nursing students only. Pass/Fail. 
+
+code: NURS 427
+name: Consolidated Practice Experience
+cred: 9
+prer: NURS 430.
+preq: NURS 430
+
+code: NURS 430
+name: Theoretical Perspectives in Nursing: Special Topics in Complex and Urgent Health Challenges across Settings/Populations
+cred: 2
+desc: Consolidation of fundamental theories, concepts, evidence, and competencies pertaining to nursing practice across the life-span and care context. 
+prer: All of NURS 300, NURS 301, NURS 303, NURS 310, NURS 321, NURS 322, NURS 323, NURS 330, NURS 331, NURS 344, NURS 345, NURS 346, NURS 350, NURS 351, NURS 352, NURS 353, NURS 354, NURS 360, NURS 361, NURS 362, NURS 363, NURS 365, NURS 366, NURS 401.
+preq: NURS 300 and NURS 301 and NURS 303 and NURS 310 and NURS 321 and NURS 322 and NURS 323 and NURS 330 and NURS 331 and NURS 344 and NURS 345 and NURS 346 and NURS 350 and NURS 351 and NURS 352 and NURS 353 and NURS 354 and NURS 360 and NURS 361 and NURS 362 and NURS 363 and NURS 365 and NURS 366 and NURS 401
+crer: NURS 402.
+creq: NURS 402

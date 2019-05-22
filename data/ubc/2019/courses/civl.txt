@@ -1,0 +1,375 @@
+
+
+code: CIVL 201
+name: Introduction to Civil Engineering
+cred: 3
+desc: The design process; graphical, visualization and computational tools; civil engineering disciplines; decision-making; teamwork; conceptual design project reflecting community, economic, environmental, sustainability and technical considerations. 
+prer: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121.
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+crer: CIVL 203.
+creq: CIVL 203
+
+code: CIVL 203
+name: Technical Communication in Civil Engineering
+cred: 3
+desc: Written and oral communication in civil engineering.  Business correspondence, business meetings, poster presentations, oral presentations and technical reports.  Restricted to students in second year of the Civil Engineering program. 
+prer: One of APSC 176, ENGL 110, ENGL 111, ENGL 112, ENGL 120, ENGL 121.
+preq: APSC 176 or ENGL 110 or ENGL 111 or ENGL 112 or ENGL 120 or ENGL 121
+crer: CIVL 201.
+creq: CIVL 201
+
+code: CIVL 204
+name: Fundamentals of Environmental Engineering
+cred: 3
+desc: Environmental engineering issues and projects; application of scientific and engineering principles to addressing these; soil, water and air pollution, and remediation. [3-0-0]
+prer: CHEM 154.
+preq: CHEM 154
+
+code: CIVL 210
+name: Soil Mechanics I
+cred: 4
+desc: Soil classification, principle of effective stress, analysis of seepage, filter criteria, introduction to shear strength and slope stability analysis. 
+prer: One of CIVL 230, MECH 260.
+preq: CIVL 230 or MECH 260
+crer: EOSC 210 and one of CIVL 215, MECH 280, EOSC 329.
+creq: EOSC 210 and (CIVL 215 or MECH 280 or EOSC 329)
+
+code: CIVL 215
+name: Fluid Mechanics I
+cred: 4
+desc: Fluid properties, hydrostatics, kinematics, and fluid dynamics: energy and momentum methods with applications. Dimensional analysis, modelling, introduction to flow in pipes and forces on immersed objects. 
+prer: All of PHYS 170, MATH 101.
+preq: PHYS 170 and MATH 101
+
+code: CIVL 230
+name: Solid Mechanics
+cred: 4
+desc: Stress and strain, Hooke's law, axially loaded members, torsion, shear forces and bending moments in beams, bending and shear stresses in beams, composite members, introduction to inelastic and statically indeterminate problems. 
+prer: All of PHYS 170, MATH 101.
+preq: PHYS 170 and MATH 101
+
+code: CIVL 231
+name: Introduction to Structural Engineering
+cred: 4
+desc: Advanced solid mechanics: combined axial load and bending, beam- columns, principal axes and moments of inertia, deflection of members and systems, buckling (stability); analysis and design of structural systems: trusses, frames; construction and testing of model structures. 
+prer: All of MATH 152, CIVL 203, CIVL 230.
+preq: MATH 152 and CIVL 203 and CIVL 230
+
+code: CIVL 235
+name: Plane Surveying
+cred: 4
+desc: Theory and application of plane surveying methods. Introduction to and use of compass, transit, tape, and level. Construction and topographic surveys. Reduction of field data and construction of drawings. Demonstration of modern instruments, remote sensing methods and geographical information systems (GIS). This course commences immediately after spring examinations and continues full time for two weeks, including Saturdays. Information on the exact dates will be available in the Civil Engineering Office following publication of the final Examination Timetable. 
+
+code: CIVL 250
+name: Engineering and Sustainable Development
+cred: 3
+desc: Implications of a finite biosphere and the complexities inherent in environmental decision-making. Credit will only be granted for only one of CIVL 200 or CIVL 250. [3-0-0]
+
+code: CIVL 300
+name: Construction Engineering and Management
+cred: 3
+desc: Project delivery systems: traditional; construction management; turnkey; project management. Network planning methods. Activity planning, including construction methods selection. Estimating, bidding and bonding. Project control tools and procedures. Human resources, including equity considerations; occupational health and safety and quality control. 
+prer: CIVL 203.
+preq: CIVL 203
+
+code: CIVL 301
+name: Modelling and Decision-Making in Civil Engineering
+cred: 3
+desc: Introduction to systems engineering; applications of decision-making, modelling, and programming, including probabilistic analyses and optimization, to civil engineering projects; review of numerical methods 
+prer: All of MATH 152, CIVL 201, STAT 251.
+preq: MATH 152 and CIVL 201 and STAT 251
+
+code: CIVL 302
+name: Civil Engineering Impacts
+cred: 3
+desc: The social and biophysical context of infrastructure and the impact of civil engineering on people, the economy, and the environment. Specific topics vary from year to year. [1-0-4]
+prer: CIVL 201.
+preq: CIVL 201
+
+code: CIVL 303
+name: Computational Tools in Civil Engineering
+cred: 3
+desc: Computational and numerical solutions to civil engineering problems; application to a civil engineering design project that reflects community, economic, environmental and technical considerations. 
+prer: All of CIVL 201, CIVL 210, CIVL 215, CIVL 231 and one of MATH 255, MATH 256.
+preq: (CIVL 201 and CIVL 210 and CIVL 215 and CIVL 231) and (MATH 255 or MATH 256)
+
+code: CIVL 305
+name: Introduction to Environmental Engineering
+cred: 3
+desc: Environmental legislation; risk assessment; urban water; mass balance; water and wastewater treatment; environmental impact assessment. 
+
+code: CIVL 311
+name: Soil Mechanics II
+cred: 4
+desc: One-dimensional compression and stress-strain response of soils with application to estimation of the settlements and capacities of foundations and of retaining walls. 
+prer: CIVL 210.
+preq: CIVL 210
+
+code: CIVL 315
+name: Fluid Mechanics II
+cred: 4
+desc: Two dimensional flow around immersed objects; velocity and pressure fields; lift and drag on cylinders and aerofoils; fluid loads on structures and structural response; pumps and turbines; analysis and design of pipeline systems; unsteady flow in pipes; frictionless waterhammer analysis. 
+prer: All of CIVL 203, CIVL 215 and one of MATH 255, MATH 256.
+preq: (CIVL 203 and CIVL 215) and (MATH 255 or MATH 256)
+crer: MATH 257.
+creq: MATH 257
+
+code: CIVL 316
+name: Hydrology and Open Channel Flow
+cred: 4
+desc: Introduction to open channel hydraulics, engineering hydrology, and water resource systems; estimation of design discharge; flood statistics; nonuniform steady open channel flow; energy and momentum principles, backwater analysis; culvert and bridge hydraulics. 
+prer: All of CIVL 203, CIVL 215.
+preq: CIVL 203 and CIVL 215
+
+code: CIVL 320
+name: Civil Engineering Materials
+cred: 3
+desc: The structure and properties of common Civil Engineering materials: aggregates, Portland cement, concrete, wood, steel and other construction materials. The emphasis is on the relationship between the structure of materials and their mechanical and durability properties. 
+prer: All of APSC 278, APSC 279.
+preq: APSC 278 and APSC 279
+
+code: CIVL 331
+name: Steel and Timber Design
+cred: 4
+desc: Introduction to limit states design of steel and timber structures: design objectives, design loads and load combinations, structural safety, material properties, design of tension and compression members, beams, columns, and connections. 
+prer: CIVL 231.
+preq: CIVL 231
+
+code: CIVL 332
+name: Structural Analysis
+cred: 3
+desc: Introduction to indeterminate structural analysis; approximate analysis of structures; calculation of displacements using virtual work; flexibility (force) method; stiffness method for frames; moment distribution method; introduction to structural dynamics. 
+prer: All of CIVL 231, MATH 152.
+preq: CIVL 231 and MATH 152
+
+code: CIVL 340
+name: Transportation Engineering I
+cred: 3
+desc: The analysis and design of the elements of transportation facilities in development of transport technology; vehicle motion; vehicle/pavement interaction; elements of road design; principles of queuing and roadway capacity; rail transit performance and capacity analysis; economics as applied to transport. 
+prer: STAT 251.
+preq: STAT 251
+
+code: CIVL 402
+name: Professionalism and Law in Civil Engineering
+cred: 3
+desc: The Engineers and Geoscientists Act; professional ethics, conflicts of interest, confidentiality and accountability; health and safety; sustainable development and environmental stewardship; equity considerations; design and construction contracts, specifications and tendering; labour and employment law; dispute resolution; evidence and expert witnesses; torts and legal liability. 
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: CIVL 403
+name: Engineering Economic Analysis
+cred: 3
+desc: Time value of money; cash flow analysis; comparing options; depreciation, taxes, and inflation; financial accounting; company structures; public sector projects; decision-making. 
+prer: Fourth-year standing required.
+preq: Fourth-year standing required
+
+code: CIVL 404
+name: Introduction to Solid Waste Management
+cred: 3
+desc: Characteristics of solid wastes; solid waste collection, treatment, and disposal; evaluation and analysis of landfills, composting, combined treatment, recycle, and re-use. 
+prer: CIVL 204.
+preq: CIVL 204
+
+code: CIVL 406
+name: Water Treatment and Waste Management
+cred: 3
+desc: Processes used in water and wastewater treatment. Conditions which necessitate treatment of water or wastewater, water and wastewater treatment processes and plant design. Municipal services required and associated with solid waste management. 
+prer: CIVL 305.
+preq: CIVL 305
+
+code: CIVL 407
+name: Environmental Laboratory Analysis
+cred: 3
+desc: Testing procedures used in water quality studies and in the operation of water and wastewater treatment plants. 
+prer: CHEM 154.
+preq: CHEM 154
+
+code: CIVL 408
+name: Geo-Environmental Engineering
+cred: 3
+desc: Environmental contamination, regulatory requirements, site investigation, migration of contaminants, containment systems, site remediation technologies, design considerations related to soil-contaminant interactions, hydrogeology, geochemistry and types of contaminants. Design and performance case histories. 
+prer: CIVL 210.
+preq: CIVL 210
+
+code: CIVL 409
+name: Municipal Engineering
+cred: 3
+desc: Design of municipal infrastructure, including streets, water supply networks, and sewers, garbage collection and solid waste management. Focus is on solutions for providing an adequate water supply, collecting and disposing of stormwater and sewage, and managing excess stormwater flow. 
+prer: All of CIVL 315, CIVL 316.
+preq: CIVL 315 and CIVL 316
+
+code: CIVL 410
+name: Foundation Engineering I
+cred: 3
+desc: An introduction to the process of foundation engineering. Empirical and analytical approaches used in current professional practice. Topics include site investigation, preloading, liquefaction assessment, ground improvement, design of shallow and deep foundations, and retaining structures. The importance of geology and technical communication are emphasized. 
+prer: CIVL 311.
+preq: CIVL 311
+
+code: CIVL 411
+name: Foundation Engineering II
+cred: 3
+desc: Aspects of Geotechnical Engineering. Design considerations illustrated by case histories pertinent to BC. Topics include: site investigation, terrain analyses, in situ testing, groundwater problems, deep foundations, tie back walls and bracing, tailings impoundments, Northern construction, ground ice, dikes and dams engineering. Many case histories presented in part by prominent consulting engineers in BC. 
+prer: CIVL 311.
+preq: CIVL 311
+
+code: CIVL 413
+name: Design of Earth Dams and Containment Structures
+cred: 3
+desc: Purpose and types of dams; design criteria; construction sequence; compaction; seepage; filter design; factors influencing the design of earth dams; stability and deformation under static and earthquake loading; slope protection; field instrumentation. 
+prer: CIVL 311. Fourth-year standing.
+preq: CIVL 311. Fourth-year standing
+
+code: CIVL 415
+name: Water Resource Engineering
+cred: 3
+desc: An introduction to the planning and design of water resource systems, stream systems, and municipal and hydropower engineering. 
+prer: All of CIVL 315, CIVL 316, STAT 251.
+preq: CIVL 315 and CIVL 316 and STAT 251
+
+code: CIVL 416
+name: Environmental Hydraulics
+cred: 3
+desc: Application of hydraulic engineering principles to problems of environmental concern. Pollutant transport and dispersion. Mixing in rivers and lakes. Theory of jets and plumes. Design of outfall diffusers. 
+prer: CIVL 316 and one of MATH 256, MATH 257.
+preq: CIVL 316 and (MATH 256 or MATH 257)
+
+code: CIVL 417
+name: Coastal Engineering
+cred: 3
+desc: Linear wave theory; wave shoaling, refraction and diffraction; random waves; wave generation; long waves, tides and currents; coastal structures; beaches and coasts; mixing processes; harbour and marinas; coastal modelling. 
+prer: CIVL 316 and one of EOSC 213, MATH 256, MATH 257.
+preq: CIVL 316 and (EOSC 213 or MATH 256 or MATH 257)
+
+code: CIVL 418
+name: Engineering Hydrology
+cred: 3
+desc: Hydrologic processes - weather, precipitation, infiltration, evaporation, snowmelt and runoff generation. Emphasis on quantitative techniques including: hydrograph analysis, reservoir and channel routing, statistical methods and design floods, hydrologic modelling. 
+prer: CIVL 316.
+preq: CIVL 316
+
+code: CIVL 420
+name: Concrete Technology
+cred: 3
+desc: Physical and chemical properties and microstructure of hydrated Portland cement; construction practices; modern use of industrial by-products such as fly ash, blast furnace slag, silica fume and metakaolin; use of chemical admixtures; environmental issues; properties of hardened concrete; issues in standardized and accelerated testing, non-destructive testing. 
+prer: CIVL 320.
+preq: CIVL 320
+
+code: CIVL 422
+name: Project Based Learning in Civil Engineering Materials
+cred: 3
+desc: Some topical problems will be identified and students in groups will carry out experiments to study the materials involved. Site visits and external consultations are an integral requirement. [1-4-0]
+prer: CIVL 320.
+preq: CIVL 320
+
+code: CIVL 425
+name: Case Studies of Construction Methods
+cred: 3
+desc: Identification and evaluation of solutions to construction site operation problems: the relationship between design and construction; factors affecting productivity and safety; measurement of on-site performance. Credit will be granted for only one of CIVL 425 or CIVL 521. [3-0-0]
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: CIVL 426
+name: Virtual Design and Construction
+cred: 3
+desc: Building information modeling (BIM), 4D/5D modeling, design coordination, BIM execution and performance assessment, and integrated project delivery methods.  Credit will be granted for only one of CIVL 426 or CIVL 526. 
+
+code: CIVL 430
+name: Design of Concrete Structures
+cred: 4
+desc: Non-linear response of reinforced concrete members subjected to axial load, bending and shear; design of simple one-way members including beams, columns, slabs and footings. 
+prer: CIVL 332.
+preq: CIVL 332
+
+code: CIVL 432
+name: Advanced Structural Steel Design
+cred: 3
+desc: Design of steel structures to resist vertical and lateral loads. Floor and roof systems including conceptual layout, floor deck, beams, joists, trusses, and columns. Stability issues and limit states design. Connections and construction aspects. Seismic design. 
+prer: All of CIVL 331, CIVL 332.
+preq: CIVL 331 and CIVL 332
+
+code: CIVL 433
+name: Advanced Concrete Design
+cred: 3
+desc: Design of continuous reinforced concrete building frames and structures. 
+prer: CIVL 430.
+preq: CIVL 430
+
+code: CIVL 435
+name: Advanced Structural Analysis
+cred: 3
+desc: Shear flow, shear deformation, St. Venant torsion, warping torsion, P-delta and geometric stiffness, buckling of columns and frames, cylindrical shells, beams on elastic foundation, shear wall analysis, elasto-plastic analysis. Introduction to the finite element method. 
+prer: CIVL 332.
+preq: CIVL 332
+
+code: CIVL 436
+name: Matrix Structural Analysis and Dynamics
+cred: 3
+desc: Further techniques in matrix structural analysis; non-rigid supports, temperature-shrinkage effects, computer implementation; matrix representation of structural dynamics; mode shapes, natural frequencies, continuous systems; lumped mass models, modal analysis, response spectra. 
+prer: CIVL 332.
+preq: CIVL 332
+
+code: CIVL 437
+name: Introduction to Ship Structures
+cred: 3
+desc: Structural theory and practice of ship structural design; longitudinal and transverse strength of hull girder; plates and shells; matrix analysis; introduction to classification society rules; ship section design synthesis; finite element analysis. 
+prer: One of CIVL 332, MECH 360.
+preq: CIVL 332 or MECH 360
+
+code: CIVL 439
+name: Design of Timber Structures
+cred: 3
+desc: Design of timber structural elements using limit states design principles; joints and fasteners, sawn lumber and engineered wood products, light frame systems and shear walls. Credit will be granted for only one of CIVL 439 or CIVL 516. 
+prer: One of CIVL 331, WOOD 386.
+preq: CIVL 331 or WOOD 386
+
+code: CIVL 440
+name: Transportation Engineering II
+cred: 3
+desc: Traffic operations and network analysis: traffic studies and data design; traffic stream flow and roadway analysis; weaving and interchange ramp analysis; intersection traffic control measures and control design; progressive signal system design; flows prediction; road network simulation and assignment algorithms; motor vehicle accident analysis; field exercises. 
+prer: CIVL 340.
+preq: CIVL 340
+
+code: CIVL 441
+name: Transportation Planning and Analysis
+cred: 3
+desc: Transportation systems planning and analysis: data needs; surveys and analysis; sampling techniques; trip generation; trip distribution; modal choice; trip assignment; traffic impact studies; system evaluation. Credit will be granted for only one of CIVL 441, CIVL 583 or PLAN 535. 
+prer: CIVL 340. Fourth-year standing.
+preq: CIVL 340. Fourth-year standing
+
+code: CIVL 445
+name: Civil Engineering Design Project I
+cred: 3
+desc: Integration and application of previously acquired knowledge and skills to find design solutions for a multi-disciplinary civil engineering project.  Focus on conceptual and preliminary design.. 
+prer: CIVL 203 and fourth-year standing.
+preq: CIVL 203 and fourth-year standing
+
+code: CIVL 446
+name: Civil Engineering Design Project II
+cred: 2
+desc: Integration and application of previously acquired knowledge and skills to find design solutions for a multi-disciplinary civil engineering design project.  Focus on detailed design. 
+prer: CIVL 445.
+preq: CIVL 445
+
+code: CIVL 475
+name: Environmental Stewardship in Civil Engineering
+cred: 3
+desc: Co-evolution of human and natural environments, approaches to the design, construction and operations of interacting built, social, and ecological systems, the integrative design process and related strategies. 
+prer: One of APSC 261, APSC 262, APSC 263, CIVL 250, CIVL 302. Third-year standing in BASc program.
+preq: APSC 261 or APSC 262 or APSC 263 or CIVL 250 or CIVL 302. Third-year standing in BASc program
+
+code: CIVL 478
+name: Building Science
+cred: 3
+desc: Building science concepts associated with the design of modern buildings, focusing particularly on the building envelope's role in environmental separation, controlling the movement of heat, air, and water in liquid and vapour states. 
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: CIVL 492
+name: Directed Studies in Civil Engineering
+cred: 1, 2, 3, 4, 5
+desc: Independent studies on a special topic. 
+
+code: CIVL 498
+name: Topics in Civil Engineering
+cred: 1, 2, 3, 4, 5
+desc: Seminar or lecture. Registration will take place on the first day of class by the Instructor. 

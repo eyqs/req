@@ -1,0 +1,94 @@
+
+
+code: MRNE 400
+name: Directed Studies
+cred: 3, 6
+desc: A research project approved by the supervisor in the field of interest of the student designed to take advantage of the opportunities offered by the Bamfield Marine Sciences Centre. Note: the supervisor may be teaching at the Marine Centre; or a member of faculty of WCUMSS whether at the Marine Centre as a research investigator or as one of the members of WCUMSS. 
+
+code: MRNE 401
+name: Special Topics in Marine Biology
+cred: 6
+desc: This course will be offered, as opportunities arise, by distinguished scientists visiting at the Bamfield Marine Sciences Centre. It is expected that the course will generally be of a specialized nature and be at a level appropriate to graduate or senior undergraduate students. 
+
+code: MRNE 402
+name: Special Topics in Marine Biology
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: This course will be offered, as opportunities arise, by distinguished scientists visiting at the Bamfield Marine Sciences Centre. This course will be of a specialized nature and at a level appropriate to graduate or senior undergraduate students. 
+
+code: MRNE 410
+name: Marine Invertebrate Zoology
+cred: 6
+desc: A survey of the marine phyla, with emphasis on the benthic fauna in the vicinity of the Marine Station. The course includes lectures, laboratory periods, field collection, identification and observation. Emphasis is placed on the study of living specimens in the laboratory and in the field. 
+
+code: MRNE 411
+name: Comparative Invertebrate Embryology
+cred: 6
+desc: A comprehensive study of development of marine invertebrates available at the Bamfield Marine Sciences Centre, including all major phyla and most of the minor phyla. 
+prer: course in invertebrates or embryology.
+preq: course in invertebrates or embryology
+
+code: MRNE 412
+name: Biology of Fishes
+cred: 6
+desc: Classification, physiology, ecology, behaviour and zoogeography of fishes with particular emphasis on those in the marine environment of the British Columbia coast. 
+prer: A course in comparative vertebrate anatomy.
+preq: A course in comparative vertebrate anatomy
+
+code: MRNE 415
+name: Structure and Function in Marine Animals
+cred: 3
+desc: Principles of classification, evolution, morphology, biomechanics, physiology and biochemistry will be illustrated in representatives from a variety of animal phyla. [3-3-0]
+prer: Completion of second year in a biology program.
+preq: Completion of second year in a biology program
+
+code: MRNE 420
+name: Marine Phycology
+cred: 6
+desc: A survey of the marine algae, with emphasis on the benthic forms in the vicinity of the Marine Centre. The course includes lectures, laboratory periods, field collection, identification and observation. Emphasis is placed on the study of living specimens in the laboratory and in the field. 
+
+code: MRNE 425
+name: Ecological Adaptations of Seaweeds
+cred: 3
+desc: Morphological, physiological, genetic and reproductive adaptations of seaweeds to their environments. [3-3-0]
+prer: Completion of second year in a biology program.
+preq: Completion of second year in a biology program
+
+code: MRNE 430
+name: Marine Ecology
+cred: 6
+desc: An analytical approach to biotic associations in the marine environment. Opportunities are provided for study of the intertidal realm in exposed and protected areas, and of beaches and estuaries in the vicinity of the Marine Centre; plankton studies and investigations of the subtidal and benthic environments by diving and dredging are envisaged. 
+
+code: MRNE 435
+name: Introduction to Biological Oceanography
+cred: 6
+desc: An introduction to the biology of oceans, with supporting coverage of relevant physics and chemistry. Emphasis will be placed on plankton biology, community structure and life histories, and influencing environmental factors. Collections will be made from sheltered inlets, through Barkely Sound to offshore waters. The course will involve both field and laboratory. 
+prer: All of BIOL 320, BIOL 205.
+preq: BIOL 320 and BIOL 205
+
+code: MRNE 437
+name: Population and Community Ecology of Marine Organisms
+cred: 3
+desc: Emphasis on interactions among organisms and between organisms and their physiochemical environment, and on biological diversity. [3-3-0]
+prer: Completion of second year in a biology program.
+preq: Completion of second year in a biology program
+
+code: MRNE 440
+name: Biology of Marine Birds
+cred: 6
+desc: Study of interrelationship of birds and the marine environment. Census techniques and observation of birds in the field will be emphasized. 
+prer: Completion of a course in vertebrate zoology or permission of the instructor.
+preq: Completion of a course in vertebrate zoology or permission of the instructor
+
+code: MRNE 445
+name: Biology of Marine Mammals
+cred: 6
+desc: Survey course covering systematics and distribution of marine mammals, their sensory capabilities and physiology, with special emphasis on the Cetacea. The course will involve an independent field study. 
+prer: Introductory vertebrate zoology.
+preq: Introductory vertebrate zoology
+
+code: MRNE 480
+name: Seminars and Papers in Marine Science
+cred: 3
+desc: Instruction in the critical analysis of published research papers and of oral seminars. [2-2-0]
+prer: Completion of second year in a biology program.
+preq: Completion of second year in a biology program

@@ -1,0 +1,8 @@
+
+
+code: DSCI 100
+name: Introduction to Data Science
+cred: 3
+desc: Use of data science tools to summarize, visualize, and analyze data. Sensible workflows and clear interpretations are emphasized. [3-0-1]
+prer: MATH 12.
+preq: MATH 12

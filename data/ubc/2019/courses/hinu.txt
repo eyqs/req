@@ -1,0 +1,86 @@
+
+
+code: HINU 100
+name: Introductory Hindi-Urdu I
+cred: 3
+desc: Spoken Hindi and Urdu, and written Hindi. Credit will be granted for only one of HINU 100 or 102. 
+
+code: HINU 101
+name: Introductory Hindi-Urdu II
+cred: 3
+desc: Continuation of HINU 100. Credit will be granted for only one of HINU 101 or 102. 
+prer: HINU 100.
+preq: HINU 100
+
+code: HINU 102
+name: Introductory Hindi-Urdu
+cred: 6
+desc: Spoken and written Hindi and Urdu. As of 2011W, credit will be granted for only one of HINU 100/101 or HINU 102. 
+
+code: HINU 200
+name: Intermediate Hindi-Urdu
+cred: 6
+desc: Conversation and grammar; an introduction to Hindi literature; an introduction to the Urdu script. As of 2011W, credit will be granted for only one of HINU 201/202 or HINU 200. 
+prer: One of HINU 101, HINU 102.
+preq: HINU 101 or HINU 102
+
+code: HINU 201
+name: Intermediate Hindi-Urdu I
+cred: 3
+desc: Conversation and grammar; an introduction to Hindi literature; an introduction to the Urdu script. Credit will be granted for only one of HINU 200 or 201. 
+prer: HINU 101.
+preq: HINU 101
+
+code: HINU 202
+name: Intermediate Hindi-Urdu II
+cred: 3
+desc: Continuation of HINU 201. Credit will be granted for only one of HINU 200 or 202. 
+prer: HINU 201.
+preq: HINU 201
+
+code: HINU 205
+name: Introduction to the Devanagari Script
+cred: 1
+desc: The writing system of Hindi for those with some background in the spoken language. May be taken at the same time as HINU 200. 
+
+code: HINU 300
+name: Advanced Hindi-Urdu
+cred: 6
+desc: Further study of the grammar of Hindi and Urdu; advanced conversation; literary readings in Hindi and Urdu; Hindi film. As of 2011W, credit will be granted for only one of HINU 301/302 or HINU 300. 
+prer: One of HINU 200, HINU 202.
+preq: HINU 200 or HINU 202
+
+code: HINU 301
+name: Advanced Hindi-Urdu I
+cred: 3
+desc: Further study of the grammar of Hindi and Urdu; advanced conversation; literary readings in Hindi and Urdu; Hindi film. Credit will be granted for only one of HINU 301 or HINU 300. 
+prer: HINU 202.
+preq: HINU 202
+
+code: HINU 302
+name: Advanced Hindi-Urdu II
+cred: 3
+desc: Continuation of HINU 301. Credit will be granted for only one of HINU 302 or HINU 300. 
+prer: HINU 301.
+preq: HINU 301
+
+code: HINU 305
+name: Introduction to the Perso-Arabic (Urdu) Script
+cred: 2
+desc: The writing system of Urdu for those with some background in the spoken language. 
+crer: One of HINU 300, HINU 400.
+creq: HINU 300 or HINU 400
+
+code: HINU 400
+name: Introduction to Hindi and Urdu Literature
+cred: 6
+desc: Readings of various literary genres in Hindi, Urdu and their medieval equivalents. Modern fiction from India and Pakistan; the Urdu ghazal; medieval Hindi bhakti poetry; readings from the Adi Granth of the Sikhs Hindi film. Discussion in Hindi-Urdu of all materials. 
+prer: HINU 300.
+preq: HINU 300
+
+code: HINU 450
+name: Hindi Film
+cred: 3
+desc: Regional, religious, and historical dialects of Hindi and Urdu as repesented in films. 
+prer: HINU 200. Or fluency in Hindi.
+preq: HINU 200. Or fluency in Hindi

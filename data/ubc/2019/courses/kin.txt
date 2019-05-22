@@ -1,0 +1,457 @@
+
+
+code: KIN 101
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program.  Pass/Fail. 
+
+code: KIN 110
+name: Human Anatomy
+cred: 3
+desc: Structure of the neural, muscular, and skeletal systems of the human body. Special emphasis on movement analysis and the physiological effects of exercise. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,352,1477. [3-2]
+
+code: KIN 115
+name: Performance Analysis of Selected Individual Sports and Activities
+cred: 3, 6
+desc: Specific topics to be announced each year. KIN 115 and 215 can be taken in any order. [2-2]
+
+code: KIN 120
+name: Health and Exercise Management
+cred: 3
+desc: Role of physical activity in the maintenance of a healthy life. Application of basic physical fitness and exercise methods, exercise techniques and fitness appraisal. [2-2]
+
+code: KIN 131
+name: Systems Physiology I
+cred: 3
+desc: Structure and function of the skeletal system, muscular system, integumentary system, neuro-hormonal control, and endocrinology. Emphasis will be to develop an understanding of the integrative nature of the systems discussed. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,352,1477. [3-2]
+
+code: KIN 132
+name: Systems Physiology II
+cred: 3
+desc: Structure and function of the cardiovascular system, respiratory system, urinary system, digestive system, and immune system.  Emphasis will be to develop an understanding of the integrative nature of the systems discussed. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,253,1477. [3-2]
+
+code: KIN 140
+name: Lifespan Motor Development
+cred: 3
+desc: A lifespan approach to motor development that examines underlying factors affecting physical growth, physical activity behaviour, and human motor performance, while highlighting contemporary issues and trends in society. 
+
+code: KIN 150
+name: Sport and Exercise Psychology
+cred: 3
+desc: Psychological theories and research related to sport and exercise behaviour. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,352,1477 
+
+code: KIN 160
+name: Leisure and Sport in Society
+cred: 3
+desc: Introduction to the political, economic and social basis of leisure and sport; concepts, theories and problems. 
+
+code: KIN 170
+name: Performance Analysis of Selected Individual Sports and Activities
+cred: 3, 6
+desc: Specific topics to be announced each year. KIN 170 and 270 can be taken in any order. [2-2]
+
+code: KIN 190
+name: Anatomy & Physiology I
+cred: 3
+desc: Structure and function of the neuromuscular and skeletal systems of the human body. Special emphasis on movement analysis and the physiological effects of exercise. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,352,1477. [2-2]
+
+code: KIN 201
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program.  Pass/Fail. 
+
+code: KIN 205
+name: Research Methods in Kinesiology
+cred: 3
+desc: Critical evaluation of research studies and methods with emphasis on the physical activity context. [3-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 206
+name: Introduction to Statistics in Kinesiology
+cred: 3
+desc: Basic concepts and principles of descriptive and inferential statistics, and distribution-free statistical techniques. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,253,1477. [3-0-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 211
+name: Human Motor Behaviour I
+cred: 3
+desc: Processes underlying human movement and learning motor skills and factors influencing acquisition, performance, and movement control. 
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 215
+name: Performance Analysis of Selected Team Sports and Activities
+cred: 3, 6
+desc: Specific topics to be announced each year. KIN 115 and 215 can be taken in any order. [2-2]
+
+code: KIN 216
+name: Biomechanics I
+cred: 3
+desc: Application of elementary principles of physics and math to a quantitative analysis of movement.  Analysis will also focus on the development of forces within muscles and their effect on initiating and controlling human movement. 
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 230
+name: Human Motor Behaviour I
+cred: 3
+desc: Processes underlying human movement and learning motor skills and factors influencing acquisition, performance, and movement control. [3-0-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 231
+name: Sport and Exercise Psychology
+cred: 3
+desc: Psychological theories and research related to sport and exercise behaviour. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,352,1477 [3-0-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 232
+name: Nutrition, Physical Activity, and Health
+cred: 3
+desc: Study of nutrition and its application to physical activity and health.  Macro- and micronutrient classification and recommended daily intakes, their digestion, functions in the body and their role in supporting physical activity and health will be discussed. 
+prer: All of KIN  190, KIN  191 and second-year standing; similar courses to KIN 190 and KIN 191 can be considered.
+preq: (KIN 190 and KIN 191) and second-year standing; similar courses to KIN 190 and KIN 191 can be considered
+
+code: KIN 235
+name: Exercise Physiology I
+cred: 3
+desc: Acute and chronic effects of exercise on body systems; basic concepts of cardiovascular, respiratory and muscular responses to physical activity. 
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 261
+name: Health Policy and Society
+cred: 3
+desc: Health policy and the social context in relation to active health. [3-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 262
+name: Health Policy and Society
+cred: 3
+desc: Health policy and the social context in relation to active health. 
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 265
+name: Nutrition, Physical Activity, and Health
+cred: 3
+desc: Study of nutrition and its application to physical activity and health.  Macro- and micronutrient classification and recommended daily intakes, their digestion, functions in the body and their role in supporting physical activity and health will be discussed. [3-0]
+prer: All of KIN  190, KIN  191 and second-year standing; similar courses to KIN 190 and KIN 191 can be considered.
+preq: (KIN 190 and KIN 191) and second-year standing; similar courses to KIN 190 and KIN 191 can be considered
+
+code: KIN 270
+name: Performance Analysis of Selected Team Sports and Activities
+cred: 3, 6
+desc: Specific topics to be announced each year. KIN 170 and 270 can be taken in any order. [2-2]
+
+code: KIN 275
+name: Exercise Physiology I
+cred: 3
+desc: Acute and chronic effects of exercise on body systems; basic concepts of cardiovascular, respiratory and muscular responses to physical activity. [2-0-2]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 284
+name: Lifespan Motor Development
+cred: 3
+desc: A lifespan approach to motor development that examines underlying factors affecting physical growth, physical activity behaviour, and human motor performance, while highlighting contemporary issues and trends in society. [3-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 301
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program.  Pass/Fail. 
+
+code: KIN 303
+name: High Performance Conditioning in Physical Activity and Sport
+cred: 3
+desc: Conditioning methods, exercise techniques and appraisal methods for fitness in high performance physical activity and sport. [2-2]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 330
+name: Human Motor Behaviour II
+cred: 3
+desc: Acquisition, performance, and control of skilled movements. Processes and underlying mechanisms involved in learning and performing motor skills. Credit will be granted for only one of KIN 330 or KIN 468. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 343
+name: Human Athletic Performance
+cred: 3
+desc: An exploration of human movement and related issues pertaining to sports and athletic performance for non-Kinesiology students. Not for credit in the B.Kin. Program. [3-0]
+prer: Second-year standing.
+preq: Second-year standing
+
+code: KIN 351
+name: Biomechanics II Mechanical Properties of Tissues
+cred: 3
+desc: Mechanics of muscular contraction and how the mechanical properties of the muscle, ligaments, tendons, and bone work synergistically. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 353
+name: Human Body Composition
+cred: 3
+desc: Examination of techniques for measuring the amounts of adipose tissue, muscle and bone in the body, and factors affecting body composition, with particular emphasis on physical activity. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 357
+name: Laboratory Investigations in Neuromechanical Kinesiology
+cred: 3
+desc: Integration and application of laboratory principles and techniques for experimental investigations of topics in neuromechanical kinesiology, including biomechanics, motor behaviour, and neurophysiology. [1-2]
+prer: Restricted to students registered in the BKIN program, third-year standing.
+preq: Restricted to students registered in the BKIN program third-year standing
+
+code: KIN 360
+name: Sport, Peace, and Conflict
+cred: 3
+desc: Relationships that sport and leisure have with peace, conflict, and social inequality in Canada and internationally. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 361
+name: Introduction to Athletic Training
+cred: 3
+desc: Recognition, prevention, and first aid treatment of common sports injuries. Laboratory sessions emphasize principles and techniques of basic protective taping and strapping. [2-2]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 362
+name: Inclusive Physical Activity for Individuals with Special Needs
+cred: 3
+desc: For persons with disabilities; a developmental, lifelong approach to programming. Includes field work. [2-0-2]
+prer: KIN  140. And third-year standing.
+preq: KIN 140. and third-year standing
+
+code: KIN 365
+name: Foundations of Coaching
+cred: 3
+desc: Methods of athletic conditioning, planning the program, psychology of training and coaching, athletic evaluation. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 366
+name: Movement Experiences for Young Children
+cred: 3
+desc: The design and implementation of movement experiences for children in early childhood years. [3-0]
+prer: KIN  140. And third-year standing.
+preq: KIN 140. and third-year standing
+
+code: KIN 367
+name: Leisure Services for Persons with a Disability
+cred: 3
+desc: Policy issues relating to leisure opportunities for persons with disabilities. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 369
+name: Instructional Analysis and Design in Sport and Physical Activity Programs
+cred: 3
+desc: Instructional design and technologies applied to sport and physical activity programs. [2-2]
+prer: KIN  140. And third-year standing.
+preq: KIN 140. and third-year standing
+
+code: KIN 371
+name: Introduction to Statistics in Kinesiology
+cred: 3
+desc: Basic concepts and principles of descriptive and inferential statistics, and distribution-free statistical techniques. Please consult the School of Kinesiology Credit Exclusion Lists: http://www.calendar.ubc.ca/vancouver/index.cfm?tree=12,205,253,1477. [3-0-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 373
+name: Research Methods in Kinesiology
+cred: 3
+desc: Critical evaluation of research studies and methods with emphasis on the physical activity context. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 375
+name: Exercise Physiology II
+cred: 3
+desc: Transport of oxygen during exercise in humans.  Regulation and integration of the cardiovascular and respiratory systems during exercise. [2-0-2]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 381
+name: Leisure, Sport and Popular Culture
+cred: 3
+desc: Selected aspects of leisure and sport examined in relation to modern social structures and cultures. Credit will be granted for only one of KIN 281 or KIN 381. [3-0-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 382
+name: Meaning and Values in Sport
+cred: 3
+desc: An analysis of the experience of sports activities. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 383
+name: The Modern Olympics: Power, Politics, and Performance
+cred: 3
+desc: Examination of the Modern Olympic Games as an event with important political, economic, environmental, and cultural ramifications. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 389
+name: Neuromuscular Integration of Human Movement
+cred: 3
+desc: The neurophysiological and functional neuroanatomical processes involved in the sensory and motor control of movement, posture and balance in the human. Peripheral and central sensorimotor structures, and neurological diseases that effect human movement and balance control will be discussed. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 390
+name: Human Functional Musculoskeletal Anatomy
+cred: 3
+desc: The musculoskeletal structures and neural innervations involved in the control of human movement. Attention will be given to the practical application of human anatomy as it pertains to clinical, athletic, or everyday situations. 
+prer: Third-year standing. Restricted to students in the BHK and BKIN programs.
+preq: Third-year standing. Restricted to students in the BHK and BKIN programs
+
+code: KIN 392
+name: The Leisure and Sport Industry
+cred: 3
+desc: Economic and financial issues in the leisure and sport industry. Topics include entrepreneurship, economic impact, commercialization, patterns of ownership and control, and selected financial practices. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 400
+name: Planning Physical Education, Sport and Exercise Programs
+cred: 3
+desc: Processes, techniques and considerations in the planning, implementation and evaluation of physical education, sport and exercise programs in both public and private agencies. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 401
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program.  Pass/Fail. 
+
+code: KIN 402
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program.  Pass/Fail. 
+
+code: KIN 403
+name: Co-operative Work Placement
+cred: 6
+desc: Supervised, technical work experience in an established company or organization for a minimum of three months. Technical report. Restricted to students meeting the requirements of the School of Kinesiology and the Co-operative Education Program. 
+
+code: KIN 415
+name: Conceptual Approaches to Games Education
+cred: 3
+desc: Examination of developmentally appropriate conceptual and tactical approaches to team game instruction. [2-2]
+prer: KIN  140. And third-year standing.
+preq: KIN 140. and third-year standing
+
+code: KIN 425
+name: Aging, Health, and the Body
+cred: 3
+desc: The sociology of aging and the body. Focus on how older adults perceive and experience health and illness. 
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 454
+name: Field Experience
+cred: 3, 6
+desc: Students have the opportunity to develop their leadership, instruction, and professional skills in a variety of supervised fieldwork settings. Students should select the section of the course (A, B) most relevant to their program of study and career goals. 
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 455
+name: Field Work and Field Research Practicum
+cred: 15
+desc: Field work and a field research project will be undertaken concurrently in a cooperating leisure, sport or other agency over one term in fourth year (30 hours per week). Students will also attend weekly seminars to discuss field work and the field research projects. Limited enrolment. 
+prer: One of KIN  371, HKIN 371. Fourth-year standing and approval from KIN Program Coordinator.
+preq: (KIN 371 or HKIN 371. Fourth-year standing) and approval from KIN Program Coordinator
+
+code: KIN 456
+name: Field Experiences in Physical Education Settings
+cred: 3
+desc: Analytical observations and supervised professional practice in physical activity settings. 
+prer: KIN  369. Third-year standing. Restricted to students in the BHK and BKIN programs.
+preq: KIN 369. Third-year standing. Restricted to students in the BHK and BKIN programs
+
+code: KIN 461
+name: Prevention of Sports Injuries I
+cred: 3
+desc: Training and safety strategies for the prevention of injuries to the musculoskeletal system and sense organs. [3-0]
+prer: One of KIN  361, HKIN 361 and third-year standing.
+preq: (KIN 361 or HKIN 361) and third-year standing
+crer: One of KIN  375, HKIN 375.
+creq: KIN 375 or HKIN 375
+
+code: KIN 462
+name: Skeletal Muscle Physiology: From Generation to Regeneration
+cred: 3
+desc: Cellular and molecular mechanisms of muscle adaptability to physical activity: muscle development, signaling cascades of hypertrophy and atrophy, and satellite cell contribution to muscle regeneration/repair; etiology of intramuscular fatigue. [3-0-1]
+prer: One of KIN  375, HKIN 375 and third-year standing.
+preq: (KIN 375 or HKIN 375) and third-year standing
+
+code: KIN 464
+name: Health Promotion and Physical Activity
+cred: 3
+desc: Current perspectives on health promotion and health education; design and implementation of health promotion strategies in a variety of arenas, particularly health promotion/education strategies aimed at encouraging physical activity. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 465
+name: Interculturalism, Health and Physical Activity
+cred: 3
+desc: Examination of multiculturalism and interculturalism in the delivery of community-based physical activities for diverse populations; connections between physical activity and health in different cultural contexts.  Community service learning and participation in culturally unfamiliar physical activities are core elements. 
+prer: Fourth-year standing.
+preq: Fourth-year standing
+
+code: KIN 469
+name: Chronic Health Issues, Physical Activity, and Community Practice
+cred: 3
+desc: Issues related to physical activity and public health. Focus on community interventions.  Creation of activity plans that promote physical, mental, and/or social well-being in persons dealing with chronic health issues. Community service-learning component. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 471
+name: Prevention of Sports Injuries II
+cred: 3
+desc: Training and safety strategies for the prevention of injuries or disorders of internal organs and central nervous system. Environmental and nutritional factors in conditioning and pre-event preparation. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 473
+name: Neuroanatomy of Human Movement
+cred: 3
+desc: Neuroanatomy of human motion in healthy and clinical populations. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 475
+name: Pulmonary Physiology of Exercise
+cred: 3
+desc: Operation of the lungs, chest wall, and ventilatory control mechanisms during dynamic whole-body exercise. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 481
+name: Sport Marketing and Communication
+cred: 3
+desc: A seminar on the application of social science theories and methods to sport marketing and communication. [3-0]
+prer: Third-year standing.
+preq: Third-year standing
+
+code: KIN 489
+name: Seminar
+cred: 3, 4, 5, 6, 7, 8
+desc: Current topics and research in specific areas. [3-0-0]
+prer: Fourth-year standing. Consult with Advisor for specific prerequisites.
+preq: Fourth-year standing. Consult with Advisor for specific prerequisites
+
+code: KIN 499
+name: Projects in Kinesiology
+cred: 3
+desc: Provides opportunities to perform research pertaining to a chosen area of kinesiology. 
+prer: Fourth-year standing and permission of the Associate Director, Undergraduate Program.)
+preq: Fourth-year standing and permission of the Associate Director Undergraduate Program.)

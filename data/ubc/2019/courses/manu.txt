@@ -1,0 +1,118 @@
+
+
+code: MANU 230
+name: Manufacturing Engineering Laboratory
+cred: 3
+desc: Theory, operational constraints, and problem solving in traditional manufacturing processes. Casting, heat treatment, bulk deformation (i.e. rolling, extrusion, drawing), machining, joining, and shaping of composites. Experiments in process and product characterization. 
+
+code: MANU 261
+name: Thermodynamics
+cred: 3
+desc: Thermodynamic system and properties, thermodynamic processes; work and heat interactions. Conservation of energy and First Law, internal energy and enthalpy, the Second Law and entropy, application to manufacturing processes. 
+prer: All of MATH 101, MATH 152, PHYS 158.
+preq: MATH 101 and MATH 152 and PHYS 158
+crer: MATH 255.
+creq: MATH 255
+
+code: MANU 265
+name: Machine Dynamics
+cred: 3
+desc: Classifications of mechanisms, velocity, acceleration and force analysis, graphical and computer-oriented vector and matrix methods, balancing, flywheels, gears, gear trains, cams. 
+prer: All of MATH 101, MATH 152, PHYS 158, PHYS 170.
+preq: MATH 101 and MATH 152 and PHYS 158 and PHYS 170
+crer: MATH 255.
+creq: MATH 255
+
+code: MANU 270
+name: Production Systems Management I
+cred: 3
+desc: Impact of operations in increasing productivity and reducing waste. 
+
+code: MANU 330
+name: Manufacturing Engineering Project I
+cred: 6
+desc: Project-based, multi-step manufacturing engineering design and problem solving. 
+prer: MANU 230.
+preq: MANU 230
+
+code: MANU 370
+name: Production Systems Management II
+cred: 3
+desc: Functional area of production and operations management. Decision-making, capacity planning, aggregate planning, inventory management, distribution planning, materials requirements planning and quality control. 
+prer: MANU 270.
+preq: MANU 270
+
+code: MANU 378
+name: Engineering Materials II
+cred: 3
+desc: Materials selection for different design criteria; importance of shape and processing variables; computer software in selection. Credit will be granted for only one of MTRL 280 or MANU 378. 
+prer: APSC 278.
+preq: APSC 278
+
+code: MANU 380
+name: Manufacturing Processes I
+cred: 3
+desc: Correlation between material properties and processibility for practical engineering manufacturing routes.  Calculations and design. Application of heat/mass/fluid transport, mechanics and thermodynamics to manufacturing processes. 
+prer: All of APSC 278, APSC 279, MANU 261 and one of MECH 280, MTRL 263.
+preq: (APSC 278 and APSC 279 and MANU 261) and (MECH 280 or MTRL 263)
+
+code: MANU 386
+name: Industrial Automation
+cred: 3
+desc: Principle components of manufacturing automation, modeling of sensors-actuators and control systems, robotic programming, programmable logical control (PLC) systems and development of PLC ladder diagrams. 
+prer: All of MANU 265, MATH 255.
+preq: MANU 265 and MATH 255
+crer: MANU 330.
+creq: MANU 330
+
+code: MANU 399
+name: Special Topics in Manufacturing Engineering
+cred: 1, 2, 3, 4, 5
+prer: Third-year standing.
+preq: Third-year standing
+
+code: MANU 430
+name: Manufacturing Design Capstone Project
+cred: 6
+desc: Project-based, multi-step, multi-part Capstone design project involving manufacturing engineering design methods, problem solving. 
+prer: MANU 230.
+preq: MANU 230
+
+code: MANU 455
+name: Factory Planning
+cred: 3
+desc: Resources planning, layout and logistics. Modular production and cyber-physical manufacturing systems in laboratory scale, virtual manufacturing and factory automation. 
+
+code: MANU 480
+name: Manufacturing Processes II
+cred: 3
+desc: Numerical modeling of manufacturing processes, linkage between material, process, properties and product geometry, heat/mass transport, thermodynamics and design principles applied to practical engineering processes. 
+prer: All of MANU 380, MECH 491, MECH 462.
+preq: MANU 380 and MECH 491 and MECH 462
+
+code: MANU 481
+name: Manufacturing Processes III
+cred: 3
+desc: Integrating concepts of primary (casting), secondary (deformation), and tertiary (machining and surface treatment) processes and economic and environmental assessment. 
+prer: MANU 480.
+preq: MANU 480
+
+code: MANU 485
+name: Metal Cutting and Machine Tool Vibrations
+cred: 3
+desc: Metal cutting and grinding mechanics; prediction of force-torque-power in turning, drilling, milling and grinding operations. Machine tool vibrations, forced and self-excited vibrations in machining, experimental modal testing of machine tools, chatter, and stability. Credit will be granted for only one of MANU 485 or MECH 592. 
+
+code: MANU 487
+name: Machine and Part Metrology
+cred: 3
+desc: Laser interferometer measurement of volumetric accuracy; error mapping, modeling and compensation of errors, rotation metrology, spindle accuracy. Part dimension and surface metrology. Metrology instruments: Coordinate measurement machine, surface profile meter, laser interferometer and ball bar. 
+prer: All of MANU 265, MATH 255, MECH 368.
+preq: MANU 265 and MATH 255 and MECH 368
+crer: MANU 430.
+creq: MANU 430
+
+code: MANU 499
+name: Special Topics in Manufacturing Engineering
+cred: 1, 2, 3, 4, 5
+prer: Fourth-year standing
+preq: Fourth-year standing

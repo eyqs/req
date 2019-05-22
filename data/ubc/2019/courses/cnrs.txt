@@ -1,0 +1,34 @@
+
+
+code: CNRS 104
+name: Temples, Tombs, and Tyrants: The Archaeology of the Middle East, Greece, and Rome
+cred: 3
+desc: The rise of civilizations, cultural interconnections, and power dynamics in the ancient Middle East (including Egypt), Greece, and Rome (10,000 BCE - 300 CE). Archaeological methods and interpretation, and analysis of ancient artifacts in UBC collections. 
+
+code: CNRS 206
+name: The Archaeology of Life and Death in the Roman Empire
+cred: 3
+desc: The lives of non-elite individuals and groups living under the Roman Empire, seen through material evidence and its interpretation. Identity, urbanism, economy, agriculture, diet, religion, "Romanization," and burial. 
+prer: CNRS 104 or ARCL 203 recommended.
+preq: CNRS 104 or ARCL 203 recommended
+
+code: CNRS 335
+name: Practicum in Classical or Near Eastern Archaeology
+cred: 3, 4, 5
+desc: Training in excavation techniques and interpretation through participation in the excavation of a Greek, Roman, or Near Eastern site in Europe or the Middle East. The minimum length of the course is three weeks; it may be repeated once. 
+
+code: CNRS 370
+name: Theories of Myth
+cred: 3
+desc: Origins, nature, and transmission of myth in the Western tradition, with particular attention devoted to the interpretation of myth from ancient times up to the present. Some background in myth is recommended. 
+
+code: CNRS 410
+name: The Archaeology of Ancient Cyprus
+cred: 3
+desc: An overview of the archaeology of ancient Cyprus from the island's initial colonization in the 10th millennium BCE through the period of its rule as part of the Roman Empire (4th century CE). 
+prer: One of NEST 101, NEST 319, CLST 204.
+preq: NEST 101 or NEST 319 or CLST 204
+
+code: CNRS 449
+name: Honours Essay
+cred: 6

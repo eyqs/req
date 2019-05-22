@@ -1,0 +1,281 @@
+
+
+code: EDUC 140
+name: Introduction to Indigenous Studies
+cred: 3
+
+code: EDUC 141
+name: Indigenous Studies
+cred: 3
+desc: For students in the Indigenous Teacher Education Program (NITEP) only. 
+
+code: EDUC 143
+name: Indigenous Education Seminar and Classroom Observation I
+cred: 2
+desc: Pass/Fail. 
+
+code: EDUC 170
+name: Reviewing the Principles of Teaching
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 172
+name: Language and the Curriculum
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 173
+name: Teaching History and Government I
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 174
+name: Teaching Geography I
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 175
+name: Teaching Secondary English
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 176
+name: Teaching Mathematics I
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 177
+name: Teaching General Sciences
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 179
+name: Practicum I
+cred: 3
+desc: For Dadaab, Kenya teacher education students.  Pass/Fail. 
+
+code: EDUC 210
+name: Global Citizenship, Part 1: Introduction
+cred: 3
+
+code: EDUC 211
+name: Global Citizenship, Part 2: Community Service Learning and Capstone Conference
+cred: 3
+prer: One of ASTU 210, EDUC 210.
+preq: ASTU 210 or EDUC 210
+
+code: EDUC 240
+name: Issues in Indigenous Education
+cred: 3
+desc:  [3-0]
+
+code: EDUC 244
+name: Indigenous Education Seminar and Classroom Observation II
+cred: 2
+desc: Pass/Fail 
+
+code: EDUC 270
+name: Communication Skills in Teaching
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 272
+name: Teaching Chemistry
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 273
+name: Teaching History and Government II
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 274
+name: Teaching Geography II
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 275
+name: Global Education
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 276
+name: Teaching Mathematics II
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 277
+name: Teaching Physics
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 278
+name: Teaching Biology
+cred: 2
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 279
+name: Practicum II
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 280
+name: English and Reading: Secondary
+cred: 3
+desc: For Dadaab, Kenya teacher education students. 
+
+code: EDUC 315
+name: School-based Orientation Practicum
+cred: 2
+desc: Pass/Fail. 
+
+code: EDUC 316
+name: Communication Skills in Teaching
+cred: 1, 2
+desc: Pass/Fail. 
+
+code: EDUC 319
+name: Field Experience and Seminar
+cred: 1
+desc: Pass/Fail. 
+
+code: EDUC 321
+name: School-based Orientation Practicum: Elementary
+cred: 1
+desc: Pass/Fail. 
+prer: EDUC 315.
+preq: EDUC 315
+
+code: EDUC 323
+name: School-based Orientation Practicum: Middle Years
+cred: 1
+desc: Pass/Fail. 
+prer: EDUC 315.
+preq: EDUC 315
+
+code: EDUC 342
+name: Teaching First Nations Languages in Elementary Schools
+cred: 6
+prer: One of LLED 489, LING 200, LING 400. LLED 486 and LING 433 are recommended as pre- or corequisites.
+preq: (LLED 489 or LING 200 or LING 400. LLED 486) and (LING 433 are recommended as pre- or corequisites)
+
+code: EDUC 344
+name: Indigenous Education Seminar and Classroom Observation III
+cred: 2
+desc: Pass/Fail. 
+prer: All of EDUC 143, EDUC 244.
+preq: EDUC 143 and EDUC 244
+
+code: EDUC 390
+name: Teaching and Learning in Digital Environments: Critical Perspectives
+cred: 3
+
+code: EDUC 395
+name: Regional Field Studies in Education: Study, Travel, and Community Experience
+cred: 3, 6
+desc: Not offered on a regular basis. 
+prer: 12 credits of coursework approved by the Associate Dean (Teacher Education) as being appropriate to the particular study.
+preq: 12 credits of coursework approved by the Associate Dean (Teacher Education) as being appropriate to the particular study
+
+code: EDUC 399
+name: Field Experience and Seminar
+cred: 1
+desc: Pass/Fail. 
+
+code: EDUC 418
+name: School-based Extended Practicum: Elementary
+cred: 12, 13, 14, 15, 16, 17
+desc: Pass/Fail. 
+prer: Normally all requirements set to precede this practicum
+preq: Normally all requirements set to precede this practicum
+
+code: EDUC 419
+name: School-based Extended Practicum: Middle Years
+cred: 12, 13, 14, 15, 16, 17
+desc: Pass/Fail. 
+prer: Normally all requirements set to precede this practicum.
+preq: Normally all requirements set to precede this practicum
+
+code: EDUC 420
+name: Governance, Finance, and School Organization in its Social Context
+cred: 2
+desc: Pass/Fail. 
+
+code: EDUC 421
+name: School-based Extended Practicum: Secondary
+cred: 12, 13, 14, 15, 16, 17
+prer: Normally all requirements set to precede this practicum.
+preq: Normally all requirements set to precede this practicum
+
+code: EDUC 430
+name: Community-based Field Experience
+cred: 1
+desc: Pass/Fail. 
+prer: One of EDUC 418, EDUC 419, EDUC 421.
+preq: EDUC 418 or EDUC 419 or EDUC 421
+
+code: EDUC 432
+name: Clinical Supervision of Teaching
+cred: 3, 6
+desc: Recent research on teaching effectiveness. Enrolment limited to persons with teaching or supervisory experience. 
+
+code: EDUC 440
+name: Aboriginal Education in Canada
+cred: 3
+desc: Pass/Fail. 
+
+code: EDUC 442
+name: Critical Issues in Indigenous Education
+cred: 1, 2
+desc: Post-practicum students will explore how a school program may need to be modified in order to integrate more fully First Nations history, content, and world views. 
+
+code: EDUC 449
+name: Supervised Research Investigation
+cred: 3, 6
+desc: Available only to outstanding students approved by the Associate Dean (Teacher Education). 
+
+code: EDUC 450
+name: Inquiry Seminar I
+cred: 2
+desc: Pass/Fail. 
+
+code: EDUC 451
+name: Inquiry Seminar II
+cred: 2
+desc: Pass/Fail. 
+prer: EDUC 450.
+preq: EDUC 450
+
+code: EDUC 452
+name: Inquiry Seminar III
+cred: 2
+desc: Pass/Fail. 
+prer: EDUC 451.
+preq: EDUC 451
+
+code: EDUC 480
+name: Program Synthesis: E- Portfolio
+cred: 1, 2
+
+code: EDUC 490
+name: Special Studies in Education
+cred: 1, 2, 3, 4, 5
+desc: Topics not covered in a course. A pilot course may be offered under this name for only one year and with permission of the Associate Dean (Teacher Education). 
+
+code: EDUC 492
+name: Critical Analysis of Teaching: Planning for Context Appropriate Instruction
+cred: 3
+
+code: EDUC 495
+name: Practicum (Elementary) for Previously Certified Teachers
+cred: 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+desc: Pass/Fail. 
+prer: Completion of recent elementary teaching methods courses in the subjects to be taught.
+preq: Completion of recent elementary teaching methods courses in the subjects to be taught
+
+code: EDUC 496
+name: Practicum (Secondary) for Previously Certified Teachers
+cred: 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+desc: Pass/Fail. 
+prer: Recent completion of secondary teaching methods courses in the subjects to be taught.
+preq: Recent completion of secondary teaching methods courses in the subjects to be taught

@@ -1,0 +1,938 @@
+
+
+code: LAW 201
+name: Canadian Constitutional Law
+cred: 6
+desc: Principles of Canadian constitutional law, including Canadian federalism, the Charter of Rights and Freedoms, and the unique constitutional status and rights of Aboriginal Peoples in Canada. 
+
+code: LAW 211
+name: Contracts
+cred: 5
+desc: Historical development; formation and enforceability of contracts; parties; contractual terms; changes of circumstances; remedies for breach. 
+
+code: LAW 221
+name: Criminal Law and Procedure
+cred: 5
+desc: Bases of criminal responsibility; principles and objectives of the criminal law and procedure; pre-trial procedure. 
+
+code: LAW 231
+name: Property Law
+cred: 5
+desc: The legal concept of ownership and its changing nature and application, including equitable principles, the acquisition and transfer of interests, the regulation of use, Aboriginal title, and statute-based systems for registering interests in land. 
+
+code: LAW 241
+name: Torts
+cred: 5
+desc: A study of the bases of civil liability for intentionally and accidentally caused harms. 
+
+code: LAW 251
+name: Public Law
+cred: 2
+desc: An overview of the constitutional and statutory law governing the legislative, executive, and judicial branches of government in Canada, including an introduction to statutory construction and analysis and the administration of law in Canada. 
+
+code: LAW 261
+name: Transnational Law
+cred: 2
+desc: Introduction to principles of public and private international law and research methods for international legal materials. 
+
+code: LAW 281
+name: Legal Research and Writing
+cred: 2
+desc: Introduction to legal research and writing skills and the use of legal databases. 
+
+code: LAW 300
+name: Jurisprudence and Critical Perspectives
+cred: 3
+desc: Introduction to the basic principles of legal theory and critical perspectives on law. Credit will be granted for only one of LAW 290 or LAW 300. 
+
+code: LAW 301
+name: Philosophy of Law
+cred: 3
+desc: An examination of the principal schools of legal theory, such as legal positivism, legal realism, sociological jurisprudence, and contemporary rights theory. Not offered each year, consult Faculty. 
+
+code: LAW 302
+name: Fundamental Concepts of Law
+cred: 3
+desc: A study of some of the fundamental principles and ideas that cut across many areas of the substantive law, including such concepts as fault, intent, legal personality, possession, ownership, justice, and causation. Not offered each year, consult Faculty. 
+
+code: LAW 303
+name: Legal Traditions and Ideas of Law
+cred: 3
+desc: Historical and comparative study of the evolution of legal systems from custom and proto law emphasizing influences and sharing ideas among traditions of the Ancient Near East, Athens, Roman Empire, Western Europe and China. Not offered each year, consult Faculty. 
+
+code: LAW 305
+name: Law, Society and State
+cred: 3
+desc: Theories of the relationship between the legal system, social relations and the state. Not offered each year, consult Faculty. 
+
+code: LAW 306
+name: Corporate Social Responsibility and the Law
+cred: 3
+
+code: LAW 307
+name: Women, Law and Social Change
+cred: 3
+desc: A survey of feminist approaches to law, with reference to selected substantive areas of the law. 
+
+code: LAW 308
+name: Feminist Legal Theory
+cred: 3
+desc: Recent developments in feminist legal theory. Not offered each year, consult Faculty. 
+
+code: LAW 309
+name: Topics in Feminist Legal Studies
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 310
+name: Economic Analysis of Law
+cred: 3
+desc: Economic analysis used to explore, describe, evaluate and offer prescriptive suggestions for legal decision-making. Not offered each year, consult Faculty. 
+
+code: LAW 311
+name: Property Law and Theory
+cred: 3
+desc: The idea of property, its origins, its justifications, its uses, its effects, and the rules that surround and create it. 
+
+code: LAW 312
+name: Topics in Philosophy of Law and Theoretical Perspectives
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 313
+name: Legal History
+cred: 3
+desc: The relationship between law, society and historical change, normally emphasizing 19th and 20th century issues. Not offered each year, consult Faculty. 
+
+code: LAW 315
+name: Topics in Legal History
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 316
+name: International Law
+cred: 3
+desc: The history, sources and evidence of international law and its relation to municipal law; international personality; state jurisdiction; and treaties. Students who have taken POLI 465 cannot take this course. 
+
+code: LAW 318
+name: Marine Resources Law
+cred: 3
+desc: Legal regimes governing the protection and exploitation of ocean resources. Not offered each year, consult Faculty. 
+
+code: LAW 319
+name: International Human Rights
+cred: 3
+desc: The recognition and protection of human rights in international law. Not offered each year, consult Faculty. 
+
+code: LAW 320
+name: Indigenous Peoples in Comparative and International Law
+cred: 3
+desc: The legal situation of indigenous peoples in various states and in modern international law. Not offered each year, consult Faculty. 
+
+code: LAW 321
+name: Law of Armed Conflict
+cred: 3
+desc: The legal basis for armed conflict or military operations; the rights and obligations of combatants and civilians in a region of armed conflict; war crimes. 
+
+code: LAW 322
+name: International Law Problems
+cred: 3
+desc: Selected issues in international law. Not offered each year, consult Faculty. 
+prer: LAW  316.
+preq: LAW 316
+
+code: LAW 323
+name: International Environmental Law
+cred: 3
+desc: Customary international law and treaties relating to the environment; institutional structures. Not offered each year, consult Faculty. 
+
+code: LAW 324
+name: Topics in International Law and Transactions
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 325
+name: Conflict of Laws
+cred: 3
+desc: A study of the private legal problems arising in cases in which the relevant facts cut across provincial or national boundaries. Recommended to be taken in third year. 
+
+code: LAW 326
+name: Globalization and Law
+cred: 3
+
+code: LAW 327
+name: International Trade Law
+cred: 3
+desc: Rules and regulatory systems that govern the international movement of capital, goods and services. 
+
+code: LAW 328
+name: International Business Transactions
+cred: 3
+desc: Legal problems in international financial and commercial transactions. Not offered each year, consult Faculty. 
+
+code: LAW 329
+name: International Commercial Disputes
+cred: 3
+desc: International commercial arbitration and other means for resolving legal disputes relating to international commercial transactions. Not offered each year, consult Faculty. 
+
+code: LAW 330
+name: Cultural Property and Art Law
+cred: 3
+desc: National and international aspects of the law relating to the art trade and the protection and regulation of cultural property and cultural heritage. 
+
+code: LAW 331
+name: Topics in Cultural Heritage and Art Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 332
+name: Maritime Law
+cred: 3
+desc: Canadian maritime law and admiralty practice. 
+
+code: LAW 333
+name: Cultural Law
+cred: 3
+desc: Relationship of law to cultural activities and phenomena.  International, national, and indigenous laws as they apply to various forms of tangible and intangible cultural expression. 
+
+code: LAW 334
+name: Introduction to Asian Legal Systems
+cred: 3
+desc: Introduction to the comparative study of legal systems of East and South-East Asia, including those of China and Japan. 
+
+code: LAW 336
+name: Chinese Law: Implications for Canada-China Relations
+cred: 3
+desc: Overview of the laws and legal system in the People's Republic of China with some introduction to Taiwan law. Legal interpretation of implications for Canada-China relations. 
+
+code: LAW 337
+name: Trade and Investment in The People's Republic of China
+cred: 3
+desc: The legal regime in The People's Republic of China governing trade and foreign investment. Not offered each year, consult Faculty. 
+
+code: LAW 338
+name: Japanese Law
+cred: 3
+desc: Constitutional foundation and protection of human rights under Japanese law. 
+
+code: LAW 339
+name: Human Rights in Asia
+cred: 3
+desc: Legal issues relating to civil, political, social and cultural rights in particular areas in Asia. Not offered each year, consult Faculty. 
+
+code: LAW 340
+name: Comparative Law
+cred: 3
+desc: Basic theory of comparative law and the differences between the civil law tradition and the common law tradition. 
+
+code: LAW 341
+name: European Union Law
+cred: 3
+desc: The legal system of the European Union as created by the treaties establishing the Union and by the Union's institutions. Not offered each year, consult Faculty. 
+
+code: LAW 342
+name: Topics in Comparative Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 343
+name: Topics in Public Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 344
+name: Innovations in Governance and Regulatory Design
+cred: 3
+desc: Emerging interdisciplinary scholarship on regulation, governance, and institutional design.  Examination of research and experience around both formal and legal regulatory strategies, and other informal, decentred, or non-state-based methods of ordering individual and organizational behaviour. 
+
+code: LAW 348
+name: Comparative Constitutional Law
+cred: 3
+desc: Comparison of the constitutional history, government structure and powers, and protection of individual rights between the United States and Canada. 
+
+code: LAW 349
+name: Topics in Constitutional Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 350
+name: Issues of Equality and Social Justice
+cred: 1, 2
+desc: Selected topics related to the Charter right to equality and other rights related to social justice. Not offered each year, consult Faculty. 
+
+code: LAW 351
+name: Topics in Human Rights
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 352
+name: Aboriginal Peoples and Canadian Law
+cred: 3
+desc: Survey of the history and present status of the legal relationships between Canada's Aboriginal peoples and the state. Credit will be granted for only one of LAW 200 or LAW 352. 
+
+code: LAW 353
+name: Aboriginal and Treaty Rights
+cred: 3
+desc: Rights of Aboriginal people stemming from their aboriginal status and from treaties. Not offered each year, consult Faculty. 
+prer: One of LAW  200, LAW  352.
+preq: LAW 200 or LAW 352
+
+code: LAW 354
+name: First Nations Self-Government
+cred: 3
+desc: Issues relating to First Nations' assumption of self-government powers. Not offered each year, consult Faculty. 
+
+code: LAW 355
+name: First Nations and the Administration of Justice
+cred: 3
+desc: The justice system and its operation in relation to First Nations people. Not offered each year, consult Faculty. 
+
+code: LAW 356
+name: First Nations and Economic Development
+cred: 3
+desc: Legal issues affecting land use and economic activity involving First Nations' resources. Not offered each year, consult Faculty. 
+
+code: LAW 358
+name: Topics in First Nations Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 359
+name: Family Law
+cred: 3, 4
+desc: The law relating to family relationships, including the law of marriage, divorce, maintenance, custody, matrimonial property, and related matters. Credit will be granted for only one of LAW 240 or LAW 359. [3-0]
+
+code: LAW 360
+name: Children and the Law
+cred: 3
+desc: The civil and criminal law affecting juveniles; custody, guardianship and adoption. 
+prer: LAW 240 or LAW 359 is recommended
+preq: LAW 240 or LAW 359 is recommended
+
+code: LAW 362
+name: Topics in Family Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 363
+name: Racism and Law
+cred: 3
+desc: Legal issues relating to race and racism, including related issues of gender, culture or identity. Not offered each year, consult Faculty. 
+
+code: LAW 364
+name: Topics in Race and Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 365
+name: Women, Law and Family
+cred: 3
+desc: Feminist and other critical perspectives on the relationship between unequal gender relations and laws embodying a concept of "family". Not offered each year, consult Faculty. 
+
+code: LAW 367
+name: Reproduction and Law
+cred: 3
+desc: Legal issues relating to human reproduction. Not offered each year, consult Faculty. 
+
+code: LAW 368
+name: Sexuality and Law
+cred: 3
+desc: Legal issues relating to sexual activity, orientation and identification. Not offered each year, consult Faculty. 
+
+code: LAW 370
+name: Topics in Social Justice
+cred: 1, 2
+desc: Not offered every year; consult the Faculty. 
+
+code: LAW 371
+name: Topics in Law and Social Relations
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 372
+name: Administrative Law
+cred: 3, 4
+desc: The system of legal control exercised through non-judicial agencies and the relationship of the courts to the administrative process. Credit will be granted for only one of LAW 210, LAW 372, or LAW 509. 
+
+code: LAW 373
+name: Topics in Administrative Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 374
+name: Municipal Law
+cred: 3
+desc: The municipality as a legal entity; its creation, operation and powers; by-laws and their validity; contractual liability; judicial review; business regulation; expropriation and land use control. 
+
+code: LAW 375
+name: Land Use Planning
+cred: 3
+desc: The legal and administrative aspects of the regulation of land use and development, especially at the local level. Not offered each year, consult Faculty. 
+
+code: LAW 376
+name: Topics in Municipal and Planning Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 377
+name: Immigration Law
+cred: 3
+desc: Admission of immigrants into Canada; refugee protection; practice and procedure before immigration tribunals and the courts. 
+
+code: LAW 378
+name: Refugee Law
+cred: 3
+desc: International and Canadian refugee law; the Refugee Convention and its implementation in Canada; the practice of refugee law in Canadian courts and tribunals. Course content does not duplicate Law 377. 
+
+code: LAW 379
+name: Externship
+cred: 4, 5, 6, 7, 8, 9, 10
+desc: Students work for an approved organization, supervised by a Faculty-approved mentor and a faculty member. Consult the Faculty for full eligibility criteria. 
+prer: Either (a) one of LAW  280, LAW  476 and either (a) LAW  240 or (b) all of LAW  359, LAW  260 or (c) all of LAW  400, LAW  270 or (d) LAW  469; ;  or (b) one of LAW  387, LAW  392 or (c) one of LAW  230, LAW  459. Or other studies that provide adequate preparation for the program.
+preq: (LAW 280 or LAW 476) and (LAW 240 or (LAW 359 and LAW 260) or (LAW 400 and LAW 270) or LAW 469; ; or (LAW 387 or LAW 392) or (LAW 230 or LAW 459. Or other studies that provide adequate preparation for the program))
+crer: LAW  380.
+creq: LAW 380
+
+code: LAW 380
+name: Externship Reflection
+cred: 2, 3, 4, 5
+desc: Structured reflective exercises on the LAW 379 Externship experience. 
+crer: LAW  379.
+creq: LAW 379
+
+code: LAW 381
+name: Disabilities and Law
+cred: 3
+desc: Legal issues relating to people with disabilities. Not offered each year, consult Faculty. 
+
+code: LAW 382
+name: Health Law
+cred: 3
+desc: Legal and policy issues relating to the health care system, including legal aspects of individual and public health decision-making. 
+
+code: LAW 383
+name: Mental Health Law
+cred: 3
+desc: The law relating to commitment and treatment issues for persons with mental disabilities. 
+
+code: LAW 385
+name: Social Welfare Law
+cred: 3
+desc: Aspects of the law structuring the provision of welfare and other social services in Canada. Not offered each year, consult Faculty. 
+
+code: LAW 386
+name: Sustainable Development Law
+cred: 3
+desc: The linkages, intersections, and tensions between the legal regulation of the environment and competing social and economic priorities. 
+
+code: LAW 387
+name: Environmental Law
+cred: 3, 4
+desc: A foundation course dealing with the regulatory and policy framework for the protection of the environment in Canada, such as pollution control and biodiversity conservation. 
+
+code: LAW 388
+name: Environmental Law in Practice
+cred: 3
+desc: Jurisdiction, remedies and administrative schemes as they apply in practice to selected environmental law problems. Not offered each year, consult Faculty. 
+
+code: LAW 389
+name: Selected Issues in Environmental Law and Policy
+cred: 1, 2
+desc: Case studies of leading problems in environmental law and regulation. Not offered each year, consult Faculty. 
+
+code: LAW 390
+name: Environmental Law Workshop
+cred: 3
+desc: Legal research and writing for environmental agency or NGO under supervision of faculty member and lawyer. Not offered every year, consult Faculty. 
+
+code: LAW 391
+name: Topics in Environmental Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 392
+name: Natural Resources Law
+cred: 3
+desc: A foundation course dealing with legal problems common to the management of natural resources such as fisheries, mines and minerals, petroleum, forests, and water resources. 
+
+code: LAW 394
+name: Mining Law
+cred: 3
+desc: Acquisition of mineral interests; development, financing and organization of mining companies; regulation of exploitation industry interests; management taxation. Not offered each year, consult Faculty. 
+prer: LAW 392 is recommended.
+preq: LAW 392 is recommended
+
+code: LAW 395
+name: Forest Law
+cred: 3
+desc: Acquisition of timber interests; development, financing and organization of timber companies; regulation of exploitation industry interests; management taxation. Not offered each year; consult Faculty. 
+prer: LAW 392 is recommended.
+preq: LAW 392 is recommended
+
+code: LAW 396
+name: Fisheries Law
+cred: 3
+desc: Legal regimes for the exploitation and regulation of fisheries. Not offered each year, consult Faculty. 
+prer: LAW 392 is recommended.
+preq: LAW 392 is recommended
+
+code: LAW 397
+name: Oil and Gas Law
+cred: 3
+desc: Legal regimes for the disposition of interests in petroleum; government regulation. Not offered each year, consult Faculty. 
+prer: LAW 392 is recommended.
+preq: LAW 392 is recommended
+
+code: LAW 398
+name: Topics in Natural Resources
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 399
+name: Advanced Criminal Law
+cred: 3
+desc: Selected topics in advanced substantive criminal law and related issues. 
+
+code: LAW 400
+name: Advanced Criminal Procedure
+cred: 3
+desc: Selected topics relating to procedural law and practice in criminal matters. Credit will be granted for only one of LAW 260 or LAW 400. 
+
+code: LAW 401
+name: Penal Policy
+cred: 3
+desc: Selected legal policy issues relating to punishment for crime. Not offered each year, consult Faculty. 
+
+code: LAW 402
+name: The Law of Sexual Offences
+cred: 3
+desc: Criminal law relating to sexual offences, including non-consent, evidentiary and procedural rules, and sentencing.  History of sexual offence laws and law reform movements. 
+
+code: LAW 404
+name: The Law of Homicide
+cred: 3
+
+code: LAW 405
+name: Topics in Criminal Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 406
+name: Topics in Criminal Justice
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 407
+name: Taxation
+cred: 3
+desc: A survey of the law and practice of income and capital gains taxes. Credit will be granted for only one of LAW 220, LAW 407, or LAW 506. [3-0]
+
+code: LAW 408
+name: Taxation of Corporations and Shareholders
+cred: 3
+desc: Survey of statutory provisions and judicial decisions governing the taxation of corporations and shareholders. Credit will be granted for only one of LAW 408 or LAW 562. 
+prer: One of LAW  220, LAW  407.
+preq: LAW 220 or LAW 407
+
+code: LAW 409
+name: Taxation of Partnerships
+cred: 3
+desc: Survey of statutory and judicial rules governing the taxation of income earned through partnerships. Credit will be granted for only one of LAW 409 or LAW 563. 
+prer: One of LAW  220, LAW  407.
+preq: LAW 220 or LAW 407
+
+code: LAW 410
+name: International Taxation
+cred: 3
+desc: The tax aspects of international transactions. Not offered each year; consult Faculty. Credit will be granted for only one of LAW 410 or LAW 565. 
+prer: One of LAW  220, LAW  407.
+preq: LAW 220 or LAW 407
+
+code: LAW 411
+name: Tax Policy
+cred: 3
+desc: The policies underlying the creation and implementation of tax laws. Not offered each year, consult Faculty. Credit will be granted for only one of LAW 411 or LAW 566. 
+prer: One of LAW  220, LAW  407.
+preq: LAW 220 or LAW 407
+
+code: LAW 412
+name: Taxation of Trusts and Estates
+cred: 3
+desc: Not offered each year, consult Faculty.  Credit will be granted for only one of LAW 412 or LAW 564. 
+prer: LAW  407.
+preq: LAW 407
+
+code: LAW 413
+name: Tax Administration and Dispute Resolution
+cred: 3
+desc: Not offered each year, consult Faculty. Credit will be granted for only one of LAW 413 or LAW 567. 
+prer: LAW  407.
+preq: LAW 407
+
+code: LAW 414
+name: Taxation of Corporate Reorganizations
+cred: 3
+desc: Survey of statutory provisions and judicial decisions governing the taxation of corporate reorganizations. Credit will be granted for only one of LAW 414 or LAW 570. 
+prer: One of LAW  408, LAW  562.
+preq: LAW 408 or LAW 562
+
+code: LAW 416
+name: Labour Law
+cred: 3
+desc: Union-management relations; the collective bargaining process; the collective agreement, arbitration and conciliation procedure. The relationship between the union and its membership. Credit will be granted for only one of LAW 415 or LAW 416. [2-0] or [3-0]
+
+code: LAW 417
+name: Labour Law and Policy
+cred: 3
+desc: The role of the law in the operation of the labour market. Not offered each year, consult Faculty. 
+
+code: LAW 418
+name: Resolution of Labour Disputes
+cred: 3
+desc: Labour arbitration and collective agreement negotiation and interpretation. Not offered each year, consult Faculty. 
+prer: One of LAW  415, LAW  416.
+preq: LAW 415 or LAW 416
+
+code: LAW 419
+name: Individual Employment Law
+cred: 3
+desc: Legal aspects of employment relationships other that those arising by collective bargaining. Not offered each year, consult Faculty. 
+
+code: LAW 421
+name: Topics in Labour Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 422
+name: Intellectual Property
+cred: 3
+desc: Copyright, patents, trade marks, industrial design, the protection of computer software, and torts such as passing-off and breach of confidence. 
+
+code: LAW 423
+name: Topics in Intellectual Property
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 424
+name: Communications Law
+cred: 3
+desc: Selected legal issues relating to the communications industries and their regulation. Not offered each year, consult Faculty. 
+
+code: LAW 425
+name: Cyberspace Law
+cred: 3
+desc: Legal issues arising from the development of the Internet and cyberspace. 
+
+code: LAW 426
+name: Topics in Law and Technology
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 430
+name: Advanced Legal Research
+cred: 3
+desc: Research using electronic databases, information systems, and non-legal databases relevant to the resolution of legal issues. 
+
+code: LAW 432
+name: Topics in Private Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 434
+name: Medical Negligence Law
+cred: 3
+desc: Legal issues relating to tort claims in negligence and related causes of action against health care providers, with a primary focus on physicians and hospital authorities. 
+
+code: LAW 435
+name: Topics in Tort Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 436
+name: Restitution
+cred: 3
+desc: Unjust enrichment as the basis of civil liability. Not offered each year, consult Faculty. 
+
+code: LAW 437
+name: Commercial Transactions
+cred: 3
+desc: The law of sale of goods, bills of exchange, promissory notes, and cheques. [3-0]
+
+code: LAW 438
+name: Secured Transactions
+cred: 3
+desc: The law governing the creation, perfection and enforcement of security interests in personal property. 
+
+code: LAW 439
+name: Construction Law
+cred: 3
+desc: Legal issues relating to the construction process. Not offered each year, consult Faculty. 
+
+code: LAW 440
+name: Insurance Law
+cred: 3
+desc: The general legal principles of life, automobile, fire and other types of insurance; the regulation of the insurance industry. 
+
+code: LAW 442
+name: Condominium Law
+cred: 3
+desc: Legal issues over the lifecycle of condominium/strata property from creation and development, through operating life, to termination. 
+
+code: LAW 443
+name: Creditors' Remedies
+cred: 3
+desc: Remedies of an unsecured creditor; fraudulent conveyances and preferences; builders' liens; bankruptcy. 
+prer: LAW 437 and LAW 438 are recommended.
+preq: LAW 437 and LAW 438 are recommended
+
+code: LAW 444
+name: Insolvency Law
+cred: 3
+desc: The law relating to insolvency, receivership and bankruptcy. Not offered each year, consult Faculty. 
+
+code: LAW 447
+name: Topics in Commercial Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 448
+name: Sports Law
+cred: 3
+desc: Legal issues relating to the sports industry and those who participate in it. Not offered each year, consult Faculty. 
+
+code: LAW 449
+name: Media and Entertainment Law
+cred: 3
+desc: Selected legal issues relating to the media and entertainment industries and their regulation. Not offered each year, consult Faculty. 
+
+code: LAW 450
+name: Topics in Sports, Media, Entertainment or Communications Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 451
+name: Trusts
+cred: 3
+desc: History and nature of trusts; express, resulting, implied and constructive trusts; charitable and purpose trusts; administration of trusts; breach of trust. Credit will be granted for only one of LAW 250 or LAW 451. 
+
+code: LAW 452
+name: Succession
+cred: 3
+desc: The law of wills and intestate succession, variation of wills, principles of probate and administration of estates. 
+prer: LAW 250 or LAW 451 is recommended.
+preq: LAW 250 or LAW 451 is recommended
+
+code: LAW 453
+name: Equitable Remedies
+cred: 3
+desc: The history and development of equitable remedies such as specific performance, injunctions, declarations, relief against forfeiture, and tracing. 
+
+code: LAW 454
+name: Topics in Trusts and Estates
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 455
+name: Real Estate Transactions
+cred: 3
+desc: The law relating to the sale and purchase of land, real estate agency, and mortgages. 
+
+code: LAW 457
+name: Real Estate Development
+cred: 3
+desc: A study of the legal aspects of the development of real estate projects such as shopping centres, sports centres and condominiums. Not offered each year, consult Faculty. 
+prer: LAW  456.
+preq: LAW 456
+
+code: LAW 458
+name: Topics in Real Property
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 459
+name: Business Organizations
+cred: 3, 4
+desc: A conceptual overview of business organizations in Canada, including partnerships and corporations, and the rights and duties of shareholders and directors. Credit will be granted for only one of LAW 230, LAW 459, or LAW 508. 
+
+code: LAW 460
+name: Advanced Corporate Law
+cred: 3
+desc: Selected topics such as the nature of shares, equity financing, corporate structure and reorganization, and shareholder squeezeouts. 
+prer: One of LAW  230, LAW  459.
+preq: LAW 230 or LAW 459
+
+code: LAW 461
+name: Corporate Transactions
+cred: 3
+desc: Legal aspects of selected transactions relating to public corporations and corporate governance. Not offered each year, consult Faculty. 
+
+code: LAW 462
+name: Close Corporations
+cred: 3
+desc: The corporation, taxation, accounting, insurance and estate planning aspects of the close corporation. Not offered each year, consult Faculty. 
+prer: One of LAW  230, LAW  459.
+preq: LAW 230 or LAW 459
+
+code: LAW 463
+name: Securities Regulation
+cred: 3
+desc: The law relating to the distribution of securities. Continuous and timely disclosure requirements and civil liability. 
+
+code: LAW 464
+name: Competition Policy
+cred: 3
+desc: The law and policy relating to the regulation of competition in Canada and other jurisdictions. Not offered each year, consult Faculty. Credit will be granted for only one of LAW 414 or LAW 464. 
+
+code: LAW 465
+name: Introduction to Corporate Finance
+cred: 3
+desc: Interdisciplinary elements of corporate finance and law, in both theory and practice. 
+prer: One of LAW  230, LAW  459.
+preq: LAW 230 or LAW 459
+
+code: LAW 466
+name: Business Law Capstone
+cred: 3
+desc: Integration of theoretical and practical elements of business law. For students opting for the Business Law Concentration. 
+prer: All of LAW  407, LAW  459, LAW  463. And 6 credits of other courses from the Concentration.
+preq: (LAW 407 and LAW 459 and LAW 463.) and 6 credits of other courses from the Concentration
+
+code: LAW 467
+name: Topics in Corporate Law
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 468
+name: Ethics and Professionalism
+cred: 3
+desc: The ethical dimensions of legal practice in Canada, including legislation, regulations, rules of professional conduct and cases, and the roles of lawyers, the legal profession and the legal system including their role in securing access to justice. 
+
+code: LAW 469
+name: Civil Procedure
+cred: 3
+desc: Problems in the conduct of civil litigation including: ethical considerations; substantive problems such as notice, pleading, and discovery; and selected procedural problems. Credit will be granted for only one of LAW 270 or LAW 469. [2-0] or [3-0]
+
+code: LAW 470
+name: Innocence Project
+cred: 6
+desc: Clinical program giving hands-on experience in reviewing claims of innocence post-conviction. Not offered every year; consult Faculty. 
+crer: One of LAW  280, LAW  476 and LAW  471.
+creq: (LAW 280 or LAW 476) and LAW 471
+
+code: LAW 471
+name: Preventing Wrongful Convictions
+cred: 3
+desc: Substantive legal principles and rules of evidence that can cause or help to prevent wrongful convictions or other miscarriages of justice. Roles of the participants in the criminal justice system. Not offered each year; consult Faculty. 
+
+code: LAW 472
+name: Advanced Trial Advocacy
+cred: 3
+desc: Skills-training in all aspects of civil and criminal trial advocacy. 
+prer: One of LAW  270, LAW  469. LAW 280 or LAW 476 is also recommended.
+preq: LAW 270 or LAW 469. LAW 280 or LAW 476 is also recommended
+
+code: LAW 473
+name: Appellate Advocacy
+cred: 3
+desc: Issues relating to advocacy before appellate courts; techniques of appellate advocacy. Not offered each year, consult Faculty. 
+
+code: LAW 474
+name: Trial Advocacy
+cred: 3
+desc: Techniques of advocacy in civil and criminal cases including interviewing, pre-trial preparation, tactical analysis, development of facts, direct and cross examination and various ethical considerations. 
+prer: One of LAW  280, LAW  476.
+preq: LAW 280 or LAW 476
+
+code: LAW 475
+name: Competitive Trial Advocacy Credit
+cred: 2, 3
+desc: Trial advocacy. Restricted to students participating in one or more faculty approved trial advocacy competitions. Students enrolled in this course must also be enrolled in LAW 474. 
+
+code: LAW 476
+name: Evidence
+cred: 3
+desc: The admissibility and use of evidence in litigation. Credit will be granted for only one of LAW 280, LAW 476, or LAW 507. 
+
+code: LAW 477
+name: Negotiation and Dispute Resolution
+cred: 3
+desc: Negotiation and bargaining; formulation of general principles governing the negotiation process; negotiation in legal practice; alternative means of dispute resolution. 
+
+code: LAW 478
+name: Foundations of Dispute Resolution
+cred: 3
+desc: Theoretical premises underlying the dispute-resolving process; arbitration, other non-judicial means of resolving legal disputes, and their relationship to litigation. Not offered each year, consult Faculty. 
+
+code: LAW 479
+name: Mediation
+cred: 3
+desc: Mediation of legal disputes; negotiation theory and practice as they relate to mediation. Not offered each year, consult Faculty. 
+
+code: LAW 481
+name: Topics in Litigation, Dispute Resolution and the Administration of Justice
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 482
+name: Topics in Procedure and Evidence
+cred: 1, 2
+desc: Not offered each year, consult Faculty. 
+
+code: LAW 483
+name: Competitive Moots and Advocacy Credit A
+cred: 3, 4, 5
+desc: Appellate and related forms of advocacy. Restricted to students representing the Faculty for the first time in an approved advocacy competition. 
+
+code: LAW 485
+name: Client Counselling Competition Credit
+cred: 3, 4, 5
+desc: Interviewing, counselling and negotiating. Restricted to students representing the Faculty in an approved client counselling competition. 
+
+code: LAW 486
+name: Law Review Credit
+cred: 2
+desc: Editing and business operations by senior editors or the business manager for UBC Law Review, Canadian Journal of Family Law or any other equivalent legal journal based in the Allard School of Law. One time credit only; cannot be repeated. 
+
+code: LAW 488
+name: Clinical Term
+cred: 11
+desc: Designed to explore the legal system in relation to disadvantaged members of society. Under supervision, students will act for clients in a range of legal matters and can expect to appear before courts and tribunals. Students will also work with community-based organisations. Credit will be granted for only one of LAW 490 or LAW 491. Pass/Fail. 
+prer: One of LAW  280, LAW  476.
+preq: LAW 280 or LAW 476
+
+code: LAW 489
+name: Clinical Term: Paper
+cred: 4
+desc: The graded component of LAW 488. 
+
+code: LAW 490
+name: Clinical Criminal Law
+cred: 6
+desc: Dealing with criminal files under the supervision of experienced lawyers. Credit will be granted for only one of LAW 488, LAW 490, or LAW 491. Pass/Fail. 
+prer: One of LAW  260, LAW  400 and one of LAW  280, LAW  476.
+preq: (LAW 260 or LAW 400) and (LAW 280 or LAW 476)
+
+code: LAW 491
+name: Law Students Legal Advice Program Credit
+cred: 6
+desc: Restricted to a limited number of upper year students who (a) in their first or second year have participated in the provision of legal services to the public through the Law Students Legal Advice Program, and (b) continue that participation in their second or third year. Credit will be granted for only one of LAW 488, LAW 490, or LAW 491. 
+
+code: LAW 493
+name: Directed Research
+cred: 2, 3
+desc: Enrolment restricted. 
+
+code: LAW 494
+name: Directed Research
+cred: 2, 3
+desc: Enrolment restricted. 
+
+code: LAW 495
+name: Directed Research
+cred: 2, 3
+desc: Enrolment restricted. 
+
+code: LAW 496
+name: Directed Research
+cred: 2, 3
+desc: Enrolment restricted. 

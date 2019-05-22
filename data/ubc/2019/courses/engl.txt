@@ -1,0 +1,728 @@
+
+
+code: ENGL 100
+name: Reading and Writing about Literature
+cred: 3
+desc: A writing-intensive introduction to the disciplines of literary studies through the exploration of texts in their critical and theoretical contexts. Fulfils the first-year component of the Faculty of Arts Writing and Research Requirement. Open only to students in the Faculty of Arts. Recommended for students intending to become English majors. Essays are required. 
+
+code: ENGL 110
+name: Approaches to Literature
+cred: 3
+desc: Study of selected examples of poetry, fiction, and drama. Essays are required. 
+
+code: ENGL 111
+name: Approaches to Non-fictional Prose
+cred: 3
+desc: Study of a selection of prose texts ranging in length from the essay to the book, with emphasis on writing of the twentieth century. Essays are required. 
+
+code: ENGL 112
+name: Strategies for University Writing
+cred: 3
+desc: Study and practice of the principles of university-level discourse, with multidisciplinary readings and emphasis on processes of research-based writing.  Essays are required. This course is not available for students in the Faculty of Arts. 
+
+code: ENGL 120
+name: Literature and Criticism
+cred: 3
+desc: Enriched study of selected works of literature from a number of critical perspectives. Open to students with a BC-equivalent mark of "A" (86%) in English 12 or "B+" (80%) in English Literature 12. Essays are required. 
+
+code: ENGL 121
+name: Introduction to Literary Theory
+cred: 3
+desc: Enriched study of various theories of literature. Open to students with a BC-equivalent mark of "A" (86%) in English 12 or "B+" (80%) in English Literature 12. Essays are required. 
+
+code: ENGL 140
+name: Challenging Language Myths
+cred: 3
+desc: Critical consideration of a broad range of commonly held beliefs about language and its relation to the brain and cognition, learning, society, change and evolution. Note: This is an elective course that does not fulfill writing requirements in any faculty or the literature requirement in the Faculty of Arts. 
+
+code: ENGL 200
+name: Principles of Literary Studies
+cred: 3
+desc: A collaboratively-taught exploration and application of key scholarly, theoretical and critical approaches informing the study of literatures in English. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 210
+name: An Introduction to English Honours
+cred: 6
+desc: For Honours students accepted by the English Honours Committee on the recommendation of the instructor. Students permitted to take this course must take ENGL 211 concurrently. 
+prer: Restricted to students in the Honours program.
+preq: Restricted to students in the Honours program
+
+code: ENGL 211
+name: Seminar for English Honours
+cred: 3
+desc: An introduction to practical criticism; required of and open only to students of ENGL 210. A limited number of texts from a range of genres and periods will be chosen for close critical analysis. 
+
+code: ENGL 220
+name: Literature in English to the 18th Century
+cred: 3
+desc: A survey of prose, poetry and drama to the 18th Century. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 221
+name: Literature in Britain: the 18th Century to the Present
+cred: 3
+desc: A survey of poetry, drama, fiction and non-fiction prose from the 18th century to the present. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 222
+name: Literature in Canada
+cred: 3
+desc: The major types of Canadian writing: fiction, poetry, non-fictional prose, and drama 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 223
+name: Literature in the United States
+cred: 3
+desc: The major types of American writing: fiction, poetry, drama and non-fictional prose. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 224
+name: World Literature in English
+cred: 3
+desc: English literature produced outside Britain and North America. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 225
+name: Poetry
+cred: 3
+desc: Principles, methods, and resources for reading poetry. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 226
+name: Drama
+cred: 3
+desc: Principles, methods and resources for reading drama. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 227
+name: Prose Fiction
+cred: 3
+desc: Principles, methods and resources for reading the novel and the short story. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 228
+name: Topics in Literary and/or Cultural Studies
+cred: 3, 4, 5
+desc: Current research interests in English studies. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 229
+name: Topics in the Study of Language and/or Rhetoric
+cred: 3, 4, 5
+desc: Consult Department's website for current year's offerings. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 231
+name: Introduction to Indigenous Literatures
+cred: 3
+desc: A study of cultural expression in contemporary indigenous contexts. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 232
+name: Approaches to Media Studies
+cred: 3
+desc: Approaches to the study of media: philosophical; technological; cultural; theoretical. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 241
+name: Shakespeare Now
+cred: 3
+desc: Introductory topics in Shakespeare studies that seek to identify relationships between Shakespeare's work and present-day issues and concerns. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 242
+name: Introduction to Children's and Young Adult Literature
+cred: 3
+desc: History, genres, and scholarly study of writing for children and adolescents. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 243
+name: Speculative Fiction
+cred: 3
+desc: Genres and sub-genres of speculative fiction, such as science fiction and fantasy, alternate history, dystopian and post-apocalyptic narrative, and slipstream, as well as the intersections among them. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 244
+name: Environment and Literature
+cred: 3
+desc: Literary, critical, and/or pop-culture texts about environmentalism and ecology. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 245
+name: Comics and Graphic Media
+cred: 3
+desc: Introduction to the critical study of comics and graphic media. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 246
+name: Literature and Film
+cred: 3
+desc: Approaches to the study of the relationships between literature and film. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 247
+name: Television Studies
+cred: 3
+desc: Introduction to methods and practices of television studies, with emphasis on the use of literary approaches to televisual narrative. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 248
+name: Mystery and Detective Fiction
+cred: 3
+desc: Thematic and generic approaches to mystery, crime, and detective writing in English, primarily short-fiction and novels; may also include comics, radio, film, and television. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 249
+name: Literary Nonfiction
+cred: 3
+desc: Principles, methods and resources for reading literary non-fiction, including personal essays, memoir, and literary journalism. May also include nature, travel or food writing or graphic memoir. 
+prer: Second-year standing and 3 credits from one of (a) 100-level ENGL or (b) ARTS 001 or (c) ASTU 100 or (d) ASTU 101 or (e) WRDS 150 or (f) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Second-year standing and (100-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 301
+name: Technical Writing
+cred: 3
+desc: Study of the principles of written communication in general business and professional activities, and practice in the preparation of abstracts, proposals, reports, and correspondence. Not for credit towards the English Major or Minor. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 304
+name: Advanced Composition
+cred: 3
+desc: Special emphasis on rhetoric, with a focus on audience, authorial voice, and range of style. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 307
+name: Studies in Rhetoric
+cred: 3, 4, 5
+desc: Topics in rhetorical theories and their application. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 308
+name: Rhetorical Criticism
+cred: 3, 4, 5
+desc: A study of literary texts from a rhetorical perspective. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 309
+name: Rhetoric of Science, Technology, and Medicine
+cred: 3
+desc: Exploration of the persuasive dimension of discourse practices in science, technology, and medicine. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 310
+name: History and Theory of Rhetoric: Classical Rhetoric
+cred: 3
+desc: Introduction to classical rhetoric with attention to the analysis of present-day texts. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 311
+name: History and Theory of Rhetoric: The Later Theory
+cred: 3
+desc: Rhetorical theory from Augustine to the 21st century, emphasizing questions of persuasion in everyday life. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 312
+name: Discourse and Society
+cred: 3, 4, 5
+desc: Introduction to theories of language and culture, and to techniques for analysing discourses in their social contexts. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 318
+name: History of the English Language: Early History
+cred: 3
+desc: Principles of language change and language typology. The development of the English language from its Indo-European origins to the end of the Anglo-Saxon period. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 319
+name: History of the English Language: Later History
+cred: 3
+desc: Principles of language change. The development and spread of the English language from the Norman Conquest to the Modern English period. 
+prer: Third-year standing, knowledge of the International Phonetic Alphabet, and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn. Recommended: ENGL 318 or ENGL 330 or the equivalent.
+preq: Third-year standing knowledge of the International Phonetic Alphabet and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. Prerequisites must be met by the first day of class or students will be withdrawn. Recommended: ENGL 318 or ENGL 330 or the equivalent))
+
+code: ENGL 321
+name: English Grammar and Usage
+cred: 3, 4, 5
+desc: Descriptive approaches to the English language 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 322
+name: Stylistics
+cred: 3, 4, 5
+desc: Application of linguistic theory and method to stylistic analysis. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 323
+name: Varieties of English
+cred: 3, 4, 5
+desc: Study of geographical, social, and/or urban dialects of English. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 324
+name: English Corpus Linguistics
+cred: 3, 4, 5
+desc: Methods of collecting and analyzing linguistic data using electronic resources. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 326
+name: Studies in the English Language
+cred: 3, 4, 5
+desc: Topics in the history or structure of the English language. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 327
+name: Cognitive Approaches to the Study of Meaning
+cred: 3, 4, 5
+desc: Interpretation of linguistic usages through cognitive concepts. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 328
+name: Metaphor, Language and Thought
+cred: 3, 4, 5
+desc: Exploration of the concepts underlying figurative language (in vocabulary as well as in grammar), using data from both colloquial and literary language. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 330
+name: The Structure of Modern English: Sounds and Words
+cred: 3
+desc: An introduction to phonology, morphology, and lexical semantics. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 331
+name: The Structure of Modern English: Sentences and Their Uses
+cred: 3
+desc: An introduction to syntax, pragmatics, and sentence semantics. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 332
+name: Approaches to Media History
+cred: 3
+desc: History of media and technological change; literary, rhetorical, or linguistic methods of inquiry. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 333
+name: History of the Book
+cred: 3, 4, 5
+desc: Survey of development of text technologies (such as manuscripts, printed books, new media forms), through historical, cultural, and theoretical frameworks. Consult department website for current year's offerings. Credit granted for up to 6 credits of ENGL 333 and 419. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 334
+name: Literature and the Archive
+cred: 3, 4, 5
+desc: Analysis of a range of archival materials. Addresses broader considerations of how the archive as a cultural institution informs the production and interpretation of literature. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 335
+name: Digital Humanities
+cred: 3, 4, 5
+desc: Tools, methods, and theories of digital humanities as used in English scholarship. Research methods and data gathering tools, the interpretation of data, and the digital visualization of argumentation. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 336
+name: Print Culture and Media Studies
+cred: 3, 4, 5
+desc: Relationships between literature, print culture, and media. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 337
+name: Text and Image
+cred: 3, 4, 5
+desc: Relationship between texts and images, or the aspect of text as image, in literary and non-literary works and of various genres, periods, and media. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 338
+name: Literature and Science
+cred: 3, 4, 5
+desc: Relations between science and literature; the representation of science; and science writing in its literary, historical, and cultural contexts. Science as literature, science in literature, science fiction, and models of knowledge in science and literature. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 339
+name: Trauma and Memory: Literature, Performance and Theory
+cred: 3, 4, 5
+desc: Interdisciplinary explorations of trauma and memory in literature, performance, and theory. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 342
+name: Introduction to Old English
+cred: 3
+desc: Old English vocabulary, grammar, and translation, with readings in poetry and prose. Credit will be granted for only one of ENGL 340 and ENGL 342. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 343
+name: Anglo-Saxon and Early Medieval Literature
+cred: 3, 4, 5
+desc: Readings in the literature of early medieval (pre-1200) Britain and its neighbours, in modern English translation. May encompass multiple genres and contexts. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 344
+name: Middle English Literature
+cred: 3, 4, 5
+desc: Please see the Department website for further information on topics offered in the current session. May encompass multiple genres and contexts. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 346
+name: Chaucer
+cred: 3, 4, 5
+desc: A detailed study of Chaucer's major works. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 347
+name: Renaissance Literature
+cred: 3, 4, 5
+desc: Literature of the sixteenth and early seventeenth-centuries. May encompass multiple genres and contexts.  Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 348
+name: Shakespeare
+cred: 3, 4, 5
+desc: A detailed study of Shakespeare's works. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 349
+name: Seventeenth-Century Literature
+cred: 3, 4, 5
+desc: Literature of Stuart and Civil War Britain. May encompass multiple genres and contexts. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 350
+name: Milton
+cred: 3, 4, 5
+desc: A detailed study of Miltons works. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 350 and/or 354. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 351
+name: Restoration and Eighteenth-Century Literature
+cred: 3, 4, 5
+desc: British and Global literature from the Restoration of the Monarchy to the Enlightenment with a focus on intellectual and political contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 351 and/or 357. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 353
+name: Eighteenth-Century Literature
+cred: 3, 4, 5
+desc: Intellectual developments and Literary experiments, in British and Global contexts. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 353 and/or 358. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 355
+name: Romantic Period Literature
+cred: 3, 4, 5
+desc: British and Global literature, 1780-1830, from the period of the French Revolution to the Reform Act and the Abolition of Slavery in the British Empire. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 355 and/or 359. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 356
+name: Chaucer
+cred: 3
+desc: For Honours students. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and (3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses)
+
+code: ENGL 360
+name: Early Canadian Writing
+cred: 3, 4, 5
+desc: Pre-Confederation colonial literature from its emergence until the end of World War 1. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 361
+name: U.S. Literature to 1890
+cred: 3, 4, 5
+desc: Fiction, poetry and/or drama written in the U.S. prior to the twentieth century. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 361 and/or 369. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 362
+name: Victorian Period Literature
+cred: 3, 4, 5
+desc: British and Global literature, 1832-1901, with an emphasis on genre or special topics. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 364
+name: Nineteenth-Century Literature
+cred: 3, 4, 5
+desc: British and Global literature from the nineteenth century and its intellectual and cultural contexts. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 365
+name: Modernist Literature
+cred: 3, 4, 5
+desc: Literary experimentation in 19th to 20th century movements known as modernism. Includes interdisciplinary approaches to literary, performance, and media arts, and intellectual and social histories of the period. May encompass multiple genres and contexts. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 366
+name: Twentieth-Century Literature
+cred: 3, 4, 5
+desc: Fiction, poetry and/or drama written between 1900 and 1999. May encompass multiple genres and contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 366 and/or 464. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 368
+name: U.S. Literature from 1890
+cred: 3, 4, 5
+desc: Literature and other texts in diverse U.S. cultural contexts and/or from a range of eras. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 368 and/or 472. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 370
+name: Literatures and Cultures of Africa and/or the Middle East
+cred: 3, 4, 5
+desc: Literary and cultural works from Africa; some sections include Africa and the Middle East. Multiple perspectives on local, national, and global issues including colonialism, migration, transnationalism, education, art and politics. May include fiction, poetry, drama, digital media, and other forms. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 371
+name: Asian Canadian and/or Asian Transnational Studies
+cred: 3, 4, 5
+desc: An interdisciplinary engagement with literature in the context of Asian migrations in Canadian and other transnational locations. Consult Department for current year's offerings. Credit will be granted for up to 6 credits of ENGL 371 and/or 480. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 372
+name: Canadian Literature
+cred: 3, 4, 5
+desc: Writing and culture in Canada with texts taught in context. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 372 and/or 470. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 373
+name: Indigenous Literature
+cred: 3
+desc: Indigenous writing and cultural expression in national and/or international contexts. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 373 and/or 476. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 374
+name: Post-colonial Literature
+cred: 3, 4, 5
+desc: World literature in English focusing on decolonization and anti-colonial thought. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 374 and/or 478. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 375
+name: Global South Connections
+cred: 3, 4, 5
+desc: Literary and cultural networks relating to societies in the Global South; may address areas such as colonization, decolonization, nationalism, social movements, forced and voluntary migrations of peoples, cultural hybridity, translation, and globalization. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 377
+name: World Literature and Social Movements
+cred: 3, 4, 5
+desc: Transnational and world literature and art practices that reflect on the conceptual, linguistic and visual aspects of social movements, addressing histories of colonialism, transnational feminist literature and art practices, histories of protest and cultures of resistance. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 378
+name: Contemporary Literature
+cred: 3, 4, 5
+desc: A variety of genres organized by cultural movements, critical issues, theoretical approaches, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 378 and/or 474. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 379
+name: Migrations, Movements, and Transnational Networks in Literary and Cultural Production
+cred: 3, 4, 5
+desc: Writing related to transnationality and migration; forced and voluntary movements of people, denationalization or citizenship, diasporic and differential legal identities, cultural flows, borderlands and contact zones, new cosmopolitanisms, creoles and translations. Consult department website for current year's offerings. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 380
+name: Theory: Meaning and Interpretation
+cred: 3, 4, 5
+desc: An investigation and overview of theories of interpretation and meaning-making. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Pre-requisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Pre-requisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 381
+name: Theory: Signs, Codes, and Representation
+cred: 3, 4, 5
+desc: Semiotic and sociocultural aspects of the linguistic turn in critical theory; can include such areas as structuralism, poststructuralism and deconstruction, speech act theory and performativity, assemblage theory, or new media semiotics. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of (a) WRDS 150 or 350; (b) ASTU 100 or 101; (c) ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses
+
+code: ENGL 382
+name: Theory: Anti-/De-/Post-Colonization
+cred: 3, 4, 5
+desc: Theoretical work concerned with confronting, resisting and overcoming various forms of colonialism and globalization. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and (3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses)
+
+code: ENGL 384
+name: Theory: Space and Displacement
+cred: 3, 4, 5
+desc: Critical theories of space and movement, place and displacement and how these theories reflect on cultural performances, subjectivity and social environment. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of (a) WRDS 150 or 350; (b) ASTU 100 or 101; (c) ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses
+
+code: ENGL 386
+name: Theory: Critique, Intervention and Dissent
+cred: 3, 4, 5
+desc: Examines theories of intervention, dissent and social engagement. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 387
+name: Theory: Bodies
+cred: 3, 4, 5
+desc: Theories of corporeality and embodied thought. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of (a) WRDS 150 or 350; (b) ASTU 100 or 101; (c) ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses
+
+code: ENGL 388
+name: Theory: Feminisms
+cred: 3, 4, 5
+desc: Relationships between feminist theory, literature, and language. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of (a) WRDS 150 or 350; (b) ASTU 100 or 101; (c) ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses
+
+code: ENGL 390
+name: Theory: Life Narratives
+cred: 3, 4, 5
+desc: Analysis of modes of self-representation through theoretical, critical, historical, and methodological frameworks. 
+prer: (Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing; and 3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses.
+preq: ((Pre-requisites must be met by the first day of class or students will be withdrawn). Third-year standing;) and (3 credits of 100- and/or 200-level English or one of WRDS 150 or 350; ASTU 100 or 101; ARTS 001. Recommended: 6 credits of 100- and/or 200-level English and/or writing courses)
+
+code: ENGL 392
+name: Children's Literature
+cred: 3, 4, 5
+desc: Genres and texts written for and appropriated by young readers. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 392 and/or 468. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 393
+name: Ecocriticism
+cred: 3, 4, 5
+desc: Ecocriticism and the environmental humanities encompassing more specific methodologies, such as queer ecology, ecofeminism, postcolonial, decolonizing, and transnational environmentalisms, environmental art. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 394
+name: Canadian Environmental Writing
+cred: 3, 4, 5
+desc: Ecocritical theory and its application to Canadian literature, including Indigenous authors. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 394 and/or 458. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 395
+name: Studies in Poetry
+cred: 3, 4, 5
+desc: Poetry organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 395 and/or 402. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 396
+name: Studies in Drama
+cred: 3, 4, 5
+desc: Plays organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 396 and/or 405. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 397
+name: Studies in Prose Fiction
+cred: 3, 4, 5
+desc: Novels and short stories organized by thematic approach, cultural movements, critical issues, and/or geopolitical regions. Consult department website for current year's offerings. Credit will be granted for up to 6 credits of ENGL 397 and/or 406. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 398
+name: Community-Facing Applications of Language and Literary Studies
+cred: 3, 4, 5
+desc: Principles and practice of adapting the disciplinary work of language and/or literary studies to the needs of community partners. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Pre-requisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Pre-requisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 399
+name: Co-operative Work Placement
+cred: 0
+desc: Supervised work experience related to English studies, in an approved company or organization for a minimum of 455 hours. Orientation workshops and final reports. 
+prer: Third-year standing and 3 credits from one of (a) 100-level ENGL or (b) 200-level ENGL or (c) ARTS 001 or (d) ASTU 100 or (e) ASTU 101 or (f) WRDS 150 or (g) WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn.
+preq: Third-year standing and (100-level ENGL or 200-level ENGL or ARTS 001 or ASTU 100 or ASTU 101 or WRDS 150 or (WRDS 350. 6 credits of 100- and/or 200-level English courses is recommended. Prerequisites must be met by the first day of class or students will be withdrawn))
+
+code: ENGL 489
+name: Language Majors Seminar
+cred: 3
+desc: Required of all Language Majors.  See department website (http://www.english.ubc.ca/ugrad/majors/compl_lang.htm) for options. 
+
+code: ENGL 490
+name: Literature Majors Seminar
+cred: 3
+desc: Required of all Literature Majors. See Department Website (www.english.ubc.ca) for options. 
+
+code: ENGL 491
+name: Senior Honours Seminar
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Offerings in literary theory. 
+
+code: ENGL 492
+name: Senior Honours Seminar
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Offerings in literary research. 
+
+code: ENGL 496
+name: Directed Readings in English Literature
+cred: 3, 4, 5
+desc: For Honours students only. 
+
+code: ENGL 499
+name: Honours Essay
+cred: 3, 6

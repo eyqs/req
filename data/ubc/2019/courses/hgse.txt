@@ -1,0 +1,154 @@
+
+
+code: HGSE 310
+name: First Nations and Canada: (Re)writing History
+cred: 3
+desc: A survey of the history of Indigenous peoples in relation to the Canadian colonial state contrasting the Indigenous historical experience with conventional accounts of Canadian history. 
+crer: All of HGSE 311, HGSE 312, HGSE 313, HGSE 314.
+creq: HGSE 311 and HGSE 312 and HGSE 313 and HGSE 314
+
+code: HGSE 311
+name: Law and Governance: Indigenous and European Traditions
+cred: 3
+desc: Background on sources of Aboriginal and Canadian law; detail on section 35 of the Constitution Act; a review of relevant Canadian case law; insight on the importance of international law; and literature on governance. 
+crer: All of HGSE 310, HGSE 312, HGSE 313, HGSE 314.
+creq: HGSE 310 and HGSE 312 and HGSE 313 and HGSE 314
+
+code: HGSE 312
+name: Perspectives on Reconciliation
+cred: 3
+desc: Notions of reconciliation and restitution that have emerged in Canada across space and time; key principles, discourses, legal and Constitutional mechanisms, actions and actors. 
+crer: All of HGSE 310, HGSE 311, HGSE 313, HGSE 314.
+creq: HGSE 310 and HGSE 311 and HGSE 313 and HGSE 314
+
+code: HGSE 313
+name: Reconciliation and Resource Management
+cred: 3
+desc: Relationships and reconciliation processes between First Nations and other governments in the context of land and sea governance. 
+crer: All of HGSE 310, HGSE 311, HGSE 312, HGSE 314.
+creq: HGSE 310 and HGSE 311 and HGSE 312 and HGSE 314
+
+code: HGSE 314
+name: Reconciliation and Communities
+cred: 3
+desc: In-depth exploration of the communities of Haida Gwaii through community-based experiences and community service learning. 
+crer: All of HGSE 310, HGSE 311, HGSE 312, HGSE 313.
+creq: HGSE 310 and HGSE 311 and HGSE 312 and HGSE 313
+
+code: HGSE 320
+name: Special Topics on Ecology in Indigenous Contexts
+cred: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: This course will be offered, as opportunities arise, by scientists visiting the Haida Gwaii Higher Education Society. The course is expected to be of a specialized nature and be at a level appropriate for upper level students. 
+
+code: HGSE 350
+name: Case Studies in Haida Gwaii
+cred: 3
+desc: Integration of concepts of history, politics, First Nations, rural development, and forest ecology in natural resources management in Haida Gwaii.  A core element of the Haida Gwaii Semester. 
+
+code: HGSE 351
+name: History and Politics of Resource Management
+cred: 3
+desc: Historical examination of resource management in Canada and conflicts arising therefrom, with emphasis on forests.  A core element of the Haida Gwaii Semester. 
+crer: All of HGSE 350, HGSE 352, HGSE 353, HGSE 354.
+creq: HGSE 350 and HGSE 352 and HGSE 353 and HGSE 354
+
+code: HGSE 352
+name: First Nations Governance and Natural Resource Management
+cred: 3
+desc: The political, economic, and legal environment of Aboriginal-Canadian relations and its influence on resource use and management; review of historic relationships, emerging case law, and new reconciliation frameworks. A core element of the Haida Gwaii Semester. 
+crer: All of HGSE 350, HGSE 351, HGSE 353, HGSE 354.
+creq: HGSE 350 and HGSE 351 and HGSE 353 and HGSE 354
+
+code: HGSE 353
+name: Rainforest Ecology and Management
+cred: 3
+desc: Ecology of the temperate rainforests of Haida Gwaii.  A core element of the Haida Gwaii Semester. 
+crer: All of HGSE 350, HGSE 351, HGSE 352, HGSE 354.
+creq: HGSE 350 and HGSE 351 and HGSE 352 and HGSE 354
+
+code: HGSE 354
+name: Diversifying Resource-Dependent Communities
+cred: 3
+desc: Examination of the forces that restructure local economies, both historically and contemporarily; link between rural economic development and the legacy of resource development in Aboriginal communities across British Columbia.  A core element of the Haida Gwaii Semester. 
+crer: All of HGSE 350, HGSE 351, HGSE 352, HGSE 353.
+creq: HGSE 350 and HGSE 351 and HGSE 352 and HGSE 353
+
+code: HGSE 355
+name: Applied Ecology of Coastal Terrestrial Ecosystems
+cred: 3
+desc: Processes that shape coastal terrestrial ecosystems through time and applications to current ecological reality.  Part of the Haida Gwaii Fall Semester. 
+prer: Third-year standing.
+preq: Third-year standing
+crer: All of HGSE 356, HGSE 357, HGSE 358, HGSE 359.
+creq: HGSE 356 and HGSE 357 and HGSE 358 and HGSE 359
+
+code: HGSE 356
+name: Biophysical Dynamics of the Marine-Terrestrial Interface
+cred: 3
+desc: Nutrient cycling between the marine environment and coastal forest ecosystems; how the physical characteristics of this interface affect inputs; which species play a pivotal role in driving interactions.  Part of the Haida Gwaii Fall Semester. 
+prer: Third-year standing.
+preq: Third-year standing
+crer: All of HGSE 355, HGSE 357, HGSE 358, HGSE 359.
+creq: HGSE 355 and HGSE 357 and HGSE 358 and HGSE 359
+
+code: HGSE 357
+name: Ecology and Management of Island Wildlife
+cred: 3
+desc: Unique biological attributes of island wildlife, such as subspecies, isolated populations, and distinct evolutionary pathways, with a focus on endemic species on Haida Gwaii.  Part of the Haida Gwaii Fall Semester.  Credit will be granted for only one of FRST 395 or HGSE 357. 
+prer: Third-year standing.
+preq: Third-year standing
+crer: All of HGSE 355, HGSE 356, HGSE 358, HGSE 359.
+creq: HGSE 355 and HGSE 356 and HGSE 358 and HGSE 359
+
+code: HGSE 358
+name: Systems Thinking for Resource Management
+cred: 3
+desc: Introduction to systems thinking and resilience to understand dynamics of social change and innovation; use of case studies to demonstrate applications of different types of ecological knowledge, including traditional knowledge and experiential knowledge. Part of the Haida Gwaii Fall Semester. 
+prer: Third-year standing.
+preq: Third-year standing
+crer: All of HGSE 355, HGSE 356, HGSE 357, HGSE 359.
+creq: HGSE 355 and HGSE 356 and HGSE 357 and HGSE 359
+
+code: HGSE 359
+name: Ecosystem-Based Management Seminar
+cred: 3
+desc: History, definitions, and applications of EBM; challenges of achieving both economic and environmental well-being with a focus on resource use and management on Haida Gwaii.  Part of the Haida Gwaii Fall Semester. 
+prer: Third-year standing.
+preq: Third-year standing
+crer: All of HGSE 355, HGSE 356, HGSE 357, HGSE 358.
+creq: HGSE 355 and HGSE 356 and HGSE 357 and HGSE 358
+
+code: HGSE 360
+name: Ocean People, Culture and Tradition
+cred: 3
+desc: The relationship between the culture of the Haida people and their marine environment; and traditional and modern approaches to management of marine resources. 
+crer: All of HGSE 361, HGSE 362, HGSE 363, HGSE 364.
+creq: HGSE 361 and HGSE 362 and HGSE 363 and HGSE 364
+
+code: HGSE 361
+name: Fisheries Co-Management of the North Pacific Coast
+cred: 3
+desc: Concepts of fisheries co-management with a focus on the North Pacific Coast; examples of other comanagement structures regionally and internationally. 
+crer: All of HGSE 360, HGSE 362, HGSE 363, HGSE 364.
+creq: HGSE 360 and HGSE 362 and HGSE 363 and HGSE 364
+
+code: HGSE 362
+name: Marine Protected Areas and Marine Spatial Planning
+cred: 3
+desc: Key concepts in MSP and key elements inherent in MPA and MPA network design, governance, implementation, management, compliance and monitoring. 
+crer: All of HGSE 360, HGSE 361, HGSE 363, HGSE 364.
+creq: HGSE 360 and HGSE 361 and HGSE 363 and HGSE 364
+
+code: HGSE 363
+name: Applications in Marine Conservation
+cred: 3
+desc: Exposure to field settings and research techniques in local marine environments. 
+crer: All of HGSE 360, HGSE 361, HGSE 362, HGSE 364.
+creq: HGSE 360 and HGSE 361 and HGSE 362 and HGSE 364
+
+code: HGSE 364
+name: Haida Gwaii Marine Conservation Seminar
+cred: 3
+desc: Key marine conservation issues, pairing broad topics with examples on Haida Gwaii to bring theory into practice. 
+crer: All of HGSE 360, HGSE 361, HGSE 362, HGSE 363.
+creq: HGSE 360 and HGSE 361 and HGSE 362 and HGSE 363

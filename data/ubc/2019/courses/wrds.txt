@@ -1,0 +1,13 @@
+
+
+code: WRDS 150
+name: Writing and Research in the Disciplines
+cred: 3
+desc: Writing and reading in disciplines across the academy, focusing on practices that research disciplines share and those that differentiate them. 
+
+code: WRDS 350
+name: Knowledge-Making in the Disciplines
+cred: 3
+desc: An advanced scholarly research and writing course that allows students to build on their existing knowledge of academic research and writing practices by studying specific features of scholarly writing relevant to their own interests and disciplines. 
+prer: Restricted to  students with at least 3rd-year standing.
+preq: Restricted to students with at least 3rd-year standing

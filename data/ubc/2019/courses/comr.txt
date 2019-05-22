@@ -1,0 +1,122 @@
+
+
+code: COMR 100
+name: Introduction to Business
+cred: 3
+desc: An overview of all functional areas of business. Students will be introduced to the computer and internet tools commonly used in business. For non-Commerce students only. 
+
+code: COMR 280
+name: Entrepreneurship
+cred: 3
+desc: Entrepreneurial essentials from creating viable opportunities through building a founding team, strategic planning, going to market, fleshing out an organization and planning the future of the business. 
+
+code: COMR 329
+name: Principles of Organizational Behaviour
+cred: 3
+desc: An introductory examination of work organizations and the behaviour of individuals within them. Phenomena to be studied include organizational structure, environments, group processes, motivation and leadership (for non-Commerce students only). 
+
+code: COMR 382
+name: Economics of Entrepreneurship and Innovation
+cred: 3
+desc: Fundamental economic issues faced by entrepreneurs who want to commercialize innovations within start-ups and established firms. 
+prer: One of ECON 101, ECON 310.
+preq: ECON 101 or ECON 310
+crer: One of COMM 280, COMR 280.
+creq: COMM 280 or COMR 280
+
+code: COMR 386
+name: Topics in Business III
+cred: 1.5, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+
+code: COMR 387
+name: Entrepreneurial Finance
+cred: 3
+desc: Financial issues encountered by those active on the investing side of entrepreneurship, such as working for banks, venture capital firms, or corporate venture organizations, or anyone interacting with entrepreneurs and private equity investors. 
+crer: One of COMM 280, COMR 280.
+creq: COMM 280 or COMR 280
+
+code: COMR 388
+name: Design Methods for Business Innovation
+cred: 3
+desc: Studio-based experience in thinking strategies and design processes applied to business innovation in the private, public, and social sectors. Emphasis on problem solving, co-creation, and innovation for external clients in a collaborative environment. 
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+
+code: COMR 389
+name: Creativity in Business
+cred: 3
+desc: The role and importance of creativity in developing successful business solutions. 
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+
+code: COMR 398
+name: Introduction to Business Processes and Operations
+cred: 3
+desc: The design and management of systems that efficiently and effectively supply products and services to the end-user. The concepts apply to a variety of settings such as manufacturing, logistics, healthcare, and others (For non-Commerce students only). 
+
+code: COMR 457
+name: Fundamentals of Financial Accounting
+cred: 3
+desc: Financial accounting for business organizations; principles and problems of accounting measurements; forms of business organizations; financing of businesses. (For non-Commerce students only). 
+
+code: COMR 458
+name: Fundamentals of Managerial Accounting
+cred: 3
+desc: Use of accounting data in decision making by businesses; financial statement analysis; cash flows; cost behaviour patterns; methods of accounting for costs. (For non-Commerce students only). 
+prer: One of COMM 293, COMM 457, COMR 457.
+preq: COMM 293 or COMM 457 or COMR 457
+
+code: COMR 465
+name: Marketing Management
+cred: 3
+desc: Basic considerations affecting the domestic and international marketing of goods and services. (For non-Commerce students only). 
+crer: Either (a) all of ECON 101, ECON 102 or (b) ECON 100 or (c) all of ECON 310, ECON 311 or (d) all of ECON 101, ECON 311 or (e) all of ECON 102, ECON 310.
+creq: (ECON 101 and ECON 102) or ECON 100 or (ECON 310 and ECON 311) or (ECON 101 and ECON 311) or (ECON 102 and ECON 310)
+
+code: COMR 473
+name: Business Finance
+cred: 3
+desc: Introduction to managerial finance, including the role and functioning of financial markets, procurement of funds and financing strategies, dividend policy, capital budgeting and financial analysis and planning. (For non-Commerce students only). 
+prer: Either (a) all of ECON 101, ECON 102 or (b) ECON 100 or (c) all of ECON 310, ECON 311 or (d) all of ECON 101, ECON 311 or (e) all of ECON 102, ECON 310;  and one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184.
+preq: ((ECON 101 and ECON 102) or ECON 100 or (ECON 310 and ECON 311) or (ECON 101 and ECON 311) or (ECON 102 and ECON 310;)) and (MATH 100 or MATH 102 or MATH 104 or MATH 110 or MATH 120 or MATH 180 or MATH 184)
+crer: One of COMM 293, COMM 457, COMR 457.
+creq: COMM 293 or COMM 457 or COMR 457
+
+code: COMR 482
+name: New Product Development
+cred: 3
+desc: How new products are developed and the factors that influence success and failure throughout the various stages of development. 
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+
+code: COMR 485
+name: Social Entrepreneurship
+cred: 3
+desc: An applied course that examines the innovative, growing, and rapidly evolving field of social entrepreneurship, which tackles social and environmental challenges through business perspectives and methods. 
+
+code: COMR 486
+name: Special Topics in Business
+cred: 1.5, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: How new products are developed and the factors that influence success and failure throughout the various stages of development. 
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+
+code: COMR 493
+name: Strategic Management in Business
+cred: 3
+desc: A conceptual and practical introduction to the major areas of business strategy with an integrative perspective on managing a business. Includes the analysis of a business and its environment, the development and evaluation of strategic alternatives, and implementation of change (For non-Commerce students only in fourth year). 
+prer: One of COMM 293, COMM 457 and either (a) all of ECON 101, ECON 102 or (b) all of ECON 310, ECON 311 or (c) ECON 100 or (d) all of ECON 101, ECON 311 or (e) all of ECON 102, ECON 310.
+preq: (COMM 293 or COMM 457) and ((ECON 101 and ECON 102) or (ECON 310 and ECON 311) or ECON 100 or (ECON 101 and ECON 311) or (ECON 102 and ECON 310))
+crer: One of COMM 329, COMR 329 and one of COMM 465, COMR 465 and one of COMM 473, COMR 473.
+creq: (COMM 329 or COMR 329) and (COMM 465 or COMR 465) and (COMM 473 or COMR 473)
+
+code: COMR 497
+name: New Enterprise Development
+cred: 3
+desc: The particular problems and experiences encountered in starting, developing, and managing new enterprises. The course includes lectures, guest speakers, and case studies. Credit may only be obtained for one of COMM 466, COMM 497, COEC 497, COMR 497, and APSC 486. 
+prer: One of COMM 280, COMR 280.
+preq: COMM 280 or COMR 280
+crer: One of COMM 382, COMR 382 and one of COMM 387, COMR 387.
+creq: (COMM 382 or COMR 382) and (COMM 387 or COMR 387)

@@ -1,0 +1,30 @@
+
+
+code: CSIS 200
+name: Critical Engagements in Sexuality Studies
+cred: 3
+desc: Introductory survey to sexuality studies that emphasizes how sexuality intersects with race, gender, class, ability, and geography. 
+prer: GRSJ 101.
+preq: GRSJ 101
+
+code: CSIS 300
+name: Introduction to Critical Studies in Sexuality
+cred: 3, 6
+desc: A multidisciplinary course which provides an introduction to the study of sexuality, including lesbian, gay, bisexual, heterosexual, and transgender issues and related topics. 
+
+code: CSIS 301
+name: Introduction to Trans* Studies
+cred: 3
+desc: How race, citizenship, gender, sexuality, culture and dis/ability are materially and socially constructed together to give meaning to the category trans*. (Trans*: transgender, transsexual, gender variant and other articulations.) 
+prer: GRSJ 101.
+preq: GRSJ 101
+
+code: CSIS 450
+name: Topics in Critical Studies in Sexuality
+cred: 3, 4, 5
+desc: A thematic course, which explores current questions and issues in relation to the study of sexuality. Topics may vary from year to year. 
+
+code: CSIS 490
+name: Directed Topics
+cred: 3, 6
+desc: Designed to allow a student to develop an individual course of study in a specific area as approved by a faculty member affiliated with the CSIS program. 

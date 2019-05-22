@@ -1,0 +1,65 @@
+
+
+code: INLB 201
+name: Special Topics in Indigenous Land-based Studies
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Topics and location will vary from year to year. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). For further information, email inlb.arts@ubc.ca. 
+
+code: INLB 210
+name: Land and Indigenous Self-Determination: Introduction to Theoretical Perspectives
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Cultural, political, and economic context that informs the experiences of Indigenous people and communities. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 220
+name: Land and Indigenous Self-Determination: Introduction to Methods and Application
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Applied cultural, political, and economic land-based practices that inform and advance Indigenous self-determination. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 250
+name: Indigenous Knowledge, Science, and Environmental Justice
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Indigenous ecological knowledge, its intersections with western scientific knowledge, and approaches to environmental justice. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 251
+name: Introduction to Indigenous Health, Wellness, and Self-determination
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Introduction to the social, political, cultural, and gendered determinants of Indigenous Peoples' health and wellness. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 252
+name: Introduction to Gender Justice and Indigenous Communities
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Introduction to the politics of gender and sexuality from Indigenous perspectives, with a focus on intersectionality. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 310
+name: Land and Indigenous Self-Determination: Advanced Theoretical Perspectives
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Theorizing land and self-determination from Indigenous cultural, political, and economic perspectives. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+prer: INLB 210.
+preq: INLB 210
+
+code: INLB 320
+name: Land and Indigenous Self-Determination: Advanced Methods and Application
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Advanced cultural, political, and economic land-based practices that guide decolonization and Indigenous self-determination. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+prer: INLB 220.
+preq: INLB 220
+
+code: INLB 401
+name: Advanced Special Topics in Indigenous Land-Based Studies
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Topics and location will vary from year to year. Advanced experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). For further information please consult the departmental website. 
+
+code: INLB 450
+name: Decolonizing Science and the Politics of Sustainability
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: Decolonizing ecological knowledge, environmental justice, and the discourse of sustainability. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 451
+name: Decolonizing Indigenous Health and Wellness
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: The colonial determinants of Indigenous Peoples' health and wellness. The governance of land in relation to health. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). 
+
+code: INLB 452
+name: Gender Justice and Indigenous Resurgence
+cred: 3, 4, 5, 6, 7, 8, 9, 10, 11
+desc: The theory and politics of gender and sexuality from Indigenous perspectives. Emphasis on decolonial and intersectional Indigenous feminisms and queer/two-spirit theory. Experiential, intensive land-based course designed and delivered in collaboration with academic faculty and Indigenous community partner(s). Students are eligible for Pass/Fail or percentage grading. 

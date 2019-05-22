@@ -1,0 +1,474 @@
+
+
+code: CHEM 100
+name: Foundations of Chemistry
+cred: 3
+desc: Atomic and molecular properties, chemical reactions, bonding, nomenclature, kinetics, equilibrium processes, acids and bases, oxidation and reduction.  Intended for students who do not receive a satisfactory score on the UBC Chemistry Basic Skills Test, and need to establish a foundation of chemistry skills before proceeding to other first year chemistry courses. 
+prer: Not open to students with credit for Chemistry 12.  Permission of the department head.
+preq: Not open to students with credit for Chemistry 12. Permission of the department head
+
+code: CHEM 111
+name: Structure, Bonding, and Equilibrium in Chemistry
+cred: 4
+desc: Fundamentals of bonding theories, structural chemistry and equilibrium with applications relevant to modern society. [3-3-1]
+prer: Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test.
+preq: Not open to students with credit for CHEM 12. A satisfactory score on the UBC Chemistry Basic Skills Test
+
+code: CHEM 121
+name: Structure and Bonding in Chemistry
+cred: 4
+desc: Fundamentals of bonding theories and structural chemistry, with applications relevant to modern society. [3-3-0]
+prer: One of CHEM 12, CHEM 100.
+preq: CHEM 12 or CHEM 100
+
+code: CHEM 123
+name: Thermodynamics, Kinetics and Organic Chemistry
+cred: 4
+desc: Fundamentals of chemical reactivity: thermodynamics; kinetics; organic chemistry, including stereochemistry; applications relevant to modern society. [3-3-0]
+prer: One of CHEM 111, CHEM 121.
+preq: CHEM 111 or CHEM 121
+
+code: CHEM 154
+name: Chemistry for Engineering
+cred: 3
+desc: Chemical bonding, properties of matter. Chemical thermodynamics with applications to phase equilibria, aqueous equilibria and electrochemistry. Processes at surfaces. [3-3*-0]
+prer: CHEM 12.
+preq: CHEM 12
+
+code: CHEM 203
+name: Introduction to Organic Chemistry
+cred: 4
+desc: Structure, bonding and physical properties of aliphatic and aromatic compounds; mechanistic analysis of chemical reactivity of common functional groups with a focus on carbon-heteroatom bond formation; functional group interconversion and oxidation/reduction reactions. Only open to students in Chemistry or Biochemistry specializations.  Credit will be granted for only one of CHEM 203 or CHEM 233, 235. [3-3-0]
+prer: One of CHEM 113, CHEM 123, SCIE 001.
+preq: CHEM 113 or CHEM 123 or SCIE 001
+
+code: CHEM 205
+name: Physical Chemistry
+cred: 3
+desc: Chemical kinetics and thermodynamics and spectroscopy useful in biological, medical, agricultural, earth, and related sciences. Credit will be granted for only one of CHEM 201 or CHEM 205. [3-0-0]
+prer: Either (a) SCIE 001 or (b) one of MATH 100, MATH 102, MATH 104, MATH 110, MATH 120, MATH 180, MATH 184 and one of CHEM 113, CHEM 123, CHEM 154.
+preq: (SCIE 001 or (MATH 100 or MATH 102 or MATH 104 or MATH 110 or MATH 120 or MATH 180 or MATH 184)) and (CHEM 113 or CHEM 123 or CHEM 154)
+
+code: CHEM 208
+name: Coordination Chemistry
+cred: 3
+desc: Fundamental concepts and principles governing bonding and reactivity of coordination complexes: ligand field theory; symmetry and point groups; frontier molecular orbital theory. 
+prer: One of CHEM 113, CHEM 123, SCIE 001.
+preq: CHEM 113 or CHEM 123 or SCIE 001
+
+code: CHEM 211
+name: Introduction to Chemical Analysis
+cred: 4
+desc: Quantitative chemical analysis; chemical and physical principles of spectrophotometry, potentiometry, and chromatography. 
+prer: One of CHEM 113, CHEM 123, SCIE 001.
+preq: CHEM 113 or CHEM 123 or SCIE 001
+
+code: CHEM 213
+name: Organic Chemistry
+cred: 3
+desc: Spectroscopy of organic compounds.  Mechanistic analysis of chemical reactivity of common functional groups with a focus on carbon-carbon bond formation; functional group interconversion.  Preference will be given to students in Chemistry or Biochemistry specializations. [3-0-0]
+prer: Either (a) CHEM 203 or (b) a score of 76% or higher in CHEM 233.
+preq: CHEM 203 or (a score of 76% or higher in CHEM 233)
+
+code: CHEM 218
+name: Fundamentals of Reactivity in Inorganic Chemistry
+cred: 3
+desc: Chemical reactivity of inorganic systems: oxidation/reduction chemistry; multiply-bonded systems; main group chemistry. 
+prer: CHEM 208.
+preq: CHEM 208
+
+code: CHEM 233
+name: Organic Chemistry for the Biological Sciences
+cred: 3
+desc: Reactions and properties of carbonyl compounds, carbohydrates, amino acids, nucleic acids. Credit will be granted for only one of CHEM 233 or CHEM 203. [3-0-0]
+prer: One of CHEM 113, CHEM 123, SCIE 001.
+preq: CHEM 113 or CHEM 123 or SCIE 001
+
+code: CHEM 235
+name: Organic Chemistry Laboratory
+cred: 1
+desc: Techniques of organic chemistry. To be taken in conjunction with, or in the term following, CHEM 233. Credit will be granted for only one of CHEM 235 or CHEM 203. [0-3-0]
+prer: One of CHEM 113, CHEM 123, SCIE 001.
+preq: CHEM 113 or CHEM 123 or SCIE 001
+crer: CHEM 233.
+creq: CHEM 233
+
+code: CHEM 245
+name: Intermediate Synthetic Chemistry Laboratory
+cred: 1
+desc: Techniques in synthetic organic and inorganic chemistry. Open only to students in Chemistry or Biochemistry specializations. 
+prer: Either (a) CHEM 203 or (b) all of CHEM 233, CHEM 235.
+preq: CHEM 203 or (CHEM 233 and CHEM 235)
+crer: CHEM 213.
+creq: CHEM 213
+
+code: CHEM 250
+name: Inorganic Chemistry
+cred: 2
+desc: Chemistry of selected groups of inorganic compounds, considered in relation to industrial processes. [2-0-0]
+prer: One of CHEM 113, CHEM 123, CHEM 154, SCIE 001.
+preq: CHEM 113 or CHEM 123 or CHEM 154 or SCIE 001
+
+code: CHEM 251
+name: Physical Chemistry for Engineers
+cred: 3
+desc: States of matter, properties of gases, phase diagrams. Elementary chemical thermodynamics and kinetics. Reaction equilibria. [3-0-1]
+prer: One of CHEM 113, CHEM 123, CHEM 154, SCIE 001.
+preq: CHEM 113 or CHEM 123 or CHEM 154 or SCIE 001
+
+code: CHEM 260
+name: Organic Chemistry for Engineers
+cred: 3
+desc: A description of the properties and reactions of organic compounds. [3-0-0]
+prer: One of CHEM 113, CHEM 123, CHEM 154, SCIE 001.
+preq: CHEM 113 or CHEM 123 or CHEM 154 or SCIE 001
+
+code: CHEM 300
+name: Communicating Chemistry
+cred: 3
+desc: Effective argumentation and communication skills in chemistry. Only open to students in a Chemistry specialization. 
+prer: Third year standing
+preq: Third year standing
+
+code: CHEM 301
+name: Aqueous Environmental Chemistry
+cred: 3
+desc: Properties of natural waters, including gas and solid equilibria, pH, redox, complexation analysis, corrosion treatment, ion exchange, colloids and microbial transformations. [3-0-0]
+prer: One of CHEM 123, CHEM 251 and Third year standing.
+preq: (CHEM 123 or CHEM 251) and Third year standing
+
+code: CHEM 302
+name: Atmospheric Environmental Chemistry
+cred: 3
+desc: Introduction to structure, composition and chemical processes occurring in Earth's atmosphere, including interactions with solar radiation, stratospheric ozone layer, photochemical smog and acid rain. [3-0-0]
+prer: One of CHEM 123, CHEM 251 and Third year standing.
+preq: (CHEM 123 or CHEM 251) and Third year standing
+
+code: CHEM 304
+name: Fundamentals of Thermodynamics and Statistical Mechanics
+cred: 3
+desc: Principles of chemical thermodynamics; introduction to statistical mechanics; phase equilibria; electrochemistry. [3-0-1]
+prer: CHEM 123 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263.
+preq: CHEM 123 and (MATH 200 or MATH 217 or MATH 226 or MATH 253 or MATH 263)
+
+code: CHEM 305
+name: Biophysical Chemistry
+cred: 3
+desc: Diffusion and transport phenomena; interaction of radiation and matter. Methods for determining molecular weight, size, and shape of molecules in solution. [3-0-0]
+prer: One of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263 and either (a) CHEM 201 or (b) a score of 76% or higher in CHEM 205 or (c) CHEM 304 or (d) PHYS 203.
+preq: (MATH 200 or MATH 217 or MATH 226 or MATH 253 or MATH 263) and (CHEM 201 or (a score of 76% or higher in CHEM 205) or CHEM 304 or PHYS 203)
+
+code: CHEM 309
+name: s- and p-Block Elements: Chemistry and Applications
+cred: 3
+desc: Synthesis, structures, bonding and characterization of compounds of the s- and p-block elements. Industrial uses discussed include: hydrogen-based fuels, materials and high performance polymers. [3-0-0]
+prer: CHEM 202.
+preq: CHEM 202
+
+code: CHEM 310
+name: d- and f-Block Elements: Chemistry and Applications
+cred: 3
+desc: Representative chemistry of d- and f-block elements interpreted in terms of structure, mechanisms, and theoretical principles.  Applications discussed include: organometallic catalysis, bioinorganic chemistry and materials. [3-0-0]
+prer: CHEM 309.
+preq: CHEM 309
+
+code: CHEM 311
+name: Instrumental Analytical Chemistry
+cred: 3
+desc: Theory, design, and application of instrumental methods of chemical analysis including spectroscopy, mass spectrometry, electroanalysis, and chemical separations.. [3-0-1]
+prer: CHEM 211.
+preq: CHEM 211
+
+code: CHEM 312
+name: Introduction to Quantum Mechanics and Spectroscopy
+cred: 3
+desc: Principles of quantum mechanics; atomic wavefunctions; angular momentum; spin; atomic term symbols. [3-0-1]
+prer: One of CHEM 113, CHEM 123, SCIE 001 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263.
+preq: (CHEM 113 or CHEM 123 or SCIE 001) and (MATH 200 or MATH 217 or MATH 226 or MATH 253 or MATH 263)
+
+code: CHEM 313
+name: Advanced Organic Chemistry for the Life Sciences
+cred: 3
+desc: Chemistry of organic substances having particular relevance to the life sciences. [3-0-0]
+prer: CHEM 213.
+preq: CHEM 213
+
+code: CHEM 315
+name: Chemistry Integrated Laboratory I
+cred: 1
+desc: Principles and techniques of modern chemistry applied by integrating experiments chosen from organic, inorganic, physical, and analytical chemistry. [0-4-0]
+prer: One of CHEM 201, CHEM 202, CHEM 203, CHEM 208, CHEM 211, CHEM 235.
+preq: CHEM 201 or CHEM 202 or CHEM 203 or CHEM 208 or CHEM 211 or CHEM 235
+
+code: CHEM 318
+name: Principles of Catalysis
+cred: 3
+desc: Fundamental aspects of chemical catalysis: kinetic models; catalytic processes in biochemistry and industry; emerging topics in catalysis. 
+prer: Either (a) CHEM 218 or (b) CHEM 250.
+preq: CHEM 218 or CHEM 250
+
+code: CHEM 319
+name: Practical Skills for Chemical Research
+cred: 1
+desc: The nature of scientific research; practical skills for chemical research; communicating science.  Restricted to Honours students with third year standing and, with permission of the department Head, to Major students with satisfactory third year standing. 
+
+code: CHEM 325
+name: Integrated Chemistry Laboratory I
+cred: 2
+desc: Principles and techniques of modern chemistry applied by integrating experiments chosen from organic, inorganic, physical, and analytical chemistry. Open only to students in Chemistry specializations. [0-8-0]
+prer: All of CHEM 211, CHEM 213, CHEM 245 and either (a) all of CHEM 201, CHEM 202 or (b) CHEM 208.
+preq: (CHEM 211 and CHEM 213 and CHEM 245) and ((CHEM 201 and CHEM 202) or CHEM 208)
+
+code: CHEM 327
+name: Introduction to Materials Chemistry
+cred: 3
+desc: Basic principles of materials chemistry: classification; nomenclature; synthetic methods; characterization. 
+prer: One of CHEM 208, CHEM 250 and one of CHEM 203, CHEM 233, CHEM 260.
+preq: (CHEM 208 or CHEM 250) and (CHEM 203 or CHEM 233 or CHEM 260)
+
+code: CHEM 329
+name: Research Ethics and Data Analysis Skills
+cred: 1
+desc: Research ethics; data analysis skills for chemical research. Restricted to Honours students with third year standing and, with permission of the department Head, to Major students with satisfactory third year standing. 
+
+code: CHEM 330
+name: Advanced Organic Chemistry
+cred: 3
+desc: Application of carbonyl group chemistry, cyclization reactions, conformational analysis and rearrangement reactions in organic synthesis. [3-0-0]
+prer: CHEM 213.
+preq: CHEM 213
+
+code: CHEM 333
+name: Spectroscopic Techniques in Organic Chemistry
+cred: 3
+desc: Application of mass spectrometry, and NMR, UV/visible, and IR spectroscopies to organic chemical problems. [3-0-0]
+prer: Either (a) all of CHEM 203, CHEM 204 or (b) all of CHEM 233, CHEM 205 or (c) CHEM 213.
+preq: (CHEM 203 and CHEM 204) or (CHEM 233 and CHEM 205) or CHEM 213
+
+code: CHEM 335
+name: Chemistry Integrated Laboratory II
+cred: 1
+desc: Further development of principles and techniques of modern chemistry applied by integrating experiments chosen from organic, inorganic, physical, and analytical chemistry. [0-4-0]
+prer: CHEM 315.
+preq: CHEM 315
+
+code: CHEM 341
+name: Global Challenges: A Chemical Perspective
+cred: 3
+desc: Importance of chemistry in society. Detailed case studies drawn from modern chemistry: human health, energy, commodity chemicals, materials, green chemistry, agriculture. [3-0-0]
+prer: One of CHEM 203, CHEM 233, CHEM 260.
+preq: CHEM 203 or CHEM 233 or CHEM 260
+
+code: CHEM 345
+name: Integrated Chemistry Laboratory II
+cred: 2
+desc: Further development of principles and techniques of modern chemistry applied by integrating experiments chosen from organic, inorganic, physical, and analytical chemistry.   Open only to students in Chemistry Major or Honours specializations. [0-8-0]
+prer: CHEM 325.
+preq: CHEM 325
+
+code: CHEM 398
+name: Co-operative Work Placement I
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Taken during the winter term of the third year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Chemistry. 
+
+code: CHEM 399
+name: Co-operative Work Placement II
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Taken during the summer following the third year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Chemistry. 
+prer: CHEM 398.
+preq: CHEM 398
+
+code: CHEM 401
+name: Principles of Spectroscopy
+cred: 3
+desc: Rotational, vibrational, electronic and magnetic resonance spectroscopy and associated techniques; group theory. [3-0-0]
+prer: One of CHEM 312, PHYS 304.
+preq: CHEM 312 or PHYS 304
+
+code: CHEM 402
+name: Diffraction Methods
+cred: 3
+desc: Crystal structures; point and space groups; X-ray diffraction, neutron diffraction, electron diffraction of gases and surfaces. Credit will be granted for only one of CHEM 402 or CHEM 514. [3-0-0]
+prer: One of CHEM 202, CHEM 208.
+preq: CHEM 202 or CHEM 208
+
+code: CHEM 403
+name: Surface Chemistry and Surface Analysis
+cred: 3
+desc: Surfaces and phenomena occurring at surfaces and interfaces: adsorption, thermodynamic treatments, technological applications. Methods for characterization and modification of surfaces. Dynamic electrochemistry and its application to understanding fuel cells. [3-0-0]
+prer: CHEM 304 and one of MATH 200, MATH 217, MATH 226, MATH 253, MATH 263.
+preq: CHEM 304 and (MATH 200 or MATH 217 or MATH 226 or MATH 253 or MATH 263)
+
+code: CHEM 404
+name: Computational Chemistry
+cred: 3
+desc: Application of numerical techniques to study chemical systems; molecular simulation. Computer programming experience is not required. 
+prer: One of CHEM 123, CHEM 154 and one of PHYS 107, PHYS 108, PHYS 117, PHYS 118, PHYS 170 and one of MATH 101, MATH 103, MATH 105, MATH 121 and Third-year standing.
+preq: (CHEM 123 or CHEM 154) and (PHYS 107 or PHYS 108 or PHYS 117 or PHYS 118 or PHYS 170) and (MATH 101 or MATH 103 or MATH 105 or MATH 121) and Third-year standing
+
+code: CHEM 405
+name: Biophysical Chemistry
+cred: 3
+desc: Interactions of macromolecules in solution: ligand, antibody and ion binding to macromolecules; thermodynamics of polymer solutions; excluded volume effects; phase separation; partition in two phase polymer solutions. [3-0-0]
+prer: One of CHEM 304, CHEM 305, PHYS 203.
+preq: CHEM 304 or CHEM 305 or PHYS 203
+
+code: CHEM 406
+name: Polymer Chemistry
+cred: 3
+desc: Structure and availability of monomers; Propagation mechanisms; synthesis of polymers with predetermined properties; measurement and interpretation of physical properties of polymers. [3-0-0]
+prer: One of CHEM 213, CHEM 260 and one of CHEM 304, CHEM 251.
+preq: (CHEM 213 or CHEM 260) and (CHEM 304 or CHEM 251)
+
+code: CHEM 407
+name: Statistical Mechanics in Chemistry
+cred: 3
+desc: Introductory concepts of statistical mechanics and statistical thermodynamics. Applications to chemistry with emphasis on understanding chemical reactivity. Credit will be granted  for only one of CHEM 503/CHEM 407 or PHYS 455. [3-0-0]
+prer: One of CHEM 304, PHYS 203.
+preq: CHEM 304 or PHYS 203
+
+code: CHEM 408
+name: Chemical Dynamics
+cred: 3
+desc: Macroscopic and microscopic kinetics; photochemistry; theory of reaction rates; reaction cross sections, energy distributions, experimental methods. Credit will be granted for only one of CHEM 408 or CHEM 508. [3-0-0]
+prer: One of CHEM 304, PHYS 203 and one of CHEM 312, PHYS 304.
+preq: (CHEM 304 or PHYS 203) and (CHEM 312 or PHYS 304)
+
+code: CHEM 410
+name: Properties of Materials
+cred: 3
+desc: Electromagnetic, optical, thermal and mechanical properties, and chemical reactivity of solids; electrons in periodic systems: bands, zones; excitations: excitons, phonons, plasmons, polaritons; crystalline order and disorder; ionic conductivity. Credit will be granted for only one of CHEM 410 or CHEM 502. [3-0-0]
+prer: One of CHEM 304, PHYS 203 and one of CHEM 312, PHYS 304.
+preq: (CHEM 304 or PHYS 203) and (CHEM 312 or PHYS 304)
+
+code: CHEM 411
+name: Synthesis and Chemistry of Natural Products
+cred: 3
+desc: Methods and tactics for the synthesis of biologically active natural products and analogs, particularly alkaloids, polyketides, steroids and terpenes. Credit will be granted for only one of CHEM 411 or CHEM 566. [3-0-0]
+prer: CHEM 460.
+preq: CHEM 460
+
+code: CHEM 412
+name: Electronic Structure of Atoms and Molecules
+cred: 3
+desc: Introduction to variational methods; many-electron systems; semi-empirical methods; perturbation theory; computational methods. [3-0-0]
+prer: One of CHEM 312, PHYS 304 and one of MATH 152, MATH 221, MATH 223.
+preq: (CHEM 312 or PHYS 304) and (MATH 152 or MATH 221 or MATH 223)
+
+code: CHEM 413
+name: Bioorganic Chemistry
+cred: 3
+desc: Enzyme catalysis; mechanistic enzymology; chemistry of cofactors; biosynthetic transformations; natural product biosynthesis; topics in chemical biology. Credit will be granted for only one of CHEM 413, CHEM 569, or BIOC 403. [3-0-0]
+prer: One of CHEM 313, CHEM 330.
+preq: CHEM 313 or CHEM 330
+
+code: CHEM 414
+name: Coordination Chemistry of the Transition Elements
+cred: 3
+desc: Molecular and electronic structures and reactivities of coordination compounds of the transition elements. Credit will be granted for only one of CHEM 414 or CHEM 525. [3-0-0]
+prer: One of CHEM 218, CHEM 310.
+preq: CHEM 218 or CHEM 310
+
+code: CHEM 416
+name: Physical and Theoretical Organic Chemistry
+cred: 3
+desc: Energetics and catalysis in organic reactions. Pericyclic reactions. Substituent effects. Linear free energy relationships. Credit will be granted for only one of CHEM 416 or CHEM 563. [3-0-0]
+prer: One of CHEM 313, CHEM 330.
+preq: CHEM 313 or CHEM 330
+
+code: CHEM 417
+name: Nuclear Chemistry and Radiochemistry
+cred: 3
+desc: Basic treatment of the nucleus, with analogy to concepts in chemistry. Nuclear stabilities and associated radioactive decay processes. Nuclear structure. Applications of radioisotopes in chemistry. The interaction of radiation with matter. [3-0-0]
+prer: CHEM 123 and Third year standing. CHEM 312 is recommended.
+preq: CHEM 123 and Third year standing. CHEM 312 is recommended
+
+code: CHEM 418
+name: Organometallic Chemistry
+cred: 3
+desc: The chemistry of compounds containing organic groups directly bonded to metals and metalloids. Emphasis will be placed on the structure and bonding of the compounds and their use in synthetic chemistry. Credit will be granted for only one of CHEM 418 or CHEM 524. [3-0-0]
+prer: One of CHEM 310, CHEM 318.
+preq: CHEM 310 or CHEM 318
+
+code: CHEM 419
+name: Establishing a Career in Chemical Research
+cred: 1
+desc: Current research and career perspectives in chemistry.  Restricted to Honours students with fourth year standing and, with permission of the department Head, to Major students with satisfactory fourth year standing. 
+
+code: CHEM 427
+name: Applications of Materials Chemistry
+cred: 3
+desc: Contemporary materials chemistry, including design and synthesis of materials for energy, electronics, and health applications. [3-0-0]
+prer: CHEM 327.
+preq: CHEM 327
+
+code: CHEM 430
+name: Developments in Contemporary Chemistry
+cred: 3, 6
+desc: A review of modern developments in general chemistry for teachers of Secondary School chemistry (Not for credit in the Faculty of Science). Course is offered periodically in extra-sessional sessions. 
+
+code: CHEM 434
+name: Principles of Chemical Separation
+cred: 3
+desc: Unified theory of separation science; liquid and gas chromatography; capillary electrophoresis; electrochemical and spectroscopic detection; separation methods coupled with mass spectrometry and tandem mass spectrometry; biochemical applications. Credit will be granted for only one of CHEM 434 or CHEM 534. [3-0-0]
+prer: CHEM 311.
+preq: CHEM 311
+
+code: CHEM 435
+name: Bio-Inorganic Chemistry
+cred: 3
+desc: A discussion of the involvement of inorganic chemistry in biological systems. Chemistry of cations, metalloenzymes, and simpler model systems. Reactions of coordinated ligands, chemistry of sulphur and phosphorus. Credit will be granted for only one of CHEM 435 or CHEM 526. [3-0-0]
+prer: CHEM 304 and one of CHEM 218, CHEM 309.
+preq: CHEM 304 and (CHEM 218 or CHEM 309)
+
+code: CHEM 445
+name: Projects in Experimental Chemistry
+cred: 3, 6
+desc: Principles of experimental design, practice and problem solving in chemistry, including the opportunity to pursue projects in a research setting. [0-8-0]
+prer: One of CHEM 345, CHEM 335. Students satisfying the prerequisite requirement using CHEM 335 must have fourth-year standing in a Chemistry Combined Major specialization.
+preq: CHEM 345 or CHEM 335. Students satisfying the prerequisite requirement using CHEM 335 must have fourth-year standing in a Chemistry Combined Major specialization
+
+code: CHEM 448
+name: Directed Studies in Chemistry
+cred: 3, 6
+desc: Students will undertake an investigation of a specific topic as agreed upon by the student and the faculty supervisor. Open to third- and fourth-year chemistry students. 
+
+code: CHEM 449
+name: Seminar and Thesis
+cred: 6
+desc: Original research work under the direction of a faculty member. Weekly seminar. Required of all Honours students. Open to Majors students with a satisfactory standing and permission of the department head. 
+
+code: CHEM 460
+name: Organic Synthesis: A Mechanistic Approach
+cred: 3
+desc: Presentation, mechanistic discussion and analysis of modern synthetic methods using principles of physical organic chemistry. Credit will be granted for only one of CHEM 460 or CHEM 560. [3-0-0]
+prer: CHEM 330.
+preq: CHEM 330
+
+code: CHEM 461
+name: Synthetic Chemical Biology
+cred: 3
+desc: Synthetic, mechanistic, and biochemical approaches to chemical biology, including the design of drugs, probes, and catalysts. Credit will be granted for only one of CHEM 461 or CHEM 561. 
+prer: One of CHEM 313, CHEM 330.
+preq: CHEM 313 or CHEM 330
+
+code: CHEM 473
+name: Structure Determination and Reaction Analysis
+cred: 3
+desc: Application of mass spectrometry and modern spectroscopic techniques, including multidimensional NMR spectroscopy, to reaction analysis and detailed characterization of complex organic and organometallic molecular structures. [3-0-0]
+prer: CHEM 245 and one of CHEM 313, CHEM 318, CHEM 330.
+preq: CHEM 245 and (CHEM 313 or CHEM 318 or CHEM 330)
+
+code: CHEM 498
+name: Co-operative Work Placement III
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Taken during the summer following fourth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Chemistry. 
+prer: CHEM 399.
+preq: CHEM 399
+
+code: CHEM 499
+name: Co-operative Work Placement IV
+cred: 3
+desc: Approved and supervised technical work experience in an industrial research setting for a minimum of 3.5 months. Taken during the fall term of the fifth year. Technical report required. Restricted to students admitted to the Co-operative Education Program in Chemistry. 
+prer: CHEM 498.
+preq: CHEM 498
